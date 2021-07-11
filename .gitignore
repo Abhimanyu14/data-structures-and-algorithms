@@ -1,0 +1,9 @@
+# Mac files
+**/.DS_Store
+
+# IntelliJ
+/out
+**/shelf/
+**/workspace.xml
+*.iml
+**/.idea/modules.xml
