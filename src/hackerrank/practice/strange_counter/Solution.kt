@@ -18,7 +18,7 @@ fun bruteForceStrangeCounter(t: Long): Long {
     return result.toLong()
 }
 
-fun strangeCounter(t: Long): Long {
+fun strangeCounterUsingMath(t: Long): Long {
     var n = 0
     while (3 * (2.0.pow((n + 1).toDouble()) - 1) < t) {
         n++
@@ -26,7 +26,14 @@ fun strangeCounter(t: Long): Long {
     return ((3 * (2.0.pow((n + 1).toDouble()) - 1)) - t + 1).toLong()
 }
 
+
+fun strangeCounter(t: Long): Long {
+    return 12 * ((t + 2) / 3).takeHighestOneBit() - t - 2
+}
+
 fun main() {
-    val result = strangeCounter(21L)
-    println(result)
+    for (i in 0..30) {
+        val result = strangeCounter(i.toLong())
+        println(result)
+    }
 }

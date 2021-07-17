@@ -41,12 +41,3 @@ fun main() {
     val result = longestPalindromicSubsequence("BABCBAB")
     println(result)
 }
-
-fun printArray(arr: Array<Array<Int>>) {
-    arr.forEach { arrItem ->
-        arrItem.forEach {
-            print("$it ")
-        }
-        println()
-    }
-}
