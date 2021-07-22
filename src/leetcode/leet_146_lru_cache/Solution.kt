@@ -1,8 +1,5 @@
 package leetcode.leet_146_lru_cache
 
-import java.util.*
-import kotlin.collections.ArrayDeque
-
 class LRUCache(capacity: Int) {
     private val arrayDeque = ArrayDeque<Int>()
     private val map = HashMap<Int, Int>()

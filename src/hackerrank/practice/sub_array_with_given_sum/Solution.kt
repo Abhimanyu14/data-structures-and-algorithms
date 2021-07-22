@@ -1,7 +1,5 @@
 package hackerrank.practice.sub_array_with_given_sum
 
-import java.util.HashMap
-
 fun bruteForceSolution(arr: Array<Int>, sum: Int): Pair<Int, Int> {
     val map: MutableMap<Pair<Int, Int>, Int> = HashMap()
     val resultMap: MutableMap<Int, Pair<Int, Int>> = HashMap()

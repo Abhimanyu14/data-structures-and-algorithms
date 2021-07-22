@@ -2,7 +2,7 @@ package common.sorting
 
 fun partition(arr: IntArray, low: Int, high: Int): Int {
     // pivot (Element to be placed at right position)
-    val pivot = arr[high];
+    val pivot = arr[high]
 
     var i = (low - 1)
     // Index of smaller element and indicates the

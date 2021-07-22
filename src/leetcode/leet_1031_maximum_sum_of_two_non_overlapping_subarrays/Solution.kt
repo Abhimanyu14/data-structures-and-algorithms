@@ -1,7 +1,5 @@
 package leetcode.leet_1031_maximum_sum_of_two_non_overlapping_subarrays
 
-import kotlin.math.max
-
 fun solution(arr: IntArray, size: Int, start: Int, end: Int): Triple<Int, Int, Int> {
     if (end - start + 1 < size) {
         return Triple(-1, -1, -1)

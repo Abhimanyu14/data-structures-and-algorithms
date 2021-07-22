@@ -1,7 +1,5 @@
 package leetcode.leet_3_longest_substring_without_repeating_characters
 
-import kotlin.collections.ArrayDeque
-
 fun lengthOfLongestSubstring(s: String): Int {
     var result = 0
     var i = 0
