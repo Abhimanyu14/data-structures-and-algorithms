@@ -19,7 +19,7 @@ fun addWithCarry(head: ListNode?): Int {
 
 fun addOne(head: ListNode?): ListNode? {
     val carry = addWithCarry(head)
-    if (addWithCarry(head) > 0) {
+    if (carry > 0) {
         val newHead = ListNode(carry)
         newHead.next = head
         return newHead

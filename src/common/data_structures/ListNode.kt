@@ -31,6 +31,7 @@ fun lastNode(head: ListNode?): ListNode? {
 
 fun printLinkedList(listNode: ListNode?) {
     if (listNode == null) {
+        println("Empty list")
         return
     }
     var listNodePointer = listNode
