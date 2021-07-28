@@ -1,0 +1,22 @@
+Segment tree
+
+Tree
+    Binary tree
+    Binary search tree
+    AVL
+    Tries
+    Binary search
+    Heap
+    Priority queue
+
+Sorting
+    Merge sort
+    Radix
+    Heap
+    Quick
+
+Graph
+    BFS
+    DFS
+    Dijkstra
+    Prims

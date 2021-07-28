@@ -1,19 +1,10 @@
 package leetcode.leet_5_longest_palindromic_substring
 
-import kotlin.math.floor
-
-fun isPalindrome(str: String): Boolean {
-    for (i in 0 until floor((str.length / 2).toDouble()).toInt()) {
-        if (str[i] != str[str.length - i - 1]) {
-            return false
-        }
-    }
-    return true
-}
+import common.string.isStringPalindrome
 
 // TODO: Find an optimal solution
 fun longestPalindrome(s: String): String {
-    if (s.isEmpty() || s.length == 1 || isPalindrome(s)) {
+    if (s.isEmpty() || s.length == 1 || isStringPalindrome(s)) {
         return s
     }
     val x = longestPalindrome(s.substring(0, s.length - 1))

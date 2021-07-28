@@ -1,6 +1,6 @@
 package common
 
-fun printArray(arr: Array<Array<Int>>) {
+fun print2DArray(arr: Array<Array<Int>>) {
     print("X   ")
     arr[0].forEachIndexed { index, _ ->
         print("${index.toString().padEnd(3)} ")

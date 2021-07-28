@@ -1,6 +1,6 @@
 package geeks_for_geeks.knapsack
 
-import common.printArray
+import common.print2DArray
 import kotlin.math.max
 
 fun bruteForceSolution(values: IntArray, weights: IntArray, capacity: Int, count: Int): Int {
@@ -18,7 +18,7 @@ fun bruteForceSolution(values: IntArray, weights: IntArray, capacity: Int, count
 
 fun dynamicProgrammingSolution(values: IntArray, weights: IntArray, capacity: Int, count: Int): Int {
     val dp = Array(count + 1) { Array(capacity + 1) { 0 } }
-    printArray(dp)
+    print2DArray(dp)
 
     // Build table dp[][] in bottom up manner
     for (i in 0..count) {
@@ -33,7 +33,7 @@ fun dynamicProgrammingSolution(values: IntArray, weights: IntArray, capacity: In
         }
     }
     println()
-    printArray(dp)
+    print2DArray(dp)
     println()
     return dp[count][capacity]
 }

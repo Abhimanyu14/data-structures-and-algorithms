@@ -1,0 +1,10 @@
+Question
+A Linked list represent a number and every node contain a digit only.
+Write a function that take Root node and after adding one , it will return the the root node
+
+link - https://www.glassdoor.co.in/Interview/Grab-Android-Developer-Interview-Questions-EI_IE958580.0,4_KO5,22.htm
+
+https://leetcode.com/problems/plus-one-linked-list/
+This is a premium question,
+
+https://www.geeksforgeeks.org/add-1-number-represented-linked-list/

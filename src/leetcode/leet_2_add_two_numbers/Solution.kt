@@ -1,8 +1,8 @@
 package leetcode.leet_2_add_two_numbers
 
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
-}
+import common.data_structures.ListNode
+import common.data_structures.createLinkedList
+import common.data_structures.printLinkedList
 
 fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
     val result = ListNode((l1!!.`val`.plus(l2!!.`val`)).rem(10))
@@ -21,23 +21,9 @@ fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
 }
 
 fun main() {
-    val input1 = ListNode(2)
-    input1.next = ListNode(4)
-    input1.next!!.next = ListNode(3)
-
-    val input2 = ListNode(5)
-    input2.next = ListNode(6)
-    input2.next!!.next = ListNode(4)
-
-    printNode(addTwoNumbers(input1, input2)!!)
-}
-
-fun printNode(ln: ListNode) {
-    var l = ln
-    print("${l.`val`} -> ")
-    while (l.next != null) {
-        l = l.next!!
-        print("${l.`val`} -> ")
-    }
-    print("null")
+    val input1 = intArrayOf(2, 4, 3)
+    val input2 = intArrayOf(5, 6, 4)
+    val listNode1 = createLinkedList(input1)
+    val listNode2 = createLinkedList(input2)
+    printLinkedList(addTwoNumbers(listNode1, listNode2))
 }
