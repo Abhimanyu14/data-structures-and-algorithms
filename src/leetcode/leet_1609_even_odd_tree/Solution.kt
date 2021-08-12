@@ -7,6 +7,6 @@ fun isEvenOddTree(root: TreeNode?): Boolean {
     return true
 }
 
-fun main(){
+fun main() {
 
 }

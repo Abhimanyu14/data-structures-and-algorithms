@@ -18,7 +18,7 @@ fun isHappy(n: Int): Boolean {
 fun main() {
     val input1 = 19
     val input2 = 2
-    val input3= 10
+    val input3 = 10
     println(isHappy(input1))
     println(isHappy(input2))
     println(isHappy(input3))
