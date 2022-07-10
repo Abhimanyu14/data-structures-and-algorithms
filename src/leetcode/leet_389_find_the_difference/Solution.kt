@@ -8,9 +8,10 @@ package leetcode.leet_389_find_the_difference
  * Memory Usage: 34.9 MB, less than 90.12%
  */
 fun findTheDifference(s: String, t: String): Char {
+    // Leetcode does not support Char.code - use toInt() instead
     var result = 0
     s.forEach {
-        result = result xor it.code // Leetcode does not support Char.code - use toInt() instead
+        result = result xor it.code
     }
     t.forEach {
         result = result xor it.code
