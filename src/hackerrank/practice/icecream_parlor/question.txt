@@ -1,0 +1,3 @@
+https://www.hackerrank.com/challenges/icecream-parlor/problem?isFullScreen=true
+
+Same as leetcode - https://leetcode.com/problems/add-two-numbers/
