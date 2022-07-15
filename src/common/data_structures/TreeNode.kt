@@ -9,3 +9,7 @@ fun TreeNode?.height(height: Int = -1): Int {
     if (this == null) return height
     return maxOf(left.height(height + 1), right.height(height + 1))
 }
+
+fun TreeNode.isLeaf(): Boolean {
+    return this.left == null && this.right == null
+}

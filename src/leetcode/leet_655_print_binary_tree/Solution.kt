@@ -56,7 +56,7 @@ fun main() {
     u2.left = u3
     u3.left = u4
 
-    // println(printTree(s1).toString())
-    // println(printTree(t1).toString())
+    println(printTree(s1).toString())
+    println(printTree(t1).toString())
     println(printTree(u1).toString())
 }
