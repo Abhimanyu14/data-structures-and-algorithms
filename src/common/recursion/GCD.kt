@@ -1,5 +1,8 @@
 package common.recursion
 
+/**
+ * Euclidean algorithm
+ */
 fun gcd(a: Int, b: Int): Int {
     return when {
         b == 0 -> a
