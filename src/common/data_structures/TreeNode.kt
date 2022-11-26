@@ -13,3 +13,7 @@ fun TreeNode?.height(height: Int = -1): Int {
 fun TreeNode.isLeaf(): Boolean {
     return this.left == null && this.right == null
 }
+
+class Node(var `val`: Int) {
+    var children: List<Node?> = listOf()
+}
