@@ -2,7 +2,7 @@ package leetcode.leet_206_reverse_linked_list
 
 import common.data_structures.createLinkedList
 import common.data_structures.printLinkedList
-import common.linkedlist.reverseList
+import common.data_structures.linkedlist.reverseList
 
 fun main() {
     val input = intArrayOf(1, 2, 3, 4, 5)

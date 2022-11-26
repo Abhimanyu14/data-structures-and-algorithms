@@ -1,4 +1,4 @@
-package common.linkedlist
+package common.data_structures.linkedlist
 
 import common.data_structures.ListNode
 import common.data_structures.createLinkedList

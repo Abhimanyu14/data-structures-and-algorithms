@@ -3,7 +3,7 @@ package course.argorithmic_toolbox.week2
 /**
  * Euclidean algorithm
  */
-fun greatestCommonDivisor(a: Int, b: Int): Int {
+private fun greatestCommonDivisor(a: Int, b: Int): Int {
     if (b == 0) {
         return a
     }

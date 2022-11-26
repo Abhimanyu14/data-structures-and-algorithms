@@ -1,6 +1,9 @@
 package course.argorithmic_toolbox.week1
 
-fun sum(a: Int, b: Int): Int {
+private fun sum(
+    a: Int,
+    b: Int,
+): Int {
     return a + b
 }
 

@@ -1,6 +1,6 @@
 package course.argorithmic_toolbox.week2
 
-fun fibonacciRecursion(
+private fun fibonacciRecursion(
     n: Int,
 ): Int {
     if (n <= 1) {
@@ -9,7 +9,7 @@ fun fibonacciRecursion(
     return fibonacciRecursion(n - 1) + fibonacciRecursion(n - 2)
 }
 
-fun fibonacciTailRecursion(
+private fun fibonacciTailRecursion(
     n: Int,
     prev: Int = 0,
     current: Int = 1,
@@ -20,7 +20,7 @@ fun fibonacciTailRecursion(
     return fibonacciTailRecursion(n - 1, current, prev + current)
 }
 
-fun fibonacciDynamicProblem(
+private fun fibonacciDynamicProblem(
     n: Int,
 ): Int {
     if (n <= 1) {
@@ -36,7 +36,7 @@ fun fibonacciDynamicProblem(
     return dp[n]
 }
 
-fun fibonacciTwoPointer(
+private fun fibonacciTwoPointer(
     n: Int,
 ): Int {
     if (n <= 1) {

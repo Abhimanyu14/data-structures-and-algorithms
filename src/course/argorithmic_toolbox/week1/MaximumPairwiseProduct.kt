@@ -6,7 +6,7 @@ import kotlin.random.Random
 /**
  * naive solution
  */
-fun maximumPairwiseProductNaive(
+private fun maximumPairwiseProductNaive(
     list: List<BigInteger>,
 ): BigInteger {
     var result = BigInteger.valueOf(0)
@@ -24,7 +24,7 @@ fun maximumPairwiseProductNaive(
 /**
  * two pointer solution
  */
-fun maximumPairwiseProductTwoPointer(
+private fun maximumPairwiseProductTwoPointer(
     list: List<BigInteger>,
 ): BigInteger {
     var largest = BigInteger.ZERO
@@ -54,7 +54,7 @@ fun main() {
     }
 }
 
-fun driver(
+private fun driver(
     method1: (list: List<BigInteger>) -> BigInteger,
     method2: ((list: List<BigInteger>) -> BigInteger)? = null,
     input: List<BigInteger> = getInput(),
@@ -81,7 +81,7 @@ fun driver(
     return result1 == result2
 }
 
-fun getInput(): List<BigInteger> {
+private fun getInput(): List<BigInteger> {
     // return readLine()!!.split(' ').map { it.toBigInteger() }
 
     val list = mutableListOf<Int>()
