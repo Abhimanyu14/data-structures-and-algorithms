@@ -5,6 +5,15 @@ class TreeNode(var `val`: Int) {
     var right: TreeNode? = null
 }
 
+fun createBinaryTree(list: List<Int?>): TreeNode? {
+    if (list.isEmpty()) {
+        return null
+    }
+    val first = list[0] ?: return null
+    val root = TreeNode(first)
+    return root
+}
+
 fun TreeNode?.height(height: Int = -1): Int {
     if (this == null) return height
     return maxOf(left.height(height + 1), right.height(height + 1))

@@ -74,7 +74,11 @@ private fun isPalindromeHelper(arr: List<Int>, start: Int, end: Int): Boolean {
 // Performs better than .toString.toCharArray()
 fun Int.toDigitsInReverse(): List<Int> {
     val digits = mutableListOf<Int>()
-    var temp = this
+    var temp = if (this > 0) {
+        this
+    } else {
+        -1 * this
+    }
     do {
         digits.add(temp % 10)
         temp /= 10
