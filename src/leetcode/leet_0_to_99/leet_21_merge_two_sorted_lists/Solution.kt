@@ -5,11 +5,13 @@ import common.data_structures.createLinkedList
 import common.data_structures.printLinkedList
 
 /**
+ * Using loops
+ *
  * Stats
  * Runtime: 172 ms, faster than 51.81%
  * Memory Usage: 35.3 MB, less than 28.51%
  */
-fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
+fun mergeTwoListsBruteForce(l1: ListNode?, l2: ListNode?): ListNode? {
     if (l1 == null) {
         return l2
     }
@@ -56,6 +58,51 @@ fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
         }
     }
     return result
+}
+
+/**
+ * Using loops
+ *
+ * Stats
+ * Runtime: 307 ms, faster than 45.93%
+ * Memory Usage: 36 MB, less than 53.04%
+ */
+fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
+    if (l1 == null) {
+        return l2
+    }
+    if (l2 == null) {
+        return l1
+    }
+    var p1 = l1
+    var p2 = l2
+    val resultHead = if (p1.`val` <= p2.`val`) {
+        ListNode(p1.`val`).also {
+            p1 = p1?.next
+        }
+    } else {
+        ListNode(p2.`val`).also {
+            p2 = p2?.next
+        }
+    }
+    var resultPointer = resultHead
+    while (p1 != null && p2 != null) {
+        if ((p1?.`val` ?: 0) <= (p2?.`val` ?: 0)) {
+            resultPointer.next = ListNode(p1?.`val` ?: 0)
+            resultPointer = resultPointer.next!!
+            p1 = p1?.next
+        } else {
+            resultPointer.next = ListNode(p2?.`val` ?: 0)
+            resultPointer = resultPointer.next!!
+            p2 = p2?.next
+        }
+    }
+    if (p1 != null) {
+        resultPointer.next = p1
+    } else {
+        resultPointer.next = p2
+    }
+    return resultHead
 }
 
 fun main() {

@@ -1,4 +1,4 @@
-package leetcode.template
+package leetcode.leet_800_to_899.template
 
 /**
  * WIP

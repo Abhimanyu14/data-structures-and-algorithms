@@ -4,6 +4,11 @@ import common.data_structures.ListNode
 import common.data_structures.createLinkedList
 import common.data_structures.printLinkedList
 
+/**
+ * Stats
+ * Runtime: 390 ms, faster than 71.44%
+ * Memory Usage: 51.2 MB, less than 23.94%
+ */
 fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
     val result = ListNode((l1!!.`val`.plus(l2!!.`val`)).rem(10))
     var remainder: Int = (l1.`val`.plus(l2.`val`)).div(10)
