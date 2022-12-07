@@ -1,6 +1,6 @@
 package leetcode.leet_200_to_299.leet_202_happy_number
 
-import common.number.toDigits
+import algorithms.number.toDigits
 
 /**
  * Stats
@@ -10,7 +10,7 @@ import common.number.toDigits
 fun isHappy(n: Int): Boolean {
     var ele = n
     while (ele >= 10) {
-        ele = toDigits(ele).map { it * it }.sum()
+        ele = toDigits(ele).sumOf { it * it }
     }
     return ele == 1 || ele == 7
 }

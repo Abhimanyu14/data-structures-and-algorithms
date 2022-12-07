@@ -1,6 +1,10 @@
 package leetcode.leet_2200_to_2299.leet_2215_find_the_difference_of_two_arrays
 
 /**
+ * leetcode - https://leetcode.com/problems/find-the-difference-of-two-arrays/
+ *
+ * Using Set and distinct()
+ *
  * Stats
  * Runtime: 422 ms, faster than 100.00%
  * Memory Usage: 40.9 MB, less than 100.00%

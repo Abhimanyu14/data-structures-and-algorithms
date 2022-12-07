@@ -1,6 +1,6 @@
 package geeks_for_geeks.knapsack
 
-import common.print2DArray
+import data_structures.print2DArray
 import kotlin.math.max
 
 fun bruteForceSolution(values: IntArray, weights: IntArray, capacity: Int, count: Int): Int {

@@ -1,7 +1,7 @@
 package leetcode.leet_600_to_699.leet_655_print_binary_tree
 
-import common.data_structures.TreeNode
-import common.data_structures.height
+import data_structures.data_structures.TreeNode
+import data_structures.data_structures.height
 import kotlin.math.pow
 
 /**

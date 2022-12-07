@@ -44,10 +44,10 @@ fun main() {
     CompClass.sample()
 }
 
-class CompClass{
+class CompClass {
 
     companion object {
-        fun sample(){
+        fun sample() {
 
         }
     }

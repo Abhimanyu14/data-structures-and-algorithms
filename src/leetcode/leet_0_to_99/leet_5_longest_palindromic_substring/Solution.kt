@@ -1,6 +1,6 @@
 package leetcode.leet_0_to_99.leet_5_longest_palindromic_substring
 
-import common.string.isStringPalindrome
+import data_structures.string.isStringPalindrome
 
 // TODO: Find an optimal solution
 fun longestPalindrome(s: String): String {

@@ -1,6 +1,6 @@
 package leetcode.leet_1300_to_1399.leet_1365_how_many_numbers_are_smaller_than_the_current_number
 
-import common.sorting.quicksortDriver
+import algorithms.sorting.quicksortDriver
 
 fun smallerNumbersThanCurrent(nums: IntArray): IntArray {
     val result = IntArray(nums.size)

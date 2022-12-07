@@ -17,7 +17,7 @@ private fun licenseKeyFormatting(s: String, k: Int): String {
                 result = "-$result"
                 dashCounter = 0
             }
-            result = "${s[j].toUpperCase()}${result}"
+            result = "${s[j].uppercaseChar()}${result}"
             dashCounter++
         }
         j--

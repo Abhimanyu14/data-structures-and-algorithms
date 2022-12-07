@@ -1,6 +1,6 @@
 package leetcode.leet_100_to_199.leet_144_binary_tree_preorder_traversal
 
-import common.data_structures.TreeNode
+import data_structures.data_structures.TreeNode
 
 /**
  * Using recursion

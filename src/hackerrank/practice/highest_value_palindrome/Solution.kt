@@ -21,6 +21,7 @@ fun highestValuePalindrome(s: String, n: Int, k: Int): String {
         k < changes -> {
             return "-1"
         }
+
         k == changes -> {
             var i = 0
             while (i <= (s.length - 1) / 2) {
@@ -32,6 +33,7 @@ fun highestValuePalindrome(s: String, n: Int, k: Int): String {
             }
             return result.joinToString("")
         }
+
         else -> {
             val increase = k - changes
             // TODO

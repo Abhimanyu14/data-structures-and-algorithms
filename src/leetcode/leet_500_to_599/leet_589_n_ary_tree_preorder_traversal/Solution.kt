@@ -1,6 +1,6 @@
 package leetcode.leet_500_to_599.leet_589_n_ary_tree_preorder_traversal
 
-import common.data_structures.Node
+import data_structures.data_structures.Node
 
 /**
  * Using recursion

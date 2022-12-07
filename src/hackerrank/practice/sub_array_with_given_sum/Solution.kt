@@ -25,15 +25,18 @@ fun solution(arr: Array<Int>, sum: Int): Pair<Int, Int> {
             currentSum == sum -> {
                 return Pair(start, end)
             }
+
             currentSum < sum -> {
                 end++
                 currentSum += arr[end]
             }
+
             start == end -> {
                 start++
                 end++
                 currentSum = arr[start]
             }
+
             else -> {
                 currentSum -= arr[start]
                 start++

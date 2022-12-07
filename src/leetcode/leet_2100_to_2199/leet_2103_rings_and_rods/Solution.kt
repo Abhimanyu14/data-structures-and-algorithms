@@ -1,6 +1,8 @@
 package leetcode.leet_2100_to_2199.leet_2103_rings_and_rods
 
 /**
+ * leetcode - https://leetcode.com/problems/rings-and-rods/
+ *
  * Using bitwise OR
  *
  * Stats
@@ -14,13 +16,15 @@ fun countPoints(rings: String): Int {
     while (i < rings.length) {
         when (rings[i]) {
             'R' -> {
-                rods[rings[i+1].toString().toInt()] = rods[rings[i+1].toString().toInt()] or 1
+                rods[rings[i + 1].toString().toInt()] = rods[rings[i + 1].toString().toInt()] or 1
             }
+
             'G' -> {
-                rods[rings[i+1].toString().toInt()] = rods[rings[i+1].toString().toInt()] or 10
+                rods[rings[i + 1].toString().toInt()] = rods[rings[i + 1].toString().toInt()] or 10
             }
+
             'B' -> {
-                rods[rings[i+1].toString().toInt()] = rods[rings[i+1].toString().toInt()] or 100
+                rods[rings[i + 1].toString().toInt()] = rods[rings[i + 1].toString().toInt()] or 100
             }
         }
         i += 2

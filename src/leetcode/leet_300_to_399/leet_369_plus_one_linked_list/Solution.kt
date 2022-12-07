@@ -1,8 +1,8 @@
 package leetcode.leet_300_to_399.leet_369_plus_one_linked_list
 
-import common.data_structures.ListNode
-import common.data_structures.createLinkedList
-import common.data_structures.printLinkedList
+import data_structures.linkedlist.ListNode
+import data_structures.linkedlist.createLinkedList
+import data_structures.linkedlist.printLinkedList
 
 /**
  * Stats

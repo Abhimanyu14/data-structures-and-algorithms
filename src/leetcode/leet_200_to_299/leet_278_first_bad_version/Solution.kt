@@ -1,7 +1,8 @@
 package leetcode.leet_200_to_299.leet_278_first_bad_version
 
 /**
- * Using loops
+ * leetcode - https://leetcode.com/problems/first-bad-version/
+ * Using Binary Search
  *
  * Stats
  * Runtime: 229 ms, faster than 99.69%

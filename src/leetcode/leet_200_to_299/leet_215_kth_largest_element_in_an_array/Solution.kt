@@ -1,6 +1,6 @@
 package leetcode.leet_200_to_299.leet_215_kth_largest_element_in_an_array
 
-import common.searching.quickSelectDriver
+import algorithms.searching.quickSelectDriver
 
 fun findKthLargest(nums: IntArray, k: Int): Int {
     return quickSelectDriver(nums, nums.size - k + 1)

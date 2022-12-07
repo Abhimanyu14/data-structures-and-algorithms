@@ -1,8 +1,8 @@
 package leetcode.leet_100_to_199.leet_141_linked_list_cycle
 
-import common.data_structures.ListNode
-import common.data_structures.createLinkedList
-import common.data_structures.lastNode
+import data_structures.linkedlist.ListNode
+import data_structures.linkedlist.createLinkedList
+import data_structures.linkedlist.lastNode
 
 /**
  * Stats

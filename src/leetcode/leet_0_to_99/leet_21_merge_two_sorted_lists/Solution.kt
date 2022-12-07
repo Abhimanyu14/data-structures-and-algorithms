@@ -1,8 +1,8 @@
 package leetcode.leet_0_to_99.leet_21_merge_two_sorted_lists
 
-import common.data_structures.ListNode
-import common.data_structures.createLinkedList
-import common.data_structures.printLinkedList
+import data_structures.linkedlist.ListNode
+import data_structures.linkedlist.createLinkedList
+import data_structures.linkedlist.printLinkedList
 
 /**
  * Using loops

@@ -1,7 +1,9 @@
 package leetcode.leet_2200_to_2299.leet_2235_add_two_integers
 
 /**
- * Naive
+ * leetcode - https://leetcode.com/problems/add-two-integers/
+ *
+ * Using addition operator
  *
  * Stats
  * Runtime: 197 ms, faster than 65.75%
@@ -12,7 +14,10 @@ private fun sumNative(num1: Int, num2: Int): Int {
 }
 
 /**
- * Bitwise operations
+ * leetcode - https://leetcode.com/problems/add-two-integers/
+ *
+ * Using Bitwise operations
+ * TODO-Abhi: revisit
  *
  * Stats
  * Runtime: 201 ms, faster than 61.64%

@@ -1,6 +1,8 @@
 package leetcode.leet_2100_to_2199.leet_2185_counting_words_with_a_given_prefix
 
 /**
+ * leetcode - https://leetcode.com/problems/counting-words-with-a-given-prefix/
+ *
  * Using startsWith built in method
  *
  * Stats
@@ -18,6 +20,8 @@ private fun prefixCount(words: Array<String>, pref: String): Int {
 }
 
 /**
+ * leetcode - https://leetcode.com/problems/counting-words-with-a-given-prefix/
+ *
  * Using substring string method
  *
  * Stats

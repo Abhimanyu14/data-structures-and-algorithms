@@ -1,8 +1,10 @@
 package leetcode.leet_2300_to_2399.leet_2331_evaluate_boolean_binary_tree
 
-import common.data_structures.TreeNode
+import data_structures.data_structures.TreeNode
 
 /**
+ * leetcode - https://leetcode.com/problems/evaluate-boolean-binary-tree/
+ *
  * Using recursion
  *
  * Stats
@@ -23,6 +25,8 @@ private fun evaluateTree(root: TreeNode?): Boolean {
 }
 
 /**
+ * leetcode - https://leetcode.com/problems/evaluate-boolean-binary-tree/
+ *
  * Using recursion with optimization
  *
  * Stats

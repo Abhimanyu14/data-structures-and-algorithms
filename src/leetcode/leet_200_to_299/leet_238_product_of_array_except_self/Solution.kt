@@ -52,7 +52,7 @@ private fun productExceptSelfUsingPartialProduct(arr: IntArray): IntArray {
         s *= arr[i]
     }
     s = 1
-    for (i in arr.size - 1 downTo  0) {
+    for (i in arr.size - 1 downTo 0) {
         right[i] = s
         s *= arr[i]
     }

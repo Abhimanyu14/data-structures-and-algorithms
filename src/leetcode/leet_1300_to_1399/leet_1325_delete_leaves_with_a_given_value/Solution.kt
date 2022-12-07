@@ -1,7 +1,7 @@
 package leetcode.leet_1300_to_1399.leet_1325_delete_leaves_with_a_given_value
 
-import common.data_structures.TreeNode
-import common.data_structures.isLeaf
+import data_structures.data_structures.TreeNode
+import data_structures.data_structures.isLeaf
 
 /**
  * Stats
