@@ -35,7 +35,7 @@ fun quickSelect(arr: IntArray, low: Int, high: Int, k: Int): Int {
 }
 
 fun quickSelectDriver(arr: IntArray, k: Int): Int {
-    return quickSelect(arr, 0, arr.size - 1, k - 1)
+    return quickSelect(arr, 0, arr.lastIndex, k - 1)
 }
 
 fun main() {

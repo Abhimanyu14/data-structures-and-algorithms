@@ -4,11 +4,13 @@ import data_structures.data_structures.TreeNode
 import kotlin.math.max
 
 /**
+ * leetcode - https://leetcode.com/problems/binary-tree-maximum-path-sum/
+ *
  * Using recursion and nested method
  *
  * Stats
- * Runtime: 248 ms, faster than 85.32%
- * Memory Usage: 39.9 MB, less than 88.07%
+ * Runtime: 229 ms, faster than 95.28%
+ * Memory Usage: 39 MB, less than 95.28%
  */
 fun maxPathSum(root: TreeNode?): Int {
     var maxSum = Integer.MIN_VALUE

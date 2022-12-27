@@ -4,7 +4,9 @@ import kotlin.math.abs
 import kotlin.math.pow
 
 /**
- * Using loops and pointer
+ * leetcode - https://leetcode.com/problems/squares-of-a-sorted-array/
+ *
+ * Using two pointer
  *
  * Stats
  * Runtime: 736 ms, faster than 31.25%

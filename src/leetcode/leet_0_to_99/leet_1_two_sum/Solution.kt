@@ -26,7 +26,7 @@ private fun twoSumUsingLoop(nums: IntArray, target: Int): IntArray {
  * Memory Usage: 38.2 MB, less than 87.41%
  */
 private fun twoSumUsingMap(nums: IntArray, target: Int): IntArray {
-    val map = hashMapOf<Int, Int>()
+    val map = mutableMapOf<Int, Int>()
     nums.forEachIndexed { index, num ->
         map[target - num]?.let {
             return intArrayOf(it, index)
@@ -44,7 +44,7 @@ private fun twoSumUsingMap(nums: IntArray, target: Int): IntArray {
  * Memory Usage: 38.2 MB, less than 87.41%
  */
 private fun twoSum(nums: IntArray, target: Int): IntArray {
-    val diffMap = hashMapOf<Int, Int>()
+    val diffMap = mutableMapOf<Int, Int>()
     nums.forEachIndexed { index, num ->
         diffMap[num]?.let {
             return intArrayOf(it, index)

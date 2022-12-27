@@ -1,7 +1,8 @@
-package leetcode.leet_0_to_99.template
+package leetcode.template
 
 /**
  * leetcode -
+ *
  * Using
  *
  * Stats

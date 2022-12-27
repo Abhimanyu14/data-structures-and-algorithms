@@ -1,7 +1,9 @@
 package leetcode.leet_100_to_199.leet_136_single_number
 
 /**
- * Using XOR
+ * leetcode - https://leetcode.com/problems/single-number/
+ *
+ * Using bitwise operators - XOR
  * Source - https://leetcode.com/problems/single-number/discuss/1343068/Kotlin-3-ways-faster-than-99.7
  *
  * Stats
@@ -17,6 +19,8 @@ fun singleNumber(nums: IntArray): Int {
 }
 
 /**
+ * leetcode - https://leetcode.com/problems/single-number/
+ *
  * Using Set
  *
  * Stats

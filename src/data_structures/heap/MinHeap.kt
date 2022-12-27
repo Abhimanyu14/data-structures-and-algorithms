@@ -84,6 +84,4 @@ fun main() {
         size++
         heapifyUp()
     }
-
-
 }
