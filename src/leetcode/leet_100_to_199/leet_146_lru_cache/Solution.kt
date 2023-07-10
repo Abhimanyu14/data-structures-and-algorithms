@@ -33,7 +33,7 @@ class LRUCache(capacity: Int) {
     }
 }
 
-fun main() {
+private fun main() {
     val lruCache = LRUCache(2)
     lruCache.put(1, 1)
     lruCache.print()

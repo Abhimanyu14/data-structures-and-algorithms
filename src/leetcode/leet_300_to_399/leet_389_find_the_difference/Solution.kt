@@ -44,7 +44,7 @@ fun findTheDifferenceNaiveSolution(s: String, t: String): Char {
     return '0'
 }
 
-fun main() {
+private fun main() {
     println(findTheDifference("abcd", "abcde"))
     println(findTheDifference("", "y"))
 }

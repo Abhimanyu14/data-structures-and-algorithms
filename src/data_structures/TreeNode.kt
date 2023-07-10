@@ -1,4 +1,4 @@
-package data_structures.data_structures
+package data_structures
 
 class TreeNode(var `val`: Int) {
     var left: TreeNode? = null

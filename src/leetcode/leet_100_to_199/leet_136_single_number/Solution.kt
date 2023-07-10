@@ -10,7 +10,7 @@ package leetcode.leet_100_to_199.leet_136_single_number
  * Runtime: 379 ms, faster than 74.09%
  * Memory Usage: 48 MB, less than 73.90%
  */
-fun singleNumber(nums: IntArray): Int {
+private fun singleNumber(nums: IntArray): Int {
     var result = 0
     nums.forEach {
         result = result xor it
@@ -27,7 +27,7 @@ fun singleNumber(nums: IntArray): Int {
  * Runtime: 682 ms, faster than 8.57%
  * Memory Usage: 56 MB, less than 5.90%
  */
-fun singleNumberUsingSet(nums: IntArray): Int {
+private fun singleNumberUsingSet(nums: IntArray): Int {
     val set = HashSet<Int>()
     nums.forEach {
         if (set.contains(it)) {
@@ -39,7 +39,7 @@ fun singleNumberUsingSet(nums: IntArray): Int {
     return set.elementAt(0)
 }
 
-fun main() {
+private fun main() {
     println(singleNumber(intArrayOf(2, 2, 1)))
     println(singleNumber(intArrayOf(4, 1, 2, 1, 2)))
     println(singleNumber(intArrayOf(1)))

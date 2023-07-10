@@ -1,7 +1,7 @@
 package leetcode.leet_400_to_499.leet_451_sort_characters_by_frequency
 
 /**
- * Using hashmap, loops, sorting, list, and repeat
+ * Using map, loops, sorting, list, and repeat
  *
  * Stats
  * Runtime: 599 ms, faster than 11.36%
@@ -25,7 +25,7 @@ private fun frequencySortNaive(s: String): String {
 }
 
 /**
- * Using hashmap, loops, sorting, list, and repeat
+ * Using map, loops, sorting, list, and repeat
  *
  * Stats
  * Runtime: 451 ms, faster than 56.82%

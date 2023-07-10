@@ -39,6 +39,6 @@ fun removeElementWithoutOrder(nums: IntArray, `val`: Int): Int {
     return start
 }
 
-fun main() {
+private fun main() {
     println(removeElementWithoutOrder(intArrayOf(3, 2, 2, 3), 3))
 }

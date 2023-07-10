@@ -18,7 +18,7 @@ fun areOccurrencesEqual(s: String): Boolean {
     }
 }
 
-fun main() {
+private fun main() {
     println(areOccurrencesEqual("abacbc"))
     println(areOccurrencesEqual("aaabb"))
 }

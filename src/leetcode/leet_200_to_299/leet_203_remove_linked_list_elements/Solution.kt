@@ -27,7 +27,7 @@ fun removeElements(head: ListNode?, `val`: Int): ListNode? {
     return result
 }
 
-fun main() {
+private fun main() {
     val input1 = createLinkedList(intArrayOf(1, 2, 6, 3, 4, 5, 6))
     val input2 = createLinkedList(intArrayOf())
     val input3 = createLinkedList(intArrayOf(7, 7, 7, 7))

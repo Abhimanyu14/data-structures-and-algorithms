@@ -8,7 +8,7 @@ fun minPartitions(n: String): Int {
     return result
 }
 
-fun main() {
+private fun main() {
     val input1 = "31"
     val input2 = "82734"
     val input3 = "27346209830709182346"

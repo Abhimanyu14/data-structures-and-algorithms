@@ -21,7 +21,7 @@ class Trie {
     }
 }
 
-fun main() {
+private fun main() {
     val trie = Trie()
     println(trie.insert("hello"))
     println(trie.search("hell"))

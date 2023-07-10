@@ -14,6 +14,6 @@ fun findMinDifference(timePoints: List<String>): Int {
     return result
 }
 
-fun main() {
+private fun main() {
     println(findMinDifference(listOf("23:59", "00:00")))
 }

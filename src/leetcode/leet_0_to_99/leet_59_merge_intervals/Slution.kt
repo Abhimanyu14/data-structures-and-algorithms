@@ -14,7 +14,7 @@ fun merge(intervals: Array<IntArray>): Array<IntArray> {
     return result.toTypedArray()
 }
 
-fun main() {
+private fun main() {
     val input1 = arrayOf(intArrayOf(1, 3), intArrayOf(2, 6), intArrayOf(8, 10), intArrayOf(15, 18))
     val input2 = arrayOf(intArrayOf(1, 4), intArrayOf(4, 5))
     println(merge(input1).joinToString(" ") { it.joinToString(",") })

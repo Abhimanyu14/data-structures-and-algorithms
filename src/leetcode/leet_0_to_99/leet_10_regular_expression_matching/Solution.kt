@@ -34,7 +34,7 @@ enum class Result {
     TRUE, FALSE
 }
 
-fun isMatch(text: String, pattern: String): Boolean {
+private fun isMatch(text: String, pattern: String): Boolean {
     val memo: Array<Array<Result?>> = Array(text.length + 1) {
         arrayOfNulls(pattern.length + 1)
     }

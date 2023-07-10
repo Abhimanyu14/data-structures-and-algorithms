@@ -34,7 +34,7 @@ private fun findDisappearedNumbersUsingSet(nums: IntArray): List<Int> {
     return ((1..nums.size) - nums.toSet()).toList()
 }
 
-fun main() {
+private fun main() {
     println(findDisappearedNumbers(intArrayOf(4, 3, 2, 7, 8, 2, 3, 1)))
     println(findDisappearedNumbers(intArrayOf(1, 1)))
 }

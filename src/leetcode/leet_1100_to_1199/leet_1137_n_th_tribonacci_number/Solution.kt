@@ -46,7 +46,7 @@ private fun tribonacciUsingArray(n: Int): Int {
     return result[n]
 }
 
-fun main() {
+private fun main() {
     println(tribonacci(4))
     println(tribonacci(25))
 }

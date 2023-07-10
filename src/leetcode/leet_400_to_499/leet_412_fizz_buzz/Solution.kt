@@ -1,6 +1,8 @@
 package leetcode.leet_400_to_499.leet_412_fizz_buzz
 
 /**
+ * leetcode - https://leetcode.com/problems/fizz-buzz/
+ *
  * Using loop
  *
  * Stats
@@ -24,14 +26,16 @@ private fun fizzBuzzBruteForce(n: Int): List<String> {
 }
 
 /**
- * Using string concatenation and hashmap
+ * leetcode - https://leetcode.com/problems/fizz-buzz/
+ *
+ * Using string concatenation and map
  *
  * Stats
  * Runtime: 451 ms, faster than 5.46%
  * Memory Usage: 49.1 MB, less than 5.13%
  */
 private fun fizzBuzz(n: Int): List<String> {
-    val map = hashMapOf(
+    val map = mapOf(
         3 to "Fizz",
         5 to "Buzz"
     )

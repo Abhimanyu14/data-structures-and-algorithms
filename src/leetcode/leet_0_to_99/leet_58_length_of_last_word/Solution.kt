@@ -31,7 +31,7 @@ private fun lengthOfLastWord(s: String): Int {
     return length
 }
 
-fun main() {
+private fun main() {
     println(lengthOfLastWord("Hello World"))
     println(lengthOfLastWord("   fly me   to   the moon  "))
     println(lengthOfLastWord("luffy is still joyboy"))

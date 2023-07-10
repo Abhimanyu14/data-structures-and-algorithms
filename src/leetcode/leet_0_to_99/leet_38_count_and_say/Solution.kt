@@ -27,7 +27,7 @@ fun countAndSay(n: Int): String {
     return dp[n]
 }
 
-fun main() {
+private fun main() {
     val input1 = 1
     val input2 = 4
     for (i in 1..10) {

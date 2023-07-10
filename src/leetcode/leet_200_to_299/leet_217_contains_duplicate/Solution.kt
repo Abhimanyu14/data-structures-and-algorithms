@@ -3,19 +3,19 @@ package leetcode.leet_200_to_299.leet_217_contains_duplicate
 /**
  * leetcode - https://leetcode.com/problems/contains-duplicate/
  *
- * Using hashset
+ * Using Set
  *
  * Stats
- * Runtime: Runtime: 679 ms, faster than 80.36%
- * Memory Usage: 69.3 MB, less than 79.46%
+ * Runtime: 391 ms, faster than 95.97%
+ * Memory Usage: 52.4 MB, less than 60.87%
  */
 private fun containsDuplicate(nums: IntArray): Boolean {
-    val hashSet = hashSetOf<Int>()
+    val set = mutableSetOf<Int>()
     for (i in nums.indices) {
-        if (hashSet.contains(nums[i])) {
+        if (set.contains(nums[i])) {
             return true
         }
-        hashSet.add(nums[i])
+        set.add(nums[i])
     }
     return false
 }

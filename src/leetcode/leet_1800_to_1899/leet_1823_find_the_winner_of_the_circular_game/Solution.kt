@@ -15,7 +15,7 @@ fun findTheWinner(n: Int, k: Int): Int {
     return list.first()
 }
 
-fun main() {
+private fun main() {
     println(findTheWinner(5, 2))
     println(findTheWinner(6, 5))
 }

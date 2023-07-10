@@ -15,7 +15,7 @@ fun minOperations(boxes: String): IntArray {
     return result
 }
 
-fun main() {
+private fun main() {
     val input1 = "110"
     val input2 = "001011"
     println(minOperations(input1).joinToString(" "))

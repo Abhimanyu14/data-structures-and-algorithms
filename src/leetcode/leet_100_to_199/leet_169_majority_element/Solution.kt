@@ -5,27 +5,27 @@ package leetcode.leet_100_to_199.leet_169_majority_element
  * Source: https://www.geeksforgeeks.org/boyer-moore-majority-voting-algorithm/
  *
  * Stats
- * Runtime: 358 ms, faster than 82.50%
- * Memory Usage: 52 MB, less than 66.88%
+ * Runtime: 265 ms, faster than 66.55%
+ * Memory Usage: 43.3 MB, less than 51.92%
  */
 private fun majorityElement(nums: IntArray): Int {
-    var majority = nums[0]
+    var candidate: Int = nums[0]
     var count = 1
     for (i in 1..nums.lastIndex) {
-        if (nums[i] == majority) {
+        if (candidate == nums[i]) {
             count++
         } else {
             count--
             if (count == 0) {
-                majority = nums[i]
                 count = 1
+                candidate = nums[i]
             }
         }
     }
-    return majority
+    return candidate
 }
 
-fun main() {
+private fun main() {
     println(majorityElement(intArrayOf(3, 2, 3)))
     println(majorityElement(intArrayOf(2, 2, 1, 1, 1, 2, 2)))
 }

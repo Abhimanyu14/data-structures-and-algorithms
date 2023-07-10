@@ -13,7 +13,7 @@ fun isPowerOfThree(n: Int): Boolean {
     return ele == 1
 }
 
-fun main() {
+private fun main() {
     val input1 = 27
     val input2 = 0
     val input3 = 9

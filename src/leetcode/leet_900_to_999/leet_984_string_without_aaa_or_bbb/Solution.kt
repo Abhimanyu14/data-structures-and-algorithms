@@ -48,6 +48,6 @@ fun strWithout3a3b(a: Int, b: Int): String {
     return result
 }
 
-fun main() {
+private fun main() {
     println(strWithout3a3b(4, 1))
 }

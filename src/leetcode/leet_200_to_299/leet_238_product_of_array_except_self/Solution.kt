@@ -62,7 +62,7 @@ private fun productExceptSelfUsingPartialProduct(arr: IntArray): IntArray {
     return result
 }
 
-fun main() {
+private fun main() {
     val solutionMethod = ::productExceptSelfUsingPartialProduct
     println(solutionMethod(intArrayOf(1, 2, 3, 4)).joinToString(", "))
     println(solutionMethod(intArrayOf(0, 1, 2, 3, 4)).joinToString(", "))

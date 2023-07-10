@@ -28,7 +28,7 @@ private fun isBadVersion(n: Int): Boolean {
     return n >= 1702766719
 }
 
-fun main() {
+private fun main() {
     // println(firstBadVersion(5)) // bad = 4
     // println(firstBadVersion(1)) // bad = 1
     println(firstBadVersion(2126753390)) // bad = 1702766719

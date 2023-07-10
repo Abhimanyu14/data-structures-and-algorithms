@@ -16,6 +16,6 @@ fun coinChangeDriver(coins: IntArray, amount: Int): Int {
     return coinChange(coins, amount, 0)
 }
 
-fun main() {
+private fun main() {
 
 }

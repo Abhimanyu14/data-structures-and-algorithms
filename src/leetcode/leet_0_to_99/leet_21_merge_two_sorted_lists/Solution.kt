@@ -105,7 +105,7 @@ fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
     return resultHead
 }
 
-fun main() {
+private fun main() {
     val input1 = intArrayOf(1, 2, 4)
     val input2 = intArrayOf(1, 3, 4)
     val listNode1 = createLinkedList(input1)

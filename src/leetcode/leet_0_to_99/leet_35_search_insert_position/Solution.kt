@@ -24,7 +24,7 @@ private fun searchInsert(nums: IntArray, target: Int): Int {
     return low
 }
 
-fun main() {
+private fun main() {
     println(searchInsert(intArrayOf(1, 3, 5, 6), 5))
     println(searchInsert(intArrayOf(1, 3, 5, 6), 2))
     println(searchInsert(intArrayOf(1, 3, 5, 6), 7))

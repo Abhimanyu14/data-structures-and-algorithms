@@ -1,7 +1,7 @@
 package leetcode.leet_800_to_899.leet_804_unique_morse_code_words
 
 /**
- * Using hashmap and hashset
+ * Using map and set
  *
  * Stats
  * Runtime: 188 ms, faster than 88.89%

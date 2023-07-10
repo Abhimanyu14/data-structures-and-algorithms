@@ -67,7 +67,7 @@ private fun search(nums: IntArray, target: Int): Int {
     return -1
 }
 
-fun main() {
+private fun main() {
     println(search(intArrayOf(-1, 0, 3, 5, 9, 12), 9))
     println(search(intArrayOf(-1, 0, 3, 5, 9, 12), 2))
     println(search(intArrayOf(-1, 0, 5), -1))

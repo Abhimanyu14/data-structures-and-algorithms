@@ -3,7 +3,7 @@ package leetcode.leet_900_to_999.leet_997_find_the_town_judge
 /**
  * leetcode - https://leetcode.com/problems/find-if-path-exists-in-graph/
  *
- * Using hashset and hashmap
+ * Using set and map
  *
  * Stats
  * Runtime: 1014 ms, faster than 32.81%

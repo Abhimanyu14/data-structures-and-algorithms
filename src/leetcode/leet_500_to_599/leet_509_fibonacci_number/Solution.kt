@@ -39,7 +39,7 @@ private fun fibUsingArray(n: Int): Int {
     return result[n]
 }
 
-fun main() {
+private fun main() {
     println(fib(2))
     println(fib(3))
     println(fib(4))

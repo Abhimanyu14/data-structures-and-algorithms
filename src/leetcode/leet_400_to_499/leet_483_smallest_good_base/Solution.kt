@@ -11,5 +11,5 @@ fun smallestGoodBase(n: String): String {
     return ""
 }
 
-fun main() {
+private fun main() {
 }

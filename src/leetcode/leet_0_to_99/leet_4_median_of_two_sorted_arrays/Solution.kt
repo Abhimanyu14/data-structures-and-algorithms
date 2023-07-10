@@ -49,7 +49,7 @@ private fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
     return 0.0
 }
 
-fun main() {
+private fun main() {
     println(findMedianSortedArrays(intArrayOf(1, 3), intArrayOf(2)))
     println(findMedianSortedArrays(intArrayOf(1, 2), intArrayOf(3, 4)))
     println(findMedianSortedArrays(intArrayOf(2, 2, 4, 4), intArrayOf(2, 2, 4, 4)))

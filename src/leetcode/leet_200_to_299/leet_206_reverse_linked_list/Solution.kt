@@ -11,7 +11,7 @@ import data_structures.linkedlist.printLinkedList
  * Runtime: 164 ms, faster than 69.33%
  * Memory Usage: 36.2 MB, less than 18.20%
  */
-fun main() {
+private fun main() {
     val input = intArrayOf(1, 2, 3, 4, 5)
     val listNode = createLinkedList(input)
     val result = reverseList(listNode)

@@ -6,13 +6,73 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/insert-interval/
  *
- * Using loop
+ * Using binary search
+ *
+ * Stats
+ * Runtime: 265 ms, faster than 85.11%
+ * Memory Usage: 40.1 MB, less than 69.50%
+ */
+private fun insert(intervals: Array<IntArray>, newInterval: IntArray): Array<IntArray> {
+    fun doesIntervalsOverlap(a: IntArray, b: IntArray): Boolean {
+        return min(a[1], b[1]) - max(a[0], b[0]) >= 0
+    }
+
+    fun mergeIntervals(a: IntArray, b: IntArray): IntArray {
+        return intArrayOf(min(a[0], b[0]), max(a[1], b[1]))
+    }
+
+    fun upperBound(intervals: Array<IntArray>, newIntervalStart: Int): Int {
+        if (intervals.isEmpty()) {
+            return 0
+        }
+        var start = 0
+        var end = intervals.lastIndex
+        var pos = intervals.size
+        while (start <= end) {
+            val mid = start + ((end - start) / 2)
+            if (intervals[mid][0] > newIntervalStart) {
+                pos = mid
+                end = mid - 1
+            } else {
+                start = mid + 1
+            }
+        }
+        return pos
+    }
+
+    fun insertInterval(intervals: Array<IntArray>, newInterval: IntArray): Array<IntArray> {
+        val list = intervals.toMutableList()
+        val index = upperBound(intervals, newInterval[0])
+        list.add(index, newInterval)
+        return list.toTypedArray()
+    }
+
+    val intervalsAfterInsertion = insertInterval(intervals, newInterval)
+    val result: MutableList<IntArray> = mutableListOf()
+    var i = 0
+    while (i < intervalsAfterInsertion.size) {
+        var currInterval = intervalsAfterInsertion[i]
+        while (i < intervalsAfterInsertion.size && doesIntervalsOverlap(currInterval, intervalsAfterInsertion[i])) {
+            currInterval = mergeIntervals(currInterval, intervalsAfterInsertion[i])
+            i++
+        }
+        i--
+        result.add(currInterval)
+        i++
+    }
+    return result.toTypedArray()
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/insert-interval/
+ *
+ * Using linear search
  *
  * Stats
  * Runtime: 288 ms, faster than 77.34%
  * Memory Usage: 41 MB, less than 73.44%
  */
-private fun insert(intervals: Array<IntArray>, newInterval: IntArray): Array<IntArray> {
+private fun insertUsingLinearSearch(intervals: Array<IntArray>, newInterval: IntArray): Array<IntArray> {
     val result = intervals.toMutableList()
     var index = 0
     while (index < result.size && result[index][1] < newInterval[0]) {

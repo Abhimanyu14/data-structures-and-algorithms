@@ -25,7 +25,7 @@ fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
     return result
 }
 
-fun main() {
+private fun main() {
     val input1 = intArrayOf(2, 4, 3)
     val input2 = intArrayOf(5, 6, 4)
     val listNode1 = createLinkedList(input1)

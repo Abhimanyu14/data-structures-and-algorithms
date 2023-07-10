@@ -15,7 +15,7 @@ fun lengthOfLongestSubstring(s: String): Int {
     return result
 }
 
-fun main() {
+private fun main() {
     val input = "pwwkew"
     val input2 = "bbbbb"
     val input3 = "abcabcbb"

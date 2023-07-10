@@ -32,7 +32,7 @@ fun countPoints(rings: String): Int {
     return rods.count { it == 111 }
 }
 
-fun main() {
+private fun main() {
     println(countPoints("B0B6G0R6R0R6G9"))
     println(countPoints("B0R0G0R9R0B0G0"))
     println(countPoints("G4"))

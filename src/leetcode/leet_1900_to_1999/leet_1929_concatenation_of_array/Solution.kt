@@ -34,7 +34,7 @@ fun getConcatenationTraditionalApproach(nums: IntArray): IntArray {
     return result
 }
 
-fun main() {
+private fun main() {
     val input1 = intArrayOf(1, 2, 1)
     println(getConcatenationTraditionalApproach(input1).joinToString(", "))
 }

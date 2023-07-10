@@ -1,7 +1,7 @@
 package leetcode.leet_1300_to_1399.leet_1325_delete_leaves_with_a_given_value
 
-import data_structures.data_structures.TreeNode
-import data_structures.data_structures.isLeaf
+import data_structures.TreeNode
+import data_structures.isLeaf
 
 /**
  * Stats
@@ -35,7 +35,7 @@ private fun shouldBeRemoved(root: TreeNode, target: Int): Boolean {
     return root.isLeaf() && root.`val` == target
 }
 
-fun main() {
+private fun main() {
     val p1 = TreeNode(1)
     val p2 = TreeNode(2)
     val p3 = TreeNode(3)

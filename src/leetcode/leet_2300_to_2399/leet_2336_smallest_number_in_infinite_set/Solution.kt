@@ -1,19 +1,19 @@
 package leetcode.leet_2300_to_2399.leet_2336_smallest_number_in_infinite_set
 
 /**
- * leetcode - https://leetcode.com/problems/smallest-number-in-infinite-set/
- *
  * Using linked list
+ *
+ * leetcode - https://leetcode.com/problems/smallest-number-in-infinite-set/
  *
  * Stats
  * Runtime: 576 ms, faster than 83.33%
  * Memory Usage: 60.3 MB, less than 83.33%
  */
-class MyListNode(var `val`: Int) {
+private class MyListNode(var `val`: Int) {
     var next: MyListNode? = null
 }
 
-class SmallestInfiniteSet() {
+private class SmallestInfiniteSet() {
     val head = MyListNode(0)
 
     fun popSmallest(): Int {

@@ -42,7 +42,7 @@ fun maxSumTwoNoOverlap(nums: IntArray, firstLen: Int, secondLen: Int): Int {
     return 0
 }
 
-fun main() {
+private fun main() {
     val result = maxSumTwoNoOverlap(intArrayOf(0, 6, 5, 2, 2, 5, 1, 9, 4), 1, 2)
     println(result)
 }

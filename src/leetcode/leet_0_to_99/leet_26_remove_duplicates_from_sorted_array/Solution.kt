@@ -16,6 +16,6 @@ fun removeDuplicates(nums: IntArray): Int {
     return result
 }
 
-fun main() {
+private fun main() {
     println(removeDuplicates(intArrayOf(0, 0, 1, 1, 1, 2, 2, 3, 3, 4)))
 }

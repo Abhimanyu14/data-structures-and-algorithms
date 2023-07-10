@@ -30,7 +30,7 @@ fun numTeams(rating: IntArray): Int {
     return result
 }
 
-fun main() {
+private fun main() {
     val input1 = intArrayOf(2, 5, 3, 4, 1)
     val input2 = intArrayOf(2, 1, 3)
     val input3 = intArrayOf(1, 2, 3, 4)

@@ -11,7 +11,7 @@ import java.util.Stack
  * Runtime: 271 ms, faster than 26.88%
  * Memory Usage: 34.4 MB, less than 58.79%
  */
-fun isValidUsingJavaStack(s: String): Boolean {
+private fun isValidUsingJavaStack(s: String): Boolean {
     if (s.length % 2 != 0) {
         return false
     }
@@ -71,7 +71,7 @@ private fun isValid(s: String): Boolean {
     return stack.isEmpty()
 }
 
-fun main() {
+private fun main() {
     println(isValid("()"))
     println(isValid("()[]{}"))
     println(isValid("(]"))

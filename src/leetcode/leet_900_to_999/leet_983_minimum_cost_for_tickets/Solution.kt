@@ -49,7 +49,7 @@ fun mincostTickets(days: IntArray, costs: IntArray): Int {
     return dp[365]
 }
 
-fun main() {
+private fun main() {
     val days = intArrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 30, 31)
     val costs = intArrayOf(2, 7, 15)
 

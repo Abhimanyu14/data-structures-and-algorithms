@@ -17,7 +17,7 @@ private fun intersection(nums: Array<IntArray>): List<Int> {
     return result.toList().sorted()
 }
 
-fun main() {
+private fun main() {
     println(
         intersection(
             arrayOf(

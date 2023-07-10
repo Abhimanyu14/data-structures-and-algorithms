@@ -14,7 +14,7 @@ fun isPowerOfTwo(n: Int): Boolean {
 }
 
 // TODO-Abhi: Using bitwise operations
-fun main() {
+private fun main() {
     val input1 = 1
     val input2 = 16
     val input3 = 3

@@ -23,7 +23,7 @@ private fun firstMissingPositive(nums: IntArray): Int {
     return result
 }
 
-fun main() {
+private fun main() {
     println(firstMissingPositive(intArrayOf(1, 2, 0)))
     println(firstMissingPositive(intArrayOf(3, 4, -1, 1)))
     println(firstMissingPositive(intArrayOf(7, 8, 9, 11, 12)))

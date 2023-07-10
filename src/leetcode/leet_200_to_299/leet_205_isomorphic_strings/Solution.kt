@@ -24,7 +24,7 @@ private fun isIsomorphic(s: String, t: String): Boolean {
     return true
 }
 
-fun main() {
+private fun main() {
     println(isIsomorphic("egg", "add"))
     println(isIsomorphic("foo", "bar"))
     println(isIsomorphic("paper", "title"))

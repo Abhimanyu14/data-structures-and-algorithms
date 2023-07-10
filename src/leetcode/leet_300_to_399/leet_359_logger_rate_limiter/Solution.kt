@@ -1,7 +1,7 @@
 package leetcode.leet_300_to_399.leet_359_logger_rate_limiter
 
 /**
- * Using hashmap
+ * Using map
  *
  * Stats
  * Runtime: 345 ms, faster than 100.00%

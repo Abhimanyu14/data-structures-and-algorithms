@@ -1,7 +1,7 @@
 package leetcode.leet_1800_to_1899.leet_1854_maximum_population_year
 
 /**
- * Using loops and hashmap
+ * Using loops and map
  *
  * Stats
  * Runtime: 366 ms, faster than 25.00%

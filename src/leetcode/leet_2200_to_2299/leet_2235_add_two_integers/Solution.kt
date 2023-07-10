@@ -28,7 +28,7 @@ private fun sum(num1: Int, num2: Int): Int {
     return sum(num1 xor num2, (num1 and num2) shl 1)
 }
 
-fun main() {
+private fun main() {
     println(sum(12, 5))
     println(sum(-10, 4))
 }

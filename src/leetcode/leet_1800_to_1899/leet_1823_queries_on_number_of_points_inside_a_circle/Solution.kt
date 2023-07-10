@@ -18,7 +18,7 @@ fun countPoints(points: Array<IntArray>, queries: Array<IntArray>): IntArray {
     return result
 }
 
-fun main() {
+private fun main() {
     val points1 = arrayOf(intArrayOf(1, 3), intArrayOf(3, 3), intArrayOf(5, 3), intArrayOf(2, 2))
     val queries1 = arrayOf(intArrayOf(2, 3, 1), intArrayOf(4, 3, 1), intArrayOf(1, 1, 2))
     println(countPoints(points1, queries1).joinToString(" "))

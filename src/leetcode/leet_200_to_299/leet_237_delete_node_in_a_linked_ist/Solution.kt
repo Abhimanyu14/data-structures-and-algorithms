@@ -14,7 +14,7 @@ fun deleteNode(node: ListNode?) {
     node.next = node.next?.next
 }
 
-fun main() {
+private fun main() {
     val input1 = createLinkedList(intArrayOf(4, 5, 1, 9))
     val nodeToDelete1 = input1?.next
 

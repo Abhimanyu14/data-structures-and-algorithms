@@ -25,7 +25,7 @@ fun hasCycle(head: ListNode?): Boolean {
     return false
 }
 
-fun main() {
+private fun main() {
     val input1 = intArrayOf(3, 2, 0, -4)
     val input2 = intArrayOf(1, 2)
     val input3 = intArrayOf(1)

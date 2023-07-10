@@ -9,7 +9,7 @@ fun reverseString(s: CharArray): Unit {
     s.reverse()
 }
 
-fun main() {
+private fun main() {
     val input1 = charArrayOf('h', 'e', 'l', 'l', 'o')
     val input2 = charArrayOf('H', 'a', 'n', 'n', 'a', 'h')
     reverseString(input1)

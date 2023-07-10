@@ -17,7 +17,7 @@ fun moveZeroes(nums: IntArray): Unit {
     }
 }
 
-fun main() {
+private fun main() {
     val input = intArrayOf(0, 1, 0, 3, 12)
     moveZeroes(input)
     println(input.joinToString())

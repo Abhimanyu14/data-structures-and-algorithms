@@ -31,7 +31,7 @@ fun isSubsequence(s: String, t: String): Boolean {
     return false
 }
 
-fun main() {
+private fun main() {
     val inputS1 = "abc"
     val inputT1 = "ahbgdc"
     val inputS2 = "axc"

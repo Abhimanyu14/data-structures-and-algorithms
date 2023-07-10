@@ -24,7 +24,7 @@ fun plusOne(digits: IntArray): IntArray {
     return digits
 }
 
-fun main() {
+private fun main() {
     val input1 = intArrayOf(1, 2, 3)
     val input2 = intArrayOf(4, 3, 2, 1)
     val input3 = intArrayOf(0)

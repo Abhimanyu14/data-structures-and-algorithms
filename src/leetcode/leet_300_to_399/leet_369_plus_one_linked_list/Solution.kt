@@ -27,7 +27,7 @@ fun addOne(head: ListNode?): ListNode? {
     return head
 }
 
-fun main() {
+private fun main() {
     val input1 = intArrayOf(1, 9, 9)
     val input2 = intArrayOf(9, 9, 9)
     val listNode1 = createLinkedList(input1)

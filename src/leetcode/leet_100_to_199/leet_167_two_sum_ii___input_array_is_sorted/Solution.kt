@@ -1,6 +1,8 @@
 package leetcode.leet_100_to_199.leet_167_two_sum_ii___input_array_is_sorted
 
 /**
+ * leetcode - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+ *
  * Using pointers
  *
  * Stats
@@ -24,6 +26,8 @@ private fun twoSum(numbers: IntArray, target: Int): IntArray {
 }
 
 /**
+ * leetcode - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+ *
  * Using loops
  *
  * Stats

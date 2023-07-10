@@ -1,6 +1,6 @@
 package leetcode.leet_100_to_199.leet_110_balanced_binary_tree
 
-import data_structures.data_structures.TreeNode
+import data_structures.TreeNode
 import kotlin.math.abs
 import kotlin.math.max
 

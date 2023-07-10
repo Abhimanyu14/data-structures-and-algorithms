@@ -8,7 +8,7 @@ fun buildArray(nums: IntArray): IntArray {
     return arr
 }
 
-fun main() {
+private fun main() {
     val input1 = intArrayOf(0, 2, 1, 5, 3, 4)
     val input2 = intArrayOf(5, 0, 1, 2, 3, 4)
     println(buildArray(input1).joinToString(" "))

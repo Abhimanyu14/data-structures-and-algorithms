@@ -15,7 +15,7 @@ fun countGoodNumbers(n: Long): Int {
     return (((20.0.pow((n / 2).toInt())) * multiplier) % (10.0.pow(9) + 7)).toInt()
 }
 
-fun main() {
+private fun main() {
     println(countGoodNumbers(1L))
     println(countGoodNumbers(2L))
     println(countGoodNumbers(3L))

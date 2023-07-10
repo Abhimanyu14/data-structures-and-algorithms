@@ -23,7 +23,7 @@ private fun firstUniqChar(s: String): Int {
 }
 
 
-fun main() {
+private fun main() {
     println(firstUniqChar("leetcode"))
     println(firstUniqChar("loveleetcode"))
     println(firstUniqChar("aabb"))

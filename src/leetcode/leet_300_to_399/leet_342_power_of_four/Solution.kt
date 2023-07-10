@@ -13,7 +13,7 @@ fun isPowerOfFour(n: Int): Boolean {
     return ele == 1
 }
 
-fun main() {
+private fun main() {
     val input1 = 16
     val input2 = 5
     val input3 = 1

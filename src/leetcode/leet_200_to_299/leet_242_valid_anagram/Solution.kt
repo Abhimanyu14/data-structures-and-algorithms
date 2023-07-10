@@ -43,7 +43,7 @@ private fun isAnagram(s: String, t: String): Boolean {
     return map.isEmpty()
 }
 
-fun main() {
+private fun main() {
     println(isAnagram("anagram", "nagaram"))
     println(isAnagram("rat", "car"))
 }

@@ -9,7 +9,7 @@ fun intersection(nums1: IntArray, nums2: IntArray): IntArray {
     return (nums1.toSet() intersect nums2.toSet()).toIntArray()
 }
 
-fun main() {
+private fun main() {
     println(intersection(intArrayOf(1, 2, 2, 1), intArrayOf(2, 2)).joinToString())
     println(
         intersection(intArrayOf(4, 9, 5), intArrayOf(9, 4, 9, 8, 4)).joinToString()

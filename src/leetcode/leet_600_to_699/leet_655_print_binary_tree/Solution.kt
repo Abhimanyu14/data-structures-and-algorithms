@@ -1,7 +1,7 @@
 package leetcode.leet_600_to_699.leet_655_print_binary_tree
 
-import data_structures.data_structures.TreeNode
-import data_structures.data_structures.height
+import data_structures.TreeNode
+import data_structures.height
 import kotlin.math.pow
 
 /**
@@ -29,7 +29,7 @@ private fun fillData(root: TreeNode?, height: Int, i: Int, j: Int, result: Mutab
     fillData(root.right, height, i + 1, j + (2.0.pow(height - i - 1)).toInt(), result)
 }
 
-fun main() {
+private fun main() {
     val s1 = TreeNode(1)
     val s2 = TreeNode(2)
     s1.left = s2

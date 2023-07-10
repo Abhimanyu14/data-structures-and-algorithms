@@ -15,7 +15,7 @@ fun isHappy(n: Int): Boolean {
     return ele == 1 || ele == 7
 }
 
-fun main() {
+private fun main() {
     val input1 = 19
     val input2 = 2
     val input3 = 10

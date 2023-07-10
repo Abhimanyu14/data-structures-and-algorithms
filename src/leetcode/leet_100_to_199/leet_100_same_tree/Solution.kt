@@ -1,8 +1,10 @@
 package leetcode.leet_100_to_199.leet_100_same_tree
 
-import data_structures.data_structures.TreeNode
+import data_structures.TreeNode
 
 /**
+ * leetcode - https://leetcode.com/problems/same-tree/
+ *
  * Using recursion
  *
  * Stats
@@ -16,31 +18,54 @@ fun isSameTree(p: TreeNode?, q: TreeNode?): Boolean {
     return (p?.`val` == q?.`val`) && isSameTree(p?.left, q?.left) && isSameTree(p?.right, q?.right)
 }
 
-private fun mergeTrees(root1: TreeNode?, root2: TreeNode?): TreeNode? {
-    if (root1 == null) {
-        return root2
+/**
+ * leetcode - https://leetcode.com/problems/same-tree/
+ *
+ * Using iteration
+ *
+ * Stats
+ * TODO-Abhi: To complete
+ */
+private fun isSameTreeUsingDeque(p: TreeNode?, q: TreeNode?): Boolean {
+    if (p == null && q == null) {
+        return true
     }
-    if (root2 == null) {
-        return root1
+    if (p == null || q == null) {
+        return false
     }
-    val result = TreeNode(root1.`val` + root2.`val`).apply {
-        left = merge(root1.left, root2.left)
-        right = merge(root1.right, root2.right)
+    val dequeP = ArrayDeque<TreeNode>()
+    val dequeQ = ArrayDeque<TreeNode>()
+    var tempP: TreeNode
+    var tempQ: TreeNode
+    dequeP.addLast(p)
+    dequeP.addLast(q)
+    while (dequeP.isNotEmpty() && dequeQ.isNotEmpty()) {
+        tempP = dequeP.removeFirst()
+        tempQ = dequeQ.removeFirst()
+        if (tempP.`val` != tempQ.`val`) {
+            return false
+        }
+        if (tempP.left == null && tempQ.left == null) {
+            //
+        } else if (tempP.left == null || tempQ.left == null) {
+            return false
+        } else {
+            dequeP.addLast(tempP.left!!)
+            dequeQ.addLast(tempQ.left!!)
+        }
+        if (tempP.right == null && tempQ.right == null) {
+            //
+        } else if (tempP.right == null || tempQ.right == null) {
+            return false
+        } else {
+            dequeP.addLast(tempP.right!!)
+            dequeQ.addLast(tempQ.right!!)
+        }
     }
-    return result
-}
-
-private fun merge(root1: TreeNode?, root2: TreeNode?): TreeNode? {
-    if (root1 == null) {
-        return root2
+    if (dequeP.isNotEmpty() || dequeQ.isNotEmpty()) {
+        return false
     }
-    if (root2 == null) {
-        return root1
-    }
-    return TreeNode(root1.`val` + root2.`val`).apply {
-        left = merge(root1.left, root2.left)
-        right = merge(root1.right, root2.right)
-    }
+    return true
 }
 
 private fun main() {
