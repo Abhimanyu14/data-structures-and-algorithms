@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    val name = "111. Minimum Depth of Binary Tree"
+    val name = "46. Permutations"
         .replace("-", "_")
         .replace("(", "")
         .replace(")", "")
