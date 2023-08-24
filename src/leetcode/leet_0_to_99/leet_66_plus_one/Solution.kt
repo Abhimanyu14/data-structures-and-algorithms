@@ -1,6 +1,8 @@
 package leetcode.leet_0_to_99.leet_66_plus_one
 
 /**
+ * leetcode - https://leetcode.com/problems/plus-one/
+ *
  * Stats
  * Runtime: 192 ms, faster than 29.71%
  * Memory Usage: 36.6 MB, less than 19.17%

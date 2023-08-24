@@ -1,5 +1,10 @@
 package leetcode.leet_0_to_99.leet_59_merge_intervals
 
+/**
+ * leetcode - https://leetcode.com/problems/merge-intervals/
+ *
+ * Stats
+ */
 fun merge(intervals: Array<IntArray>): Array<IntArray> {
     val result = intervals.sortedBy { it[0] }.toMutableList()
     var i = 0
