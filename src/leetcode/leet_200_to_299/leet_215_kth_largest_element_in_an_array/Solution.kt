@@ -2,6 +2,11 @@ package leetcode.leet_200_to_299.leet_215_kth_largest_element_in_an_array
 
 import algorithms.searching.quickSelectDriver
 
+/**
+ * leetcode - https://leetcode.com/problems/kth-largest-element-in-an-array/
+ *
+ * Using Quick Select
+ */
 fun findKthLargest(nums: IntArray, k: Int): Int {
     return quickSelectDriver(nums, nums.size - k + 1)
 }

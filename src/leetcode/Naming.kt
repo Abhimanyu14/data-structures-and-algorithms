@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    val name = "86. Partition List"
+    val name = "65. Valid Number"
         .replace("-", "_")
         .replace("(", "")
         .replace(")", "")
