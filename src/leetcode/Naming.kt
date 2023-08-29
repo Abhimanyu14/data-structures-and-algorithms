@@ -1,7 +1,11 @@
 package leetcode
 
 private fun main() {
-    val name = "65. Valid Number"
+    println(formatLeetcodeTitle("2483. Minimum Penalty for a Shop"))
+}
+
+private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
+    val result = title
         .replace("-", "_")
         .replace("(", "")
         .replace(")", "")
@@ -9,5 +13,5 @@ private fun main() {
         .replace("'", "_")
         .replace(" ", "_")
         .lowercase()
-    println("leet_$name")
+    return "leet_$result"
 }

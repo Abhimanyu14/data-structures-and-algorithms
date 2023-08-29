@@ -14,12 +14,6 @@ private class MyStack() {
     var top: Int = 0
 
     fun push(x: Int) {
-        var str = "*"
-        when (str) {
-            "*" -> {
-
-            }
-        }
         top = x
         queue.addLast(x)
     }
@@ -38,9 +32,8 @@ private class MyStack() {
     fun empty(): Boolean {
         return queue.isEmpty()
     }
-
 }
 
 private fun main() {
-    println("*".toInt())
+
 }

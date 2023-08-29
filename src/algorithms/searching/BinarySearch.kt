@@ -1,5 +1,9 @@
 package algorithms.searching
 
+/**
+ * Note:
+ * 1. Use val mid = low + (high - low) / 2 instead of val mid = (high + low) / 2
+ */
 fun binarySearch(arr: IntArray, low: Int, high: Int, element: Int): Int {
     if (high < low) {
         return -1
