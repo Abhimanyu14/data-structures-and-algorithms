@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2483. Minimum Penalty for a Shop"))
+    println(formatLeetcodeTitle("141. Linked List Cycle"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {

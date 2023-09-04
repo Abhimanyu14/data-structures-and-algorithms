@@ -5,6 +5,10 @@ import data_structures.linkedlist.createLinkedList
 import data_structures.linkedlist.lastNode
 
 /**
+ * leetcode - https://leetcode.com/problems/linked-list-cycle/
+ *
+ * Using Floyd's Cycle Finding Algorithm
+ *
  * Stats
  * Runtime: 188 ms, faster than 62.99%
  * Memory Usage: 36.9 MB, less than 33.45%
