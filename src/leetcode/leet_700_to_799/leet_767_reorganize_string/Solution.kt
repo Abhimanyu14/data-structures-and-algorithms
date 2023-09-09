@@ -1,6 +1,6 @@
 package leetcode.leet_700_to_799.leet_767_reorganize_string
 
-import java.util.*
+import java.util.PriorityQueue
 
 /**
  * leetcode - https://leetcode.com/problems/reorganize-string/

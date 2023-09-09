@@ -1,7 +1,5 @@
 package leetcode.leet_1400_to_1499.leet_1418_display_table_of_food_orders_in_a_restaurant
 
-import java.util.*
-
 /**
  * leetcode - https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/
  *

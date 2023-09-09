@@ -1,33 +1,63 @@
 package data_structures
 
-import java.util.LinkedList
-import java.util.Queue
-
 class TreeNode(var `val`: Int) {
     var left: TreeNode? = null
     var right: TreeNode? = null
 }
 
 fun createBinaryTree(list: List<Int?>): TreeNode? {
-    if (list.isEmpty()) {
+    if (list.isEmpty() || list[0] == null) {
         return null
     }
-    val q: Queue<TreeNode?> = LinkedList()
+
     val first = list[0] ?: return null
     val root = TreeNode(first)
-    q.add(root)
-    var index = 1
-    while (q.isNotEmpty() && index <= list.lastIndex) {
-        val top = q.remove()
-        if (list[index] != null) {
-            top?.left = TreeNode(list[index] ?: 0)
+
+    var aheadIndex = 1
+    var currentNode: TreeNode
+
+    val queue = ArrayDeque<TreeNode>()
+    queue.addLast(root)
+
+    while (queue.isNotEmpty()) {
+        currentNode = queue.removeFirst()
+
+        currentNode.left = list[aheadIndex]?.run {
+            TreeNode(this)
         }
-        if (index + 1 <= list.lastIndex && list[index + 1] != null) {
-            top?.right = TreeNode(list[index + 1] ?: 0)
+        currentNode.left?.let {
+            queue.addLast(it)
         }
-        index += 2
+        aheadIndex++
+
+        if (aheadIndex == list.size) {
+            break
+        }
+
+        currentNode.right = list[aheadIndex]?.run {
+            TreeNode(this)
+        }
+        currentNode.right?.let {
+            queue.addLast(it)
+        }
+        aheadIndex++
     }
+
     return root
+}
+
+fun printBinaryTree(root: TreeNode?) {
+    val queue = ArrayDeque<TreeNode?>()
+    queue.addLast(root)
+    var temp: TreeNode?
+    while (queue.isNotEmpty()) {
+        temp = queue.removeFirst()
+        print("${temp?.`val`} ")
+        if (temp != null) {
+            queue.addLast(temp.left)
+            queue.addLast(temp.right)
+        }
+    }
 }
 
 fun TreeNode?.height(height: Int = -1): Int {

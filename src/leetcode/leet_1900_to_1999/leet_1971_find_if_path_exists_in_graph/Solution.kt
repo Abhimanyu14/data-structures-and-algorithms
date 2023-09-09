@@ -122,7 +122,7 @@ private fun validPathUsingDFS(n: Int, edges: Array<IntArray>, source: Int, desti
 /**
  * leetcode - https://leetcode.com/problems/find-if-path-exists-in-graph/
  *
- * Using DSU (Disjoint Set Union)
+ * Using DSU (Disjoint Set Union) aka Union Find
  * Linked List
  * Queue - offer(), poll()
  * Map - computeIfAbsent(), getOrDefault()
@@ -146,7 +146,7 @@ private class UnionFind(
 
     fun union(x: Int, y: Int) {
         val rootX = find(x)
-        val rootY = find(x)
+        val rootY = find(y)
     }
 }
 

@@ -1,6 +1,8 @@
 package leetcode.leet_100_to_199.leet_118_pascal_s_triangle
 
 /**
+ * leetcode - https://leetcode.com/problems/pascals-triangle/
+ *
  * Using loops
  *
  * Stats

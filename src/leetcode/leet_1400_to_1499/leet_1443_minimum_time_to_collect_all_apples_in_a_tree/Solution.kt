@@ -15,7 +15,7 @@ class MyTreeNode(
     val adjacent: MutableList<MyTreeNode> = mutableListOf()
 )
 
-class Solution {
+private class Solution {
     fun minTime(n: Int, edges: Array<IntArray>, hasApple: List<Boolean>): Int {
         val nodes = mutableMapOf<Int, MyTreeNode>()
         edges.forEach {

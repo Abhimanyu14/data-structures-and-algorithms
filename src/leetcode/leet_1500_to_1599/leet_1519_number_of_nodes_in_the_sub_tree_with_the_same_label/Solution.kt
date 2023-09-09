@@ -47,7 +47,7 @@ private fun countSubTreesUsingDfs(n: Int, edges: Array<IntArray>, labels: String
  * Runtime: 1445 ms, faster than 100.00%
  * Memory Usage: 133 MB, less than 100.00%
  */
-internal class Solution {
+private class Solution {
     fun countSubTrees(n: Int, edges: Array<IntArray>, labels: String): IntArray {
         val adj: MutableMap<Int, MutableSet<Int>> = mutableMapOf()
         edges.forEach { edge ->

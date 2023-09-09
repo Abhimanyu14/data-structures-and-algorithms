@@ -4,7 +4,8 @@ import kotlin.math.max
 
 /**
  * leetcode - https://leetcode.com/problems/candy/
- * TODO-Abhi: To complete
+ *
+ * TODO(Abhi) - To complete
  *
  * Using
  *

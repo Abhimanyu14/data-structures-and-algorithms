@@ -1,5 +1,7 @@
 package data_structures.array
 
+import data_structures.linkedlist.ListNode
+
 private fun main() {
     // Empty immutable array
     val emptyArray = arrayOf<Int>()
@@ -31,6 +33,11 @@ private fun main() {
     val longArray = longArrayOf(12, 23)
 
     /**
+     * Objects array with given size
+     */
+    val listNodesArray = arrayOfNulls<ListNode?>(10)
+
+    /**
      * Array traversal
      */
     println("Array Traversal")
@@ -38,5 +45,5 @@ private fun main() {
         println(i)
     }
     readLine()
-    
+
 }
