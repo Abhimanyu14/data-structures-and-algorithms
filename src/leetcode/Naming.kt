@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2492. Minimum Score of a Path Between Two Cities"))
+    println(formatLeetcodeTitle("48. Rotate Image"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
