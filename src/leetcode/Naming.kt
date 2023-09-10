@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("48. Rotate Image"))
+    println(formatLeetcodeTitle("1828. Queries on Number of Points Inside a Circle"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {

@@ -1,8 +1,18 @@
-package leetcode.leet_1800_to_1899.leet_1823_queries_on_number_of_points_inside_a_circle
+package leetcode.leet_1800_to_1899.leet_1828_queries_on_number_of_points_inside_a_circle
 
 import kotlin.math.pow
 import kotlin.math.sqrt
 
+/**
+ * leetcode - https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
+ *
+ * TODO(Abhi) - To complete
+ *
+ * Using
+ *
+ * Stats
+ *
+ */
 fun countPoints(points: Array<IntArray>, queries: Array<IntArray>): IntArray {
     val result = IntArray(queries.size)
     var count: Int
