@@ -1,6 +1,6 @@
 package leetcode.leet_700_to_799.leet_783_minimum_distance_between_bst_nodes
 
-import data_structures.TreeNode
+import data_structures_and_algorithms.TreeNode
 import leetcode.leet_0_to_99.leet_94_binary_tree_inorder_traversal.bstInorderTraversal
 import kotlin.math.abs
 

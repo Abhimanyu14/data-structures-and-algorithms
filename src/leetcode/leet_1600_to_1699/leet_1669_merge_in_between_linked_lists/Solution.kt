@@ -1,6 +1,6 @@
 package leetcode.leet_1600_to_1699.leet_1669_merge_in_between_linked_lists
 
-import data_structures.linkedlist.ListNode
+import data_structures_and_algorithms.linkedlist.ListNode
 
 /**
  * WIP

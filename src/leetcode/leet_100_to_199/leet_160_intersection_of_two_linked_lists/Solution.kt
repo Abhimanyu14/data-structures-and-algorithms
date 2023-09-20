@@ -1,6 +1,6 @@
 package leetcode.leet_100_to_199.leet_160_intersection_of_two_linked_lists
 
-import data_structures.linkedlist.ListNode
+import data_structures_and_algorithms.linkedlist.ListNode
 import kotlin.math.abs
 
 /**

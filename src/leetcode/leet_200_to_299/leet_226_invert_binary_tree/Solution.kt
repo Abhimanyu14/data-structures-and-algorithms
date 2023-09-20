@@ -1,6 +1,6 @@
 package leetcode.leet_200_to_299.leet_226_invert_binary_tree
 
-import data_structures.TreeNode
+import data_structures_and_algorithms.TreeNode
 
 /**
  * Using recursion

@@ -1,8 +1,8 @@
 package leetcode.leet_200_to_299.leet_206_reverse_linked_list
 
-import data_structures.linkedlist.createLinkedList
-import data_structures.linkedlist.reverseList
-import data_structures.linkedlist.printLinkedList
+import data_structures_and_algorithms.linkedlist.createLinkedList
+import data_structures_and_algorithms.linkedlist.reverseList
+import data_structures_and_algorithms.linkedlist.printLinkedList
 
 /**
  * leetcode - https://leetcode.com/problems/reverse-linked-list/

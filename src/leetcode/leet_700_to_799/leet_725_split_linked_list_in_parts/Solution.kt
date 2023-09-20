@@ -1,6 +1,6 @@
 package leetcode.leet_700_to_799.leet_725_split_linked_list_in_parts
 
-import data_structures.linkedlist.ListNode
+import data_structures_and_algorithms.linkedlist.ListNode
 
 /**
  * leetcode - https://leetcode.com/problems/split-linked-list-in-parts/

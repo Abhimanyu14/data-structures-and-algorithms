@@ -1,6 +1,6 @@
 package leetcode.leet_300_to_399.leet_328_odd_even_linked_list
 
-import data_structures.linkedlist.ListNode
+import data_structures_and_algorithms.linkedlist.ListNode
 
 /**
  * Using linked list

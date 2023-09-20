@@ -1,8 +1,8 @@
 package leetcode.leet_200_to_299.leet_237_delete_node_in_a_linked_ist
 
-import data_structures.linkedlist.ListNode
-import data_structures.linkedlist.createLinkedList
-import data_structures.linkedlist.printLinkedList
+import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures_and_algorithms.linkedlist.createLinkedList
+import data_structures_and_algorithms.linkedlist.printLinkedList
 
 /**
  * Stats

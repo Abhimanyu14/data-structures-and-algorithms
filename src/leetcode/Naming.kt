@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1828. Queries on Number of Points Inside a Circle"))
+    println(formatLeetcodeTitle("1658. Minimum Operations to Reduce X to Zero"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {

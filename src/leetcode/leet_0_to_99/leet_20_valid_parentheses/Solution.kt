@@ -5,6 +5,39 @@ import java.util.Stack
 /**
  * leetcode - https://leetcode.com/problems/valid-parentheses/
  *
+ * Using Stack - Array Deque
+ *
+ * Stats
+ * Runtime: 296 ms, faster than 22.56%
+ * Memory Usage: 36 MB, less than 21.14%
+ */
+private fun isValid(s: String): Boolean {
+    if (s.length % 2 != 0) {
+        return false
+    }
+    val closeMap = mapOf(
+        ')' to '(',
+        '}' to '{',
+        ']' to '['
+    )
+    val stack = ArrayDeque<Char>()
+    s.forEach { char ->
+        if (closeMap.contains(char)) {
+            if (!stack.isEmpty() && stack.last() == closeMap[char]) {
+                stack.removeLast()
+            } else {
+                return false
+            }
+        } else {
+            stack.addLast(char)
+        }
+    }
+    return stack.isEmpty()
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/valid-parentheses/
+ *
  * Using Java Stack
  *
  * Stats
@@ -32,40 +65,6 @@ private fun isValidUsingJavaStack(s: String): Boolean {
                 return false
             }
             stack.pop()
-        }
-    }
-    return stack.isEmpty()
-}
-
-/**
- * leetcode - https://leetcode.com/problems/valid-parentheses/
- *
- * Using Stack - Array Deque
- *
- * Stats
- * Runtime: 296 ms, faster than 22.56%
- * Memory Usage: 36 MB, less than 21.14%
- */
-private fun isValid(s: String): Boolean {
-    val stack = ArrayDeque<Char>()
-    val openMap = mapOf(
-        '(' to ')',
-        '{' to '}',
-        '[' to ']'
-    )
-    val closeMap = mapOf(
-        ')' to '(',
-        '}' to '{',
-        ']' to '['
-    )
-
-    for (c in s) {
-        if (openMap.contains(c)) {
-            stack.addLast(c)
-        } else if (closeMap.contains(c) && !stack.isEmpty() && stack.last() == closeMap[c]) {
-            stack.removeLast()
-        } else {
-            return false
         }
     }
     return stack.isEmpty()

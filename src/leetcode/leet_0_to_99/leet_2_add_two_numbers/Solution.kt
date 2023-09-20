@@ -1,8 +1,8 @@
 package leetcode.leet_0_to_99.leet_2_add_two_numbers
 
-import data_structures.linkedlist.ListNode
-import data_structures.linkedlist.createLinkedList
-import data_structures.linkedlist.printLinkedList
+import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures_and_algorithms.linkedlist.createLinkedList
+import data_structures_and_algorithms.linkedlist.printLinkedList
 
 /**
  * leetcode - https://leetcode.com/problems/add-two-numbers/

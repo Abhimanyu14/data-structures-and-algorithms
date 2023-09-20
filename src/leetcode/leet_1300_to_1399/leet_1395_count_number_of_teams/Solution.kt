@@ -1,6 +1,6 @@
 package leetcode.leet_1300_to_1399.leet_1395_count_number_of_teams
 
-import algorithms.maths.combination
+import data_structures_and_algorithms.maths.combination
 
 // TODO: To complete
 fun numTeams(rating: IntArray): Int {

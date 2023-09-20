@@ -1,6 +1,6 @@
 package leetcode.leet_100_to_199.leet_111_minimum_depth_of_binary_tree
 
-import data_structures.TreeNode
+import data_structures_and_algorithms.TreeNode
 import java.util.LinkedList
 import java.util.Queue
 import kotlin.math.min

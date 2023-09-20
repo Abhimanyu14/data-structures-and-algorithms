@@ -1,6 +1,6 @@
 package leetcode.leet_100_to_199.leet_104_maximum_depth_of_binary_tree
 
-import data_structures.TreeNode
+import data_structures_and_algorithms.TreeNode
 import kotlin.math.max
 
 /**

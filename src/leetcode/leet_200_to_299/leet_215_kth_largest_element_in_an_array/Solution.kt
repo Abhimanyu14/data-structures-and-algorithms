@@ -1,6 +1,6 @@
 package leetcode.leet_200_to_299.leet_215_kth_largest_element_in_an_array
 
-import algorithms.searching.quickSelectDriver
+import data_structures_and_algorithms.searching.quickSelectDriver
 
 /**
  * leetcode - https://leetcode.com/problems/kth-largest-element-in-an-array/

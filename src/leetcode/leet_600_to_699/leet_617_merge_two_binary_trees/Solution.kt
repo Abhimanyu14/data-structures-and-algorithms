@@ -1,6 +1,6 @@
 package leetcode.leet_600_to_699.leet_617_merge_two_binary_trees
 
-import data_structures.TreeNode
+import data_structures_and_algorithms.TreeNode
 
 /**
  * Using recursion

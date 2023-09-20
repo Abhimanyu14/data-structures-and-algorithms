@@ -1,6 +1,6 @@
 package leetcode.leet_900_to_999.leet_938_range_sum_of_bst
 
-import data_structures.TreeNode
+import data_structures_and_algorithms.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/range-sum-of-bst/

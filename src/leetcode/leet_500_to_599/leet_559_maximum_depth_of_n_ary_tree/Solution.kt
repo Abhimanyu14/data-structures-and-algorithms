@@ -1,6 +1,6 @@
 package leetcode.leet_500_to_599.leet_559_maximum_depth_of_n_ary_tree
 
-import data_structures.Node
+import data_structures_and_algorithms.Node
 
 /**
  * Using recursion

@@ -1,6 +1,6 @@
 package leetcode.leet_100_to_199.leet_114_flatten_binary_tree_to_linked_list
 
-import data_structures.TreeNode
+import data_structures_and_algorithms.TreeNode
 
 /**
  * Using pointers and loops

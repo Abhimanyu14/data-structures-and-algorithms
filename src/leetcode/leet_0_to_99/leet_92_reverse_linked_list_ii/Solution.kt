@@ -1,6 +1,6 @@
 package leetcode.leet_0_to_99.leet_92_reverse_linked_list_ii
 
-import data_structures.linkedlist.ListNode
+import data_structures_and_algorithms.linkedlist.ListNode
 
 
 /**

@@ -1,6 +1,6 @@
 package leetcode.leet_0_to_99.leet_83_remove_duplicates_from_sorted_list
 
-import data_structures.linkedlist.ListNode
+import data_structures_and_algorithms.linkedlist.ListNode
 
 /**
  * Using two pointer

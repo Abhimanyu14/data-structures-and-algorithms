@@ -5,12 +5,13 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/candy/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
- * Using
+ * Using slope
  *
  * Stats
- *
+ * Runtime: 239 ms, faster than 56.48%
+ * Memory Usage: 39.5 MB, less than 74.07%
  */
 private fun count(n: Int): Int {
     return n * (n + 1) / 2

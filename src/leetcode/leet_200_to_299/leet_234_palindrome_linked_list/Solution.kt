@@ -1,7 +1,7 @@
 package leetcode.leet_200_to_299.leet_234_palindrome_linked_list
 
-import data_structures.linkedlist.ListNode
-import data_structures.linkedlist.createLinkedList
+import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures_and_algorithms.linkedlist.createLinkedList
 
 /**
  * Using recursion

@@ -1,6 +1,6 @@
 package leetcode.leet_800_to_899.leet_863_all_nodes_distance_k_in_binary_tree
 
-import data_structures.TreeNode
+import data_structures_and_algorithms.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/

@@ -1,6 +1,6 @@
 package leetcode.leet_0_to_99.leet_19_remove_nth_node_from_end_of_list
 
-import data_structures.linkedlist.ListNode
+import data_structures_and_algorithms.linkedlist.ListNode
 
 /**
  * leetcode - https://leetcode.com/problems/remove-nth-node-from-end-of-list/

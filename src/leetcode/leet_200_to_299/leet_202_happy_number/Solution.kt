@@ -1,6 +1,6 @@
 package leetcode.leet_200_to_299.leet_202_happy_number
 
-import algorithms.number.toDigits
+import data_structures_and_algorithms.number.toDigits
 
 /**
  * Stats

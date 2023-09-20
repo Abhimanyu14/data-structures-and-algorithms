@@ -1,6 +1,6 @@
 package leetcode.leet_500_to_599.leet_530_minimum_absolute_difference_in_bst
 
-import data_structures.TreeNode
+import data_structures_and_algorithms.TreeNode
 
 /**
  * Using BST inorder traversal and loop

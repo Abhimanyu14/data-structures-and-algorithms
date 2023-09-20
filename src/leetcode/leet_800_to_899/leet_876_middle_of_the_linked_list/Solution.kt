@@ -1,6 +1,6 @@
 package leetcode.leet_800_to_899.leet_876_middle_of_the_linked_list
 
-import data_structures.linkedlist.ListNode
+import data_structures_and_algorithms.linkedlist.ListNode
 
 /**
  * Using list size
