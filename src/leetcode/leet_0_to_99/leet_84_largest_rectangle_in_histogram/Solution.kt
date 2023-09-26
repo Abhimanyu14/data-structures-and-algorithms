@@ -6,18 +6,40 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/largest-rectangle-in-histogram/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using monotonic stack
  *
  * Stats
+ * Runtime: 541 ms, faster than 26.40%
+ * Memory Usage: 53.8 MB, less than 32.80%
  */
-
+fun largestRectangleArea(heights: IntArray): Int {
+    if (heights.size == 1) {
+        return heights[0]
+    }
+    val stack = ArrayDeque<Pair<Int, Int>>()
+    var maxArea = Int.MIN_VALUE
+    var temp: Pair<Int, Int>
+    var start = 0
+    heights.forEachIndexed { index, height ->
+        start = index
+        while (stack.isNotEmpty() && height < stack.last().second) {
+            temp = stack.removeLast()
+            maxArea = max(maxArea, (index - temp.first) * temp.second)
+            start = temp.first
+        }
+        stack.addLast(Pair(start, height))
+    }
+    while (stack.isNotEmpty()) {
+        temp = stack.removeLast()
+        maxArea = max(maxArea, (heights.size - temp.first) * temp.second)
+    }
+    return maxArea
+}
 
 /**
  * leetcode - https://leetcode.com/problems/largest-rectangle-in-histogram/
- *
- * TODO(Abhi) - To complete
  *
  * Using brute force
  *

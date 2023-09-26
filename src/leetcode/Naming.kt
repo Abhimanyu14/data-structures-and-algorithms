@@ -1,7 +1,8 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1658. Minimum Operations to Reduce X to Zero"))
+    println(formatLeetcodeTitle("316. Remove Duplicate Letters"))
+    println(formatLeetcodeTitle("1081. Smallest Subsequence of Distinct Characters"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {

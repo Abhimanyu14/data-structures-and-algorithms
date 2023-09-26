@@ -37,6 +37,33 @@ private fun asteroidCollision(asteroids: IntArray): IntArray {
     return deque.toIntArray()
 }
 
+/**
+ * leetcode - https://leetcode.com/problems/asteroid-collision/
+ *
+ * Using stack - deque
+ *
+ * Stats
+ * Runtime: 260 ms, faster than 39.44%
+ * Memory Usage: 40.5 MB, less than 30.00%
+ */
+private fun asteroidCollisionFunctionalProgramming(asteroids: IntArray): IntArray {
+    val stack = ArrayDeque<Int>()
+    asteroids.forEach { asteroid ->
+        while (stack.isNotEmpty() && (asteroid < 0 && stack.last() > 0)) {
+            if (abs(stack.last()) == abs(asteroid)) {
+                stack.removeLast()
+                return@forEach
+            } else if (abs(stack.last()) < abs(asteroid)) {
+                stack.removeLast()
+            } else {
+                return@forEach
+            }
+        }
+        stack.addLast(asteroid)
+    }
+    return stack.toIntArray()
+}
+
 private fun main() {
     println(asteroidCollision(intArrayOf(5, 10, -5)).joinToString(", "))
     println(asteroidCollision(intArrayOf(8, -8)).joinToString(", "))

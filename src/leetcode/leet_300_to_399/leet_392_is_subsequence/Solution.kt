@@ -1,5 +1,13 @@
 package leetcode.leet_300_to_399.leet_392_is_subsequence
 
+/**
+ * leetcode - https://leetcode.com/problems/is-subsequence/
+ *
+ * Using
+ *
+ * Stats
+ *
+ */
 fun memoryEfficientIsSubsequence(s: String, t: String): Boolean {
     var i = 0
     t.forEach {
@@ -10,25 +18,28 @@ fun memoryEfficientIsSubsequence(s: String, t: String): Boolean {
             i++
         }
     }
-    if (i == s.length) {
-        return true
-    }
-    return false
+    return i == s.length
 }
 
+/**
+ * leetcode - https://leetcode.com/problems/is-subsequence/
+ *
+ * Using two pointers
+ *
+ * Stats
+ * Runtime: 131 ms, faster than 68.55%
+ * Memory Usage: 34 MB, less than 43.97%
+ */
 fun isSubsequence(s: String, t: String): Boolean {
     var i = 0
     var j = 0
-    while (j < t.length && i < s.length) {
-        if (t[j] == s[i]) {
+    while (i < s.length && j < t.length) {
+        if (s[i] == t[j]) {
             i++
         }
         j++
     }
-    if (i == s.length) {
-        return true
-    }
-    return false
+    return i == s.length
 }
 
 private fun main() {

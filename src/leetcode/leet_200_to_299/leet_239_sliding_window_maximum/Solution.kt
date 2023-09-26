@@ -1,29 +1,36 @@
 package leetcode.leet_200_to_299.leet_239_sliding_window_maximum
 
-import java.util.PriorityQueue
-
 /**
  * leetcode - https://leetcode.com/problems/sliding-window-maximum/
  *
- * Using Sliding window
+ * Using Sliding window and stack
  *
  * Stats
- * Time Limit Exceeded
+ * Runtime: 923 ms, faster than 61.78%
+ * Memory Usage: 55.2 MB, less than 51.78%
  */
-fun maxSlidingWindow(nums: IntArray, k: Int): IntArray {
-    val priorityQueue = PriorityQueue<Int> { o1, o2 ->
-        o2 - o1
+private fun maxSlidingWindow(nums: IntArray, k: Int): IntArray {
+    val deque = ArrayDeque<Int>()
+    var i = 0
+    while (i < k) {
+        while (deque.isNotEmpty() && nums[deque.last()] <= nums[i]) {
+            deque.removeLast()
+        }
+        deque.addLast(i)
+        i++
     }
     val result = mutableListOf<Int>()
-    var start = 0
-    var end = 0
-    while(end < nums.size && end < k - 1) {
-        priorityQueue.offer(nums[end++])
-    }
-    while (end < nums.size) {
-        priorityQueue.offer(nums[end++])
-        result.add(priorityQueue.peek())
-        priorityQueue.remove(nums[start++])
+    result.add(nums[deque.first()])
+    while (i < nums.size) {
+        if (deque.first() == i - k) {
+            deque.removeFirst()
+        }
+        while (deque.isNotEmpty() && nums[deque.last()] <= nums[i]) {
+            deque.removeLast()
+        }
+        deque.addLast(i)
+        result.add(nums[deque.first()])
+        i++
     }
     return result.toIntArray()
 }

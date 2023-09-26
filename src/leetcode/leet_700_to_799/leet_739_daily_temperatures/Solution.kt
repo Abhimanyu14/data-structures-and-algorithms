@@ -3,28 +3,30 @@ package leetcode.leet_700_to_799.leet_739_daily_temperatures
 /**
  * leetcode - https://leetcode.com/problems/daily-temperatures/
  *
- * Using brute force
+ * TODO(Abhi) - To revisit
+ *
+ * Using Array
  *
  * Stats
- * Time Limit Exceeded
+ * Runtime: 537 ms, faster than 100.00%
+ * Memory Usage: 54.9 MB, less than 18.13%
  */
-private fun dailyTemperaturesBruteForce(temperatures: IntArray): IntArray {
-    for (i in temperatures.indices) {
-        var count = 1
-        for (j in i + 1..temperatures.lastIndex) {
-            if (temperatures[j] > temperatures[i]) {
-                temperatures[i] = count
-                break
-            } else {
-                count++
-                if (i + count == temperatures.size) {
-                    temperatures[i] = 0
-                }
-            }
+private fun dailyTemperatures(temperatures: IntArray): IntArray {
+    val answer = IntArray(temperatures.size)
+    var hottestTemperature = 0
+    for (currDay in temperatures.lastIndex downTo 0) {
+        // There is no hotter day on the right side and so the value will remain 0
+        if (temperatures[currDay] >= hottestTemperature) {
+            hottestTemperature = temperatures[currDay]
+            continue
         }
+        var nextCount = 1
+        while (temperatures[currDay + nextCount] <= temperatures[currDay]) {
+            nextCount += answer[currDay + nextCount]
+        }
+        answer[currDay] = nextCount
     }
-    temperatures[temperatures.lastIndex] = 0
-    return temperatures
+    return answer
 }
 
 /**
@@ -51,28 +53,28 @@ private fun dailyTemperaturesUsingMonotonicStack(temperatures: IntArray): IntArr
 /**
  * leetcode - https://leetcode.com/problems/daily-temperatures/
  *
- * Using Array
+ * Using brute force
  *
  * Stats
- * Runtime: 702 ms, faster than 98.96%
- * Memory Usage: 51.1 MB, less than 94.79%
+ * Time Limit Exceeded
  */
-private fun dailyTemperatures(temperatures: IntArray): IntArray {
-    val answer = IntArray(temperatures.size)
-    var hottest = 0
-    for (currDay in temperatures.lastIndex - 1 downTo 0) {
-        val currentTemp = temperatures[currDay]
-        if (currentTemp >= hottest) {
-            hottest = currentTemp
-            continue
+private fun dailyTemperaturesBruteForce(temperatures: IntArray): IntArray {
+    for (i in temperatures.indices) {
+        var count = 1
+        for (j in i + 1..temperatures.lastIndex) {
+            if (temperatures[j] > temperatures[i]) {
+                temperatures[i] = count
+                break
+            } else {
+                count++
+                if (i + count == temperatures.size) {
+                    temperatures[i] = 0
+                }
+            }
         }
-        var days = 1
-        while (temperatures[currDay + days] <= currentTemp) {
-            days += answer[currDay + days]
-        }
-        answer[currDay] = days
     }
-    return answer
+    temperatures[temperatures.lastIndex] = 0
+    return temperatures
 }
 
 private fun main() {

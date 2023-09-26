@@ -3,19 +3,19 @@ package leetcode.leet_0_to_99.leet_1_two_sum
 /**
  * leetcode - https://leetcode.com/problems/two-sum/
  *
- * Using loop
+ * Using diff map
  *
  * Stats
- * Runtime: 279 ms, faster than 87.54%
- * Memory Usage: 38.9 MB, less than 85.06%
+ * Runtime: 218 ms, faster than 96.60%
+ * Memory Usage: 38.2 MB, less than 87.41%
  */
-private fun twoSumUsingLoop(nums: IntArray, target: Int): IntArray {
-    for (i in nums.indices) {
-        for (j in i + 1..nums.lastIndex) {
-            if (nums[i] + nums[j] == target) {
-                return intArrayOf(i, j)
-            }
+private fun twoSum(nums: IntArray, target: Int): IntArray {
+    val diffMap = mutableMapOf<Int, Int>()
+    nums.forEachIndexed { index, num ->
+        diffMap[num]?.let {
+            return intArrayOf(it, index)
         }
+        diffMap[target - num] = index
     }
     return intArrayOf()
 }
@@ -43,19 +43,19 @@ private fun twoSumUsingMap(nums: IntArray, target: Int): IntArray {
 /**
  * leetcode - https://leetcode.com/problems/two-sum/
  *
- * Using diff map
+ * Using loop
  *
  * Stats
- * Runtime: 218 ms, faster than 96.60%
- * Memory Usage: 38.2 MB, less than 87.41%
+ * Runtime: 279 ms, faster than 87.54%
+ * Memory Usage: 38.9 MB, less than 85.06%
  */
-private fun twoSum(nums: IntArray, target: Int): IntArray {
-    val diffMap = mutableMapOf<Int, Int>()
-    nums.forEachIndexed { index, num ->
-        diffMap[num]?.let {
-            return intArrayOf(it, index)
+private fun twoSumUsingLoop(nums: IntArray, target: Int): IntArray {
+    for (i in nums.indices) {
+        for (j in i + 1..nums.lastIndex) {
+            if (nums[i] + nums[j] == target) {
+                return intArrayOf(i, j)
+            }
         }
-        diffMap[target - num] = index
     }
     return intArrayOf()
 }
