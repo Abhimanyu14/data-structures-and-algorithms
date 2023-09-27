@@ -14,9 +14,8 @@ import kotlin.math.max
 private fun maxSubArray(nums: IntArray): Int {
     var localMax = nums[0]
     var globalMax = nums[0]
-    for (i in 1 until nums.size) {
-        val num = nums[i]
-        localMax = max(num, localMax + num)
+    for (i in 1..nums.lastIndex) {
+        localMax = max(nums[i], localMax + nums[i])
         globalMax = max(globalMax, localMax)
     }
     return globalMax

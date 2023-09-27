@@ -1,14 +1,42 @@
 package leetcode.leet_200_to_299.leet_238_product_of_array_except_self
 
 /**
+ * leetcode - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+ *
+ * Using two pass
+ *
+ * Stats
+ * Runtime: 279 ms, faster than 91.35%
+ * Memory Usage: 47.5 MB, less than 93.98%
+ */
+private fun productExceptSelf(arr: IntArray): IntArray {
+    val result = IntArray(arr.size)
+    var s = 1
+    for (i in arr.indices) {
+        result[i] = s
+        s *= arr[i]
+    }
+    s = 1
+    for (i in arr.lastIndex downTo 0) {
+        result[i] *= s
+        s *= arr[i]
+    }
+    return result
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+ *
+ * Using two pointers
+ *
+ *  Stats
+ *
+ *
  * Given an array of n integers, construct a product array of the same size
  * such that the i th element of the product array is equal to the product of
  * all the elements of the original array except for the i th element.
  */
-private fun productExceptSelf(arr: IntArray): IntArray {
-    if (arr.isEmpty()) {
-        return arr
-    }
+private fun productExceptSelfUsingMap(arr: IntArray): IntArray {
     val zeroCount = arr.count { it == 0 }
     return if (zeroCount > 1) {
         IntArray(arr.size) { 0 }

@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("316. Remove Duplicate Letters"))
+    println(formatLeetcodeTitle("880. Decoded String at Index"))
     println(formatLeetcodeTitle("1081. Smallest Subsequence of Distinct Characters"))
 }
 
