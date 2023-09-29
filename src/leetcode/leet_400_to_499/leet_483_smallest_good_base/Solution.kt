@@ -1,11 +1,14 @@
 package leetcode.leet_400_to_499.leet_483_smallest_good_base
 
 /**
- * To Do
+ * leetcode - https://leetcode.com/problems/smallest-good-base/
+ *
+ * TODO(Abhi) - To complete
+ *
+ * Using
  *
  * Stats
- * Runtime:
- * Memory Usage:
+ *
  */
 fun smallestGoodBase(n: String): String {
     return ""

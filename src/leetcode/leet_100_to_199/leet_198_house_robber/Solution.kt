@@ -5,6 +5,30 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/house-robber/
  *
+ * Using two pointers
+ *
+ * Stats
+ * Runtime: 156 ms, faster than 89.86%
+ * Memory Usage: 35.5 MB, less than 28.49%
+ */
+private fun rob(nums: IntArray): Int {
+    if (nums.size == 1) {
+        return nums[0]
+    }
+    var prev = 0
+    var current = 0
+    var temp: Int
+    for (i in 0..nums.lastIndex) {
+        temp = current
+        current = max(current, prev + nums[i])
+        prev = temp
+    }
+    return current
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/house-robber/
+ *
  * Using DP - dynamic programming
  *
  * Stats
@@ -22,30 +46,6 @@ private fun robUsingDp(nums: IntArray): Int {
         dp[i] = max(dp[i - 1], dp[i - 2] + nums[i])
     }
     return dp[nums.lastIndex]
-}
-
-/**
- * leetcode - https://leetcode.com/problems/house-robber/
- *
- * Using two pointers
- *
- * Stats
- * Runtime: 156 ms, faster than 89.86%
- * Memory Usage: 35.5 MB, less than 28.49%
- */
-private fun rob(nums: IntArray): Int {
-    if (nums.size == 1) {
-        return nums[0]
-    }
-    var dpBeforePrev = nums[0]
-    var dpPrev = max(nums[0], nums[1])
-    var current = dpPrev
-    for (i in 2..nums.lastIndex) {
-        current = max(dpPrev, dpBeforePrev + nums[i])
-        dpBeforePrev = dpPrev
-        dpPrev = current
-    }
-    return current
 }
 
 private fun main() {
