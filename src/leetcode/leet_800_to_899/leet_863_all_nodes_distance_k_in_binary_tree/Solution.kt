@@ -15,37 +15,29 @@ private fun distanceK(root: TreeNode?, target: TreeNode?, k: Int): List<Int> {
     if (root == null) {
         return emptyList()
     }
-    val graph: MutableMap<Int, MutableList<Int>> = HashMap()
+    val graph = mutableMapOf<Int, MutableList<Int>>()
     val visited: MutableSet<Int> = HashSet()
     val result: MutableList<Int> = ArrayList()
 
-    fun buildGraph(cur: TreeNode, parent: TreeNode?) {
+    fun buildGraph(current: TreeNode, parent: TreeNode?) {
         if (parent != null) {
-            graph.computeIfAbsent(
-                cur.`val`
-            ) {
-                ArrayList()
-            }.add(parent.`val`)
-            graph.computeIfAbsent(
-                parent.`val`
-            ) {
-                ArrayList()
-            }.add(cur.`val`)
+            graph.computeIfAbsent(current.`val`) { mutableListOf() }.add(parent.`val`)
+            graph.computeIfAbsent(parent.`val`) { mutableListOf() }.add(current.`val`)
         }
-        cur.left?.let {
-            buildGraph(it, cur)
+        current.left?.let {
+            buildGraph(it, current)
         }
-        cur.right?.let {
-            buildGraph(it, cur)
+        current.right?.let {
+            buildGraph(it, current)
         }
     }
 
-    fun dfs(cur: Int, distance: Int, k: Int) {
+    fun dfs(current: Int, distance: Int, k: Int) {
         if (distance == k) {
-            result.add(cur)
+            result.add(current)
             return
         }
-        for (neighbor in graph.getOrDefault(cur, ArrayList())) {
+        graph[current]?.forEach { neighbor ->
             if (!visited.contains(neighbor)) {
                 visited.add(neighbor)
                 dfs(neighbor, distance + 1, k)
