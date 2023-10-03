@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("557. Reverse Words in a String III"))
+    println(formatLeetcodeTitle("1512. Number of Good Pairs"))
     println(formatLeetcodeTitle("1081. Smallest Subsequence of Distinct Characters"))
 }
 
