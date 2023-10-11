@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1458. Max Dot Product of Two Subsequences"))
+    println(formatLeetcodeTitle("2251. Number of Flowers in Full Bloom"))
     println(formatLeetcodeTitle("1081. Smallest Subsequence of Distinct Characters"))
 }
 
