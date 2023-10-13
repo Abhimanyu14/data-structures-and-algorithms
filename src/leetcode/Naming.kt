@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1095. Find in Mountain Array"))
+    println(formatLeetcodeTitle("746. Min Cost Climbing Stairs"))
     println(formatLeetcodeTitle("1081. Smallest Subsequence of Distinct Characters"))
 }
 
