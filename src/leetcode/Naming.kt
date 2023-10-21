@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("341. Flatten Nested List Iterator"))
+    println(formatLeetcodeTitle("1425. Constrained Subsequence Sum"))
     println(formatLeetcodeTitle("1081. Smallest Subsequence of Distinct Characters"))
 }
 
