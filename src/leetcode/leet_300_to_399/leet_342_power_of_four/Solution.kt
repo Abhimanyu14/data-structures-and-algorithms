@@ -1,11 +1,15 @@
 package leetcode.leet_300_to_399.leet_342_power_of_four
 
 /**
+ * leetcode - https://leetcode.com/problems/power-of-four/
+ *
+ * Using iteration
+ *
  * Stats
- * Runtime: 232 ms, faster than 51.61%
- * Memory Usage: 35.4 MB, less than 83.87%
+ * Runtime: 123 ms, faster than 95.59%
+ * Memory Usage: 34.2 MB, less than 13.24%
  */
-fun isPowerOfFour(n: Int): Boolean {
+private fun isPowerOfFour(n: Int): Boolean {
     var ele = n
     while (ele % 4 == 0 && ele > 0) {
         ele /= 4
