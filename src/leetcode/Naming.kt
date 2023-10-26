@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("515. Find Largest Value in Each Tree Row"))
+    println(formatLeetcodeTitle("823. Binary Trees With Factors"))
     println(formatLeetcodeTitle("1081. Smallest Subsequence of Distinct Characters"))
 }
 
