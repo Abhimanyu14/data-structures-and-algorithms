@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1220. Count Vowels Permutation"))
+    println(formatLeetcodeTitle("458. Poor Pigs"))
     println(formatLeetcodeTitle("1081. Smallest Subsequence of Distinct Characters"))
 }
 
