@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("458. Poor Pigs"))
+    println(formatLeetcodeTitle("2433. Find The Original Array of Prefix Xor"))
     println(formatLeetcodeTitle("1081. Smallest Subsequence of Distinct Characters"))
 }
 
