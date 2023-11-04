@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("501. Find Mode in Binary Search Tree"))
+    println(formatLeetcodeTitle("1503. Last Moment Before All Ants Fall Out of a Plank"))
     println(formatLeetcodeTitle("1081. Smallest Subsequence of Distinct Characters"))
 }
 
