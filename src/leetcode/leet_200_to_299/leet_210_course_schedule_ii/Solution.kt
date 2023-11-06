@@ -1,15 +1,15 @@
-package leetcode.leet_200_to_299.leet_207_course_schedule
+package leetcode.leet_200_to_299.leet_210_course_schedule_ii
 
 /**
- * leetcode - https://leetcode.com/problems/course-schedule/
+ * leetcode - https://leetcode.com/problems/course-schedule-ii/
  *
  * Using Topological sort - Kahn's
  *
  * Stats
- * Runtime: 255 ms, faster than 14.09%
- * Memory Usage: 44.5 MB, less than 16.49%
+ * Runtime: 271 ms, faster than 22.99%
+ * Memory Usage: 41.8 MB, less than 66.67%
  */
-private fun canFinish(numCourses: Int, prerequisites: Array<IntArray>): Boolean {
+private fun findOrder(numCourses: Int, prerequisites: Array<IntArray>): IntArray {
     val inDegrees = MutableList(numCourses) { 0 }
     val graph = mutableMapOf<Int, MutableList<Int>>()
     prerequisites.forEach {
@@ -35,7 +35,11 @@ private fun canFinish(numCourses: Int, prerequisites: Array<IntArray>): Boolean 
         }
         result.add(temp)
     }
-    return result.size == numCourses
+    return if (result.size == numCourses) {
+        result.toIntArray().reversedArray()
+    } else {
+        intArrayOf()
+    }
 }
 
 private fun main() {

@@ -1,8 +1,8 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1535. Find the Winner of an Array Game"))
-    println(formatLeetcodeTitle("1081. Smallest Subsequence of Distinct Characters"))
+    println(formatLeetcodeTitle("207. Course Schedule"))
+    println(formatLeetcodeTitle("210. Course Schedule II"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {

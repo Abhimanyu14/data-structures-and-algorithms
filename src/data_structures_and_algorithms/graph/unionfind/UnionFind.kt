@@ -1,4 +1,4 @@
-package data_structures_and_algorithms.unionfind
+package data_structures_and_algorithms.graph.unionfind
 
 class UnionFind(
     val n: Int,
