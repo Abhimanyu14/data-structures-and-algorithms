@@ -3,14 +3,46 @@ package leetcode.leet_2100_to_2199.leet_2115_find_all_possible_recipes_from_give
 /**
  * leetcode - https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/
  *
- * TODO-Abhi: WIP
- *
- * Using
+ * Using list, set, recursion
  *
  * Stats
- *
+ * Runtime: 430 ms, faster than 100.00%
+ * Memory Usage: 50.7 MB, less than 58.33%
  */
 private fun findAllRecipes(
+    recipes: Array<String>,
+    ingredients: List<List<String>>,
+    supplies: Array<String>,
+): List<String> {
+    val recipesSet = recipes.toSet()
+    val suppliesSet = supplies.toSet()
+    val recipeMap = recipes.zip(ingredients).toMap()
+    val canCreateMemo = mutableMapOf<String, Boolean>()
+    val checkingSet = mutableSetOf<String>()
+
+    fun canCreate(recipe: String): Boolean {
+        canCreateMemo[recipe]?.let {
+            return it
+        }
+        if (checkingSet.contains(recipe)) {
+            canCreateMemo[recipe] = false
+            return false
+        }
+        checkingSet.add(recipe)
+        recipeMap[recipe]?.forEach {
+            if (!suppliesSet.contains(it) && (!recipesSet.contains(it) || !canCreate(it))) {
+                canCreateMemo[recipe] = false
+                return false
+            }
+        }
+        canCreateMemo[recipe] = true
+        return true
+    }
+
+    return recipes.filter { canCreate(it) }
+}
+
+private fun findAllRecipes1(
     recipes: Array<String>,
     ingredients: List<List<String>>,
     supplies: Array<String>,
