@@ -3,11 +3,11 @@ package leetcode.leet_600_to_699.leet_684_redundant_connection
 /**
  * leetcode - https://leetcode.com/problems/redundant-connection/
  *
- * Using UnionFind (DSU)
+ * Using UnionFind (DSU) - Disjoint Set Union
  *
  * Stats
- * Runtime: 194 ms, faster than 18.37%
- * Memory Usage: 36.5 MB, less than 81.63%
+ * Runtime: 178 ms, faster than 38.33%
+ * Memory Usage: 36.5 MB, less than 98.33%
  */
 private class UnionFind(
     val n: Int,
@@ -22,12 +22,12 @@ private class UnionFind(
         return root[x]
     }
 
-    fun union(x: Int, y: Int): Int {
+    fun union(x: Int, y: Int): Boolean {
         var rootX = find(x)
         var rootY = find(y)
 
         return if (rootX == rootY) {
-            0
+            true
         } else {
             if (rank[rootX] < rank[rootY]) {
                 rootX = rootY.also {
@@ -40,15 +40,7 @@ private class UnionFind(
             if (rank[rootX] == rank[rootY]) {
                 rank[rootX]++
             }
-            1
-        }
-    }
-
-    fun findAll(): List<Int> {
-        return buildList {
-            repeat(n) {
-                add(find(it))
-            }
+            false
         }
     }
 }
@@ -56,7 +48,7 @@ private class UnionFind(
 private fun findRedundantConnection(edges: Array<IntArray>): IntArray {
     val unionFind = UnionFind(edges.size)
     edges.forEach {
-        if (unionFind.union(it[0] - 1, it[1] - 1) == 0) {
+        if (unionFind.union(it[0] - 1, it[1] - 1)) {
             return it
         }
     }

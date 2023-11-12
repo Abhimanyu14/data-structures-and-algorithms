@@ -6,6 +6,7 @@ package leetcode.leet_400_to_499.leet_444_sequence_reconstruction
  * TODO(Abhi) - To complete
  *
  * Using Topological sort
+ * Use contentEquals for array content equality check
  *
  * Stats
  * Runtime: 475 ms, faster than 47.06%

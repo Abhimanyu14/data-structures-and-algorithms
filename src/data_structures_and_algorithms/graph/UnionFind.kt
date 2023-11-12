@@ -1,4 +1,4 @@
-package data_structures_and_algorithms.graph.unionfind
+package data_structures_and_algorithms.graph
 
 class UnionFind(
     val n: Int,
@@ -45,7 +45,7 @@ class UnionFind(
     }
 }
 
-fun main() {
+private fun main() {
     val unionFind = UnionFind(5)
     println(unionFind.findAll().joinToString(", "))
     unionFind.union(0, 1)
