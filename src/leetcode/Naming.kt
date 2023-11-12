@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("962. Maximum Width Ramp"))
+    println(formatLeetcodeTitle("815. Bus Routes"))
     println(formatLeetcodeTitle("50. Pow(x, n)"))
 }
 

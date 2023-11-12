@@ -3,7 +3,8 @@ package leetcode.leet_0_to_99.leet_69_sqrtx
 /**
  * leetcode - https://leetcode.com/problems/sqrtx/
  *
- * TODO-Abhi: Revise
+ * TODO-Abhi: To revisit
+ *
  * Using binary search
  *
  * Stats
