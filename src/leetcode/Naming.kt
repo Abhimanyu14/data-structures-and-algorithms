@@ -1,8 +1,8 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("815. Bus Routes"))
-    println(formatLeetcodeTitle("50. Pow(x, n)"))
+    println(formatLeetcodeTitle("2785. Sort Vowels in a String"))
+    println(formatLeetcodeTitle("52. N-Queens II"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
