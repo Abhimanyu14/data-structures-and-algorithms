@@ -15,7 +15,6 @@ import kotlin.math.max
  * Memory Usage: 55 MB, less than 32.29%
  */
 private fun networkDelayTime(times: Array<IntArray>, n: Int, k: Int): Int {
-
     val graph = mutableMapOf<Int, MutableList<Pair<Int, Int>>>()
     times.forEach { (from, to, weight) ->
         graph.computeIfAbsent(from) {
