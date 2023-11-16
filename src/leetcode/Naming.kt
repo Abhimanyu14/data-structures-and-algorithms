@@ -1,8 +1,8 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2785. Sort Vowels in a String"))
-    println(formatLeetcodeTitle("52. N-Queens II"))
+    println(formatLeetcodeTitle("1980. Find Unique Binary String"))
+    println(formatLeetcodeTitle("1631. Path With Minimum Effort"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
