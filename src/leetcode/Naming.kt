@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1980. Find Unique Binary String"))
+    println(formatLeetcodeTitle("743. Network Delay Time"))
     println(formatLeetcodeTitle("1631. Path With Minimum Effort"))
 }
 
