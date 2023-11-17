@@ -3,7 +3,7 @@ package leetcode.leet_800_to_899.leet_881_boats_to_save_people
 /**
  * leetcode - https://leetcode.com/problems/boats-to-save-people/
  *
- * Using two pointers - greedy
+ * Using sorting and two pointers - greedy
  *
  * Stats
  * Runtime: 396 ms, faster than 81.25%
