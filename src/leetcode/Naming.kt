@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1887. Reduction Operations to Make the Array Elements Equal"))
+    println(formatLeetcodeTitle("2391. Minimum Amount of Time to Collect Garbage"))
     println(formatLeetcodeTitle("1631. Path With Minimum Effort"))
 }
 
