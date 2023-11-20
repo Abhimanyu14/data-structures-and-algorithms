@@ -5,9 +5,7 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/
  *
- * TODO(Abhi) - To complete
- *
- * Using
+ * Using iteration
  *
  * Stats
  * Runtime: 529 ms, faster than 80.00%
