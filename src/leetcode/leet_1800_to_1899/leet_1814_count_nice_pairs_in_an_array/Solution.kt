@@ -1,6 +1,5 @@
 package leetcode.leet_1800_to_1899.leet_1814_count_nice_pairs_in_an_array
 
-
 /**
  * leetcode - https://leetcode.com/problems/count-nice-pairs-in-an-array/
  *

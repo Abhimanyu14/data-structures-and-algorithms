@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1814. Count Nice Pairs in an Array"))
+    println(formatLeetcodeTitle("1424. Diagonal Traverse II"))
     println(formatLeetcodeTitle("1631. Path With Minimum Effort"))
 }
 
