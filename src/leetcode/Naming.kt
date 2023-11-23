@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1424. Diagonal Traverse II"))
+    println(formatLeetcodeTitle("1630. Arithmetic Subarrays"))
     println(formatLeetcodeTitle("1631. Path With Minimum Effort"))
 }
 
