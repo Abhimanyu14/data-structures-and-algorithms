@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1630. Arithmetic Subarrays"))
+    println(formatLeetcodeTitle("1561. Maximum Number of Coins You Can Get"))
     println(formatLeetcodeTitle("1631. Path With Minimum Effort"))
 }
 
