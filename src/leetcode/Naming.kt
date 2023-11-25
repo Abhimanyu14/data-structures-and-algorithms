@@ -1,8 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1561. Maximum Number of Coins You Can Get"))
-    println(formatLeetcodeTitle("1631. Path With Minimum Effort"))
+    println(formatLeetcodeTitle("1685. Sum of Absolute Differences in a Sorted Array"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
