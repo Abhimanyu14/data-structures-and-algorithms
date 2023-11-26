@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1685. Sum of Absolute Differences in a Sorted Array"))
+    println(formatLeetcodeTitle("1727. Largest Submatrix With Rearrangements"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
