@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1727. Largest Submatrix With Rearrangements"))
+    println(formatLeetcodeTitle("2147. Number of Ways to Divide a Long Corridor"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
