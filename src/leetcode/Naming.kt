@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2147. Number of Ways to Divide a Long Corridor"))
+    println(formatLeetcodeTitle("1611. Minimum One Bit Operations to Make Integers Zero"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
