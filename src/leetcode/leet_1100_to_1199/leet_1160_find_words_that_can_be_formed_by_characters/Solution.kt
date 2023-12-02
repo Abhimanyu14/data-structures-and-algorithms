@@ -10,13 +10,15 @@ package leetcode.leet_1100_to_1199.leet_1160_find_words_that_can_be_formed_by_ch
  * Memory Usage: 37.6 MB, less than 75.00%
  */
 private fun countCharacters(words: Array<String>, chars: String): Int {
+    var result = 0
+
     val charCounter = mutableMapOf<Char, Int>()
-    val wordMap = mutableMapOf<Char, Int>()
-    var flag: Boolean
     chars.forEach {
         charCounter[it] = (charCounter[it] ?: 0) + 1
     }
-    var result = 0
+
+    val wordMap = mutableMapOf<Char, Int>()
+    var flag: Boolean
     words.forEach { word ->
         flag = true
         wordMap.clear()
