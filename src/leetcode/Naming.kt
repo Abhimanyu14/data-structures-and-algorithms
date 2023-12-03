@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1160. Find Words That Can Be Formed by Characters"))
+    println(formatLeetcodeTitle("1266. Minimum Time Visiting All Points"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
