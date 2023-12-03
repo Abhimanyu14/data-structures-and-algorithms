@@ -14,13 +14,12 @@ private data class Game(
     val bagConfigs: List<BagConfig>,
 )
 
-private fun Game.isPossible(bagConfig: BagConfig): Boolean {
-    bagConfigs.forEach {
-        if (bagConfig.red < it.red || bagConfig.blue < it.blue || bagConfig.green < it.green) {
-            return false
-        }
+private fun Game.isPossible(
+    bagConfig: BagConfig,
+): Boolean {
+    return bagConfigs.none {
+        bagConfig.red < it.red || bagConfig.blue < it.blue || bagConfig.green < it.green
     }
-    return true
 }
 
 private fun Game.minBagConfig(): BagConfig {
@@ -44,14 +43,14 @@ private fun BagConfig.power(): Int {
 }
 
 private fun solution1(games: List<Game>): Int {
-    var result = 0
     val bagConfig = BagConfig(12, 13, 14)
-    games.forEach { game ->
+    return games.sumOf { game ->
         if (game.isPossible(bagConfig)) {
-            result += game.id
+            game.id
+        } else {
+            0
         }
     }
-    return result
 }
 
 private fun solution2(games: List<Game>): Int {
@@ -91,22 +90,11 @@ private fun stringToBagConfig(string: String): BagConfig {
 }
 
 private fun main() {
-    println(
-        solution1(
-            games = File("src/advent_of_code/day_02/input.txt")
-                .readLines()
-                .map {
-                    lineToGame(it)
-                },
-        )
-    )
-    println(
-        solution2(
-            games = File("src/advent_of_code/day_02/input.txt")
-                .readLines()
-                .map {
-                    lineToGame(it)
-                },
-        )
-    )
+    val games = File("src/advent_of_code/day_02/input.txt")
+        .readLines()
+        .map {
+            lineToGame(it)
+        }
+    println(solution1(games))
+    println(solution2(games))
 }
