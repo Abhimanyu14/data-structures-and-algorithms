@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1266. Minimum Time Visiting All Points"))
+    println(formatLeetcodeTitle("1688. Count of Matches in Tournament"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
