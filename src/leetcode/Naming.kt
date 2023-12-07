@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1903. Largest Odd Number in String"))
+    println(formatLeetcodeTitle("286. Walls and Gates"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {

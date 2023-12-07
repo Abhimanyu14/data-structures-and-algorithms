@@ -12,3 +12,12 @@
 12. Recursion
 13. String operations
 14. Graphs
+
+Leetcode Alternative Sites
+1. https://tenderleo.gitbooks.io/leetcode-solutions-/content/GoogleMedium/398.html
+2. https://leetcode.ca/tags/#ByteDance
+3. https://github.com/vli02/leetcode/blob/master/286.%20Walls%20and%20Gates.c
+4. https://algo.monster/liteproblems/286
+5. https://wentao-shao.gitbook.io/leetcode/graph-search/286.walls-and-gates
+6. https://www.lintcode.com/problem
+7. https://neetcode.io/roadmap

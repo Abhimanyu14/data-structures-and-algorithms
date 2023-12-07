@@ -12,24 +12,19 @@ import java.util.Stack
  * Memory Usage: 36 MB, less than 21.14%
  */
 private fun isValid(s: String): Boolean {
-    if (s.length % 2 != 0) {
-        return false
-    }
-    val closeMap = mapOf(
+    val map = mapOf(
         ')' to '(',
         '}' to '{',
-        ']' to '['
+        ']' to '[',
     )
     val stack = ArrayDeque<Char>()
-    s.forEach { char ->
-        if (closeMap.contains(char)) {
-            if (!stack.isEmpty() && stack.last() == closeMap[char]) {
-                stack.removeLast()
-            } else {
+    s.forEach {
+        if (map.contains(it)) {
+            if (stack.isEmpty() || stack.removeLast() != map[it]) {
                 return false
             }
         } else {
-            stack.addLast(char)
+            stack.addLast(it)
         }
     }
     return stack.isEmpty()
