@@ -2,7 +2,7 @@ package advent_of_code.day_03
 
 import java.io.File
 
-data class PartNumber(
+private data class PartNumber(
     val value: Int,
     val gearPositions: List<Pair<Int, Int>>,
 )
