@@ -21,3 +21,8 @@ Leetcode Alternative Sites
 5. https://wentao-shao.gitbook.io/leetcode/graph-search/286.walls-and-gates
 6. https://www.lintcode.com/problem
 7. https://neetcode.io/roadmap
+
+Other sites
+1. https://simpleprogrammer.com/programming-interview-questions/
+2. https://content.techgig.com/hiring/20-most-frequently-asked-programming-interview-questions/articleshow/74608663.cms
+3. https://www.softwaretestinghelp.com/coding-interview-questions/
