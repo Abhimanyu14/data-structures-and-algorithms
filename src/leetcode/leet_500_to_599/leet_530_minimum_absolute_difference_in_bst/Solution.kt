@@ -23,7 +23,7 @@ fun getMinimumDifference(root: TreeNode?): Int {
     return min
 }
 
-fun bstInorderTraversal(root: TreeNode?, list: MutableList<Int>) {
+private fun bstInorderTraversal(root: TreeNode?, list: MutableList<Int>) {
     root?.left?.let {
         bstInorderTraversal(it, list)
     }

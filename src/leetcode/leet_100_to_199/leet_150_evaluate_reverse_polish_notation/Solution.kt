@@ -11,28 +11,20 @@ package leetcode.leet_100_to_199.leet_150_evaluate_reverse_polish_notation
  */
 private fun evalRPN(tokens: Array<String>): Int {
     val stack = ArrayDeque<Int>()
+    val operators = setOf("+", "-", "*", "/")
     tokens.forEach {
-        if (it == "+" || it == "-" || it == "*" || it == "/") {
+        if (operators.contains(it)) {
             val second = stack.removeLast()
             val first = stack.removeLast()
-            when (it) {
-                "+" -> {
-                    stack.addLast(first + second)
+            stack.addLast(
+                when (it) {
+                    "+" -> first + second
+                    "-" -> first - second
+                    "*" -> first * second
+                    "/" -> first / second
+                    else -> -1
                 }
-
-                "-" -> {
-                    stack.addLast(first - second)
-                }
-
-                "*" -> {
-                    stack.addLast(first * second)
-                }
-
-                "/" -> {
-                    stack.addLast(first / second)
-                }
-            }
-
+            )
         } else {
             stack.addLast(it.toInt())
         }

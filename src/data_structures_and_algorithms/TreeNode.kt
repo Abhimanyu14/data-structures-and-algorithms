@@ -69,6 +69,9 @@ fun TreeNode.isLeaf(): Boolean {
     return this.left == null && this.right == null
 }
 
+/**
+ * Used in leetcode questions
+ */
 class Node(var `val`: Int) {
     var children: List<Node?> = listOf()
 }

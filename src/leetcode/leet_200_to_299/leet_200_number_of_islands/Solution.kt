@@ -1,39 +1,40 @@
 package leetcode.leet_200_to_299.leet_200_number_of_islands
 
 /**
- * Using loops and array manipulation
+ * leetcode - https://leetcode.com/problems/number-of-islands/
+ *
+ * Using input array manipulation
  *
  * Stats
- * Runtime: 437 ms, faster than 66.08%
- * Memory Usage: 55.1 MB, less than 67.31%
+ * Runtime: 214 ms, faster than 64.73%
+ * Memory Usage: 43.8 MB, less than 97.83%
  */
 private fun numIslands(grid: Array<CharArray>): Int {
-    var count = 0
+    var result = 0
+    fun clearIsland(row: Int, col: Int) {
+        grid[row][col] = '0'
+        if (row > 0 && grid[row - 1][col] == '1') {
+            clearIsland(row - 1, col)
+        }
+        if (row < grid.lastIndex && grid[row + 1][col] == '1') {
+            clearIsland(row + 1, col)
+        }
+        if (col > 0 && grid[row][col - 1] == '1') {
+            clearIsland(row, col - 1)
+        }
+        if (col < grid[row].lastIndex && grid[row][col + 1] == '1') {
+            clearIsland(row, col + 1)
+        }
+    }
     grid.forEachIndexed { rowIndex, chars ->
-        chars.forEachIndexed { colIndex, c ->
-            if (grid[rowIndex][colIndex] == '1') {
-                count++
-                clearIsland(grid, rowIndex, colIndex)
+        chars.forEachIndexed { colIndex, char ->
+            if (char == '1') {
+                result++
+                clearIsland(rowIndex, colIndex)
             }
         }
     }
-    return count
-}
-
-private fun clearIsland(grid: Array<CharArray>, row: Int, col: Int) {
-    grid[row][col] = '0'
-    if (row - 1 >= 0 && grid[row - 1][col] == '1') {
-        clearIsland(grid, row - 1, col)
-    }
-    if (row + 1 < grid.size && grid[row + 1][col] == '1') {
-        clearIsland(grid, row + 1, col)
-    }
-    if (col - 1 >= 0 && grid[row][col - 1] == '1') {
-        clearIsland(grid, row, col - 1)
-    }
-    if (col + 1 < grid[row].size && grid[row][col + 1] == '1') {
-        clearIsland(grid, row, col + 1)
-    }
+    return result
 }
 
 private fun main() {

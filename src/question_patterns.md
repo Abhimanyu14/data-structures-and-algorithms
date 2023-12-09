@@ -26,3 +26,9 @@ Other sites
 1. https://simpleprogrammer.com/programming-interview-questions/
 2. https://content.techgig.com/hiring/20-most-frequently-asked-programming-interview-questions/articleshow/74608663.cms
 3. https://www.softwaretestinghelp.com/coding-interview-questions/
+4. https://www.metacareers.com/profile/coding_puzzles/?source=careers%3A%2Fresume%2Fresponse%2F (Meta)
+
+Youtube Channels
+https://www.youtube.com/@leetuition9121/videos
+https://www.youtube.com/@takeUforward/playlists
+

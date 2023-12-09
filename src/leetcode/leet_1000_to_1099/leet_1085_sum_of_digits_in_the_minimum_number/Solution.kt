@@ -1,6 +1,8 @@
 package leetcode.leet_1000_to_1099.leet_1085_sum_of_digits_in_the_minimum_number
 
 /**
+ * leetcode - https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/
+ *
  * Using min() and loop
  *
  * Runtime: 266 ms, faster than 100.00%

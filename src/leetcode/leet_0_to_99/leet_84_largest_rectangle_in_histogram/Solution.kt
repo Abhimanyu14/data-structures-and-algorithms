@@ -21,7 +21,7 @@ fun largestRectangleArea(heights: IntArray): Int {
     val stack = ArrayDeque<Pair<Int, Int>>()
     var maxArea = Int.MIN_VALUE
     var temp: Pair<Int, Int>
-    var start = 0
+    var start: Int
     heights.forEachIndexed { index, height ->
         start = index
         while (stack.isNotEmpty() && height < stack.last().second) {

@@ -12,6 +12,7 @@ import java.util.PriorityQueue
  * Memory Usage: 56.7 MB, less than 30.30%
  */
 private fun carFleet(target: Int, position: IntArray, speed: IntArray): Int {
+    // Sort in descending order by position
     val priorityQueue = PriorityQueue<Pair<Int, Int>> { p1, p2 ->
         p2.first - p1.first
     }

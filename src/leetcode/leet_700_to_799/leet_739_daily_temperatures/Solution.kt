@@ -8,23 +8,23 @@ package leetcode.leet_700_to_799.leet_739_daily_temperatures
  * Using Array
  *
  * Stats
- * Runtime: 537 ms, faster than 100.00%
- * Memory Usage: 54.9 MB, less than 18.13%
+ * Runtime: 563 ms, faster than 95.77%
+ * Memory Usage: 52.1 MB, less than 85.02%
  */
 private fun dailyTemperatures(temperatures: IntArray): IntArray {
     val answer = IntArray(temperatures.size)
     var hottestTemperature = 0
-    for (currDay in temperatures.lastIndex downTo 0) {
+    for (currDay in temperatures.indices.reversed()) {
         // There is no hotter day on the right side and so the value will remain 0
         if (temperatures[currDay] >= hottestTemperature) {
             hottestTemperature = temperatures[currDay]
-            continue
+        } else {
+            var nextCount = 1
+            while (temperatures[currDay + nextCount] <= temperatures[currDay]) {
+                nextCount += answer[currDay + nextCount]
+            }
+            answer[currDay] = nextCount
         }
-        var nextCount = 1
-        while (temperatures[currDay + nextCount] <= temperatures[currDay]) {
-            nextCount += answer[currDay + nextCount]
-        }
-        answer[currDay] = nextCount
     }
     return answer
 }
