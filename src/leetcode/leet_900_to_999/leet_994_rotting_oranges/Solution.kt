@@ -17,10 +17,10 @@ private fun orangesRotting(grid: Array<IntArray>): Int {
         grid.forEachIndexed { i, row ->
             row.forEachIndexed { j, cell ->
                 if (cell == timestamp) {
-                    for (d in directions) {
-                        val tRow = i + d[0]
-                        val tCol = j + d[1]
-                        if ((tRow in grid.indices) && (tCol in 0 until grid[0].size)) {
+                    directions.forEach { direction ->
+                        val tRow = i + direction[0]
+                        val tCol = j + direction[1]
+                        if ((tRow in grid.indices) && (tCol in grid[0].indices)) {
                             if (grid[tRow][tCol] == 1) {
                                 grid[tRow][tCol] = timestamp + 1
                                 changed = true

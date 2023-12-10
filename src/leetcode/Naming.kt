@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("417. Pacific Atlantic Water Flow"))
+    println(formatLeetcodeTitle("1652. Defuse the Bomb"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
