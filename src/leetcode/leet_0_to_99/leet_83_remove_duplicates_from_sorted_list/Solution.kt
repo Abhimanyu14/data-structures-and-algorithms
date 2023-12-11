@@ -3,6 +3,8 @@ package leetcode.leet_0_to_99.leet_83_remove_duplicates_from_sorted_list
 import data_structures_and_algorithms.linkedlist.ListNode
 
 /**
+ * leetcode - https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+ *
  * Using two pointer
  *
  * Stats

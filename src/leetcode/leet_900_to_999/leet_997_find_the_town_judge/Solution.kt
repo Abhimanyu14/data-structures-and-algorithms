@@ -1,7 +1,7 @@
 package leetcode.leet_900_to_999.leet_997_find_the_town_judge
 
 /**
- * leetcode - https://leetcode.com/problems/find-if-path-exists-in-graph/
+ * leetcode - https://leetcode.com/problems/find-the-town-judge/
  *
  * Using set and map
  *
