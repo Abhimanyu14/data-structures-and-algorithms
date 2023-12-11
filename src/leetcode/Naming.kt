@@ -1,8 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2455. Average Value of Even Numbers That Are Divisible by Three"))
-    println(formatLeetcodeTitle("1071. Greatest Common Divisor of Strings"))
+    println(formatLeetcodeTitle("1287. Element Appearing More Than 25% In Sorted Array"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
