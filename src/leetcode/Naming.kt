@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("894. All Possible Full Binary Trees"))
+    println(formatLeetcodeTitle("1926. Nearest Exit from Entrance in Maze"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 

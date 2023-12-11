@@ -21,6 +21,8 @@ Leetcode Alternative Sites
 5. https://wentao-shao.gitbook.io/leetcode/graph-search/286.walls-and-gates
 6. https://www.lintcode.com/problem
 7. https://neetcode.io/roadmap
+8. chrome-extension://fmbicfmfmangckllfaomfkhdankgapfk/index.html (Chrome Extension - CrackTech - Find LeetCode Company Tags (Previously LeetCode-Which-Company).)
+9. https://github.com/hxu296/leetcode-company-wise-problems-2022#tiktok
 
 Other sites
 1. https://simpleprogrammer.com/programming-interview-questions/
@@ -29,6 +31,6 @@ Other sites
 4. https://www.metacareers.com/profile/coding_puzzles/?source=careers%3A%2Fresume%2Fresponse%2F (Meta)
 
 Youtube Channels
-https://www.youtube.com/@leetuition9121/videos
-https://www.youtube.com/@takeUforward/playlists
+1. https://www.youtube.com/@leetuition9121/videos
+2. https://www.youtube.com/@takeUforward/playlists
 
