@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1287. Element Appearing More Than 25% In Sorted Array"))
+    println(formatLeetcodeTitle("894. All Possible Full Binary Trees"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
