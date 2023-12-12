@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1979. Find Greatest Common Divisor of Array"))
+    println(formatLeetcodeTitle("450. Delete Node in a BST"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
