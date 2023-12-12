@@ -1,7 +1,10 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("450. Delete Node in a BST"))
+    println(formatLeetcodeTitle("101. Symmetric Tree"))
+    println(formatLeetcodeTitle("171. Excel Sheet Column Number"))
+    println(formatLeetcodeTitle("175. Combine Two Tables"))
+    println(formatLeetcodeTitle("183. Customers Who Never Order"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
