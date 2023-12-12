@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1464. Maximum Product of Two Elements in an Array"))
+    println(formatLeetcodeTitle("1979. Find Greatest Common Divisor of Array"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
