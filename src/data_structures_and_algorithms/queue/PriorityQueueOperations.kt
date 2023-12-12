@@ -6,7 +6,7 @@ import java.util.PriorityQueue
  * Use [PriorityQueue] for PriorityQueue
  * add => offer()
  * remove => poll
- * peek => [peak()]
+ * peek => [peek()]
  *
  * Other operations
  * isEmpty(), size, clear()

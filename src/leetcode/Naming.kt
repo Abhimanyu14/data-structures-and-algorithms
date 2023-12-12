@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1926. Nearest Exit from Entrance in Maze"))
+    println(formatLeetcodeTitle("1464. Maximum Product of Two Elements in an Array"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
