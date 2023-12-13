@@ -1,10 +1,13 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("101. Symmetric Tree"))
-    println(formatLeetcodeTitle("171. Excel Sheet Column Number"))
-    println(formatLeetcodeTitle("175. Combine Two Tables"))
-    println(formatLeetcodeTitle("183. Customers Who Never Order"))
+    println(formatLeetcodeTitle("2300. Successful Pairs of Spells and Potions"))
+    println(formatLeetcodeTitle("860. Lemonade Change"))
+    println(formatLeetcodeTitle("836. Rectangle Overlap"))
+    println(formatLeetcodeTitle("824. Goat Latin"))
+    println(formatLeetcodeTitle("748. Shortest Completing Word"))
+    println(formatLeetcodeTitle("705. Design HashSet"))
+    println(formatLeetcodeTitle("697. Degree of an Array"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 

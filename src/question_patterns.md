@@ -24,6 +24,13 @@ Leetcode Alternative Sites
 8. chrome-extension://fmbicfmfmangckllfaomfkhdankgapfk/index.html (Chrome Extension - CrackTech - Find LeetCode Company Tags (Previously LeetCode-Which-Company).)
 9. https://github.com/hxu296/leetcode-company-wise-problems-2022#tiktok
 
+Tags
+1. Database (235) - https://leetcode.com/tag/database/
+2. Concurrency (9) - https://leetcode.com/tag/concurrency/
+3. Shell (4) - https://leetcode.com/tag/shell/
+4. Javascript (68) - https://leetcode.com/problemset/javascript/
+316 questions
+
 Other sites
 1. https://simpleprogrammer.com/programming-interview-questions/
 2. https://content.techgig.com/hiring/20-most-frequently-asked-programming-interview-questions/articleshow/74608663.cms

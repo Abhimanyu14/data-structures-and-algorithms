@@ -8,8 +8,8 @@ import data_structures_and_algorithms.TreeNode
  * Using recursion
  *
  * Stats
- * Runtime: 223 ms, faster than 95.45%
- * Memory Usage: 37.1 MB, less than 100.00%
+ * Runtime: 179 ms, faster than 100.00%
+ * Memory Usage: 38.4 MB, less than 15.00%
  */
 private fun evaluateTree(root: TreeNode?): Boolean {
     if (root?.left == null && root?.right == null) {
