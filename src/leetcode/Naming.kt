@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2300. Successful Pairs of Spells and Potions"))
+    println(formatLeetcodeTitle("2482. Difference Between Ones and Zeros in Row and Column"))
     println(formatLeetcodeTitle("860. Lemonade Change"))
     println(formatLeetcodeTitle("836. Rectangle Overlap"))
     println(formatLeetcodeTitle("824. Goat Latin"))
