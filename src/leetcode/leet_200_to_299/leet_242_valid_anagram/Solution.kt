@@ -1,6 +1,8 @@
 package leetcode.leet_200_to_299.leet_242_valid_anagram
 
 /**
+ * leetcode - https://leetcode.com/problems/valid-anagram/
+ *
  * Using array
  * Uses the condition - only small letter alphabets are used
  *
@@ -18,7 +20,9 @@ private fun isAnagramUsingArray(s: String, t: String): Boolean {
 }
 
 /**
- * Using map
+ * leetcode - https://leetcode.com/problems/valid-anagram/
+ *
+ *  Using map
  *
  * Stats
  * Runtime: 329 ms, faster than 59.68%

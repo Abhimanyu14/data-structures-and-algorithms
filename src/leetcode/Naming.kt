@@ -1,13 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2482. Difference Between Ones and Zeros in Row and Column"))
-    println(formatLeetcodeTitle("860. Lemonade Change"))
-    println(formatLeetcodeTitle("836. Rectangle Overlap"))
-    println(formatLeetcodeTitle("824. Goat Latin"))
-    println(formatLeetcodeTitle("748. Shortest Completing Word"))
-    println(formatLeetcodeTitle("705. Design HashSet"))
-    println(formatLeetcodeTitle("697. Degree of an Array"))
+    println(formatLeetcodeTitle("1436. Destination City"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
