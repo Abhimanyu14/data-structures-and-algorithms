@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1436. Destination City"))
+    println(formatLeetcodeTitle("2353. Design a Food Rating System"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
