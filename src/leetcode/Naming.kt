@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1913. Maximum Product Difference Between Two Pairs"))
+    println(formatLeetcodeTitle("661. Image Smoother"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
