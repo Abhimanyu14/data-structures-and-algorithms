@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("661. Image Smoother"))
+    println(formatLeetcodeTitle("2706. Buy Two Chocolates"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
