@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2706. Buy Two Chocolates"))
+    println(formatLeetcodeTitle("1637. Widest Vertical Area Between Two Points Containing No Points"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
