@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1422. Maximum Score After Splitting a String"))
+    println(formatLeetcodeTitle("1496. Path Crossing"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
