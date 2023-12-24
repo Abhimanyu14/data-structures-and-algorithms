@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1496. Path Crossing"))
+    println(formatLeetcodeTitle("1758. Minimum Changes To Make Alternating Binary String"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
