@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1758. Minimum Changes To Make Alternating Binary String"))
+    println(formatLeetcodeTitle("1155. Number of Dice Rolls With Target Sum"))
     println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
