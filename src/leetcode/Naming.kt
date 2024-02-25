@@ -1,8 +1,9 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1155. Number of Dice Rolls With Target Sum"))
-    println(formatHackerrankTitle("Is This a Binary Search Tree?"))
+    println(formatLeetcodeTitle("2709. Greatest Common Divisor Traversal"))
+
+    // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
