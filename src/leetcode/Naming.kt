@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2709. Greatest Common Divisor Traversal"))
+    println(formatLeetcodeTitle("543. Diameter of Binary Tree"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
