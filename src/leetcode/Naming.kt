@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1609. Even Odd Tree"))
+    println(formatLeetcodeTitle("2864. Maximum Odd Binary Number"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
