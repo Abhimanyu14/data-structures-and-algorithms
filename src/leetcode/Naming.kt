@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2864. Maximum Odd Binary Number"))
+    println(formatLeetcodeTitle("977. Squares of a Sorted Array"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
