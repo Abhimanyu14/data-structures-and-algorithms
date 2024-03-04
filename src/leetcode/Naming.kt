@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("977. Squares of a Sorted Array"))
+    println(formatLeetcodeTitle("948. Bag of Tokens"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
