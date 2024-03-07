@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1750. Minimum Length of String After Deleting Similar Ends"))
+    println(formatLeetcodeTitle("876. Middle of the Linked List"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }

@@ -2,7 +2,29 @@ package leetcode.leet_800_to_899.leet_876_middle_of_the_linked_list
 
 import data_structures_and_algorithms.linkedlist.ListNode
 
+
 /**
+ * leetcode - https://leetcode.com/problems/middle-of-the-linked-list/?envType=daily-question&envId=2024-03-07
+ *
+ * Using two pointer
+ *
+ * Stats
+ * Runtime: 134 ms, faster than 74.55%
+ * Memory Usage: 33.8 MB, less than 61.58%
+ */
+private fun middleNode(head: ListNode?): ListNode? {
+    var slow = head
+    var fast = head
+    while (fast?.next != null) {
+        slow = slow?.next
+        fast = fast.next?.next
+    }
+    return slow
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/middle-of-the-linked-list/?envType=daily-question&envId=2024-03-07
+ *
  * Using list size
  *
  * Stats
@@ -28,23 +50,6 @@ private fun middleNodeNaive(head: ListNode?): ListNode? {
         count--
     }
     return result
-}
-
-/**
- * Using two pointer
- *
- * Stats
- * Runtime: 255 ms, faster than 39.80%
- * Memory Usage: 33.9 MB, less than 79.89%
- */
-private fun middleNode(head: ListNode?): ListNode? {
-    var fast = head
-    var slow = head
-    while (fast?.next != null) {
-        fast = fast.next?.next
-        slow = slow?.next
-    }
-    return slow
 }
 
 private fun main() {
