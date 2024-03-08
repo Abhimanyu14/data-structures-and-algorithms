@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("876. Middle of the Linked List"))
+    println(formatLeetcodeTitle("3005. Count Elements With Maximum Frequency"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
