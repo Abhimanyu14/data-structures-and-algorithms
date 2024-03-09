@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("3005. Count Elements With Maximum Frequency"))
+    println(formatLeetcodeTitle("2540. Minimum Common Value"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
