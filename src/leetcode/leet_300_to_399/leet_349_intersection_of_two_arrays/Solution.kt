@@ -1,9 +1,13 @@
 package leetcode.leet_300_to_399.leet_349_intersection_of_two_arrays
 
 /**
+ * leetcode - https://leetcode.com/problems/intersection-of-two-arrays/
+ *
+ * Using set operations
+ *
  * Stats
- * Runtime: 301 ms, faster than 76.23%
- * Memory Usage: 40.9 MB, less than 31.97%
+ * Runtime: 207 ms, faster than 53.36%
+ * Memory Usage: 38.6 MB, less than 37.22%
  */
 fun intersection(nums1: IntArray, nums2: IntArray): IntArray {
     return (nums1.toSet() intersect nums2.toSet()).toIntArray()

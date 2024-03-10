@@ -5,7 +5,7 @@ import data_structures_and_algorithms.TreeNode
 /**
  * leetcode - https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
  *
- * Using recursion
+ * Using recursion - DFS
  *
  * Stats
  * Runtime: 167 ms, faster than 66.67%
