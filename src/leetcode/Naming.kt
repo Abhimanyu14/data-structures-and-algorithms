@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1346. Check If N and Its Double Exist"))
+    println(formatLeetcodeTitle("791. Custom Sort String"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
