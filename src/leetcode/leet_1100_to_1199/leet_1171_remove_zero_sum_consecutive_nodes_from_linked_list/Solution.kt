@@ -10,8 +10,8 @@ import data_structures_and_algorithms.linkedlist.ListNode
  * Solution - https://youtu.be/tss5biw6ctI?t=755
  *
  * Stats
- * Runtime: 182 ms, faster than 60.00%
- * Memory Usage: 36.9 MB, less than 80.00%
+ * Runtime: 163 ms, faster than 80.00%
+ * Memory Usage: 37.2 MB, less than 100.00%
  */
 private fun removeZeroSumSublists(head: ListNode?): ListNode? {
     val map = mutableMapOf<Int, ListNode>()
