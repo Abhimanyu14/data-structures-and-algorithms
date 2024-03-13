@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("791. Custom Sort String"))
+    println(formatLeetcodeTitle("2485. Find the Pivot Integer"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
