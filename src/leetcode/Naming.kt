@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2485. Find the Pivot Integer"))
+    println(formatLeetcodeTitle("930. Binary Subarrays With Sum"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
