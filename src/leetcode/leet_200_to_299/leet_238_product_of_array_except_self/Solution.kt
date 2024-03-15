@@ -1,25 +1,25 @@
 package leetcode.leet_200_to_299.leet_238_product_of_array_except_self
 
 /**
- * leetcode - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+ * leetcode - https://leetcode.com/problems/product-of-array-except-self/
  *
  * Using two pass
  *
  * Stats
- * Runtime: 279 ms, faster than 91.35%
- * Memory Usage: 47.5 MB, less than 93.98%
+ * Runtime: 325 ms, faster than 31.56%
+ * Memory Usage: 53.2 MB, less than 5.07%
  */
 private fun productExceptSelf(arr: IntArray): IntArray {
     val result = IntArray(arr.size)
-    var s = 1
+    var currentProduct = 1
     for (i in arr.indices) {
-        result[i] = s
-        s *= arr[i]
+        result[i] = currentProduct
+        currentProduct *= arr[i]
     }
-    s = 1
+    currentProduct = 1
     for (i in arr.lastIndex downTo 0) {
-        result[i] *= s
-        s *= arr[i]
+        result[i] *= currentProduct
+        currentProduct *= arr[i]
     }
     return result
 }
