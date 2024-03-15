@@ -2,7 +2,16 @@ package leetcode.leet_1300_to_1399.leet_1395_count_number_of_teams
 
 import data_structures_and_algorithms.maths.combination
 
-// TODO: To complete
+/**
+ * leetcode - https://leetcode.com/problems/count-number-of-teams/
+ *
+ * TODO(Abhi) - To complete
+ *
+ * Using
+ *
+ * Stats
+ *
+ */
 fun numTeams(rating: IntArray): Int {
     var result = 0
     var tempArray1: MutableList<Int>

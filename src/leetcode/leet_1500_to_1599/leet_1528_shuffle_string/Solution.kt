@@ -4,6 +4,7 @@ import java.util.PriorityQueue
 
 /**
  * leetcode - https://leetcode.com/problems/shuffle-string/
+ *
  * Using char array
  *
  * Stats
@@ -21,6 +22,7 @@ private fun restoreStringUsingCharArray(s: String, indices: IntArray): String {
 
 /**
  * leetcode - https://leetcode.com/problems/shuffle-string/
+ *
  * Using priority queue
  *
  * Stats

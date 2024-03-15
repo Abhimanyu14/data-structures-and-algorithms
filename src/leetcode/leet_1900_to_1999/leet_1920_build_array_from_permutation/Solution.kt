@@ -1,5 +1,15 @@
 package leetcode.leet_1900_to_1999.leet_1920_build_array_from_permutation
 
+/**
+ * leetcode - https://leetcode.com/problems/build-array-from-permutation/
+ *
+ * TODO(Abhi) - To complete
+ *
+ * Using
+ *
+ * Stats
+ *
+ */
 fun buildArray(nums: IntArray): IntArray {
     val arr = IntArray(nums.size)
     for (i in nums.indices) {

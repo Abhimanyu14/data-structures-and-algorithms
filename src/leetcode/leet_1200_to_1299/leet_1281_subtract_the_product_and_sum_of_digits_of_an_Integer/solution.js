@@ -1,3 +1,13 @@
+/**
+ * leetcode - https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+ *
+ * TODO(Abhi) - To complete
+ *
+ * Using
+ *
+ * Stats
+ *
+ */
 var subtractProductAndSum = function (n) {
   let sum = 0;
   let product = 1;

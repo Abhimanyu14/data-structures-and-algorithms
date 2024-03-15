@@ -2,7 +2,16 @@ package leetcode.leet_1900_to_1999.leet_1922_count_good_numbers
 
 import kotlin.math.pow
 
-// TODO
+/**
+ * leetcode - https://leetcode.com/problems/count-good-numbers/
+ *
+ * TODO(Abhi) - To complete
+ *
+ * Using
+ *
+ * Stats
+ *
+ */
 fun countGoodNumbers(n: Long): Int {
     if (n.toInt() == 1) {
         return 5

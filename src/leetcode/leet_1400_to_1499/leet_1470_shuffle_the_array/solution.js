@@ -1,3 +1,13 @@
+/**
+ * leetcode - https://leetcode.com/problems/shuffle-the-array/
+ *
+ * TODO(Abhi) - To complete
+ *
+ * Using
+ *
+ * Stats
+ *
+ */
 var shuffle = function (nums, n) {
     const result = [];
     for(let i = 0; i < n; i++){

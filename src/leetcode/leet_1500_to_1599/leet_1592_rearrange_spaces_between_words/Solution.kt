@@ -1,11 +1,14 @@
 package leetcode.leet_1500_to_1599.leet_1592_rearrange_spaces_between_words
 
 /**
- * WIP
+ * leetcode - https://leetcode.com/problems/rearrange-spaces-between-words/
+ *
+ * TODO(Abhi) - To complete
+ *
+ * Using
  *
  * Stats
- * Runtime: 168 ms, faster than 100.00%
- * Memory Usage: 33.9 MB, less than 100.00%
+ *
  */
 private fun reorderSpaces(text: String): String {
     var totalSpaces = 0
