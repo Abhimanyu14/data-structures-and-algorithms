@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("930. Binary Subarrays With Sum"))
+    println(formatLeetcodeTitle("525. Contiguous Array"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }

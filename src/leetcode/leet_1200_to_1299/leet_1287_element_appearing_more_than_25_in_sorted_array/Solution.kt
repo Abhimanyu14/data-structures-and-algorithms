@@ -3,7 +3,7 @@ package leetcode.leet_1200_to_1299.leet_1287_element_appearing_more_than_25_in_s
 /**
  * leetcode - https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
  *
- * Using linear search wit look ahead
+ * Using linear search with look ahead
  *
  * Stats
  * Runtime: 201 ms, faster than 70.00%
