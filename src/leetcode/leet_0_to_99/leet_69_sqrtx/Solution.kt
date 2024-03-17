@@ -7,30 +7,27 @@ package leetcode.leet_0_to_99.leet_69_sqrtx
  *
  * Using binary search
  *
+ * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
+ *
  * Stats
- * Runtime: 300 ms, faster than 21.89%
- * Memory Usage: 34.3 MB, less than 25.25%
+ * Runtime: 126 ms, faster than 97.02%
+ * Memory Usage: 33.9 MB, less than 16.60%
  */
 private fun mySqrt(x: Int): Int {
     if (x < 2) {
         return x
     }
-    var num: Long
-    var pivot: Int
-    var left = 2
-    var right = x / 2
-    while (left <= right) {
-        pivot = left + (right - left) / 2
-        num = pivot.toLong() * pivot
-        if (num > x) {
-            right = pivot - 1
-        } else if (num < x) {
-            left = pivot + 1
+    var left = 0
+    var right = (x / 2) + 1
+    while (left < right) {
+        val mid = left + ((right - left) / 2)
+        if (mid.toLong() * mid > x) {
+            right = mid
         } else {
-            return pivot
+            left = mid + 1
         }
     }
-    return right
+    return left - 1
 }
 
 private fun main() {

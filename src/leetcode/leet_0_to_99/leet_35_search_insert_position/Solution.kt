@@ -3,27 +3,26 @@ package leetcode.leet_0_to_99.leet_35_search_insert_position
 /**
  * leetcode - https://leetcode.com/problems/search-insert-position/
  *
- * Using binary search, loops
+ * Using binary search
+ *
+ * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
  *
  * Stats
- * Runtime: 192 ms, faster than 94.78%
- * Memory Usage: 37.7 MB, less than 73.79%
+ * Runtime: 171 ms, faster than 55.18%
+ * Memory Usage: 37.2 MB, less than 72.35%
  */
 private fun searchInsert(nums: IntArray, target: Int): Int {
-    var low = 0
-    var high = nums.lastIndex
-    while (low <= high) {
-        val mid = ((high + low) / 2)
-        if (nums[mid] == target) {
-            return mid
-        }
-        if (target > nums[mid]) {
-            low = mid + 1
+    var left = 0
+    var right = nums.size
+    while (left < right) {
+        val mid = left + ((right - left) / 2)
+        if (nums[mid] >= target) {
+            right = mid
         } else {
-            high = mid - 1
+            left = mid + 1
         }
     }
-    return low
+    return left
 }
 
 private fun main() {

@@ -2,24 +2,27 @@ package leetcode.leet_200_to_299.leet_278_first_bad_version
 
 /**
  * leetcode - https://leetcode.com/problems/first-bad-version/
+ *
  * Using Binary Search
  *
+ * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
+ *
  * Stats
- * Runtime: 229 ms, faster than 99.69%
- * Memory Usage: 33 MB, less than 85.91%
+ * Runtime: 264 ms, faster than 39.92%
+ * Memory Usage: 32.9 MB, less than 78.66%
  */
 private fun firstBadVersion(n: Int): Int {
-    var low = 1
-    var high = n
-    while (low < high) {
-        val mid = (low + ((high - low) / 2))
+    var left = 1
+    var right = n
+    while (left < right) {
+        val mid = left + ((right - left) / 2)
         if (isBadVersion(mid)) {
-            high = mid
+            right = mid
         } else {
-            low = (mid + 1)
+            left = mid + 1
         }
     }
-    return low
+    return left
 }
 
 private fun isBadVersion(n: Int): Boolean {

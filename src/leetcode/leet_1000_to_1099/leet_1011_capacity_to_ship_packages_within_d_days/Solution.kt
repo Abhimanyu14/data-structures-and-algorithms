@@ -8,6 +8,8 @@ import kotlin.math.max
  *
  * Using binary search
  *
+ * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
+ *
  * Stats
  * Runtime: 285 ms, faster than 43.24%
  * Memory Usage: 43.3 MB, less than 94.59%
@@ -27,17 +29,17 @@ private fun shipWithinDays(weights: IntArray, days: Int): Int {
     }
 
     val totalWeight = weights.sum()
-    var low = max(weights.max(), ceil(totalWeight.toFloat() / days).toInt())
-    var high = totalWeight
-    while (low < high) {
-        val mid = low + ((high - low) / 2)
+    var left = max(weights.max(), ceil(totalWeight.toFloat() / days).toInt())
+    var right = totalWeight
+    while (left < right) {
+        val mid = left + ((right - left) / 2)
         if (isPossible(mid)) {
-            high = mid
+            right = mid
         } else {
-            low = mid + 1
+            left = mid + 1
         }
     }
-    return low
+    return left
 }
 
 /**

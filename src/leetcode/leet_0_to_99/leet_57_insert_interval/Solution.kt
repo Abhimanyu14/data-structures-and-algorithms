@@ -8,9 +8,11 @@ import kotlin.math.min
  *
  * Using binary search
  *
+ * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
+ *
  * Stats
- * Runtime: 236 ms, faster than 76.45%
- * Memory Usage: 39.8 MB, less than 63.16%
+ * Runtime: 241 ms, faster than 68.42%
+ * Memory Usage: 40.7 MB, less than 26.87%
  */
 private fun insert(intervals: Array<IntArray>, newInterval: IntArray): Array<IntArray> {
     if (intervals.isEmpty()) {
@@ -18,17 +20,17 @@ private fun insert(intervals: Array<IntArray>, newInterval: IntArray): Array<Int
     }
 
     var left = 0
-    var right = intervals.lastIndex
+    var right = intervals.size
 
     /**
      * Binary search to find last interval which starts before the given [newInterval]
      */
-    while (left <= right) {
+    while (left < right) {
         val mid = left + ((right - left) / 2)
-        if (intervals[mid][0] < newInterval[0]) {
-            left = mid + 1
+        if (intervals[mid][0] >= newInterval[0]) {
+            right = mid
         } else {
-            right = mid - 1
+            left = mid + 1
         }
     }
 
