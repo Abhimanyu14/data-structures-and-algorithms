@@ -20,7 +20,9 @@ private fun insert(intervals: Array<IntArray>, newInterval: IntArray): Array<Int
     var left = 0
     var right = intervals.lastIndex
 
-    // Binary search to find the starting position to insert newInterval
+    /**
+     * Binary search to find last interval which starts before the given [newInterval]
+     */
     while (left <= right) {
         val mid = left + ((right - left) / 2)
         if (intervals[mid][0] < newInterval[0]) {
@@ -30,7 +32,6 @@ private fun insert(intervals: Array<IntArray>, newInterval: IntArray): Array<Int
         }
     }
 
-    // Insert newInterval at the found position
     val result = mutableListOf<IntArray>()
     for (i in 0..<left) {
         result.add(intervals[i])
