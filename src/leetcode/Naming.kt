@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("57. Insert Interval"))
+    println(formatLeetcodeTitle("1482. Minimum Number of Days to Make m Bouquets"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
