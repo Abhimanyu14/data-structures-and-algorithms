@@ -9,10 +9,59 @@ import kotlin.math.min
  * Using binary search
  *
  * Stats
+ * Runtime: 236 ms, faster than 76.45%
+ * Memory Usage: 39.8 MB, less than 63.16%
+ */
+private fun insert(intervals: Array<IntArray>, newInterval: IntArray): Array<IntArray> {
+    if (intervals.isEmpty()) {
+        return arrayOf(newInterval)
+    }
+
+    var left = 0
+    var right = intervals.lastIndex
+
+    // Binary search to find the starting position to insert newInterval
+    while (left <= right) {
+        val mid = left + ((right - left) / 2)
+        if (intervals[mid][0] < newInterval[0]) {
+            left = mid + 1
+        } else {
+            right = mid - 1
+        }
+    }
+
+    // Insert newInterval at the found position
+    val result = mutableListOf<IntArray>()
+    for (i in 0..<left) {
+        result.add(intervals[i])
+    }
+
+    fun insertInterval(interval: IntArray) {
+        if (result.isEmpty() || result.last()[1] < interval[0]) {
+            result.add(interval)
+        } else {
+            result.last()[1] = max(result.last()[1], interval[1])
+        }
+    }
+
+    insertInterval(newInterval)
+    for (i in left..intervals.lastIndex) {
+        insertInterval(intervals[i])
+    }
+
+    return result.toTypedArray<IntArray>()
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/insert-interval/
+ *
+ * Using binary search
+ *
+ * Stats
  * Runtime: 265 ms, faster than 85.11%
  * Memory Usage: 40.1 MB, less than 69.50%
  */
-private fun insert(intervals: Array<IntArray>, newInterval: IntArray): Array<IntArray> {
+private fun insertOld(intervals: Array<IntArray>, newInterval: IntArray): Array<IntArray> {
     fun doesIntervalsOverlap(a: IntArray, b: IntArray): Boolean {
         return min(a[1], b[1]) - max(a[0], b[0]) >= 0
     }
