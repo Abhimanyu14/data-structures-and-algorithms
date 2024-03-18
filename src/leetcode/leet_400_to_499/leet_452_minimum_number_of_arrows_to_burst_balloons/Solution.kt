@@ -1,16 +1,17 @@
 package leetcode.leet_400_to_499.leet_452_minimum_number_of_arrows_to_burst_balloons
 
 import java.util.PriorityQueue
+import kotlin.math.sign
 
 /**
  * leetcode - https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
  *
- * Using priority queue, greedy
+ * Using priority queue, greed, comparator
  * Source: https://www.youtube.com/watch?v=fvBhjAp0j9c
  *
  * Stats
- * Runtime: 1103 ms, faster than 5.88%
- * Memory Usage: 86.6 MB, less than 88.23%
+ * Runtime: 873 ms, faster than 76.56%
+ * Memory Usage: 86.3 MB, less than 91.41%
  */
 private fun findMinArrowShots(points: Array<IntArray>): Int {
     val priorityQueue = PriorityQueue<Pair<Int, Int>> { p1, p2 ->
@@ -30,9 +31,7 @@ private fun findMinArrowShots(points: Array<IntArray>): Int {
     while (priorityQueue.isNotEmpty()) {
         result++
         prev = priorityQueue.poll().second
-        println("$prev")
         while (priorityQueue.isNotEmpty() && priorityQueue.peek().first <= prev) {
-            println("${priorityQueue.peek()}")
             priorityQueue.poll()
         }
     }
