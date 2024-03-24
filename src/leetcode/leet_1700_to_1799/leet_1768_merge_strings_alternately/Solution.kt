@@ -18,11 +18,11 @@ private fun mergeAlternately(word1: String, word2: String): String {
         i++
     }
     if (i < word1.length) {
-        for (j in i until word1.length) {
+        for (j in i..word1.lastIndex) {
             result.append(word1[j])
         }
     } else {
-        for (j in i until word2.length) {
+        for (j in i..word2.lastIndex) {
             result.append(word2[j])
         }
     }

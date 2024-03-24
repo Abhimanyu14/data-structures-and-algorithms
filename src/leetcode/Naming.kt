@@ -1,8 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("621. Task Scheduler"))
-    println(formatLeetcodeTitle("767. Reorganize String"))
+    println(formatLeetcodeTitle("1539. Kth Missing Positive Number"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
