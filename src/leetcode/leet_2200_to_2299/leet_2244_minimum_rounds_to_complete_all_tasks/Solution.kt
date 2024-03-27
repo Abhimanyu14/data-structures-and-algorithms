@@ -10,12 +10,12 @@ package leetcode.leet_2200_to_2299.leet_2244_minimum_rounds_to_complete_all_task
  * Memory Usage: 110.1 MB, less than 33.33%
  */
 private fun minimumRounds(tasks: IntArray): Int {
-    val map = mutableMapOf<Int, Int>()
+    val counter = mutableMapOf<Int, Int>()
     tasks.forEach {
-        map[it] = 1 + (map[it] ?: 0)
+        counter[it] = counter.getOrDefault(it, 0) + 1
     }
     var result = 0
-    map.forEach { (_, value) ->
+    counter.forEach { (_, value) ->
         if (value == 1) {
             return -1
         } else {
