@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("713. Subarray Product Less Than K"))
+    println(formatLeetcodeTitle("2962. Count Subarrays Where Max Element Appears at Least K Times"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
