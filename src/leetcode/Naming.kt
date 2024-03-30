@@ -1,11 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1693. Daily Leads and Partners"))
-    println(formatLeetcodeTitle("1741. Find Total Time Spent by Each Employee"))
-    println(formatLeetcodeTitle("2824. Count Pairs Whose Sum is Less than Target"))
-    println(formatLeetcodeTitle("1678. Goal Parser Interpretation"))
-    println(formatLeetcodeTitle("2356. Number of Unique Subjects Taught by Each Teacher"))
+    println(formatLeetcodeTitle("992. Subarrays with K Different Integers"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
