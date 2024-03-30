@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("992. Subarrays with K Different Integers"))
+    println(formatLeetcodeTitle("584. Find Customer Referee"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
