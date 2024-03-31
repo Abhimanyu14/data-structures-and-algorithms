@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2444. Count Subarrays With Fixed Bounds"))
+    println(formatLeetcodeTitle("637. Average of Levels in Binary Tree"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
