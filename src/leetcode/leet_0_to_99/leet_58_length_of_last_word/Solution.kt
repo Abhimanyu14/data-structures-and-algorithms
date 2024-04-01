@@ -3,7 +3,9 @@ package leetcode.leet_0_to_99.leet_58_length_of_last_word
 /**
  * leetcode - https://leetcode.com/problems/length-of-last-word/
  *
- *  Using string methods
+ * Using string methods
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 210 ms, faster than 76.18%
@@ -16,21 +18,26 @@ private fun lengthOfLastWordUsingStringMethods(s: String): Int {
 /**
  * Using loop
  *
+ * Difficulty - Easy
+ *
  * Stats
- * Runtime: 258 ms, faster than 42.11%
- * Memory Usage: 35.8 MB, less than 68.70%
+ * Runtime: 157 ms, faster than 50.93%
+ * Memory Usage: 37.1 MB, less than 39.63%
+ *
+ * Time - O(N)
+ * Space - O(1)
  */
 private fun lengthOfLastWord(s: String): Int {
-    var length = 0
+    var result = 0
     var i = s.lastIndex
     while (s[i].isWhitespace()) {
         i--
     }
     while (i >= 0 && !s[i].isWhitespace()) {
-        length++
+        result++
         i--
     }
-    return length
+    return result
 }
 
 private fun main() {
