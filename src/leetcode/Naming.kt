@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("637. Average of Levels in Binary Tree"))
+    println(formatLeetcodeTitle("1614. Maximum Nesting Depth of the Parentheses"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
