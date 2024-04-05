@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1614. Maximum Nesting Depth of the Parentheses"))
+    println(formatLeetcodeTitle("1544. Make The String Great"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
