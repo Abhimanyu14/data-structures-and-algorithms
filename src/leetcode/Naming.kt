@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1544. Make The String Great"))
+    println(formatLeetcodeTitle("1249. Minimum Remove to Make Valid Parentheses"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
