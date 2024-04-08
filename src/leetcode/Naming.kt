@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("678. Valid Parenthesis String"))
+    println(formatLeetcodeTitle("1700. Number of Students Unable to Eat Lunch"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
