@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2073. Time Needed to Buy Tickets"))
+    println(formatLeetcodeTitle("950. Reveal Cards In Increasing Order"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
