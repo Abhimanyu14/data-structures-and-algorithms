@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("950. Reveal Cards In Increasing Order"))
+    println(formatLeetcodeTitle("402. Remove K Digits"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
