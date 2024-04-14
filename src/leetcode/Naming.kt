@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("85. Maximal Rectangle"))
+    println(formatLeetcodeTitle("404. Sum of Left Leaves"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
