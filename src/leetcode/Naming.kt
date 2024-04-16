@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("129. Sum Root to Leaf Numbers"))
+    println(formatLeetcodeTitle("623. Add One Row to Tree"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
