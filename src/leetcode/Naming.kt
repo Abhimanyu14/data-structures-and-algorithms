@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("623. Add One Row to Tree"))
+    println(formatLeetcodeTitle("988. Smallest String Starting From Leaf"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
