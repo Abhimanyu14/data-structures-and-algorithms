@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("988. Smallest String Starting From Leaf"))
+    println(formatLeetcodeTitle("1137. N-th Tribonacci Number"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
