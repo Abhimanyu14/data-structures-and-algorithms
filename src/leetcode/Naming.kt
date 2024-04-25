@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1137. N-th Tribonacci Number"))
+    println(formatLeetcodeTitle("2370. Longest Ideal Subsequence"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
