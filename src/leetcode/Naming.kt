@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2370. Longest Ideal Subsequence"))
+    println(formatLeetcodeTitle("1289. Minimum Falling Path Sum II"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
