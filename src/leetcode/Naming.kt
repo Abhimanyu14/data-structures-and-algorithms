@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1289. Minimum Falling Path Sum II"))
+    println(formatLeetcodeTitle("514. Freedom Trail"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
