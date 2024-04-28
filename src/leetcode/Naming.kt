@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("514. Freedom Trail"))
+    println(formatLeetcodeTitle("834. Sum of Distances in Tree"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
