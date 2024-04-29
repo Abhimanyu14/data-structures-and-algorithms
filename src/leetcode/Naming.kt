@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("834. Sum of Distances in Tree"))
+    println(formatLeetcodeTitle("2997. Minimum Number of Operations to Make Array XOR Equal to K"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
