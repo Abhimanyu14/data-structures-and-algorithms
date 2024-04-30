@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2997. Minimum Number of Operations to Make Array XOR Equal to K"))
+    println(formatLeetcodeTitle("1915. Number of Wonderful Substrings"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
