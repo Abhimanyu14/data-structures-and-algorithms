@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1915. Number of Wonderful Substrings"))
+    println(formatLeetcodeTitle("2000. Reverse Prefix of Word"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
