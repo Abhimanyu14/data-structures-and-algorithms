@@ -5,13 +5,23 @@ import data_structures_and_algorithms.linkedlist.createLinkedList
 import data_structures_and_algorithms.linkedlist.printLinkedList
 
 /**
+ * leetcode - https://leetcode.com/problems/delete-node-in-a-linked-list/
+ *
+ * Using linked list operations
+ *
+ * Difficulty - Medium
+ *
  * Stats
- * Runtime: 164 ms, faster than 81.21%
- * Memory Usage: 35.2 MB, less than 29.53%
+ * Runtime: 167 ms, faster than 45.24%
+ * Memory Usage: 36.6 MB, less than 36.90%
+ *
+ * Time - O(1)
+ * Space - O(1)
  */
-fun deleteNode(node: ListNode?) {
-    node?.`val` = node?.next?.`val`!!
-    node.next = node.next?.next
+private fun deleteNode(node: ListNode?) {
+    val nextNode = node?.next ?: return
+    node.`val` = nextNode.`val`
+    node.next = nextNode.next
 }
 
 private fun main() {
