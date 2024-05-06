@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("881. Boats to Save People"))
+    println(formatLeetcodeTitle("2487. Remove Nodes From Linked List"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
