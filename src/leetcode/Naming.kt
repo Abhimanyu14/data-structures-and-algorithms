@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("3075. Maximize Happiness of Selected Children"))
+    println(formatLeetcodeTitle("786. K-th Smallest Prime Fraction"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
