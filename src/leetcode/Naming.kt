@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("857. Minimum Cost to Hire K Workers"))
+    println(formatLeetcodeTitle("2373. Largest Local Values in a Matrix"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
