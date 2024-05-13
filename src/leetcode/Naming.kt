@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2373. Largest Local Values in a Matrix"))
+    println(formatLeetcodeTitle("861. Score After Flipping Matrix"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
