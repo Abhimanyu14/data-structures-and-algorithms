@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("861. Score After Flipping Matrix"))
+    println(formatLeetcodeTitle("1219. Path with Maximum Gold"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
