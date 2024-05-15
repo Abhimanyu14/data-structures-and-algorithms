@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1219. Path with Maximum Gold"))
+    println(formatLeetcodeTitle("2812. Find the Safest Path in a Grid"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
