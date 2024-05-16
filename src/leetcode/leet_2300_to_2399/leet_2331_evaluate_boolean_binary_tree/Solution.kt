@@ -30,16 +30,16 @@ private fun evaluateTree(root: TreeNode?): Boolean {
  * Using recursion with optimization
  *
  * Stats
- * Runtime: 372 ms, faster than 72.73%
- * Memory Usage: 43.9 MB, less than 13.64%
+ * Runtime: 193 ms, faster than 70.83%
+ * Memory Usage: 38.2 MB, less than 33.33%
  */
 private fun evaluateTreeConcise(root: TreeNode?): Boolean {
     return if (root?.left == null) {
         return root?.`val` == 1
     } else if (root.`val` == 2) {
-        evaluateTree(root.left) || evaluateTree(root.right)
+        evaluateTreeConcise(root.left) || evaluateTree(root.right)
     } else {
-        evaluateTree(root.left) && evaluateTree(root.right)
+        evaluateTreeConcise(root.left) && evaluateTree(root.right)
     }
 }
 

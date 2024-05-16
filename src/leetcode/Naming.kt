@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2812. Find the Safest Path in a Grid"))
+    println(formatLeetcodeTitle("2331. Evaluate Boolean Binary Tree"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
