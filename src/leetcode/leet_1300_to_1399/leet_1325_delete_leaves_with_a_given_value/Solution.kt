@@ -1,40 +1,31 @@
 package leetcode.leet_1300_to_1399.leet_1325_delete_leaves_with_a_given_value
 
 import data_structures_and_algorithms.TreeNode
-import data_structures_and_algorithms.isLeaf
 
 /**
  * leetcode - https://leetcode.com/problems/delete-leaves-with-a-given-value/
  *
+ * Difficulty - Medium
+ *
  * Stats
- * Runtime: 209 ms, faster than 91.67%
- * Memory Usage: 35.3 MB, less than 100.00%
+ * Runtime: 174 ms, faster than 82.35%
+ * Memory Usage: 36.5 MB, less than 100.00%
+ *
+ * Time - O(N)
+ * Space - O(N) - recursion stack
  */
 private fun removeLeafNodes(root: TreeNode?, target: Int): TreeNode? {
-    if (root == null) return null
-    removeIfTargetLeaf(root, true, root.left, target)
-    removeIfTargetLeaf(root, false, root.right, target)
-    if (shouldBeRemoved(root, target)) {
+    if (root == null) {
         return null
     }
-    return root
-}
-
-private fun removeIfTargetLeaf(parent: TreeNode, leftChild: Boolean, root: TreeNode?, target: Int) {
-    if (root == null) return
-    removeIfTargetLeaf(root, true, root.left, target)
-    removeIfTargetLeaf(root, false, root.right, target)
-    if (shouldBeRemoved(root, target)) {
-        if (leftChild) {
-            parent.left = null
-        } else {
-            parent.right = null
-        }
+    val newLeft = removeLeafNodes(root.left, target)
+    val newRight = removeLeafNodes(root.right, target)
+    if (newLeft == null && newRight == null && root.`val` == target) {
+        return null
     }
-}
-
-private fun shouldBeRemoved(root: TreeNode, target: Int): Boolean {
-    return root.isLeaf() && root.`val` == target
+    root.left = newLeft
+    root.right = newRight
+    return root
 }
 
 private fun main() {
