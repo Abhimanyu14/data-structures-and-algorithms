@@ -1,8 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2384. Largest Palindromic Number"))
-    println(formatLeetcodeTitle("1615. Maximal Network Rank"))
+    println(formatLeetcodeTitle("979. Distribute Coins in Binary Tree"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
