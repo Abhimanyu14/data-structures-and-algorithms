@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("979. Distribute Coins in Binary Tree"))
+    println(formatLeetcodeTitle("3068. Find the Maximum Sum of Node Values"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
