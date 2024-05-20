@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("3068. Find the Maximum Sum of Node Values"))
+    println(formatLeetcodeTitle("1863. Sum of All Subset XOR Totals"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
