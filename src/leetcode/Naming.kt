@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1863. Sum of All Subset XOR Totals"))
+    println(formatLeetcodeTitle("2597. The Number of Beautiful Subsets"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
