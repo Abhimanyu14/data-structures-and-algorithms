@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2597. The Number of Beautiful Subsets"))
+    println(formatLeetcodeTitle("1255. Maximum Score Words Formed by Letters"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
