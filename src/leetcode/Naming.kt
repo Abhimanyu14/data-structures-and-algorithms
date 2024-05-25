@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1255. Maximum Score Words Formed by Letters"))
+    println(formatLeetcodeTitle("140. Word Break II"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
