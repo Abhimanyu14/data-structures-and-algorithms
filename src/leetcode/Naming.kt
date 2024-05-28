@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("552. Student Attendance Record II"))
+    println(formatLeetcodeTitle("1208. Get Equal Substrings Within Budget"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
