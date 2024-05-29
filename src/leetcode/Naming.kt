@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1208. Get Equal Substrings Within Budget"))
+    println(formatLeetcodeTitle("1404. Number of Steps to Reduce a Number in Binary Representation to One"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
