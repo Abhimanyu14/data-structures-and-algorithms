@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1404. Number of Steps to Reduce a Number in Binary Representation to One"))
+    println(formatLeetcodeTitle("1442. Count Triplets That Can Form Two Arrays of Equal XOR"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
