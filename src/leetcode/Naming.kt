@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1442. Count Triplets That Can Form Two Arrays of Equal XOR"))
+    println(formatLeetcodeTitle("260. Single Number III"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
