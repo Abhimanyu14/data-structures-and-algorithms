@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("344. Reverse String"))
+    println(formatLeetcodeTitle("846. Hand of Straights"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
