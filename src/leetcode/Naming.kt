@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("648. Replace Words"))
+    println(formatLeetcodeTitle("523. Continuous Subarray Sum"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
