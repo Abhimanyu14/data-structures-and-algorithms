@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("523. Continuous Subarray Sum"))
+    println(formatLeetcodeTitle("974. Subarray Sums Divisible by K"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
