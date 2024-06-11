@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1051. Height Checker"))
+    println(formatLeetcodeTitle("1122. Relative Sort Array"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
