@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1122. Relative Sort Array"))
+    println(formatLeetcodeTitle("75. Sort Colors"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }

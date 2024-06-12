@@ -38,6 +38,56 @@ private fun sortColors(nums: IntArray) {
     }
 }
 
+/**
+ * leetcode - https://leetcode.com/problems/relative-sort-array/?envType=daily-question&envId=2024-06-11
+ *
+ * Using three pointers
+ *
+ * Difficulty - Easy
+ *
+ * Stats
+ * Runtime: 177 ms, faster than 20.10%
+ * Memory Usage: 34.7 MB, less than 61.32%
+ *
+ * Time -
+ * Space -
+ */
+private fun sortColorsUsingThreePointers(nums: IntArray): Unit {
+    var zeroCount = 0
+    var oneCount = 0
+    var twoCount = 0
+    nums.forEach {
+        when (it) {
+            0 -> {
+                zeroCount++
+            }
+            1 -> {
+                oneCount++
+            }
+            else -> {
+                twoCount++
+            }
+        }
+    }
+
+    var index = 0
+    while (zeroCount > 0) {
+        nums[index] = 0
+        index++
+        zeroCount--
+    }
+    while (oneCount > 0) {
+        nums[index] = 1
+        index++
+        oneCount--
+    }
+    while (twoCount > 0) {
+        nums[index] = 2
+        index++
+        twoCount--
+    }
+}
+
 private fun main() {
     val input1 = intArrayOf(1, 2, 0)
     sortColors(input1)
