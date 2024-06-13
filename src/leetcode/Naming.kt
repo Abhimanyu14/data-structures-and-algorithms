@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("75. Sort Colors"))
+    println(formatLeetcodeTitle("2037. Minimum Number of Moves to Seat Everyone"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
