@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2037. Minimum Number of Moves to Seat Everyone"))
+    println(formatLeetcodeTitle("945. Minimum Increment to Make Array Unique"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
