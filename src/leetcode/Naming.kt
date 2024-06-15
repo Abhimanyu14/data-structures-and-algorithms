@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("945. Minimum Increment to Make Array Unique"))
+    println(formatLeetcodeTitle("502. IPO"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
