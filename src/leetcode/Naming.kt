@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("502. IPO"))
+    println(formatLeetcodeTitle("330. Patching Array"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
