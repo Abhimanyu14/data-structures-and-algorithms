@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("633. Sum of Square Numbers"))
+    println(formatLeetcodeTitle("826. Most Profit Assigning Work"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
