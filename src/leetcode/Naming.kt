@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("826. Most Profit Assigning Work"))
+    println(formatLeetcodeTitle("1552. Magnetic Force Between Two Balls"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
