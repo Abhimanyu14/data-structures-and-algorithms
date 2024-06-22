@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1552. Magnetic Force Between Two Balls"))
+    println(formatLeetcodeTitle("1248. Count Number of Nice Subarrays"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
