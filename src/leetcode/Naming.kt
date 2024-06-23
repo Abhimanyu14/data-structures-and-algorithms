@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1248. Count Number of Nice Subarrays"))
+    println(formatLeetcodeTitle("1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
