@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit"))
+    println(formatLeetcodeTitle("995. Minimum Number of K Consecutive Bit Flips"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
