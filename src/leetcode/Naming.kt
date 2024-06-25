@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("995. Minimum Number of K Consecutive Bit Flips"))
+    println(formatLeetcodeTitle("1038. Binary Search Tree to Greater Sum Tree"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
