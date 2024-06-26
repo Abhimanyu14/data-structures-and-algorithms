@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1038. Binary Search Tree to Greater Sum Tree"))
+    println(formatLeetcodeTitle("1382. Balance a Binary Search Tree"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
