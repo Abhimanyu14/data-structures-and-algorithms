@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2285. Maximum Total Importance of Roads"))
+    println(formatLeetcodeTitle("2192. All Ancestors of a Node in a Directed Acyclic Graph"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }

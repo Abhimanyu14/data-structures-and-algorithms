@@ -33,7 +33,6 @@ private fun maximumImportance(n: Int, roads: Array<IntArray>): Long {
     return result
 }
 
-
 private fun main() {
 
 }
