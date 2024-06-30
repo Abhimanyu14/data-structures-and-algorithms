@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2192. All Ancestors of a Node in a Directed Acyclic Graph"))
+    println(formatLeetcodeTitle("1579. Remove Max Number of Edges to Keep Graph Fully Traversable"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
