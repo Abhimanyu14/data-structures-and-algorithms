@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1579. Remove Max Number of Edges to Keep Graph Fully Traversable"))
+    println(formatLeetcodeTitle("1550. Three Consecutive Odds"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
