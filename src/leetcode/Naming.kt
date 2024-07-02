@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1550. Three Consecutive Odds"))
+    println(formatLeetcodeTitle("350. Intersection of Two Arrays II"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
