@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1509. Minimum Difference Between Largest and Smallest Value in Three Moves"))
+    println(formatLeetcodeTitle("2181. Merge Nodes in Between Zeros"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
