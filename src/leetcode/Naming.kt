@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2181. Merge Nodes in Between Zeros"))
+    println(formatLeetcodeTitle("2058. Find the Minimum and Maximum Number of Nodes Between Critical Points"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
