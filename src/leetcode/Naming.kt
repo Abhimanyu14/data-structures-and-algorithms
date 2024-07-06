@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2058. Find the Minimum and Maximum Number of Nodes Between Critical Points"))
+    println(formatLeetcodeTitle("2582. Pass the Pillow"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
