@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1518. Water Bottles"))
+    println(formatLeetcodeTitle("1701. Average Waiting Time"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
