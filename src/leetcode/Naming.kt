@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1598. Crawler Log Folder"))
+    println(formatLeetcodeTitle("1190. Reverse Substrings Between Each Pair of Parentheses"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
