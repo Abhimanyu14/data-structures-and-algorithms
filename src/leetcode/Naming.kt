@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1190. Reverse Substrings Between Each Pair of Parentheses"))
+    println(formatLeetcodeTitle("1717. Maximum Score From Removing Substrings"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
