@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1717. Maximum Score From Removing Substrings"))
+    println(formatLeetcodeTitle("726. Number of Atoms"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
