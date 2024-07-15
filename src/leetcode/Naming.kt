@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("726. Number of Atoms"))
+    println(formatLeetcodeTitle("2196. Create Binary Tree From Descriptions"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
