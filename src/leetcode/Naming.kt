@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2196. Create Binary Tree From Descriptions"))
+    println(formatLeetcodeTitle("2096. Step-By-Step Directions From a Binary Tree Node to Another"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
