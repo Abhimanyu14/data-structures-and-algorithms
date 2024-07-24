@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2096. Step-By-Step Directions From a Binary Tree Node to Another"))
+    println(formatLeetcodeTitle("2191. Sort the Jumbled Numbers"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
