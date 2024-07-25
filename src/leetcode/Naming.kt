@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2191. Sort the Jumbled Numbers"))
+    println(formatLeetcodeTitle("912. Sort an Array"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }

@@ -7,9 +7,14 @@ import java.util.PriorityQueue
  *
  * Using priority queue
  *
+ * Difficulty -
+ *
  * Stats
- * Runtime: 1268 ms, faster than 33.89%
- * Memory Usage: 76.7 MB, less than 71.08%
+ * Runtime: 685 ms, faster than 47.29%
+ * Memory Usage: 50.7 MB, less than 87.60%
+ *
+ * Time -
+ * Space -
  */
 private fun sortArray(nums: IntArray): IntArray {
     val priorityQueue = PriorityQueue<Int> { a, b ->
