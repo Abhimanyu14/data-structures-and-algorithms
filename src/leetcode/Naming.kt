@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance"))
+    println(formatLeetcodeTitle("2045. Second Minimum Time to Reach Destination"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
