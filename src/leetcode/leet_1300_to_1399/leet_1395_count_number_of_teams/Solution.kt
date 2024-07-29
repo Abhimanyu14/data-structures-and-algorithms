@@ -1,49 +1,80 @@
 package leetcode.leet_1300_to_1399.leet_1395_count_number_of_teams
 
-import data_structures_and_algorithms.maths.combination
+import kotlin.math.max
 
 /**
  * leetcode - https://leetcode.com/problems/count-number-of-teams/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *
  * Stats
  *
  */
-fun numTeams(rating: IntArray): Int {
-    var result = 0
-    var tempArray1: MutableList<Int>
-    var tempArray2: MutableList<Int>
-    for (i in rating.indices) {
-        tempArray1 = mutableListOf()
-        tempArray2 = mutableListOf()
-        tempArray1.add(rating[i])
-        tempArray2.add(rating[i])
-        for (j in i + 1 until rating.size) {
-            if (rating[j] < tempArray1.last()) {
-                tempArray1.add(rating[j])
-            }
-            if (rating[j] > tempArray2.last()) {
-                tempArray2.add(rating[j])
-            }
+private class Solution {
+    fun numTeams(rating: IntArray): Int {
+        // Find the maximum rating
+        var maxRating = 0
+        for (r in rating) {
+            maxRating = max(maxRating.toDouble(), r.toDouble()).toInt()
         }
-        if (tempArray1.size >= 3) {
-            result += combination(tempArray1.size, 3)
+
+        // Initialize Binary Indexed Trees for left and right sides
+        val leftBIT = IntArray(maxRating + 1)
+        val rightBIT = IntArray(maxRating + 1)
+
+        // Populate the right BIT with all ratings initially
+        for (r in rating) {
+            updateBIT(rightBIT, r, 1)
         }
-        if (tempArray2.size >= 3) {
-            result += combination(tempArray2.size, 3)
+
+        var teams = 0
+        for (currentRating in rating) {
+            // Remove current rating from right BIT
+            updateBIT(rightBIT, currentRating, -1)
+
+            // Count soldiers with smaller and larger ratings on both sides
+            val smallerRatingsLeft = getPrefixSum(leftBIT, currentRating - 1)
+            val smallerRatingsRight = getPrefixSum(rightBIT, currentRating - 1)
+            val largerRatingsLeft =
+                getPrefixSum(leftBIT, maxRating) -
+                        getPrefixSum(leftBIT, currentRating)
+            val largerRatingsRight =
+                getPrefixSum(rightBIT, maxRating) -
+                        getPrefixSum(rightBIT, currentRating)
+
+            // Count increasing and decreasing sequences
+            teams += (smallerRatingsLeft * largerRatingsRight)
+            teams += (largerRatingsLeft * smallerRatingsRight)
+
+            // Add current rating to left BIT
+            updateBIT(leftBIT, currentRating, 1)
+        }
+
+        return teams
+    }
+
+    // Update the Binary Indexed Tree
+    private fun updateBIT(BIT: IntArray, index: Int, value: Int) {
+        var index = index
+        while (index < BIT.size) {
+            BIT[index] += value
+            index += index and (-index) // Move to the next relevant index in BIT
         }
     }
-    return result
+
+    // Get the sum of all elements up to the given index in the BIT
+    private fun getPrefixSum(BIT: IntArray, index: Int): Int {
+        var index = index
+        var sum = 0
+        while (index > 0) {
+            sum += BIT[index]
+            index -= index and (-index) // Move to the parent node in BIT
+        }
+        return sum
+    }
 }
 
 private fun main() {
-    val input1 = intArrayOf(2, 5, 3, 4, 1)
-    val input2 = intArrayOf(2, 1, 3)
-    val input3 = intArrayOf(1, 2, 3, 4)
-    println(numTeams(input1))
-    println(numTeams(input2))
-    println(numTeams(input3))
 }

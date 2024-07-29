@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2045. Second Minimum Time to Reach Destination"))
+    println(formatLeetcodeTitle("1395. Count Number of Teams"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
