@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1105. Filling Bookcase Shelves"))
+    println(formatLeetcodeTitle("2678. Number of Senior Citizens"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
