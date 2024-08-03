@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2678. Number of Senior Citizens"))
+    println(formatLeetcodeTitle("1460. Make Two Arrays Equal by Reversing Subarrays"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
