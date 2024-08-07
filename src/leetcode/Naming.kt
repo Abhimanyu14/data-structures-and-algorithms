@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("3016. Minimum Number of Pushes to Type Word II"))
+    println(formatLeetcodeTitle("273. Integer to English Words"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
