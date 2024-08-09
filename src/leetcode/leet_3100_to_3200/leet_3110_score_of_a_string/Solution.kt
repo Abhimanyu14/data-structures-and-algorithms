@@ -1,4 +1,4 @@
-package leetcode.leet_3000_to_3100.leet_3110_score_of_a_string
+package leetcode.leet_3100_to_3200.leet_3110_score_of_a_string
 
 import kotlin.math.abs
 

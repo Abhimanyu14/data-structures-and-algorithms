@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("885. Spiral Matrix III"))
+    println(formatLeetcodeTitle("840. Magic Squares In Grid"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
