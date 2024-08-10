@@ -1,4 +1,4 @@
-package leetcode.leet_3100_to_3200.template
+package leetcode.leet_3200_to_3300.template
 
 /**
  * leetcode -

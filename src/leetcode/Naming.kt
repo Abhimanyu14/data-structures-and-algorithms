@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("840. Magic Squares In Grid"))
+    println(formatLeetcodeTitle("959. Regions Cut By Slashes"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
