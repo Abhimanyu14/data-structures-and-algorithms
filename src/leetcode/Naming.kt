@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("959. Regions Cut By Slashes"))
+    println(formatLeetcodeTitle("1568. Minimum Number of Days to Disconnect Island"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
