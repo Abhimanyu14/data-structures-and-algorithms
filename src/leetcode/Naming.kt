@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1568. Minimum Number of Days to Disconnect Island"))
+    println(formatLeetcodeTitle("703. Kth Largest Element in a Stream"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
