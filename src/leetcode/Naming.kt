@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("703. Kth Largest Element in a Stream"))
+    println(formatLeetcodeTitle("40. Combination Sum II"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
