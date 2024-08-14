@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("40. Combination Sum II"))
+    println(formatLeetcodeTitle("719. Find K-th Smallest Pair Distance"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
