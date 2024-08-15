@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("719. Find K-th Smallest Pair Distance"))
+    println(formatLeetcodeTitle("860. Lemonade Change"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
