@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("860. Lemonade Change"))
+    println(formatLeetcodeTitle("624. Maximum Distance in Arrays"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
