@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1937. Maximum Number of Points with Cost"))
+    println(formatLeetcodeTitle("264. Ugly Number II"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
