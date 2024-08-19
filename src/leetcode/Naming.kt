@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("264. Ugly Number II"))
+    println(formatLeetcodeTitle("650. 2 Keys Keyboard"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
