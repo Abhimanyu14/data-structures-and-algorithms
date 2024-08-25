@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("664. Strange Printer"))
+    println(formatLeetcodeTitle("564. Find the Closest Palindrome"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }

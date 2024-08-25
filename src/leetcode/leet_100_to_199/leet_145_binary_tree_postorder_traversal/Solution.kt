@@ -7,26 +7,30 @@ import data_structures_and_algorithms.TreeNode
  *
  * Using recursion
  *
+ * Difficulty - Easy
+ *
  * Stats
- * Runtime: 360 ms, faster than 5.37%
- * Memory Usage: 34 MB, less than 97.32%
+ * Runtime: 129 ms, faster than 97.49%
+ * Memory Usage: 34.3 MB, less than 56.78%
+ *
+ * Time -
+ * Space -
  */
 private fun postorderTraversal(root: TreeNode?): List<Int> {
     val list = mutableListOf<Int>()
-    parseTree(root, list)
+    fun parseTree(root: TreeNode?) {
+        root?.left?.let {
+            parseTree(it)
+        }
+        root?.right?.let {
+            parseTree(it)
+        }
+        root?.`val`?.let {
+            list.add(it)
+        }
+    }
+    parseTree(root)
     return list
-}
-
-private fun parseTree(root: TreeNode?, list: MutableList<Int>) {
-    root?.right?.let {
-        parseTree(it, list)
-    }
-    root?.left?.let {
-        parseTree(it, list)
-    }
-    root?.`val`?.let {
-        list.add(it)
-    }
 }
 
 private fun main() {
