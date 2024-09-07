@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("3217. Delete Nodes From Linked List Present in Array"))
+    println(formatLeetcodeTitle("1367. Linked List in Binary Tree"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
