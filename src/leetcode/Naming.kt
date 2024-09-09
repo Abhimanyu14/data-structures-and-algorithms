@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1367. Linked List in Binary Tree"))
+    println(formatLeetcodeTitle("2326. Spiral Matrix IV"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
