@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2326. Spiral Matrix IV"))
+    println(formatLeetcodeTitle("2807. Insert Greatest Common Divisors in Linked List"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
