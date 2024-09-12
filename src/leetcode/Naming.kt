@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2807. Insert Greatest Common Divisors in Linked List"))
+    println(formatLeetcodeTitle("1684. Count the Number of Consistent Strings"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
