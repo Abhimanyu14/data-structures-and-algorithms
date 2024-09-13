@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1684. Count the Number of Consistent Strings"))
+    println(formatLeetcodeTitle("1310. XOR Queries of a Subarray"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
