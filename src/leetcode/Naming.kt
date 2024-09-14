@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1310. XOR Queries of a Subarray"))
+    println(formatLeetcodeTitle("2419. Longest Subarray With Maximum Bitwise AND"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
