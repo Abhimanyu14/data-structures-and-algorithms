@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2419. Longest Subarray With Maximum Bitwise AND"))
+    println(formatLeetcodeTitle("1371. Find the Longest Substring Containing Vowels in Even Counts"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
