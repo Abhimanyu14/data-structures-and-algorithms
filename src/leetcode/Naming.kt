@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("386. Lexicographical Numbers"))
+    println(formatLeetcodeTitle("2707. Extra Characters in a String"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
