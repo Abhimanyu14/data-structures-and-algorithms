@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2707. Extra Characters in a String"))
+    println(formatLeetcodeTitle("3043. Find the Length of the Longest Common Prefix"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
