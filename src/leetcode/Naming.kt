@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("3043. Find the Length of the Longest Common Prefix"))
+    println(formatLeetcodeTitle("2416. Sum of Prefix Scores of Strings"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
