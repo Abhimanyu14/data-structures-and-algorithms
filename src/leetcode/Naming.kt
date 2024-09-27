@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2416. Sum of Prefix Scores of Strings"))
+    println(formatLeetcodeTitle("729. My Calendar I"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
