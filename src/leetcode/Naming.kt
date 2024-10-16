@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2406. Divide Intervals Into Minimum Number of Groups"))
+    println(formatLeetcodeTitle("1405. Longest Happy String"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
