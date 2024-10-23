@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2583. Kth Largest Sum in a Binary Tree"))
+    println(formatLeetcodeTitle("2641. Cousins in Binary Tree II"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
