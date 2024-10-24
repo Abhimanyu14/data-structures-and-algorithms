@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2641. Cousins in Binary Tree II"))
+    println(formatLeetcodeTitle("951. Flip Equivalent Binary Trees"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
