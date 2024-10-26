@@ -5,7 +5,7 @@ import data_structures_and_algorithms.linkedlist.ListNode
 /**
  * leetcode - https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

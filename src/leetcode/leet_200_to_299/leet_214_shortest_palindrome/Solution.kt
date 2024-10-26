@@ -6,7 +6,7 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/shortest-palindrome/?envType=daily-question&envId=2024-09-20
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

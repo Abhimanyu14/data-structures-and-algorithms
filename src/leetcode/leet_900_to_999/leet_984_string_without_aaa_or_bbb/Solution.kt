@@ -3,7 +3,7 @@ package leetcode.leet_900_to_999.leet_984_string_without_aaa_or_bbb
 /**
  * leetcode - https://leetcode.com/problems/string-without-aaa-or-bbb/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

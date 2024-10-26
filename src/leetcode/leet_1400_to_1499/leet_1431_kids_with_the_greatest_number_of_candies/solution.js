@@ -1,7 +1,7 @@
 /**
  * leetcode - https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

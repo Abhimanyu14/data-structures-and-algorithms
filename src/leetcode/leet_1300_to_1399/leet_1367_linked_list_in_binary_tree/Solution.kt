@@ -7,7 +7,7 @@ import data_structures_and_algorithms.linkedlist.ListNode
 /**
  * leetcode - https://leetcode.com/problems/linked-list-in-binary-tree/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

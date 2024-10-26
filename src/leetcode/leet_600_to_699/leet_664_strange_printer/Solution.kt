@@ -5,7 +5,7 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/strange-printer/?envType=daily-question&envId=2024-08-21
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

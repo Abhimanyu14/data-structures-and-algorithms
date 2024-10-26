@@ -3,7 +3,7 @@ package leetcode.leet_900_to_999.leet_983_minimum_cost_for_tickets
 /**
  * leetcode - https://leetcode.com/problems/minimum-cost-for-tickets/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

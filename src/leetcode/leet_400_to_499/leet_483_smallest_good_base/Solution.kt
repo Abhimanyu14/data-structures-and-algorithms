@@ -3,7 +3,7 @@ package leetcode.leet_400_to_499.leet_483_smallest_good_base
 /**
  * leetcode - https://leetcode.com/problems/smallest-good-base/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

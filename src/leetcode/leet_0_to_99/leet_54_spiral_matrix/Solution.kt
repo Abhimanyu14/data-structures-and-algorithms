@@ -3,7 +3,7 @@ package leetcode.leet_0_to_99.leet_54_spiral_matrix
 /**
  * leetcode - https://leetcode.com/problems/spiral-matrix/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

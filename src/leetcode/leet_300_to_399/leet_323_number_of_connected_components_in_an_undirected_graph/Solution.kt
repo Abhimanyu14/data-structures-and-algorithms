@@ -3,7 +3,7 @@ package leetcode.leet_300_to_399.leet_323_number_of_connected_components_in_an_u
 /**
  * leetcode - https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using DFS
  *

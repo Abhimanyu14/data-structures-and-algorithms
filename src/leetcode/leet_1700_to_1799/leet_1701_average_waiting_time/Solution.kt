@@ -5,7 +5,7 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/average-waiting-time/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

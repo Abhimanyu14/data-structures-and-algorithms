@@ -3,7 +3,7 @@ package leetcode.leet_1300_to_1399.leet_1386_cinema_seat_allocation
 /**
  * leetcode - https://leetcode.com/problems/cinema-seat-allocation/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

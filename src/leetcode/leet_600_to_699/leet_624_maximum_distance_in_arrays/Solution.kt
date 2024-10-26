@@ -5,7 +5,7 @@ import kotlin.math.abs
 /**
  * leetcode - https://leetcode.com/problems/maximum-distance-in-arrays/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

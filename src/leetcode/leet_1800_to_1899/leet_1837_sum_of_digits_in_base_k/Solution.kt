@@ -3,7 +3,7 @@ package leetcode.leet_1800_to_1899.leet_1837_sum_of_digits_in_base_k
 /**
  * leetcode - https://leetcode.com/problems/sum-of-digits-in-base-k/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using modulo and sum
  *

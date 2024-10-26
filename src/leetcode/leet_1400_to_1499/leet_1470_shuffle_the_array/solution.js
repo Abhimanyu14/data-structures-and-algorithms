@@ -1,7 +1,7 @@
 /**
  * leetcode - https://leetcode.com/problems/shuffle-the-array/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

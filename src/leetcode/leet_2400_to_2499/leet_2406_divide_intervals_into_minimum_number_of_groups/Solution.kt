@@ -6,7 +6,7 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *
@@ -51,7 +51,7 @@ private fun minGroups(intervals: Array<IntArray>): Int {
 /**
  * leetcode - https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

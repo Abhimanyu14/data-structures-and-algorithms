@@ -5,7 +5,7 @@ import kotlin.math.pow
 /**
  * leetcode - https://leetcode.com/problems/count-good-numbers/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

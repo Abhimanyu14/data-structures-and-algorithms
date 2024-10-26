@@ -8,7 +8,7 @@ import kotlin.math.ceil
  * Description - We are given two texts - text1 and text2 to place in a 1 x 2 table.
  * We need to find where we can place the divider to get the minimum height.
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  */

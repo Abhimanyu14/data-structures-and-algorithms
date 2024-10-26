@@ -6,7 +6,7 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/walking-robot-simulation/?envType=daily-question&envId=2024-09-04
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

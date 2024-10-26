@@ -3,7 +3,7 @@ package leetcode.leet_600_to_699.leet_650_2_keys_keyboard
 /**
  * leetcode - https://leetcode.com/problems/2-keys-keyboard/?envType=daily-question&envId=2024-08-19
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

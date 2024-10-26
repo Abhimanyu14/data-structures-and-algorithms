@@ -3,7 +3,7 @@ package leetcode.leet_1400_to_1499.leet_1404_number_of_steps_to_reduce_a_number_
 /**
  * leetcode - https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/?envType=daily-question&envId=2024-05-29
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

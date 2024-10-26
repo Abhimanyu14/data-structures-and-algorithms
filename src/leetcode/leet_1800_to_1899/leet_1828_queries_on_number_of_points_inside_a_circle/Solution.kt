@@ -6,7 +6,7 @@ import kotlin.math.sqrt
 /**
  * leetcode - https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

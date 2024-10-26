@@ -7,7 +7,7 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/minimum-cost-to-make-array-equal/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

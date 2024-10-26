@@ -3,7 +3,7 @@ package leetcode.leet_600_to_699.leet_641_design_circular_deque
 /**
  * leetcode - https://leetcode.com/problems/design-circular-deque/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

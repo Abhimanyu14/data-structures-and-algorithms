@@ -6,7 +6,7 @@ import kotlin.math.log10
 /**
  * leetcode - https://leetcode.com/problems/split-message-based-on-limit/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

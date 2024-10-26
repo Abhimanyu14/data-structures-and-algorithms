@@ -3,7 +3,7 @@ package leetcode.leet_2400_to_2499.leet_2416_sum_of_prefix_scores_of_strings
 /**
  * leetcode - https://leetcode.com/problems/sum-of-prefix-scores-of-strings/?envType=daily-question&envId=2024-09-25
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

@@ -5,7 +5,7 @@ import kotlin.random.Random
 /**
  * leetcode - https://leetcode.com/problems/shuffle-an-array/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

@@ -3,7 +3,7 @@ package leetcode.leet_2400_to_2499.leet_2485_find_the_pivot_integer
 /**
  * leetcode - https://leetcode.com/problems/find-the-pivot-integer/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using two pointers
  *

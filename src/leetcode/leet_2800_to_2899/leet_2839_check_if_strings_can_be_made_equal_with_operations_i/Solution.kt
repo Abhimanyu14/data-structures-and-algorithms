@@ -3,7 +3,7 @@ package leetcode.leet_2800_to_2899.leet_2839_check_if_strings_can_be_made_equal_
 /**
  * leetcode - https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using conditionals
  *

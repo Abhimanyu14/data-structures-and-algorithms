@@ -34,7 +34,7 @@ private fun checkSubarraySum(nums: IntArray, k: Int): Boolean {
 /**
  * leetcode - https://leetcode.com/problems/continuous-subarray-sum/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

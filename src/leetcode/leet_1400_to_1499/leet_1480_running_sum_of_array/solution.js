@@ -1,7 +1,7 @@
 /**
  * leetcode - https://leetcode.com/problems/running-sum-of-1d-array/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

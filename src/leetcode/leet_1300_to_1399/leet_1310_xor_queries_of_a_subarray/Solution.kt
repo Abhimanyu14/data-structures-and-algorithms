@@ -3,7 +3,7 @@ package leetcode.leet_1300_to_1399.leet_1310_xor_queries_of_a_subarray
 /**
  * leetcode - https://leetcode.com/problems/xor-queries-of-a-subarray/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

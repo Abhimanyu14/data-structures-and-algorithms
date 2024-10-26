@@ -3,7 +3,7 @@ package leetcode.leet_1500_to_1599.leet_1592_rearrange_spaces_between_words
 /**
  * leetcode - https://leetcode.com/problems/rearrange-spaces-between-words/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *

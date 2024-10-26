@@ -6,7 +6,7 @@ import kotlin.math.pow
 /**
  * leetcode - https://leetcode.com/problems/detonate-the-maximum-bombs/
  *
- * TODO(Abhi) - To complete
+ * TODO(Abhi) - To revisit
  *
  * Using
  *
