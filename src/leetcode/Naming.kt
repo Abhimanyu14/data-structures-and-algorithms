@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("2458. Height of Binary Tree After Subtree Removal Queries"))
+    println(formatLeetcodeTitle("1277. Count Square Submatrices with All Ones"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
