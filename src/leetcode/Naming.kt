@@ -1,7 +1,7 @@
 package leetcode
 
 private fun main() {
-    println(formatLeetcodeTitle("1277. Count Square Submatrices with All Ones"))
+    println(formatLeetcodeTitle("1020. Number of Enclaves"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 }
