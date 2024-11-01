@@ -6,7 +6,6 @@ private fun main() {
     // println(formatLeetcodeTitle("1020. Number of Enclaves"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
-    rename()
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
