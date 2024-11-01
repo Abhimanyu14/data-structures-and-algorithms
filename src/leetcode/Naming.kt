@@ -1,11 +1,15 @@
 package leetcode
 
 import java.io.File
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.Json
 
 private fun main() {
     // println(formatLeetcodeTitle("1020. Number of Enclaves"))
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
+
+    createDir()
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
@@ -33,36 +37,66 @@ private fun formatHackerrankTitle(@Suppress("SameParameterValue") title: String)
         .filter { it.isLetter() || it == '_' }
 }
 
+@Serializable
+private data class Question(
+    val frontendQuestionId: String,
+    val title: String,
+    val titleSlug: String,
+)
+
 private fun createDir() {
-    // Define the root directory of the project
     val rootDir = File("./src/leetcode")
+    val jsonString = File("$rootDir/leetcode_questions.json").readText()
+    val questions = Json.decodeFromString<List<Question>>(jsonString)
+    fun getDirectoryName(question: Question): String {
+        return "leetcode_${question.frontendQuestionId}_${question.titleSlug.replace("-", "_")}"
+    }
 
-    rootDir.walkTopDown()
+    val allDirectoryNames: List<String> = questions.map { question ->
+        getDirectoryName(question)
+    }
+    val existingDirectoryNames = rootDir.walkTopDown()
         .filter {
-            it.isDirectory && it.name.startsWith("leet_")
-            // it.isFile && it.extension == "kt"
-        } // Filter for Kotlin files only
-        .forEach { dir ->
-            val newDirName = dir.name.replaceFirst("leet_", "leetcode_")
-            val newDir = File(dir.parentFile, newDirName)
-            if (dir.renameTo(newDir)) {
-                println("Renamed directory: ${dir.path} -> ${newDir.path}")
-            } else {
-                println("Failed to rename directory: ${dir.path}")
-            }
+            it.isDirectory
+        }
+        .map {
+            it.name
+        }.toList()
+    val existingDirectoryNamesSet = existingDirectoryNames.toSet()
+
+    allDirectoryNames.filter {
+        !existingDirectoryNamesSet.contains(it)
+    }.forEach {
+        val directory = File("$rootDir/$it")
+        if (directory.mkdir()) {
+            val file = File("$rootDir/$it/Solution.kt")
+            file.createNewFile()
+            file.writeText(solutionFileContent().replace("package leetcode","package leetcode.$it"))
+        }
+    }
+}
+
+private fun solutionFileContent(): String {
+    return """
+        package leetcode
+
+        /**
+         * leetcode -
+         *
+         * TODO(Abhi) - To revisit
+         *
+         * Using
+         *
+         * Difficulty -
+         *
+         * Stats
+         *
+         * Time -
+         * Space -
+         */
+        private fun main() {
+
         }
 
-    // Step 2: Update all Kotlin files to reflect new package names
-    rootDir.walkTopDown()
-        .filter {
-            it.isFile && it.extension == "kt"
-        } // Filter for Kotlin files
-        .forEach { file ->
-            val content = file.readText()
-            val updatedContent = content.replace("leetcode_", "leetcode_")
-            if (content != updatedContent) {
-                file.writeText(updatedContent)
-                println("Updated package in file: ${file.path}")
-            }
-        }
+    """.trimIndent()
 }

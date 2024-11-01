@@ -44,7 +44,7 @@ internal class AllOne {
                 newNode.prev = node
                 newNode.next = nextNode
                 node.next = newNode
-                nextNode.prev = newNode
+                nextNode?.prev = newNode
                 map[key] = newNode
             } else {
                 nextNode.keys.add(key)
@@ -62,7 +62,7 @@ internal class AllOne {
                 newNode.prev = head
                 newNode.next = firstNode
                 head.next = newNode
-                firstNode.prev = newNode
+                firstNode?.prev = newNode
                 map[key] = newNode
             } else {
                 firstNode.keys.add(key)
@@ -89,7 +89,7 @@ internal class AllOne {
                 newNode.keys.add(key)
                 newNode.prev = prevNode
                 newNode.next = node
-                prevNode.next = newNode
+                prevNode?.next = newNode
                 node.prev = newNode
                 map[key] = newNode
             } else {
