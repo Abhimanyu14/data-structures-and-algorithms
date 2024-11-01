@@ -3,7 +3,7 @@ package leetcode.leetcode_2724_sort_by
 /**
  * leetcode -
  *
- * TODO(Abhi) - To revisit
+ * TODO(Abhi) - Javascript question
  *
  * Using
  *

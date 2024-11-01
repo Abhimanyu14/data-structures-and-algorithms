@@ -3,7 +3,7 @@ package leetcode.leetcode_2677_chunk_array
 /**
  * leetcode -
  *
- * TODO(Abhi) - To revisit
+ * TODO(Abhi) - Javascript question
  *
  * Using
  *

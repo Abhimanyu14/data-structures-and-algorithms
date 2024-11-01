@@ -3,7 +3,7 @@ package leetcode.leetcode_2727_is_object_empty
 /**
  * leetcode -
  *
- * TODO(Abhi) - To revisit
+ * TODO(Abhi) - Javascript question
  *
  * Using
  *
