@@ -3,7 +3,7 @@ package leetcode.leetcode_2882_drop_duplicate_rows
 /**
  * leetcode -
  *
- * TODO(Abhi) - To revisit
+ * TODO(Abhi) - Pandas question
  *
  * Using
  *

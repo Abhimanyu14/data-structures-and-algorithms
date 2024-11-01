@@ -3,7 +3,7 @@ package leetcode.leetcode_2885_rename_columns
 /**
  * leetcode -
  *
- * TODO(Abhi) - To revisit
+ * TODO(Abhi) - Pandas question
  *
  * Using
  *
