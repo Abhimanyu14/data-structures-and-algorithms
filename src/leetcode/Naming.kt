@@ -9,7 +9,7 @@ private fun main() {
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 
-    createDir()
+    updateAllLeetcodeQuestions()
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
@@ -44,7 +44,7 @@ private data class Question(
     val titleSlug: String,
 )
 
-private fun createDir() {
+private fun updateAllLeetcodeQuestions() {
     val rootDir = File("./src/leetcode")
     val jsonString = File("$rootDir/leetcode_questions.json").readText()
     val questions = Json.decodeFromString<List<Question>>(jsonString)
