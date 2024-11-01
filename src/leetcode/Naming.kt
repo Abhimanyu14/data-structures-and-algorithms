@@ -33,7 +33,7 @@ private fun formatHackerrankTitle(@Suppress("SameParameterValue") title: String)
         .filter { it.isLetter() || it == '_' }
 }
 
-private fun rename() {
+private fun createDir() {
     // Define the root directory of the project
     val rootDir = File("./src/leetcode")
 
