@@ -11,16 +11,16 @@ package leetcode.leetcode_49_group_anagrams
  */
 private fun groupAnagrams(strs: Array<String>): List<List<String>> {
     val result = mutableMapOf<String, MutableList<String>>()
-    var count = IntArray(26)
-    strs.forEach { str ->
-        count = IntArray(26)
-        str.forEach {
-            count[it - 'a']++
+    var counter: IntArray
+    strs.forEach { string ->
+        counter = IntArray(26)
+        string.forEach {
+            counter[it - 'a']++
         }
-        val key = count.joinToString(", ")
+        val key = counter.joinToString(", ")
         result.computeIfAbsent(key) {
             mutableListOf()
-        }.add(str)
+        }.add(string)
     }
     return result.values.toList()
 }
@@ -36,11 +36,11 @@ private fun groupAnagrams(strs: Array<String>): List<List<String>> {
  */
 private fun groupAnagramsUsingSort(strs: Array<String>): List<List<String>> {
     val result = mutableMapOf<String, MutableList<String>>()
-    strs.forEach { str ->
-        val sortedStr = str.toCharArray().sorted().joinToString()
-        result.computeIfAbsent(sortedStr) {
+    strs.forEach { string ->
+        val sortedStrings = string.toCharArray().sorted().joinToString()
+        result.computeIfAbsent(sortedStrings) {
             mutableListOf()
-        }.add(str)
+        }.add(string)
     }
     return result.values.toList()
 }
