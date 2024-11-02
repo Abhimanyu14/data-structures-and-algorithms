@@ -11,6 +11,9 @@ package leetcode.leetcode_242_valid_anagram
  * Stats
  * Runtime: 345 ms, faster than 52.65%
  * Memory Usage: 38.7 MB, less than 82.49%
+ *
+ * Time - O(N)
+ * Space - O(N)
  */
 private fun isAnagramUsingArray(s: String, t: String): Boolean {
     val arr = IntArray(26)
@@ -22,26 +25,29 @@ private fun isAnagramUsingArray(s: String, t: String): Boolean {
 /**
  * leetcode - https://leetcode.com/problems/valid-anagram/
  *
- *  Using map
+ * Using map
  *
  * Stats
  * Runtime: 329 ms, faster than 59.68%
  * Memory Usage: 42.1 MB, less than 56.22%
+ *
+ * Time - O(N)
+ * Space - O(N)
  */
 private fun isAnagram(s: String, t: String): Boolean {
-    val map = hashMapOf<Char, Int>()
+    val map = mutableMapOf<Char, Int>()
     s.forEach {
-        map[it] = (map[it] ?: 0) + 1
+        map[it] = map.getOrDefault(it, 0) + 1
     }
     t.forEach {
-        if (!map.containsKey(it)) {
-            return false
-        } else {
+        if (map.containsKey(it)) {
             if (map[it] == 1) {
                 map.remove(it)
             } else {
-                map[it] = (map[it] ?: 0) - 1
+                map[it] = map.getOrDefault(it, 0) - 1
             }
+        } else {
+            return false
         }
     }
     return map.isEmpty()

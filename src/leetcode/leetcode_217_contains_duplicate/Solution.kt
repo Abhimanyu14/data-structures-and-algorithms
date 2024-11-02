@@ -8,14 +8,17 @@ package leetcode.leetcode_217_contains_duplicate
  * Stats
  * Runtime: 391 ms, faster than 95.97%
  * Memory Usage: 52.4 MB, less than 60.87%
+ *
+ * Time - O(N)
+ * Space - O(N)
  */
 private fun containsDuplicate(nums: IntArray): Boolean {
     val set = mutableSetOf<Int>()
-    for (i in nums.indices) {
-        if (set.contains(nums[i])) {
+    for (num in nums) {
+        if (set.contains(num)) {
             return true
         }
-        set.add(nums[i])
+        set.add(num)
     }
     return false
 }

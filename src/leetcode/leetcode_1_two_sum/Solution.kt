@@ -8,6 +8,9 @@ package leetcode.leetcode_1_two_sum
  * Stats
  * Runtime: 218 ms, faster than 96.60%
  * Memory Usage: 38.2 MB, less than 87.41%
+ *
+ * Time - O(N)
+ * Space - O(N)
  */
 private fun twoSum(nums: IntArray, target: Int): IntArray {
     val diffMap = mutableMapOf<Int, Int>()
