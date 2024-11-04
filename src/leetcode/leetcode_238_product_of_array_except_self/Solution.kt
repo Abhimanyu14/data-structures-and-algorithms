@@ -8,6 +8,9 @@ package leetcode.leetcode_238_product_of_array_except_self
  * Stats
  * Runtime: 325 ms, faster than 31.56%
  * Memory Usage: 53.2 MB, less than 5.07%
+ *
+ * Time - O(N)
+ * Space - O(N)
  */
 private fun productExceptSelf(arr: IntArray): IntArray {
     val result = IntArray(arr.size)
@@ -29,7 +32,7 @@ private fun productExceptSelf(arr: IntArray): IntArray {
  *
  * Using two pointers
  *
- *  Stats
+ * Stats
  *
  *
  * Given an array of n integers, construct a product array of the same size
