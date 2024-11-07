@@ -6,6 +6,7 @@
 - Edges
 - Direction
 - Weight
+- Degree
 
 ### Undirected Graph
 
@@ -57,6 +58,11 @@
 
 - Adjacency Matrix
 - Adjacency List
+
+## Traversal
+
+- BFS - Queue
+- DFS - Stack
 
 # Tree
 

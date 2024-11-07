@@ -36,30 +36,33 @@ private fun isValid(s: String): Boolean {
  * Using Java Stack
  *
  * Stats
- * Runtime: 271 ms, faster than 26.88%
- * Memory Usage: 34.4 MB, less than 58.79%
+ * Runtime: 8 ms, faster than 66.11%
+ * Memory Usage: 34.7 MB, less than 63.73%
+ *
+ * Time: O(N)
+ * Space: O(1)
  */
 private fun isValidUsingJavaStack(s: String): Boolean {
     if (s.length % 2 != 0) {
         return false
     }
-    val map = hashMapOf(
+    val map = mapOf(
         '}' to '{',
         ']' to '[',
         ')' to '('
     )
     val stack = Stack<Char>()
-    for (i in s) {
-        if (map.containsValue(i)) {
-            stack.push(i)
-        } else {
+    s.forEach {
+        if (map.contains(it)) {
             if (stack.isEmpty()) {
                 return false
             }
-            if (stack.peek() != map[i]) {
+            if (stack.peek() != map[it]) {
                 return false
             }
             stack.pop()
+        } else {
+            stack.push(it)
         }
     }
     return stack.isEmpty()

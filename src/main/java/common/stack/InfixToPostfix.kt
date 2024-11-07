@@ -1,4 +1,4 @@
-package data_structures_and_algorithms.stack
+package common.stack
 
 fun infixToPostfix() {
     // TODO
