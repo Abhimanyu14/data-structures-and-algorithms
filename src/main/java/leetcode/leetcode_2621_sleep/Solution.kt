@@ -1,18 +1,9 @@
 package leetcode.leetcode_2621_sleep
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/sleep/
  *
- * TODO(Abhi) - To revisit
- *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
+ * TODO(Abhi) - Javascript question
  */
 private fun main() {
 
