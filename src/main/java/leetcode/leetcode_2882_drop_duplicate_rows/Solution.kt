@@ -1,7 +1,7 @@
 package leetcode.leetcode_2882_drop_duplicate_rows
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/drop-duplicate-rows/
  *
  * TODO(Abhi) - Pandas question
  */

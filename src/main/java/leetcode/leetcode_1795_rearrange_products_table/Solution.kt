@@ -1,18 +1,9 @@
 package leetcode.leetcode_1795_rearrange_products_table
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/rearrange-products-table/
  *
- * TODO(Abhi) - To revisit
- *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
+ * TODO(Abhi) - SQL question
  */
 private fun main() {
 

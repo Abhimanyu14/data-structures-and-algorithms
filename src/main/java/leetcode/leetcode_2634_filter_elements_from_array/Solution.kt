@@ -1,18 +1,9 @@
 package leetcode.leetcode_2634_filter_elements_from_array
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/filter-elements-from-array/
  *
- * TODO(Abhi) - To revisit
- *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
+ * TODO(Abhi) - Javascript question
  */
 private fun main() {
 

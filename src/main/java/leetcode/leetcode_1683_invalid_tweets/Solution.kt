@@ -1,18 +1,9 @@
 package leetcode.leetcode_1683_invalid_tweets
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/invalid-tweets/
  *
- * TODO(Abhi) - To revisit
- *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
+ * TODO(Abhi) - SQL question
  */
 private fun main() {
 

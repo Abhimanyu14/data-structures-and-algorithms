@@ -1,18 +1,9 @@
 package leetcode.leetcode_1393_capital_gainloss
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/capital-gainloss/
  *
- * TODO(Abhi) - To revisit
- *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
+ * TODO(Abhi) - SQL question
  */
 private fun main() {
 
