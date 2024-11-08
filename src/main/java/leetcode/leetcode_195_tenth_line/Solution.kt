@@ -1,18 +1,9 @@
 package leetcode.leetcode_195_tenth_line
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/tenth-line/
  *
- * TODO(Abhi) - To revisit
- *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
+ * TODO(Abhi) - Bash question
  */
 private fun main() {
 

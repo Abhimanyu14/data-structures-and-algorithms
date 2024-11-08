@@ -5,14 +5,6 @@ package leetcode.leetcode_2726_calculator_with_method_chaining
  *
  * TODO(Abhi) - Javascript question
  *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
  */
 private fun main() {
 

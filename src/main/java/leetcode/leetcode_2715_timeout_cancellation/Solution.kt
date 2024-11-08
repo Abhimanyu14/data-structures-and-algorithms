@@ -1,18 +1,10 @@
 package leetcode.leetcode_2715_timeout_cancellation
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/timeout-cancellation/
  *
  * TODO(Abhi) - Javascript question
  *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
  */
 private fun main() {
 

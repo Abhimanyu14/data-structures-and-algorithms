@@ -5,14 +5,6 @@ package leetcode.leetcode_2704_to_be_or_not_to_be
  *
  * TODO(Abhi) - Javascript question
  *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
  */
 private fun main() {
 

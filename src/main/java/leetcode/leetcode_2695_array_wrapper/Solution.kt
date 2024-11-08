@@ -1,18 +1,10 @@
 package leetcode.leetcode_2695_array_wrapper
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/array-wrapper/
  *
  * TODO(Abhi) - Javascript question
  *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
  */
 private fun main() {
 

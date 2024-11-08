@@ -1,18 +1,9 @@
 package leetcode.leetcode_192_word_frequency
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/word-frequency/
  *
- * TODO(Abhi) - To revisit
- *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
+ * TODO(Abhi) - Bash question
  */
 private fun main() {
 

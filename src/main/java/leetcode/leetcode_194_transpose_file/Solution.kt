@@ -1,18 +1,9 @@
 package leetcode.leetcode_194_transpose_file
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/transpose-file/
  *
- * TODO(Abhi) - To revisit
- *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
+ * TODO(Abhi) - Bash question
  */
 private fun main() {
 

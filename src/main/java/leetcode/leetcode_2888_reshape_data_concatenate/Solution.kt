@@ -1,18 +1,9 @@
 package leetcode.leetcode_2888_reshape_data_concatenate
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/reshape-data-concatenate/
  *
  * TODO(Abhi) - Pandas question
- *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
  */
 private fun main() {
 

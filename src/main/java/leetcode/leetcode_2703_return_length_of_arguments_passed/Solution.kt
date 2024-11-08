@@ -1,18 +1,9 @@
 package leetcode.leetcode_2703_return_length_of_arguments_passed
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/return-length-of-arguments-passed/
  *
  * TODO(Abhi) - Javascript question
- *
- * Using
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
  */
 private fun main() {
 
