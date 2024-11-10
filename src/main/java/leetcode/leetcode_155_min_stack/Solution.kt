@@ -7,6 +7,7 @@ import kotlin.math.min
  * leetcode - https://leetcode.com/problems/min-stack/
  *
  * Using Stack
+ * Note: Store the element along with the minimum value till then.
  *
  * Stats
  * Runtime: 52 ms, faster than 90.83%

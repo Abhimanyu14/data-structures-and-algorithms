@@ -6,6 +6,46 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/trapping-rain-water/
  *
+ * TODO(Abhi) - To revisit
+ *
+ * Using two pointer
+ *
+ * Stats
+ * Runtime: 16 ms, faster than 38.97%
+ * Memory Usage: 39.4 MB, less than 93.68%
+ *
+ * Time - O(N)
+ * Space - O(N)
+ */
+private fun trap(height: IntArray): Int {
+    var result = 0
+    var leftMax = 0
+    var rightMax = 0
+    var left = 0
+    var right = height.lastIndex
+    while (left < right) {
+        if (height[left] <= height[right]) {
+            if (leftMax > height[left]) {
+                result += leftMax - height[left]
+            } else {
+                leftMax = height[left]
+            }
+            left++
+        } else {
+            if (rightMax > height[right]) {
+                result += rightMax - height[right]
+            } else {
+                rightMax = height[right]
+            }
+            right--
+        }
+    }
+    return result
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/trapping-rain-water/
+ *
  * Using dynamic programming
  *
  * Stats
@@ -39,7 +79,7 @@ private fun trapUsingDp(height: IntArray): Int {
  * Runtime: 268 ms, faster than 68.31%
  * Memory Usage: 38.8 MB, less than 79.78%
  */
-fun trap(height: IntArray): Int {
+private fun trapUsingStack(height: IntArray): Int {
     var ans = 0
     var current = 0
     val stack = ArrayDeque<Int>()
@@ -60,5 +100,4 @@ fun trap(height: IntArray): Int {
 }
 
 private fun main() {
-    println(trap(intArrayOf(4, 2, 0, 3, 2, 5)))
 }

@@ -1,13 +1,13 @@
 package leetcode.leetcode_556_next_greater_element_iii
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/next-greater-element-iii/
  *
  * TODO(Abhi) - To revisit
  *
  * Using
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
