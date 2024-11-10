@@ -15,7 +15,6 @@ fun bitwiseOperations() {
     val or = a or b
     val and = a and b
     val xor = a xor b
-
 }
 
 fun logicalOperations() {
