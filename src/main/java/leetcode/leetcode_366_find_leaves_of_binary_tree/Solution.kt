@@ -12,7 +12,7 @@ import kotlin.math.max
  * Runtime: 173 ms, faster than 90.91%
  * Memory Usage: 34.3 MB, less than 90.91%
  */
-fun findLeaves(root: TreeNode?): List<List<Int>> {
+private fun findLeaves(root: TreeNode?): List<List<Int>> {
     if (root == null) {
         return emptyList()
     }

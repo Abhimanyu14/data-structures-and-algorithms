@@ -20,13 +20,9 @@ import kotlin.math.max
  */
 private fun maximumBeauty(items: Array<IntArray>, queries: IntArray): IntArray {
     val result = IntArray(queries.size)
-    val map = linkedMapOf<Int, Int>()
+    val map = sortedMapOf<Int, Int>()
     items.forEach { (price, beauty) ->
-        if (map.contains(price)) {
-            if (map.getOrDefault(price, 0) < beauty) {
-                map[price] = beauty
-            }
-        } else {
+        if (!map.contains(price) || map.getOrDefault(price, 0) < beauty) {
             map[price] = beauty
         }
     }
@@ -41,19 +37,17 @@ private fun maximumBeauty(items: Array<IntArray>, queries: IntArray): IntArray {
             result[index] = 0
         } else {
             var left = 0
-            var right = list.lastIndex
+            var right = list.size
             var mid = 0
             while (left < right) {
                 mid = left + ((right - left) / 2)
-                if (list[mid].first == query) {
-                    break
-                } else if (list[mid].first > query) {
-                    right = mid - 1
+                if (list[mid].first > query) {
+                    right = mid
                 } else {
-                    left = mid
+                    left = mid + 1
                 }
             }
-            result[index] = list[mid].second
+            result[index] = list[left - 1].second
         }
     }
     return result
