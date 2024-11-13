@@ -18,7 +18,7 @@ package leetcode.leetcode_1351_count_negative_numbers_in_a_sorted_matrix
  */
 private fun countNegatives(grid: Array<IntArray>): Int {
     var result = 0
-    grid.forEachIndexed { i, row ->
+    grid.forEachIndexed { _, row ->
         var left = 0
         var right = row.size
         while (left < right) {
