@@ -2,7 +2,11 @@ package leetcode
 
 import java.util.PriorityQueue
 import kotlin.math.abs
+import kotlin.math.floor
+import kotlin.math.log10
+import kotlin.math.log2
 import kotlin.math.pow
+import kotlin.math.sqrt
 
 fun ascii() {
     val asciiCapitalA = 65
@@ -72,6 +76,22 @@ fun maths() {
      */
     val c = -6
     val d = abs(c)
+
+    /**
+     * Logarithm
+     */
+    val logBase10 = log10(100.0)
+    val logBase2 = log2(100.0)
+
+    /**
+     * floor
+     */
+    val floorOfTenPointFive = floor(10.5)
+
+    /**
+     * Square Root
+     */
+    val squareRootOfSix = sqrt(6.0)
 }
 
 fun arrayOperations() {
