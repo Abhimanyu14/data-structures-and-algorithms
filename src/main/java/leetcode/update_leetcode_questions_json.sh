@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Simulate the CURL response
+RESPONSE=$(
 curl 'https://leetcode.com/graphql/' \
 -H 'accept: */*' \
 -H 'accept-language: en-GB,en;q=0.7' \
@@ -20,4 +22,11 @@ curl 'https://leetcode.com/graphql/' \
 -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36' \
 -H 'uuuserid: 8f27a23a7f42ad6ff42c2af1cfcbda94' \
 -H 'x-csrftoken: tZJKhkmhsO9MbdxXt9fK6W1IF1gei7NDDxkU1l2qQIaUyB8OyQu93dm4Recpt1Dg' \
---data-raw '{"query":"\n    query problemsetQuestionList($categorySlug: String, $limit: Int, $skip: Int, $filters: QuestionListFilterInput) {\n  problemsetQuestionList: questionList(\n    categorySlug: $categorySlug\n    limit: $limit\n    skip: $skip\n    filters: $filters\n  ) {\n    questions: data {\n      frontendQuestionId: questionFrontendId\n      title\n      titleSlug\n      }\n  }\n}\n    ","variables":{"categorySlug":"all-code-essentials","skip":100,"limit":100,"filters":{}},"operationName":"problemsetQuestionList"}' | jq > ~/Downloads/questions.json
+--data-raw '{"query":"\n    query problemsetQuestionList($categorySlug: String, $limit: Int, $skip: Int, $filters: QuestionListFilterInput) {\n  problemsetQuestionList: questionList(\n    categorySlug: $categorySlug\n    limit: $limit\n    skip: $skip\n    filters: $filters\n  ) {\n    questions: data {\n      frontendQuestionId: questionFrontendId\n      title\n      titleSlug\n      }\n  }\n}\n    ","variables":{"categorySlug":"all-code-essentials","skip":0,"limit":5000,"filters":{}},"operationName":"problemsetQuestionList"}'
+)
+
+# Extract the "questions" array using jq
+QUESTIONS=$(echo "$RESPONSE" | jq '.data.problemsetQuestionList.questions')
+
+# Print the extracted array
+echo "$QUESTIONS"  | jq > ./leetcode_questions.json

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+./update_leetcode_questions_json.sh
+
 # Define root directory and JSON file path
 ROOT_DIR="."
 JSON_FILE="$ROOT_DIR/leetcode_questions.json"
