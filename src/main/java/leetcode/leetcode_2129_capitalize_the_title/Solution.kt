@@ -16,9 +16,9 @@ private fun capitalizeTitle(title: String): String {
         if (word.length > 2) {
             // lowercase() -> toLowerCase() in leetcode
             // replaceFirstChar() -> capitalize() in leetcode
-            word.toLowerCase().capitalize()
+            word.lowercase().capitalize()
         } else {
-            word.toLowerCase()
+            word.lowercase()
         }
     }
 }

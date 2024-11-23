@@ -41,7 +41,7 @@ fun isPalindrome(s: String): Boolean {
     // For leetcode compiler
     // lowercaseChar() => toLowerCase()
     // code => toInt()
-    val chars = s.toLowerCase().filter {
+    val chars = s.lowercase().filter {
         it.isLetterOrDigit()
     }.map {
         it.toInt()
