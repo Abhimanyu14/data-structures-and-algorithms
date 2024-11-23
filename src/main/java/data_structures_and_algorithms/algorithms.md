@@ -12,3 +12,8 @@
     4. Prims
 4. Boyer-Moore Majority Voting Algorithm
    Source: https://www.geeksforgeeks.org/boyer-moore-majority-voting-algorithm/
+5. Sweep line algorithm
+   Reference: https://www.youtube.com/watch?v=YnIxejYW7cE
+   Questions: https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms
+   https://leetcode.com/problem-list/mzw3cyy6/
+6. 

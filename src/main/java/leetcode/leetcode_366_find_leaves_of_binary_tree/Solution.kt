@@ -13,6 +13,29 @@ import kotlin.math.max
  * Memory Usage: 34.3 MB, less than 90.91%
  */
 private fun findLeaves(root: TreeNode?): List<List<Int>> {
+    fun getLeaves(root: TreeNode, nodes: MutableMap<Int, MutableList<Int>>): Int {
+        if (root.left == null && root.right == null) {
+            nodes.computeIfAbsent(1) {
+                mutableListOf()
+            }.add(root.`val`)
+            return 1
+        }
+        val left = if (root.left != null) {
+            getLeaves(root.left!!, nodes)
+        } else {
+            0
+        }
+        val right = if (root.right != null) {
+            getLeaves(root.right!!, nodes)
+        } else {
+            0
+        }
+        val depth = max(left, right) + 1
+        nodes.computeIfAbsent(depth) {
+            mutableListOf()
+        }.add(root.`val`)
+        return depth
+    }
     if (root == null) {
         return emptyList()
     }
@@ -25,30 +48,6 @@ private fun findLeaves(root: TreeNode?): List<List<Int>> {
         }
     }
     return result
-}
-
-fun getLeaves(root: TreeNode, nodes: MutableMap<Int, MutableList<Int>>): Int {
-    if (root.left == null && root.right == null) {
-        nodes.computeIfAbsent(1) {
-            mutableListOf()
-        }.add(root.`val`)
-        return 1
-    }
-    val left = if (root.left != null) {
-        getLeaves(root.left!!, nodes)
-    } else {
-        0
-    }
-    val right = if (root.right != null) {
-        getLeaves(root.right!!, nodes)
-    } else {
-        0
-    }
-    val depth = max(left, right) + 1
-    nodes.computeIfAbsent(depth) {
-        mutableListOf()
-    }.add(root.`val`)
-    return depth
 }
 
 private fun main() {

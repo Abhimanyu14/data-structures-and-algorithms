@@ -9,7 +9,7 @@ private fun main() {
 
     // println(formatHackerrankTitle("Is This a Binary Search Tree?"))
 
-    // updateAllLeetcodeQuestions()
+    updateAllLeetcodeQuestions()
 }
 
 private fun formatLeetcodeTitle(@Suppress("SameParameterValue") title: String): String {
