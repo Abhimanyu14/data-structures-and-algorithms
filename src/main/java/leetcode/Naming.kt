@@ -45,7 +45,7 @@ private data class Question(
 )
 
 private fun updateAllLeetcodeQuestions() {
-    val rootDir = File("./src/leetcode")
+    val rootDir = File(".")
     val jsonString = File("$rootDir/leetcode_questions.json").readText()
     val questions = Json.decodeFromString<List<Question>>(jsonString)
     fun getDirectoryName(question: Question): String {
