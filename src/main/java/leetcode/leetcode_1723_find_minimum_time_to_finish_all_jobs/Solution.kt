@@ -1,13 +1,13 @@
 package leetcode.leetcode_1723_find_minimum_time_to_finish_all_jobs
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Using priority queue
  *
- * Difficulty -
+ * Difficulty - Hard
  *
  * Stats
  *

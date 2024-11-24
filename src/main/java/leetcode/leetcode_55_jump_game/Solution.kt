@@ -1,5 +1,28 @@
 package leetcode.leetcode_55_jump_game
 
+import kotlin.math.max
+
+/**
+ * leetcode - https://leetcode.com/problems/jump-game-ii/
+ *
+ * Stats
+ * Runtime: 20 ms, faster than 34.81%
+ * Memory Usage: 41.7 MB, less than 25.13%
+ *
+ * Time -
+ * Space -
+ */
+private fun canJump(nums: IntArray): Boolean {
+    var reach = 0
+    for (i in nums.indices) {
+        if (i > reach) {
+            break
+        }
+        reach = max(reach, nums[i] + i)
+    }
+    return reach >= nums.lastIndex
+}
+
 /**
  * leetcode - https://leetcode.com/problems/jump-game-ii/
  *
@@ -8,8 +31,11 @@ package leetcode.leetcode_55_jump_game
  * Stats
  * Runtime: 346 ms, faster than 92.73%
  * Memory Usage: 40.3 MB, less than 87.61%
+ *
+ * Time -
+ * Space -
  */
-private fun canJump(nums: IntArray): Boolean {
+private fun canJumpUsingSolution45(nums: IntArray): Boolean {
     var i = 0
     var j: Int
     var max: Int
@@ -34,6 +60,33 @@ private fun canJump(nums: IntArray): Boolean {
         i = maxPos
     }
     return true
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/jump-game-ii/
+ *
+ * Using dynamic programming - tabulation
+ *
+ * Stats
+ * Runtime: 967 ms, faster than 6.01%
+ * Memory Usage: 43.5 MB, less than 8.60%
+ *
+ * Time -
+ * Space -
+ */
+private fun canJumpUsingDp(nums: IntArray): Boolean {
+    val dp = BooleanArray(nums.size)
+    dp[0] = true
+    for (i in 0..<nums.lastIndex) {
+        if (dp[i]) {
+            repeat(nums[i]) {
+                if (i + it + 1 <= nums.lastIndex) {
+                    dp[i + it + 1] = true
+                }
+            }
+        }
+    }
+    return dp[nums.lastIndex]
 }
 
 private fun main() {
