@@ -1,7 +1,7 @@
 package leetcode.leetcode_925_long_pressed_name
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/long-pressed-name/
  *
  * TODO(Abhi) - To revisit
  *
