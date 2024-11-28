@@ -8,7 +8,7 @@ import kotlin.math.max
  *
  * TODO-Abhi: To revisit
  *
- * Using Dijkstra
+ * Using Dijkstra algorithm
  *
  * Stats
  * Runtime: 332 ms, faster than 60.42%

@@ -4,7 +4,6 @@ import java.util.Arrays
 import java.util.PriorityQueue
 import java.util.TreeSet
 
-
 /**
  * leetcode - https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/
  *
