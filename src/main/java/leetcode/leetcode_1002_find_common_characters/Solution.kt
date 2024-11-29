@@ -5,7 +5,8 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/find-common-characters/
  *
- * Using list and map
+ * Data Structure - List and Map
+ * Algorithm -
  *
  * Stats
  * Runtime: 289 ms, faster than 7.14%

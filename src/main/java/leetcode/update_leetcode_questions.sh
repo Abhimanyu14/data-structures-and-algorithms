@@ -30,7 +30,8 @@ package leetcode.${package_name}
  *
  * TODO - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *
