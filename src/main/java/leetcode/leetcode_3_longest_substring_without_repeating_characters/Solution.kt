@@ -5,11 +5,14 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/longest-substring-without-repeating-characters/
  *
- * Using set
+ * Data Structure - Set
+ * Algorithm - Two pointer
  *
  * Stats
- * Runtime: 192 ms, faster than 83.06%
- * Memory Usage: 38.8 MB, less than 17.00%
+ * Runtime: 20 ms, faster than 29.17%
+ * Memory Usage: 40.3 MB, less than 6.72%
+ *
+ *
  */
 private fun lengthOfLongestSubstring(s: String): Int {
     if (s.isEmpty() || s.length == 1) {
@@ -41,7 +44,7 @@ private fun lengthOfLongestSubstring(s: String): Int {
  * Runtime: 224 ms, faster than 38.86%
  * Memory Usage: 38.7 MB, less than 18.41%
  */
-private fun lengthOfLongestSubstringArrayDeque(s: String): Int {
+private fun lengthOfLongestSubstringUsingArrayDeque(s: String): Int {
     var result = 0
     var i = 0
     val arrayDeque = ArrayDeque<Char>()
@@ -60,5 +63,7 @@ private fun main() {
     val input = "pwwkew"
     val input2 = "bbbbb"
     val input3 = "abcabcbb"
-    println(lengthOfLongestSubstring(""))
+    println(lengthOfLongestSubstring(input))
+    println(lengthOfLongestSubstring(input2))
+    println(lengthOfLongestSubstring(input3))
 }
