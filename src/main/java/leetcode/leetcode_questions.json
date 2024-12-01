@@ -16838,5 +16838,30 @@
     "frontendQuestionId": "3368",
     "title": "First Letter Capitalization",
     "titleSlug": "first-letter-capitalization"
+  },
+  {
+    "frontendQuestionId": "3369",
+    "title": "Design an Array Statistics Tracker ",
+    "titleSlug": "design-an-array-statistics-tracker"
+  },
+  {
+    "frontendQuestionId": "3370",
+    "title": "Smallest Number With All Set Bits",
+    "titleSlug": "smallest-number-with-all-set-bits"
+  },
+  {
+    "frontendQuestionId": "3371",
+    "title": "Identify the Largest Outlier in an Array",
+    "titleSlug": "identify-the-largest-outlier-in-an-array"
+  },
+  {
+    "frontendQuestionId": "3372",
+    "title": "Maximize the Number of Target Nodes After Connecting Trees I",
+    "titleSlug": "maximize-the-number-of-target-nodes-after-connecting-trees-i"
+  },
+  {
+    "frontendQuestionId": "3373",
+    "title": "Maximize the Number of Target Nodes After Connecting Trees II",
+    "titleSlug": "maximize-the-number-of-target-nodes-after-connecting-trees-ii"
   }
 ]
