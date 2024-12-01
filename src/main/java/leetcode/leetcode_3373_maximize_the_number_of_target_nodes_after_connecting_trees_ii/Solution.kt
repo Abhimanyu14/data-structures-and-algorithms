@@ -18,19 +18,18 @@ import kotlin.math.max
  * Space -
  */
 private fun maxTargetNodes(edges1: Array<IntArray>, edges2: Array<IntArray>): IntArray {
-    val n = edges1.size + 1
-    val m = edges2.size + 1
-    val result = IntArray(n)
-    val graph1 = mutableMapOf<Int, MutableList<Int>>()
-    val graph2 = mutableMapOf<Int, MutableList<Int>>()
-    edges1.forEach { (from, to) ->
-        graph1.computeIfAbsent(from) { mutableListOf() }.add(to)
-        graph1.computeIfAbsent(to) { mutableListOf() }.add(from)
+    val result = IntArray(edges1.size + 1)
+    fun createGraph(edges: Array<IntArray>): MutableMap<Int, MutableList<Int>> {
+        val graph = mutableMapOf<Int, MutableList<Int>>()
+        edges.forEach { (from, to) ->
+            graph.computeIfAbsent(from) { mutableListOf() }.add(to)
+            graph.computeIfAbsent(to) { mutableListOf() }.add(from)
+        }
+        return graph
     }
-    edges2.forEach { (from, to) ->
-        graph2.computeIfAbsent(from) { mutableListOf() }.add(to)
-        graph2.computeIfAbsent(to) { mutableListOf() }.add(from)
-    }
+
+    val graph1 = createGraph(edges1)
+    val graph2 = createGraph(edges2)
     val visited = mutableSetOf<Int>()
     val evenSet = mutableSetOf<Int>()
     fun bfs(graph: MutableMap<Int, MutableList<Int>>, currentNode: Int, isEven: Boolean): Int {
@@ -50,17 +49,18 @@ private fun maxTargetNodes(edges1: Array<IntArray>, edges2: Array<IntArray>): In
         }
         return bfsResult
     }
+
     val tree2Node1 = bfs(graph2, 0, true)
-    val tree2Value = max(tree2Node1, m - tree2Node1)
+    val tree2Value = max(tree2Node1, edges2.size + 1 - tree2Node1)
     visited.clear()
     evenSet.clear()
     val tree1Node1 = bfs(graph1, 0, true)
     result[0] = tree1Node1 + tree2Value
-    for (i in 1..<n) {
+    for (i in 1..<edges1.size + 1) {
         result[i] = if (evenSet.contains(i)) {
             tree1Node1 + tree2Value
         } else {
-            n - tree1Node1 + tree2Value
+            edges1.size + 1 - tree1Node1 + tree2Value
         }
     }
     return result
