@@ -1,13 +1,14 @@
 package leetcode.leetcode_3203_find_minimum_diameter_after_merging_two_trees
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure - Graph
+ * Algorithm - BFS
  *
- * Difficulty -
+ * Difficulty - Hard
  *
  * Stats
  *
