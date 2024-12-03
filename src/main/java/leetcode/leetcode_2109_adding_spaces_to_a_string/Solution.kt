@@ -3,32 +3,29 @@ package leetcode.leetcode_2109_adding_spaces_to_a_string
 /**
  * leetcode - https://leetcode.com/problems/adding-spaces-to-a-string/
  *
- * Using two pointers
+ * Data Structure - [StringBuilder]
+ * Algorithm - Two pointers
+ *
+ * Using [StringBuilder] with (capacity: Int) constructor
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 561 ms, faster than 61.90%
- * Memory Usage: 76.9 MB, less than 23.81%
+ * Runtime: 25 ms, faster than 33.33%
+ * Memory Usage: 74.1 MB, less than 66.67%
+ *
+ * Time - O(N)
+ * Space - O(1)
  */
 private fun addSpaces(s: String, spaces: IntArray): String {
-    val result = StringBuilder()
+    val result = StringBuilder(s.length + spaces.size)
     var spacesIndex = 0
-    if (spaces[spacesIndex] == 0) {
-        result.append(" ")
-        spacesIndex++
-    }
-    var index = 0
-    while (index < s.length && spacesIndex < spaces.size) {
-        val nextSpaceIndex = spaces[spacesIndex]
-        while (index < nextSpaceIndex) {
-            result.append(s[index])
-            index++
+    for (i in s.indices) {
+        if (spacesIndex < spaces.size && i == spaces[spacesIndex]) {
+            result.append(" ")
+            spacesIndex++
         }
-        result.append(" ")
-        spacesIndex++
-    }
-    while (index < s.length) {
-        result.append(s[index])
-        index++
+        result.append(s[i])
     }
     return result.toString()
 }
