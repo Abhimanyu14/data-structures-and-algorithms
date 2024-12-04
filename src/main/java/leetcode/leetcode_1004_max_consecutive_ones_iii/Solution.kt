@@ -5,7 +5,8 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/max-consecutive-ones-iii/
  *
- * Using sliding window
+ * Data Structure - NA
+ * Algorithm - sliding Window
  *
  * Difficulty - Medium
  *
@@ -19,29 +20,29 @@ import kotlin.math.max
 private fun longestOnes(nums: IntArray, k: Int): Int {
     var result = 0
     var zeroCount = 0
-    var index = 0
-    while (index < nums.size && (nums[index] == 1 || zeroCount < k)) {
-        result++
-        if (nums[index] == 0) {
+    var right = 0
+    while (right <= nums.lastIndex && (nums[right] == 1 || zeroCount < k)) {
+        if (nums[right] == 0) {
             zeroCount++
         }
-        index++
+        result++
+        right++
     }
-    if (index == nums.size) {
+    if (right == nums.size) {
         return result
     }
     var current = result
-    var start = 0
-    while (index < nums.size) {
-        while (nums[start] == 1) {
+    var left = 0
+    while (right <= nums.lastIndex) {
+        while (left <= right && nums[left] == 1) {
             current--
-            start++
+            left++
         }
-        start++
-        index++
-        while (index < nums.size && nums[index] == 1) {
+        left++
+        right++
+        while (right <= nums.lastIndex && nums[right] == 1) {
             current++
-            index++
+            right++
         }
         result = max(result, current)
     }

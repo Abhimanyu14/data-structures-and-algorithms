@@ -5,24 +5,25 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/fruit-into-baskets/
  *
- * Using sliding window - two pointers
+ * Data Structure - Two Pointers
+ * Algorithm - Sliding Window
  *
  * Difficulty - Medium
  *
  * Stats
- * Runtime: 545 ms, faster than 6.10%
- * Memory Usage: 55.9 MB, less than 8.54%
+ * Runtime: 93 ms, faster than 10.00%
+ * Memory Usage: 57.5 MB, less than 5.63%
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
  */
 private fun totalFruit(fruits: IntArray): Int {
     if (fruits.size <= 2) {
         return fruits.size
     }
+    var result = 1
     var left = 0
     var right = 0
-    var result = 1
     val counter = mutableMapOf<Int, Int>()
     counter[fruits[0]] = 1
     while (right < fruits.lastIndex) {
