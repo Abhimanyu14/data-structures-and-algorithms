@@ -5,35 +5,40 @@ package leetcode.leetcode_1248_count_number_of_nice_subarrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure - Two Pointers
+ * Algorithm - Sliding Window
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
+ * Runtime: 30 ms, faster than 34.48%
+ * Memory Usage: 52.9 MB, less than 5.00%
  *
- * Time -
- * Space -
+ * Time - O(4 * N)
+ * Space - O(1)
  */
 private fun numberOfSubarrays(nums: IntArray, k: Int): Int {
-    fun atMost(k: Int): Int {
-        var windowSize = 0
-        var subarrays = 0
-        var start = 0
-
-        for (end in nums.indices) {
-            windowSize += nums[end] % 2
-            // Find the first index start where the window has exactly k odd elements.
-            while (windowSize > k) {
-                windowSize -= nums[start] % 2
-                start++
+    fun numberOfSubarraysWithLessThanOrEqualTo(goal: Int): Int {
+        var result = 0
+        var left = 0
+        var right = 0
+        var currentCount = 0
+        while (right <= nums.lastIndex) {
+            if (nums[right] % 2 == 1) {
+                currentCount++
             }
-            // Increment number of subarrays with end - start + 1.
-            subarrays += end - start + 1
+            while (currentCount > goal) {
+                if (nums[left] % 2 == 1) {
+                    currentCount--
+                }
+                left++
+            }
+            result += (right - left + 1)
+            right++
         }
-        return subarrays
+        return result
     }
-
-    return atMost(k) - atMost(k - 1)
+    return numberOfSubarraysWithLessThanOrEqualTo(k) - numberOfSubarraysWithLessThanOrEqualTo(k - 1)
 }
 
 private fun main() {
