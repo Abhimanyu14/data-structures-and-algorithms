@@ -14,8 +14,8 @@ import kotlin.math.max
  * Runtime: 24 ms, faster than 70.30%
  * Memory Usage: 39.2 MB, less than 20.00%
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
  */
 private fun characterReplacement(s: String, k: Int): Int {
     var result = 1
@@ -27,9 +27,7 @@ private fun characterReplacement(s: String, k: Int): Int {
     while (right < s.lastIndex) {
         right++
         counter[s[right] - 'A']++
-        if (counter[s[right] - 'A'] > maxCount) {
-            maxCount = counter[s[right] - 'A']
-        }
+        maxCount = max(maxCount, counter[s[right] - 'A'])
         if (right - left + 1 - maxCount <= k) {
             result = max(result, right - left + 1)
         } else {
