@@ -3,11 +3,17 @@ package leetcode.leetcode_125_valid_palindrome
 /**
  * leetcode - https://leetcode.com/problems/valid-palindrome/
  *
- * Two pointer single loop
+ * Data Structure - NA
+ * Algorithm - Two pointer single loop
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 388 ms, faster than 32.74%
  * Memory Usage: 40.1 MB, less than 58.52%
+ *
+ * Time -
+ * Space -
  */
 fun isPalindromeTwoPointer(s: String): Boolean {
     // For leetcode compiler

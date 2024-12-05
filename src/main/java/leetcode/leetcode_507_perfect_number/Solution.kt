@@ -1,15 +1,39 @@
 package leetcode.leetcode_507_perfect_number
 
 /**
- * Using loop
+ * leetcode - https://leetcode.com/problems/perfect-number/
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - Euclid-Euler
+ *
+ * Difficulty -
+ *
+ * Stats
+ *
+ * Time -
+ * Space -
+ */
+
+/**
+ * leetcode - https://leetcode.com/problems/perfect-number/
+ *
+ * Data Structure - NA
+ * Algorithm - Iteration
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 3444 ms, faster than 21.05%
  * Memory Usage: 33.1 MB, less than 84.21%
+ *
+ * Time -
+ * Space -
  */
 private fun checkPerfectNumberBruteForce(num: Int): Boolean {
     var sum = 0
-    for (i in 1 until num) {
+    for (i in 1..<num) {
         if (num % i == 0) {
             sum += i
         }
@@ -18,7 +42,12 @@ private fun checkPerfectNumberBruteForce(num: Int): Boolean {
 }
 
 /**
- * Using loop till n/2
+ * leetcode - https://leetcode.com/problems/perfect-number/
+ *
+ * Data Structure - NA
+ * Algorithm - Iteration
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 1695 ms, faster than 57.89%
@@ -36,10 +65,6 @@ private fun checkPerfectNumberHalfLoop(num: Int): Boolean {
     }
     return sum == num
 }
-
-/**
- * TODO-Abhi: Using Euclid-Euler
- */
 
 private fun main() {
 

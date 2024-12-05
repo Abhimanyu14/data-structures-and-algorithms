@@ -3,11 +3,17 @@ package leetcode.leetcode_7_reverse_integer
 /**
  * leetcode - https://leetcode.com/problems/reverse-integer/
  *
- * Using recursion
+ * Data Structure - NA
+ * Algorithm - Digit Extraction and Iteration
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 230 ms, faster than 76.67%
  * Memory Usage: 34 MB, less than 77.94%
+ *
+ * Time -
+ * Space -
  */
 private fun reverse(x: Int): Int {
     var reversed = 0
@@ -27,6 +33,8 @@ private fun reverse(x: Int): Int {
 }
 
 private fun main() {
+    println(Integer.MAX_VALUE)
+    println(Integer.MIN_VALUE)
     println(reverse(1534236469))
     println(reverse(0))
     println(reverse(-123))

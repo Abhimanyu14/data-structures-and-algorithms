@@ -1,11 +1,12 @@
 package leetcode.leetcode_2080_range_frequency_queries
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/range-frequency-queries/
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *
