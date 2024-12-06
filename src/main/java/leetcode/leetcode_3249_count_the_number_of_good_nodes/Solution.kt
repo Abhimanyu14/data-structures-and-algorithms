@@ -1,11 +1,12 @@
 package leetcode.leetcode_3249_count_the_number_of_good_nodes
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/count-the-number-of-good-nodes/
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *
