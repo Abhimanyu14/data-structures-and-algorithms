@@ -3,7 +3,8 @@ package leetcode.leetcode_2563_count_the_number_of_fair_pairs
 /**
  * leetcode - https://leetcode.com/problems/count-the-number-of-fair-pairs/?envType=daily-question&envId=2024-11-13
  *
- * Using sorting and Binary search
+ * Data Structure - Array
+ * Algorithm - Sorting and Binary Search
  *
  * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
  *

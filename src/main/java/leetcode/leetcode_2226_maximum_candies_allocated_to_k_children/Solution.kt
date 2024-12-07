@@ -1,13 +1,14 @@
 package leetcode.leetcode_2226_maximum_candies_allocated_to_k_children
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/maximum-candies-allocated-to-k-children/
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

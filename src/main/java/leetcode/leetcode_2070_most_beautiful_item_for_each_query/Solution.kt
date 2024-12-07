@@ -5,7 +5,8 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/most-beautiful-item-for-each-query/?envType=daily-question&envId=2024-11-12
  *
- * Using [linkedMapOf], [listOf] and binary search
+ * Data Structure - [linkedMapOf], [listOf]
+ * Algorithm - Binary Search
  *
  * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
  *
