@@ -4,6 +4,7 @@ import kotlin.math.max
 
 /**
  * leetcode - https://leetcode.com/problems/maximum-subarray/
+ * https://leetcode.com/problems/maximum-subarray/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using dynamic programming - Kadane's Algorithm
  *

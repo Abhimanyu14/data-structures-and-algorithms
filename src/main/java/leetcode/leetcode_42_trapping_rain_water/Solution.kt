@@ -4,11 +4,12 @@ import kotlin.math.max
 import kotlin.math.min
 
 /**
- * leetcode - https://leetcode.com/problems/trapping-rain-water/
+ * leetcode - https://leetcode.com/problems/trapping-rain-water/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * TODO(Abhi) - To revisit
  *
- * Using two pointer
+ * Data Structure - Two Pointers
+ * Algorithm - Sliding Window
  *
  * Stats
  * Runtime: 16 ms, faster than 38.97%
@@ -25,18 +26,12 @@ private fun trap(height: IntArray): Int {
     var right = height.lastIndex
     while (left < right) {
         if (height[left] <= height[right]) {
-            if (leftMax > height[left]) {
-                result += leftMax - height[left]
-            } else {
-                leftMax = height[left]
-            }
+            leftMax = max(leftMax, height[left])
+            result += leftMax - height[left]
             left++
         } else {
-            if (rightMax > height[right]) {
-                result += rightMax - height[right]
-            } else {
-                rightMax = height[right]
-            }
+            rightMax = max(rightMax, height[right])
+            result += rightMax - height[right]
             right--
         }
     }

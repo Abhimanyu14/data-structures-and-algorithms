@@ -1,7 +1,7 @@
 package leetcode.leetcode_1768_merge_strings_alternately
 
 /**
- * leetcode - https://leetcode.com/problems/merge-strings-alternately/
+ * leetcode - https://leetcode.com/problems/merge-strings-alternately/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using string builder
  *

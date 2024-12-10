@@ -2,6 +2,7 @@ package leetcode.leetcode_6_zigzag_conversion
 
 /**
  * leetcode - https://leetcode.com/problems/zigzag-conversion/
+ * https://leetcode.com/problems/zigzag-conversion/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using string builders
  *

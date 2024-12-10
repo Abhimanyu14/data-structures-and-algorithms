@@ -1,7 +1,7 @@
 package leetcode.leetcode_4_median_of_two_sorted_arrays
 
 /**
- * leetcode - https://leetcode.com/problems/median-of-two-sorted-arrays/
+ * leetcode - https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using pointers and loops
  *

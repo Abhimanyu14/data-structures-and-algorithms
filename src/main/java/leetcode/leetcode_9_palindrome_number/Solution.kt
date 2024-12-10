@@ -2,6 +2,7 @@ package leetcode.leetcode_9_palindrome_number
 
 /**
  * leetcode - https://leetcode.com/problems/palindrome-number/
+ * https://leetcode.com/problems/palindrome-number/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using loops
  *

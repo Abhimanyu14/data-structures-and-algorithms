@@ -1,7 +1,7 @@
 package leetcode.leetcode_2337_move_pieces_to_obtain_a_string
 
 /**
- * leetcode - https://leetcode.com/problems/move-pieces-to-obtain-a-string/
+ * leetcode - https://leetcode.com/problems/move-pieces-to-obtain-a-string/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Data Structure - Two Pointers
  * Algorithm - Iteration

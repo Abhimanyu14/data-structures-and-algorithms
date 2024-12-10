@@ -2,6 +2,7 @@ package leetcode.leetcode_207_course_schedule
 
 /**
  * leetcode - https://leetcode.com/problems/course-schedule/
+ * https://leetcode.com/problems/course-schedule/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using Topological sort - Kahn's
  *

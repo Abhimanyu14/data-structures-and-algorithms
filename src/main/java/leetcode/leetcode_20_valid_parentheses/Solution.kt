@@ -3,7 +3,7 @@ package leetcode.leetcode_20_valid_parentheses
 import java.util.Stack
 
 /**
- * leetcode - https://leetcode.com/problems/valid-parentheses/
+ * leetcode - https://leetcode.com/problems/valid-parentheses/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using Stack - Array Deque
  *

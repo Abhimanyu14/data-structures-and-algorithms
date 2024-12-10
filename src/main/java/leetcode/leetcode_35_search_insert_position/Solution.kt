@@ -2,6 +2,7 @@ package leetcode.leetcode_35_search_insert_position
 
 /**
  * leetcode - https://leetcode.com/problems/search-insert-position/
+ * https://leetcode.com/problems/search-insert-position/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using binary search
  *

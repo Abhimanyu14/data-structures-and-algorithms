@@ -2,6 +2,7 @@ package leetcode.leetcode_34_find_first_and_last_position_of_element_in_sorted_a
 
 /**
  * leetcode - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+ * https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using binary search
  *

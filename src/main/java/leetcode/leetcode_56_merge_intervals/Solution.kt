@@ -3,7 +3,7 @@ package leetcode.leetcode_56_merge_intervals
 import kotlin.math.max
 
 /**
- * leetcode - https://leetcode.com/problems/merge-intervals/
+ * leetcode - https://leetcode.com/problems/merge-intervals/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using intervals, [sortedBy]
  *

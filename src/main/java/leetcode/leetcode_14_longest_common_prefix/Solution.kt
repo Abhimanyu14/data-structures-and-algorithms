@@ -5,7 +5,7 @@ package leetcode.leetcode_14_longest_common_prefix
  */
 
 /**
- * leetcode - https://leetcode.com/problems/longest-common-prefix/
+ * leetcode - https://leetcode.com/problems/longest-common-prefix/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using loops
  *

@@ -1,7 +1,7 @@
 package leetcode.leetcode_27_remove_element
 
 /**
- * leetcode - https://leetcode.com/problems/remove-element/
+ * leetcode - https://leetcode.com/problems/remove-element/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  * 
  * Maintains order
  *

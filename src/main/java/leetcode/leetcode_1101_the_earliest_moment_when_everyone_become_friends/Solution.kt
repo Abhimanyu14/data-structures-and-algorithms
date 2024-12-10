@@ -2,6 +2,7 @@ package leetcode.leetcode_1101_the_earliest_moment_when_everyone_become_friends
 
 /**
  * leetcode - https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/
+ * https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using UnionFind (DSU)
  *

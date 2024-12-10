@@ -3,7 +3,7 @@ package leetcode.leetcode_198_house_robber
 import kotlin.math.max
 
 /**
- * leetcode - https://leetcode.com/problems/house-robber/
+ * leetcode - https://leetcode.com/problems/house-robber/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using two pointers
  *

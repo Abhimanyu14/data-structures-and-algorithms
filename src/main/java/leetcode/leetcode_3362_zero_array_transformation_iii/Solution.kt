@@ -3,7 +3,7 @@ package leetcode.leetcode_3362_zero_array_transformation_iii
 import java.util.PriorityQueue
 
 /**
- * leetcode - https://leetcode.com/problems/zero-array-transformation-iii/
+ * leetcode - https://leetcode.com/problems/zero-array-transformation-iii/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * TODO(Abhi) - To revisit
  *

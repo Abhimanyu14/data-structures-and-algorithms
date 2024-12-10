@@ -4,7 +4,7 @@ import kotlin.math.max
 import kotlin.math.min
 
 /**
- * leetcode - https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/
+ * leetcode - https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using iteration
  *

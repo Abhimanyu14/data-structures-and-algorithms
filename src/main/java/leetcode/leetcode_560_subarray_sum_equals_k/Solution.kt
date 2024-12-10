@@ -2,6 +2,7 @@ package leetcode.leetcode_560_subarray_sum_equals_k
 
 /**
  * leetcode - https://leetcode.com/problems/subarray-sum-equals-k/
+ * https://leetcode.com/problems/subarray-sum-equals-k/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Data Structure - Map
  * Algorithm - Prefix Sum and Hashing

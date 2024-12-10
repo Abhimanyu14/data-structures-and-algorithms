@@ -4,7 +4,7 @@ import data_structures_and_algorithms.string.isStringPalindrome
 import kotlin.math.max
 
 /**
- * leetcode - https://leetcode.com/problems/longest-palindromic-substring/
+ * leetcode - https://leetcode.com/problems/longest-palindromic-substring/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using expand around center
  *

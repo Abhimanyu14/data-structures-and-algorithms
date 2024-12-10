@@ -1,7 +1,7 @@
 package leetcode.leetcode_88_merge_sorted_array
 
 /**
- * leetcode - https://leetcode.com/problems/merge-sorted-array/
+ * leetcode - https://leetcode.com/problems/merge-sorted-array/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using two pointer
  *

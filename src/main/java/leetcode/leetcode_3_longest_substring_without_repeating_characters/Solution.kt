@@ -3,7 +3,7 @@ package leetcode.leetcode_3_longest_substring_without_repeating_characters
 import kotlin.math.max
 
 /**
- * leetcode - https://leetcode.com/problems/longest-substring-without-repeating-characters/
+ * leetcode - https://leetcode.com/problems/longest-substring-without-repeating-characters/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Data Structure - Set
  * Algorithm - Two pointer
@@ -11,8 +11,6 @@ import kotlin.math.max
  * Stats
  * Runtime: 20 ms, faster than 29.17%
  * Memory Usage: 40.3 MB, less than 6.72%
- *
- *
  */
 private fun lengthOfLongestSubstring(s: String): Int {
     if (s.isEmpty() || s.length == 1) {

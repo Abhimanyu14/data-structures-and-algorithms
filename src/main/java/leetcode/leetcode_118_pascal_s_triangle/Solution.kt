@@ -2,6 +2,7 @@ package leetcode.leetcode_118_pascal_s_triangle
 
 /**
  * leetcode - https://leetcode.com/problems/pascals-triangle/
+ * https://leetcode.com/problems/pascals-triangle/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using loops
  * Pascal triangle

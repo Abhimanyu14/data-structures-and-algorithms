@@ -1,7 +1,7 @@
 package leetcode.leetcode_2235_add_two_integers
 
 /**
- * leetcode - https://leetcode.com/problems/add-two-integers/
+ * leetcode - https://leetcode.com/problems/add-two-integers/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using addition operator
  *
@@ -14,7 +14,7 @@ private fun sumNative(num1: Int, num2: Int): Int {
 }
 
 /**
- * leetcode - https://leetcode.com/problems/add-two-integers/
+ * leetcode - https://leetcode.com/problems/add-two-integers/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using Bitwise operations
  * TODO-Abhi: revisit

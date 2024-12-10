@@ -6,6 +6,7 @@ import data_structures_and_algorithms.linkedlist.printLinkedList
 
 /**
  * leetcode - https://leetcode.com/problems/merge-two-sorted-lists/
+ * https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using loops
  *

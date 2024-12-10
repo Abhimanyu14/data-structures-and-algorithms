@@ -4,6 +4,7 @@ import kotlin.math.max
 
 /**
  * leetcode - https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/
+ * https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Using sliding window
  *
