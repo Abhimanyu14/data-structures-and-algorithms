@@ -2,18 +2,33 @@ package leetcode.leetcode_417_pacific_atlantic_water_flow
 
 /**
  * leetcode - https://leetcode.com/problems/pacific-atlantic-water-flow/
+ * https://leetcode.com/problems/pacific-atlantic-water-flow/description/?envType=company&envId=google&favoriteSlug=google-thirty-days&difficulty=MEDIUM
  *
- * Using DFS
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - Graph
+ * Algorithm - DFS
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 311 ms, faster than 90.12%
  * Memory Usage: 44.1 MB, less than 59.26%
+ *
+ * Time -
+ * Space -
  */
 private fun pacificAtlantic(heights: Array<IntArray>): List<List<Int>> {
-    val rows = heights.size
-    val cols = heights[0].size
-    val pacificGrid = Array(rows) { Array(cols) { false } }
-    val atlanticGrid = Array(rows) { Array(cols) { false } }
+    val pacificGrid = Array(heights.size) {
+        Array(heights[0].size) {
+            false
+        }
+    }
+    val atlanticGrid = Array(heights.size) {
+        Array(heights[0].size) {
+            false
+        }
+    }
 
     fun dfs(row: Int, col: Int, grid: Array<Array<Boolean>>) {
         if (grid[row][col]) {
@@ -23,23 +38,23 @@ private fun pacificAtlantic(heights: Array<IntArray>): List<List<Int>> {
         if (row > 0 && heights[row - 1][col] >= heights[row][col] && !grid[row - 1][col]) {
             dfs(row - 1, col, grid)
         }
-        if (row < rows - 1 && heights[row + 1][col] >= heights[row][col] && !grid[row + 1][col]) {
+        if (row < heights.lastIndex && heights[row + 1][col] >= heights[row][col] && !grid[row + 1][col]) {
             dfs(row + 1, col, grid)
         }
         if (col > 0 && heights[row][col - 1] >= heights[row][col] && !grid[row][col - 1]) {
             dfs(row, col - 1, grid)
         }
-        if (col < cols - 1 && heights[row][col + 1] >= heights[row][col] && !grid[row][col + 1]) {
+        if (col < heights[0].lastIndex && heights[row][col + 1] >= heights[row][col] && !grid[row][col + 1]) {
             dfs(row, col + 1, grid)
         }
     }
-    for (i in 0..<rows) {
+    for (i in heights.indices) {
         dfs(i, 0, pacificGrid)
-        dfs(i, cols - 1, atlanticGrid)
+        dfs(i, heights[0].lastIndex, atlanticGrid)
     }
-    for (i in 0..<cols) {
+    for (i in heights[0].indices) {
         dfs(0, i, pacificGrid)
-        dfs(rows - 1, i, atlanticGrid)
+        dfs(heights.lastIndex, i, atlanticGrid)
     }
     val result = mutableListOf<List<Int>>()
     for (i in heights.indices) {
