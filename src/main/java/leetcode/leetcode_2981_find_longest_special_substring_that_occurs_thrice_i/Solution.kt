@@ -4,6 +4,7 @@ import kotlin.math.max
 
 /**
  * leetcode - https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/?envType=daily-question&envId=2024-12-10
+ * https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/description/?envType=company&envId=google&favoriteSlug=google-six-months
  *
  * Data Structure - Array and Map
  * Algorithm - Counting and Iteration

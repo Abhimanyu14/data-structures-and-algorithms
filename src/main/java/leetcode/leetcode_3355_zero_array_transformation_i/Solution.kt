@@ -43,7 +43,7 @@ private fun isZeroArray(nums: IntArray, queries: Array<IntArray>): Boolean {
  * TODO(Abhi) - To revisit
  *
  * Data Structure - Priority Queue
- * Algorithm - Sweep line
+ * Algorithm - Line Sweep
  *
  * Difficulty - Medium
  *
