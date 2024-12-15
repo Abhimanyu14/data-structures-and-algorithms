@@ -2,14 +2,21 @@ package leetcode.leetcode_278_first_bad_version
 
 /**
  * leetcode - https://leetcode.com/problems/first-bad-version/
+ * https://leetcode.com/problems/first-bad-version/description/?envType=company&envId=google&favoriteSlug=google-thirty-days&difficulty=EASY
  *
- * Using Binary Search
+ * Data Structure - Two Pointers
+ * Algorithm - Binary Search
  *
  * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 264 ms, faster than 39.92%
  * Memory Usage: 32.9 MB, less than 78.66%
+ *
+ * Time - O(N * log(N))
+ * Space - O(1)
  */
 private fun firstBadVersion(n: Int): Int {
     var left = 1

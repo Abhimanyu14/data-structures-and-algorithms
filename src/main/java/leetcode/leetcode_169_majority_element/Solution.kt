@@ -3,7 +3,7 @@ package leetcode.leetcode_169_majority_element
 /**
  * leetcode - https://leetcode.com/problems/majority-element/
  *
- * Using Boyer-Moore Majority Voting Algorithm
+ * Algorithm - Boyer-Moore Majority Voting Algorithm
  * Source: https://www.geeksforgeeks.org/boyer-moore-majority-voting-algorithm/
  *
  * Stats

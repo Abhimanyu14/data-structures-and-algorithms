@@ -1,11 +1,22 @@
 package leetcode.leetcode_268_missing_number
 
 /**
- * Using set difference (Poor)
+ * leetcode - https://leetcode.com/problems/missing-number/
+ * https://leetcode.com/problems/missing-number/description/?envType=company&envId=google&favoriteSlug=google-thirty-days&difficulty=EASY
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - Set difference (Poor)
+ * Algorithm -
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 639 ms, faster than 8.14%
  * Memory Usage: 63.6 MB, less than 5.03%
+ *
+ * Time -
+ * Space -
  */
 private fun missingNumberUsingSet(nums: IntArray): Int {
     return ((0..nums.size) - nums.toSet()).first()

@@ -2,23 +2,34 @@ package leetcode.leetcode_392_is_subsequence
 
 /**
  * leetcode - https://leetcode.com/problems/is-subsequence/
+ * https://leetcode.com/problems/is-subsequence/description/?envType=company&envId=google&favoriteSlug=google-thirty-days&difficulty=EASY
  *
- * Using
+ * Data Structure - Two Pointers
+ * Algorithm - Iteration
+ *
+ * Difficulty - Easy
  *
  * Stats
+ * Runtime: 1 ms, faster than 99.06%
+ * Memory Usage: 35.3 MB, less than 19.07%
  *
- */
-fun memoryEfficientIsSubsequence(s: String, t: String): Boolean {
-    var i = 0
-    t.forEach {
-        if (i == s.length) {
-            return true
-        }
-        if (it == s[i]) {
-            i++
+ * Time -
+ * Space -
+*/
+private fun isSubsequence(s: String, t: String): Boolean {
+    if (s.isEmpty()) {
+        return true
+    }
+    var sIndex = 0
+    for (tIndex in t.indices) {
+        if (t[tIndex] == s[sIndex]) {
+            sIndex++
+            if (sIndex == s.length) {
+                return true
+            }
         }
     }
-    return i == s.length
+    return sIndex == s.length
 }
 
 /**
@@ -30,7 +41,7 @@ fun memoryEfficientIsSubsequence(s: String, t: String): Boolean {
  * Runtime: 131 ms, faster than 68.55%
  * Memory Usage: 34 MB, less than 43.97%
  */
-fun isSubsequence(s: String, t: String): Boolean {
+private fun isSubsequenceUsingTwoPointers(s: String, t: String): Boolean {
     var i = 0
     var j = 0
     while (i < s.length && j < t.length) {
@@ -43,10 +54,4 @@ fun isSubsequence(s: String, t: String): Boolean {
 }
 
 private fun main() {
-    val inputS1 = "abc"
-    val inputT1 = "ahbgdc"
-    val inputS2 = "axc"
-    val inputT2 = "ahbgdc"
-    println(isSubsequence(inputS1, inputT1))
-    println(isSubsequence(inputS2, inputT2))
 }

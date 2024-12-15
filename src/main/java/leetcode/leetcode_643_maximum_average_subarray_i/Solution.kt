@@ -1,19 +1,38 @@
 package leetcode.leetcode_643_maximum_average_subarray_i
 
+import kotlin.math.max
+
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/maximum-average-subarray-i/description/?envType=company&envId=google&favoriteSlug=google-thirty-days&difficulty=EASY
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - NA
+ * Algorithm - Sliding Window
  *
- * Using
- *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
+ * Runtime: 23 ms, faster than 30.24%
+ * Memory Usage: 54.3 MB, less than 6.92%
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
  */
+private fun findMaxAverage(nums: IntArray, k: Int): Double {
+    var currentSum = 0
+    var i = 0
+    while (i < k) {
+        currentSum += nums[i]
+        i++
+    }
+    var result = currentSum.toDouble() / k
+    while (i <= nums.lastIndex) {
+        currentSum += nums[i] - nums[i - k]
+        result = max(result, (currentSum.toDouble() / k))
+        i++
+    }
+    return result
+}
+
 private fun main() {
 
 }

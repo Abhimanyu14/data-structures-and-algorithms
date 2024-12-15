@@ -1,6 +1,8 @@
 package leetcode.leetcode_704_binary_search
 
 /**
+ * leetcode - https://leetcode.com/problems/binary-search/
+ *
  * Using binary search, recursion
  * Conditions: Number must be sorted
  *

@@ -5,6 +5,8 @@ import data_structures_and_algorithms.linkedlist.createLinkedList
 import data_structures_and_algorithms.linkedlist.printLinkedList
 
 /**
+ * leetcode - https://leetcode.com/problems/remove-linked-list-elements/
+ *
  * Stats
  * Runtime: 204 ms, faster than 67.29%
  * Memory Usage: 37.7 MB, less than 53.27%

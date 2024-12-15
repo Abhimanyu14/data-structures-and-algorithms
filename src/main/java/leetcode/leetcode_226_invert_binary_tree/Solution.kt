@@ -3,7 +3,10 @@ package leetcode.leetcode_226_invert_binary_tree
 import data_structures_and_algorithms.TreeNode
 
 /**
- * Using recursion
+ * leetcode - https://leetcode.com/problems/invert-binary-tree/
+ * https://leetcode.com/problems/invert-binary-tree/?envType=company&envId=google&favoriteSlug=google-thirty-days&difficulty=EASY
+ *
+ * Algorithm - Recursion
  *
  * Stats
  * Runtime: 248 ms, faster than 50.13%

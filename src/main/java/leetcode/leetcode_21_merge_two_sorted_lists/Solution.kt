@@ -8,13 +8,23 @@ import data_structures_and_algorithms.linkedlist.printLinkedList
  * leetcode - https://leetcode.com/problems/merge-two-sorted-lists/
  * https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using loops
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty -
+ *
+ * Stats
  *
  * Stats
  * Runtime: 172 ms, faster than 51.81%
  * Memory Usage: 35.3 MB, less than 28.51%
+ *
+ * Time -
+ * Space -
  */
-fun mergeTwoListsBruteForce(l1: ListNode?, l2: ListNode?): ListNode? {
+fun mergeTwoListsUsingBruteForce(l1: ListNode?, l2: ListNode?): ListNode? {
     if (l1 == null) {
         return l2
     }
@@ -70,7 +80,7 @@ fun mergeTwoListsBruteForce(l1: ListNode?, l2: ListNode?): ListNode? {
  * Runtime: 307 ms, faster than 45.93%
  * Memory Usage: 36 MB, less than 53.04%
  */
-fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
+private fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
     if (l1 == null) {
         return l2
     }

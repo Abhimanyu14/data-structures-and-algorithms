@@ -1,6 +1,8 @@
 package leetcode.leetcode_231_power_of_two
 
 /**
+ * leetcode - https://leetcode.com/problems/power-of-two/
+ *
  * Stats
  * Runtime: 232 ms, faster than 18.42%
  * Memory Usage: 35.4 MB, less than 94.74%
