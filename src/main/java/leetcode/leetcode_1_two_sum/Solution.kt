@@ -3,7 +3,10 @@ package leetcode.leetcode_1_two_sum
 /**
  * leetcode - https://leetcode.com/problems/two-sum/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using diff map
+ * Data Structure - Map
+ * Algorithm - Diff Map
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 218 ms, faster than 96.60%
