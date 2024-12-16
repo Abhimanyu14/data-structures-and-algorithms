@@ -3,7 +3,7 @@ package leetcode.leetcode_2290_minimum_obstacle_removal_to_reach_corner
 import java.util.PriorityQueue
 
 /**
- * leetcode - Runtime: 301 ms, faster than 100.00%
+ * leetcode - https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/
  *
  * TODO(Abhi) - To revisit
  *
@@ -58,7 +58,7 @@ private fun minimumObstacles(grid: Array<IntArray>): Int {
 }
 
 /**
- * leetcode - Runtime: 301 ms, faster than 100.00%
+ * leetcode - https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/
  *
  * TODO(Abhi) - To revisit
  *
