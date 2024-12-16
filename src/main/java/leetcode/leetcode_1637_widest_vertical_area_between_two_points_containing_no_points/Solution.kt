@@ -6,7 +6,7 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/?envType=daily-question&envId=2023-12-21
  *
- * Using Treeset
+ * Using [TreeSet]
  *
  * Stats
  * Runtime: 541 ms, faster than 100.00%
@@ -38,7 +38,7 @@ private fun maxWidthOfVerticalArea(points: Array<IntArray>): Int {
  * Memory Usage: 95 MB, less than 100.00%
  */
 private fun maxWidthOfVerticalAreaFunctionalProgramming(points: Array<IntArray>): Int {
-    return points.map { it[0] }.distinct().sorted().zipWithNext().maxOfOrNull { (current, next) -> next - current } ?: 0
+    return points.asSequence().map { it[0] }.distinct().sorted().zipWithNext().maxOfOrNull { (current, next) -> next - current } ?: 0
 }
 
 /**
