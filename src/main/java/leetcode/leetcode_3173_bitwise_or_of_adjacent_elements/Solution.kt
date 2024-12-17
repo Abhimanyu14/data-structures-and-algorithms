@@ -5,7 +5,8 @@ package leetcode.leetcode_3173_bitwise_or_of_adjacent_elements
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

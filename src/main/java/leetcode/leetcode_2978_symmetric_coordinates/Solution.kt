@@ -5,7 +5,8 @@ package leetcode.leetcode_2978_symmetric_coordinates
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

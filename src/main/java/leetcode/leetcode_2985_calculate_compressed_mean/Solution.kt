@@ -5,7 +5,8 @@ package leetcode.leetcode_2985_calculate_compressed_mean
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

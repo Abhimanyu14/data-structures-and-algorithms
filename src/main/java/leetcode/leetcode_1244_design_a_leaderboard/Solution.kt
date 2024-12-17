@@ -5,7 +5,8 @@ package leetcode.leetcode_1244_design_a_leaderboard
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

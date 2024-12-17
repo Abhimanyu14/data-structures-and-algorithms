@@ -5,7 +5,8 @@ package leetcode.leetcode_2258_escape_the_spreading_fire
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

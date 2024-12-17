@@ -5,7 +5,8 @@ package leetcode.leetcode_2941_maximum_gcd_sum_of_a_subarray
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

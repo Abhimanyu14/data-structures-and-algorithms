@@ -5,7 +5,8 @@ package leetcode.leetcode_487_max_consecutive_ones_ii
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

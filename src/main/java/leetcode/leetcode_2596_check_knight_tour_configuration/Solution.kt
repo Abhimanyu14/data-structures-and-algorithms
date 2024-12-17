@@ -5,7 +5,8 @@ package leetcode.leetcode_2596_check_knight_tour_configuration
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

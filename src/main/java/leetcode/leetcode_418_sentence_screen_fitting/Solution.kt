@@ -5,7 +5,8 @@ package leetcode.leetcode_418_sentence_screen_fitting
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

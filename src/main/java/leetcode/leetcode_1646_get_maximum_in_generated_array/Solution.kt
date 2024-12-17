@@ -5,7 +5,8 @@ package leetcode.leetcode_1646_get_maximum_in_generated_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

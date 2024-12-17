@@ -5,7 +5,8 @@ package leetcode.leetcode_2505_bitwise_or_of_all_subsequence_sums
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

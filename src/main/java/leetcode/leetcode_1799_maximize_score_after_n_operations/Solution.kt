@@ -5,7 +5,8 @@ package leetcode.leetcode_1799_maximize_score_after_n_operations
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

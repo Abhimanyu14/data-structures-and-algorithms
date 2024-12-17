@@ -5,7 +5,8 @@ package leetcode.leetcode_2938_separate_black_and_white_balls
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

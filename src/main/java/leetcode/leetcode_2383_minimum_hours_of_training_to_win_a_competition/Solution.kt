@@ -5,7 +5,8 @@ package leetcode.leetcode_2383_minimum_hours_of_training_to_win_a_competition
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

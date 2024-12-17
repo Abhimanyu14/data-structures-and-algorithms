@@ -5,7 +5,8 @@ package leetcode.leetcode_421_maximum_xor_of_two_numbers_in_an_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

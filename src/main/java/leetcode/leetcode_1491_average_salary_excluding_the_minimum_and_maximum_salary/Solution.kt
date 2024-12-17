@@ -5,7 +5,8 @@ package leetcode.leetcode_1491_average_salary_excluding_the_minimum_and_maximum_
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

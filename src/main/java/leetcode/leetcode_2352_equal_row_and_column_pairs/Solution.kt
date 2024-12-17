@@ -5,7 +5,8 @@ package leetcode.leetcode_2352_equal_row_and_column_pairs
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

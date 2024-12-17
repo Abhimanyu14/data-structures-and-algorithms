@@ -5,7 +5,8 @@ package leetcode.leetcode_985_sum_of_even_numbers_after_queries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

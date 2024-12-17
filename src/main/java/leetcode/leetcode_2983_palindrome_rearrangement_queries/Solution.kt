@@ -5,7 +5,8 @@ package leetcode.leetcode_2983_palindrome_rearrangement_queries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

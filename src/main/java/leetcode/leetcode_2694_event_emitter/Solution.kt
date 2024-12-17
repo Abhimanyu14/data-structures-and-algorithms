@@ -5,7 +5,8 @@ package leetcode.leetcode_2694_event_emitter
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

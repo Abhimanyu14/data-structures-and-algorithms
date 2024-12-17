@@ -5,7 +5,8 @@ package leetcode.leetcode_2435_paths_in_matrix_whose_sum_is_divisible_by_k
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

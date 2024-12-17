@@ -5,7 +5,8 @@ package leetcode.leetcode_1874_minimize_product_sum_of_two_arrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2555_maximize_win_from_two_segments
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

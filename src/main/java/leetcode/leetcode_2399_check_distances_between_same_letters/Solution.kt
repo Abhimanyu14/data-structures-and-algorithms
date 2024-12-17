@@ -5,7 +5,8 @@ package leetcode.leetcode_2399_check_distances_between_same_letters
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

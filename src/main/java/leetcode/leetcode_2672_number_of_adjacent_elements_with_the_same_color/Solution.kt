@@ -5,7 +5,8 @@ package leetcode.leetcode_2672_number_of_adjacent_elements_with_the_same_color
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

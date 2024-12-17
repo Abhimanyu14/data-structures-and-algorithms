@@ -5,7 +5,8 @@ package leetcode.leetcode_1797_design_authentication_manager
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

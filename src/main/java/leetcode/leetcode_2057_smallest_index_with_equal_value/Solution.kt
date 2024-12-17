@@ -5,7 +5,8 @@ package leetcode.leetcode_2057_smallest_index_with_equal_value
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

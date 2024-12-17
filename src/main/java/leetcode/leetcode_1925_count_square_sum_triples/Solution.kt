@@ -5,7 +5,8 @@ package leetcode.leetcode_1925_count_square_sum_triples
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

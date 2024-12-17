@@ -5,7 +5,8 @@ package leetcode.leetcode_970_powerful_integers
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

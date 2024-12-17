@@ -5,7 +5,8 @@ package leetcode.leetcode_1891_cutting_ribbons
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

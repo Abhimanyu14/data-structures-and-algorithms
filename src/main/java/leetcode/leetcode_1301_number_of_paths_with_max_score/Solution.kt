@@ -5,7 +5,8 @@ package leetcode.leetcode_1301_number_of_paths_with_max_score
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

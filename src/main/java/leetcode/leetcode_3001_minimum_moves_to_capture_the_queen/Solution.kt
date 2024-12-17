@@ -5,7 +5,8 @@ package leetcode.leetcode_3001_minimum_moves_to_capture_the_queen
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

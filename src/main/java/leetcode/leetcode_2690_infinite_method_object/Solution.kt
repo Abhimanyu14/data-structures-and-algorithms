@@ -5,7 +5,8 @@ package leetcode.leetcode_2690_infinite_method_object
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

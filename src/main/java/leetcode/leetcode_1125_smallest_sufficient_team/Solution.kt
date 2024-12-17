@@ -5,7 +5,8 @@ package leetcode.leetcode_1125_smallest_sufficient_team
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

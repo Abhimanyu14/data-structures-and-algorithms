@@ -5,7 +5,8 @@ package leetcode.leetcode_774_minimize_max_distance_to_gas_station
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

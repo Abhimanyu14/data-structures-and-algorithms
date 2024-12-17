@@ -5,7 +5,8 @@ package leetcode.leetcode_2576_find_the_maximum_number_of_marked_indices
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

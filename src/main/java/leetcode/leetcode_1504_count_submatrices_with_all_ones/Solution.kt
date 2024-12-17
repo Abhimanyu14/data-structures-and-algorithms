@@ -5,7 +5,8 @@ package leetcode.leetcode_1504_count_submatrices_with_all_ones
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1622_fancy_sequence
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1411_number_of_ways_to_paint_n_3_grid
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

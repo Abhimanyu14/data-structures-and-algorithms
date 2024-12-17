@@ -5,7 +5,8 @@ package leetcode.leetcode_302_smallest_rectangle_enclosing_black_pixels
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

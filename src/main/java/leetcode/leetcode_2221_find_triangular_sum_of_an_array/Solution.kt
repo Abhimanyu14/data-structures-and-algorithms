@@ -5,7 +5,8 @@ package leetcode.leetcode_2221_find_triangular_sum_of_an_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

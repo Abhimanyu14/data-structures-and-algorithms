@@ -5,7 +5,8 @@ package leetcode.leetcode_2950_number_of_divisible_substrings
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

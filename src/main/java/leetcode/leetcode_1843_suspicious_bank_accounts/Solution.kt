@@ -5,7 +5,8 @@ package leetcode.leetcode_1843_suspicious_bank_accounts
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

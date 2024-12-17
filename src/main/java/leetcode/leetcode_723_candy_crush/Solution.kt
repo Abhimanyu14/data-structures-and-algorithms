@@ -5,7 +5,8 @@ package leetcode.leetcode_723_candy_crush
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

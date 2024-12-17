@@ -5,7 +5,8 @@ package leetcode.leetcode_2158_amount_of_new_area_painted_each_day
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

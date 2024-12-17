@@ -5,7 +5,8 @@ package leetcode.leetcode_2100_find_good_days_to_rob_the_bank
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

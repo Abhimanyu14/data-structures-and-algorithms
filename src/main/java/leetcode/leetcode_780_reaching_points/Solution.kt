@@ -5,7 +5,8 @@ package leetcode.leetcode_780_reaching_points
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

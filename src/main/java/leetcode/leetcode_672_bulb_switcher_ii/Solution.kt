@@ -5,7 +5,8 @@ package leetcode.leetcode_672_bulb_switcher_ii
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

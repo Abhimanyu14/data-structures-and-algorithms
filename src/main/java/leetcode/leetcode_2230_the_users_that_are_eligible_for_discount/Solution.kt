@@ -5,7 +5,8 @@ package leetcode.leetcode_2230_the_users_that_are_eligible_for_discount
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

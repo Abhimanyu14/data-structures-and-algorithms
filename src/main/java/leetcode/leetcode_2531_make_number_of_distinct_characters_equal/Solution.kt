@@ -5,7 +5,8 @@ package leetcode.leetcode_2531_make_number_of_distinct_characters_equal
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

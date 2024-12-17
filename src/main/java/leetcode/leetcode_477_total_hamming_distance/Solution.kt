@@ -5,7 +5,8 @@ package leetcode.leetcode_477_total_hamming_distance
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

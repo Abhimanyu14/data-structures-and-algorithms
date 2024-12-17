@@ -5,7 +5,8 @@ package leetcode.leetcode_2543_check_if_point_is_reachable
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_362_design_hit_counter
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

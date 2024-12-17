@@ -5,7 +5,8 @@ package leetcode.leetcode_2860_happy_students
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

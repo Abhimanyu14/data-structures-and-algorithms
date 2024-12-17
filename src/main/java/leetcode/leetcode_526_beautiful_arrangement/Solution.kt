@@ -5,7 +5,8 @@ package leetcode.leetcode_526_beautiful_arrangement
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

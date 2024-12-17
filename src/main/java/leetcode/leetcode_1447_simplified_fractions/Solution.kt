@@ -5,7 +5,8 @@ package leetcode.leetcode_1447_simplified_fractions
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

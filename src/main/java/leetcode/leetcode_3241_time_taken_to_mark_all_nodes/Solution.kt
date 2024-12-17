@@ -5,7 +5,8 @@ package leetcode.leetcode_3241_time_taken_to_mark_all_nodes
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

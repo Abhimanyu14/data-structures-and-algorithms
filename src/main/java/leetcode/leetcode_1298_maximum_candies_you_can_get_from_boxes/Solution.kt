@@ -5,7 +5,8 @@ package leetcode.leetcode_1298_maximum_candies_you_can_get_from_boxes
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

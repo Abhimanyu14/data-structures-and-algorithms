@@ -5,7 +5,8 @@ package leetcode.leetcode_1931_painting_a_grid_with_three_different_colors
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

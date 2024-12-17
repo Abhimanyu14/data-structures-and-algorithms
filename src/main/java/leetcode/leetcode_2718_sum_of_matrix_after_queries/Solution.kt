@@ -5,7 +5,8 @@ package leetcode.leetcode_2718_sum_of_matrix_after_queries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_3086_minimum_moves_to_pick_k_ones
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

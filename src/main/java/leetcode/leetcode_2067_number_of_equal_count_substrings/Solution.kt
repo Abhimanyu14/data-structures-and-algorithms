@@ -5,7 +5,8 @@ package leetcode.leetcode_2067_number_of_equal_count_substrings
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

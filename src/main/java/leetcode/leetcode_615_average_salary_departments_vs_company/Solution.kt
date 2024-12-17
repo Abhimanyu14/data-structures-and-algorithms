@@ -5,7 +5,8 @@ package leetcode.leetcode_615_average_salary_departments_vs_company
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

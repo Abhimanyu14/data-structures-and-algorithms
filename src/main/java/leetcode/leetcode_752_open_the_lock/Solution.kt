@@ -5,7 +5,8 @@ package leetcode.leetcode_752_open_the_lock
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

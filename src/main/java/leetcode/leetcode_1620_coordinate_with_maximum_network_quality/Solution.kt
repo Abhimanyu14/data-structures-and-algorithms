@@ -5,7 +5,8 @@ package leetcode.leetcode_1620_coordinate_with_maximum_network_quality
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

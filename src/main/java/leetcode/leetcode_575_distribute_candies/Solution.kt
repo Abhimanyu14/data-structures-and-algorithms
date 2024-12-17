@@ -5,7 +5,8 @@ package leetcode.leetcode_575_distribute_candies
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

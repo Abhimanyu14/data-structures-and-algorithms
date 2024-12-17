@@ -5,7 +5,8 @@ package leetcode.leetcode_2151_maximum_good_people_based_on_statements
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

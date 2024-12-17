@@ -5,7 +5,8 @@ package leetcode.leetcode_1960_maximum_product_of_the_length_of_two_palindromic_
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

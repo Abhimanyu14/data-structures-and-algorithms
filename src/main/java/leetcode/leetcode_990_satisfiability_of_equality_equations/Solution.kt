@@ -5,7 +5,8 @@ package leetcode.leetcode_990_satisfiability_of_equality_equations
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

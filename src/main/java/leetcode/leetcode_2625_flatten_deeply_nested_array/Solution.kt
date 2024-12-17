@@ -5,7 +5,8 @@ package leetcode.leetcode_2625_flatten_deeply_nested_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

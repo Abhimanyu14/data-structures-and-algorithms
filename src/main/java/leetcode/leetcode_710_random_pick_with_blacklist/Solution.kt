@@ -5,7 +5,8 @@ package leetcode.leetcode_710_random_pick_with_blacklist
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

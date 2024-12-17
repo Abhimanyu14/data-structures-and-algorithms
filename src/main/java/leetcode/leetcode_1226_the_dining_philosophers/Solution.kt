@@ -5,7 +5,8 @@ package leetcode.leetcode_1226_the_dining_philosophers
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

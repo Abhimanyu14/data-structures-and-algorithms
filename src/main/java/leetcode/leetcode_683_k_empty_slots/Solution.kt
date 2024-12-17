@@ -5,7 +5,8 @@ package leetcode.leetcode_683_k_empty_slots
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

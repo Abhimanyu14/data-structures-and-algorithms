@@ -5,7 +5,8 @@ package leetcode.leetcode_204_count_primes
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

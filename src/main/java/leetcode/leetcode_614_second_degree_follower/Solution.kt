@@ -5,7 +5,8 @@ package leetcode.leetcode_614_second_degree_follower
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

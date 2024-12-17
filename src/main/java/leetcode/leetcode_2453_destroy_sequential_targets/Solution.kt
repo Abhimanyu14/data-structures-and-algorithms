@@ -5,7 +5,8 @@ package leetcode.leetcode_2453_destroy_sequential_targets
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

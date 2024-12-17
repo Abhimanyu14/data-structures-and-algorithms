@@ -5,7 +5,8 @@ package leetcode.leetcode_1538_guess_the_majority_in_a_hidden_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

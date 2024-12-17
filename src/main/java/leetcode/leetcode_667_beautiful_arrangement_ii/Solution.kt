@@ -5,7 +5,8 @@ package leetcode.leetcode_667_beautiful_arrangement_ii
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

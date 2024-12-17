@@ -5,7 +5,8 @@ package leetcode.leetcode_2595_number_of_even_and_odd_bits
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

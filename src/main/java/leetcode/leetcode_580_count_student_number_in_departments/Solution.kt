@@ -5,7 +5,8 @@ package leetcode.leetcode_580_count_student_number_in_departments
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1527_patients_with_a_condition
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

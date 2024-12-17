@@ -5,7 +5,8 @@ package leetcode.leetcode_1180_count_substrings_with_only_one_distinct_letter
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

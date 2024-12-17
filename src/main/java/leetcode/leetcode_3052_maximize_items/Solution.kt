@@ -5,7 +5,8 @@ package leetcode.leetcode_3052_maximize_items
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1998_gcd_sort_of_an_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

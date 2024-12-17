@@ -5,7 +5,8 @@ package leetcode.leetcode_3077_maximum_strength_of_k_disjoint_subarrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

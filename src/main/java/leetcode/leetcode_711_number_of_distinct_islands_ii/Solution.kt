@@ -5,7 +5,8 @@ package leetcode.leetcode_711_number_of_distinct_islands_ii
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

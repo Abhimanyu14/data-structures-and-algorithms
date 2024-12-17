@@ -5,7 +5,8 @@ package leetcode.leetcode_1755_closest_subsequence_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

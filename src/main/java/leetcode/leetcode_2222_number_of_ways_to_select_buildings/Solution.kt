@@ -5,7 +5,8 @@ package leetcode.leetcode_2222_number_of_ways_to_select_buildings
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

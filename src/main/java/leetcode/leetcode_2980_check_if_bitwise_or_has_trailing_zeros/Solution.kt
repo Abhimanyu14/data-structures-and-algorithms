@@ -5,7 +5,8 @@ package leetcode.leetcode_2980_check_if_bitwise_or_has_trailing_zeros
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

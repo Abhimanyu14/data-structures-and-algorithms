@@ -5,7 +5,8 @@ package leetcode.leetcode_2012_sum_of_beauty_in_the_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

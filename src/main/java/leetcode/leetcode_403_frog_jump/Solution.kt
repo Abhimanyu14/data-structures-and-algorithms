@@ -5,7 +5,8 @@ package leetcode.leetcode_403_frog_jump
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

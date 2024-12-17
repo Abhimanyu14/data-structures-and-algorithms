@@ -5,7 +5,8 @@ package leetcode.leetcode_2747_count_zero_request_servers
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

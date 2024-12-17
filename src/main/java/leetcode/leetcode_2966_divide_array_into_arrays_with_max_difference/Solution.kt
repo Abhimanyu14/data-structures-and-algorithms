@@ -5,7 +5,8 @@ package leetcode.leetcode_2966_divide_array_into_arrays_with_max_difference
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

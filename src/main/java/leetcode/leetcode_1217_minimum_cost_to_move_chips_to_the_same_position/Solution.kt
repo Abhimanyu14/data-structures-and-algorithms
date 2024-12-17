@@ -5,7 +5,8 @@ package leetcode.leetcode_1217_minimum_cost_to_move_chips_to_the_same_position
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

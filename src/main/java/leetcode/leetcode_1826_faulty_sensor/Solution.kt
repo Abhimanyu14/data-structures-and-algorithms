@@ -5,7 +5,8 @@ package leetcode.leetcode_1826_faulty_sensor
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

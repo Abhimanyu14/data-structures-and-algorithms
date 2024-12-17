@@ -5,7 +5,8 @@ package leetcode.leetcode_1731_the_number_of_employees_which_report_to_each_empl
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

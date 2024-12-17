@@ -5,7 +5,8 @@ package leetcode.leetcode_822_card_flipping_game
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

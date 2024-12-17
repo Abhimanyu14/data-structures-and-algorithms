@@ -5,7 +5,8 @@ package leetcode.leetcode_1204_last_person_to_fit_in_the_bus
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

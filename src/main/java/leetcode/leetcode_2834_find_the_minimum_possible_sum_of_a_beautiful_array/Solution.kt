@@ -5,7 +5,8 @@ package leetcode.leetcode_2834_find_the_minimum_possible_sum_of_a_beautiful_arra
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

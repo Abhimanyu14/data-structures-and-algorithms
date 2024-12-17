@@ -5,7 +5,8 @@ package leetcode.leetcode_2838_maximum_coins_heroes_can_collect
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

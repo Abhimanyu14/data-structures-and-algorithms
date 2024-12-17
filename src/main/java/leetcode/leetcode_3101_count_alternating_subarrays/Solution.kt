@@ -5,7 +5,8 @@ package leetcode.leetcode_3101_count_alternating_subarrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

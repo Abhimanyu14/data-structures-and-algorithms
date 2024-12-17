@@ -5,7 +5,8 @@ package leetcode.leetcode_1825_finding_mk_average
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

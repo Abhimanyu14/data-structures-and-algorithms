@@ -5,7 +5,8 @@ package leetcode.leetcode_2683_neighboring_bitwise_xor
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

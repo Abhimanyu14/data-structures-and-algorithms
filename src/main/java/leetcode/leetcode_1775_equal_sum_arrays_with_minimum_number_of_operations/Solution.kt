@@ -5,7 +5,8 @@ package leetcode.leetcode_1775_equal_sum_arrays_with_minimum_number_of_operation
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

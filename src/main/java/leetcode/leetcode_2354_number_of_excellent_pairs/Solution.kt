@@ -5,7 +5,8 @@ package leetcode.leetcode_2354_number_of_excellent_pairs
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

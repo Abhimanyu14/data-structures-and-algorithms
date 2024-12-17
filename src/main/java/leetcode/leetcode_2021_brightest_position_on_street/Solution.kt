@@ -5,7 +5,8 @@ package leetcode.leetcode_2021_brightest_position_on_street
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

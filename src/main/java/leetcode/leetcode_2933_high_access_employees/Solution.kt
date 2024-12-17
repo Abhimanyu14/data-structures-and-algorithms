@@ -5,7 +5,8 @@ package leetcode.leetcode_2933_high_access_employees
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

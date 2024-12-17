@@ -5,7 +5,8 @@ package leetcode.leetcode_2274_maximum_consecutive_floors_without_special_floors
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

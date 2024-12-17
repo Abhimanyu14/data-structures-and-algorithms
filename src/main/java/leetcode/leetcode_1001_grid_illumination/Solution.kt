@@ -5,7 +5,8 @@ package leetcode.leetcode_1001_grid_illumination
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

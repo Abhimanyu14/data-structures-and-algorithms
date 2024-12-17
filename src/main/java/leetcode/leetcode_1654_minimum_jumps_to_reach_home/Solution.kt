@@ -5,7 +5,8 @@ package leetcode.leetcode_1654_minimum_jumps_to_reach_home
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

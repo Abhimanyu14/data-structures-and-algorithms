@@ -5,7 +5,8 @@ package leetcode.leetcode_2761_prime_pairs_with_target_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

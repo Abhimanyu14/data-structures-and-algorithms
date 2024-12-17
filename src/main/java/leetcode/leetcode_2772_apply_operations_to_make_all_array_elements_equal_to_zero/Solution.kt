@@ -5,7 +5,8 @@ package leetcode.leetcode_2772_apply_operations_to_make_all_array_elements_equal
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

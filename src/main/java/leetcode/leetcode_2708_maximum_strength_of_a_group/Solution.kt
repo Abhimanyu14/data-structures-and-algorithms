@@ -5,7 +5,8 @@ package leetcode.leetcode_2708_maximum_strength_of_a_group
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

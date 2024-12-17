@@ -5,7 +5,8 @@ package leetcode.leetcode_627_swap_salary
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_3242_design_neighbor_sum_service
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

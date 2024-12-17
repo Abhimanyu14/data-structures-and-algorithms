@@ -5,7 +5,8 @@ package leetcode.leetcode_1938_maximum_genetic_difference_query
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1211_queries_quality_and_percentage
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

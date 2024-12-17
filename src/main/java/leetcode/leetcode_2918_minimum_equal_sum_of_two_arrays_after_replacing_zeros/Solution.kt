@@ -5,7 +5,8 @@ package leetcode.leetcode_2918_minimum_equal_sum_of_two_arrays_after_replacing_z
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2076_process_restricted_friend_requests
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

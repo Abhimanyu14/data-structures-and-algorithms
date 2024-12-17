@@ -5,7 +5,8 @@ package leetcode.leetcode_3006_find_beautiful_indices_in_the_given_array_i
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

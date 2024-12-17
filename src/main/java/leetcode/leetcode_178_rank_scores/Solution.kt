@@ -5,7 +5,8 @@ package leetcode.leetcode_178_rank_scores
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

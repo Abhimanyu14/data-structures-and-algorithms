@@ -5,7 +5,8 @@ package leetcode.leetcode_769_max_chunks_to_make_sorted
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

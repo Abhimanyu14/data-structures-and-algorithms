@@ -5,7 +5,8 @@ package leetcode.leetcode_1299_replace_elements_with_greatest_element_on_right_s
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

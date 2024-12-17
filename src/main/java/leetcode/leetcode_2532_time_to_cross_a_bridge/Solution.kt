@@ -5,7 +5,8 @@ package leetcode.leetcode_2532_time_to_cross_a_bridge
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

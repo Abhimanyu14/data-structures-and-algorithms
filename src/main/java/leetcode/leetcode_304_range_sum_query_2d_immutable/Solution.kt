@@ -5,7 +5,8 @@ package leetcode.leetcode_304_range_sum_query_2d_immutable
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

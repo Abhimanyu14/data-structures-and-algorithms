@@ -5,7 +5,8 @@ package leetcode.leetcode_2261_k_divisible_elements_subarrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1375_number_of_times_binary_string_is_prefix_aligned
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

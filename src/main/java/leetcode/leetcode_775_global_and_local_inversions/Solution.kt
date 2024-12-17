@@ -5,7 +5,8 @@ package leetcode.leetcode_775_global_and_local_inversions
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

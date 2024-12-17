@@ -5,7 +5,8 @@ package leetcode.leetcode_2988_manager_of_the_largest_department
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

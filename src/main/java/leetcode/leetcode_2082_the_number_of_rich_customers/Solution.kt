@@ -5,7 +5,8 @@ package leetcode.leetcode_2082_the_number_of_rich_customers
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

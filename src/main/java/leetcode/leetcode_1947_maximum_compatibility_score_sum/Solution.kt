@@ -5,7 +5,8 @@ package leetcode.leetcode_1947_maximum_compatibility_score_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

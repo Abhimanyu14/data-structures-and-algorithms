@@ -5,7 +5,8 @@ package leetcode.leetcode_2184_number_of_ways_to_build_sturdy_brick_wall
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

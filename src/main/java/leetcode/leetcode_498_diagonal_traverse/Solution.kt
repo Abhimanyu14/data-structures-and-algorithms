@@ -5,7 +5,8 @@ package leetcode.leetcode_498_diagonal_traverse
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

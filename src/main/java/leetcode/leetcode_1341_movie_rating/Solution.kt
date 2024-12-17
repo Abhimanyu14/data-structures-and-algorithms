@@ -5,7 +5,8 @@ package leetcode.leetcode_1341_movie_rating
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

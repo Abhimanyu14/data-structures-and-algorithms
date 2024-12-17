@@ -5,7 +5,8 @@ package leetcode.leetcode_2317_maximum_xor_after_operations
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

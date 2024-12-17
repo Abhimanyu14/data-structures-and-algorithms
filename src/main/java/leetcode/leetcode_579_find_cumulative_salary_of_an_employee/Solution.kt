@@ -5,7 +5,8 @@ package leetcode.leetcode_579_find_cumulative_salary_of_an_employee
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

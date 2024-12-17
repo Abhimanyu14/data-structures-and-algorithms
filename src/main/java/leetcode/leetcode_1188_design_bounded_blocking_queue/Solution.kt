@@ -5,7 +5,8 @@ package leetcode.leetcode_1188_design_bounded_blocking_queue
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

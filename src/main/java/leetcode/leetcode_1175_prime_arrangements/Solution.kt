@@ -5,7 +5,8 @@ package leetcode.leetcode_1175_prime_arrangements
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

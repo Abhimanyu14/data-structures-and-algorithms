@@ -5,7 +5,8 @@ package leetcode.leetcode_2344_minimum_deletions_to_make_array_divisible
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

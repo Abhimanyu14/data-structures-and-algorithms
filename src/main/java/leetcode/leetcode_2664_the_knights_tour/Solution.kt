@@ -5,7 +5,8 @@ package leetcode.leetcode_2664_the_knights_tour
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

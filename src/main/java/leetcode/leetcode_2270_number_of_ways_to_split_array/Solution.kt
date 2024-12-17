@@ -5,7 +5,8 @@ package leetcode.leetcode_2270_number_of_ways_to_split_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

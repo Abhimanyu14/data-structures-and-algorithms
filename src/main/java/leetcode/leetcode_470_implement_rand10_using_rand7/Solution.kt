@@ -5,7 +5,8 @@ package leetcode.leetcode_470_implement_rand10_using_rand7
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2640_find_the_score_of_all_prefixes_of_an_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

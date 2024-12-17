@@ -5,7 +5,8 @@ package leetcode.leetcode_693_binary_number_with_alternating_bits
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1590_make_sum_divisible_by_p
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2427_number_of_common_factors
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

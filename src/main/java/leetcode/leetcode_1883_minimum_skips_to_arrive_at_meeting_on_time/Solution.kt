@@ -5,7 +5,8 @@ package leetcode.leetcode_1883_minimum_skips_to_arrive_at_meeting_on_time
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

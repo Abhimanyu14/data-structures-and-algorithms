@@ -5,7 +5,8 @@ package leetcode.leetcode_740_delete_and_earn
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

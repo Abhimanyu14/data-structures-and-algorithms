@@ -5,7 +5,8 @@ package leetcode.leetcode_3160_find_the_number_of_distinct_colors_among_the_ball
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

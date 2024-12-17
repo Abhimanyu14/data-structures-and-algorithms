@@ -5,7 +5,8 @@ package leetcode.leetcode_1478_allocate_mailboxes
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

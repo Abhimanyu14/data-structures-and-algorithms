@@ -5,7 +5,8 @@ package leetcode.leetcode_2898_maximum_linear_stock_score
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

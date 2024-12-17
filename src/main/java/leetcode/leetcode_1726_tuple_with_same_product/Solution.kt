@@ -5,7 +5,8 @@ package leetcode.leetcode_1726_tuple_with_same_product
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

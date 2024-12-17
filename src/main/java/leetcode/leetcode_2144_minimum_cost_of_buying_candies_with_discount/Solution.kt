@@ -5,7 +5,8 @@ package leetcode.leetcode_2144_minimum_cost_of_buying_candies_with_discount
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2438_range_product_queries_of_powers
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_966_vowel_spellchecker
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

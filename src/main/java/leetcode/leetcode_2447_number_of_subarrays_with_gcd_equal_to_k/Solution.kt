@@ -5,7 +5,8 @@ package leetcode.leetcode_2447_number_of_subarrays_with_gcd_equal_to_k
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

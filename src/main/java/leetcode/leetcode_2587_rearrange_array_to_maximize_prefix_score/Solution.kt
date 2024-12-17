@@ -5,7 +5,8 @@ package leetcode.leetcode_2587_rearrange_array_to_maximize_prefix_score
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

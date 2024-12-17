@@ -5,7 +5,8 @@ package leetcode.leetcode_382_linked_list_random_node
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

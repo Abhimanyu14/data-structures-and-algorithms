@@ -5,7 +5,8 @@ package leetcode.leetcode_1350_students_with_invalid_departments
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

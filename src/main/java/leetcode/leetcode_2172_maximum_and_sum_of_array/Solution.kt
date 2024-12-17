@@ -5,7 +5,8 @@ package leetcode.leetcode_2172_maximum_and_sum_of_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

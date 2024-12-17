@@ -5,7 +5,8 @@ package leetcode.leetcode_1798_maximum_number_of_consecutive_values_you_can_make
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

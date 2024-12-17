@@ -5,7 +5,8 @@ package leetcode.leetcode_1237_find_positive_integer_solution_for_a_given_equati
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

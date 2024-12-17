@@ -5,7 +5,8 @@ package leetcode.leetcode_2831_find_the_longest_equal_subarray
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

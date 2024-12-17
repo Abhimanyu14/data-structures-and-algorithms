@@ -5,7 +5,8 @@ package leetcode.leetcode_2853_highest_salaries_difference
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

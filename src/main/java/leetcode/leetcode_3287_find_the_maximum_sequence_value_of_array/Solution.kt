@@ -5,7 +5,8 @@ package leetcode.leetcode_3287_find_the_maximum_sequence_value_of_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

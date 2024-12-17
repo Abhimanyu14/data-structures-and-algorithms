@@ -5,7 +5,8 @@ package leetcode.leetcode_1705_maximum_number_of_eaten_apples
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

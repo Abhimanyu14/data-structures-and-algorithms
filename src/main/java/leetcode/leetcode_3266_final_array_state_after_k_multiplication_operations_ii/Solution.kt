@@ -5,7 +5,8 @@ package leetcode.leetcode_3266_final_array_state_after_k_multiplication_operatio
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

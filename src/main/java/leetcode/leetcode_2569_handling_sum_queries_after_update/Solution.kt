@@ -5,7 +5,8 @@ package leetcode.leetcode_2569_handling_sum_queries_after_update
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

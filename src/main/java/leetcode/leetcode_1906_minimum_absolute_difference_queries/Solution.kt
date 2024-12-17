@@ -5,7 +5,8 @@ package leetcode.leetcode_1906_minimum_absolute_difference_queries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

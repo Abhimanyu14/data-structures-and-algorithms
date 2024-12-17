@@ -5,7 +5,8 @@ package leetcode.leetcode_1475_final_prices_with_a_special_discount_in_a_shop
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

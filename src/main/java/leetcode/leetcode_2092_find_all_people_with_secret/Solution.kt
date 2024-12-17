@@ -5,7 +5,8 @@ package leetcode.leetcode_2092_find_all_people_with_secret
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2768_number_of_black_blocks
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

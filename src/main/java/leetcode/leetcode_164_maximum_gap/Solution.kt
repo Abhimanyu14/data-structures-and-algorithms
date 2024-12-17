@@ -5,7 +5,8 @@ package leetcode.leetcode_164_maximum_gap
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

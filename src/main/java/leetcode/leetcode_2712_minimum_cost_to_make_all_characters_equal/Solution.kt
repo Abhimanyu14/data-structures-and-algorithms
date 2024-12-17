@@ -5,7 +5,8 @@ package leetcode.leetcode_2712_minimum_cost_to_make_all_characters_equal
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

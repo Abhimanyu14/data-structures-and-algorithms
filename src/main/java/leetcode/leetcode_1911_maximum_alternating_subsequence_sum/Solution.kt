@@ -5,7 +5,8 @@ package leetcode.leetcode_1911_maximum_alternating_subsequence_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

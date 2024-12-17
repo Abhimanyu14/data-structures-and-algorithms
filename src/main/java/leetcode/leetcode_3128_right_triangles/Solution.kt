@@ -5,7 +5,8 @@ package leetcode.leetcode_3128_right_triangles
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

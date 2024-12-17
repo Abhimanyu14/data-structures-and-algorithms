@@ -5,7 +5,8 @@ package leetcode.leetcode_1474_delete_n_nodes_after_m_nodes_of_a_linked_list
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

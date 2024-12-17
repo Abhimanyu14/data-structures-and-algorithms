@@ -5,7 +5,8 @@ package leetcode.leetcode_2705_compact_object
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

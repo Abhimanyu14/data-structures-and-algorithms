@@ -5,7 +5,8 @@ package leetcode.leetcode_1786_number_of_restricted_paths_from_first_to_last_nod
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

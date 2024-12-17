@@ -5,7 +5,8 @@ package leetcode.leetcode_2308_arrange_table_by_gender
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

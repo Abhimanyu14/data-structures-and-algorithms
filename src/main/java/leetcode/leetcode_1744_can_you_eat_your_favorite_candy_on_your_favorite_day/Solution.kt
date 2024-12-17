@@ -5,7 +5,8 @@ package leetcode.leetcode_1744_can_you_eat_your_favorite_candy_on_your_favorite_
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

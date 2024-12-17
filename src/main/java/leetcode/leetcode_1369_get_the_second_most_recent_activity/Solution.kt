@@ -5,7 +5,8 @@ package leetcode.leetcode_1369_get_the_second_most_recent_activity
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

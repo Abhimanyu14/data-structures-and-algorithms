@@ -5,7 +5,8 @@ package leetcode.leetcode_2039_the_time_when_the_network_becomes_idle
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

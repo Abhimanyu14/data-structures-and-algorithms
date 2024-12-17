@@ -5,7 +5,8 @@ package leetcode.leetcode_2590_design_a_todo_list
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

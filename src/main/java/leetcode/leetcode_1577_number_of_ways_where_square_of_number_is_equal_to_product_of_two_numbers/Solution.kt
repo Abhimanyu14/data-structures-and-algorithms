@@ -5,7 +5,8 @@ package leetcode.leetcode_1577_number_of_ways_where_square_of_number_is_equal_to
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

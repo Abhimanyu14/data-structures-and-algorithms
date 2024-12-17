@@ -5,7 +5,8 @@ package leetcode.leetcode_2501_longest_square_streak_in_an_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2711_difference_of_number_of_distinct_values_on_diagon
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

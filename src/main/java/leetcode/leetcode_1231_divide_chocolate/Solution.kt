@@ -5,7 +5,8 @@ package leetcode.leetcode_1231_divide_chocolate
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

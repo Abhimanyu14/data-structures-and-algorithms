@@ -5,7 +5,8 @@ package leetcode.leetcode_781_rabbits_in_forest
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

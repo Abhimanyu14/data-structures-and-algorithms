@@ -5,7 +5,8 @@ package leetcode.leetcode_1434_number_of_ways_to_wear_different_hats_to_each_oth
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2961_double_modular_exponentiation
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

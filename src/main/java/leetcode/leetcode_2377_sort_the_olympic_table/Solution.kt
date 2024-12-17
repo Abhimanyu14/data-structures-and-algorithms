@@ -5,7 +5,8 @@ package leetcode.leetcode_2377_sort_the_olympic_table
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

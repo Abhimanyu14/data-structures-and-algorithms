@@ -5,7 +5,8 @@ package leetcode.leetcode_2615_sum_of_distances
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

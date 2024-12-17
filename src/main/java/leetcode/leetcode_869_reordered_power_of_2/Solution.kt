@@ -5,7 +5,8 @@ package leetcode.leetcode_869_reordered_power_of_2
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

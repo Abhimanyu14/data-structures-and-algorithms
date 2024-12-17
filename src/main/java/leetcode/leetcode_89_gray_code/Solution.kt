@@ -5,7 +5,8 @@ package leetcode.leetcode_89_gray_code
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

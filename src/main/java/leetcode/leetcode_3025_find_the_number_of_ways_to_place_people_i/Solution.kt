@@ -5,7 +5,8 @@ package leetcode.leetcode_3025_find_the_number_of_ways_to_place_people_i
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

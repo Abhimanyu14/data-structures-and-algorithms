@@ -5,7 +5,8 @@ package leetcode.leetcode_2975_maximum_square_area_by_removing_fences_from_a_fie
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

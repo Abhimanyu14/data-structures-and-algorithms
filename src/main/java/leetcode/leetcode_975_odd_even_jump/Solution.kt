@@ -5,7 +5,8 @@ package leetcode.leetcode_975_odd_even_jump
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

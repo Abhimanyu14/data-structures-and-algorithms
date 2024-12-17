@@ -5,7 +5,8 @@ package leetcode.leetcode_1570_dot_product_of_two_sparse_vectors
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

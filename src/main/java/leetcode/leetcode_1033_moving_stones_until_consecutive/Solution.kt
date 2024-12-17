@@ -5,7 +5,8 @@ package leetcode.leetcode_1033_moving_stones_until_consecutive
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

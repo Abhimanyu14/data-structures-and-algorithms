@@ -5,7 +5,8 @@ package leetcode.leetcode_2056_number_of_valid_move_combinations_on_chessboard
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

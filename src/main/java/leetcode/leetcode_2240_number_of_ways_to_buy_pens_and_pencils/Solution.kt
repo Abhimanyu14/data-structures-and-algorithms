@@ -5,7 +5,8 @@ package leetcode.leetcode_2240_number_of_ways_to_buy_pens_and_pencils
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

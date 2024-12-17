@@ -5,7 +5,8 @@ package leetcode.leetcode_3094_guess_the_number_using_bitwise_questions_ii
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

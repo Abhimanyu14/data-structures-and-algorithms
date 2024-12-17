@@ -5,7 +5,8 @@ package leetcode.leetcode_390_elimination_game
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

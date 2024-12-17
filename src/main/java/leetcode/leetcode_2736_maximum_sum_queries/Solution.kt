@@ -5,7 +5,8 @@ package leetcode.leetcode_2736_maximum_sum_queries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

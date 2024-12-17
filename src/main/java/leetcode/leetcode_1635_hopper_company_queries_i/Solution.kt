@@ -5,7 +5,8 @@ package leetcode.leetcode_1635_hopper_company_queries_i
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

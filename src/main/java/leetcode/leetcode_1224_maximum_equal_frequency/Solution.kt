@@ -5,7 +5,8 @@ package leetcode.leetcode_1224_maximum_equal_frequency
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

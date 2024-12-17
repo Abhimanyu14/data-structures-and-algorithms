@@ -5,7 +5,8 @@ package leetcode.leetcode_2819_minimum_relative_loss_after_buying_chocolates
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

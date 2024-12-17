@@ -5,7 +5,8 @@ package leetcode.leetcode_2793_status_of_flight_tickets
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

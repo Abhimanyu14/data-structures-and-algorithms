@@ -5,7 +5,8 @@ package leetcode.leetcode_3080_mark_elements_on_array_by_performing_queries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

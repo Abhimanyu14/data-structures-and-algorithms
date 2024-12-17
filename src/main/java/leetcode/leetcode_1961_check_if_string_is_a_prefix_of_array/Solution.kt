@@ -5,7 +5,8 @@ package leetcode.leetcode_1961_check_if_string_is_a_prefix_of_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

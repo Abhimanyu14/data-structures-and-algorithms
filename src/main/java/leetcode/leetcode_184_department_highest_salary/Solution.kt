@@ -5,7 +5,8 @@ package leetcode.leetcode_184_department_highest_salary
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_3275_k_th_nearest_obstacle_queries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

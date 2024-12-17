@@ -5,7 +5,8 @@ package leetcode.leetcode_3282_reach_end_of_array_with_max_score
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

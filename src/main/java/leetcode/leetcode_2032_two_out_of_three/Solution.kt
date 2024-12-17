@@ -5,7 +5,8 @@ package leetcode.leetcode_2032_two_out_of_three
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

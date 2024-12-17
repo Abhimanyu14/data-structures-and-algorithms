@@ -5,7 +5,8 @@ package leetcode.leetcode_2964_number_of_divisible_triplet_sums
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

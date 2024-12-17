@@ -5,7 +5,8 @@ package leetcode.leetcode_2604_minimum_time_to_eat_all_grains
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

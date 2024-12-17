@@ -5,7 +5,8 @@ package leetcode.leetcode_2318_number_of_distinct_roll_sequences
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

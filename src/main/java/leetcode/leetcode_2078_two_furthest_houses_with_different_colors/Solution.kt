@@ -5,7 +5,8 @@ package leetcode.leetcode_2078_two_furthest_houses_with_different_colors
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

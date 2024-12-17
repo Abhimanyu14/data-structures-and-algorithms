@@ -5,7 +5,8 @@ package leetcode.leetcode_2036_maximum_alternating_subarray_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

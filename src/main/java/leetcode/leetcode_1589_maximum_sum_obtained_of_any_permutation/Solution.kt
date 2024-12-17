@@ -5,7 +5,8 @@ package leetcode.leetcode_1589_maximum_sum_obtained_of_any_permutation
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

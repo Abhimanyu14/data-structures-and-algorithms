@@ -5,7 +5,8 @@ package leetcode.leetcode_2465_number_of_distinct_averages
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

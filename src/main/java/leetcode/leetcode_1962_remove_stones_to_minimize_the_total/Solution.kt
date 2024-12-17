@@ -5,7 +5,8 @@ package leetcode.leetcode_1962_remove_stones_to_minimize_the_total
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

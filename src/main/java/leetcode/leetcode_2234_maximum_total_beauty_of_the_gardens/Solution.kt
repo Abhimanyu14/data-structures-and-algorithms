@@ -5,7 +5,8 @@ package leetcode.leetcode_2234_maximum_total_beauty_of_the_gardens
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

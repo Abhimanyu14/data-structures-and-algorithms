@@ -5,7 +5,8 @@ package leetcode.leetcode_2176_count_equal_and_divisible_pairs_in_an_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

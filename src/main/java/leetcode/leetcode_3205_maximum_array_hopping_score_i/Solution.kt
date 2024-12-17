@@ -5,7 +5,8 @@ package leetcode.leetcode_3205_maximum_array_hopping_score_i
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

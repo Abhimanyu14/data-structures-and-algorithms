@@ -5,7 +5,8 @@ package leetcode.leetcode_2644_find_the_maximum_divisibility_score
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

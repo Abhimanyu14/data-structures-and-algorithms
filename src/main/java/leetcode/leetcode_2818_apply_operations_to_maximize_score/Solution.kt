@@ -5,7 +5,8 @@ package leetcode.leetcode_2818_apply_operations_to_maximize_score
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

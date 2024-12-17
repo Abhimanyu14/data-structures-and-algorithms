@@ -5,7 +5,8 @@ package leetcode.leetcode_1407_top_travellers
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

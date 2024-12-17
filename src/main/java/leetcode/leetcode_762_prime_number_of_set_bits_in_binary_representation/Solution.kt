@@ -5,7 +5,8 @@ package leetcode.leetcode_762_prime_number_of_set_bits_in_binary_representation
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

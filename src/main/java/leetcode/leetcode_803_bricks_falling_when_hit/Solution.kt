@@ -5,7 +5,8 @@ package leetcode.leetcode_803_bricks_falling_when_hit
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

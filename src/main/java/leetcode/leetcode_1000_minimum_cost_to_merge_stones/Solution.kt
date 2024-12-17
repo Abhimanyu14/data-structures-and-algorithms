@@ -5,7 +5,8 @@ package leetcode.leetcode_1000_minimum_cost_to_merge_stones
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

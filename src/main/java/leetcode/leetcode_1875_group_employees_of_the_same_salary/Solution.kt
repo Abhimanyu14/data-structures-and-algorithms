@@ -5,7 +5,8 @@ package leetcode.leetcode_1875_group_employees_of_the_same_salary
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2783_flight_occupancy_and_waitlist_analysis
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

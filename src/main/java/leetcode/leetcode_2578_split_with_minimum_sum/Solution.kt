@@ -5,7 +5,8 @@ package leetcode.leetcode_2578_split_with_minimum_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

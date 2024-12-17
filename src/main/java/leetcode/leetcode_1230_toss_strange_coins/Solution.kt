@@ -5,7 +5,8 @@ package leetcode.leetcode_1230_toss_strange_coins
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

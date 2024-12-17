@@ -5,7 +5,8 @@ package leetcode.leetcode_2269_find_the_k_beauty_of_a_number
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

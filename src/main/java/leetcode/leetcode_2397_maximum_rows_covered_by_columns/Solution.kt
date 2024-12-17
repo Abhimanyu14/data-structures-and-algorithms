@@ -5,7 +5,8 @@ package leetcode.leetcode_2397_maximum_rows_covered_by_columns
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

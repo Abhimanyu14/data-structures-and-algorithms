@@ -5,7 +5,8 @@ package leetcode.leetcode_2875_minimum_size_subarray_in_infinite_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

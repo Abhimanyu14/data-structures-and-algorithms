@@ -5,7 +5,8 @@ package leetcode.leetcode_2338_count_the_number_of_ideal_arrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

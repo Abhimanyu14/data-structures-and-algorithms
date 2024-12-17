@@ -5,7 +5,8 @@ package leetcode.leetcode_2079_watering_plants
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

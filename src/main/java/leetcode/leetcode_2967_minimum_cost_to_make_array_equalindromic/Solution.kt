@@ -5,7 +5,8 @@ package leetcode.leetcode_2967_minimum_cost_to_make_array_equalindromic
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1547_minimum_cost_to_cut_a_stick
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2538_difference_between_maximum_and_minimum_price_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

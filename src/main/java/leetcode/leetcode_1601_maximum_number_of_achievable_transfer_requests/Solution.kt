@@ -5,7 +5,8 @@ package leetcode.leetcode_1601_maximum_number_of_achievable_transfer_requests
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

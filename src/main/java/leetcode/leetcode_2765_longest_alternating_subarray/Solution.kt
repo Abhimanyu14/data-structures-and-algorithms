@@ -5,7 +5,8 @@ package leetcode.leetcode_2765_longest_alternating_subarray
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

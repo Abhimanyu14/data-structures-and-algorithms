@@ -5,7 +5,8 @@ package leetcode.leetcode_2364_count_number_of_bad_pairs
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

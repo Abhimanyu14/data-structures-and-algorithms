@@ -5,7 +5,8 @@ package leetcode.leetcode_2512_reward_top_k_students
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

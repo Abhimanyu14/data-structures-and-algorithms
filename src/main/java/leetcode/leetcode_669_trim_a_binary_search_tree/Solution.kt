@@ -5,7 +5,8 @@ package leetcode.leetcode_669_trim_a_binary_search_tree
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

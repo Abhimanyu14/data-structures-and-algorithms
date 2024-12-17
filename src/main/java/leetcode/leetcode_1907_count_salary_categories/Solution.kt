@@ -5,7 +5,8 @@ package leetcode.leetcode_1907_count_salary_categories
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2066_account_balance
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

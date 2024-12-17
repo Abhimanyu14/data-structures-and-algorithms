@@ -5,7 +5,8 @@ package leetcode.leetcode_2766_relocate_marbles
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

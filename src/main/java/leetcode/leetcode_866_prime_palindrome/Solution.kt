@@ -5,7 +5,8 @@ package leetcode.leetcode_866_prime_palindrome
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

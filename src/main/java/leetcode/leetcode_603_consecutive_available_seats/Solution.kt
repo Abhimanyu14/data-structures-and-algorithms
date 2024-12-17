@@ -5,7 +5,8 @@ package leetcode.leetcode_603_consecutive_available_seats
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

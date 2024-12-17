@@ -5,7 +5,8 @@ package leetcode.leetcode_2355_maximum_number_of_books_you_can_take
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

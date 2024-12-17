@@ -5,7 +5,8 @@ package leetcode.leetcode_2876_count_visited_nodes_in_a_directed_graph
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2990_loan_types
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

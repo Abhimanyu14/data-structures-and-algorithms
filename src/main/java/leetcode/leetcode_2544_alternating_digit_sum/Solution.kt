@@ -5,7 +5,8 @@ package leetcode.leetcode_2544_alternating_digit_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

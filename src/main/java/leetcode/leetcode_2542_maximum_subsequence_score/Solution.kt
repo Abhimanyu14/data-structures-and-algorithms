@@ -5,7 +5,8 @@ package leetcode.leetcode_2542_maximum_subsequence_score
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

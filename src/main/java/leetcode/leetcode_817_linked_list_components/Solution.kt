@@ -5,7 +5,8 @@ package leetcode.leetcode_817_linked_list_components
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

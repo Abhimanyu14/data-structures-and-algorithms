@@ -5,7 +5,8 @@ package leetcode.leetcode_3044_most_frequent_prime
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

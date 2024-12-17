@@ -5,7 +5,8 @@ package leetcode.leetcode_1320_minimum_distance_to_type_a_word_using_two_fingers
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

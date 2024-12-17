@@ -5,7 +5,8 @@ package leetcode.leetcode_313_super_ugly_number
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

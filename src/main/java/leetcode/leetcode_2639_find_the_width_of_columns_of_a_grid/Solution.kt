@@ -5,7 +5,8 @@ package leetcode.leetcode_2639_find_the_width_of_columns_of_a_grid
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

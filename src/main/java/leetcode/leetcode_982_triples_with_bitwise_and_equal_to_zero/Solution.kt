@@ -5,7 +5,8 @@ package leetcode.leetcode_982_triples_with_bitwise_and_equal_to_zero
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1362_closest_divisors
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

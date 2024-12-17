@@ -5,7 +5,8 @@ package leetcode.leetcode_3277_maximum_xor_score_subarray_queries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

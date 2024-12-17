@@ -5,7 +5,8 @@ package leetcode.leetcode_1467_probability_of_a_two_boxes_having_the_same_number
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1366_rank_teams_by_votes
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

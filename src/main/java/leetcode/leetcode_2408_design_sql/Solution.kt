@@ -5,7 +5,8 @@ package leetcode.leetcode_2408_design_sql
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

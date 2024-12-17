@@ -5,7 +5,8 @@ package leetcode.leetcode_2418_sort_the_people
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2001_number_of_pairs_of_interchangeable_rectangles
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

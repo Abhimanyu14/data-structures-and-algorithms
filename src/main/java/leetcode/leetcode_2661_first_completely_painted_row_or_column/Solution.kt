@@ -5,7 +5,8 @@ package leetcode.leetcode_2661_first_completely_painted_row_or_column
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

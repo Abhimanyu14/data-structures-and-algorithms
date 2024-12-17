@@ -5,7 +5,8 @@ package leetcode.leetcode_3336_find_the_number_of_subsequences_with_equal_gcd
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

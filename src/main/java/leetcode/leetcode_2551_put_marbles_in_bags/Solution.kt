@@ -5,7 +5,8 @@ package leetcode.leetcode_2551_put_marbles_in_bags
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

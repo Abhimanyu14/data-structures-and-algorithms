@@ -5,7 +5,8 @@ package leetcode.leetcode_2342_max_sum_of_a_pair_with_equal_sum_of_digits
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

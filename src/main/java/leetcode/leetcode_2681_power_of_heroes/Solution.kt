@@ -5,7 +5,8 @@ package leetcode.leetcode_2681_power_of_heroes
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

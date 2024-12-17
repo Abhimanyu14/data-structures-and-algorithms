@@ -5,7 +5,8 @@ package leetcode.leetcode_2784_check_if_array_is_good
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

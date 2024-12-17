@@ -5,7 +5,8 @@ package leetcode.leetcode_2429_minimize_xor
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

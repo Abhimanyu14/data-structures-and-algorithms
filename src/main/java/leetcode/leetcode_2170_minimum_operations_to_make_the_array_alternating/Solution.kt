@@ -5,7 +5,8 @@ package leetcode.leetcode_2170_minimum_operations_to_make_the_array_alternating
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_898_bitwise_ors_of_subarrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

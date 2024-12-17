@@ -5,7 +5,8 @@ package leetcode.leetcode_1065_index_pairs_of_a_string
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

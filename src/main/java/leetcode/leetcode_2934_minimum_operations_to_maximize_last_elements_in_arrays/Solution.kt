@@ -5,7 +5,8 @@ package leetcode.leetcode_2934_minimum_operations_to_maximize_last_elements_in_a
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

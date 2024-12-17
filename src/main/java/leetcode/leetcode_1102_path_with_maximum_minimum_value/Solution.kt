@@ -5,7 +5,8 @@ package leetcode.leetcode_1102_path_with_maximum_minimum_value
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

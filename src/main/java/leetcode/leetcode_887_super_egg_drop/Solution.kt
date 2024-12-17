@@ -5,7 +5,8 @@ package leetcode.leetcode_887_super_egg_drop
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1988_find_cutoff_score_for_each_school
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

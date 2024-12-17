@@ -5,7 +5,8 @@ package leetcode.leetcode_2936_number_of_equal_numbers_blocks
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

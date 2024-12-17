@@ -5,7 +5,8 @@ package leetcode.leetcode_1222_queens_that_can_attack_the_king
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

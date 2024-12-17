@@ -5,7 +5,8 @@ package leetcode.leetcode_3139_minimum_cost_to_equalize_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

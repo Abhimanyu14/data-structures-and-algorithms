@@ -5,7 +5,8 @@ package leetcode.leetcode_2327_number_of_people_aware_of_a_secret
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

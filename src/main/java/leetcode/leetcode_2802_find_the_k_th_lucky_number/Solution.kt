@@ -5,7 +5,8 @@ package leetcode.leetcode_2802_find_the_k_th_lucky_number
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2588_count_the_number_of_beautiful_subarrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

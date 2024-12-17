@@ -5,7 +5,8 @@ package leetcode.leetcode_805_split_array_with_same_average
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

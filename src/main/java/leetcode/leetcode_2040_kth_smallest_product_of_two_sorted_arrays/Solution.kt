@@ -5,7 +5,8 @@ package leetcode.leetcode_2040_kth_smallest_product_of_two_sorted_arrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

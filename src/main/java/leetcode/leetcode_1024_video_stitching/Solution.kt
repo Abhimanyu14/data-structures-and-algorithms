@@ -5,7 +5,8 @@ package leetcode.leetcode_1024_video_stitching
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

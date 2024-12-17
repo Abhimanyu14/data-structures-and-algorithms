@@ -5,7 +5,8 @@ package leetcode.leetcode_2010_the_number_of_seniors_and_juniors_to_join_the_com
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

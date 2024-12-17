@@ -5,7 +5,8 @@ package leetcode.leetcode_967_numbers_with_same_consecutive_differences
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

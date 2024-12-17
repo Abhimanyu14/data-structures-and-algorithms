@@ -5,7 +5,8 @@ package leetcode.leetcode_3115_maximum_prime_difference
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

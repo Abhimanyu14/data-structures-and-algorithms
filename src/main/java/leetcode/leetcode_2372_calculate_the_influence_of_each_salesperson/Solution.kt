@@ -5,7 +5,8 @@ package leetcode.leetcode_2372_calculate_the_influence_of_each_salesperson
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

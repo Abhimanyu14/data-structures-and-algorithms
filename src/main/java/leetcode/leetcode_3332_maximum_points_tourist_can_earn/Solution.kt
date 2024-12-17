@@ -5,7 +5,8 @@ package leetcode.leetcode_3332_maximum_points_tourist_can_earn
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

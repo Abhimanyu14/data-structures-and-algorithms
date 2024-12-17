@@ -5,7 +5,8 @@ package leetcode.leetcode_829_consecutive_numbers_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

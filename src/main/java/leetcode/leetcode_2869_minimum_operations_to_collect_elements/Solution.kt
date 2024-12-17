@@ -5,7 +5,8 @@ package leetcode.leetcode_2869_minimum_operations_to_collect_elements
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

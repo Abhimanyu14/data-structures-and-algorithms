@@ -5,7 +5,8 @@ package leetcode.leetcode_1984_minimum_difference_between_highest_and_lowest_of_
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

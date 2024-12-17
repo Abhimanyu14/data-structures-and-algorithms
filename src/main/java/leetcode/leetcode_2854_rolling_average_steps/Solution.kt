@@ -5,7 +5,8 @@ package leetcode.leetcode_2854_rolling_average_steps
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

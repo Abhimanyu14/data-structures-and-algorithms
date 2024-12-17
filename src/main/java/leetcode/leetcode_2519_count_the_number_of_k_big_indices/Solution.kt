@@ -5,7 +5,8 @@ package leetcode.leetcode_2519_count_the_number_of_k_big_indices
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

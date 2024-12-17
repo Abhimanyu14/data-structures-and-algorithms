@@ -5,7 +5,8 @@ package leetcode.leetcode_626_exchange_seats
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

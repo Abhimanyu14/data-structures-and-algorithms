@@ -5,7 +5,8 @@ package leetcode.leetcode_2607_make_k_subarray_sums_equal
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2166_design_bitset
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

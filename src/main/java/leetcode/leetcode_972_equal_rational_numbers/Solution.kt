@@ -5,7 +5,8 @@ package leetcode.leetcode_972_equal_rational_numbers
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

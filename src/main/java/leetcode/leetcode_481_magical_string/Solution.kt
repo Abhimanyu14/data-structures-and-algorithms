@@ -5,7 +5,8 @@ package leetcode.leetcode_481_magical_string
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

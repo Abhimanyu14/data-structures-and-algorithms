@@ -5,7 +5,8 @@ package leetcode.leetcode_2565_subsequence_with_the_minimum_score
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

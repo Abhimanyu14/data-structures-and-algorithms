@@ -5,7 +5,8 @@ package leetcode.leetcode_2171_removing_minimum_number_of_magic_beans
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

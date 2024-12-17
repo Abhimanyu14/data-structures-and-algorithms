@@ -5,7 +5,8 @@ package leetcode.leetcode_879_profitable_schemes
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

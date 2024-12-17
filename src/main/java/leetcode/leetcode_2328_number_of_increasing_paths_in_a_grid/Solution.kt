@@ -5,7 +5,8 @@ package leetcode.leetcode_2328_number_of_increasing_paths_in_a_grid
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

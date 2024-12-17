@@ -5,7 +5,8 @@ package leetcode.leetcode_3274_check_if_two_chessboard_squares_have_the_same_col
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

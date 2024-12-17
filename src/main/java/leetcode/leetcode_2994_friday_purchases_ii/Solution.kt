@@ -5,7 +5,8 @@ package leetcode.leetcode_2994_friday_purchases_ii
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1820_maximum_number_of_accepted_invitations
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

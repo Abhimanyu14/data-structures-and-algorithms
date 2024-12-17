@@ -5,7 +5,8 @@ package leetcode.leetcode_1966_binary_searchable_numbers_in_an_unsorted_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

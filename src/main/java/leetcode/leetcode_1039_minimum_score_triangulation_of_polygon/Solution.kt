@@ -5,7 +5,8 @@ package leetcode.leetcode_1039_minimum_score_triangulation_of_polygon
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

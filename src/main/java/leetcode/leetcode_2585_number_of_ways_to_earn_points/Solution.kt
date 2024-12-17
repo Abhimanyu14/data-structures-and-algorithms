@@ -5,7 +5,8 @@ package leetcode.leetcode_2585_number_of_ways_to_earn_points
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_569_median_employee_salary
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

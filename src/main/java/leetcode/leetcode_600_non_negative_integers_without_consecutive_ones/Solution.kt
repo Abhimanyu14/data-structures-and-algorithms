@@ -5,7 +5,8 @@ package leetcode.leetcode_600_non_negative_integers_without_consecutive_ones
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

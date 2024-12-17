@@ -5,7 +5,8 @@ package leetcode.leetcode_517_super_washing_machines
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2521_distinct_prime_factors_of_product_of_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

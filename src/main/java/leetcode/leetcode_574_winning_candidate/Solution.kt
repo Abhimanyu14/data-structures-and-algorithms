@@ -5,7 +5,8 @@ package leetcode.leetcode_574_winning_candidate
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

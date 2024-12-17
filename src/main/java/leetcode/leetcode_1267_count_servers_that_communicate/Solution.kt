@@ -5,7 +5,8 @@ package leetcode.leetcode_1267_count_servers_that_communicate
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

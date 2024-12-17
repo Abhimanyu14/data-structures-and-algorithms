@@ -5,7 +5,8 @@ package leetcode.leetcode_849_maximize_distance_to_closest_person
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

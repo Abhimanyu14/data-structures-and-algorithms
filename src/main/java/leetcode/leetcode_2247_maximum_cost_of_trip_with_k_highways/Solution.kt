@@ -5,7 +5,8 @@ package leetcode.leetcode_2247_maximum_cost_of_trip_with_k_highways
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

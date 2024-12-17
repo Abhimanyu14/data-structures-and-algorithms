@@ -5,7 +5,8 @@ package leetcode.leetcode_2123_minimum_operations_to_remove_adjacent_ones_in_mat
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1868_product_of_two_run_length_encoded_arrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

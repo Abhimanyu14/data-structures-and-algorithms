@@ -5,7 +5,8 @@ package leetcode.leetcode_1338_reduce_array_size_to_the_half
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

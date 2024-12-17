@@ -5,7 +5,8 @@ package leetcode.leetcode_2462_total_cost_to_hire_k_workers
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

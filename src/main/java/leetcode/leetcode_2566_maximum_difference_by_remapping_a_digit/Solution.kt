@@ -5,7 +5,8 @@ package leetcode.leetcode_2566_maximum_difference_by_remapping_a_digit
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

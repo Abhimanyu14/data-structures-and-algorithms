@@ -5,7 +5,8 @@ package leetcode.leetcode_2685_count_the_number_of_complete_components
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

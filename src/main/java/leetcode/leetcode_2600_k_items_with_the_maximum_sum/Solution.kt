@@ -5,7 +5,8 @@ package leetcode.leetcode_2600_k_items_with_the_maximum_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

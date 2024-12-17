@@ -5,7 +5,8 @@ package leetcode.leetcode_3040_maximum_number_of_operations_with_the_same_score_
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

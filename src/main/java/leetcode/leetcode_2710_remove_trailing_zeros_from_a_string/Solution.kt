@@ -5,7 +5,8 @@ package leetcode.leetcode_2710_remove_trailing_zeros_from_a_string
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

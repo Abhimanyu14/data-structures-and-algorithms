@@ -5,7 +5,8 @@ package leetcode.leetcode_2477_minimum_fuel_cost_to_report_to_the_capital
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

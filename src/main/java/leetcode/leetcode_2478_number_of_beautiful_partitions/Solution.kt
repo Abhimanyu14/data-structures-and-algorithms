@@ -5,7 +5,8 @@ package leetcode.leetcode_2478_number_of_beautiful_partitions
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

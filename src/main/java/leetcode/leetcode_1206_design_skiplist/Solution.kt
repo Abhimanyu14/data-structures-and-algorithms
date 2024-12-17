@@ -5,7 +5,8 @@ package leetcode.leetcode_1206_design_skiplist
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

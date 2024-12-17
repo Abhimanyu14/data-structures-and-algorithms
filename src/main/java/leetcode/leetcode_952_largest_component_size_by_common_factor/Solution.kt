@@ -5,7 +5,8 @@ package leetcode.leetcode_952_largest_component_size_by_common_factor
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

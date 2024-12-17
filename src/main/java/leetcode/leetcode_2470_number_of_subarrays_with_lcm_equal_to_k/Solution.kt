@@ -5,7 +5,8 @@ package leetcode.leetcode_2470_number_of_subarrays_with_lcm_equal_to_k
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

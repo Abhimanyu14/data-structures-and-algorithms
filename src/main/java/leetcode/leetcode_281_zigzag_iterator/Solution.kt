@@ -5,7 +5,8 @@ package leetcode.leetcode_281_zigzag_iterator
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

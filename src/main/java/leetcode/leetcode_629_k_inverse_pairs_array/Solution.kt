@@ -5,7 +5,8 @@ package leetcode.leetcode_629_k_inverse_pairs_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

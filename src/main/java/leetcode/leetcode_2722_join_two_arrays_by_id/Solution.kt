@@ -5,7 +5,8 @@ package leetcode.leetcode_2722_join_two_arrays_by_id
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

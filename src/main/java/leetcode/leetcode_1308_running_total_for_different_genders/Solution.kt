@@ -5,7 +5,8 @@ package leetcode.leetcode_1308_running_total_for_different_genders
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

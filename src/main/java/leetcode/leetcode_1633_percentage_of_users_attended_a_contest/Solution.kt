@@ -5,7 +5,8 @@ package leetcode.leetcode_1633_percentage_of_users_attended_a_contest
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

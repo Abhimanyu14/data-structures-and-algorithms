@@ -5,7 +5,8 @@ package leetcode.leetcode_2321_maximum_score_of_spliced_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

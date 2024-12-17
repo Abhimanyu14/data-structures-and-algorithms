@@ -5,7 +5,8 @@ package leetcode.leetcode_2510_check_if_there_is_a_path_with_equal_number_of_0s_
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

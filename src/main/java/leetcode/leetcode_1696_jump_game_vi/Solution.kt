@@ -5,7 +5,8 @@ package leetcode.leetcode_1696_jump_game_vi
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1486_xor_operation_in_an_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

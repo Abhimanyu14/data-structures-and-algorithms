@@ -5,7 +5,8 @@ package leetcode.leetcode_2041_accepted_candidates_from_the_interviews
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

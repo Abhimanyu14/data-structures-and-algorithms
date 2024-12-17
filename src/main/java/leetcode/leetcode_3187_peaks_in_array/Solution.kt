@@ -5,7 +5,8 @@ package leetcode.leetcode_3187_peaks_in_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

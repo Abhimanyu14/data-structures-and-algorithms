@@ -5,7 +5,8 @@ package leetcode.leetcode_1855_maximum_distance_between_a_pair_of_values
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

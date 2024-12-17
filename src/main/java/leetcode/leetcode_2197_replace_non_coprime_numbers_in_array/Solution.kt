@@ -5,7 +5,8 @@ package leetcode.leetcode_2197_replace_non_coprime_numbers_in_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

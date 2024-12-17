@@ -5,7 +5,8 @@ package leetcode.leetcode_2647_color_the_triangle_red
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

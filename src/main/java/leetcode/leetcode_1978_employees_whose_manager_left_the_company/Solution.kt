@@ -5,7 +5,8 @@ package leetcode.leetcode_1978_employees_whose_manager_left_the_company
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

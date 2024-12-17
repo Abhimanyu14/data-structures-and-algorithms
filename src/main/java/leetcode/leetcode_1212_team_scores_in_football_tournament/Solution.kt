@@ -5,7 +5,8 @@ package leetcode.leetcode_1212_team_scores_in_football_tournament
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

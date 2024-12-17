@@ -5,7 +5,8 @@ package leetcode.leetcode_2872_maximum_number_of_k_divisible_components
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

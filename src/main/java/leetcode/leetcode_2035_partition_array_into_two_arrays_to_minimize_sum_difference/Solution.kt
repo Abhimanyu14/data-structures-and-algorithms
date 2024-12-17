@@ -5,7 +5,8 @@ package leetcode.leetcode_2035_partition_array_into_two_arrays_to_minimize_sum_d
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

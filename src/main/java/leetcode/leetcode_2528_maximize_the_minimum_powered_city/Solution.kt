@@ -5,7 +5,8 @@ package leetcode.leetcode_2528_maximize_the_minimum_powered_city
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

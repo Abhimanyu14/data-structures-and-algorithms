@@ -5,7 +5,8 @@ package leetcode.leetcode_2108_find_first_palindromic_string_in_the_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

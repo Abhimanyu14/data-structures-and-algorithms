@@ -5,7 +5,8 @@ package leetcode.leetcode_1013_partition_array_into_three_parts_with_equal_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

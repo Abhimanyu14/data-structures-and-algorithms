@@ -5,7 +5,8 @@ package leetcode.leetcode_221_maximal_square
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

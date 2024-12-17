@@ -5,7 +5,8 @@ package leetcode.leetcode_3151_special_array_i
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

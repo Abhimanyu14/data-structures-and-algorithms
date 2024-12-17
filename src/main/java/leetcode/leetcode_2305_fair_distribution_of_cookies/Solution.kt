@@ -5,7 +5,8 @@ package leetcode.leetcode_2305_fair_distribution_of_cookies
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

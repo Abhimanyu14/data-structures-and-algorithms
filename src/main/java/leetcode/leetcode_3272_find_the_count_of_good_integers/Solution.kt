@@ -5,7 +5,8 @@ package leetcode.leetcode_3272_find_the_count_of_good_integers
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

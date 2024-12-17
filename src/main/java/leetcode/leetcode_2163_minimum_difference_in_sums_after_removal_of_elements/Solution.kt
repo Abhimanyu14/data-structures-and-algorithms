@@ -5,7 +5,8 @@ package leetcode.leetcode_2163_minimum_difference_in_sums_after_removal_of_eleme
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

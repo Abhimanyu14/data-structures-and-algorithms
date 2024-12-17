@@ -5,7 +5,8 @@ package leetcode.leetcode_398_random_pick_index
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

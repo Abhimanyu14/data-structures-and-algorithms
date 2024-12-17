@@ -5,7 +5,8 @@ package leetcode.leetcode_922_sort_array_by_parity_ii
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

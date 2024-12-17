@@ -5,7 +5,8 @@ package leetcode.leetcode_2360_longest_cycle_in_a_graph
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

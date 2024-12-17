@@ -5,7 +5,8 @@ package leetcode.leetcode_1733_minimum_number_of_people_to_teach
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2778_sum_of_squares_of_special_elements
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

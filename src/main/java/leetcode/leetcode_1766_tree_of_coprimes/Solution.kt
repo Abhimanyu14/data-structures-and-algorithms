@@ -5,7 +5,8 @@ package leetcode.leetcode_1766_tree_of_coprimes
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2343_query_kth_smallest_trimmed_number
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1018_binary_prefix_divisible_by_5
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

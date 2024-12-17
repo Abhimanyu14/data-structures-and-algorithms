@@ -5,7 +5,8 @@ package leetcode.leetcode_1223_dice_roll_simulation
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

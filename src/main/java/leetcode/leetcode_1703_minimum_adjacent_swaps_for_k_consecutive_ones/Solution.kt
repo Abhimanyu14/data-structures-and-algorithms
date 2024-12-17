@@ -5,7 +5,8 @@ package leetcode.leetcode_1703_minimum_adjacent_swaps_for_k_consecutive_ones
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

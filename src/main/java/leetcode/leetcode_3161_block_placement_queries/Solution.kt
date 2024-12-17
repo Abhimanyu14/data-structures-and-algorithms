@@ -5,7 +5,8 @@ package leetcode.leetcode_3161_block_placement_queries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

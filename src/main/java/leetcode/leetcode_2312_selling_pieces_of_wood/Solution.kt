@@ -5,7 +5,8 @@ package leetcode.leetcode_2312_selling_pieces_of_wood
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

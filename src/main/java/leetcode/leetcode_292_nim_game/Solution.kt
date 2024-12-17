@@ -5,7 +5,8 @@ package leetcode.leetcode_292_nim_game
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2072_the_winner_university
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

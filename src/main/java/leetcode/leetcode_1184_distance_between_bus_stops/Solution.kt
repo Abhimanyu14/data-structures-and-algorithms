@@ -5,7 +5,8 @@ package leetcode.leetcode_1184_distance_between_bus_stops
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

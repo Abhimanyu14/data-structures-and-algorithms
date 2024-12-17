@@ -5,7 +5,8 @@ package leetcode.leetcode_1454_active_users
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

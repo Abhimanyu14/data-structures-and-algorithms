@@ -5,7 +5,8 @@ package leetcode.leetcode_531_lonely_pixel_i
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

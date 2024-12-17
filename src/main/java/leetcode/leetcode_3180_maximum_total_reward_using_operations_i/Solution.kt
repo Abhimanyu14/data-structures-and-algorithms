@@ -5,7 +5,8 @@ package leetcode.leetcode_3180_maximum_total_reward_using_operations_i
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

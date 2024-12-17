@@ -5,7 +5,8 @@ package leetcode.leetcode_3041_maximize_consecutive_elements_in_an_array_after_m
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

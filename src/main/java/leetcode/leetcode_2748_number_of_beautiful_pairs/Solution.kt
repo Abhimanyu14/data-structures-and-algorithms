@@ -5,7 +5,8 @@ package leetcode.leetcode_2748_number_of_beautiful_pairs
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

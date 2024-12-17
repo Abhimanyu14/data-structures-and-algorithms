@@ -5,7 +5,8 @@ package leetcode.leetcode_675_cut_off_trees_for_golf_event
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

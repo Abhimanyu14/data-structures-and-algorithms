@@ -5,7 +5,8 @@ package leetcode.leetcode_2385_amount_of_time_for_binary_tree_to_be_infected
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

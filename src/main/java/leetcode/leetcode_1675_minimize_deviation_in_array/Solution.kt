@@ -5,7 +5,8 @@ package leetcode.leetcode_1675_minimize_deviation_in_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1492_the_kth_factor_of_n
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_851_loud_and_rich
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

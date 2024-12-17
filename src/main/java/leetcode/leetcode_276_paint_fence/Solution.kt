@@ -5,7 +5,8 @@ package leetcode.leetcode_276_paint_fence
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

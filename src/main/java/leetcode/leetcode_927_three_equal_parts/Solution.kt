@@ -5,7 +5,8 @@ package leetcode.leetcode_927_three_equal_parts
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

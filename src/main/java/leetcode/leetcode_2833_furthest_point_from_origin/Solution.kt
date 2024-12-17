@@ -5,7 +5,8 @@ package leetcode.leetcode_2833_furthest_point_from_origin
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

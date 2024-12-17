@@ -5,7 +5,8 @@ package leetcode.leetcode_2614_prime_in_diagonal
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1185_day_of_the_week
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

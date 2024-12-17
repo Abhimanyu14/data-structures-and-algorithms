@@ -5,7 +5,8 @@ package leetcode.leetcode_2660_determine_the_winner_of_a_bowling_game
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

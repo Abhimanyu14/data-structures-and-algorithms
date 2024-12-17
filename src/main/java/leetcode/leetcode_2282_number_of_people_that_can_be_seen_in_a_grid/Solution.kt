@@ -5,7 +5,8 @@ package leetcode.leetcode_2282_number_of_people_that_can_be_seen_in_a_grid
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

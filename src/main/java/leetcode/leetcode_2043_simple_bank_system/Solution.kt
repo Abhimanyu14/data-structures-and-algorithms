@@ -5,7 +5,8 @@ package leetcode.leetcode_2043_simple_bank_system
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

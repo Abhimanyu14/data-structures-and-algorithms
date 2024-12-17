@@ -5,7 +5,8 @@ package leetcode.leetcode_177_nth_highest_salary
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

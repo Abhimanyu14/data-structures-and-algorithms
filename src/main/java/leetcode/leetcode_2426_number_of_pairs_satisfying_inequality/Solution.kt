@@ -5,7 +5,8 @@ package leetcode.leetcode_2426_number_of_pairs_satisfying_inequality
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

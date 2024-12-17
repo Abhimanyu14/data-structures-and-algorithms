@@ -5,7 +5,8 @@ package leetcode.leetcode_353_design_snake_game
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

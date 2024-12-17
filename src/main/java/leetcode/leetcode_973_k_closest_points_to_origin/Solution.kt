@@ -5,7 +5,8 @@ package leetcode.leetcode_973_k_closest_points_to_origin
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

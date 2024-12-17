@@ -5,7 +5,8 @@ package leetcode.leetcode_2492_minimum_score_of_a_path_between_two_cities
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

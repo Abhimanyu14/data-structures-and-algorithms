@@ -5,7 +5,8 @@ package leetcode.leetcode_996_number_of_squareful_arrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

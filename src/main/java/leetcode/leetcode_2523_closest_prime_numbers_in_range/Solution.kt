@@ -5,7 +5,8 @@ package leetcode.leetcode_2523_closest_prime_numbers_in_range
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

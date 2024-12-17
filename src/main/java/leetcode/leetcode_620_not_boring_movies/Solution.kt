@@ -5,7 +5,8 @@ package leetcode.leetcode_620_not_boring_movies
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1989_maximum_number_of_people_that_can_be_caught_in_ta
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

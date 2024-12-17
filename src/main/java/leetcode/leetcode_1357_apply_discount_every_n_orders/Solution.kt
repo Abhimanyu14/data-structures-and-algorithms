@@ -5,7 +5,8 @@ package leetcode.leetcode_1357_apply_discount_every_n_orders
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

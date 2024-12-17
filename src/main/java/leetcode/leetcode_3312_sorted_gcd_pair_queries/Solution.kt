@@ -5,7 +5,8 @@ package leetcode.leetcode_3312_sorted_gcd_pair_queries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2657_find_the_prefix_common_array_of_two_arrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

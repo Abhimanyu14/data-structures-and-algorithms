@@ -5,7 +5,8 @@ package leetcode.leetcode_899_orderly_queue
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2495_number_of_subarrays_having_even_product
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

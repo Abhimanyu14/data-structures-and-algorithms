@@ -5,7 +5,8 @@ package leetcode.leetcode_932_beautiful_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

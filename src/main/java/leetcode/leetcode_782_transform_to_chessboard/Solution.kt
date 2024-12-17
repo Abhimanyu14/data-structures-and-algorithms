@@ -5,7 +5,8 @@ package leetcode.leetcode_782_transform_to_chessboard
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

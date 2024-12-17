@@ -5,7 +5,8 @@ package leetcode.leetcode_2602_minimum_operations_to_make_all_array_elements_equ
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

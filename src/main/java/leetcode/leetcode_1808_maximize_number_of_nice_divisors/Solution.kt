@@ -5,7 +5,8 @@ package leetcode.leetcode_1808_maximize_number_of_nice_divisors
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

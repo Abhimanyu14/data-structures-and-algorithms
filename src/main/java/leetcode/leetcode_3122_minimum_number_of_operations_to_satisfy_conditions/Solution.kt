@@ -5,7 +5,8 @@ package leetcode.leetcode_3122_minimum_number_of_operations_to_satisfy_condition
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

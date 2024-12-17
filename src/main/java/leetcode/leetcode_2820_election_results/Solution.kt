@@ -5,7 +5,8 @@ package leetcode.leetcode_2820_election_results
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_1352_product_of_the_last_k_numbers
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

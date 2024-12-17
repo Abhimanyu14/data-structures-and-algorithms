@@ -5,7 +5,8 @@ package leetcode.leetcode_1848_minimum_distance_to_the_target_element
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

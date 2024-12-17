@@ -5,7 +5,8 @@ package leetcode.leetcode_2250_count_number_of_rectangles_containing_each_point
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

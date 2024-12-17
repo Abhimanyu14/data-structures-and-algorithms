@@ -5,7 +5,8 @@ package leetcode.leetcode_1824_minimum_sideway_jumps
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

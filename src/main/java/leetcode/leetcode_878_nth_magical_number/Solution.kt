@@ -5,7 +5,8 @@ package leetcode.leetcode_878_nth_magical_number
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

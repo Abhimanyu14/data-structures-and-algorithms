@@ -5,7 +5,8 @@ package leetcode.leetcode_1064_fixed_point
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

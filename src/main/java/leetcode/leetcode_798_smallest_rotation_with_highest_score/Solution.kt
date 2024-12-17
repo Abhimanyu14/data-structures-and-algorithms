@@ -5,7 +5,8 @@ package leetcode.leetcode_798_smallest_rotation_with_highest_score
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

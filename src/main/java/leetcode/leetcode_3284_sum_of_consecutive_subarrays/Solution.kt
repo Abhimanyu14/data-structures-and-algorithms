@@ -5,7 +5,8 @@ package leetcode.leetcode_3284_sum_of_consecutive_subarrays
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

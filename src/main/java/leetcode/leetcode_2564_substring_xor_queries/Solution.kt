@@ -5,7 +5,8 @@ package leetcode.leetcode_2564_substring_xor_queries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2567_minimum_score_by_changing_two_elements
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

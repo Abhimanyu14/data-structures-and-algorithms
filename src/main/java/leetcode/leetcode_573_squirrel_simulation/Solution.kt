@@ -5,7 +5,8 @@ package leetcode.leetcode_573_squirrel_simulation
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

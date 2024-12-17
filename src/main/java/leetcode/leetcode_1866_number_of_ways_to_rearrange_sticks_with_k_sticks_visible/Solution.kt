@@ -5,7 +5,8 @@ package leetcode.leetcode_1866_number_of_ways_to_rearrange_sticks_with_k_sticks_
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_3000_maximum_area_of_longest_diagonal_rectangle
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

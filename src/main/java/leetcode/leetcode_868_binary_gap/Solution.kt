@@ -5,7 +5,8 @@ package leetcode.leetcode_868_binary_gap
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

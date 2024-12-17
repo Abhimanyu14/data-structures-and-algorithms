@@ -5,7 +5,8 @@ package leetcode.leetcode_999_available_captures_for_rook
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

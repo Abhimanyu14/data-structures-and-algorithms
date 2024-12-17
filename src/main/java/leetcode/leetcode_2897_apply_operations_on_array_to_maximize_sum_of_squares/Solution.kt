@@ -5,7 +5,8 @@ package leetcode.leetcode_2897_apply_operations_on_array_to_maximize_sum_of_squa
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

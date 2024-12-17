@@ -5,7 +5,8 @@ package leetcode.leetcode_1871_jump_game_vii
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

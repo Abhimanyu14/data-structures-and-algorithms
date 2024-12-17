@@ -5,7 +5,8 @@ package leetcode.leetcode_2668_find_latest_salaries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

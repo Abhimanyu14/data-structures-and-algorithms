@@ -5,7 +5,8 @@ package leetcode.leetcode_2646_minimize_the_total_price_of_the_trips
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

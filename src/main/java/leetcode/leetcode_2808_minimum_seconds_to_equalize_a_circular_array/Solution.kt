@@ -5,7 +5,8 @@ package leetcode.leetcode_2808_minimum_seconds_to_equalize_a_circular_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

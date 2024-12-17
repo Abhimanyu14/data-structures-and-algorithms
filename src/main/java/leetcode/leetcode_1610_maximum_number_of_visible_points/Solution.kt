@@ -5,7 +5,8 @@ package leetcode.leetcode_1610_maximum_number_of_visible_points
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

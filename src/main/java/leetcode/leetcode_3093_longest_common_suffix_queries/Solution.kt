@@ -5,7 +5,8 @@ package leetcode.leetcode_3093_longest_common_suffix_queries
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

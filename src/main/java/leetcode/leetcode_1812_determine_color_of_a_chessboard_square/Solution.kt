@@ -5,7 +5,8 @@ package leetcode.leetcode_1812_determine_color_of_a_chessboard_square
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

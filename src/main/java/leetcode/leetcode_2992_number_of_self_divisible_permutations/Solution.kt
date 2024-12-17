@@ -5,7 +5,8 @@ package leetcode.leetcode_2992_number_of_self_divisible_permutations
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

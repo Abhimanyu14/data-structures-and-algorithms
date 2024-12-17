@@ -5,7 +5,8 @@ package leetcode.leetcode_2420_find_all_good_indices
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

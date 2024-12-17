@@ -5,7 +5,8 @@ package leetcode.leetcode_265_paint_house_ii
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

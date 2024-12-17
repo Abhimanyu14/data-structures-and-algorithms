@@ -5,7 +5,8 @@ package leetcode.leetcode_2428_maximum_sum_of_an_hourglass
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

@@ -5,7 +5,8 @@ package leetcode.leetcode_2288_apply_discount_to_prices
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

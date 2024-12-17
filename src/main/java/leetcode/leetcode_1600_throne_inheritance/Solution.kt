@@ -5,7 +5,8 @@ package leetcode.leetcode_1600_throne_inheritance
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

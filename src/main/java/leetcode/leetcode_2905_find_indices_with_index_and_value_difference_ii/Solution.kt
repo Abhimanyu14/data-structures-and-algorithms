@@ -5,7 +5,8 @@ package leetcode.leetcode_2905_find_indices_with_index_and_value_difference_ii
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

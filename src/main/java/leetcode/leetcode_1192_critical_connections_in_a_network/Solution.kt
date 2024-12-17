@@ -5,7 +5,8 @@ package leetcode.leetcode_1192_critical_connections_in_a_network
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *

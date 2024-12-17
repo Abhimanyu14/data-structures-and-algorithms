@@ -5,7 +5,8 @@ package leetcode.leetcode_662_maximum_width_of_binary_tree
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty -
  *
