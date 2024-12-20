@@ -1,20 +1,33 @@
 package leetcode.leetcode_3024_type_of_triangle
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/type-of-triangle/
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - NA
+ * Algorithm - Maths - Triangle rules
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
+ * Runtime: 1 ms, faster than 100.00%
+ * Memory Usage: 36.4 MB, less than 55.56%
  *
- * Time -
- * Space -
+ * Time - O(1)
+ * Space - O(1)
  */
+private fun triangleType(nums: IntArray): String {
+    if (nums[0] == nums[1] && nums[0] == nums[2]) {
+        return "equilateral"
+    }
+    if ((nums[0] >= nums[1] + nums[2]) || (nums[1] >= nums[0] + nums[2]) || (nums[2] >= nums[1] + nums[0])) {
+        return "none"
+    }
+    if (nums[0] == nums[1] || nums[0] == nums[2] || nums[1] == nums[2]) {
+        return "isosceles"
+    }
+    return "scalene"
+}
+
 private fun main() {
 
 }
