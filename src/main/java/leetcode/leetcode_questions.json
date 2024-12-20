@@ -16868,5 +16868,90 @@
     "frontendQuestionId": "3374",
     "title": "First Letter Capitalization II",
     "titleSlug": "first-letter-capitalization-ii"
+  },
+  {
+    "frontendQuestionId": "3375",
+    "title": "Minimum Operations to Make Array Values Equal to K",
+    "titleSlug": "minimum-operations-to-make-array-values-equal-to-k"
+  },
+  {
+    "frontendQuestionId": "3376",
+    "title": "Minimum Time to Break Locks I",
+    "titleSlug": "minimum-time-to-break-locks-i"
+  },
+  {
+    "frontendQuestionId": "3377",
+    "title": "Digit Operations to Make Two Integers Equal",
+    "titleSlug": "digit-operations-to-make-two-integers-equal"
+  },
+  {
+    "frontendQuestionId": "3378",
+    "title": "Count Connected Components in LCM Graph",
+    "titleSlug": "count-connected-components-in-lcm-graph"
+  },
+  {
+    "frontendQuestionId": "3379",
+    "title": "Transformed Array",
+    "titleSlug": "transformed-array"
+  },
+  {
+    "frontendQuestionId": "3380",
+    "title": "Maximum Area Rectangle With Point Constraints I",
+    "titleSlug": "maximum-area-rectangle-with-point-constraints-i"
+  },
+  {
+    "frontendQuestionId": "3381",
+    "title": "Maximum Subarray Sum With Length Divisible by K",
+    "titleSlug": "maximum-subarray-sum-with-length-divisible-by-k"
+  },
+  {
+    "frontendQuestionId": "3382",
+    "title": "Maximum Area Rectangle With Point Constraints II",
+    "titleSlug": "maximum-area-rectangle-with-point-constraints-ii"
+  },
+  {
+    "frontendQuestionId": "3383",
+    "title": "Minimum Runes to Add to Cast Spell",
+    "titleSlug": "minimum-runes-to-add-to-cast-spell"
+  },
+  {
+    "frontendQuestionId": "3384",
+    "title": "Team Dominance by Pass Success",
+    "titleSlug": "team-dominance-by-pass-success"
+  },
+  {
+    "frontendQuestionId": "3385",
+    "title": "Minimum Time to Break Locks II",
+    "titleSlug": "minimum-time-to-break-locks-ii"
+  },
+  {
+    "frontendQuestionId": "3386",
+    "title": "Button with Longest Push Time",
+    "titleSlug": "button-with-longest-push-time"
+  },
+  {
+    "frontendQuestionId": "3387",
+    "title": "Maximize Amount After Two Days of Conversions",
+    "titleSlug": "maximize-amount-after-two-days-of-conversions"
+  },
+  {
+    "frontendQuestionId": "3388",
+    "title": "Count Beautiful Splits in an Array",
+    "titleSlug": "count-beautiful-splits-in-an-array"
+  },
+  {
+    "frontendQuestionId": "3389",
+    "title": "Minimum Operations to Make Character Frequencies Equal",
+    "titleSlug": "minimum-operations-to-make-character-frequencies-equal"
+  },
+  {
+    "frontendQuestionId": "3390",
+    "title": "Longest Team Pass Streak",
+    "titleSlug": "longest-team-pass-streak"
+  },
+  {
+    "frontendQuestionId": "3391",
+    "title": "Design a 3D Binary Matrix with Efficient Layer Tracking",
+    "titleSlug": "design-a-3d-binary-matrix-with-efficient-layer-tracking"
   }
 ]

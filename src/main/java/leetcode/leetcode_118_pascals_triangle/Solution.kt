@@ -1,15 +1,23 @@
-package leetcode.leetcode_118_pascal_s_triangle
+package leetcode.leetcode_118_pascals_triangle
 
 /**
  * leetcode - https://leetcode.com/problems/pascals-triangle/
  * https://leetcode.com/problems/pascals-triangle/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
+ * Data Structure -
+ * Algorithm -
+ *
  * Using loops
  * Pascal triangle
+ *
+ * Difficulty -
  *
  * Stats
  * Runtime: 160 ms, faster than 97.00%
  * Memory Usage: 35.1 MB, less than 63.52%
+ *
+ * Time -
+ * Space -
  */
 private fun generate(numRows: Int): List<List<Int>> {
     val result = mutableListOf<List<Int>>()

@@ -1,14 +1,22 @@
-package leetcode.leetcode_119_pascal_s_triangle_ii
+package leetcode.leetcode_119_pascals_triangle_ii
 
 /**
  * leetcode - https://leetcode.com/problems/pascals-triangle-ii/
  *
+ * Data Structure -
+ * Algorithm -
+ *
  * Using loops
  * Pascal triangle
+ *
+ * Difficulty -
  *
  * Stats
  * Runtime: 165 ms, faster than 17.91%
  * Memory Usage: 35.3 MB, less than 34.33%
+ *
+ * Time -
+ * Space -
  */
 private fun getRow(rowIndex: Int): List<Int> {
     var prev = mutableListOf(1)
