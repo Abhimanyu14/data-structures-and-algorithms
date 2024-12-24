@@ -6,23 +6,30 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/diameter-of-binary-tree/
  *
- * Using recursion
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - Tree
+ * Algorithm - Recursion
+ *
+ * Difficulty -
  *
  * Stats
- * Runtime: 150 ms, faster than 94.70%
- * Memory Usage: 37.7 MB, less than 19.63%
+ * Runtime: 3 ms, faster than 17.78%
+ * Memory Usage: 39.7 MB, less than 23.91%
+ *
+ * Time -
+ * Space -
  */
 private fun diameterOfBinaryTree(root: TreeNode?): Int {
-    // Longest path, longest diameter
-    fun findDiameterOfBinaryTree(head: TreeNode?): Pair<Int, Int> {
-        if (head == null) {
-            return Pair(0, 0)
-        }
-        val resultLeft = findDiameterOfBinaryTree(head.left)
-        val resultRight = findDiameterOfBinaryTree(head.right)
+    if (root == null) {
+        return -1
+    }
+    fun findDiameterOfBinaryTree(head: TreeNode): Pair<Int, Int> {
+        val (leftLongestPath, leftLongestDiameter) = head.left?.run { findDiameterOfBinaryTree(this) } ?: Pair(0, 0)
+        val (rightLongestPath, rightLongestDiameter) = head.right?.run { findDiameterOfBinaryTree(this) } ?: Pair(0, 0)
         return Pair(
-            max(resultLeft.first, resultRight.first) + 1,
-            max(max(resultLeft.second, resultRight.second), resultLeft.first + resultRight.first + 1)
+            max(leftLongestPath, rightLongestPath) + 1,
+            max(max(leftLongestDiameter, rightLongestDiameter), leftLongestPath + rightLongestPath + 1)
         )
     }
     return findDiameterOfBinaryTree(root).second - 1
