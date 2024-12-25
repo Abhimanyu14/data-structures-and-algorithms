@@ -1,7 +1,7 @@
 package leetcode.leetcode_2748_number_of_beautiful_pairs
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/number-of-beautiful-pairs/
  *
  * TODO(Abhi) - To revisit
  *
