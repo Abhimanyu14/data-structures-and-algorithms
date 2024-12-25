@@ -16953,5 +16953,45 @@
     "frontendQuestionId": "3391",
     "title": "Design a 3D Binary Matrix with Efficient Layer Tracking",
     "titleSlug": "design-a-3d-binary-matrix-with-efficient-layer-tracking"
+  },
+  {
+    "frontendQuestionId": "3392",
+    "title": "Count Subarrays of Length Three With a Condition",
+    "titleSlug": "count-subarrays-of-length-three-with-a-condition"
+  },
+  {
+    "frontendQuestionId": "3393",
+    "title": "Count Paths With the Given XOR Value",
+    "titleSlug": "count-paths-with-the-given-xor-value"
+  },
+  {
+    "frontendQuestionId": "3394",
+    "title": "Check if Grid can be Cut into Sections",
+    "titleSlug": "check-if-grid-can-be-cut-into-sections"
+  },
+  {
+    "frontendQuestionId": "3395",
+    "title": "Subsequences with a Unique Middle Mode I",
+    "titleSlug": "subsequences-with-a-unique-middle-mode-i"
+  },
+  {
+    "frontendQuestionId": "3396",
+    "title": "Minimum Number of Operations to Make Elements in Array Distinct",
+    "titleSlug": "minimum-number-of-operations-to-make-elements-in-array-distinct"
+  },
+  {
+    "frontendQuestionId": "3397",
+    "title": "Maximum Number of Distinct Elements After Operations",
+    "titleSlug": "maximum-number-of-distinct-elements-after-operations"
+  },
+  {
+    "frontendQuestionId": "3398",
+    "title": "Smallest Substring With Identical Characters I",
+    "titleSlug": "smallest-substring-with-identical-characters-i"
+  },
+  {
+    "frontendQuestionId": "3399",
+    "title": "Smallest Substring With Identical Characters II",
+    "titleSlug": "smallest-substring-with-identical-characters-ii"
   }
 ]
