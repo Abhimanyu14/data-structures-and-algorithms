@@ -92,6 +92,17 @@ fun maths() {
      * Square Root
      */
     val squareRootOfSix = sqrt(6.0)
+
+    /**
+     * Check if a number is power of two
+     */
+    fun isPowerOfTwo(x: Int): Boolean {
+        return (x != 0) && ((x and (x - 1)) == 0)
+    }
+
+    val is12PowerOfTwo = isPowerOfTwo(12)
+    val is64PowerOfTwo = isPowerOfTwo(64)
+    val is0PowerOfTwo = isPowerOfTwo(0)
 }
 
 fun arrayOperations() {
