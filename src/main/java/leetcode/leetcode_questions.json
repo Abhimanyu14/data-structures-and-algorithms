@@ -16993,5 +16993,10 @@
     "frontendQuestionId": "3399",
     "title": "Smallest Substring With Identical Characters II",
     "titleSlug": "smallest-substring-with-identical-characters-ii"
+  },
+  {
+    "frontendQuestionId": "3400",
+    "title": "Maximum Number of Matching Indices After Right Shifts",
+    "titleSlug": "maximum-number-of-matching-indices-after-right-shifts"
   }
 ]
