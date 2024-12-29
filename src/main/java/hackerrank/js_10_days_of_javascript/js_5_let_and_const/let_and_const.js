@@ -1,5 +1,8 @@
 'use strict';
 
+/**
+ * link - https://www.hackerrank.com/challenges/js10-let-and-const/problem
+ */
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
 

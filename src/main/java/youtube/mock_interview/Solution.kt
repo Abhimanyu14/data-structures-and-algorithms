@@ -1,6 +1,8 @@
 package youtube.mock_interview
 
 /**
+ * link - https://www.youtube.com/watch?v=riBWq1DvVb8
+ *
  * Given an array of n integers, construct a product array of the same size
  * such that the i th element of the product array is equal to the product of
  * all the elements of the original array except for the i th element.

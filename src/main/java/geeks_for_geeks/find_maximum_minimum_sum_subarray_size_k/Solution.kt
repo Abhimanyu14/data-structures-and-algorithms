@@ -2,6 +2,9 @@ package geeks_for_geeks.find_maximum_minimum_sum_subarray_size_k
 
 import kotlin.math.max
 
+/**
+ * link - https://www.geeksforgeeks.org/find-maximum-minimum-sum-subarray-size-k/
+ */
 fun solution(arr: IntArray, size: Int): Int {
     var result = 0
     for (i in 0..<size) {

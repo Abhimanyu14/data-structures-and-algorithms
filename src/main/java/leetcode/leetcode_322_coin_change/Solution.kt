@@ -1,6 +1,20 @@
 package leetcode.leetcode_322_coin_change
 
-// TODO
+/**
+ * leetcode - https://leetcode.com/problems/coin-change/
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty -
+ *
+ * Stats
+ *
+ * Time -
+ * Space -
+ */
 fun coinChange(coins: IntArray, amount: Int, result: Int): Int {
     if (amount == 0) {
         return result

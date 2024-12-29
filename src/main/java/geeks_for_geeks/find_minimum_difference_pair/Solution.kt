@@ -2,6 +2,9 @@ package geeks_for_geeks.find_minimum_difference_pair
 
 import kotlin.math.abs
 
+/**
+ * link - https://www.geeksforgeeks.org/find-minimum-difference-pair/
+ */
 fun bruteForceSolution(arr: IntArray): Int {
     var result = Int.MAX_VALUE
     for (i in arr.indices) {

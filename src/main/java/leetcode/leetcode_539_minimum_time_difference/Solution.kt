@@ -2,7 +2,22 @@ package leetcode.leetcode_539_minimum_time_difference
 
 import kotlin.math.abs
 
-fun findMinDifference(timePoints: List<String>): Int {
+/**
+ * leetcode - https://leetcode.com/problems/minimum-time-difference/
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty -
+ *
+ * Stats
+ *
+ * Time -
+ * Space -
+ */
+private fun findMinDifference(timePoints: List<String>): Int {
     val sorted = timePoints.map {
         it.substring(0, 2).toInt() * 60 + it.substring(3, 5).toInt()
     }.sorted()

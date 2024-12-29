@@ -2,6 +2,9 @@ package geeks_for_geeks.cutting_a_rod
 
 import kotlin.math.max
 
+/**
+ * link - https://www.geeksforgeeks.org/cutting-a-rod-dp-13/
+ */
 fun recursiveSolution(prices: IntArray, length: Int): Int {
     if (length <= 0) {
         return 0

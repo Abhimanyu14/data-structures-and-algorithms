@@ -1,6 +1,8 @@
 package leetcode.leetcode_551_student_attendance_record_i
 
 /**
+ * leetcode - https://leetcode.com/problems/student-attendance-record-i/
+ *
  * Using loop
  *
  * Stats

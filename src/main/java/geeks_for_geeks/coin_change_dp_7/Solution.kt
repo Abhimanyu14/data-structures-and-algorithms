@@ -1,5 +1,8 @@
 package geeks_for_geeks.coin_change_dp_7
 
+/**
+ * link - https://www.geeksforgeeks.org/coin-change-dp-7/
+ */
 fun countWays(coins: IntArray, amount: Int): Int {
     // table[i] will be storing the number of solutions for
     // value i. We need n+1 rows as the table is constructed

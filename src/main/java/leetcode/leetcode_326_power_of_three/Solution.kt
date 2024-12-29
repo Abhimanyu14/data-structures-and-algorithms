@@ -1,6 +1,8 @@
 package leetcode.leetcode_326_power_of_three
 
 /**
+ * leetcode - https://leetcode.com/problems/power-of-three/
+ *
  * Stats
  * Runtime: 232 ms, faster than 78.33%
  * Memory Usage: 35.4 MB, less than 93.33%

@@ -1,5 +1,8 @@
 'use strict';
 
+/**
+ * link - https://www.hackerrank.com/challenges/js10-arithmetic-operators/problem
+ */
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
 

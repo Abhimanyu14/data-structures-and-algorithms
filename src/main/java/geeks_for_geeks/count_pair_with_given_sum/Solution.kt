@@ -1,5 +1,8 @@
 package geeks_for_geeks.count_pair_with_given_sum
 
+/**
+ * link - https://www.geeksforgeeks.org/count-pairs-with-given-sum/
+ */
 private fun givenSumPairCountNaive(
     arr: IntArray,
     sum: Int,

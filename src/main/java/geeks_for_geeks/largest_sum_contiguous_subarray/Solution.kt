@@ -1,5 +1,8 @@
 package geeks_for_geeks.largest_sum_contiguous_subarray
 
+/**
+ * link - https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+ */
 fun solution(arr: IntArray): Int {
     var result = Int.MIN_VALUE
     var currentMax = 0

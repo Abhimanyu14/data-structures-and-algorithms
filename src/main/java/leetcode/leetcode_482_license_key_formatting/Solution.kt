@@ -1,6 +1,8 @@
 package leetcode.leetcode_482_license_key_formatting
 
 /**
+ * leetcode - https://leetcode.com/problems/license-key-formatting/
+ *
  * Using loop and pointer
  *
  * Stats

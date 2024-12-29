@@ -1,6 +1,6 @@
 package leetcode.leetcode_277_find_the_celebrity
 
-fun knows(i: Int, j: Int): Boolean {
+private fun knows(i: Int, j: Int): Boolean {
     return true
 }
 

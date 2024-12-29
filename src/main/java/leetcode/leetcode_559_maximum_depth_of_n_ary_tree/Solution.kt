@@ -3,6 +3,8 @@ package leetcode.leetcode_559_maximum_depth_of_n_ary_tree
 import data_structures_and_algorithms.Node
 
 /**
+ * leetcode - https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
+ *
  * Using recursion
  *
  * Stats

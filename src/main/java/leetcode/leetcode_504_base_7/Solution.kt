@@ -3,6 +3,8 @@ package leetcode.leetcode_504_base_7
 import kotlin.math.abs
 
 /**
+ * leetcode - https://leetcode.com/problems/base-7/
+ *
  * Using loops
  *
  * Stats

@@ -3,7 +3,10 @@ package geeks_for_geeks.knapsack
 import data_structures_and_algorithms.print2DArray
 import kotlin.math.max
 
-fun bruteForceSolution(values: IntArray, weights: IntArray, capacity: Int, count: Int): Int {
+/**
+ * link - https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
+ */
+private fun bruteForceSolution(values: IntArray, weights: IntArray, capacity: Int, count: Int): Int {
     if (capacity == 0 || count == 0) {
         return 0
     }
@@ -16,7 +19,10 @@ fun bruteForceSolution(values: IntArray, weights: IntArray, capacity: Int, count
     )
 }
 
-fun dynamicProgrammingSolution(values: IntArray, weights: IntArray, capacity: Int, count: Int): Int {
+/**
+ * link - https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
+ */
+private fun dynamicProgrammingSolution(values: IntArray, weights: IntArray, capacity: Int, count: Int): Int {
     val dp = Array(count + 1) { Array(capacity + 1) { 0 } }
     print2DArray(dp)
 
