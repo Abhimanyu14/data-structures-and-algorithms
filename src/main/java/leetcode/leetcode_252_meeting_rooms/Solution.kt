@@ -1,6 +1,8 @@
 package leetcode.leetcode_252_meeting_rooms
 
 /**
+ * leetcode - https://leetcode.com/problems/meeting-rooms/
+ *
  * Using sorting and loop
  *
  * Stats
@@ -9,7 +11,7 @@ package leetcode.leetcode_252_meeting_rooms
  */
 private fun canAttendMeetings(intervals: Array<IntArray>): Boolean {
     val sortedList = intervals.sortedBy { it[0] }
-    for (i in 0 until sortedList.lastIndex) {
+    for (i in 0..<sortedList.lastIndex) {
         if (sortedList[i][1] > sortedList[i + 1][0]) {
             return false
         }

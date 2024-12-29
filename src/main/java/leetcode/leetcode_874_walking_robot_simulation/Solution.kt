@@ -47,7 +47,7 @@ private class Solution {
 
             // Move forward
             val direction = directions[currentDirection]
-            for (step in 0 until command) {
+            for (step in 0..<command) {
                 val nextX = currentPosition[0] + direction[0]
                 val nextY = currentPosition[1] + direction[1]
                 if (obstacleSet.contains(hashCoordinates(nextX, nextY))) {

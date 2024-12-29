@@ -25,7 +25,7 @@ private fun construct(grid: Array<IntArray>): Node? {
         var same = true
         var i = x
         while (same && i < (x + size)) {
-            for (j in y until (y + size)) {
+            for (j in y..<(y + size)) {
                 if (grid[i][j] != first) {
                     same = false
                     break

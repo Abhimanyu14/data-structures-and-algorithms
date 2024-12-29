@@ -11,11 +11,11 @@ fun solution(arr: IntArray, size: Int, start: Int, end: Int): Triple<Int, Int, I
     }
     var result = 0
     var position = 0
-    for (i in start until size) {
+    for (i in start..<size) {
         result += arr[i]
     }
     var currentSum = result
-    for (i in size until end + 1) {
+    for (i in size..<end + 1) {
         currentSum += arr[i] - arr[i - size]
         if (result < currentSum) {
             result = currentSum

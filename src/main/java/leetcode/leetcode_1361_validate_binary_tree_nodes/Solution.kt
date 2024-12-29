@@ -13,10 +13,10 @@ package leetcode.leetcode_1361_validate_binary_tree_nodes
  */
 private fun validateBinaryTreeNodes(n: Int, leftChild: IntArray, rightChild: IntArray): Boolean {
     val parentMap = mutableMapOf<Int, Int>()
-    for (i in 0 until n) {
+    for (i in 0..<n) {
         parentMap[i] = -1
     }
-    for (i in 0 until n) {
+    for (i in 0..<n) {
         if (leftChild[i] != -1) {
             if (parentMap[leftChild[i]] == -1) {
                 parentMap[leftChild[i]] = i
@@ -33,7 +33,7 @@ private fun validateBinaryTreeNodes(n: Int, leftChild: IntArray, rightChild: Int
         }
     }
     var root = -1
-    for (i in 0 until n) {
+    for (i in 0..<n) {
         if (parentMap[i] == -1) {
             root = i
             break

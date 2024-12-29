@@ -13,7 +13,7 @@ import kotlin.math.max
  */
 private fun longestPath(parent: IntArray, s: String): Int {
     val children: MutableMap<Int, MutableList<Int>> = mutableMapOf()
-    for (i in 1 until parent.size) {
+    for (i in 1..<parent.size) {
         children.computeIfAbsent(parent[i]) { _: Int -> mutableListOf() }.add(i)
     }
 

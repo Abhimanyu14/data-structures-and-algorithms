@@ -18,7 +18,7 @@ fun solution(str: String): Int {
         dp[i][i] = 1
     }
     for (i in 0..str.length) {
-        for (j in i + 1 until str.length) {
+        for (j in i + 1..<str.length) {
             if (i != j) {
                 dp[j - i - 1][j] = if (str[j - i - 1] == str[j]) {
                     dp[j - i][j - 1] + 2

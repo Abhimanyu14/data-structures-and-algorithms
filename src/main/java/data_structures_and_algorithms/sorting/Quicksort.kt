@@ -8,7 +8,7 @@ fun partition(arr: IntArray, low: Int, high: Int): Int {
     // Index of smaller element and indicates the
     // right position of pivot found so far
 
-    for (j in low until high) {
+    for (j in low..<high) {
         // If current element is smaller than the pivot
         if (arr[j] < pivot) {
             // increment index of smaller element

@@ -58,7 +58,7 @@ private class Solution {
             IntArray(26)
         }
         val q: Queue<Int> = LinkedList()
-        for (i in 0 until n) {
+        for (i in 0..<n) {
             counts[i][labels[i] - 'a'] = 1
             if (i != 0 && adj[i]!!.size == 1) {
                 q.offer(i)
@@ -86,7 +86,7 @@ private class Solution {
             }
         }
         val ans = IntArray(n)
-        for (i in 0 until n) {
+        for (i in 0..<n) {
             ans[i] = counts[i][labels[i] - 'a']
         }
         return ans

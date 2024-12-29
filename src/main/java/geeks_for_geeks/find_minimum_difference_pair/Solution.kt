@@ -5,7 +5,7 @@ import kotlin.math.abs
 fun bruteForceSolution(arr: IntArray): Int {
     var result = Int.MAX_VALUE
     for (i in arr.indices) {
-        for (j in i + 1 until arr.size) {
+        for (j in i + 1..<arr.size) {
             result = minOf(abs(arr[i] - arr[j]), result)
         }
     }
@@ -15,7 +15,7 @@ fun bruteForceSolution(arr: IntArray): Int {
 fun solutionUsingSorting(arr: IntArray): Int {
     val sorted = arr.sortedArray()
     var result = abs(sorted[0] - sorted[1])
-    for (i in 2 until sorted.size) {
+    for (i in 2..<sorted.size) {
         result = minOf(result, abs(sorted[i] - sorted[i - 1]))
     }
     return result

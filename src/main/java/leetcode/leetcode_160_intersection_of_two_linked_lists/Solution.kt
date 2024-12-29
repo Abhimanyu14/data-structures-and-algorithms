@@ -29,11 +29,11 @@ private fun getIntersectionNode(headA: ListNode?, headB:ListNode?):ListNode? {
     temp1 = headA
     temp2 = headB
     if (size1 > size2) {
-        for (i in 0 until difference) {
+        for (i in 0..<difference) {
             temp1 = temp1?.next
         }
     } else if (size2 > size1) {
-        for (i in 0 until difference) {
+        for (i in 0..<difference) {
             temp2 = temp2?.next
         }
     }

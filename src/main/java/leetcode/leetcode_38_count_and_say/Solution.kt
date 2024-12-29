@@ -9,7 +9,7 @@ fun generateValue(s: String): String {
     var result = ""
     var count = 1
     var char: Char = s[0]
-    for (i in 1 until s.length) {
+    for (i in 1..<s.length) {
         if (char != s[i]) {
             result += count.toString() + char
             count = 1

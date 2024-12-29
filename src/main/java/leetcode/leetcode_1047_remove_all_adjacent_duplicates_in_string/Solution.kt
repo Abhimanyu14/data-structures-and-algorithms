@@ -31,7 +31,7 @@ private fun removeDuplicates(s: String): String {
  * Time Limit Exceeded
  */
 private fun removeDuplicatesUsingRecursion(s: String): String {
-    for (i in 0 until s.lastIndex) {
+    for (i in 0..<s.lastIndex) {
         if (s[i] == s[i + 1]) {
             return removeDuplicates("${s.substring(0, i)}${s.substring(i + 2, s.length)}")
         }

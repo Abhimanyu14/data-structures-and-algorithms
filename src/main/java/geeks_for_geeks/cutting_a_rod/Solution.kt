@@ -7,7 +7,7 @@ fun recursiveSolution(prices: IntArray, length: Int): Int {
         return 0
     }
     var result = Int.MIN_VALUE
-    for (i in 1 until length) {
+    for (i in 1..<length) {
         result = max(result, prices[i] + recursiveSolution(prices, length - i - 1))
     }
     return result
@@ -22,7 +22,7 @@ fun memoizationSolution(prices: IntArray, length: Int, dp: IntArray): Int {
         result = 0
     } else {
         result = Int.MIN_VALUE
-        for (i in 1 until length) {
+        for (i in 1..<length) {
             result = max(result, prices[i] + memoizationSolution(prices, length - i - 1, dp))
         }
     }
@@ -38,9 +38,9 @@ fun memoizationSolutionDriver(prices: IntArray, length: Int): Int {
 fun tabulationSolution(prices: IntArray, length: Int): Int {
     val dp = IntArray(length + 1) { -1 }
     dp[0] = 0
-    for (i in 1 until length) {
+    for (i in 1..<length) {
         var result = Int.MIN_VALUE
-        for (j in 1 until i) {
+        for (j in 1..<i) {
             result = max(result, prices[j] + dp[i - j])
         }
         dp[i] = result

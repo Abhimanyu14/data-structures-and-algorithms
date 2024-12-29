@@ -14,7 +14,7 @@ import kotlin.math.max
 private fun minPairSum(nums: IntArray): Int {
     var result = 0
     val sorted = nums.sorted()
-    for (i in 0 until (sorted.size / 2)) {
+    for (i in 0..<(sorted.size / 2)) {
         result = max(result, sorted[i] + sorted[nums.lastIndex - i])
     }
     return result

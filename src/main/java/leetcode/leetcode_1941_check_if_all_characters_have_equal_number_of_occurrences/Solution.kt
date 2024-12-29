@@ -1,6 +1,8 @@
 package leetcode.leetcode_1941_check_if_all_characters_have_equal_number_of_occurrences
 
 /**
+ * leetcode - https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/
+ *
  * Using Map
  *
  * Stats

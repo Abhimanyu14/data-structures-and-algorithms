@@ -34,15 +34,15 @@ private class Solution {
         val parentCell = Array(rows) { IntArray(cols) } // Parent of each cell in DFS tree
 
         // Initialize arrays with default values
-        for (i in 0 until rows) {
+        for (i in 0..<rows) {
             Arrays.fill(discoveryTime[i], -1)
             Arrays.fill(lowestReachable[i], -1)
             Arrays.fill(parentCell[i], -1)
         }
 
         // Traverse the grid to find islands and articulation points
-        for (i in 0 until rows) {
-            for (j in 0 until cols) {
+        for (i in 0..<rows) {
+            for (j in 0..<cols) {
                 if (grid[i][j] == 1) {
                     landCells++
                     if (discoveryTime[i][j] == -1) { // If not yet visited

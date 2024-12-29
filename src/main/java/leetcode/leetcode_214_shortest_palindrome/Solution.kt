@@ -32,7 +32,7 @@ private class Solution {
         var maxPalindromeLength = 0
 
         // Iterate through each character in the modified string
-        for (i in 1 until modifiedString.length - 1) {
+        for (i in 1..<modifiedString.length - 1) {
             val mirrorIndex = 2 * center - i
 
             // Use previously computed values to avoid redundant calculations

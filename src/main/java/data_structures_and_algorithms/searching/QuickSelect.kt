@@ -1,13 +1,13 @@
 package data_structures_and_algorithms.searching
 
 /**
- * To find k-th smallest element in a array
+ * To find the k-th smallest element in an array
  */
 
 fun partition(arr: IntArray, low: Int, high: Int): Int {
     val pivot = arr[high]
     var i = low - 1
-    for (j in low until high) {
+    for (j in low..<high) {
         if (arr[j] < pivot) {
             i++
             arr[i] = arr[j].also { arr[j] = arr[i] }

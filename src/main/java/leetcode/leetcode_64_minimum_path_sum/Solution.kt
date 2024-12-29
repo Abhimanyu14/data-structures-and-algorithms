@@ -14,13 +14,13 @@ import kotlin.math.min
 private fun minPathSum(grid: Array<IntArray>): Int {
     val result = IntArray(grid[0].size)
     result[0] = grid[0][0]
-    for (i in 1 until grid[0].size) {
+    for (i in 1..<grid[0].size) {
         result[i] = result[i - 1] + grid[0][i]
     }
 
-    for (i in 1 until grid.size) {
+    for (i in 1..<grid.size) {
         result[0] += grid[i][0]
-        for (j in 1 until grid[0].size) {
+        for (j in 1..<grid[0].size) {
             result[j] = min(result[j - 1], result[j]) + grid[i][j]
         }
     }

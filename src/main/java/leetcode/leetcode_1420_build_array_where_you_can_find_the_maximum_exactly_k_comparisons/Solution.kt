@@ -20,7 +20,7 @@ private class Solution {
     var m = 0
     fun numOfArrays(n: Int, m: Int, k: Int): Int {
         memo = Array(n) { Array(m + 1) { IntArray(k + 1) } }
-        for (i in 0 until n) {
+        for (i in 0..<n) {
             for (j in 0..m) {
                 Arrays.fill(memo[i][j], -1)
             }

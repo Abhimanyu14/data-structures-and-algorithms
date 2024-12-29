@@ -45,7 +45,7 @@ private fun numBusesToDestination(routes: Array<IntArray>, source: Int, target: 
         Node(it.toSet())
     }
     for (i in graph.indices) {
-        for (j in i + 1 until routes.size) {
+        for (j in i + 1..<routes.size) {
             if (doesRoutesHaveCommonStop(routes[i], routes[j])) {
                 graph[i].adjacentNodes.add(j)
                 graph[j].adjacentNodes.add(i)

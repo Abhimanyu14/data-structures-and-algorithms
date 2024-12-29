@@ -2,6 +2,21 @@ package leetcode.leetcode_1769_minimum_number_of_operations_to_move_all_balls_to
 
 import kotlin.math.abs
 
+/**
+ * leetcode - https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty -
+ *
+ * Stats
+ *
+ * Time -
+ * Space -
+ */
 fun minOperations(boxes: String): IntArray {
     val result = IntArray(boxes.length)
     var count: Int

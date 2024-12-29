@@ -7,7 +7,7 @@ fun findMinDifference(timePoints: List<String>): Int {
         it.substring(0, 2).toInt() * 60 + it.substring(3, 5).toInt()
     }.sorted()
     var result = abs(sorted[0] - sorted[1])
-    for (i in 2 until sorted.size) {
+    for (i in 2..<sorted.size) {
         result = minOf(result, abs(sorted[i] - sorted[i - 1]))
     }
     result = minOf(result, 60 * 24 - (sorted.last() - sorted.first()))

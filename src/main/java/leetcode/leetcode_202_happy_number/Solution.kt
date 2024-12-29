@@ -3,6 +3,8 @@ package leetcode.leetcode_202_happy_number
 import data_structures_and_algorithms.number.toDigits
 
 /**
+ * leetcode - https://leetcode.com/problems/happy-number/
+ *
  * Stats
  * Runtime: 152 ms, faster than 50.60%
  * Memory Usage: 35.2 MB, less than 16.87%

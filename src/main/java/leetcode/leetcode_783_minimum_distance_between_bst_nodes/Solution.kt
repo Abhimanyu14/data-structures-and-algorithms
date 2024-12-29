@@ -27,7 +27,7 @@ private fun minDiffInBST(root: TreeNode?): Int {
     }
     bstInorderTraversal(root)
     var min = Int.MAX_VALUE
-    for (i in 0 until result.lastIndex) {
+    for (i in 0..<result.lastIndex) {
         if (result[i + 1] - result[i] < min) {
             min = result[i + 1] - result[i]
         }

@@ -14,7 +14,7 @@ private fun leastBricks(wall: List<List<Int>>): Int {
     var current = 0
     wall.forEach { row ->
         current = 0
-        for (i in 0 until row.lastIndex) {
+        for (i in 0..<row.lastIndex) {
             current += row[i]
             breaksCounter[current] = (breaksCounter[current] ?: 0) + 1
         }

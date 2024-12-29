@@ -18,7 +18,7 @@ private fun solveNQueens(n: Int): List<List<String>> {
     // Making use of a helper function to get the solutions in the correct output format
     fun createBoard(state: Array<CharArray>): List<String> {
         val board: MutableList<String> = ArrayList()
-        for (row in 0 until n) {
+        for (row in 0..<n) {
             val currentRow = String(state[row])
             board.add(currentRow)
         }
@@ -37,7 +37,7 @@ private fun solveNQueens(n: Int): List<List<String>> {
             result.add(createBoard(state))
             return
         }
-        for (col in 0 until n) {
+        for (col in 0..<n) {
             val currDiagonal = row - col
             val currAntiDiagonal = row + col
             // If the queen is not placeable

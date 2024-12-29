@@ -26,7 +26,7 @@ private fun totalNQueens(n: Int): Int {
             result++
             return
         }
-        for (col in 0 until n) {
+        for (col in 0..<n) {
             val currDiagonal = row - col
             val currAntiDiagonal = row + col
             // If the queen is not placeable

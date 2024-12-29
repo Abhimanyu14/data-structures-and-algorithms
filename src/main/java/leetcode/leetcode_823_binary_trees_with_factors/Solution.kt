@@ -20,7 +20,7 @@ private fun numFactoredBinaryTrees(arr: IntArray): Int {
         index[arr[i]] = i
     }
     for (i in arr.indices) {
-        for (j in 0 until i) {
+        for (j in 0..<i) {
             if (arr[i] % arr[j] == 0) {
                 val right = arr[i] / arr[j]
                 if (index.containsKey(right)) {

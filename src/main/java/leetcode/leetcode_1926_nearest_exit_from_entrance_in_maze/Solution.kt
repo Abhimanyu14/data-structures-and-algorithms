@@ -81,14 +81,14 @@ fun nearestExitUsingBFS(maze: Array<CharArray>, entrance: IntArray): Int {
     while (queue.isNotEmpty()) {
         val size = queue.size
 
-        for (i in 0 until size) {
+        for (i in 0..<size) {
             val current = queue.poll()
 
             for (dir in directions) {
                 val newRow = current.first + dir[0]
                 val newCol = current.second + dir[1]
 
-                if (newRow in 0 until m && newCol in 0 until n && maze[newRow][newCol] == '.') {
+                if (newRow in 0..<m && newCol in 0..<n && maze[newRow][newCol] == '.') {
                     if (newRow == 0 || newRow == m - 1 || newCol == 0 || newCol == n - 1) {
                         return steps + 1
                     }

@@ -20,7 +20,7 @@ private fun knightDialer(n: Int): Int {
     var c = 2
     var d = 1
     val mod = 1e9.toInt() + 7
-    for (i in 0 until n - 1) {
+    for (i in 0..<n - 1) {
         val tempA = a
         val tempB = b
         val tempC = c

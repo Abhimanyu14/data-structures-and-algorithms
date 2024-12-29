@@ -4,11 +4,11 @@ import kotlin.math.max
 
 fun solution(arr: IntArray, size: Int): Int {
     var result = 0
-    for (i in 0 until size) {
+    for (i in 0..<size) {
         result += arr[i]
     }
     var currentSum = result
-    for (i in size until arr.size) {
+    for (i in size..<arr.size) {
         currentSum += arr[i] - arr[i - size]
         result = max(result, currentSum)
     }

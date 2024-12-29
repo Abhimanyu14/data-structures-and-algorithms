@@ -25,7 +25,7 @@ private fun largestSubmatrix(matrix: Array<IntArray>): Int {
                 seen[col] = true
             }
         }
-        for (col in 0 until matrix[0].size) {
+        for (col in 0..<matrix[0].size) {
             if (!seen[col] && matrix[row][col] == 1) {
                 heights.add(Pair(1, col))
             }

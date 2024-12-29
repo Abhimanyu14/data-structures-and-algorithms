@@ -16,7 +16,7 @@ private fun maxFrequency(nums: IntArray, k: Int): Int {
     var left = 0
     var result = 1
     var sum = 0L
-    for (right in 1 until nums.size) {
+    for (right in 1..<nums.size) {
         sum += (nums[right] - nums[right - 1]) * (right - left)
         while (sum > k) {
             sum -= (nums[right] - nums[left])

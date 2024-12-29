@@ -3,7 +3,10 @@ package leetcode.leetcode_217_contains_duplicate
 /**
  * leetcode - https://leetcode.com/problems/contains-duplicate/
  *
- * Using Set
+ * Data Structure - Set
+ * Algorithm - Hashing
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 391 ms, faster than 95.97%

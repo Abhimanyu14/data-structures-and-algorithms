@@ -14,12 +14,12 @@ fun knows(i: Int, j: Int): Boolean {
  */
 private fun findCelebrity(n: Int): Int {
     var celebrity = 0
-    for (i in 1 until n) {
+    for (i in 1..<n) {
         if (knows(celebrity, i)) {
             celebrity = i
         }
     }
-    for (i in 0 until n) {
+    for (i in 0..<n) {
         if (celebrity != i && (!knows(i, celebrity) || knows(celebrity, i))) {
             return -1
         }

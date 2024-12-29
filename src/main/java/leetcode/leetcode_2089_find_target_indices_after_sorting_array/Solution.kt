@@ -20,7 +20,7 @@ private fun targetIndices(nums: IntArray, target: Int): List<Int> {
         }
     }
     val result = mutableListOf<Int>()
-    for (i in lessCount until (lessCount + count)) {
+    for (i in lessCount..<(lessCount + count)) {
         result.add(i)
     }
     return result

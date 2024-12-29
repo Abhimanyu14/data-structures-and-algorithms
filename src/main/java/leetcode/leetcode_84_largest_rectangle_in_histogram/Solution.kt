@@ -52,10 +52,10 @@ private fun largestRectangleAreaBruteForce(heights: IntArray): Int {
     }
     var currentMin: Int
     var result = heights.last()
-    for (i in 0 until heights.lastIndex) {
+    for (i in 0..<heights.lastIndex) {
         currentMin = heights[i]
         result = max(result, currentMin)
-        for (j in i + 1 until heights.size) {
+        for (j in i + 1..<heights.size) {
             currentMin = min(currentMin, heights[j])
             result = max(result, (j - i + 1) * currentMin)
         }

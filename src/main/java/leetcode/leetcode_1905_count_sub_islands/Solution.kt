@@ -37,7 +37,7 @@ private class Solution {
 
         // Initialize union-find object with 'n' elements.
         init {
-            for (i in 0 until n) {
+            for (i in 0..<n) {
                 parent[i] = i
                 rank[i] = 0
             }
@@ -80,8 +80,8 @@ private class Solution {
         val uf: UnionFind = UnionFind(totalRows * totalCols)
 
         // Traverse each land cell of 'grid2'.
-        for (x in 0 until totalRows) {
-            for (y in 0 until totalCols) {
+        for (x in 0..<totalRows) {
+            for (y in 0..<totalCols) {
                 if (isCellLand(x, y, grid2)) {
                     // Union adjacent land cells with the current land cell.
                     for (direction in directions) {
@@ -106,8 +106,8 @@ private class Solution {
         for (i in isSubIsland.indices) {
             isSubIsland[i] = true
         }
-        for (x in 0 until totalRows) {
-            for (y in 0 until totalCols) {
+        for (x in 0..<totalRows) {
+            for (y in 0..<totalCols) {
                 if (isCellLand(x, y, grid2) && !isCellLand(x, y, grid1)) {
                     val root = uf.find(convertToIndex(x, y, totalCols))
                     isSubIsland[root] = false
@@ -117,8 +117,8 @@ private class Solution {
 
         // Count all the sub-islands.
         var subIslandCounts = 0
-        for (x in 0 until totalRows) {
-            for (y in 0 until totalCols) {
+        for (x in 0..<totalRows) {
+            for (y in 0..<totalCols) {
                 if (isCellLand(x, y, grid2)) {
                     val root = uf.find(convertToIndex(x, y, totalCols))
                     if (isSubIsland[root]) {

@@ -18,7 +18,7 @@ private fun rotate(matrix: Array<IntArray>) {
         }
     }
     for (i in 0..matrix.lastIndex) {
-        for (j in 0 until (matrix.size / 2)) {
+        for (j in 0..<(matrix.size / 2)) {
             matrix[i][j] = matrix[i][matrix.lastIndex - j].also {
                 matrix[i][matrix.lastIndex - j] = matrix[i][j]
             }

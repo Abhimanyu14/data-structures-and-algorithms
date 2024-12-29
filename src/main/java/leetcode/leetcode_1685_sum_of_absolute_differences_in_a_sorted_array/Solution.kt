@@ -39,7 +39,7 @@ private fun getSumAbsoluteDifferencesWithPrefix(nums: IntArray): IntArray {
     val result = IntArray(nums.size)
     val prefix = IntArray(nums.size)
     prefix[0] = nums[0]
-    for (i in 1 until nums.size) {
+    for (i in 1..<nums.size) {
         prefix[i] = prefix[i - 1] + nums[i]
     }
     nums.forEachIndexed { i, num ->

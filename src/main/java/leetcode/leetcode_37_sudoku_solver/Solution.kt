@@ -24,7 +24,7 @@ private fun solveSudoku(board: Array<CharArray>) {
 
     fun getValidNumbers(x: Int, y: Int): List<Char> {
         val currentSet = mutableSetOf('1', '2', '3', '4', '5', '6', '7', '8', '9')
-        for (i in 0 until 9) {
+        for (i in 0..<9) {
             if (board[x][i] != '.') {
                 currentSet.remove(board[x][i])
             }
@@ -34,8 +34,8 @@ private fun solveSudoku(board: Array<CharArray>) {
         }
         val boxStartX = x / 3
         val boxStartY = y / 3
-        for (i in 0 until 3) {
-            for (j in 0 until 3) {
+        for (i in 0..<3) {
+            for (j in 0..<3) {
                 if (board[boxStartX * 3 + i][boxStartY * 3 + j] != '.') {
                     currentSet.remove(board[boxStartX * 3 + i][boxStartY * 3 + j])
                 }

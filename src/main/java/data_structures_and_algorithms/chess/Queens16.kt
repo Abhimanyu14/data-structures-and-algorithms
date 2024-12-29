@@ -19,7 +19,7 @@ fun printBoard(
 fun main() {
     val x = 1..2
     val y = 1.0..5.0
-    val z = 1 until 5
+    val z = 1..<5
     val emptyBoard: Array<IntArray> = Array(8) { IntArray(8) { 0 } }
     printBoard(emptyBoard)
 }

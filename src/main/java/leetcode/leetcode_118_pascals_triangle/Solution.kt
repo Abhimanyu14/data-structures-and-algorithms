@@ -25,10 +25,10 @@ private fun generate(numRows: Int): List<List<Int>> {
         return result
     }
     result.add(listOf(1))
-    for (i in 1 until numRows) {
+    for (i in 1..<numRows) {
         val rowItem = mutableListOf<Int>()
         rowItem.add(1)
-        for (j in 1 until i) {
+        for (j in 1..<i) {
             rowItem.add(result[i - 1][j - 1] + result[i - 1][j])
         }
         rowItem.add(1)

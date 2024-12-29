@@ -17,7 +17,7 @@ import kotlin.math.max
  */
 private fun minimumTime(n: Int, relations: Array<IntArray>, time: IntArray): Int {
     val graph: MutableMap<Int, MutableList<Int>> = HashMap()
-    for (i in 0 until n) {
+    for (i in 0..<n) {
         graph[i] = ArrayList()
     }
     val indegree = IntArray(n)
@@ -29,7 +29,7 @@ private fun minimumTime(n: Int, relations: Array<IntArray>, time: IntArray): Int
     }
     val queue: Queue<Int> = LinkedList()
     val maxTime = IntArray(n)
-    for (node in 0 until n) {
+    for (node in 0..<n) {
         if (indegree[node] == 0) {
             queue.add(node)
             maxTime[node] = time[node]
@@ -47,7 +47,7 @@ private fun minimumTime(n: Int, relations: Array<IntArray>, time: IntArray): Int
         }
     }
     var ans = 0
-    for (node in 0 until n) {
+    for (node in 0..<n) {
         ans = max(ans.toDouble(), maxTime[node].toDouble()).toInt()
     }
     return ans

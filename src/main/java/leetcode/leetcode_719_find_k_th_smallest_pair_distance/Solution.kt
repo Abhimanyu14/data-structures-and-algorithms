@@ -46,7 +46,7 @@ private fun countPairsWithMaxDistance(nums: IntArray, maxDistance: Int): Int {
     val arraySize = nums.size
     var left = 0
 
-    for (right in 0 until arraySize) {
+    for (right in 0..<arraySize) {
         // Adjust the left pointer to maintain the window with distances <=
         // maxDistance
         while (nums[right] - nums[left] > maxDistance) {

@@ -26,7 +26,7 @@ private fun countPalindromicSubsequence(s: String): Int {
             continue
         }
         val between = mutableSetOf<Char>()
-        for (j in firstIndices[i] + 1 until lastIndices[i]) {
+        for (j in firstIndices[i] + 1..<lastIndices[i]) {
             between.add(s[j])
         }
         result += between.size
@@ -58,7 +58,7 @@ private fun countPalindromicSubsequenceUsingCount(s: String): Int {
             }
         }
         val between = mutableSetOf<Char>()
-        for (k in first + 1 until last) {
+        for (k in first + 1..<last) {
             between.add(s[k])
         }
         result += between.size

@@ -18,7 +18,7 @@ private fun find132pattern(nums: IntArray): Boolean {
 
     val min = IntArray(nums.size)
     min[0] = nums[0]
-    for (i in 1 until nums.size) {
+    for (i in 1..<nums.size) {
         min[i] = min(min[i - 1], nums[i])
     }
 

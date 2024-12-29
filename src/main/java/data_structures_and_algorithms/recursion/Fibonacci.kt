@@ -27,7 +27,7 @@ fun fibonacciIterative(n: Int): Int {
     }
     var first = 0
     var second = 1
-    for (i in 2 until n) {
+    for (i in 2..<n) {
         second += first
         first = second - first
     }

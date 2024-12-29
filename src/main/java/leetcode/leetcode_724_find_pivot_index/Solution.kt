@@ -16,7 +16,7 @@ private fun pivotIndex(nums: IntArray): Int {
         prefixSum[i + 1] = prefixSum[i - 1 + 1] + nums[i]
     }
     val total = prefixSum[nums.size]
-    for (i in 1 until prefixSum.lastIndex) {
+    for (i in 1..<prefixSum.lastIndex) {
         if (prefixSum[i - 1] == total - prefixSum[i]) {
             return i - 1
         }

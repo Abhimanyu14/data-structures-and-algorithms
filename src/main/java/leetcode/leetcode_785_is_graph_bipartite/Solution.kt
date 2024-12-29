@@ -12,7 +12,7 @@ package leetcode.leetcode_785_is_graph_bipartite
 private fun isBipartite(graph: Array<IntArray>): Boolean {
     val n = graph.size
     val color = IntArray(n) { -1 }
-    for (start in 0 until n) {
+    for (start in 0..<n) {
         if (color[start] == -1) {
             val stack = ArrayDeque<Int>()
             stack.addLast(start)

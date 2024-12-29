@@ -28,7 +28,7 @@ private class Solution {
         // Process queries and build the result array
         val queryCount = queries.size
         val queryResults = IntArray(queryCount)
-        for (i in 0 until queryCount) {
+        for (i in 0..<queryCount) {
             queryResults[i] = maxHeightAfterRemoval[queries[i]]
         }
 

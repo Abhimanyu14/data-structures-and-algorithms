@@ -27,7 +27,7 @@ private fun getRow(rowIndex: Int): List<Int> {
     repeat(rowIndex) {
         current.clear()
         current.add(1)
-        for (i in 1 until (it + 1)) {
+        for (i in 1..<(it + 1)) {
             current.add(prev[i - 1] + prev[i])
         }
         current.add(1)
@@ -53,10 +53,10 @@ private fun getRowPascalTriangle(rowIndex: Int): List<Int> {
     }
     val result = mutableListOf<List<Int>>()
     result.add(listOf(1))
-    for (i in 1 until numRows) {
+    for (i in 1..<numRows) {
         val rowItem = mutableListOf<Int>()
         rowItem.add(1)
-        for (j in 1 until i) {
+        for (j in 1..<i) {
             rowItem.add(result[i - 1][j - 1] + result[i - 1][j])
         }
         rowItem.add(1)

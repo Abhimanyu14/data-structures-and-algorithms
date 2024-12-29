@@ -15,7 +15,7 @@ private fun maxScore(s: String): Int {
     var result = Int.MIN_VALUE
     val oneCount = s.count { it == '1' }
     var current = 0
-    for (i in 0 until s.lastIndex) {
+    for (i in 0..<s.lastIndex) {
         if (s[i] == '1') {
             current++
         }

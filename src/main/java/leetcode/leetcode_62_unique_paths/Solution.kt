@@ -13,7 +13,7 @@ private fun uniquePaths(m: Int, n: Int): Int {
     val grid = IntArray(m)
     grid[0] = 1
     repeat(n) {
-        for (i in 1 until m) {
+        for (i in 1..<m) {
             grid[i] = grid[i - 1] + grid[i]
         }
     }

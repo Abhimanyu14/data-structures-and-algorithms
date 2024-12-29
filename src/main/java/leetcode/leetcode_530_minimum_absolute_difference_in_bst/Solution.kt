@@ -14,7 +14,7 @@ fun getMinimumDifference(root: TreeNode?): Int {
     val list = mutableListOf<Int>()
     bstInorderTraversal(root, list)
     var min = Int.MAX_VALUE
-    for (i in 0 until list.lastIndex) {
+    for (i in 0..<list.lastIndex) {
         if (list[i + 1] - list[i] < min) {
             min = list[i + 1] - list[i]
         }

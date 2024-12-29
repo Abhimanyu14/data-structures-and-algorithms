@@ -4,7 +4,7 @@ fun bruteForceSolution(arr: Array<Int>, sum: Int): Pair<Int, Int> {
     val map: MutableMap<Pair<Int, Int>, Int> = HashMap()
     val resultMap: MutableMap<Int, Pair<Int, Int>> = HashMap()
     for (i in arr.indices) {
-        for (j in i until arr.size) {
+        for (j in i..<arr.size) {
             if (i == j) {
                 map[Pair(i, j)] = arr[j]
             } else {

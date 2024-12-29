@@ -11,7 +11,7 @@ package leetcode.leetcode_11_container_with_most_water
 private fun maxAreaNaive(height: IntArray): Int {
     var result = 0
     for (i in height.indices) {
-        for (j in i + 1 until height.size) {
+        for (j in i + 1..<height.size) {
             result = maxOf(result, (j - i) * minOf(height[i], height[j]))
         }
     }

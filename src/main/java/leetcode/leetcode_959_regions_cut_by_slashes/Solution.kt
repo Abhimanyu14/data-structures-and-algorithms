@@ -28,8 +28,8 @@ private fun regionsBySlashes(grid: Array<String>): Int {
     Arrays.fill(parentArray, -1)
 
     // Connect border points
-    for (i in 0 until pointsPerSide) {
-        for (j in 0 until pointsPerSide) {
+    for (i in 0..<pointsPerSide) {
+        for (j in 0..<pointsPerSide) {
             if (i == 0 || j == 0 || i == pointsPerSide - 1 || j == pointsPerSide - 1
             ) {
                 val point = i * pointsPerSide + j
@@ -43,8 +43,8 @@ private fun regionsBySlashes(grid: Array<String>): Int {
     var regionCount = 1 // Start with one region (the border)
 
     // Process each cell in the grid
-    for (i in 0 until gridSize) {
-        for (j in 0 until gridSize) {
+    for (i in 0..<gridSize) {
+        for (j in 0..<gridSize) {
             // Treat each slash as an edge connecting two points
             if (grid[i][j] == '/') {
                 val topRight = i * pointsPerSide + (j + 1)

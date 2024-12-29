@@ -36,8 +36,8 @@ private fun maximumSafenessFactor(grid: List<List<Int>>): Int {
     val multiSourceQueue: Queue<IntArray> = LinkedList()
 
     // To make modifications and navigation easier, the grid is converted into a 2-d array
-    for (i in 0 until n) {
-        for (j in 0 until n) {
+    for (i in 0..<n) {
+        for (j in 0..<n) {
             if (grid[i][j] == 1) {
                 // Push thief coordinates to the queue
                 multiSourceQueue.add(intArrayOf(i, j))

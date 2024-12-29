@@ -23,7 +23,7 @@ private fun splitListToParts(head: ListNode?, k: Int): Array<ListNode?> {
     var extra = size % k
     var prev: ListNode? = null
     temp = head
-    for (i in 0 until k) {
+    for (i in 0..<k) {
         if (temp == null) {
             break
         }

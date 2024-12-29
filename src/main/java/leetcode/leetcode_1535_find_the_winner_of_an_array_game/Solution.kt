@@ -15,7 +15,7 @@ private fun getWinner(arr: IntArray, k: Int): Int {
     val maxElement = arr.max()
     var curr = arr[0]
     var winstreak = 0
-    for (i in 1 until arr.size) {
+    for (i in 1..<arr.size) {
         val opponent = arr[i]
         if (curr > opponent) {
             winstreak++

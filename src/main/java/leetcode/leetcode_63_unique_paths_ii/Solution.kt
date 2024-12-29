@@ -16,8 +16,8 @@ private fun uniquePathsWithObstacles(obstacleGrid: Array<IntArray>): Int {
         return 0
     }
     obstacleGrid[0][0] = 1
-    for (i in 0 until m) {
-        for (j in 0 until n) {
+    for (i in 0..<m) {
+        for (j in 0..<n) {
             if (i == 0 && j == 0) {
                 continue
             }

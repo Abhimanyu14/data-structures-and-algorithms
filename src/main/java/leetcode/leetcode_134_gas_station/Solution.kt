@@ -53,7 +53,7 @@ private fun canCompleteCircuitUsingTwoPass(gas: IntArray, cost: IntArray): Int {
     if (currentSum < 0) {
         return -1
     }
-    for (i in 0 until pos) {
+    for (i in 0..<pos) {
         currentSum += gas[i]
         if (currentSum < 0) {
             return -1

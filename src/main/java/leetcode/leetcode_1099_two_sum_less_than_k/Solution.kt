@@ -17,7 +17,7 @@ private fun twoSumLessThanKBruteForce(nums: IntArray, k: Int): Int {
     nums.forEachIndexed { index, _ ->
         for (i in (index + 1)..nums.lastIndex) {
             sum = nums[index] + nums[i]
-            if (sum in (result + 1) until k) {
+            if (sum in (result + 1)..<k) {
                 result = sum
             }
         }
