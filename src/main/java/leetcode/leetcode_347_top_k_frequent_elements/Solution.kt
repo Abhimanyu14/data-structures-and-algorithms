@@ -6,7 +6,8 @@ import java.util.TreeMap
  * leetcode - https://leetcode.com/problems/top-k-frequent-elements/
  * ms/top-k-frequent-elements/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using map and sorting
+ * Data Structure - Map
+ * Algorithm - Sorting
  *
  * Difficulty - Medium
  *
@@ -40,7 +41,7 @@ private fun topKFrequent(nums: IntArray, k: Int): IntArray {
 /**
  * leetcode - https://leetcode.com/problems/top-k-frequent-elements/
  *
- * Using map and treemap
+ * Data Structure - Map and TreeMap
  *
  * Difficulty - Medium
  *
@@ -58,9 +59,7 @@ private fun topKFrequentUsingTreemap(nums: IntArray, k: Int): IntArray {
     }
     val treeMap = TreeMap<Int, MutableList<Int>>()
     frequencyCounter.forEach { (key, value) ->
-        treeMap.computeIfAbsent(value) {
-            mutableListOf()
-        }.add(key)
+        treeMap.computeIfAbsent(value) { mutableListOf() }.add(key)
     }
     val result = mutableListOf<Int>()
     for (entry in treeMap.entries.reversed()) {

@@ -1,33 +1,35 @@
 package leetcode.leetcode_322_coin_change
 
+import kotlin.math.min
+
 /**
  * leetcode - https://leetcode.com/problems/coin-change/
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - Array
+ * Algorithm - Dynamic Programming - Tabulation
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
  * Time -
  * Space -
  */
-fun coinChange(coins: IntArray, amount: Int, result: Int): Int {
-    if (amount == 0) {
-        return result
+private fun coinChange(coins: IntArray, amount: Int): Int {
+    val dp = IntArray(amount + 1) { amount + 1 }
+    dp[0] = 0
+    for (i in 1..amount) {
+        for (coin in coins) {
+            if (coin <= i) {
+                dp[i] = min(dp[i], dp[i - coin] + 1)
+            }
+        }
     }
-    if (amount < 0) {
-        return Int.MAX_VALUE
+    return if (dp[amount] > amount) {
+        -1
+    } else {
+        dp[amount]
     }
-
-    return 0
-}
-
-fun coinChangeDriver(coins: IntArray, amount: Int): Int {
-    return coinChange(coins, amount, 0)
 }
 
 private fun main() {

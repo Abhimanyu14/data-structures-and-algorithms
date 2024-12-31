@@ -112,7 +112,14 @@ fun arrayOperations() {
     val array1 = intArrayOf(1, 2, 3)
     val cloneArray = array1.clone()
 
-
+    /**
+     * To swap two numbers
+     */
+    var a = 10
+    var b = 20
+    a = b.also {
+        b = a
+    }
 }
 
 fun stringOperations() {
@@ -120,6 +127,11 @@ fun stringOperations() {
      * Set<Char> from a String
      */
     val chars = "Temp".toSet()
+
+    /**
+     * To repeat a string n times
+     */
+    "0".repeat(4)
 }
 
 fun stringBuilderOperations() {

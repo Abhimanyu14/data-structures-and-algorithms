@@ -5,9 +5,12 @@ import java.util.PriorityQueue
 /**
  * leetcode - https://leetcode.com/problems/sort-an-array/
  *
- * Using priority queue
+ * Data Structure - PriorityQueue
+ * Algorithm - Heapify
  *
- * Difficulty -
+ * Note: Use MergeSort, HeapSort, CountingSort or RadixSort.
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 685 ms, faster than 47.29%
@@ -17,19 +20,17 @@ import java.util.PriorityQueue
  * Space -
  */
 private fun sortArray(nums: IntArray): IntArray {
-    val priorityQueue = PriorityQueue<Int> { a, b ->
-        a - b
+    val result = IntArray(nums.size)
+    val priorityQueue = PriorityQueue<Int>()
+    for (num in nums) {
+        priorityQueue.offer(num)
     }
-    nums.forEach {
-        priorityQueue.offer(it)
+    for (i in nums.indices) {
+        result[i] = priorityQueue.poll()
     }
-    val result = mutableListOf<Int>()
-    while (priorityQueue.isNotEmpty()) {
-        result.add(priorityQueue.poll())
-    }
-    return result.toIntArray()
+    return result
 }
 
 private fun main() {
-    println(sortArray(intArrayOf(5, 1, 1, 2, 0, 0)).joinToString(", "))
+
 }

@@ -2,14 +2,22 @@ package leetcode.leetcode_27_remove_element
 
 /**
  * leetcode - https://leetcode.com/problems/remove-element/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
- * 
+ *
+ * Data Structure - Array
+ * Algorithm - Iteration
+ *
  * Maintains order
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 338 ms, faster than 9.70%
  * Memory Usage: 37 MB, less than 8.77%
+ *
+ * Time - O(N)
+ * Space - O(1)
  */
-fun removeElement(nums: IntArray, `val`: Int): Int {
+private fun removeElement(nums: IntArray, `val`: Int): Int {
     var result = 0
     for (i in 0..nums.lastIndex) {
         if (nums[i] != `val`) {
