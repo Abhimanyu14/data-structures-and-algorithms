@@ -3,14 +3,128 @@ package leetcode.leetcode_983_minimum_cost_for_tickets
 /**
  * leetcode - https://leetcode.com/problems/minimum-cost-for-tickets/
  *
- * TODO(Abhi) - To revisit
+ * TODO(Abhi) - To complete using tabulation approach
  *
- * Using
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty - Medium
  *
  * Stats
  *
+ * Time -
+ * Space -
  */
-fun recursiveSolution(days: IntArray, costs: IntArray, day: Int, cost: Int): Int {
+
+/**
+ * leetcode - https://leetcode.com/problems/minimum-cost-for-tickets/
+ *
+ * Data Structure - Map
+ * Algorithm - Recursion and Dynamic Programming - Memoization
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ * 20 ms Beats 40.91%
+ * 38.96 MB Beats 28.79%
+ *
+ * Time -
+ * Space -
+ */
+private fun mincostTicketsUsingMemoization(days: IntArray, costs: IntArray): Int {
+    val memo = mutableMapOf<Int, Int>()
+    fun calculate(dayIndex: Int): Int {
+        memo[dayIndex]?.let {
+            return it
+        }
+        var nextDay = -1
+        var nextWeek = -1
+        var nextMonth = -1
+        for (i in dayIndex..days.lastIndex) {
+            if (nextDay == -1 && days[i] >= days[dayIndex] + 1) {
+                nextDay = i
+            }
+            if (nextWeek == -1 && days[i] >= days[dayIndex] + 7) {
+                nextWeek = i
+            }
+            if (days[i] >= days[dayIndex] + 30) {
+                nextMonth = i
+                break
+            }
+        }
+        val withDayPass = if (nextDay != -1) {
+            costs[0] + calculate(nextDay)
+        } else {
+            costs[0]
+        }
+        val withWeekPass = if (nextWeek != -1) {
+            costs[1] + calculate(nextWeek)
+        } else {
+            costs[1]
+        }
+        val withMonthPass = if (nextMonth != -1) {
+            costs[2] + calculate(nextMonth)
+        } else {
+            costs[2]
+        }
+        memo[dayIndex] = minOf(withDayPass, withWeekPass, withMonthPass)
+        return memo[dayIndex]!!
+    }
+    return calculate(0)
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/minimum-cost-for-tickets/
+ *
+ * Data Structure - NA
+ * Algorithm - Recursion
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ * Time Limit Exceeded
+ *
+ * Time - O(3 ^ N)
+ * Space - O(N)
+ */
+private fun mincostTicketsUsingBruteForce(days: IntArray, costs: IntArray): Int {
+    fun calculate(dayIndex: Int): Int {
+        var nextDay = -1
+        var nextWeek = -1
+        var nextMonth = -1
+        for (i in dayIndex..days.lastIndex) {
+            if (nextDay == -1 && days[i] >= days[dayIndex] + 1) {
+                nextDay = i
+            }
+            if (nextWeek == -1 && days[i] >= days[dayIndex] + 7) {
+                nextWeek = i
+            }
+            if (days[i] >= days[dayIndex] + 30) {
+                nextMonth = i
+                break
+            }
+        }
+        val withDayPass = if (nextDay != -1) {
+            costs[0] + calculate(nextDay)
+        } else {
+            costs[0]
+        }
+        val withWeekPass = if (nextWeek != -1) {
+            costs[1] + calculate(nextWeek)
+        } else {
+            costs[1]
+        }
+        val withMonthPass = if (nextMonth != -1) {
+            costs[2] + calculate(nextMonth)
+        } else {
+            costs[2]
+        }
+        return minOf(withDayPass, withWeekPass, withMonthPass)
+    }
+    return calculate(0)
+}
+
+private fun recursiveSolution(days: IntArray, costs: IntArray, day: Int, cost: Int): Int {
     if (day > days.last()) {
         return cost
     }
@@ -22,11 +136,11 @@ fun recursiveSolution(days: IntArray, costs: IntArray, day: Int, cost: Int): Int
     )
 }
 
-fun recursiveSolutionDriver(days: IntArray, costs: IntArray): Int {
+private fun recursiveSolutionDriver(days: IntArray, costs: IntArray): Int {
     return recursiveSolution(days, costs, 1, 0)
 }
 
-fun mincostTickets(days: IntArray, costs: IntArray): Int {
+private fun mincostTickets1(days: IntArray, costs: IntArray): Int {
     val dp = IntArray(365 + 1) { 0 }
     var i = 1
     while (!days.contains(i)) {
@@ -60,10 +174,4 @@ fun mincostTickets(days: IntArray, costs: IntArray): Int {
 }
 
 private fun main() {
-    val days = intArrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 30, 31)
-    val costs = intArrayOf(2, 7, 15)
-
-    // val result = recursiveSolutionDriver(days, costs)
-    val result = mincostTickets(days, costs)
-    println(result)
 }

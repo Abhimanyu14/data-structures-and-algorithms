@@ -16998,5 +16998,30 @@
     "frontendQuestionId": "3400",
     "title": "Maximum Number of Matching Indices After Right Shifts",
     "titleSlug": "maximum-number-of-matching-indices-after-right-shifts"
+  },
+  {
+    "frontendQuestionId": "3401",
+    "title": "Find Circular Gift Exchange Chains",
+    "titleSlug": "find-circular-gift-exchange-chains"
+  },
+  {
+    "frontendQuestionId": "3402",
+    "title": "Minimum Operations to Make Columns Strictly Increasing",
+    "titleSlug": "minimum-operations-to-make-columns-strictly-increasing"
+  },
+  {
+    "frontendQuestionId": "3403",
+    "title": "Find the Lexicographically Largest String From the Box I",
+    "titleSlug": "find-the-lexicographically-largest-string-from-the-box-i"
+  },
+  {
+    "frontendQuestionId": "3404",
+    "title": "Count Special Subsequences",
+    "titleSlug": "count-special-subsequences"
+  },
+  {
+    "frontendQuestionId": "3405",
+    "title": "Count the Number of Arrays with K Matching Adjacent Elements",
+    "titleSlug": "count-the-number-of-arrays-with-k-matching-adjacent-elements"
   }
 ]
