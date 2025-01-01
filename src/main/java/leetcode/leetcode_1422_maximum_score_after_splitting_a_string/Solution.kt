@@ -5,11 +5,17 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/maximum-score-after-splitting-a-string/?envType=daily-question&envId=2023-12-22
  *
- * Using iteration - two pass
+ * Data Structure - NA
+ * Algorithm - Two Pass
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 133 ms, faster than 100.00%
  * Memory Usage: 35.4 MB, less than 36.36%
+ *
+ * Time -
+ * Space -
  */
 private fun maxScore(s: String): Int {
     var result = Int.MIN_VALUE
