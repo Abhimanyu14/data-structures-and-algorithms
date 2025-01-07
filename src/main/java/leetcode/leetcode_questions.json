@@ -17023,5 +17023,55 @@
     "frontendQuestionId": "3405",
     "title": "Count the Number of Arrays with K Matching Adjacent Elements",
     "titleSlug": "count-the-number-of-arrays-with-k-matching-adjacent-elements"
+  },
+  {
+    "frontendQuestionId": "3406",
+    "title": "Find the Lexicographically Largest String From the Box II",
+    "titleSlug": "find-the-lexicographically-largest-string-from-the-box-ii"
+  },
+  {
+    "frontendQuestionId": "3407",
+    "title": "Substring Matching Pattern",
+    "titleSlug": "substring-matching-pattern"
+  },
+  {
+    "frontendQuestionId": "3408",
+    "title": "Design Task Manager",
+    "titleSlug": "design-task-manager"
+  },
+  {
+    "frontendQuestionId": "3409",
+    "title": "Longest Subsequence With Decreasing Adjacent Difference",
+    "titleSlug": "longest-subsequence-with-decreasing-adjacent-difference"
+  },
+  {
+    "frontendQuestionId": "3410",
+    "title": "Maximize Subarray Sum After Removing All Occurrences of One Element",
+    "titleSlug": "maximize-subarray-sum-after-removing-all-occurrences-of-one-element"
+  },
+  {
+    "frontendQuestionId": "3411",
+    "title": "Maximum Subarray With Equal Products",
+    "titleSlug": "maximum-subarray-with-equal-products"
+  },
+  {
+    "frontendQuestionId": "3412",
+    "title": "Find Mirror Score of a String",
+    "titleSlug": "find-mirror-score-of-a-string"
+  },
+  {
+    "frontendQuestionId": "3413",
+    "title": "Maximum Coins From K Consecutive Bags",
+    "titleSlug": "maximum-coins-from-k-consecutive-bags"
+  },
+  {
+    "frontendQuestionId": "3414",
+    "title": "Maximum Score of Non-overlapping Intervals",
+    "titleSlug": "maximum-score-of-non-overlapping-intervals"
+  },
+  {
+    "frontendQuestionId": "3415",
+    "title": "Find Products with Three Consecutive Digits ",
+    "titleSlug": "find-products-with-three-consecutive-digits"
   }
 ]
