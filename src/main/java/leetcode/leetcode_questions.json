@@ -17073,5 +17073,435 @@
     "frontendQuestionId": "3415",
     "title": "Find Products with Three Consecutive Digits ",
     "titleSlug": "find-products-with-three-consecutive-digits"
+  },
+  {
+    "frontendQuestionId": "3416",
+    "title": "Subsequences with a Unique Middle Mode II",
+    "titleSlug": "subsequences-with-a-unique-middle-mode-ii"
+  },
+  {
+    "frontendQuestionId": "3417",
+    "title": "Zigzag Grid Traversal With Skip",
+    "titleSlug": "zigzag-grid-traversal-with-skip"
+  },
+  {
+    "frontendQuestionId": "3418",
+    "title": "Maximum Amount of Money Robot Can Earn",
+    "titleSlug": "maximum-amount-of-money-robot-can-earn"
+  },
+  {
+    "frontendQuestionId": "3419",
+    "title": "Minimize the Maximum Edge Weight of Graph",
+    "titleSlug": "minimize-the-maximum-edge-weight-of-graph"
+  },
+  {
+    "frontendQuestionId": "3420",
+    "title": "Count Non-Decreasing Subarrays After K Operations",
+    "titleSlug": "count-non-decreasing-subarrays-after-k-operations"
+  },
+  {
+    "frontendQuestionId": "3421",
+    "title": "Find Students Who Improved",
+    "titleSlug": "find-students-who-improved"
+  },
+  {
+    "frontendQuestionId": "3422",
+    "title": "Minimum Operations to Make Subarray Elements Equal",
+    "titleSlug": "minimum-operations-to-make-subarray-elements-equal"
+  },
+  {
+    "frontendQuestionId": "3423",
+    "title": "Maximum Difference Between Adjacent Elements in a Circular Array",
+    "titleSlug": "maximum-difference-between-adjacent-elements-in-a-circular-array"
+  },
+  {
+    "frontendQuestionId": "3424",
+    "title": "Minimum Cost to Make Arrays Identical",
+    "titleSlug": "minimum-cost-to-make-arrays-identical"
+  },
+  {
+    "frontendQuestionId": "3425",
+    "title": "Longest Special Path",
+    "titleSlug": "longest-special-path"
+  },
+  {
+    "frontendQuestionId": "3426",
+    "title": "Manhattan Distances of All Arrangements of Pieces",
+    "titleSlug": "manhattan-distances-of-all-arrangements-of-pieces"
+  },
+  {
+    "frontendQuestionId": "3427",
+    "title": "Sum of Variable Length Subarrays",
+    "titleSlug": "sum-of-variable-length-subarrays"
+  },
+  {
+    "frontendQuestionId": "3428",
+    "title": "Maximum and Minimum Sums of at Most Size K Subsequences",
+    "titleSlug": "maximum-and-minimum-sums-of-at-most-size-k-subsequences"
+  },
+  {
+    "frontendQuestionId": "3429",
+    "title": "Paint House IV",
+    "titleSlug": "paint-house-iv"
+  },
+  {
+    "frontendQuestionId": "3430",
+    "title": "Maximum and Minimum Sums of at Most Size K Subarrays",
+    "titleSlug": "maximum-and-minimum-sums-of-at-most-size-k-subarrays"
+  },
+  {
+    "frontendQuestionId": "3431",
+    "title": "Minimum Unlocked Indices to Sort Nums",
+    "titleSlug": "minimum-unlocked-indices-to-sort-nums"
+  },
+  {
+    "frontendQuestionId": "3432",
+    "title": "Count Partitions with Even Sum Difference",
+    "titleSlug": "count-partitions-with-even-sum-difference"
+  },
+  {
+    "frontendQuestionId": "3433",
+    "title": "Count Mentions Per User",
+    "titleSlug": "count-mentions-per-user"
+  },
+  {
+    "frontendQuestionId": "3434",
+    "title": "Maximum Frequency After Subarray Operation",
+    "titleSlug": "maximum-frequency-after-subarray-operation"
+  },
+  {
+    "frontendQuestionId": "3435",
+    "title": "Frequencies of Shortest Supersequences",
+    "titleSlug": "frequencies-of-shortest-supersequences"
+  },
+  {
+    "frontendQuestionId": "3436",
+    "title": "Find Valid Emails",
+    "titleSlug": "find-valid-emails"
+  },
+  {
+    "frontendQuestionId": "3437",
+    "title": "Permutations III",
+    "titleSlug": "permutations-iii"
+  },
+  {
+    "frontendQuestionId": "3438",
+    "title": "Find Valid Pair of Adjacent Digits in String",
+    "titleSlug": "find-valid-pair-of-adjacent-digits-in-string"
+  },
+  {
+    "frontendQuestionId": "3439",
+    "title": "Reschedule Meetings for Maximum Free Time I",
+    "titleSlug": "reschedule-meetings-for-maximum-free-time-i"
+  },
+  {
+    "frontendQuestionId": "3440",
+    "title": "Reschedule Meetings for Maximum Free Time II",
+    "titleSlug": "reschedule-meetings-for-maximum-free-time-ii"
+  },
+  {
+    "frontendQuestionId": "3441",
+    "title": "Minimum Cost Good Caption",
+    "titleSlug": "minimum-cost-good-caption"
+  },
+  {
+    "frontendQuestionId": "3442",
+    "title": "Maximum Difference Between Even and Odd Frequency I",
+    "titleSlug": "maximum-difference-between-even-and-odd-frequency-i"
+  },
+  {
+    "frontendQuestionId": "3443",
+    "title": "Maximum Manhattan Distance After K Changes",
+    "titleSlug": "maximum-manhattan-distance-after-k-changes"
+  },
+  {
+    "frontendQuestionId": "3444",
+    "title": "Minimum Increments for Target Multiples in an Array",
+    "titleSlug": "minimum-increments-for-target-multiples-in-an-array"
+  },
+  {
+    "frontendQuestionId": "3445",
+    "title": "Maximum Difference Between Even and Odd Frequency II",
+    "titleSlug": "maximum-difference-between-even-and-odd-frequency-ii"
+  },
+  {
+    "frontendQuestionId": "3446",
+    "title": "Sort Matrix by Diagonals",
+    "titleSlug": "sort-matrix-by-diagonals"
+  },
+  {
+    "frontendQuestionId": "3447",
+    "title": "Assign Elements to Groups with Constraints",
+    "titleSlug": "assign-elements-to-groups-with-constraints"
+  },
+  {
+    "frontendQuestionId": "3448",
+    "title": "Count Substrings Divisible By Last Digit",
+    "titleSlug": "count-substrings-divisible-by-last-digit"
+  },
+  {
+    "frontendQuestionId": "3449",
+    "title": "Maximize the Minimum Game Score",
+    "titleSlug": "maximize-the-minimum-game-score"
+  },
+  {
+    "frontendQuestionId": "3450",
+    "title": "Maximum Students on a Single Bench",
+    "titleSlug": "maximum-students-on-a-single-bench"
+  },
+  {
+    "frontendQuestionId": "3451",
+    "title": "Find Invalid IP Addresses",
+    "titleSlug": "find-invalid-ip-addresses"
+  },
+  {
+    "frontendQuestionId": "3452",
+    "title": "Sum of Good Numbers",
+    "titleSlug": "sum-of-good-numbers"
+  },
+  {
+    "frontendQuestionId": "3453",
+    "title": "Separate Squares I",
+    "titleSlug": "separate-squares-i"
+  },
+  {
+    "frontendQuestionId": "3454",
+    "title": "Separate Squares II",
+    "titleSlug": "separate-squares-ii"
+  },
+  {
+    "frontendQuestionId": "3455",
+    "title": "Shortest Matching Substring",
+    "titleSlug": "shortest-matching-substring"
+  },
+  {
+    "frontendQuestionId": "3456",
+    "title": "Find Special Substring of Length K",
+    "titleSlug": "find-special-substring-of-length-k"
+  },
+  {
+    "frontendQuestionId": "3457",
+    "title": "Eat Pizzas!",
+    "titleSlug": "eat-pizzas"
+  },
+  {
+    "frontendQuestionId": "3458",
+    "title": "Select K Disjoint Special Substrings",
+    "titleSlug": "select-k-disjoint-special-substrings"
+  },
+  {
+    "frontendQuestionId": "3459",
+    "title": "Length of Longest V-Shaped Diagonal Segment",
+    "titleSlug": "length-of-longest-v-shaped-diagonal-segment"
+  },
+  {
+    "frontendQuestionId": "3460",
+    "title": "Longest Common Prefix After at Most One Removal",
+    "titleSlug": "longest-common-prefix-after-at-most-one-removal"
+  },
+  {
+    "frontendQuestionId": "3461",
+    "title": "Check If Digits Are Equal in String After Operations I",
+    "titleSlug": "check-if-digits-are-equal-in-string-after-operations-i"
+  },
+  {
+    "frontendQuestionId": "3462",
+    "title": "Maximum Sum With at Most K Elements",
+    "titleSlug": "maximum-sum-with-at-most-k-elements"
+  },
+  {
+    "frontendQuestionId": "3463",
+    "title": "Check If Digits Are Equal in String After Operations II",
+    "titleSlug": "check-if-digits-are-equal-in-string-after-operations-ii"
+  },
+  {
+    "frontendQuestionId": "3464",
+    "title": "Maximize the Distance Between Points on a Square",
+    "titleSlug": "maximize-the-distance-between-points-on-a-square"
+  },
+  {
+    "frontendQuestionId": "3465",
+    "title": "Find Products with Valid Serial Numbers",
+    "titleSlug": "find-products-with-valid-serial-numbers"
+  },
+  {
+    "frontendQuestionId": "3466",
+    "title": "Maximum Coin Collection ",
+    "titleSlug": "maximum-coin-collection"
+  },
+  {
+    "frontendQuestionId": "3467",
+    "title": "Transform Array by Parity",
+    "titleSlug": "transform-array-by-parity"
+  },
+  {
+    "frontendQuestionId": "3468",
+    "title": "Find the Number of Copy Arrays",
+    "titleSlug": "find-the-number-of-copy-arrays"
+  },
+  {
+    "frontendQuestionId": "3469",
+    "title": "Find Minimum Cost to Remove Array Elements",
+    "titleSlug": "find-minimum-cost-to-remove-array-elements"
+  },
+  {
+    "frontendQuestionId": "3470",
+    "title": "Permutations IV",
+    "titleSlug": "permutations-iv"
+  },
+  {
+    "frontendQuestionId": "3471",
+    "title": "Find the Largest Almost Missing Integer",
+    "titleSlug": "find-the-largest-almost-missing-integer"
+  },
+  {
+    "frontendQuestionId": "3472",
+    "title": "Longest Palindromic Subsequence After at Most K Operations",
+    "titleSlug": "longest-palindromic-subsequence-after-at-most-k-operations"
+  },
+  {
+    "frontendQuestionId": "3473",
+    "title": "Sum of K Subarrays With Length at Least M",
+    "titleSlug": "sum-of-k-subarrays-with-length-at-least-m"
+  },
+  {
+    "frontendQuestionId": "3474",
+    "title": "Lexicographically Smallest Generated String",
+    "titleSlug": "lexicographically-smallest-generated-string"
+  },
+  {
+    "frontendQuestionId": "3475",
+    "title": "DNA Pattern Recognition ",
+    "titleSlug": "dna-pattern-recognition"
+  },
+  {
+    "frontendQuestionId": "3476",
+    "title": "Maximize Profit from Task Assignment",
+    "titleSlug": "maximize-profit-from-task-assignment"
+  },
+  {
+    "frontendQuestionId": "3477",
+    "title": "Fruits Into Baskets II",
+    "titleSlug": "fruits-into-baskets-ii"
+  },
+  {
+    "frontendQuestionId": "3478",
+    "title": "Choose K Elements With Maximum Sum",
+    "titleSlug": "choose-k-elements-with-maximum-sum"
+  },
+  {
+    "frontendQuestionId": "3479",
+    "title": "Fruits Into Baskets III",
+    "titleSlug": "fruits-into-baskets-iii"
+  },
+  {
+    "frontendQuestionId": "3480",
+    "title": "Maximize Subarrays After Removing One Conflicting Pair",
+    "titleSlug": "maximize-subarrays-after-removing-one-conflicting-pair"
+  },
+  {
+    "frontendQuestionId": "3481",
+    "title": "Apply Substitutions",
+    "titleSlug": "apply-substitutions"
+  },
+  {
+    "frontendQuestionId": "3482",
+    "title": "Analyze Organization Hierarchy",
+    "titleSlug": "analyze-organization-hierarchy"
+  },
+  {
+    "frontendQuestionId": "3483",
+    "title": "Unique 3-Digit Even Numbers",
+    "titleSlug": "unique-3-digit-even-numbers"
+  },
+  {
+    "frontendQuestionId": "3484",
+    "title": "Design Spreadsheet",
+    "titleSlug": "design-spreadsheet"
+  },
+  {
+    "frontendQuestionId": "3485",
+    "title": "Longest Common Prefix of K Strings After Removal",
+    "titleSlug": "longest-common-prefix-of-k-strings-after-removal"
+  },
+  {
+    "frontendQuestionId": "3486",
+    "title": "Longest Special Path II",
+    "titleSlug": "longest-special-path-ii"
+  },
+  {
+    "frontendQuestionId": "3487",
+    "title": "Maximum Unique Subarray Sum After Deletion",
+    "titleSlug": "maximum-unique-subarray-sum-after-deletion"
+  },
+  {
+    "frontendQuestionId": "3488",
+    "title": "Closest Equal Element Queries",
+    "titleSlug": "closest-equal-element-queries"
+  },
+  {
+    "frontendQuestionId": "3489",
+    "title": "Zero Array Transformation IV",
+    "titleSlug": "zero-array-transformation-iv"
+  },
+  {
+    "frontendQuestionId": "3490",
+    "title": "Count Beautiful Numbers",
+    "titleSlug": "count-beautiful-numbers"
+  },
+  {
+    "frontendQuestionId": "3491",
+    "title": "Phone Number Prefix",
+    "titleSlug": "phone-number-prefix"
+  },
+  {
+    "frontendQuestionId": "3492",
+    "title": "Maximum Containers on a Ship",
+    "titleSlug": "maximum-containers-on-a-ship"
+  },
+  {
+    "frontendQuestionId": "3493",
+    "title": "Properties Graph",
+    "titleSlug": "properties-graph"
+  },
+  {
+    "frontendQuestionId": "3494",
+    "title": "Find the Minimum Amount of Time to Brew Potions",
+    "titleSlug": "find-the-minimum-amount-of-time-to-brew-potions"
+  },
+  {
+    "frontendQuestionId": "3495",
+    "title": "Minimum Operations to Make Array Elements Zero",
+    "titleSlug": "minimum-operations-to-make-array-elements-zero"
+  },
+  {
+    "frontendQuestionId": "3496",
+    "title": "Maximize Score After Pair Deletions",
+    "titleSlug": "maximize-score-after-pair-deletions"
+  },
+  {
+    "frontendQuestionId": "3497",
+    "title": "Analyze Subscription Conversion ",
+    "titleSlug": "analyze-subscription-conversion"
+  },
+  {
+    "frontendQuestionId": "3498",
+    "title": "Reverse Degree of a String",
+    "titleSlug": "reverse-degree-of-a-string"
+  },
+  {
+    "frontendQuestionId": "3499",
+    "title": "Maximize Active Section with Trade I",
+    "titleSlug": "maximize-active-section-with-trade-i"
+  },
+  {
+    "frontendQuestionId": "3500",
+    "title": "Minimum Cost to Divide Array Into Subarrays",
+    "titleSlug": "minimum-cost-to-divide-array-into-subarrays"
+  },
+  {
+    "frontendQuestionId": "3501",
+    "title": "Maximize Active Section with Trade II",
+    "titleSlug": "maximize-active-section-with-trade-ii"
   }
 ]

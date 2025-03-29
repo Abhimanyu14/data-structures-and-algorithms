@@ -3,17 +3,27 @@ package leetcode.leetcode_528_random_pick_with_weight
 /**
  * leetcode - https://leetcode.com/problems/random-pick-with-weight/
  *
- * Using random()
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm -
+ *
+ * Using [random]
+ *
+ * Difficulty - Medium
  *
  * Stats
  *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private class Solution(w: IntArray) {
-    private val prefixSums: IntArray
+    private val prefixSums: IntArray = IntArray(w.size)
     private val totalSum: Int
 
     init {
-        prefixSums = IntArray(w.size)
         var prefixSum = 0
         for (i in w.indices) {
             prefixSum += w[i]

@@ -5,11 +5,21 @@ import data_structures_and_algorithms.TreeNode
 /**
  * leetcode - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
  *
- * Using
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 431 ms, faster than 10.41%
  * Memory Usage: 223.6 MB, less than 5.43%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun lowestCommonAncestor(root: TreeNode?, p: TreeNode?, q: TreeNode?): TreeNode? {
     fun findNodePath(head: TreeNode?, target: TreeNode?, currentPath: String): String? {
@@ -19,10 +29,10 @@ private fun lowestCommonAncestor(root: TreeNode?, p: TreeNode?, q: TreeNode?): T
         if (head?.left == null && head?.right == null) {
             return null
         }
-        findNodePath(head?.left, target, currentPath + "L")?.let {
+        findNodePath(head.left, target, currentPath + "L")?.let {
             return it
         }
-        findNodePath(head?.right, target, currentPath + "R")?.let {
+        findNodePath(head.right, target, currentPath + "R")?.let {
             return it
         }
         return null

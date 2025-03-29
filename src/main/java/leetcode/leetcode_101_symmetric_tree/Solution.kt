@@ -5,11 +5,21 @@ import data_structures_and_algorithms.TreeNode
 /**
  * leetcode - https://leetcode.com/problems/symmetric-tree/
  *
- * Using recursion
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - Recursion
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 166 ms, faster than 23.66%
  * Memory Usage: 34.4 MB, less than 85.07%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun isSymmetric(root: TreeNode?): Boolean {
     if (root == null) {

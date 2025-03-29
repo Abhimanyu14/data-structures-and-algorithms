@@ -16,6 +16,8 @@ package leetcode.leetcode_162_find_peak_element
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun findPeakElement(nums: IntArray): Int {
     var left = 0

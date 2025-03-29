@@ -5,7 +5,19 @@ import data_structures_and_algorithms.searching.quickSelectDriver
 /**
  * leetcode - https://leetcode.com/problems/kth-largest-element-in-an-array/
  *
- * Using Quick Select
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - Quick Select
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 fun findKthLargest(nums: IntArray, k: Int): Int {
     return quickSelectDriver(nums, nums.size - k + 1)

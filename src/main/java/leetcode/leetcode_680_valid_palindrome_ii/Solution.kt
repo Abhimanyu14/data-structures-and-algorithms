@@ -3,11 +3,19 @@ package leetcode.leetcode_680_valid_palindrome_ii
 /**
  * leetcode - https://leetcode.com/problems/valid-palindrome-ii/
  *
- * Using recursion
+ * Data Structure -
+ * Algorithm - Recursion
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 264 ms, faster than 49.49%
  * Memory Usage: 39.3 MB, less than 16.33%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun validPalindrome(s: String): Boolean {
     fun isPalindrome(start: Int, end: Int, buffer: Int): Boolean {

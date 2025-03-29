@@ -3,11 +3,23 @@ package leetcode.leetcode_71_simplify_path
 /**
  * leetcode - https://leetcode.com/problems/simplify-path/
  *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [ArrayDeque], [StringBuilder]
+ * Algorithm -
+ *
  * Using string splits and deque
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 205 ms, faster than 92.73%
  * Memory Usage: 35.9 MB, less than 96.36%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun simplifyPath(path: String): String {
     val deque = ArrayDeque<String>()
