@@ -34,7 +34,7 @@ fun fibonacciIterative(n: Int): Int {
     return first + second
 }
 
-fun main() {
+private fun main() {
     IntArray(10) { it }.forEach {
         // println(fibonacci(it))
         // println(fibonacciIterative(it))

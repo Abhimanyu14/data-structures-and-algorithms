@@ -22,6 +22,6 @@ private fun getLastMoment(n: Int, left: IntArray, right: IntArray): Int {
     return result
 }
 
-fun main() {
+private fun main() {
 
 }

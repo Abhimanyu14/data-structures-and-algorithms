@@ -4,7 +4,7 @@ fun eightQueens() {
     // TODO
 }
 
-fun main() {
+private fun main() {
     val result = eightQueens()
     print(result)
 }

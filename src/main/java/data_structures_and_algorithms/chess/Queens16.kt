@@ -16,7 +16,7 @@ fun printBoard(
     println()
 }
 
-fun main() {
+private fun main() {
     val x = 1..2
     val y = 1.0..5.0
     val z = 1..<5

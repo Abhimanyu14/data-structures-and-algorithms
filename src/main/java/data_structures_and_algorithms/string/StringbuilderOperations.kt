@@ -1,6 +1,6 @@
 package data_structures_and_algorithms.string
 
-fun main() {
+private fun main() {
     val stringBuilder = StringBuilder()
 
     stringBuilder.append('a')

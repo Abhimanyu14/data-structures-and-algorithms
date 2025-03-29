@@ -22,6 +22,6 @@ fun parenthesisMatching(input: String) {
     }
 }
 
-fun main() {
+private fun main() {
     parenthesisMatching("(A+B()))")
 }

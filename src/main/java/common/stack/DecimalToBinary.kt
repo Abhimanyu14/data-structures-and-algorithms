@@ -16,7 +16,7 @@ fun decimalToBinary(decimal: Int): String {
     return result
 }
 
-fun main() {
+private fun main() {
     val result = decimalToBinary(25)
     print(result)
 }

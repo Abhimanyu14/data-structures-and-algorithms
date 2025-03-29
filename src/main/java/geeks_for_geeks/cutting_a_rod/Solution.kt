@@ -51,7 +51,7 @@ fun tabulationSolution(prices: IntArray, length: Int): Int {
     return dp[length]
 }
 
-fun main() {
+private fun main() {
     // println(recursiveSolution(intArrayOf(1, 5, 8, 9, 10, 17, 17, 20), 8))
     // println(memoizationSolutionDriver(intArrayOf(1, 5, 8, 9, 10, 17, 17, 20), 8))
     println(tabulationSolution(intArrayOf(1, 5, 8, 9, 10, 17, 17, 20), 8))

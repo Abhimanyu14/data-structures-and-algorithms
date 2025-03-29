@@ -11,7 +11,7 @@ fun gcd(a: Int, b: Int): Int {
     }
 }
 
-fun main() {
+private fun main() {
     val result = gcd(10, 25)
     print(result)
 }

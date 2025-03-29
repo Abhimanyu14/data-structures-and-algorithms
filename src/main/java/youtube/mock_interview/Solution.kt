@@ -29,7 +29,7 @@ private fun productExceptSelf(arr: IntArray): IntArray {
     }
 }
 
-fun main() {
+private fun main() {
     println(productExceptSelf(intArrayOf(1, 2, 3, 4)).joinToString(", "))
     println(productExceptSelf(intArrayOf(0, 1, 2, 3, 4)).joinToString(", "))
     println(productExceptSelf(intArrayOf(0, 1, 2, 0, 4)).joinToString(", "))

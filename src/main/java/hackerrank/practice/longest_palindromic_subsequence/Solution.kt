@@ -37,7 +37,7 @@ fun longestPalindromicSubsequence(str: String): Int {
     return solution(str)
 }
 
-fun main() {
+private fun main() {
     val result = longestPalindromicSubsequence("BABCBAB")
     println(result)
 }

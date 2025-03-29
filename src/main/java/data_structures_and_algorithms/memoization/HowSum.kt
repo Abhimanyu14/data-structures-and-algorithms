@@ -43,7 +43,7 @@ fun howSum(nums: IntArray, sum: Int, memo: HashMap<Int, IntArray?>): IntArray? {
     return memo[sum]
 }
 
-fun main() {
+private fun main() {
     val input1 = intArrayOf(2, 3)
     val input2 = intArrayOf(5, 3, 4, 7)
     val input3 = intArrayOf(2, 4)

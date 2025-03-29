@@ -18,7 +18,7 @@ fun solution(arr: IntArray, size: Int): Int {
     return result
 }
 
-fun main() {
+private fun main() {
     val result = solution(intArrayOf(100, 200, 300, 400), 2)
     println(result)
 }

@@ -11,7 +11,7 @@ import kotlin.math.max
  * Data Structure - Tree
  * Algorithm - Recursion
  *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 3 ms, faster than 17.78%
@@ -19,6 +19,8 @@ import kotlin.math.max
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun diameterOfBinaryTree(root: TreeNode?): Int {
     if (root == null) {
@@ -29,7 +31,7 @@ private fun diameterOfBinaryTree(root: TreeNode?): Int {
         val (rightLongestPath, rightLongestDiameter) = head.right?.run { findDiameterOfBinaryTree(this) } ?: Pair(0, 0)
         return Pair(
             max(leftLongestPath, rightLongestPath) + 1,
-            max(max(leftLongestDiameter, rightLongestDiameter), leftLongestPath + rightLongestPath + 1)
+            maxOf(leftLongestDiameter, rightLongestDiameter, leftLongestPath + rightLongestPath + 1)
         )
     }
     return findDiameterOfBinaryTree(root).second - 1

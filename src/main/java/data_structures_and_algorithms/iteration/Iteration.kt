@@ -1,6 +1,6 @@
 package data_structures_and_algorithms.iteration
 
-fun main() {
+private fun main() {
     val list = listOf(1, 4, 6, 7, 9, 12, 35, 67, 79, 80)
 
     list.forEach {

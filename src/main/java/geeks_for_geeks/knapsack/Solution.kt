@@ -46,7 +46,7 @@ private fun dynamicProgrammingSolution(values: IntArray, weights: IntArray, capa
 
 // TODO-Implement other solutions
 
-fun main() {
+private fun main() {
     val result = dynamicProgrammingSolution(intArrayOf(60, 100, 120), intArrayOf(10, 20, 30), 50, 3)
     println(result)
 }

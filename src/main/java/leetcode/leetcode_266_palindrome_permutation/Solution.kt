@@ -1,20 +1,33 @@
 package leetcode.leetcode_266_palindrome_permutation
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/palindrome-permutation/description/?envType=company&envId=facebook&favoriteSlug=facebook-six-months
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - [Array]
+ * Algorithm - Counting
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
+ *
+ * Companies - Meta
  */
+private fun canPermutePalindrome(s: String): Boolean {
+    val counter = IntArray(26)
+    for (char in s) {
+        counter[char - 'a']++
+    }
+    var oddCount = 0
+    for (i in 0..25) {
+        if (counter[i] % 2 == 1) {
+            oddCount++
+        }
+    }
+    return oddCount <= 1
+}
 private fun main() {
 
 }

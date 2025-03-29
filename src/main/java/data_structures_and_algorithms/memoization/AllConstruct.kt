@@ -29,7 +29,7 @@ fun allConstruct(words: List<String>, target: String, memo: HashMap<String, List
     return memo[target]
 }
 
-fun main() {
+private fun main() {
     val input1 = listOf("ab", "abc", "cd", "def", "abcd") // 1
     val input2 = listOf("bo", "rd", "ate", "t", "ska", "sk", "boar") // 0
     val input3 = listOf("purp", "p", "ur", "le", "purpl") //

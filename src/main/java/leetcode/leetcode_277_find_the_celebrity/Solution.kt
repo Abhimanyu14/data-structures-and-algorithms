@@ -6,11 +6,22 @@ private fun knows(i: Int, j: Int): Boolean {
 
 /**
  * leetcode - https://leetcode.com/problems/find-the-celebrity/
- * Using logical deduction
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - Logical deduction
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime - 69.57%
  * Memory - 56.52%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun findCelebrity(n: Int): Int {
     var celebrity = 0

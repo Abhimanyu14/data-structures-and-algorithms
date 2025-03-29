@@ -8,7 +8,7 @@ fun combination(n: Int, k: Int): Int {
     }
 }
 
-fun main() {
+private fun main() {
     val result = combination(4, 2)
     print(result)
 }

@@ -18,7 +18,7 @@ fun solution(arr: IntArray): Int {
     return result
 }
 
-fun main() {
+private fun main() {
     val result = solution(intArrayOf(-2, -3, 4, -1, -2, 1, 5, -3))
     println(result)
 }

@@ -19,7 +19,7 @@ fun reverseList(head: ListNode?): ListNode? {
     return prev
 }
 
-fun main() {
+private fun main() {
     val input = intArrayOf(1, 2, 3, 4, 5)
     val listNode = createLinkedList(input)
     val result = reverseList(listNode)

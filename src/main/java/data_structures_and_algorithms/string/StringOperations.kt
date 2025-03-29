@@ -1,6 +1,6 @@
 package data_structures_and_algorithms.string
 
-fun main() {
+private fun main() {
     val string = "123"
 
     string.forEach {

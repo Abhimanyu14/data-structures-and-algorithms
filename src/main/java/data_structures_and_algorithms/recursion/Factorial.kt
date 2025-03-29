@@ -14,7 +14,7 @@ fun factorialTailRecursion(n: Int, result: Int): Int {
     return factorialTailRecursion(n - 1, result * n)
 }
 
-fun main() {
+private fun main() {
     // val result = factorial(5)
     val result = factorialTailRecursion(5, 1)
     print(result)

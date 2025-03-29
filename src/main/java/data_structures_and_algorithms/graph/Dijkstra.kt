@@ -34,7 +34,7 @@ private fun findMinimumCost(graph: Map<Int, List<Pair<Int, Int>>>, n: Int, start
     return minimumCost
 }
 
-fun main() {
+private fun main() {
     val graph1 = mapOf(
         0 to listOf(Pair(1, 4), Pair(2, 1)),
         1 to listOf(Pair(3, 1)),

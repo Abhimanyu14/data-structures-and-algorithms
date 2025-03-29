@@ -37,7 +37,7 @@ private fun binarySearch(input: IntArray, target: Int): Int {
     return binarySearchIterative(input, target)
 }
 
-fun main() {
+private fun main() {
     val input = intArrayOf(1, 2, 5, 8)
     println("1 at index: ${binarySearch(input, 1)}")
     println("2 at index: ${binarySearch(input, 2)}")

@@ -1,20 +1,34 @@
 package leetcode.leetcode_1762_buildings_with_an_ocean_view
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/buildings-with-an-ocean-view/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - [List]
+ * Algorithm - Iteration
  *
- * Data Structure -
- * Algorithm -
+ * Using [reversed], [toIntArray]
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(N)
+ *
+ * Companies - Meta
  */
+private fun findBuildings(heights: IntArray): IntArray {
+    val result = mutableListOf<Int>()
+    var current = 0
+    for (i in heights.lastIndex downTo 0) {
+        if (heights[i] > current) {
+            current = heights[i]
+            result.add(i)
+        }
+    }
+    return result.reversed().toIntArray()
+}
+
 private fun main() {
 
 }

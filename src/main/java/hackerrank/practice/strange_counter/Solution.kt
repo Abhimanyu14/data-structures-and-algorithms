@@ -31,7 +31,7 @@ fun strangeCounter(t: Long): Long {
     return 12 * ((t + 2) / 3).takeHighestOneBit() - t - 2
 }
 
-fun main() {
+private fun main() {
     for (i in 0..30) {
         val result = strangeCounter(i.toLong())
         println(result)

@@ -40,7 +40,7 @@ private fun maximumPairwiseProductTwoPointer(
     return largest * secondLargest
 }
 
-fun main() {
+private fun main() {
     for (i in 0..100) {
         val success = driver(
             method1 = ::maximumPairwiseProductNaive,

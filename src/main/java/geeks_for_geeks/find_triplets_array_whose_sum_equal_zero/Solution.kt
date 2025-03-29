@@ -16,7 +16,7 @@ private fun zeroSumTripletsNaive(intArray: IntArray) {
     println()
 }
 
-fun main() {
+private fun main() {
     zeroSumTripletsNaive(intArrayOf(0, -1, 2, -3, 1))
     zeroSumTripletsNaive(intArrayOf(1, -2, 1, 0, 5))
 }

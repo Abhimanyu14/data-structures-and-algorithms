@@ -31,7 +31,7 @@ private fun givenSumPairCountHashMap(
     return result
 }
 
-fun main() {
+private fun main() {
     val solutionMethod = ::givenSumPairCountHashMap
 
 //    println(solutionMethod(intArrayOf(1, 5, 7, -1), 6))

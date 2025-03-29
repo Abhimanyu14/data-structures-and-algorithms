@@ -6,13 +6,21 @@ import java.util.Queue
 /**
  * leetcode - https://leetcode.com/problems/moving-average-from-data-stream/
  *
- * Using Java Queue
+ * Data Structure - Queue - Java LinkedList
+ * Algorithm - Queue addition and removal
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 375 ms, faster than 95.06%
  * Memory Usage: 43.1 MB, less than 97.53%
+ *
+ * Time - O(N)
+ * Space - O(N)
+ *
+ * Companies - Meta
  */
-class MovingAverageUsingJavaQueue(size: Int) {
+private class MovingAverageUsingJavaQueue(size: Int) {
     private val window = size
     private var total = 0
     private var count = 0
@@ -33,13 +41,21 @@ class MovingAverageUsingJavaQueue(size: Int) {
 /**
  * leetcode - https://leetcode.com/problems/moving-average-from-data-stream/
  *
- * Using Queue - Array Deque
+ * Data Structure - Queue - Array Deque
+ * Algorithm - Queue addition and removal
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 761 ms, faster than 61.54%
  * Memory Usage: 77.3 MB, less than 71.79%
+ *
+ * Time - O(N)
+ * Space - O(N)
+ *
+ * Companies - Meta
  */
-class MovingAverage(size: Int) {
+private class MovingAverage(size: Int) {
     private val window = size
     private var total = 0
     private val queue = ArrayDeque<Int>()

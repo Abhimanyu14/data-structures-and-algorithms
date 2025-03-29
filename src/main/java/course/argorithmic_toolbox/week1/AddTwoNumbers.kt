@@ -7,7 +7,7 @@ private fun sum(
     return a + b
 }
 
-fun main() {
+private fun main() {
     val (a, b) = readLine()!!.split(' ').map { it.toInt() }
     val result = sum(a, b)
     println(result)

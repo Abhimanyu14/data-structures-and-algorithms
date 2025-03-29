@@ -23,7 +23,7 @@ fun countWays(coins: IntArray, amount: Int): Int {
     return table[amount]
 }
 
-fun main() {
+private fun main() {
     val coins = intArrayOf(1, 2, 3)
     val amount = 4
     println(countWays(coins, amount))

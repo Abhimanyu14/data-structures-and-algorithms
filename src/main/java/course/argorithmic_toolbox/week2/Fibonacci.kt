@@ -51,7 +51,7 @@ private fun fibonacciTwoPointer(
     return second
 }
 
-fun main() {
+private fun main() {
     println(fibonacciRecursion(20))
     println(fibonacciTailRecursion(20))
     println(fibonacciDynamicProblem(20))

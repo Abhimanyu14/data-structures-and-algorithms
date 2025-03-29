@@ -29,7 +29,7 @@ fun getAdjacentChar(s: String): Char {
     return '0'
 }
 
-fun main() {
+private fun main() {
     val result = alternate("abaacdabd")
     println(result)
 }

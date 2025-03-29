@@ -10,7 +10,7 @@ private fun getDigits(n: Int): List<Int> {
     return digits.reversed()
 }
 
-fun main() {
+private fun main() {
     println(getDigits(1234))
     println(getDigits(1234567890))
 }

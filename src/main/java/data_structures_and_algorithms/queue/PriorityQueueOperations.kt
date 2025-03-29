@@ -11,7 +11,7 @@ import java.util.PriorityQueue
  * Other operations
  * isEmpty(), size, clear()
  */
-fun main() {
+private fun main() {
     val priorityQueue = PriorityQueue<Int>()
     println()
     println("Created queue")

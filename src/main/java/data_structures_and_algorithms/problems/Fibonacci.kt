@@ -39,7 +39,7 @@ fun bottomUpSolution(n: Int): Int {
     return arr[n]
 }
 
-fun main() {
+private fun main() {
     for (i in 0..10) {
         println(bottomUpSolution(i))
     }

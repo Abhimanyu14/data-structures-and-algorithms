@@ -4,7 +4,7 @@ fun evaluatingPostfix() {
     // TODO
 }
 
-fun main() {
+private fun main() {
     val result = evaluatingPostfix()
     print(result)
 }

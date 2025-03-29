@@ -10,7 +10,7 @@ private fun greatestCommonDivisor(a: Int, b: Int): Int {
     return greatestCommonDivisor(b, a % b)
 }
 
-fun main() {
+private fun main() {
     val list = listOf(
         Pair(2, 3),
         Pair(3, 4),

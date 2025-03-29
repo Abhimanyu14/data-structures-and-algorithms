@@ -19,7 +19,7 @@ private fun firstRecurringCharacter(s: String): Char? {
     return null
 }
 
-fun main() {
+private fun main() {
     println(firstRecurringCharacter("ABCA"))
     println(firstRecurringCharacter("BCABA"))
     println(firstRecurringCharacter("ABC"))

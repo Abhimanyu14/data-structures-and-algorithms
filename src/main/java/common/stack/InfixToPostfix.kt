@@ -4,7 +4,7 @@ fun infixToPostfix() {
     // TODO
 }
 
-fun main() {
+private fun main() {
     val result = infixToPostfix()
     print(result)
 }

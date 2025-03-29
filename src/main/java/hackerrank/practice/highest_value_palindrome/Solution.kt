@@ -42,7 +42,7 @@ fun highestValuePalindrome(s: String, n: Int, k: Int): String {
     return "No result"
 }
 
-fun main() {
+private fun main() {
     val result = highestValuePalindrome("3943", 4, 1)
     println(result)
 }

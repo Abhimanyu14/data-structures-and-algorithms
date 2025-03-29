@@ -25,7 +25,7 @@ fun icecreamParlor(m: Int, arr: Array<Int>): Array<Int> {
     return emptyArray()
 }
 
-fun main() {
+private fun main() {
     println(icecreamParlorUsingMap(4, arrayOf(1, 4, 5, 3, 2)).joinToString())
     println(icecreamParlorUsingMap(4, arrayOf(2, 2, 4, 3)).joinToString())
 }

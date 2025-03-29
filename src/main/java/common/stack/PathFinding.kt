@@ -4,7 +4,7 @@ fun pathFinding() {
     // TODO after graph
 }
 
-fun main() {
+private fun main() {
     val result = pathFinding()
     print(result)
 }

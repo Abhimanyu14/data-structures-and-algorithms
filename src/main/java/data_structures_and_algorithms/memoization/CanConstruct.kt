@@ -22,7 +22,7 @@ fun canConstruct(words: List<String>, target: String, memo: HashMap<String, Bool
     return false
 }
 
-fun main() {
+private fun main() {
     val input1 = listOf("ab", "abc", "cd", "def", "abcd")
     val input2 = listOf("bo", "rd", "ate", "t", "ska", "sk", "boar")
     println(canConstruct(input1, "abcdef", hashMapOf()))

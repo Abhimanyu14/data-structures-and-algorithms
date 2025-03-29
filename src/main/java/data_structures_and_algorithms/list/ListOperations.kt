@@ -5,7 +5,7 @@ package data_structures_and_algorithms.list
  *
  * sorted(), filterNot{},
  */
-fun main() {
+private fun main() {
     val list = listOf(5, 27, 8, 3, 68, 3, 6, 2, 6)
 
     // Sorted

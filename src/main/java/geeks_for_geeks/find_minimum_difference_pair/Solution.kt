@@ -24,7 +24,7 @@ fun solutionUsingSorting(arr: IntArray): Int {
     return result
 }
 
-fun main() {
+private fun main() {
     val input1 = intArrayOf(1, 5, 3, 19, 18, 25)
     val input2 = intArrayOf(30, 5, 20, 9)
     val input3 = intArrayOf(1, 19, -4, 31, 38, 25, 100)

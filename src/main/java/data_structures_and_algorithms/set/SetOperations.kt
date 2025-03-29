@@ -1,6 +1,6 @@
 package data_structures_and_algorithms.set
 
-fun main() {
+private fun main() {
     val set1 = setOf(1, 2, 3)
     val set2 = setOf(3, 4, 5)
 

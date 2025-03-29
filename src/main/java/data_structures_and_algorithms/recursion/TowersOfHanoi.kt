@@ -10,6 +10,6 @@ fun towersOfHanoi(n: Int, source: String, auxiliary: String, destination: String
     }
 }
 
-fun main() {
+private fun main() {
     towersOfHanoi(3, "A", "B", "C")
 }

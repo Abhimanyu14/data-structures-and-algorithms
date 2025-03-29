@@ -6,7 +6,7 @@ package data_structures_and_algorithms.heap
  * Right : (index * 2) + 2
  */
 
-fun main() {
+private fun main() {
     var capacity = 10
     var size = 0
     var items = IntArray(capacity)

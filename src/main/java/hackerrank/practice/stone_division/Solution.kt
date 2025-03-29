@@ -17,7 +17,7 @@ fun stoneDivision(n: Long, s: Array<Long>): Long {
     return solution(s.sortedArrayDescending().map { it.toInt() }, n.toInt(), 1, 0, 0).toLong()
 }
 
-fun main() {
+private fun main() {
     val result = stoneDivision(18, arrayOf(2, 3, 4))
     println(result)
 }

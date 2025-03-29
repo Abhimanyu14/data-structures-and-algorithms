@@ -8,7 +8,7 @@ fun gameOfStones(n: Int): String {
     }
 }
 
-fun main() {
+private fun main() {
     (1..100).forEach {
         println("$it ${gameOfStones(it)}")
     }

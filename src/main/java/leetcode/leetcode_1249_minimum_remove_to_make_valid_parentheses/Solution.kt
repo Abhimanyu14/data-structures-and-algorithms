@@ -3,38 +3,42 @@ package leetcode.leetcode_1249_minimum_remove_to_make_valid_parentheses
 /**
  * leetcode - https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
  *
- * Using set, stack, and string builder
+ * TODO(Abhi) - To revisit
+ *
+ * Using stack, set, and string builder
  *
  * Difficulty - Medium
  *
  * Stats
- * Runtime: 249 ms, faster than 70.41%
- * Memory Usage: 39.9 MB, less than 53.06%
+ * Runtime: 41 ms, faster than 42.73%
+ * Memory Usage: 49.51 MB, less than 15.45%
  *
  * Time - O(N)
  * Space - O(N)
+ *
+ * Companies - Meta
  */
 private fun minRemoveToMakeValid(s: String): String {
-    val skips = mutableSetOf<Int>()
+    val result = StringBuilder()
     val stack = ArrayDeque<Int>()
-    s.forEachIndexed { index, char ->
-        if (char == ')') {
+    val skips = mutableSetOf<Int>()
+    for (i in s.indices) {
+        if (s[i] == '(') {
+            stack.addLast(i)
+        } else if (s[i] == ')') {
             if (stack.isEmpty()) {
-                skips.add(index)
+                skips.add(i)
             } else {
                 stack.removeLast()
             }
-        } else if (char == '(') {
-            stack.addLast(index)
         }
     }
     while (stack.isNotEmpty()) {
         skips.add(stack.removeLast())
     }
-    val result = StringBuilder()
-    s.forEachIndexed { index, char ->
-        if (!skips.contains(index)) {
-            result.append(char)
+    for (i in s.indices) {
+        if (!skips.contains(i)) {
+            result.append(s[i])
         }
     }
     return result.toString()

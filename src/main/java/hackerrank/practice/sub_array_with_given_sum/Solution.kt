@@ -50,7 +50,7 @@ fun subArrayWithGivenSum(arr: Array<Int>, sum: Int): Pair<Int, Int> {
     return solution(arr, sum)
 }
 
-fun main() {
+private fun main() {
     val result = subArrayWithGivenSum(arrayOf(1, 4, 20, 3, 10, 5), 33)
     println(result)
 }

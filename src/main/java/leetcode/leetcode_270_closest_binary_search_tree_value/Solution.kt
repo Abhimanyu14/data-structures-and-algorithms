@@ -7,7 +7,10 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/closest-binary-search-tree-value/
  *
- * Using tree traversal
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - Tree
+ * Algorithm - Tree traversal using Recursion
  *
  * Difficulty - Easy
  *
@@ -17,8 +20,10 @@ import kotlin.math.min
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
-private fun closestValueForNonBinarySearchTree(root: TreeNode?, target: Double): Int {
+private fun closestValue(root: TreeNode?, target: Double): Int {
     if (root == null) {
         return 0
     }
@@ -26,10 +31,10 @@ private fun closestValueForNonBinarySearchTree(root: TreeNode?, target: Double):
         return root.`val`
     }
     val left = root.left?.run {
-        closestValueForNonBinarySearchTree(root.left, target)
+        closestValue(root.left, target)
     } ?: Int.MAX_VALUE
     val right = root.right?.run {
-        closestValueForNonBinarySearchTree(root.right, target)
+        closestValue(root.right, target)
     } ?: Int.MAX_VALUE
 
     val rootDiff = abs(root.`val` - target)
