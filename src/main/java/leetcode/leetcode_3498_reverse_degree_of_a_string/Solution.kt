@@ -1,14 +1,12 @@
 package leetcode.leetcode_3498_reverse_degree_of_a_string
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/reverse-degree-of-a-string/description/
  *
- * TODO - To revisit
+ * Data Structure - [String]
+ * Algorithm - ASCII, Iteration
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *
@@ -17,6 +15,14 @@ package leetcode.leetcode_3498_reverse_degree_of_a_string
  *
  * Companies -
  */
+private fun reverseDegree(s: String): Int {
+    var result = 0
+    for (i in s.indices) {
+        result += (i + 1) * (('z' - s[i]) + 1)
+    }
+    return result
+}
+
 private fun main() {
 
 }

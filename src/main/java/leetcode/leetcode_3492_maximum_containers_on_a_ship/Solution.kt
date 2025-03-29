@@ -1,14 +1,12 @@
 package leetcode.leetcode_3492_maximum_containers_on_a_ship
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/maximum-containers-on-a-ship/description/
  *
- * TODO - To revisit
+ * Data Structure - NA
+ * Algorithm - Maths
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *
@@ -17,6 +15,13 @@ package leetcode.leetcode_3492_maximum_containers_on_a_ship
  *
  * Companies -
  */
+private fun maxContainers(n: Int, w: Int, maxWeight: Int): Int {
+    if (n * n * w <= maxWeight) {
+        return n * n
+    }
+    return maxWeight / w
+}
+
 private fun main() {
 
 }
