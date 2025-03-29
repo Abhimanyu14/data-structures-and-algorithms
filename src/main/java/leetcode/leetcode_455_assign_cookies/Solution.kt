@@ -3,7 +3,10 @@ package leetcode.leetcode_455_assign_cookies
 /**
  * leetcode - https://leetcode.com/problems/assign-cookies/
  *
- * Using sorting and greedy
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - Sorting & Greedy
  *
  * Difficulty - Easy
  *
@@ -13,6 +16,8 @@ package leetcode.leetcode_455_assign_cookies
  *
  * Time - Runtime: 57 ms, faster than 25.81%
  * Space - Memory Usage: 46.9 MB, less than 6.45%
+ *
+ * Companies - Meta
  */
 private fun findContentChildren(g: IntArray, s: IntArray): Int {
     var result = 0

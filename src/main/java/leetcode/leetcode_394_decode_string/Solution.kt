@@ -18,6 +18,8 @@ import java.util.Stack
  *
  * Time -
  * Space -
+ *
+ * Companies - Google, Meta
  */
 private fun decodeString(s: String): String {
     val stack = Stack<String>()

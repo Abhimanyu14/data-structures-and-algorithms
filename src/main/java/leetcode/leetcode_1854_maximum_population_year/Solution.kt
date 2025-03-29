@@ -3,11 +3,21 @@ package leetcode.leetcode_1854_maximum_population_year
 /**
  * leetcode - https://leetcode.com/problems/maximum-population-year/
  *
- * Using loops and map
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [Map]
+ * Algorithm - Iteration
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 366 ms, faster than 25.00%
  * Memory Usage: 36.4 MB, less than 62.50%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun maximumPopulation(logs: Array<IntArray>): Int {
     val population = mutableMapOf<Int, Int>()
