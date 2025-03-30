@@ -6,11 +6,19 @@ import java.util.Queue
 /**
  * leetcode - https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/
  *
- * Using BFS
+ * Data Structure - Graph
+ * Algorithm - BFS
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 410 ms, faster than 51.65%
  * Memory Usage: 56.4 MB, less than 29.67%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Amazon, Apple, Google, Meta, Uber
  */
 private fun nearestExit(maze: Array<CharArray>, entrance: IntArray): Int {
     fun isExit(row: Int, col: Int): Boolean {
