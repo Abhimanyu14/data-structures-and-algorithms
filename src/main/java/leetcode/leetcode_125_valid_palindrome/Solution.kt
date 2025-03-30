@@ -4,33 +4,34 @@ package leetcode.leetcode_125_valid_palindrome
  * leetcode - https://leetcode.com/problems/valid-palindrome/
  *
  * Data Structure - NA
- * Algorithm - Two pointer single loop
+ * Algorithm - Two pointer - single loop
+ *
+ * String methods - [isLetterOrDigit], [equals] (with ignoreCase parameter)
  *
  * Difficulty - Easy
  *
  * Stats
- * Runtime: 388 ms, faster than 32.74%
- * Memory Usage: 40.1 MB, less than 58.52%
+ * Runtime: 12 ms, faster than 43.71%
+ * Memory Usage: 46.06 MB, less than 20.21%
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
+ *
+ * Companies - Meta
  */
-fun isPalindromeTwoPointer(s: String): Boolean {
-    // For leetcode compiler
-    // lowercaseChar() => toLowerCase()
-    // code => toInt()
-    var start = 0
-    var end = s.lastIndex
-    while (start < end) {
-        if (!s[start].isLetterOrDigit()) {
-            start++
-        } else if (!s[end].isLetterOrDigit()) {
-            end--
-        } else if (!s[start].equals(s[end], ignoreCase = true)) {
+private fun isPalindrome(s: String): Boolean {
+    var left = 0
+    var right = s.lastIndex
+    while (left < right) {
+        if (!s[left].isLetterOrDigit()) {
+            left++
+        } else if (!s[right].isLetterOrDigit()) {
+            right--
+        } else if (!s[left].equals(s[right], ignoreCase = true)) {
             return false
         } else {
-            start++
-            end--
+            left++
+            right--
         }
     }
     return true
@@ -43,7 +44,7 @@ fun isPalindromeTwoPointer(s: String): Boolean {
  * Runtime: 341 ms, faster than 53.78%
  * Memory Usage: 41.2 MB, less than 45.93%
  */
-fun isPalindrome(s: String): Boolean {
+private fun isPalindromeUsingNaive(s: String): Boolean {
     // For leetcode compiler
     // lowercaseChar() => toLowerCase()
     // code => toInt()

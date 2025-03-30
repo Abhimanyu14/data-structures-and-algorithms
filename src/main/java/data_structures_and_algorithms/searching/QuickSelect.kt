@@ -3,7 +3,6 @@ package data_structures_and_algorithms.searching
 /**
  * To find the k-th smallest element in an array
  */
-
 fun partition(arr: IntArray, low: Int, high: Int): Int {
     val pivot = arr[high]
     var i = low - 1
@@ -18,18 +17,18 @@ fun partition(arr: IntArray, low: Int, high: Int): Int {
 }
 
 fun quickSelect(arr: IntArray, low: Int, high: Int, k: Int): Int {
-    val pi = partition(arr, low, high)
+    val partitionIndex = partition(arr, low, high)
     return when {
-        pi == k -> {
-            arr[pi]
+        partitionIndex == k -> {
+            arr[partitionIndex]
         }
 
-        pi < k -> {
-            quickSelect(arr, pi + 1, high, k)
+        partitionIndex < k -> {
+            quickSelect(arr, partitionIndex + 1, high, k)
         }
 
         else -> {
-            quickSelect(arr, low, pi - 1, k)
+            quickSelect(arr, low, partitionIndex - 1, k)
         }
     }
 }

@@ -2,6 +2,7 @@ package leetcode.leetcode_1891_cutting_ribbons
 
 /**
  * leetcode - https://leetcode.com/problems/cutting-ribbons/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+ * Premium question
  *
  * Data Structure - Two Pointers
  * Algorithm - Binary Search
@@ -11,7 +12,6 @@ package leetcode.leetcode_1891_cutting_ribbons
  * Difficulty - Medium
  *
  * Stats
- * Premium question
  *
  * Time -
  * Space -

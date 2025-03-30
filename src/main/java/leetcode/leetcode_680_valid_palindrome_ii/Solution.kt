@@ -3,7 +3,7 @@ package leetcode.leetcode_680_valid_palindrome_ii
 /**
  * leetcode - https://leetcode.com/problems/valid-palindrome-ii/
  *
- * Data Structure -
+ * Data Structure - NA
  * Algorithm - Recursion
  *
  * Difficulty - Easy
@@ -19,17 +19,17 @@ package leetcode.leetcode_680_valid_palindrome_ii
  */
 private fun validPalindrome(s: String): Boolean {
     fun isPalindrome(start: Int, end: Int, buffer: Int): Boolean {
-        var first = start
-        var last = end
-        while (first < last) {
-            if (s[first] == s[last]) {
-                first++
-                last--
+        var left = start
+        var right = end
+        while (left < right) {
+            if (s[left] == s[right]) {
+                left++
+                right--
             } else {
                 if (buffer == 0) {
                     return false
                 }
-                return isPalindrome(first + 1, last, 0) || isPalindrome(first, last - 1, 0)
+                return isPalindrome(left + 1, right, 0) || isPalindrome(left, right - 1, 0)
             }
         }
         return true

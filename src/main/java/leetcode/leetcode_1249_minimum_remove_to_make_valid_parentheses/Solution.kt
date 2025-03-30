@@ -5,7 +5,7 @@ package leetcode.leetcode_1249_minimum_remove_to_make_valid_parentheses
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure - [Stack], [Set], [StringBuilder]
+ * Data Structure - [ArrayDeque] (Stack), [Set], [StringBuilder]
  * Algorithm -
  *
  * Difficulty - Medium

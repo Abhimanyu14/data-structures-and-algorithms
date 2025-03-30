@@ -6,9 +6,9 @@ import data_structures_and_algorithms.linkedlist.printLinkedList
 
 /**
  * leetcode - https://leetcode.com/problems/plus-one-linked-list/
+ * Premium question
  *
  * Stats
- * Premium question
  */
 fun addWithCarry(head: ListNode?): Int {
     if (head == null) {

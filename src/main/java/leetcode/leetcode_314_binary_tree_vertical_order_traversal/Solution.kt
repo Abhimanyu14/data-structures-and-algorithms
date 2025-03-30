@@ -1,66 +1,52 @@
 package leetcode.leetcode_314_binary_tree_vertical_order_traversal
 
+import data_structures_and_algorithms.TreeNode
+import java.util.SortedMap
+
 /**
  * leetcode - https://leetcode.com/problems/binary-tree-vertical-order-traversal/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+ * Premium question
  *
- * Data Structure - [List]
- * Algorithm - Recursion
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [SortedMap], [List], [ArrayDeque] (Queue)
+ * Algorithm - BFS
+ *
+ * Source - https://youtu.be/_Froy1yUCWw
  *
  * Difficulty - Medium
  *
  * Stats
  *
  * Time - O(N)
- * Space - O(1)
+ * Space - O(N)
  *
- * Companies - Meta
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
-private fun depthSum(nestedList: List<NestedInteger>): Int {
-    fun getSum(current: List<NestedInteger>, depth: Int): Int {
-        var result = 0
-        for (num in current) {
-            result += if (num.isInteger()) {
-                depth * (num.getInteger() ?: 0)
-            } else {
-                getSum(num.getList() ?: emptyList(), depth + 1)
-            }
-        }
-        return result
+private fun verticalOrder(root: TreeNode?): List<List<Int>> {
+    if (root == null) {
+        return emptyList()
     }
-    return getSum(nestedList, 1)
+    val result = mutableListOf<MutableList<Int>>()
+    val sortedMap = sortedMapOf<Int, MutableList<Int>>()
+    val queue = ArrayDeque<Pair<TreeNode, Int>>()
+    queue.addLast(Pair(root, 0))
+    while (queue.isNotEmpty()) {
+        val (currentNode, currentCol) = queue.removeFirst()
+        currentNode.left?.let {
+            queue.addLast(Pair(it, currentCol - 1))
+        }
+        currentNode.right?.let {
+            queue.addLast(Pair(it, currentCol + 1))
+        }
+        sortedMap.computeIfAbsent(currentCol) { mutableListOf() }.add(currentNode.`val`)
+    }
+    for ((_, value) in sortedMap) {
+        result.add(value)
+    }
+    return result
 }
 
 private fun main() {
 
-}
-
-class NestedInteger {
-    // Constructor initializes an empty nested list.
-    constructor()
-
-    // Constructor initializes a single integer.
-    constructor(value: Int)
-
-    // @return true if this NestedInteger holds a single integer, rather than a nested list.
-    fun isInteger(): Boolean {
-        return false
-    }
-
-    // @return the single integer that this NestedInteger holds, if it holds a single integer
-    // The result is undefined if this NestedInteger holds a nested list
-    fun getInteger(): Int? {
-        return null
-    }
-
-    // Set this NestedInteger to hold a single integer.
-    fun setInteger(value: Int): Unit {}
-
-    // Set this NestedInteger to hold a nested list and adds a nested integer to it.
-    fun add(ni: NestedInteger): Unit {}
-
-    // @return the nested list that this NestedInteger holds, if it holds a nested list
-    // The result is undefined if this NestedInteger holds a single integer
-    fun getList(): List<NestedInteger>? {
-        return null
-    }
 }

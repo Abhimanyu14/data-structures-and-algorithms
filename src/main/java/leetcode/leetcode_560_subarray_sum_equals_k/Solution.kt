@@ -4,6 +4,8 @@ package leetcode.leetcode_560_subarray_sum_equals_k
  * leetcode - https://leetcode.com/problems/subarray-sum-equals-k/
  * https://leetcode.com/problems/subarray-sum-equals-k/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
+ * TODO(Abhi) - To revisit
+ *
  * Data Structure - Map
  * Algorithm - Prefix Sum and Hashing
  *
@@ -15,6 +17,8 @@ package leetcode.leetcode_560_subarray_sum_equals_k
  *
  * Time - O(N)
  * Space - O(N)
+ *
+ * Companies - Meta
  */
 private fun subarraySum(nums: IntArray, k: Int): Int {
     var result = 0

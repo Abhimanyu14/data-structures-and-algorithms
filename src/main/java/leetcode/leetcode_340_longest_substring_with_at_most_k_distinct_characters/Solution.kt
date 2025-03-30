@@ -4,8 +4,7 @@ import kotlin.math.max
 
 /**
  * leetcode - https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
- *
- * Premium Question
+ * Premium question
  *
  * Data Structure - Map
  * Algorithm - Sliding Window
