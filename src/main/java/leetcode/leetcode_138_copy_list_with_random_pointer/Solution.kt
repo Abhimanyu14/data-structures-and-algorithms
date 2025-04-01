@@ -8,11 +8,21 @@ private class Node(var `val`: Int) {
 /**
  * leetcode - https://leetcode.com/problems/copy-list-with-random-pointer/
  *
- * Using loops
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 347 ms, faster than 54.39%
  * Memory Usage: 39.1 MB, less than 78.95%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun copyRandomList(node: Node?): Node? {
     // If root node is null return null

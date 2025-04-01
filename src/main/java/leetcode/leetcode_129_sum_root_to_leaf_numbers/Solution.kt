@@ -10,31 +10,31 @@ import data_structures_and_algorithms.TreeNode
  * Difficulty - Medium
  *
  * Stats
- * Runtime: 140 ms, faster than 70.64%
- * Memory Usage: 34 MB, less than 53.21%
+ * Runtime: 0 ms, faster than 100.00%
+ * Memory Usage: 41.22 MB, less than 13.42%
  *
  * Time - O(N)
  * Space - O(N) - recursion stack
+ *
+ * Companies - Meta
  */
 private fun sumNumbers(root: TreeNode?): Int {
     if (root == null) {
         return 0
     }
-    var result = 0
-
-    fun sum (head: TreeNode, current: Int) {
-        if (head.left == null && head.right == null) {
-            result += (current * 10) + head.`val`
+    fun sumNum(current: TreeNode, num: Int): Int {
+        if (current.left == null && current.right == null) {
+            return (num * 10) + current.`val`
         }
-        head.left?.let {
-            sum(it, (current * 10) + head.`val`)
-        }
-        head.right?.let {
-            sum(it, (current * 10) + head.`val`)
-        }
+        val left = current.left?.let {
+            sumNum(it, num * 10 + current.`val`)
+        } ?: 0
+        val right = current.right?.let {
+            sumNum(it, num * 10 + current.`val`)
+        } ?: 0
+        return left + right
     }
-    sum(root, 0)
-    return result
+    return sumNum(root, 0)
 }
 
 private fun main() {

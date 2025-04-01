@@ -5,14 +5,17 @@ package leetcode.leetcode_31_next_permutation
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun main() {
 

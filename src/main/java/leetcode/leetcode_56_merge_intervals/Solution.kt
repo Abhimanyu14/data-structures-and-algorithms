@@ -5,30 +5,33 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/merge-intervals/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using intervals, [sortedBy]
+ * Data Structure - [List], [IntArray]
+ * Algorithm - Intervals & Iteration
+ *
+ * Using intervals, [sortedBy], [toTypedArray]
  *
  * Difficulty - Medium
  *
  * Stats
- * Runtime: 34 ms, faster than 48.70%
- * Memory Usage: 44.5 MB, less than 53.04%
+ * Runtime: 29 ms, faster than 50.57%
+ * Memory Usage: 53.36 MB, less than 45.07%
  *
  * Time -
  * Space -
+ *
+ * Companies - Google, Meta
  */
 private fun merge(intervals: Array<IntArray>): Array<IntArray> {
+    val sortedIntervals = intervals.sortedBy { it[0] }
+    var current = sortedIntervals[0]
     val result = mutableListOf<IntArray>()
-    val sorted = intervals.sortedBy { it[0] }
-    var current = sorted[0]
-    var i = 0
-    while (i <= sorted.lastIndex) {
-        if (sorted[i][0] <= current[1]) {
-            current[1] = max(current[1], sorted[i][1])
+    for (i in 1..sortedIntervals.lastIndex) {
+        if (sortedIntervals[i][0] <= current[1]) {
+            current = intArrayOf(current[0], max(current[1], sortedIntervals[i][1]))
         } else {
             result.add(current)
-            current = sorted[i]
+            current = sortedIntervals[i]
         }
-        i++
     }
     result.add(current)
     return result.toTypedArray()

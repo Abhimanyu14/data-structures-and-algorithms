@@ -6,8 +6,12 @@ import java.util.PriorityQueue
 /**
  * leetcode - https://leetcode.com/problems/merge-k-sorted-lists/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Data Structure - PriorityQueue
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [PriorityQueue]
  * Algorithm - Heapify
+ *
+ * PriorityQueue methods - [offer], [poll], [isNotEmpty]
  *
  * Difficulty - Hard
  *
@@ -17,13 +21,15 @@ import java.util.PriorityQueue
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun mergeKLists(lists: Array<ListNode?>): ListNode? {
-    val dummy = ListNode(-1)
-    var currentNode: ListNode = dummy
-    val priorityQueue = PriorityQueue<Pair<Int, ListNode>> { a, b -> // value, list, index
+    val dummyStarting = ListNode(-1)
+    var currentNode: ListNode = dummyStarting
+    val priorityQueue = PriorityQueue<Pair<Int, ListNode>> { a, b -> // list index, list
         if (a.second.`val` == b.second.`val`) {
-            a.first - b.first
+            a.first - b.first // Choose the number from the list with the smaller index of 2 lists have same number
         } else {
             a.second.`val` - b.second.`val`
         }
@@ -34,14 +40,14 @@ private fun mergeKLists(lists: Array<ListNode?>): ListNode? {
         }
     }
     while (priorityQueue.isNotEmpty()) {
-        val current = priorityQueue.poll()
-        currentNode.next = current.second
+        val (listIndex, node) = priorityQueue.poll()
+        currentNode.next = node
         currentNode = currentNode.next!!
-        current.second.next?.let {
-            priorityQueue.offer(Pair(current.first, it))
+        node.next?.let {
+            priorityQueue.offer(Pair(listIndex, it))
         }
     }
-    return dummy.next
+    return dummyStarting.next
 }
 
 private fun main() {

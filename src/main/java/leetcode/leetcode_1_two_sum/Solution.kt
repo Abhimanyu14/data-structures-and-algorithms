@@ -3,7 +3,7 @@ package leetcode.leetcode_1_two_sum
 /**
  * leetcode - https://leetcode.com/problems/two-sum/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Data Structure - Map
+ * Data Structure - [Map]
  * Algorithm - Diff Map
  *
  * Difficulty - Easy
@@ -14,6 +14,8 @@ package leetcode.leetcode_1_two_sum
  *
  * Time - O(N)
  * Space - O(N)
+ *
+ * Companies - Google, Meta
  */
 private fun twoSum(nums: IntArray, target: Int): IntArray {
     val diffMap = mutableMapOf<Int, Int>()
