@@ -5,25 +5,35 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/house-robber/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using two pointers
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - NA
+ * Algorithm - Two Pointers
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 156 ms, faster than 89.86%
  * Memory Usage: 35.5 MB, less than 28.49%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Amazon, Apple, Google, Meta, Microsoft, Uber
  */
 private fun rob(nums: IntArray): Int {
     if (nums.size == 1) {
         return nums[0]
     }
-    var prev = 0
-    var current = 0
-    var temp: Int
+    var maxAmountTillPreviousHouse = 0
+    var maxAmountSoFar = 0
+    var swapBuffer: Int
     for (i in 0..nums.lastIndex) {
-        temp = current
-        current = max(current, prev + nums[i])
-        prev = temp
+        swapBuffer = maxAmountSoFar
+        maxAmountSoFar = max(maxAmountSoFar, maxAmountTillPreviousHouse + nums[i])
+        maxAmountTillPreviousHouse = swapBuffer
     }
-    return current
+    return maxAmountSoFar
 }
 
 /**

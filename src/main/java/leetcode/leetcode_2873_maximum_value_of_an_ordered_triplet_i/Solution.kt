@@ -4,6 +4,7 @@ import kotlin.math.max
 
 /**
  * leetcode - https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/
+ * https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/description/?envType=daily-question&envId=2025-04-02
  *
  * TODO(Abhi) - To revisit
  *
@@ -17,6 +18,8 @@ import kotlin.math.max
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun maximumTripletValue(nums: IntArray): Long {
     var result = 0L
