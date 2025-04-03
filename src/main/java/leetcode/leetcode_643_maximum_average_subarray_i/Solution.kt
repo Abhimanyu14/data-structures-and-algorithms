@@ -16,6 +16,8 @@ import kotlin.math.max
  *
  * Time - O(N)
  * Space - O(1)
+ *
+ * Companies - Meta
  */
 private fun findMaxAverage(nums: IntArray, k: Int): Double {
     var currentSum = 0

@@ -13,6 +13,8 @@ package leetcode.leetcode_860_lemonade_change
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun lemonadeChange(bills: IntArray): Boolean {
     var fiveCount = 0

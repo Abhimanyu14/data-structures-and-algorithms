@@ -11,6 +11,8 @@ import kotlin.math.pow
  * Stats
  * Runtime: 282 ms, faster than 63.46%
  * Memory Usage: 42.5 MB, less than 30.98%
+ *
+ * Companies - Meta
  */
 private fun sortedSquares(nums: IntArray): IntArray {
     val result = IntArray(nums.size)

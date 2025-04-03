@@ -15,6 +15,8 @@ package leetcode.leetcode_392_is_subsequence
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
 */
 private fun isSubsequence(s: String, t: String): Boolean {
     if (s.isEmpty()) {

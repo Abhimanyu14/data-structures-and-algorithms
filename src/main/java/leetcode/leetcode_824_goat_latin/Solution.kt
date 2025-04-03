@@ -9,6 +9,8 @@ package leetcode.leetcode_824_goat_latin
  * Stats
  * Runtime: 201 ms, faster than 12.50%
  * Memory Usage: 38.2 MB, less than 87.50%
+ *
+ * Companies - Meta
  */
 private fun toGoatLatin(sentence: String): String {
     val vowels = setOf('A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u')

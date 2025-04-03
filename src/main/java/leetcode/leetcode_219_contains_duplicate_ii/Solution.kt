@@ -8,6 +8,8 @@ package leetcode.leetcode_219_contains_duplicate_ii
  * Stats
  * Runtime: 540 ms, faster than 96.75%
  * Memory Usage: 58.1 MB, less than 82.79%
+ *
+ * Companies - Meta
  */
 private fun containsNearbyDuplicate(nums: IntArray, k: Int): Boolean {
     val set = mutableSetOf<Int>()

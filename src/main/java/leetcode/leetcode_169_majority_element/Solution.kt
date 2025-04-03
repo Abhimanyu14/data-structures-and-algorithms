@@ -15,6 +15,8 @@ package leetcode.leetcode_169_majority_element
  *
  * Time - O(N)
  * Space - O(1)
+ *
+ * Companies - Meta
  */
 private fun majorityElement(nums: IntArray): Int {
     var candidate: Int = nums[0]

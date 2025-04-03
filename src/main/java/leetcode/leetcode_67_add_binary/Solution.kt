@@ -13,6 +13,8 @@ package leetcode.leetcode_67_add_binary
  *
  * Time - O(N)
  * Space - O(N)
+ *
+ * Companies - Meta
  */
 private fun addBinary(a: String, b: String): String {
     val result = StringBuilder()

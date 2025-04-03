@@ -8,6 +8,8 @@ package leetcode.leetcode_605_can_place_flowers
  * Stats
  * Runtime: 226 ms, faster than 24.17%
  * Memory Usage: 39.6 MB, less than 12.50%
+ *
+ * Companies - Meta
  */
 private fun canPlaceFlowers(flowerbed: IntArray, n: Int): Boolean {
     var remaining = n

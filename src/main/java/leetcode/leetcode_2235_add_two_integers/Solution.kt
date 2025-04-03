@@ -8,6 +8,8 @@ package leetcode.leetcode_2235_add_two_integers
  * Stats
  * Runtime: 197 ms, faster than 65.75%
  * Memory Usage: 33.5 MB, less than 59.93%
+ *
+ * Companies - Meta
  */
 private fun sumNative(num1: Int, num2: Int): Int {
     return num1 + num2

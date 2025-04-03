@@ -8,6 +8,8 @@ package leetcode.leetcode_867_transpose_matrix
  * Stats
  * Runtime: 185 ms, faster than 100.00%
  * Memory Usage: 39.9 MB, less than 17.07%
+ *
+ * Companies - Meta
  */
 private fun transpose(matrix: Array<IntArray>): Array<IntArray> {
     val result = Array(matrix[0].size) { IntArray(matrix.size) }

@@ -13,6 +13,8 @@ package leetcode.leetcode_766_toeplitz_matrix
  *
  * Time - O(M * N)
  * Space - O(1)
+ *
+ * Companies - Meta
  */
 private fun isToeplitzMatrix(matrix: Array<IntArray>): Boolean {
     for (i in 1..matrix.lastIndex) {

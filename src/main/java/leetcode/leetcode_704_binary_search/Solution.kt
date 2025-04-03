@@ -9,6 +9,8 @@ package leetcode.leetcode_704_binary_search
  * Stats
  * Runtime: 557 ms, faster than 26.73%
  * Memory Usage: 66.9 MB, less than 13.15%
+ *
+ * Companies - Meta
  */
 private fun searchUsingRecursion(nums: IntArray, target: Int): Int {
     // Leetcode does not support trailing commas
