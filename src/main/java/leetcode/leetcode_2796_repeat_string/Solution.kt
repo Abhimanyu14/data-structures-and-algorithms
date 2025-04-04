@@ -14,6 +14,8 @@ package leetcode.leetcode_2796_repeat_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

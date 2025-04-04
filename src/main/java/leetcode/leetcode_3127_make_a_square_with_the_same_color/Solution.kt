@@ -14,6 +14,8 @@ package leetcode.leetcode_3127_make_a_square_with_the_same_color
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1504_count_submatrices_with_all_ones
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2374_node_with_highest_edge_score
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

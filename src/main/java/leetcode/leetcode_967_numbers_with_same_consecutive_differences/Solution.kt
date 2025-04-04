@@ -14,6 +14,8 @@ package leetcode.leetcode_967_numbers_with_same_consecutive_differences
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

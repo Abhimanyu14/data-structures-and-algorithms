@@ -14,6 +14,8 @@ package leetcode.leetcode_2425_bitwise_xor_of_all_pairings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

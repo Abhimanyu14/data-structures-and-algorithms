@@ -14,6 +14,8 @@ package leetcode.leetcode_2047_number_of_valid_words_in_a_sentence
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

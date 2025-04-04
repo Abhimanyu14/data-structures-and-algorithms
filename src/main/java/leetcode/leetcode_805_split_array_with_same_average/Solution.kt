@@ -14,6 +14,8 @@ package leetcode.leetcode_805_split_array_with_same_average
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

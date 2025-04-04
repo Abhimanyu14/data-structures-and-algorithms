@@ -14,6 +14,8 @@ package leetcode.leetcode_2497_maximum_star_sum_of_a_graph
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1698_number_of_distinct_substrings_in_a_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

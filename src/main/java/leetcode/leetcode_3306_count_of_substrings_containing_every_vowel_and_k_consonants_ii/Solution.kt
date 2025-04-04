@@ -14,6 +14,8 @@ package leetcode.leetcode_3306_count_of_substrings_containing_every_vowel_and_k_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

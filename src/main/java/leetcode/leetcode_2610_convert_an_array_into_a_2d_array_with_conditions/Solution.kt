@@ -14,6 +14,8 @@ package leetcode.leetcode_2610_convert_an_array_into_a_2d_array_with_conditions
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

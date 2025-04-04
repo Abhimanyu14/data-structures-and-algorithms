@@ -14,6 +14,8 @@ package leetcode.leetcode_1668_maximum_repeating_substring
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

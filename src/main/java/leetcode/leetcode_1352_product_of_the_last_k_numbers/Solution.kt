@@ -14,6 +14,8 @@ package leetcode.leetcode_1352_product_of_the_last_k_numbers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

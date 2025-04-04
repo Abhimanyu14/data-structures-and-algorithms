@@ -14,6 +14,8 @@ package leetcode.leetcode_3098_find_the_sum_of_subsequence_powers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

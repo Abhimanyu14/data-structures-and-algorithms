@@ -14,6 +14,8 @@ package leetcode.leetcode_2522_partition_string_into_substrings_with_values_at_m
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

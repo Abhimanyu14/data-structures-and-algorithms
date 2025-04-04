@@ -14,6 +14,8 @@ package leetcode.leetcode_895_maximum_frequency_stack
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

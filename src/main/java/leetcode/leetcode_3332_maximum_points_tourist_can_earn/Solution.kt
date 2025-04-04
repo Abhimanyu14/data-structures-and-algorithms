@@ -14,6 +14,8 @@ package leetcode.leetcode_3332_maximum_points_tourist_can_earn
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

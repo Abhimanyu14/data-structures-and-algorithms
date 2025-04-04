@@ -14,6 +14,8 @@ package leetcode.leetcode_1492_the_kth_factor_of_n
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

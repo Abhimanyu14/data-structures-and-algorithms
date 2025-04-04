@@ -14,6 +14,8 @@ package leetcode.leetcode_2390_removing_stars_from_a_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

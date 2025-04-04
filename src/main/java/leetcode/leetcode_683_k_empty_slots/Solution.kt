@@ -14,6 +14,8 @@ package leetcode.leetcode_683_k_empty_slots
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

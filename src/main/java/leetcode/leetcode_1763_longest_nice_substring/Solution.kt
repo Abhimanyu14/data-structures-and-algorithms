@@ -14,6 +14,8 @@ package leetcode.leetcode_1763_longest_nice_substring
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

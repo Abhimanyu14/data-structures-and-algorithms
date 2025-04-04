@@ -14,6 +14,8 @@ package leetcode.leetcode_1675_minimize_deviation_in_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

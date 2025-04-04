@@ -14,6 +14,8 @@ package leetcode.leetcode_3139_minimum_cost_to_equalize_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

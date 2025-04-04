@@ -14,6 +14,8 @@ package leetcode.leetcode_2607_make_k_subarray_sums_equal
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

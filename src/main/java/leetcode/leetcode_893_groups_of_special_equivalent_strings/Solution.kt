@@ -14,6 +14,8 @@ package leetcode.leetcode_893_groups_of_special_equivalent_strings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

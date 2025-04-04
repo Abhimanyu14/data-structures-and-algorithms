@@ -14,6 +14,8 @@ package leetcode.leetcode_2362_generate_the_invoice
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

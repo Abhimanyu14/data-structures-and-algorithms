@@ -14,6 +14,8 @@ package leetcode.leetcode_2430_maximum_deletions_on_a_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

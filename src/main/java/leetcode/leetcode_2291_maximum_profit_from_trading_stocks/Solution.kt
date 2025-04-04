@@ -14,6 +14,8 @@ package leetcode.leetcode_2291_maximum_profit_from_trading_stocks
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

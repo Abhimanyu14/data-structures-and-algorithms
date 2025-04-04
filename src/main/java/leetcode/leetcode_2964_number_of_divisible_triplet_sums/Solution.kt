@@ -14,6 +14,8 @@ package leetcode.leetcode_2964_number_of_divisible_triplet_sums
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1965_employees_with_missing_information
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

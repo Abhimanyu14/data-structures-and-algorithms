@@ -14,6 +14,8 @@ package leetcode.leetcode_2585_number_of_ways_to_earn_points
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

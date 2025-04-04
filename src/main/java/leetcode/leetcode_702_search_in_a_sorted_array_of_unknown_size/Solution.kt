@@ -14,6 +14,8 @@ package leetcode.leetcode_702_search_in_a_sorted_array_of_unknown_size
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

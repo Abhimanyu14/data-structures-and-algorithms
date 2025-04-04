@@ -14,6 +14,8 @@ package leetcode.leetcode_2696_minimum_string_length_after_removing_substrings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2640_find_the_score_of_all_prefixes_of_an_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

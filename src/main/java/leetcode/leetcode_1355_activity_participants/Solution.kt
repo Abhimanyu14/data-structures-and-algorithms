@@ -14,6 +14,8 @@ package leetcode.leetcode_1355_activity_participants
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

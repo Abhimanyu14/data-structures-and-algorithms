@@ -14,6 +14,8 @@ package leetcode.leetcode_3039_apply_operations_to_make_string_empty
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

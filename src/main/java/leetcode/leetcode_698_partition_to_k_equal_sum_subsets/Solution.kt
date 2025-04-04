@@ -14,6 +14,8 @@ package leetcode.leetcode_698_partition_to_k_equal_sum_subsets
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

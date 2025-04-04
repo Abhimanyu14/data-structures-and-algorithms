@@ -14,6 +14,8 @@ package leetcode.leetcode_2500_delete_greatest_value_in_each_row
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2813_maximum_elegance_of_a_k_length_subsequence
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

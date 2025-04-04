@@ -14,6 +14,8 @@ package leetcode.leetcode_2546_apply_bitwise_operations_to_make_strings_equal
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1626_best_team_with_no_conflicts
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

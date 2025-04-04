@@ -14,6 +14,8 @@ package leetcode.leetcode_1629_slowest_key
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

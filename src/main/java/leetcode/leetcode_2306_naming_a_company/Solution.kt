@@ -14,6 +14,8 @@ package leetcode.leetcode_2306_naming_a_company
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

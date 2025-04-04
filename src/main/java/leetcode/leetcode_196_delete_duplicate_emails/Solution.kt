@@ -14,6 +14,8 @@ package leetcode.leetcode_196_delete_duplicate_emails
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1316_distinct_echo_substrings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

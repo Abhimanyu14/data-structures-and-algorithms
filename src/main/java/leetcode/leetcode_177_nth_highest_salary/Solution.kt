@@ -14,6 +14,8 @@ package leetcode.leetcode_177_nth_highest_salary
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

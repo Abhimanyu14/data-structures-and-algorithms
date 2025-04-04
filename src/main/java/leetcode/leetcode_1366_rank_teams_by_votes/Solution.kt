@@ -14,6 +14,8 @@ package leetcode.leetcode_1366_rank_teams_by_votes
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_320_generalized_abbreviation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

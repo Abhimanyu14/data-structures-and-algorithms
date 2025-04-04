@@ -14,6 +14,8 @@ package leetcode.leetcode_1982_find_array_given_subset_sums
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

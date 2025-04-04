@@ -14,6 +14,8 @@ package leetcode.leetcode_825_friends_of_appropriate_ages
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

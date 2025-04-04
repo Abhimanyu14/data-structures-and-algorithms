@@ -14,6 +14,8 @@ package leetcode.leetcode_2295_replace_elements_in_an_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

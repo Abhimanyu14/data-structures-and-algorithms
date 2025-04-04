@@ -14,6 +14,8 @@ package leetcode.leetcode_3023_find_pattern_in_infinite_stream_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

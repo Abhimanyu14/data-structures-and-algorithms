@@ -14,6 +14,8 @@ package leetcode.leetcode_2820_election_results
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

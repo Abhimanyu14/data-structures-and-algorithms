@@ -14,6 +14,8 @@ package leetcode.leetcode_422_valid_word_square
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

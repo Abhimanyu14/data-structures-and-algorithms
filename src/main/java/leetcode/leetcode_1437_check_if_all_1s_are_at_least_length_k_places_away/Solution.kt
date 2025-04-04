@@ -14,6 +14,8 @@ package leetcode.leetcode_1437_check_if_all_1s_are_at_least_length_k_places_away
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

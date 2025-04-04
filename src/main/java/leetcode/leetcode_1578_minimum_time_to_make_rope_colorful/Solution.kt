@@ -14,6 +14,8 @@ package leetcode.leetcode_1578_minimum_time_to_make_rope_colorful
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -8,6 +8,8 @@ package leetcode.leetcode_65_valid_number
  * Stats
  * Runtime: 223 ms, faster than 7.41%
  * Memory Usage: 37.7 MB, less than 7.41%
+ *
+ * Companies - Meta
  */
 private fun isNumber(s: String): Boolean {
     val digits = hashSetOf('0', '1', '2', '3', '4', '5', '6', '7', '8', '9')

@@ -14,6 +14,8 @@ package leetcode.leetcode_2081_sum_of_k_mirror_numbers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1527_patients_with_a_condition
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

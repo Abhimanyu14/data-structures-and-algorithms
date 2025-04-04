@@ -14,6 +14,8 @@ package leetcode.leetcode_2750_ways_to_split_array_into_good_subarrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

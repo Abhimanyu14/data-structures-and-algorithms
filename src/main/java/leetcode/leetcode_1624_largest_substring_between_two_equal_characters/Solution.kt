@@ -14,6 +14,8 @@ package leetcode.leetcode_1624_largest_substring_between_two_equal_characters
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

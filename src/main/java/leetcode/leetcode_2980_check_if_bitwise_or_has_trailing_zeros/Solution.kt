@@ -14,6 +14,8 @@ package leetcode.leetcode_2980_check_if_bitwise_or_has_trailing_zeros
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2409_count_days_spent_together
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

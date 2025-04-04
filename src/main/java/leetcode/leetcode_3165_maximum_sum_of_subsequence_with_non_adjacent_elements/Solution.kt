@@ -14,6 +14,8 @@ package leetcode.leetcode_3165_maximum_sum_of_subsequence_with_non_adjacent_elem
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

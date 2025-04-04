@@ -14,6 +14,8 @@ package leetcode.leetcode_940_distinct_subsequences_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_947_most_stones_removed_with_same_row_or_column
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

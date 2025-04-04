@@ -14,6 +14,8 @@ package leetcode.leetcode_2875_minimum_size_subarray_in_infinite_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

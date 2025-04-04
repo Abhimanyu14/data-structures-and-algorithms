@@ -14,6 +14,8 @@ package leetcode.leetcode_221_maximal_square
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

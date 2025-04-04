@@ -14,6 +14,8 @@ package leetcode.leetcode_1705_maximum_number_of_eaten_apples
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

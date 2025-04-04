@@ -14,6 +14,8 @@ package leetcode.leetcode_1321_restaurant_growth
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

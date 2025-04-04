@@ -14,6 +14,8 @@ package leetcode.leetcode_596_classes_more_than_5_students
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

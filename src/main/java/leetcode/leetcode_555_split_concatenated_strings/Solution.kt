@@ -14,6 +14,8 @@ package leetcode.leetcode_555_split_concatenated_strings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

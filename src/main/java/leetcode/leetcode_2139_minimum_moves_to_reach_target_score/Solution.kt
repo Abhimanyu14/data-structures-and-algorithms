@@ -14,6 +14,8 @@ package leetcode.leetcode_2139_minimum_moves_to_reach_target_score
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

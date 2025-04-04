@@ -14,6 +14,8 @@ package leetcode.leetcode_2303_calculate_amount_paid_in_taxes
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

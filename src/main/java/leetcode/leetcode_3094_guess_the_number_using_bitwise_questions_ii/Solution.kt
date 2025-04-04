@@ -14,6 +14,8 @@ package leetcode.leetcode_3094_guess_the_number_using_bitwise_questions_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

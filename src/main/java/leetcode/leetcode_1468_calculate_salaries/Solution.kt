@@ -14,6 +14,8 @@ package leetcode.leetcode_1468_calculate_salaries
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

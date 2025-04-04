@@ -14,6 +14,8 @@ package leetcode.leetcode_3104_find_longest_self_contained_substring
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

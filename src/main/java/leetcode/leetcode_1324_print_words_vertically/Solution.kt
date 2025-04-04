@@ -14,6 +14,8 @@ package leetcode.leetcode_1324_print_words_vertically
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

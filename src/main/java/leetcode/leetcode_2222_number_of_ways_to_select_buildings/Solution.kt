@@ -14,6 +14,8 @@ package leetcode.leetcode_2222_number_of_ways_to_select_buildings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

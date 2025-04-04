@@ -14,6 +14,8 @@ package leetcode.leetcode_1157_online_majority_element_in_subarray
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1127_user_purchase_platform
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

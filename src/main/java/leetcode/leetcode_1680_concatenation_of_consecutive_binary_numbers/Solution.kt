@@ -14,6 +14,8 @@ package leetcode.leetcode_1680_concatenation_of_consecutive_binary_numbers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

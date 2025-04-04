@@ -14,6 +14,8 @@ package leetcode.leetcode_2354_number_of_excellent_pairs
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

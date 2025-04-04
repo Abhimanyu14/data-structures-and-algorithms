@@ -14,6 +14,8 @@ package leetcode.leetcode_2936_number_of_equal_numbers_blocks
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

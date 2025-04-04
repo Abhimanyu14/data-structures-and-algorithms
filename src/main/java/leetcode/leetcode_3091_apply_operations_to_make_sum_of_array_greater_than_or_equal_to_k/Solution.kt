@@ -14,6 +14,8 @@ package leetcode.leetcode_3091_apply_operations_to_make_sum_of_array_greater_tha
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

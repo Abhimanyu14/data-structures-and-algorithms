@@ -14,6 +14,8 @@ package leetcode.leetcode_2044_count_number_of_maximum_bitwise_or_subsets
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

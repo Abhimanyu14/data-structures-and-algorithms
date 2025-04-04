@@ -14,6 +14,8 @@ package leetcode.leetcode_2783_flight_occupancy_and_waitlist_analysis
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

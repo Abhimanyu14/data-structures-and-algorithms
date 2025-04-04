@@ -14,6 +14,8 @@ package leetcode.leetcode_879_profitable_schemes
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

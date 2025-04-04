@@ -14,6 +14,8 @@ package leetcode.leetcode_2831_find_the_longest_equal_subarray
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

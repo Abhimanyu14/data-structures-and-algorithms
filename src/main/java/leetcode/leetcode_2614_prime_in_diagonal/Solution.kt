@@ -14,6 +14,8 @@ package leetcode.leetcode_2614_prime_in_diagonal
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

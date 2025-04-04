@@ -14,6 +14,8 @@ package leetcode.leetcode_2299_strong_password_checker_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

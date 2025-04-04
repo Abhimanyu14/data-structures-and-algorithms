@@ -14,6 +14,8 @@ package leetcode.leetcode_3058_friends_with_no_mutual_friends
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

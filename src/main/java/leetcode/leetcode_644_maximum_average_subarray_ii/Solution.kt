@@ -14,6 +14,8 @@ package leetcode.leetcode_644_maximum_average_subarray_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

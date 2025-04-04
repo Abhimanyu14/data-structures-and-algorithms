@@ -14,6 +14,8 @@ package leetcode.leetcode_792_number_of_matching_subsequences
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

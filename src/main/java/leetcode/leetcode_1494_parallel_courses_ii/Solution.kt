@@ -14,6 +14,8 @@ package leetcode.leetcode_1494_parallel_courses_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

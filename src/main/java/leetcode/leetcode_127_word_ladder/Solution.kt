@@ -13,6 +13,8 @@ import java.util.Queue
  * Stats
  * Runtime: 291 ms, faster than 92.67%
  * Memory Usage: 40.8 MB, less than 81.33%
+ *
+ * Companies - Meta
  */
 private fun ladderLength(beginWord: String, endWord: String, wordList: List<String>): Int {
     val wordSet = wordList.toHashSet()

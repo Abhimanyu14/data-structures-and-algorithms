@@ -14,6 +14,8 @@ package leetcode.leetcode_594_longest_harmonious_subsequence
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

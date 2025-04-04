@@ -14,6 +14,8 @@ package leetcode.leetcode_1824_minimum_sideway_jumps
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

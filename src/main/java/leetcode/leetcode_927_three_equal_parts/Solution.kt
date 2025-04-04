@@ -14,6 +14,8 @@ package leetcode.leetcode_927_three_equal_parts
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

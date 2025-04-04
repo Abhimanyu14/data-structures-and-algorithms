@@ -14,6 +14,8 @@ package leetcode.leetcode_1390_four_divisors
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

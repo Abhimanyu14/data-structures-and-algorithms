@@ -14,6 +14,8 @@ package leetcode.leetcode_2494_merge_overlapping_events_in_the_same_hall
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

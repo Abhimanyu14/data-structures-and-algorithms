@@ -14,6 +14,8 @@ package leetcode.leetcode_1452_people_whose_list_of_favorite_companies_is_not_a_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

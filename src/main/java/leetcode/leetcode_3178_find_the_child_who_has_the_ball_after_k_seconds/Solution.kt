@@ -14,6 +14,8 @@ package leetcode.leetcode_3178_find_the_child_who_has_the_ball_after_k_seconds
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

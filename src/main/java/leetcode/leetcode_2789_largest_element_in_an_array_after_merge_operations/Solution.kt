@@ -14,6 +14,8 @@ package leetcode.leetcode_2789_largest_element_in_an_array_after_merge_operation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

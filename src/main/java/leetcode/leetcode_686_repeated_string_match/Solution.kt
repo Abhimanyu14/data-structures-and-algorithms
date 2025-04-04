@@ -14,6 +14,8 @@ package leetcode.leetcode_686_repeated_string_match
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

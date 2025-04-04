@@ -14,6 +14,8 @@ package leetcode.leetcode_2768_number_of_black_blocks
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

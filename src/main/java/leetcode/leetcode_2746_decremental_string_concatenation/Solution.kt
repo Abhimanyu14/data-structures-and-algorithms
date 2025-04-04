@@ -14,6 +14,8 @@ package leetcode.leetcode_2746_decremental_string_concatenation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

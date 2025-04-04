@@ -14,6 +14,8 @@ package leetcode.leetcode_2929_distribute_candies_among_children_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

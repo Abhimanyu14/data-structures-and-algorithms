@@ -14,6 +14,8 @@ package leetcode.leetcode_2950_number_of_divisible_substrings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

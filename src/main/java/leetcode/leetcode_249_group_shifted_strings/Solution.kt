@@ -14,6 +14,8 @@ package leetcode.leetcode_249_group_shifted_strings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

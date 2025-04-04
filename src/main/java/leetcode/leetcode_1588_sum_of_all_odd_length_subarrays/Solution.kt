@@ -14,6 +14,8 @@ package leetcode.leetcode_1588_sum_of_all_odd_length_subarrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

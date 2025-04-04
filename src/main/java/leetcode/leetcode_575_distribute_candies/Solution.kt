@@ -14,6 +14,8 @@ package leetcode.leetcode_575_distribute_candies
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

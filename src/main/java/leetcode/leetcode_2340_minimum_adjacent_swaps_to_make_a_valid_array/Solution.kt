@@ -14,6 +14,8 @@ package leetcode.leetcode_2340_minimum_adjacent_swaps_to_make_a_valid_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

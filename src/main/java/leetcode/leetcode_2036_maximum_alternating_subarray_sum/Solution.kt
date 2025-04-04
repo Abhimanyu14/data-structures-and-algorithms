@@ -14,6 +14,8 @@ package leetcode.leetcode_2036_maximum_alternating_subarray_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

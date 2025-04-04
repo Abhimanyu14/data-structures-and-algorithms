@@ -14,6 +14,8 @@ package leetcode.leetcode_1045_customers_who_bought_all_products
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

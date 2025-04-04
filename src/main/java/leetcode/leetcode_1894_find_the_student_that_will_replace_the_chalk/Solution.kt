@@ -14,6 +14,8 @@ package leetcode.leetcode_1894_find_the_student_that_will_replace_the_chalk
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

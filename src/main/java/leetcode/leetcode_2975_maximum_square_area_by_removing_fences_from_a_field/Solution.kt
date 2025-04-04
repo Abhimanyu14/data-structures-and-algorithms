@@ -14,6 +14,8 @@ package leetcode.leetcode_2975_maximum_square_area_by_removing_fences_from_a_fie
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3106_lexicographically_smallest_string_after_operation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

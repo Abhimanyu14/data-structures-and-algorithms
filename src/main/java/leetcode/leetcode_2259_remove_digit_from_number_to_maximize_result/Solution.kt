@@ -14,6 +14,8 @@ package leetcode.leetcode_2259_remove_digit_from_number_to_maximize_result
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3290_maximum_multiplication_score
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

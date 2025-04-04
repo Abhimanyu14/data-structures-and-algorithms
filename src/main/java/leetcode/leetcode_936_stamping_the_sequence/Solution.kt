@@ -14,6 +14,8 @@ package leetcode.leetcode_936_stamping_the_sequence
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

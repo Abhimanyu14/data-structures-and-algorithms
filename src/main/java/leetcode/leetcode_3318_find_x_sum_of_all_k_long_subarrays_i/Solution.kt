@@ -14,6 +14,8 @@ package leetcode.leetcode_3318_find_x_sum_of_all_k_long_subarrays_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_524_longest_word_in_dictionary_through_deleting
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

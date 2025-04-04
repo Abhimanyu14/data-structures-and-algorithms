@@ -14,6 +14,8 @@ package leetcode.leetcode_627_swap_salary
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2453_destroy_sequential_targets
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

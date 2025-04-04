@@ -14,6 +14,8 @@ package leetcode.leetcode_1241_number_of_comments_per_post
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

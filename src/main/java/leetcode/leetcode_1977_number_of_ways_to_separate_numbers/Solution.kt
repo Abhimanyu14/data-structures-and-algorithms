@@ -14,6 +14,8 @@ package leetcode.leetcode_1977_number_of_ways_to_separate_numbers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

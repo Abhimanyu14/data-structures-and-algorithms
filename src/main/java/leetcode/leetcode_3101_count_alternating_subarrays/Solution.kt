@@ -14,6 +14,8 @@ package leetcode.leetcode_3101_count_alternating_subarrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

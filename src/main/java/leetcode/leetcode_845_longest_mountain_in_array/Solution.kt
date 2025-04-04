@@ -14,6 +14,8 @@ package leetcode.leetcode_845_longest_mountain_in_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

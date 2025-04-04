@@ -14,6 +14,8 @@ package leetcode.leetcode_2599_make_the_prefix_sum_non_negative
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2372_calculate_the_influence_of_each_salesperson
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

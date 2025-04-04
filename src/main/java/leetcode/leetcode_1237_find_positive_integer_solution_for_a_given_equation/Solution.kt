@@ -14,6 +14,8 @@ package leetcode.leetcode_1237_find_positive_integer_solution_for_a_given_equati
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

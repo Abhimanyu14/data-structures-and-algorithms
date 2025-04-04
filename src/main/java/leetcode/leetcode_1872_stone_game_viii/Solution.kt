@@ -14,6 +14,8 @@ package leetcode.leetcode_1872_stone_game_viii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3153_sum_of_digit_differences_of_all_pairs
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

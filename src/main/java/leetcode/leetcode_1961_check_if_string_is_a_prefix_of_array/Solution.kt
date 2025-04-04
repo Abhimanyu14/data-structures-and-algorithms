@@ -14,6 +14,8 @@ package leetcode.leetcode_1961_check_if_string_is_a_prefix_of_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

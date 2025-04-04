@@ -14,6 +14,8 @@ package leetcode.leetcode_2795_parallel_execution_of_promises_for_individual_res
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

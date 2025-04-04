@@ -14,6 +14,8 @@ package leetcode.leetcode_2034_stock_price_fluctuation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

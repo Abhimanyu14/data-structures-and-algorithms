@@ -14,6 +14,8 @@ package leetcode.leetcode_1781_sum_of_beauty_of_all_substrings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

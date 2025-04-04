@@ -14,6 +14,8 @@ package leetcode.leetcode_1868_product_of_two_run_length_encoded_arrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2863_maximum_length_of_semi_decreasing_subarrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

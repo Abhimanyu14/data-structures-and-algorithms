@@ -14,6 +14,8 @@ package leetcode.leetcode_1585_check_if_string_is_transformable_with_substring_s
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

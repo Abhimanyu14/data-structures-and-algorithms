@@ -14,6 +14,8 @@ package leetcode.leetcode_1001_grid_illumination
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1259_handshakes_that_dont_cross
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

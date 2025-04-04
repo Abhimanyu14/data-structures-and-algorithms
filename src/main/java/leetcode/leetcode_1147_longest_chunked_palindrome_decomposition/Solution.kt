@@ -14,6 +14,8 @@ package leetcode.leetcode_1147_longest_chunked_palindrome_decomposition
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

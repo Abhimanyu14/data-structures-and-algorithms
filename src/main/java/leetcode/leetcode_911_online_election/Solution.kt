@@ -14,6 +14,8 @@ package leetcode.leetcode_911_online_election
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

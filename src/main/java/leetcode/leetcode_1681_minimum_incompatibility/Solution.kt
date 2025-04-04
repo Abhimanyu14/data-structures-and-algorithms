@@ -14,6 +14,8 @@ package leetcode.leetcode_1681_minimum_incompatibility
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

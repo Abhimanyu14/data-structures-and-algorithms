@@ -14,6 +14,8 @@ package leetcode.leetcode_1454_active_users
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

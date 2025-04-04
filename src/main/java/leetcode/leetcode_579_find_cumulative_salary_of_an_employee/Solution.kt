@@ -14,6 +14,8 @@ package leetcode.leetcode_579_find_cumulative_salary_of_an_employee
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

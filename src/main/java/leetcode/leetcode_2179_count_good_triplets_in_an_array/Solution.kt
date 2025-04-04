@@ -14,6 +14,8 @@ package leetcode.leetcode_2179_count_good_triplets_in_an_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

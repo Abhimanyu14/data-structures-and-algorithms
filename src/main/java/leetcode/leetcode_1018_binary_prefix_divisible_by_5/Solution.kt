@@ -14,6 +14,8 @@ package leetcode.leetcode_1018_binary_prefix_divisible_by_5
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

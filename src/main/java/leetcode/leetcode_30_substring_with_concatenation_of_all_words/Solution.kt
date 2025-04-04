@@ -14,6 +14,8 @@ package leetcode.leetcode_30_substring_with_concatenation_of_all_words
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

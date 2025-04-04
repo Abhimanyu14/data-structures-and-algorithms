@@ -14,6 +14,8 @@ package leetcode.leetcode_1999_smallest_greater_multiple_made_of_two_digits
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

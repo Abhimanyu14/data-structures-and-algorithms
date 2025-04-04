@@ -14,6 +14,8 @@ package leetcode.leetcode_820_short_encoding_of_words
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

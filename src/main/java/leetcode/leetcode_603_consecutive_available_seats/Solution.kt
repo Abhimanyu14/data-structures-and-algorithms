@@ -14,6 +14,8 @@ package leetcode.leetcode_603_consecutive_available_seats
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

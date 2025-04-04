@@ -16,6 +16,8 @@ import kotlin.math.max
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun findTheLongestSubstring(s: String): Int {
     var prefixXOR = 0

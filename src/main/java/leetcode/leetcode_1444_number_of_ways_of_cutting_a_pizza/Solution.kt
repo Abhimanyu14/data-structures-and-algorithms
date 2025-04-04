@@ -14,6 +14,8 @@ package leetcode.leetcode_1444_number_of_ways_of_cutting_a_pizza
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

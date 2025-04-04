@@ -14,6 +14,8 @@ package leetcode.leetcode_1107_new_users_daily_count
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

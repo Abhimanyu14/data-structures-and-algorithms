@@ -14,6 +14,8 @@ package leetcode.leetcode_693_binary_number_with_alternating_bits
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

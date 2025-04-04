@@ -14,6 +14,8 @@ package leetcode.leetcode_182_duplicate_emails
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

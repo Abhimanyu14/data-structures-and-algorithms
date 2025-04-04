@@ -14,6 +14,8 @@ package leetcode.leetcode_2154_keep_multiplying_found_values_by_two
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

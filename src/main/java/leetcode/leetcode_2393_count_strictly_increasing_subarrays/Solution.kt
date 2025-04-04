@@ -14,6 +14,8 @@ package leetcode.leetcode_2393_count_strictly_increasing_subarrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

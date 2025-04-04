@@ -14,6 +14,8 @@ package leetcode.leetcode_1851_minimum_interval_to_include_each_query
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

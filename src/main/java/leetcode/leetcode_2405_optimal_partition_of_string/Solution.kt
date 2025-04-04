@@ -14,6 +14,8 @@ package leetcode.leetcode_2405_optimal_partition_of_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

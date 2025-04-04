@@ -14,6 +14,8 @@ package leetcode.leetcode_1421_npv_queries
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

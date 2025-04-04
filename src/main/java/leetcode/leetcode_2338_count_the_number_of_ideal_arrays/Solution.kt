@@ -14,6 +14,8 @@ package leetcode.leetcode_2338_count_the_number_of_ideal_arrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

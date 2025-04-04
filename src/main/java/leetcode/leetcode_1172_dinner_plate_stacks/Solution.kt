@@ -14,6 +14,8 @@ package leetcode.leetcode_1172_dinner_plate_stacks
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

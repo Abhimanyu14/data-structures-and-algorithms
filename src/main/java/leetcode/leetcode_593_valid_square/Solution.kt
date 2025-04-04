@@ -14,6 +14,8 @@ package leetcode.leetcode_593_valid_square
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

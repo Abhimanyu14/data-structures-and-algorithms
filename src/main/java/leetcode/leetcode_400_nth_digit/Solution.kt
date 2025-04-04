@@ -14,6 +14,8 @@ package leetcode.leetcode_400_nth_digit
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

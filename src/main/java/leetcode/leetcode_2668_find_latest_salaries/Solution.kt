@@ -14,6 +14,8 @@ package leetcode.leetcode_2668_find_latest_salaries
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

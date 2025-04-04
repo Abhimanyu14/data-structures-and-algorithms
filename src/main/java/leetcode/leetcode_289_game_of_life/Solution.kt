@@ -14,6 +14,8 @@ package leetcode.leetcode_289_game_of_life
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

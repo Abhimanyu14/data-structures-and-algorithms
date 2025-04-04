@@ -14,6 +14,8 @@ package leetcode.leetcode_3160_find_the_number_of_distinct_colors_among_the_ball
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

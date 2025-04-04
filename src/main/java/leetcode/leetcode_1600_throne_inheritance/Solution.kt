@@ -14,6 +14,8 @@ package leetcode.leetcode_1600_throne_inheritance
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2107_number_of_unique_flavors_after_sharing_k_candies
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

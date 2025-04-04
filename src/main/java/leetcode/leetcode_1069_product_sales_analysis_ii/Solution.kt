@@ -14,6 +14,8 @@ package leetcode.leetcode_1069_product_sales_analysis_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

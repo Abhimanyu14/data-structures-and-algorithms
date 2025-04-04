@@ -14,6 +14,8 @@ package leetcode.leetcode_1262_greatest_sum_divisible_by_three
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

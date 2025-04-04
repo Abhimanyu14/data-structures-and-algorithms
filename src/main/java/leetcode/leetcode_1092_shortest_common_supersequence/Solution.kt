@@ -14,6 +14,8 @@ package leetcode.leetcode_1092_shortest_common_supersequence
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2060_check_if_an_original_string_exists_given_two_enco
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

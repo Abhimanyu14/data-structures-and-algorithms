@@ -14,6 +14,8 @@ package leetcode.leetcode_2462_total_cost_to_hire_k_workers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

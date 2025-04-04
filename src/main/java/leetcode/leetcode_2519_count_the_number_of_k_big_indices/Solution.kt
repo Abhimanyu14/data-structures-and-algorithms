@@ -14,6 +14,8 @@ package leetcode.leetcode_2519_count_the_number_of_k_big_indices
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2465_number_of_distinct_averages
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

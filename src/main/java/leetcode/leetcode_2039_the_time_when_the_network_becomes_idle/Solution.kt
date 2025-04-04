@@ -14,6 +14,8 @@ package leetcode.leetcode_2039_the_time_when_the_network_becomes_idle
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

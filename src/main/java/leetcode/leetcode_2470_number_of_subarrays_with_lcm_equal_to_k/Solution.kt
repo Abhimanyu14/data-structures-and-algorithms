@@ -14,6 +14,8 @@ package leetcode.leetcode_2470_number_of_subarrays_with_lcm_equal_to_k
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

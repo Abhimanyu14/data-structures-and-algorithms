@@ -14,6 +14,8 @@ package leetcode.leetcode_2743_count_substrings_without_repeating_character
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

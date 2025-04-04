@@ -14,6 +14,8 @@ package leetcode.leetcode_3173_bitwise_or_of_adjacent_elements
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

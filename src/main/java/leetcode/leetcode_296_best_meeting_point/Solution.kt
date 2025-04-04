@@ -14,6 +14,8 @@ package leetcode.leetcode_296_best_meeting_point
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

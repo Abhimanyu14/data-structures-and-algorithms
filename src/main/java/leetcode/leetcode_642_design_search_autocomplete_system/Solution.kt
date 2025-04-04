@@ -14,6 +14,8 @@ package leetcode.leetcode_642_design_search_autocomplete_system
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

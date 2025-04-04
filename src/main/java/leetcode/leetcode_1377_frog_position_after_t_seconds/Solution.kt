@@ -14,6 +14,8 @@ package leetcode.leetcode_1377_frog_position_after_t_seconds
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

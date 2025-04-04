@@ -14,6 +14,8 @@ package leetcode.leetcode_527_word_abbreviation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

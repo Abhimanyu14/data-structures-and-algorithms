@@ -14,6 +14,8 @@ package leetcode.leetcode_1185_day_of_the_week
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

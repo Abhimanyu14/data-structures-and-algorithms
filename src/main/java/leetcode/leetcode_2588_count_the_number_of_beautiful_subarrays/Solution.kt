@@ -14,6 +14,8 @@ package leetcode.leetcode_2588_count_the_number_of_beautiful_subarrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1369_get_the_second_most_recent_activity
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2780_minimum_index_of_a_valid_split
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

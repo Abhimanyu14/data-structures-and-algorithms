@@ -14,6 +14,8 @@ package leetcode.leetcode_1910_remove_all_occurrences_of_a_substring
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

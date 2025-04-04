@@ -14,6 +14,8 @@ package leetcode.leetcode_1024_video_stitching
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

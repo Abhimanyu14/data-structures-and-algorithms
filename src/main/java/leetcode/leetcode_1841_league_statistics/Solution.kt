@@ -14,6 +14,8 @@ package leetcode.leetcode_1841_league_statistics
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

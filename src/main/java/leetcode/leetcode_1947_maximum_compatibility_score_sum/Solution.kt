@@ -14,6 +14,8 @@ package leetcode.leetcode_1947_maximum_compatibility_score_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

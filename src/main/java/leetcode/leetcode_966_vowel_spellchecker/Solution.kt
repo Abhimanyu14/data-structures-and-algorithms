@@ -14,6 +14,8 @@ package leetcode.leetcode_966_vowel_spellchecker
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

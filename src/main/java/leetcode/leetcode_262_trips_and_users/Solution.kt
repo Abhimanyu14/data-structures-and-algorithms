@@ -14,6 +14,8 @@ package leetcode.leetcode_262_trips_and_users
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

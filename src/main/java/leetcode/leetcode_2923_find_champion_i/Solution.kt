@@ -14,6 +14,8 @@ package leetcode.leetcode_2923_find_champion_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

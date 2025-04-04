@@ -14,6 +14,8 @@ package leetcode.leetcode_1775_equal_sum_arrays_with_minimum_number_of_operation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

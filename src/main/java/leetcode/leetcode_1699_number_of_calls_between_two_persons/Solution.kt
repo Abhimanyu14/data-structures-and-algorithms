@@ -14,6 +14,8 @@ package leetcode.leetcode_1699_number_of_calls_between_two_persons
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

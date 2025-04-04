@@ -14,6 +14,8 @@ package leetcode.leetcode_1336_number_of_transactions_per_visit
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

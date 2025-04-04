@@ -14,6 +14,8 @@ package leetcode.leetcode_2092_find_all_people_with_secret
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_446_arithmetic_slices_ii_subsequence
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

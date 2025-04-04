@@ -14,6 +14,8 @@ package leetcode.leetcode_2569_handling_sum_queries_after_update
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

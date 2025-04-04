@@ -14,6 +14,8 @@ package leetcode.leetcode_2278_percentage_of_letter_in_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

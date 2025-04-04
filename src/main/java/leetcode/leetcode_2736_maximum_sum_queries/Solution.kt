@@ -14,6 +14,8 @@ package leetcode.leetcode_2736_maximum_sum_queries
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

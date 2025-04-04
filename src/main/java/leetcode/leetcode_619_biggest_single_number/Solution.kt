@@ -14,6 +14,8 @@ package leetcode.leetcode_619_biggest_single_number
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

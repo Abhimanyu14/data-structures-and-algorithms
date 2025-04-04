@@ -14,6 +14,8 @@ package leetcode.leetcode_3281_maximize_score_of_numbers_in_ranges
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

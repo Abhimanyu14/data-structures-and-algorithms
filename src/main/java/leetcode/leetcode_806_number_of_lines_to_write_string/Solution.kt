@@ -14,6 +14,8 @@ package leetcode.leetcode_806_number_of_lines_to_write_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

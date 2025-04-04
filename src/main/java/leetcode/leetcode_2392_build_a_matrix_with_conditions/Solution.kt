@@ -14,6 +14,8 @@ package leetcode.leetcode_2392_build_a_matrix_with_conditions
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

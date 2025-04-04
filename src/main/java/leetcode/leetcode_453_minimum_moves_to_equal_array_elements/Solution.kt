@@ -14,6 +14,8 @@ package leetcode.leetcode_453_minimum_moves_to_equal_array_elements
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

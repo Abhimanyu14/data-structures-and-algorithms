@@ -14,6 +14,8 @@ package leetcode.leetcode_952_largest_component_size_by_common_factor
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2694_event_emitter
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

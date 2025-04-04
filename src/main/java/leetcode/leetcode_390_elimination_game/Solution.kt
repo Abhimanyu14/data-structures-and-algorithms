@@ -14,6 +14,8 @@ package leetcode.leetcode_390_elimination_game
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

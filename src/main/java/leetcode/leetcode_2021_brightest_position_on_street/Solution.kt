@@ -14,6 +14,8 @@ package leetcode.leetcode_2021_brightest_position_on_street
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

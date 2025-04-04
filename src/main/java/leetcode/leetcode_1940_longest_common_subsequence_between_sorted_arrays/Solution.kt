@@ -14,6 +14,8 @@ package leetcode.leetcode_1940_longest_common_subsequence_between_sorted_arrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

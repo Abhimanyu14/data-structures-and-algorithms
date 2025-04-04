@@ -14,6 +14,8 @@ package leetcode.leetcode_1918_kth_smallest_subarray_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

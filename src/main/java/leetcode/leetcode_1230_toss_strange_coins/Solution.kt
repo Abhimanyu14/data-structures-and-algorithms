@@ -14,6 +14,8 @@ package leetcode.leetcode_1230_toss_strange_coins
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

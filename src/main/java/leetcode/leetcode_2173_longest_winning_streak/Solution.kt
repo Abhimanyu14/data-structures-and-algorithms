@@ -14,6 +14,8 @@ package leetcode.leetcode_2173_longest_winning_streak
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

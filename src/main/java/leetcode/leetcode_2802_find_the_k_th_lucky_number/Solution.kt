@@ -14,6 +14,8 @@ package leetcode.leetcode_2802_find_the_k_th_lucky_number
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

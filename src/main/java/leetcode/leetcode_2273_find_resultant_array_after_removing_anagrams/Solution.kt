@@ -14,6 +14,8 @@ package leetcode.leetcode_2273_find_resultant_array_after_removing_anagrams
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

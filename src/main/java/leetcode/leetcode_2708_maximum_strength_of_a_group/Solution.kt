@@ -14,6 +14,8 @@ package leetcode.leetcode_2708_maximum_strength_of_a_group
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

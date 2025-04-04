@@ -14,6 +14,8 @@ package leetcode.leetcode_486_predict_the_winner
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

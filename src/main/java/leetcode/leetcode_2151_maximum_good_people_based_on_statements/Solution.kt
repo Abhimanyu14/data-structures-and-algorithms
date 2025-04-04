@@ -14,6 +14,8 @@ package leetcode.leetcode_2151_maximum_good_people_based_on_statements
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

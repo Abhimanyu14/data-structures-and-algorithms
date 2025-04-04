@@ -14,6 +14,8 @@ package leetcode.leetcode_583_delete_operation_for_two_strings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2661_first_completely_painted_row_or_column
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

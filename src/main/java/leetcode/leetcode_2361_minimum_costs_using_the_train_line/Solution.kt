@@ -14,6 +14,8 @@ package leetcode.leetcode_2361_minimum_costs_using_the_train_line
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

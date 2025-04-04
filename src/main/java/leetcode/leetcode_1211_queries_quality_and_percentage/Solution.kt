@@ -14,6 +14,8 @@ package leetcode.leetcode_1211_queries_quality_and_percentage
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2829_determine_the_minimum_sum_of_a_k_avoiding_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

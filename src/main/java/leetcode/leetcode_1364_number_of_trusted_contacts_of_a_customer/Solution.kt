@@ -14,6 +14,8 @@ package leetcode.leetcode_1364_number_of_trusted_contacts_of_a_customer
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

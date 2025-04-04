@@ -14,6 +14,8 @@ package leetcode.leetcode_1591_strange_printer_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

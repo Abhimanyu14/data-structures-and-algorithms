@@ -14,6 +14,8 @@ package leetcode.leetcode_1251_average_selling_price
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

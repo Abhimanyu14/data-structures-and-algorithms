@@ -14,6 +14,8 @@ package leetcode.leetcode_3200_maximum_height_of_a_triangle
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

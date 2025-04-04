@@ -14,6 +14,8 @@ package leetcode.leetcode_2065_maximum_path_quality_of_a_graph
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

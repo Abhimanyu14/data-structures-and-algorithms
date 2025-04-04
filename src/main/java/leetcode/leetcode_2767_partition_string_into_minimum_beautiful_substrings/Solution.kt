@@ -14,6 +14,8 @@ package leetcode.leetcode_2767_partition_string_into_minimum_beautiful_substring
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

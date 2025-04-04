@@ -14,6 +14,8 @@ package leetcode.leetcode_1500_design_a_file_sharing_system
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

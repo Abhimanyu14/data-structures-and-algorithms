@@ -14,6 +14,8 @@ package leetcode.leetcode_1835_find_xor_sum_of_all_pairs_bitwise_and
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

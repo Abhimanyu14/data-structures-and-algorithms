@@ -14,6 +14,8 @@ package leetcode.leetcode_1015_smallest_integer_divisible_by_k
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

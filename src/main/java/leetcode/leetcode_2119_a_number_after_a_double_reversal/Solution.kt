@@ -14,6 +14,8 @@ package leetcode.leetcode_2119_a_number_after_a_double_reversal
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

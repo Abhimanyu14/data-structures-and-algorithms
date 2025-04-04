@@ -14,6 +14,8 @@ package leetcode.leetcode_3277_maximum_xor_score_subarray_queries
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

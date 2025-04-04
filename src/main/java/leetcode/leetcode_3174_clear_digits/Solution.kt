@@ -14,6 +14,8 @@ package leetcode.leetcode_3174_clear_digits
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

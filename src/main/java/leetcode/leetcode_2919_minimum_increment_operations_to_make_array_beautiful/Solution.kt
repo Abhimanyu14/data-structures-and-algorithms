@@ -14,6 +14,8 @@ package leetcode.leetcode_2919_minimum_increment_operations_to_make_array_beauti
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

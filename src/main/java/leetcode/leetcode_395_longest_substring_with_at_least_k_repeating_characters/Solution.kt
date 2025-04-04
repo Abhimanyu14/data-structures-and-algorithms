@@ -14,6 +14,8 @@ package leetcode.leetcode_395_longest_substring_with_at_least_k_repeating_charac
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

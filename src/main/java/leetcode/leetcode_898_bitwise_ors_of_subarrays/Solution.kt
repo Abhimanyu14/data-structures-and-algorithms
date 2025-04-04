@@ -14,6 +14,8 @@ package leetcode.leetcode_898_bitwise_ors_of_subarrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -3,70 +3,88 @@ package leetcode.leetcode_1268_search_suggestions_system
 /**
  * leetcode - https://leetcode.com/problems/search-suggestions-system
  *
- * Using Trie
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [Trie], [ArrayDeque] (Stack)
+ * Algorithm - Trie and DFS
+ *
+ * Using array methods - [arrayOfNulls]
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 541 ms, faster than 34.09%
- * Memory Usage: 52.8 MB, less than 45.45%
+ * Runtime: 104 ms, faster than 27.78%
+ * Memory Usage: 59.73 MB, less than 19.44%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private class TrieNode(
-    val char: Char,
-    val children: Array<TrieNode?> = Array(26) { null },
     var isWord: Boolean = false,
+    val children: Array<TrieNode?> = arrayOfNulls(26),
 )
 
-private class SearchSuggestionSystem {
-    private val rootNodes = Array(26) { TrieNode('a' + it) }
+private class Trie {
+    private val root = TrieNode()
 
-    fun addWord(word: String) {
-        if (word.length == 1) {
-            rootNodes[word[0] - 'a'].isWord = true
-        } else {
-            var current = rootNodes[word[0] - 'a']
-            for (i in 1..word.lastIndex) {
-                if (current.children[word[i] - 'a'] == null) {
-                    current.children[word[i] - 'a'] = TrieNode(word[i])
-                }
-                current = current.children[word[i] - 'a']!!
+    fun add(word: String) {
+        var currentNode = root
+        for (char in word) {
+            if (currentNode.children[char - 'a'] == null) {
+                currentNode.children[char - 'a'] = TrieNode()
             }
-            current.isWord = true
+            currentNode.children[char - 'a']?.let {
+                currentNode = it
+            }
         }
+        currentNode.isWord = true
     }
 
-    fun getSuggestions(word: String, count: Int = 3): List<String> {
-        var current = rootNodes[word[0] - 'a']
-        for (i in 1..word.lastIndex) {
-            current = current.children[word[i] - 'a'] ?: return emptyList()
+    fun getSuggestions(word: String): List<List<String>> {
+        val result = mutableListOf<List<String>>()
+        var currentNode: TrieNode? = root
+        val stringBuilder = StringBuilder()
+        for (char in word) {
+            currentNode = currentNode?.children?.get(char - 'a')
+            if (currentNode == null) {
+                result.add(emptyList())
+            } else {
+                stringBuilder.append(char)
+                result.add(getWords(currentNode, stringBuilder.toString()))
+            }
         }
+        return result
+    }
+
+    private fun getWords(node: TrieNode, prefix: String): List<String> {
         val result = mutableListOf<String>()
-        fun findWords(node: TrieNode, currentWord: String) {
-            if (result.size == count) {
-                return
+        val stack = ArrayDeque<Pair<TrieNode, String>>()
+        stack.addLast(Pair(node, prefix))
+        while (stack.isNotEmpty() && result.size < 3) {
+            val (currentNode, currentString) = stack.removeLast()
+            if (currentNode.isWord) {
+                result.add(currentString)
             }
-            if (node.isWord) {
-                result.add(currentWord)
-            }
-            node.children.forEachIndexed { index, trieNode ->
-                if (trieNode != null) {
-                    findWords(trieNode, currentWord + trieNode.char)
+            var i = 25
+            while (i >= 0 && result.size < 3) {
+                currentNode.children[i]?.let {
+                    stack.addLast(Pair(it, currentString + ('a' + i)))
                 }
+                i--
             }
         }
-        findWords(current, word)
         return result
     }
 }
 
 private fun suggestedProducts(products: Array<String>, searchWord: String): List<List<String>> {
-    val searchSuggestionSystem = SearchSuggestionSystem()
-    products.forEach {
-        searchSuggestionSystem.addWord(it)
+    val trie = Trie()
+    for (product in products) {
+        trie.add(product)
     }
-    val result = mutableListOf<List<String>>()
-    for (i in searchWord.indices) {
-        result.add(searchSuggestionSystem.getSuggestions(searchWord.substring(0..i)))
-    }
-    return result
+    return trie.getSuggestions(searchWord)
 }
 
 private fun main() {

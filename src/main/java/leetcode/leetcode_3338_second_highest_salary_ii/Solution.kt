@@ -14,6 +14,8 @@ package leetcode.leetcode_3338_second_highest_salary_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

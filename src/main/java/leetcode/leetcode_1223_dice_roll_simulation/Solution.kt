@@ -14,6 +14,8 @@ package leetcode.leetcode_1223_dice_roll_simulation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2513_minimize_the_maximum_of_two_arrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

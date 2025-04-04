@@ -14,6 +14,8 @@ package leetcode.leetcode_1573_number_of_ways_to_split_a_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3010_divide_an_array_into_subarrays_with_minimum_cost_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2110_number_of_smooth_descent_periods_of_a_stock
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

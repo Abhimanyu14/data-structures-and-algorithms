@@ -14,6 +14,8 @@ package leetcode.leetcode_1278_palindrome_partitioning_iii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

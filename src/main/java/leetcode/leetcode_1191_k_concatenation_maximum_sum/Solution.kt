@@ -14,6 +14,8 @@ package leetcode.leetcode_1191_k_concatenation_maximum_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

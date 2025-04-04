@@ -14,6 +14,8 @@ package leetcode.leetcode_2175_the_change_in_global_rankings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

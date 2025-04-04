@@ -14,6 +14,8 @@ package leetcode.leetcode_1192_critical_connections_in_a_network
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

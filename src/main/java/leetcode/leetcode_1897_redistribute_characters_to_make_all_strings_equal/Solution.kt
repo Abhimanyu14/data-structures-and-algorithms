@@ -14,6 +14,8 @@ package leetcode.leetcode_1897_redistribute_characters_to_make_all_strings_equal
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1990_count_the_number_of_experiments
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3151_special_array_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2939_maximum_xor_product
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

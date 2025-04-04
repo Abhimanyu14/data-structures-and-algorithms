@@ -14,6 +14,8 @@ package leetcode.leetcode_3261_count_substrings_that_satisfy_k_constraint_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

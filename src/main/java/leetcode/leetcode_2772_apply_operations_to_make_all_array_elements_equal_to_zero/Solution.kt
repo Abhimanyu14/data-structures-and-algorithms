@@ -14,6 +14,8 @@ package leetcode.leetcode_2772_apply_operations_to_make_all_array_elements_equal
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

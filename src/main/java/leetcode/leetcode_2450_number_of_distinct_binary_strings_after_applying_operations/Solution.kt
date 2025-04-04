@@ -14,6 +14,8 @@ package leetcode.leetcode_2450_number_of_distinct_binary_strings_after_applying_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

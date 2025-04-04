@@ -14,6 +14,8 @@ package leetcode.leetcode_2067_number_of_equal_count_substrings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

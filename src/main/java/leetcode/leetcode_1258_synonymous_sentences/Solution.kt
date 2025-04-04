@@ -14,6 +14,8 @@ package leetcode.leetcode_1258_synonymous_sentences
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

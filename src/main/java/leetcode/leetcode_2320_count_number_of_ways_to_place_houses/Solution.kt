@@ -14,6 +14,8 @@ package leetcode.leetcode_2320_count_number_of_ways_to_place_houses
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1852_distinct_numbers_in_each_subarray
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

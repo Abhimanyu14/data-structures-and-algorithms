@@ -14,6 +14,8 @@ package leetcode.leetcode_3236_ceo_subordinate_hierarchy
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

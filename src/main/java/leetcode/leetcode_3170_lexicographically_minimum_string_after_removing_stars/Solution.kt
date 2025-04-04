@@ -14,6 +14,8 @@ package leetcode.leetcode_3170_lexicographically_minimum_string_after_removing_s
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

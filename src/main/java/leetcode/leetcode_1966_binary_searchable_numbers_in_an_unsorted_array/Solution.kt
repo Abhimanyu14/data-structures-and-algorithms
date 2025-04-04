@@ -14,6 +14,8 @@ package leetcode.leetcode_1966_binary_searchable_numbers_in_an_unsorted_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

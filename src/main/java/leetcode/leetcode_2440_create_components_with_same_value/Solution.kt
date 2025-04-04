@@ -14,6 +14,8 @@ package leetcode.leetcode_2440_create_components_with_same_value
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

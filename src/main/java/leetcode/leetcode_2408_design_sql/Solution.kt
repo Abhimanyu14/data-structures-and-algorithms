@@ -14,6 +14,8 @@ package leetcode.leetcode_2408_design_sql
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1430_check_if_a_string_is_a_valid_sequence_from_root_t
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1673_find_the_most_competitive_subsequence
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

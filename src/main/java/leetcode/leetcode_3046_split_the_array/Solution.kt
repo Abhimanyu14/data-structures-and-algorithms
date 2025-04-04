@@ -14,6 +14,8 @@ package leetcode.leetcode_3046_split_the_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

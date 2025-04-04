@@ -14,6 +14,8 @@ package leetcode.leetcode_2195_append_k_integers_with_minimal_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

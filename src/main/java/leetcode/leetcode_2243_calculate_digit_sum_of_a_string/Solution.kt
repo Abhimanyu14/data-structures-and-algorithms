@@ -14,6 +14,8 @@ package leetcode.leetcode_2243_calculate_digit_sum_of_a_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

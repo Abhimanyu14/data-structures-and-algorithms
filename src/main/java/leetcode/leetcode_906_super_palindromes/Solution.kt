@@ -14,6 +14,8 @@ package leetcode.leetcode_906_super_palindromes
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

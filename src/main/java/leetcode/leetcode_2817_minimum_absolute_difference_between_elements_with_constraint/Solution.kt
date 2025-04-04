@@ -14,6 +14,8 @@ package leetcode.leetcode_2817_minimum_absolute_difference_between_elements_with
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1935_maximum_number_of_words_you_can_type
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1890_the_latest_login_in_2020
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

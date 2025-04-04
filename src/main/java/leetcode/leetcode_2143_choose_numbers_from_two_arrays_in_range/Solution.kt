@@ -14,6 +14,8 @@ package leetcode.leetcode_2143_choose_numbers_from_two_arrays_in_range
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

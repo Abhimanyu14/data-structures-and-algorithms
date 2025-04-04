@@ -14,6 +14,8 @@ package leetcode.leetcode_972_equal_rational_numbers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

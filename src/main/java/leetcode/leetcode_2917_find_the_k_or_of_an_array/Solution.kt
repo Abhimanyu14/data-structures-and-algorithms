@@ -14,6 +14,8 @@ package leetcode.leetcode_2917_find_the_k_or_of_an_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

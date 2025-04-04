@@ -14,6 +14,8 @@ package leetcode.leetcode_425_word_squares
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

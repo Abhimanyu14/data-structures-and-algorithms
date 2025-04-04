@@ -14,6 +14,8 @@ package leetcode.leetcode_2426_number_of_pairs_satisfying_inequality
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

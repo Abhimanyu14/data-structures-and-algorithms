@@ -14,6 +14,8 @@ package leetcode.leetcode_3122_minimum_number_of_operations_to_satisfy_condition
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

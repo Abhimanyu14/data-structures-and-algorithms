@@ -14,6 +14,8 @@ package leetcode.leetcode_2247_maximum_cost_of_trip_with_k_highways
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

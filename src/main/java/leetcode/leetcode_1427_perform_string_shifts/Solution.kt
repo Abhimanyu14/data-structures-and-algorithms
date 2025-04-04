@@ -14,6 +14,8 @@ package leetcode.leetcode_1427_perform_string_shifts
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

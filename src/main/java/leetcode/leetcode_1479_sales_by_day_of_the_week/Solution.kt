@@ -14,6 +14,8 @@ package leetcode.leetcode_1479_sales_by_day_of_the_week
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

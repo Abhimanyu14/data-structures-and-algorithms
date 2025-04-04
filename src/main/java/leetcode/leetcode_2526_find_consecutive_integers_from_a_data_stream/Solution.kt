@@ -14,6 +14,8 @@ package leetcode.leetcode_2526_find_consecutive_integers_from_a_data_stream
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

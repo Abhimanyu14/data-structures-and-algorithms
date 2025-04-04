@@ -14,6 +14,8 @@ package leetcode.leetcode_1227_airplane_seat_assignment_probability
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

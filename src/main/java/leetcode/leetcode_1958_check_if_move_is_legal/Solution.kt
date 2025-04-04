@@ -14,6 +14,8 @@ package leetcode.leetcode_1958_check_if_move_is_legal
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

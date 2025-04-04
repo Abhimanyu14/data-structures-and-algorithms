@@ -14,6 +14,8 @@ package leetcode.leetcode_2121_intervals_between_identical_elements
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

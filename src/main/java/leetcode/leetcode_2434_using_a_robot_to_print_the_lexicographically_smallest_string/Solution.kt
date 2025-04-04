@@ -14,6 +14,8 @@ package leetcode.leetcode_2434_using_a_robot_to_print_the_lexicographically_smal
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

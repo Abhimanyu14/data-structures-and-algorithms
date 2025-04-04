@@ -14,6 +14,8 @@ package leetcode.leetcode_1513_number_of_substrings_with_only_1s
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

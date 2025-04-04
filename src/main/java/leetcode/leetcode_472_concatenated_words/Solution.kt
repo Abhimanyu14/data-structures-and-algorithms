@@ -14,6 +14,8 @@ package leetcode.leetcode_472_concatenated_words
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

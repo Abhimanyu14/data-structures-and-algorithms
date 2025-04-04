@@ -14,6 +14,8 @@ package leetcode.leetcode_3126_server_utilization_time
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_829_consecutive_numbers_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

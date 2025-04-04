@@ -14,6 +14,8 @@ package leetcode.leetcode_3145_find_products_of_elements_of_big_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

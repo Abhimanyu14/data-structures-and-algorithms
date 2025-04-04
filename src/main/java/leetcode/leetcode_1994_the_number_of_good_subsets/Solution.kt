@@ -14,6 +14,8 @@ package leetcode.leetcode_1994_the_number_of_good_subsets
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

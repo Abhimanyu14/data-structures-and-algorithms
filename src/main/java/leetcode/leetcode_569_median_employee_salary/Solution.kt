@@ -14,6 +14,8 @@ package leetcode.leetcode_569_median_employee_salary
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

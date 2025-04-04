@@ -14,6 +14,8 @@ package leetcode.leetcode_2967_minimum_cost_to_make_array_equalindromic
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

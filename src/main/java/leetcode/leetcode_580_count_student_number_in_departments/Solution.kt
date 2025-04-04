@@ -14,6 +14,8 @@ package leetcode.leetcode_580_count_student_number_in_departments
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

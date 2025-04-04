@@ -14,6 +14,8 @@ package leetcode.leetcode_1044_longest_duplicate_substring
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

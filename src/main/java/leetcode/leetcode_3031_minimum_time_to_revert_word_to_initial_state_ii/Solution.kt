@@ -14,6 +14,8 @@ package leetcode.leetcode_3031_minimum_time_to_revert_word_to_initial_state_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

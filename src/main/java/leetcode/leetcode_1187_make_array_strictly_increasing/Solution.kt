@@ -14,6 +14,8 @@ package leetcode.leetcode_1187_make_array_strictly_increasing
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

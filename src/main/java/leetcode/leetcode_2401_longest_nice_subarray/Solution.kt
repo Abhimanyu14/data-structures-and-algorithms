@@ -14,6 +14,8 @@ package leetcode.leetcode_2401_longest_nice_subarray
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

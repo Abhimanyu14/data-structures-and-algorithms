@@ -14,6 +14,8 @@ package leetcode.leetcode_2281_sum_of_total_strength_of_wizards
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

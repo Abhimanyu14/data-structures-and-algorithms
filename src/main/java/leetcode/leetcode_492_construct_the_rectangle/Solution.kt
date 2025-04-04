@@ -14,6 +14,8 @@ package leetcode.leetcode_492_construct_the_rectangle
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

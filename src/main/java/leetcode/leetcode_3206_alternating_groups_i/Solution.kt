@@ -14,6 +14,8 @@ package leetcode.leetcode_3206_alternating_groups_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

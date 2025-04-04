@@ -14,6 +14,8 @@ package leetcode.leetcode_2756_query_batching
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

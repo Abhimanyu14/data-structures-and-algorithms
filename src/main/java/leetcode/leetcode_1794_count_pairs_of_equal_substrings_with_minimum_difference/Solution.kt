@@ -14,6 +14,8 @@ package leetcode.leetcode_1794_count_pairs_of_equal_substrings_with_minimum_diff
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

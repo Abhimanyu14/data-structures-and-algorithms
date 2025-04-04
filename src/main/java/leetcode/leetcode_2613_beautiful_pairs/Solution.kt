@@ -14,6 +14,8 @@ package leetcode.leetcode_2613_beautiful_pairs
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

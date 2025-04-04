@@ -14,6 +14,8 @@ package leetcode.leetcode_2427_number_of_common_factors
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

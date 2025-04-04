@@ -14,6 +14,8 @@ package leetcode.leetcode_2117_abbreviating_the_product_of_a_range
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

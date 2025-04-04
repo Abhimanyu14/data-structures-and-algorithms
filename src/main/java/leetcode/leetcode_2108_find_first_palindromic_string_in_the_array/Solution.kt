@@ -14,6 +14,8 @@ package leetcode.leetcode_2108_find_first_palindromic_string_in_the_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

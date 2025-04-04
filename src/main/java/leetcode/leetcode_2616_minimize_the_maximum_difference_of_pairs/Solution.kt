@@ -14,6 +14,8 @@ package leetcode.leetcode_2616_minimize_the_maximum_difference_of_pairs
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_336_palindrome_pairs
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

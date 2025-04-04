@@ -14,6 +14,8 @@ package leetcode.leetcode_878_nth_magical_number
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

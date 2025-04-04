@@ -14,6 +14,8 @@ package leetcode.leetcode_1555_bank_account_summary
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

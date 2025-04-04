@@ -14,6 +14,8 @@ package leetcode.leetcode_497_random_point_in_non_overlapping_rectangles
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1805_number_of_different_integers_in_a_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

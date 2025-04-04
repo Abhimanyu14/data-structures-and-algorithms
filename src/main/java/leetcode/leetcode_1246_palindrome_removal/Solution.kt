@@ -14,6 +14,8 @@ package leetcode.leetcode_1246_palindrome_removal
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

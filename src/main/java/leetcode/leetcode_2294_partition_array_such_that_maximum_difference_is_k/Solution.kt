@@ -14,6 +14,8 @@ package leetcode.leetcode_2294_partition_array_such_that_maximum_difference_is_k
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

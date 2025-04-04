@@ -14,6 +14,8 @@ package leetcode.leetcode_2943_maximize_area_of_square_hole_in_grid
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_178_rank_scores
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

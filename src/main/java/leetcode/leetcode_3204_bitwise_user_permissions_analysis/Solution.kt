@@ -14,6 +14,8 @@ package leetcode.leetcode_3204_bitwise_user_permissions_analysis
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

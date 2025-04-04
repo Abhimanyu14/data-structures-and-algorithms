@@ -14,6 +14,8 @@ package leetcode.leetcode_1787_make_the_xor_of_all_segments_equal_to_zero
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

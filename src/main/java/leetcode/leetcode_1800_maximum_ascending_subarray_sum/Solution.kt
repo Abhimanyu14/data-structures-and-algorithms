@@ -14,6 +14,8 @@ package leetcode.leetcode_1800_maximum_ascending_subarray_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

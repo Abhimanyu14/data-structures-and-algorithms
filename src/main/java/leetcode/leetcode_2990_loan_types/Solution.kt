@@ -14,6 +14,8 @@ package leetcode.leetcode_2990_loan_types
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

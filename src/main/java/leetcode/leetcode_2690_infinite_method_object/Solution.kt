@@ -14,6 +14,8 @@ package leetcode.leetcode_2690_infinite_method_object
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

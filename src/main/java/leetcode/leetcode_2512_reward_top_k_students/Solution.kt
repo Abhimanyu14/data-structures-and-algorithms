@@ -14,6 +14,8 @@ package leetcode.leetcode_2512_reward_top_k_students
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

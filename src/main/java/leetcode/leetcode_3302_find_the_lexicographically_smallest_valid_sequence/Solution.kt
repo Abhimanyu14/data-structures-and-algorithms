@@ -14,6 +14,8 @@ package leetcode.leetcode_3302_find_the_lexicographically_smallest_valid_sequenc
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

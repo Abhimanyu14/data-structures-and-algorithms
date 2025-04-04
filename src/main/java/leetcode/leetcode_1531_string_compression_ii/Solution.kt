@@ -14,6 +14,8 @@ package leetcode.leetcode_1531_string_compression_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

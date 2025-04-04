@@ -14,6 +14,8 @@ package leetcode.leetcode_2842_count_k_subsequences_of_a_string_with_maximum_bea
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

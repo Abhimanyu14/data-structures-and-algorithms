@@ -14,6 +14,8 @@ package leetcode.leetcode_1826_faulty_sensor
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

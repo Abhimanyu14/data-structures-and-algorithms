@@ -15,6 +15,8 @@ import kotlin.math.min
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun minimumSubarrayLength(nums: IntArray, k: Int): Int {
     if (k == 0) {

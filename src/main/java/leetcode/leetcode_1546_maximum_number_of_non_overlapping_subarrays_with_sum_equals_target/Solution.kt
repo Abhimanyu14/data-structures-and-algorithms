@@ -14,6 +14,8 @@ package leetcode.leetcode_1546_maximum_number_of_non_overlapping_subarrays_with_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

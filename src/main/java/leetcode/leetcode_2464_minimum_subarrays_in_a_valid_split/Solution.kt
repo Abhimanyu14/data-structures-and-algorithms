@@ -14,6 +14,8 @@ package leetcode.leetcode_2464_minimum_subarrays_in_a_valid_split
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

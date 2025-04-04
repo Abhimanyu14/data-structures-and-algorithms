@@ -14,6 +14,8 @@ package leetcode.leetcode_2112_the_airport_with_the_most_traffic
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

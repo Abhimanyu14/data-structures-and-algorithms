@@ -14,6 +14,8 @@ package leetcode.leetcode_1655_distribute_repeating_integers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

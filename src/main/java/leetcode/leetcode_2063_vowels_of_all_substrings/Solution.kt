@@ -14,6 +14,8 @@ package leetcode.leetcode_2063_vowels_of_all_substrings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2564_substring_xor_queries
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

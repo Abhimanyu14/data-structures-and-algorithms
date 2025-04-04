@@ -14,6 +14,8 @@ package leetcode.leetcode_1049_last_stone_weight_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

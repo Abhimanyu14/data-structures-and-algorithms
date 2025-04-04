@@ -14,6 +14,8 @@ package leetcode.leetcode_2100_find_good_days_to_rob_the_bank
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

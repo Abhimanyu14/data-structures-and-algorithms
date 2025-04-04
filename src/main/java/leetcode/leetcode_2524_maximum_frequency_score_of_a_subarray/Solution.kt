@@ -14,6 +14,8 @@ package leetcode.leetcode_2524_maximum_frequency_score_of_a_subarray
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

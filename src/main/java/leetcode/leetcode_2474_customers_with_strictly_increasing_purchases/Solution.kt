@@ -14,6 +14,8 @@ package leetcode.leetcode_2474_customers_with_strictly_increasing_purchases
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

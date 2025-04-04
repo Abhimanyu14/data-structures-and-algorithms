@@ -14,6 +14,8 @@ package leetcode.leetcode_2311_longest_binary_subsequence_less_than_or_equal_to_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

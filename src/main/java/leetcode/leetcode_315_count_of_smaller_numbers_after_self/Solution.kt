@@ -14,6 +14,8 @@ package leetcode.leetcode_315_count_of_smaller_numbers_after_self
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

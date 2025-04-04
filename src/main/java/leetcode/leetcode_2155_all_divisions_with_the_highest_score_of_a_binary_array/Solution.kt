@@ -14,6 +14,8 @@ package leetcode.leetcode_2155_all_divisions_with_the_highest_score_of_a_binary_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

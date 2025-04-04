@@ -14,6 +14,8 @@ package leetcode.leetcode_1925_count_square_sum_triples
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

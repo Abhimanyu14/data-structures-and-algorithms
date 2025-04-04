@@ -14,6 +14,8 @@ package leetcode.leetcode_3142_check_if_grid_satisfies_conditions
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

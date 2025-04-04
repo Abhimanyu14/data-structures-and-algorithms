@@ -14,6 +14,8 @@ package leetcode.leetcode_2375_construct_smallest_number_from_di_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

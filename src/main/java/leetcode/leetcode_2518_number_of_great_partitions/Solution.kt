@@ -14,6 +14,8 @@ package leetcode.leetcode_2518_number_of_great_partitions
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2493_divide_nodes_into_the_maximum_number_of_groups
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

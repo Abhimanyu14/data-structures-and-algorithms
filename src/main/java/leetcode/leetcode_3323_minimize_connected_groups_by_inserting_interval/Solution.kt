@@ -14,6 +14,8 @@ package leetcode.leetcode_3323_minimize_connected_groups_by_inserting_interval
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

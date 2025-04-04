@@ -14,6 +14,8 @@ package leetcode.leetcode_1501_countries_you_can_safely_invest_in
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

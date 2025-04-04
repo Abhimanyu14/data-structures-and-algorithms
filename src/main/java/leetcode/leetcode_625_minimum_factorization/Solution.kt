@@ -14,6 +14,8 @@ package leetcode.leetcode_625_minimum_factorization
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

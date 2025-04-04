@@ -14,6 +14,8 @@ package leetcode.leetcode_2871_split_array_into_maximum_number_of_subarrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

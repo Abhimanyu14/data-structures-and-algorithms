@@ -14,6 +14,8 @@ package leetcode.leetcode_2072_the_winner_university
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

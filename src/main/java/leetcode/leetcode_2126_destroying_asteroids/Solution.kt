@@ -14,6 +14,8 @@ package leetcode.leetcode_2126_destroying_asteroids
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

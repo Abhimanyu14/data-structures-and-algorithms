@@ -14,6 +14,8 @@ package leetcode.leetcode_1256_encode_number
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

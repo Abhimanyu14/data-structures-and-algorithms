@@ -14,6 +14,8 @@ package leetcode.leetcode_3034_number_of_subarrays_that_match_a_pattern_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

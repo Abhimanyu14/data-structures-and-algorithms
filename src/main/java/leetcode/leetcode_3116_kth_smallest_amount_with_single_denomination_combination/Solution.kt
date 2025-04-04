@@ -14,6 +14,8 @@ package leetcode.leetcode_3116_kth_smallest_amount_with_single_denomination_comb
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

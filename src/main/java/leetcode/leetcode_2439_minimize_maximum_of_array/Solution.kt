@@ -14,6 +14,8 @@ package leetcode.leetcode_2439_minimize_maximum_of_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

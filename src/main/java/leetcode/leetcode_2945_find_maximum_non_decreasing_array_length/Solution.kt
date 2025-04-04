@@ -14,6 +14,8 @@ package leetcode.leetcode_2945_find_maximum_non_decreasing_array_length
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

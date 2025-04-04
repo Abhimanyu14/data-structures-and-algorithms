@@ -14,6 +14,8 @@ package leetcode.leetcode_2955_number_of_same_end_substrings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

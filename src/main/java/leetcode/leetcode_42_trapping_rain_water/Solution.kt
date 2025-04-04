@@ -17,6 +17,8 @@ import kotlin.math.min
  *
  * Time - O(N)
  * Space - O(N)
+ *
+ * Companies - Meta
  */
 private fun trap(height: IntArray): Int {
     var result = 0

@@ -14,6 +14,8 @@ package leetcode.leetcode_1978_employees_whose_manager_left_the_company
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

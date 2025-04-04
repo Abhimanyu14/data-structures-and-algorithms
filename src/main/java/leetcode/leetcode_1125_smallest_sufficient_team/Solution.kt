@@ -14,6 +14,8 @@ package leetcode.leetcode_1125_smallest_sufficient_team
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

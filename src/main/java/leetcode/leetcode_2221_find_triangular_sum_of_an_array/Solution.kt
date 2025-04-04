@@ -14,6 +14,8 @@ package leetcode.leetcode_2221_find_triangular_sum_of_an_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

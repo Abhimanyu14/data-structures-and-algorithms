@@ -14,6 +14,8 @@ package leetcode.leetcode_3266_final_array_state_after_k_multiplication_operatio
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

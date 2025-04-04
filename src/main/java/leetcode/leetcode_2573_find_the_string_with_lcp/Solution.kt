@@ -14,6 +14,8 @@ package leetcode.leetcode_2573_find_the_string_with_lcp
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

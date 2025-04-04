@@ -14,6 +14,8 @@ package leetcode.leetcode_1594_maximum_non_negative_product_in_a_matrix
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2083_substrings_that_begin_and_end_with_the_same_lette
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

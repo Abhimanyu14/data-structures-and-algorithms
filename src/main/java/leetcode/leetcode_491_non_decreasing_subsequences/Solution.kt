@@ -14,6 +14,8 @@ package leetcode.leetcode_491_non_decreasing_subsequences
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

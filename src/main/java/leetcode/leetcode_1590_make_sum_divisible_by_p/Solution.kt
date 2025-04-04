@@ -14,6 +14,8 @@ package leetcode.leetcode_1590_make_sum_divisible_by_p
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

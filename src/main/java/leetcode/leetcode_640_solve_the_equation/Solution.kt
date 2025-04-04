@@ -14,6 +14,8 @@ package leetcode.leetcode_640_solve_the_equation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

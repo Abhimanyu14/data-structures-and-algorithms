@@ -14,6 +14,8 @@ package leetcode.leetcode_2025_maximum_number_of_ways_to_partition_an_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

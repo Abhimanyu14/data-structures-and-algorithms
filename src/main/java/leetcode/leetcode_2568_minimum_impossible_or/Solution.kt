@@ -14,6 +14,8 @@ package leetcode.leetcode_2568_minimum_impossible_or
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

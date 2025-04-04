@@ -14,6 +14,8 @@ package leetcode.leetcode_2804_array_prototype_foreach
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2542_maximum_subsequence_score
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

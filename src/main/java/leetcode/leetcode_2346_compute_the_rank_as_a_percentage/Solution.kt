@@ -14,6 +14,8 @@ package leetcode.leetcode_2346_compute_the_rank_as_a_percentage
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

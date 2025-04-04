@@ -14,6 +14,8 @@ package leetcode.leetcode_1349_maximum_students_taking_exam
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

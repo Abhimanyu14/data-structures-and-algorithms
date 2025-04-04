@@ -14,6 +14,8 @@ package leetcode.leetcode_1159_market_analysis_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

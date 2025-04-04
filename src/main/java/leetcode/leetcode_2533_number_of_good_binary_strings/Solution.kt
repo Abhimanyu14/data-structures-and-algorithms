@@ -14,6 +14,8 @@ package leetcode.leetcode_2533_number_of_good_binary_strings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

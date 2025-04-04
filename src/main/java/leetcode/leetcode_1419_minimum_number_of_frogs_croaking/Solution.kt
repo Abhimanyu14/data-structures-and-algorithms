@@ -14,6 +14,8 @@ package leetcode.leetcode_1419_minimum_number_of_frogs_croaking
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

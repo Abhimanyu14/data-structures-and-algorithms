@@ -14,6 +14,8 @@ package leetcode.leetcode_2576_find_the_maximum_number_of_marked_indices
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

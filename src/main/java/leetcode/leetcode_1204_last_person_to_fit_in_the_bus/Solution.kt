@@ -14,6 +14,8 @@ package leetcode.leetcode_1204_last_person_to_fit_in_the_bus
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2566_maximum_difference_by_remapping_a_digit
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

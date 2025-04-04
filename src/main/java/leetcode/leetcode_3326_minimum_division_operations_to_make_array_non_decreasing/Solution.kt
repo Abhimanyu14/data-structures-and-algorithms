@@ -14,6 +14,8 @@ package leetcode.leetcode_3326_minimum_division_operations_to_make_array_non_dec
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

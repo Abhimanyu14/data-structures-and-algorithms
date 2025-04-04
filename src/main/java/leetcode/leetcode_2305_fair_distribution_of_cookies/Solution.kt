@@ -14,6 +14,8 @@ package leetcode.leetcode_2305_fair_distribution_of_cookies
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

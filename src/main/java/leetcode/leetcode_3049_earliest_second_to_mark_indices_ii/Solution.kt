@@ -14,6 +14,8 @@ package leetcode.leetcode_3049_earliest_second_to_mark_indices_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

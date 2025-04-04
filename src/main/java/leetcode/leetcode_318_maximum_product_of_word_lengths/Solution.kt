@@ -14,6 +14,8 @@ package leetcode.leetcode_318_maximum_product_of_word_lengths
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

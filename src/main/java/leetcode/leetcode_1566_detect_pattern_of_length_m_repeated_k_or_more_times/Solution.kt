@@ -14,6 +14,8 @@ package leetcode.leetcode_1566_detect_pattern_of_length_m_repeated_k_or_more_tim
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

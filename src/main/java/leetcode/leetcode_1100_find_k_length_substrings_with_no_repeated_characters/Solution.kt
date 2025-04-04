@@ -14,6 +14,8 @@ package leetcode.leetcode_1100_find_k_length_substrings_with_no_repeated_charact
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

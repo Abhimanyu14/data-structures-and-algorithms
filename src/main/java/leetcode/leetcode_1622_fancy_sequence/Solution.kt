@@ -14,6 +14,8 @@ package leetcode.leetcode_1622_fancy_sequence
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

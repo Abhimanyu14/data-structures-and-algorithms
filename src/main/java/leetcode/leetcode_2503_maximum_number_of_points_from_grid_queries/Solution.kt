@@ -14,6 +14,8 @@ package leetcode.leetcode_2503_maximum_number_of_points_from_grid_queries
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

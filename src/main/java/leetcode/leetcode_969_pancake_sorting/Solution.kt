@@ -14,6 +14,8 @@ package leetcode.leetcode_969_pancake_sorting
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

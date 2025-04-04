@@ -14,6 +14,8 @@ package leetcode.leetcode_3274_check_if_two_chessboard_squares_have_the_same_col
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

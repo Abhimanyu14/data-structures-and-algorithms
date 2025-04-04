@@ -14,6 +14,8 @@ package leetcode.leetcode_1231_divide_chocolate
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

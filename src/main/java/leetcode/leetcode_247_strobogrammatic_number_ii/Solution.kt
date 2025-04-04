@@ -14,6 +14,8 @@ package leetcode.leetcode_247_strobogrammatic_number_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

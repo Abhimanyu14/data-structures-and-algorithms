@@ -14,6 +14,8 @@ package leetcode.leetcode_3041_maximize_consecutive_elements_in_an_array_after_m
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

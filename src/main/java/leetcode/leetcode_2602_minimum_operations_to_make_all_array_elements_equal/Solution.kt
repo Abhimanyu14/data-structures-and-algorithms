@@ -14,6 +14,8 @@ package leetcode.leetcode_2602_minimum_operations_to_make_all_array_elements_equ
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

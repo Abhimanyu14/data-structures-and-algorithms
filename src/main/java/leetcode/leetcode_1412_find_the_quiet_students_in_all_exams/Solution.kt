@@ -14,6 +14,8 @@ package leetcode.leetcode_1412_find_the_quiet_students_in_all_exams
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

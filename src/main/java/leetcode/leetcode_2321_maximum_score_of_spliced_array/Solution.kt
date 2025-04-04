@@ -14,6 +14,8 @@ package leetcode.leetcode_2321_maximum_score_of_spliced_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

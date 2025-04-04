@@ -14,6 +14,8 @@ package leetcode.leetcode_577_employee_bonus
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_574_winning_candidate
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3076_shortest_uncommon_substring_in_an_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

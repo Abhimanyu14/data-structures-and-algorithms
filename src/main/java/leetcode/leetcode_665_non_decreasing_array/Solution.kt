@@ -14,6 +14,8 @@ package leetcode.leetcode_665_non_decreasing_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_720_longest_word_in_dictionary
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

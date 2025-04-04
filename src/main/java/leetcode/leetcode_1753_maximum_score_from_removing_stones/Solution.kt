@@ -14,6 +14,8 @@ package leetcode.leetcode_1753_maximum_score_from_removing_stones
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

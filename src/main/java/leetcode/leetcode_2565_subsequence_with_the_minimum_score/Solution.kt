@@ -14,6 +14,8 @@ package leetcode.leetcode_2565_subsequence_with_the_minimum_score
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

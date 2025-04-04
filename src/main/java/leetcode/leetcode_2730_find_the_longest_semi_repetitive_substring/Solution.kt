@@ -14,6 +14,8 @@ package leetcode.leetcode_2730_find_the_longest_semi_repetitive_substring
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

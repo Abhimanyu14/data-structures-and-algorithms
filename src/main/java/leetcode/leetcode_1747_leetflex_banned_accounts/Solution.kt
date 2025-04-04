@@ -14,6 +14,8 @@ package leetcode.leetcode_1747_leetflex_banned_accounts
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

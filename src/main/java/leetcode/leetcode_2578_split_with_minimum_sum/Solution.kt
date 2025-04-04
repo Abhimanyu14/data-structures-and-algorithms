@@ -14,6 +14,8 @@ package leetcode.leetcode_2578_split_with_minimum_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

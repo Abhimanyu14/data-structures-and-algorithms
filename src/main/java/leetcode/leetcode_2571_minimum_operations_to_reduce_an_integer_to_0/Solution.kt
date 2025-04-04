@@ -14,6 +14,8 @@ package leetcode.leetcode_2571_minimum_operations_to_reduce_an_integer_to_0
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

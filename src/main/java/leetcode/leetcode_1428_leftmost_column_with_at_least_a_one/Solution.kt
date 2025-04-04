@@ -14,6 +14,8 @@ package leetcode.leetcode_1428_leftmost_column_with_at_least_a_one
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

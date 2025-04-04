@@ -14,6 +14,8 @@ package leetcode.leetcode_1180_count_substrings_with_only_one_distinct_letter
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

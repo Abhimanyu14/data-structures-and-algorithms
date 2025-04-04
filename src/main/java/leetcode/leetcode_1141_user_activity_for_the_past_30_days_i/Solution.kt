@@ -14,6 +14,8 @@ package leetcode.leetcode_1141_user_activity_for_the_past_30_days_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

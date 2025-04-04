@@ -11,6 +11,8 @@ import kotlin.math.max
  * Stats
  * Runtime: 229 ms, faster than 95.28%
  * Memory Usage: 39 MB, less than 95.28%
+ *
+ * Companies - Meta
  */
 fun maxPathSum(root: TreeNode?): Int {
     var maxSum = Integer.MIN_VALUE

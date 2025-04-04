@@ -14,6 +14,8 @@ package leetcode.leetcode_1973_count_nodes_equal_to_sum_of_descendants
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

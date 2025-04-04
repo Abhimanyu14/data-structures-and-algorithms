@@ -14,6 +14,8 @@ package leetcode.leetcode_1471_the_k_strongest_values_in_an_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_181_employees_earning_more_than_their_managers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

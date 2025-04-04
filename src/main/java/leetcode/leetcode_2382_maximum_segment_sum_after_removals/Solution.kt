@@ -14,6 +14,8 @@ package leetcode.leetcode_2382_maximum_segment_sum_after_removals
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

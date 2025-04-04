@@ -14,6 +14,8 @@ package leetcode.leetcode_1998_gcd_sort_of_an_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

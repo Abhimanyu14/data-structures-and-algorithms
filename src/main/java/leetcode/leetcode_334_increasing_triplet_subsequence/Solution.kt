@@ -14,6 +14,8 @@ package leetcode.leetcode_334_increasing_triplet_subsequence
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

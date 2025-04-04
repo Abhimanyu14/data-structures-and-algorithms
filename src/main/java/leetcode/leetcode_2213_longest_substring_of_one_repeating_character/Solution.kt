@@ -14,6 +14,8 @@ package leetcode.leetcode_2213_longest_substring_of_one_repeating_character
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

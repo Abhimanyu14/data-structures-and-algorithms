@@ -14,6 +14,8 @@ package leetcode.leetcode_891_sum_of_subsequence_widths
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

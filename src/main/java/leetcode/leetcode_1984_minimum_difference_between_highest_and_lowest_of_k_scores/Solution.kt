@@ -14,6 +14,8 @@ package leetcode.leetcode_1984_minimum_difference_between_highest_and_lowest_of_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

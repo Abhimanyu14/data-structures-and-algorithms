@@ -14,6 +14,8 @@ package leetcode.leetcode_2682_find_the_losers_of_the_circular_game
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2547_minimum_cost_to_split_an_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

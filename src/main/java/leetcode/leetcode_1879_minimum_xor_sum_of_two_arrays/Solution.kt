@@ -14,6 +14,8 @@ package leetcode.leetcode_1879_minimum_xor_sum_of_two_arrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

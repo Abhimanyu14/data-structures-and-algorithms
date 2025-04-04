@@ -14,6 +14,8 @@ package leetcode.leetcode_1043_partition_array_for_maximum_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

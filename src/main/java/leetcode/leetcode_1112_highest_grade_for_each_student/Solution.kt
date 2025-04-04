@@ -14,6 +14,8 @@ package leetcode.leetcode_1112_highest_grade_for_each_student
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

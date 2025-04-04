@@ -14,6 +14,8 @@ package leetcode.leetcode_1226_the_dining_philosophers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

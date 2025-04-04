@@ -14,6 +14,8 @@ package leetcode.leetcode_2918_minimum_equal_sum_of_two_arrays_after_replacing_z
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1820_maximum_number_of_accepted_invitations
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

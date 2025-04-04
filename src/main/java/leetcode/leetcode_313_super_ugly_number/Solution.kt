@@ -14,6 +14,8 @@ package leetcode.leetcode_313_super_ugly_number
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3143_maximum_points_inside_the_square
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

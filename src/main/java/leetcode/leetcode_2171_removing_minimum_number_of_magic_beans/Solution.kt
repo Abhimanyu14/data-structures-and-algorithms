@@ -14,6 +14,8 @@ package leetcode.leetcode_2171_removing_minimum_number_of_magic_beans
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

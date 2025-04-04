@@ -14,6 +14,8 @@ package leetcode.leetcode_2093_minimum_cost_to_reach_city_with_discounts
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

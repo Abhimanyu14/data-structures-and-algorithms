@@ -14,6 +14,8 @@ package leetcode.leetcode_1126_active_businesses
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

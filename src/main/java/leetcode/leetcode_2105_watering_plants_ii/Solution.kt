@@ -14,6 +14,8 @@ package leetcode.leetcode_2105_watering_plants_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

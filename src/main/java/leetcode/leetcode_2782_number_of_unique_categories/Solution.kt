@@ -14,6 +14,8 @@ package leetcode.leetcode_2782_number_of_unique_categories
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

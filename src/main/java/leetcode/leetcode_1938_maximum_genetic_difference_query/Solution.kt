@@ -14,6 +14,8 @@ package leetcode.leetcode_1938_maximum_genetic_difference_query
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

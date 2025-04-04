@@ -14,6 +14,8 @@ package leetcode.leetcode_2961_double_modular_exponentiation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

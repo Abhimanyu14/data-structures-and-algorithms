@@ -14,6 +14,8 @@ package leetcode.leetcode_2269_find_the_k_beauty_of_a_number
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

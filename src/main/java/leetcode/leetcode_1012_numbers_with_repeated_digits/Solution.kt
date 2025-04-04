@@ -14,6 +14,8 @@ package leetcode.leetcode_1012_numbers_with_repeated_digits
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

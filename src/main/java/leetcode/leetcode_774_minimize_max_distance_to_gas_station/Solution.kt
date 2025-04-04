@@ -14,6 +14,8 @@ package leetcode.leetcode_774_minimize_max_distance_to_gas_station
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

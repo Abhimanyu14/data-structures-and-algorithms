@@ -14,6 +14,8 @@ package leetcode.leetcode_1996_the_number_of_weak_characters_in_the_game
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

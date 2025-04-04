@@ -14,6 +14,8 @@ package leetcode.leetcode_1983_widest_pair_of_indices_with_equal_range_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

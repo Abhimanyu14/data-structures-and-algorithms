@@ -14,6 +14,8 @@ package leetcode.leetcode_2205_the_number_of_users_that_are_eligible_for_discoun
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

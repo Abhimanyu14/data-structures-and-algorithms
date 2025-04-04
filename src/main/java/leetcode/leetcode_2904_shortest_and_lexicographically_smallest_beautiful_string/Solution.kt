@@ -14,6 +14,8 @@ package leetcode.leetcode_2904_shortest_and_lexicographically_smallest_beautiful
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

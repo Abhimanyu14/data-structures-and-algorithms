@@ -14,6 +14,8 @@ package leetcode.leetcode_2322_minimum_score_after_removals_on_a_tree
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

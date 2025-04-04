@@ -14,6 +14,8 @@ package leetcode.leetcode_1250_check_if_it_is_a_good_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

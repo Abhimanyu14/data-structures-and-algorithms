@@ -14,6 +14,8 @@ package leetcode.leetcode_2447_number_of_subarrays_with_gcd_equal_to_k
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

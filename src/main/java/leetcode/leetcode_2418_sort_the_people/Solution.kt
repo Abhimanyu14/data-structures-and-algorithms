@@ -14,6 +14,8 @@ package leetcode.leetcode_2418_sort_the_people
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

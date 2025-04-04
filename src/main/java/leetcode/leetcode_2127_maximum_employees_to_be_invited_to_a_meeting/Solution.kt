@@ -14,6 +14,8 @@ package leetcode.leetcode_2127_maximum_employees_to_be_invited_to_a_meeting
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

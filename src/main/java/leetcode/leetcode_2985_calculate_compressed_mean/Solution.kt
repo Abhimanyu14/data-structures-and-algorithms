@@ -14,6 +14,8 @@ package leetcode.leetcode_2985_calculate_compressed_mean
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3312_sorted_gcd_pair_queries
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

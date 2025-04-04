@@ -14,6 +14,8 @@ package leetcode.leetcode_1244_design_a_leaderboard
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

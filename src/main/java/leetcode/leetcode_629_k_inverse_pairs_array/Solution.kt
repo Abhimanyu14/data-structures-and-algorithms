@@ -14,6 +14,8 @@ package leetcode.leetcode_629_k_inverse_pairs_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_696_count_binary_substrings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

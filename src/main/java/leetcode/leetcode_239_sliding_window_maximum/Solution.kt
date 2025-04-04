@@ -8,6 +8,8 @@ package leetcode.leetcode_239_sliding_window_maximum
  * Stats
  * Runtime: 923 ms, faster than 61.78%
  * Memory Usage: 55.2 MB, less than 51.78%
+ *
+ * Companies - Meta
  */
 private fun maxSlidingWindow(nums: IntArray, k: Int): IntArray {
     val deque = ArrayDeque<Int>()

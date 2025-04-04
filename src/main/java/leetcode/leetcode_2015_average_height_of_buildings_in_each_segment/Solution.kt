@@ -14,6 +14,8 @@ package leetcode.leetcode_2015_average_height_of_buildings_in_each_segment
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

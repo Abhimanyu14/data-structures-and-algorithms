@@ -14,6 +14,8 @@ package leetcode.leetcode_1450_number_of_students_doing_homework_at_a_given_time
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

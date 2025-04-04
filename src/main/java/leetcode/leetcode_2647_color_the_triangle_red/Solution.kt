@@ -14,6 +14,8 @@ package leetcode.leetcode_2647_color_the_triangle_red
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

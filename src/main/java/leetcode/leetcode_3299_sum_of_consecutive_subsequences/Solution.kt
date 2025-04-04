@@ -14,6 +14,8 @@ package leetcode.leetcode_3299_sum_of_consecutive_subsequences
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

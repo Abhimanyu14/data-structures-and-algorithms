@@ -14,6 +14,8 @@ package leetcode.leetcode_2765_longest_alternating_subarray
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

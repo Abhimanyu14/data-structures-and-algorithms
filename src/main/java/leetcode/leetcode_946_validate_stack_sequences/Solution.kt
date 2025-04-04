@@ -14,6 +14,8 @@ package leetcode.leetcode_946_validate_stack_sequences
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

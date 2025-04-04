@@ -14,6 +14,8 @@ package leetcode.leetcode_615_average_salary_departments_vs_company
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

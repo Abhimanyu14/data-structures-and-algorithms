@@ -14,6 +14,8 @@ package leetcode.leetcode_2555_maximize_win_from_two_segments
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

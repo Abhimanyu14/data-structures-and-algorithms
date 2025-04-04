@@ -14,6 +14,8 @@ package leetcode.leetcode_1330_reverse_subarray_to_maximize_array_value
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

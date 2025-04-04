@@ -14,6 +14,8 @@ package leetcode.leetcode_1392_longest_happy_prefix
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

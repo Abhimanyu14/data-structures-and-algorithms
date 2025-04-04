@@ -14,6 +14,8 @@ package leetcode.leetcode_3140_consecutive_available_seats_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

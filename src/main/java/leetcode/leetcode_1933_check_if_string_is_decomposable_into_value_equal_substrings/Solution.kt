@@ -14,6 +14,8 @@ package leetcode.leetcode_1933_check_if_string_is_decomposable_into_value_equal_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

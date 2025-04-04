@@ -14,6 +14,8 @@ package leetcode.leetcode_1949_strong_friendship
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

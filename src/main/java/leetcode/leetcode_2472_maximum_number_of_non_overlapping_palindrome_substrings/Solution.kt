@@ -14,6 +14,8 @@ package leetcode.leetcode_2472_maximum_number_of_non_overlapping_palindrome_subs
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2745_construct_the_longest_new_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

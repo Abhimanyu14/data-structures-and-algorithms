@@ -14,6 +14,8 @@ package leetcode.leetcode_2836_maximize_value_of_function_in_a_ball_passing_game
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

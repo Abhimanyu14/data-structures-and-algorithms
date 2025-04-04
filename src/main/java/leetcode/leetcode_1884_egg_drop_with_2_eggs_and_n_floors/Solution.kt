@@ -14,6 +14,8 @@ package leetcode.leetcode_1884_egg_drop_with_2_eggs_and_n_floors
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

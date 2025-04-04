@@ -14,6 +14,8 @@ package leetcode.leetcode_2364_count_number_of_bad_pairs
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

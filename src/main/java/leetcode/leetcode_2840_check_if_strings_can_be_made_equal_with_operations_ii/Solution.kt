@@ -14,6 +14,8 @@ package leetcode.leetcode_2840_check_if_strings_can_be_made_equal_with_operation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

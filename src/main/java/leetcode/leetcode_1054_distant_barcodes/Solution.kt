@@ -14,6 +14,8 @@ package leetcode.leetcode_1054_distant_barcodes
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

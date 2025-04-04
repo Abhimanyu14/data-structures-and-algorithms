@@ -14,6 +14,8 @@ package leetcode.leetcode_1119_remove_vowels_from_a_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

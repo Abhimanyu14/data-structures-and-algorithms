@@ -14,6 +14,8 @@ package leetcode.leetcode_3231_minimum_number_of_increasing_subsequence_to_be_re
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

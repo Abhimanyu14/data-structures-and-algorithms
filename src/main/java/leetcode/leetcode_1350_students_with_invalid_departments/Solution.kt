@@ -14,6 +14,8 @@ package leetcode.leetcode_1350_students_with_invalid_departments
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

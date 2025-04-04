@@ -14,6 +14,8 @@ package leetcode.leetcode_1556_thousand_separator
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

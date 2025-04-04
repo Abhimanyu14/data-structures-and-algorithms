@@ -14,6 +14,8 @@ package leetcode.leetcode_1274_number_of_ships_in_a_rectangle
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

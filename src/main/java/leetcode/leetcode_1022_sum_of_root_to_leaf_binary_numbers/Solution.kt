@@ -14,6 +14,8 @@ package leetcode.leetcode_1022_sum_of_root_to_leaf_binary_numbers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

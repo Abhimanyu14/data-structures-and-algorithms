@@ -14,6 +14,8 @@ package leetcode.leetcode_3079_find_the_sum_of_encrypted_integers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

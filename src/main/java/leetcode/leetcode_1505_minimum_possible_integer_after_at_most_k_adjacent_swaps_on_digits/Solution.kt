@@ -14,6 +14,8 @@ package leetcode.leetcode_1505_minimum_possible_integer_after_at_most_k_adjacent
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

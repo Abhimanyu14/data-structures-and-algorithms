@@ -14,6 +14,8 @@ package leetcode.leetcode_2383_minimum_hours_of_training_to_win_a_competition
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

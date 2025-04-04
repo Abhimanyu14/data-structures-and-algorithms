@@ -14,6 +14,8 @@ package leetcode.leetcode_2286_booking_concert_tickets_in_groups
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1547_minimum_cost_to_cut_a_stick
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

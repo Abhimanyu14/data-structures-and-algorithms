@@ -14,6 +14,8 @@ package leetcode.leetcode_2270_number_of_ways_to_split_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

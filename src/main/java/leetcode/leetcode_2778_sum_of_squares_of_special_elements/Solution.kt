@@ -14,6 +14,8 @@ package leetcode.leetcode_2778_sum_of_squares_of_special_elements
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

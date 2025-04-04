@@ -14,6 +14,8 @@ package leetcode.leetcode_2261_k_divisible_elements_subarrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3006_find_beautiful_indices_in_the_given_array_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

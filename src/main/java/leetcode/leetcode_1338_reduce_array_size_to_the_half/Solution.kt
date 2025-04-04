@@ -14,6 +14,8 @@ package leetcode.leetcode_1338_reduce_array_size_to_the_half
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

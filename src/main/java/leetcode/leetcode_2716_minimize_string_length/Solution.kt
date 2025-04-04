@@ -14,6 +14,8 @@ package leetcode.leetcode_2716_minimize_string_length
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

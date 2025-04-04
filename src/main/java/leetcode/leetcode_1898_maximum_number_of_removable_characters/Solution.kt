@@ -14,6 +14,8 @@ package leetcode.leetcode_1898_maximum_number_of_removable_characters
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

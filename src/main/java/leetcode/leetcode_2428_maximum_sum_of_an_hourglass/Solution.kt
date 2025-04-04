@@ -14,6 +14,8 @@ package leetcode.leetcode_2428_maximum_sum_of_an_hourglass
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

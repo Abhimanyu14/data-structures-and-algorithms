@@ -14,6 +14,8 @@ package leetcode.leetcode_2078_two_furthest_houses_with_different_colors
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

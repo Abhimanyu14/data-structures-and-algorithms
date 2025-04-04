@@ -14,6 +14,8 @@ package leetcode.leetcode_811_subdomain_visit_count
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

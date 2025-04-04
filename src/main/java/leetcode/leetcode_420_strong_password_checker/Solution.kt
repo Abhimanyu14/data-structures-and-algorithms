@@ -14,6 +14,8 @@ package leetcode.leetcode_420_strong_password_checker
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

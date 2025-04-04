@@ -14,6 +14,8 @@ package leetcode.leetcode_1073_adding_two_negabinary_numbers
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

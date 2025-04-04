@@ -14,6 +14,8 @@ package leetcode.leetcode_1620_coordinate_with_maximum_network_quality
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

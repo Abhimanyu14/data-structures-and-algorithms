@@ -14,6 +14,8 @@ package leetcode.leetcode_533_lonely_pixel_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

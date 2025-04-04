@@ -14,6 +14,8 @@ package leetcode.leetcode_1228_missing_number_in_arithmetic_progression
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

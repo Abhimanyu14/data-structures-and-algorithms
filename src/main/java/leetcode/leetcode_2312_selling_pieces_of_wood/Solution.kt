@@ -14,6 +14,8 @@ package leetcode.leetcode_2312_selling_pieces_of_wood
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_573_squirrel_simulation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

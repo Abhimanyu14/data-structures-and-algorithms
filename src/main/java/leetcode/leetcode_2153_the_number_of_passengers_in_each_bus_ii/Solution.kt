@@ -14,6 +14,8 @@ package leetcode.leetcode_2153_the_number_of_passengers_in_each_bus_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

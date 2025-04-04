@@ -14,6 +14,8 @@ package leetcode.leetcode_2172_maximum_and_sum_of_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

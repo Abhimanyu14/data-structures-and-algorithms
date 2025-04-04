@@ -14,6 +14,8 @@ package leetcode.leetcode_1042_flower_planting_with_no_adjacent
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

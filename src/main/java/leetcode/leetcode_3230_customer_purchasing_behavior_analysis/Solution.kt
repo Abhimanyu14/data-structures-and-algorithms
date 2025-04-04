@@ -14,6 +14,8 @@ package leetcode.leetcode_3230_customer_purchasing_behavior_analysis
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

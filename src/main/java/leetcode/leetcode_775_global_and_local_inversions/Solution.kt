@@ -14,6 +14,8 @@ package leetcode.leetcode_775_global_and_local_inversions
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

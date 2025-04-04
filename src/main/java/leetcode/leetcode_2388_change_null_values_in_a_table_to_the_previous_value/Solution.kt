@@ -14,6 +14,8 @@ package leetcode.leetcode_2388_change_null_values_in_a_table_to_the_previous_val
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

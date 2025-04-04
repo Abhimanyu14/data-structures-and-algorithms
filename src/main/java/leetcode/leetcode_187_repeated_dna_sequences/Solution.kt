@@ -14,6 +14,8 @@ package leetcode.leetcode_187_repeated_dna_sequences
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

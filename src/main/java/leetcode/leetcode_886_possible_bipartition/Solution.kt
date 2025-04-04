@@ -14,6 +14,8 @@ package leetcode.leetcode_886_possible_bipartition
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

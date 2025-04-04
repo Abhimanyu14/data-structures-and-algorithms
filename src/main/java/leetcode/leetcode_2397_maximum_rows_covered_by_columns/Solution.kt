@@ -14,6 +14,8 @@ package leetcode.leetcode_2397_maximum_rows_covered_by_columns
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

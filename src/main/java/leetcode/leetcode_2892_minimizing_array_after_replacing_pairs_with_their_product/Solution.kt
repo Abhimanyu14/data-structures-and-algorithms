@@ -14,6 +14,8 @@ package leetcode.leetcode_2892_minimizing_array_after_replacing_pairs_with_their
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

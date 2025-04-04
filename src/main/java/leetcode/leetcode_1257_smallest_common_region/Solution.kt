@@ -14,6 +14,8 @@ package leetcode.leetcode_1257_smallest_common_region
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

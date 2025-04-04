@@ -14,6 +14,8 @@ package leetcode.leetcode_1075_project_employees_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

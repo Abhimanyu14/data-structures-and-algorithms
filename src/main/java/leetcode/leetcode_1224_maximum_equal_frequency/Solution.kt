@@ -14,6 +14,8 @@ package leetcode.leetcode_1224_maximum_equal_frequency
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

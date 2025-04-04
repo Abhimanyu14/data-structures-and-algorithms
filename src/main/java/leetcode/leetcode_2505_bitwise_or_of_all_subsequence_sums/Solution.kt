@@ -14,6 +14,8 @@ package leetcode.leetcode_2505_bitwise_or_of_all_subsequence_sums
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

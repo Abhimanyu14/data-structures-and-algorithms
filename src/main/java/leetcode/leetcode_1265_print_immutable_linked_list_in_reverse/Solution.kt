@@ -14,6 +14,8 @@ package leetcode.leetcode_1265_print_immutable_linked_list_in_reverse
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

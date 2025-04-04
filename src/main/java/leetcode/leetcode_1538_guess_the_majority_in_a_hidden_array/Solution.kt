@@ -14,6 +14,8 @@ package leetcode.leetcode_1538_guess_the_majority_in_a_hidden_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

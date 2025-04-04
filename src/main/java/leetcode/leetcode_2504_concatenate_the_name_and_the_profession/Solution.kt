@@ -14,6 +14,8 @@ package leetcode.leetcode_2504_concatenate_the_name_and_the_profession
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

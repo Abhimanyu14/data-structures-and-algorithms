@@ -14,6 +14,8 @@ package leetcode.leetcode_3193_count_the_number_of_inversions
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

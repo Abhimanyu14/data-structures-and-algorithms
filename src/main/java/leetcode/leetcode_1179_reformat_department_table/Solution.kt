@@ -14,6 +14,8 @@ package leetcode.leetcode_1179_reformat_department_table
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2821_delay_the_resolution_of_each_promise
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

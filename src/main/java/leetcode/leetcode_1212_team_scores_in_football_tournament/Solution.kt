@@ -14,6 +14,8 @@ package leetcode.leetcode_1212_team_scores_in_football_tournament
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

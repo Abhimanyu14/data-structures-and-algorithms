@@ -14,6 +14,8 @@ package leetcode.leetcode_2132_stamping_the_grid
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_789_escape_the_ghosts
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

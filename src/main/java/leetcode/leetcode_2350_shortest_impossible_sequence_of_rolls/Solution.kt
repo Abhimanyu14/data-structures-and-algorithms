@@ -14,6 +14,8 @@ package leetcode.leetcode_2350_shortest_impossible_sequence_of_rolls
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

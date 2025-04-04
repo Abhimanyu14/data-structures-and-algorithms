@@ -14,6 +14,8 @@ package leetcode.leetcode_1911_maximum_alternating_subsequence_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3003_maximize_the_number_of_partitions_after_operation
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

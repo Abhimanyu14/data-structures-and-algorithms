@@ -14,6 +14,8 @@ package leetcode.leetcode_2793_status_of_flight_tickets
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

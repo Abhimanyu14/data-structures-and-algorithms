@@ -14,6 +14,8 @@ package leetcode.leetcode_1270_all_people_report_to_the_given_manager
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

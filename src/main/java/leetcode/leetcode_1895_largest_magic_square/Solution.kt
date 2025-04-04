@@ -14,6 +14,8 @@ package leetcode.leetcode_1895_largest_magic_square
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

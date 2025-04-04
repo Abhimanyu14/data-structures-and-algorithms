@@ -14,6 +14,8 @@ package leetcode.leetcode_2223_sum_of_scores_of_built_strings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

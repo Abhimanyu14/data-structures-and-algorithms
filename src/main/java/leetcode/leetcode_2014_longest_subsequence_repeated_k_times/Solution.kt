@@ -14,6 +14,8 @@ package leetcode.leetcode_2014_longest_subsequence_repeated_k_times
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

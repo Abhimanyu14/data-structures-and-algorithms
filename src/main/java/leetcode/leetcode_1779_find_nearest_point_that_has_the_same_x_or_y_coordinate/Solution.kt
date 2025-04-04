@@ -14,6 +14,8 @@ package leetcode.leetcode_1779_find_nearest_point_that_has_the_same_x_or_y_coord
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

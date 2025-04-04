@@ -14,6 +14,8 @@ package leetcode.leetcode_1927_sum_game
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

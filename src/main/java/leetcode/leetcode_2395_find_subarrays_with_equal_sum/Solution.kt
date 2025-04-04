@@ -14,6 +14,8 @@ package leetcode.leetcode_2395_find_subarrays_with_equal_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

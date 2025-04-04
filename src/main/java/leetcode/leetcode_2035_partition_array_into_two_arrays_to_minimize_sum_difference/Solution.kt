@@ -14,6 +14,8 @@ package leetcode.leetcode_2035_partition_array_into_two_arrays_to_minimize_sum_d
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2144_minimum_cost_of_buying_candies_with_discount
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

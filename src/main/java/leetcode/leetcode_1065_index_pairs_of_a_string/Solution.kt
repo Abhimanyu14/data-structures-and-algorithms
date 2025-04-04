@@ -14,6 +14,8 @@ package leetcode.leetcode_1065_index_pairs_of_a_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2168_unique_substrings_with_equal_digit_frequency
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

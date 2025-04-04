@@ -14,6 +14,8 @@ package leetcode.leetcode_1032_stream_of_characters
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

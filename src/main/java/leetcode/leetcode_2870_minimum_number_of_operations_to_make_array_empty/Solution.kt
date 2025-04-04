@@ -14,6 +14,8 @@ package leetcode.leetcode_2870_minimum_number_of_operations_to_make_array_empty
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

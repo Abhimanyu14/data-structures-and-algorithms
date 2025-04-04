@@ -14,6 +14,8 @@ package leetcode.leetcode_1667_fix_names_in_a_table
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

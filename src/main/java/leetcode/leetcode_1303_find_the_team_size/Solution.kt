@@ -14,6 +14,8 @@ package leetcode.leetcode_1303_find_the_team_size
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

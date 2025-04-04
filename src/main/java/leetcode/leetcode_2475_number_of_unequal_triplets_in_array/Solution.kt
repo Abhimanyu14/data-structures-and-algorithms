@@ -14,6 +14,8 @@ package leetcode.leetcode_2475_number_of_unequal_triplets_in_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1553_minimum_number_of_days_to_eat_n_oranges
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1749_maximum_absolute_sum_of_any_subarray
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

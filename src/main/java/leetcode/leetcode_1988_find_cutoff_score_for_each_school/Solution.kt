@@ -14,6 +14,8 @@ package leetcode.leetcode_1988_find_cutoff_score_for_each_school
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

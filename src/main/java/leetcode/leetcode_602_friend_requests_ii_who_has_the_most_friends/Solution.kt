@@ -14,6 +14,8 @@ package leetcode.leetcode_602_friend_requests_ii_who_has_the_most_friends
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

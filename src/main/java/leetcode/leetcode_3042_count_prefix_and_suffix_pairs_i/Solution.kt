@@ -8,12 +8,14 @@ package leetcode.leetcode_3042_count_prefix_and_suffix_pairs_i
  * Data Structure -
  * Algorithm - Brute Force
  *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun countPrefixSuffixPairs(words: Array<String>): Int {
     var result = 0

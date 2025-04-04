@@ -14,6 +14,8 @@ package leetcode.leetcode_1812_determine_color_of_a_chessboard_square
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

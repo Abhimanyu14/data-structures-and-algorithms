@@ -14,6 +14,8 @@ package leetcode.leetcode_2473_minimum_cost_to_buy_apples
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

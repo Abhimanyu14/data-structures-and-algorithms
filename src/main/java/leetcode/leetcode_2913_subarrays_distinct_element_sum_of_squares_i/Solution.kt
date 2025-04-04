@@ -14,6 +14,8 @@ package leetcode.leetcode_2913_subarrays_distinct_element_sum_of_squares_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

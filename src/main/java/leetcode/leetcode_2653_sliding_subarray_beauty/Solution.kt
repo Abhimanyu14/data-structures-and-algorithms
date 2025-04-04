@@ -14,6 +14,8 @@ package leetcode.leetcode_2653_sliding_subarray_beauty
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2478_number_of_beautiful_partitions
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

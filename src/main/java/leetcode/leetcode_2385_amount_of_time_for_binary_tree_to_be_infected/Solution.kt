@@ -14,6 +14,8 @@ package leetcode.leetcode_2385_amount_of_time_for_binary_tree_to_be_infected
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

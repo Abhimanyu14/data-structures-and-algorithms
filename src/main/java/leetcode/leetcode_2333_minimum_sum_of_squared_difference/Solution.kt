@@ -14,6 +14,8 @@ package leetcode.leetcode_2333_minimum_sum_of_squared_difference
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

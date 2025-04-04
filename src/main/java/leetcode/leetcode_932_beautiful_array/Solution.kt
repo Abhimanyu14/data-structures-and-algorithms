@@ -14,6 +14,8 @@ package leetcode.leetcode_932_beautiful_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

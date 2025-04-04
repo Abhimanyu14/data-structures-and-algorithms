@@ -14,6 +14,8 @@ package leetcode.leetcode_76_minimum_window_substring
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun minWindow(s: String, t: String): String {
     var minWindowSize = Int.MAX_VALUE

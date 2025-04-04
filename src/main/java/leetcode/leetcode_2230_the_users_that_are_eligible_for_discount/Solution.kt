@@ -14,6 +14,8 @@ package leetcode.leetcode_2230_the_users_that_are_eligible_for_discount
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

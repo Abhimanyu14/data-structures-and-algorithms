@@ -14,6 +14,8 @@ package leetcode.leetcode_1645_hopper_company_queries_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

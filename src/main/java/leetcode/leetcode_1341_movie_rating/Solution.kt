@@ -14,6 +14,8 @@ package leetcode.leetcode_1341_movie_rating
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

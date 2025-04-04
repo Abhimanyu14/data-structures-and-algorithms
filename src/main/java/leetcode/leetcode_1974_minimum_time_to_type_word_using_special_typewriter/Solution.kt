@@ -14,6 +14,8 @@ package leetcode.leetcode_1974_minimum_time_to_type_word_using_special_typewrite
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

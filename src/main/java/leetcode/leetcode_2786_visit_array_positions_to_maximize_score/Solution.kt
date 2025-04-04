@@ -14,6 +14,8 @@ package leetcode.leetcode_2786_visit_array_positions_to_maximize_score
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

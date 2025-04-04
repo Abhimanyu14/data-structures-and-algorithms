@@ -14,6 +14,8 @@ package leetcode.leetcode_1936_add_minimum_number_of_rungs
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

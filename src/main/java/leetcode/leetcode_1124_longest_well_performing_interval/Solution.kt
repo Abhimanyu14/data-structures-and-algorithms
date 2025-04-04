@@ -14,6 +14,8 @@ package leetcode.leetcode_1124_longest_well_performing_interval
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

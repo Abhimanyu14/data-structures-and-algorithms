@@ -14,6 +14,8 @@ package leetcode.leetcode_2720_popularity_percentage
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

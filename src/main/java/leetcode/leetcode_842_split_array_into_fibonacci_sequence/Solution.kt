@@ -14,6 +14,8 @@ package leetcode.leetcode_842_split_array_into_fibonacci_sequence
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3118_friday_purchase_iii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

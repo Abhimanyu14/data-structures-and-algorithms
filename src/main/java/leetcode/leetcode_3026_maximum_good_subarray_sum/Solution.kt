@@ -14,6 +14,8 @@ package leetcode.leetcode_3026_maximum_good_subarray_sum
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

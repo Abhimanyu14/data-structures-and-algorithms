@@ -14,6 +14,8 @@ package leetcode.leetcode_2403_minimum_time_to_kill_all_monsters
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

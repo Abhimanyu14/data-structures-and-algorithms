@@ -14,6 +14,8 @@ package leetcode.leetcode_2587_rearrange_array_to_maximize_prefix_score
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2794_create_object_from_two_arrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

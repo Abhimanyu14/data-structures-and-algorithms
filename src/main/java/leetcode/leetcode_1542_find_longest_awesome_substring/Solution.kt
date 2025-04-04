@@ -14,6 +14,8 @@ package leetcode.leetcode_1542_find_longest_awesome_substring
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

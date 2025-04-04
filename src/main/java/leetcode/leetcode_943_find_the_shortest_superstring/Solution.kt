@@ -14,6 +14,8 @@ package leetcode.leetcode_943_find_the_shortest_superstring
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

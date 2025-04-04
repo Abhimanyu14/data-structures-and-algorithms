@@ -14,6 +14,8 @@ package leetcode.leetcode_3130_find_all_possible_stable_binary_arrays_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

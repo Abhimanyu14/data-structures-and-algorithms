@@ -14,6 +14,8 @@ package leetcode.leetcode_2308_arrange_table_by_gender
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

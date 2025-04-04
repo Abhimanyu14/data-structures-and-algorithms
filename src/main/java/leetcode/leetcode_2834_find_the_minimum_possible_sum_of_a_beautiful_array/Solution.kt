@@ -14,6 +14,8 @@ package leetcode.leetcode_2834_find_the_minimum_possible_sum_of_a_beautiful_arra
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

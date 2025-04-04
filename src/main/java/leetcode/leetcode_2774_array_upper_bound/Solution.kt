@@ -14,6 +14,8 @@ package leetcode.leetcode_2774_array_upper_bound
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

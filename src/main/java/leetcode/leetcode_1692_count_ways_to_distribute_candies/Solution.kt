@@ -14,6 +14,8 @@ package leetcode.leetcode_1692_count_ways_to_distribute_candies
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

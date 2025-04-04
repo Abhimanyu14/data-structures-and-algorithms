@@ -14,6 +14,8 @@ package leetcode.leetcode_585_investments_in_2016
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

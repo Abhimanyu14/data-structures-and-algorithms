@@ -14,6 +14,8 @@ package leetcode.leetcode_481_magical_string
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

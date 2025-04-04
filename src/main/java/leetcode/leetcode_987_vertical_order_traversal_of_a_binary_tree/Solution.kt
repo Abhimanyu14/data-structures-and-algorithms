@@ -12,6 +12,8 @@ import kotlin.math.min
  * Stats
  * Runtime: 201 ms, faster than 53.23%
  * Memory Usage: 39 MB, less than 12.90%
+ *
+ * Companies - Meta
  */
 private fun verticalTraversal(root: TreeNode?): List<List<Int>> {
     if (root == null) {

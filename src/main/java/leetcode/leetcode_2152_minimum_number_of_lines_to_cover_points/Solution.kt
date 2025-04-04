@@ -14,6 +14,8 @@ package leetcode.leetcode_2152_minimum_number_of_lines_to_cover_points
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

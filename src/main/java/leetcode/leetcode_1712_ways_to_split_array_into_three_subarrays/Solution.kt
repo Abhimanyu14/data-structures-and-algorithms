@@ -14,6 +14,8 @@ package leetcode.leetcode_1712_ways_to_split_array_into_three_subarrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

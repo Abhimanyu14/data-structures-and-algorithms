@@ -14,6 +14,8 @@ package leetcode.leetcode_2163_minimum_difference_in_sums_after_removal_of_eleme
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

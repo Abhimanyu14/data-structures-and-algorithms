@@ -14,6 +14,8 @@ package leetcode.leetcode_2480_form_a_chemical_bond
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1491_average_salary_excluding_the_minimum_and_maximum_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

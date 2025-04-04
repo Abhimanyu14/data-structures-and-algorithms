@@ -14,6 +14,8 @@ package leetcode.leetcode_2057_smallest_index_with_equal_value
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

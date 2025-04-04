@@ -14,6 +14,8 @@ package leetcode.leetcode_2084_drop_type_1_orders_for_customers_with_type_0_orde
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1096_brace_expansion_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

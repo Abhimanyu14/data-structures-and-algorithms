@@ -14,6 +14,8 @@ package leetcode.leetcode_3205_maximum_array_hopping_score_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

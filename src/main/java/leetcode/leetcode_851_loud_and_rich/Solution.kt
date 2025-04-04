@@ -14,6 +14,8 @@ package leetcode.leetcode_851_loud_and_rich
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2184_number_of_ways_to_build_sturdy_brick_wall
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

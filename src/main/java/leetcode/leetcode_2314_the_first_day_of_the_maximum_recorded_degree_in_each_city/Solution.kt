@@ -14,6 +14,8 @@ package leetcode.leetcode_2314_the_first_day_of_the_maximum_recorded_degree_in_e
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

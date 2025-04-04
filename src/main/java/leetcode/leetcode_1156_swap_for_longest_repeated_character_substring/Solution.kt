@@ -14,6 +14,8 @@ package leetcode.leetcode_1156_swap_for_longest_repeated_character_substring
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

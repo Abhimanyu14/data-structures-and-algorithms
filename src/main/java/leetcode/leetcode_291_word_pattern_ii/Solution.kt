@@ -14,6 +14,8 @@ package leetcode.leetcode_291_word_pattern_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

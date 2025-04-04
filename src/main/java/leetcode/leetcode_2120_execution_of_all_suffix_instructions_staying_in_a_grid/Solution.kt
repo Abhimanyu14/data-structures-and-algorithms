@@ -14,6 +14,8 @@ package leetcode.leetcode_2120_execution_of_all_suffix_instructions_staying_in_a
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2740_find_the_value_of_the_partition
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

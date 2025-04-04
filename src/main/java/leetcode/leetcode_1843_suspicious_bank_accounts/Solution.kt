@@ -14,6 +14,8 @@ package leetcode.leetcode_1843_suspicious_bank_accounts
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

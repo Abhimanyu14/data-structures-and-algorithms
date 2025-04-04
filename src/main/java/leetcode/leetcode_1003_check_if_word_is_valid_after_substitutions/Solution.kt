@@ -14,6 +14,8 @@ package leetcode.leetcode_1003_check_if_word_is_valid_after_substitutions
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

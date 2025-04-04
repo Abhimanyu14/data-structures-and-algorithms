@@ -14,6 +14,8 @@ package leetcode.leetcode_3298_count_substrings_that_can_be_rearranged_to_contai
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

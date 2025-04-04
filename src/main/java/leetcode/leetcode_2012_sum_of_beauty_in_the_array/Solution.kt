@@ -14,6 +14,8 @@ package leetcode.leetcode_2012_sum_of_beauty_in_the_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

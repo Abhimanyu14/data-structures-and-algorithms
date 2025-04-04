@@ -14,6 +14,8 @@ package leetcode.leetcode_1825_finding_mk_average
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

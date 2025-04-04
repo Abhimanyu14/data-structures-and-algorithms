@@ -14,6 +14,8 @@ package leetcode.leetcode_3192_minimum_operations_to_make_binary_array_elements_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

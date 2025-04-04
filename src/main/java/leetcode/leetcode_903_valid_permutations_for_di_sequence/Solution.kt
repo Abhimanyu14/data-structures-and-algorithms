@@ -14,6 +14,8 @@ package leetcode.leetcode_903_valid_permutations_for_di_sequence
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

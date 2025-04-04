@@ -14,6 +14,8 @@ package leetcode.leetcode_362_design_hit_counter
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

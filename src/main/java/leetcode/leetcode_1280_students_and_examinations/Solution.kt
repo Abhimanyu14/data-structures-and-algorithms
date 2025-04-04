@@ -14,6 +14,8 @@ package leetcode.leetcode_1280_students_and_examinations
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

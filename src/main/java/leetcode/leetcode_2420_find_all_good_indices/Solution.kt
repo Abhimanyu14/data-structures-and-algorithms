@@ -14,6 +14,8 @@ package leetcode.leetcode_2420_find_all_good_indices
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

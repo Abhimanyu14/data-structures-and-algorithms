@@ -14,6 +14,8 @@ package leetcode.leetcode_2400_number_of_ways_to_reach_a_position_after_exactly_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

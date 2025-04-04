@@ -14,6 +14,8 @@ package leetcode.leetcode_2988_manager_of_the_largest_department
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

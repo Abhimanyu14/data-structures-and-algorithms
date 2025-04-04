@@ -14,6 +14,8 @@ package leetcode.leetcode_849_maximize_distance_to_closest_person
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

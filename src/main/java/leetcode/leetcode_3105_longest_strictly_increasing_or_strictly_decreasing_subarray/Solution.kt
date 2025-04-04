@@ -14,6 +14,8 @@ package leetcode.leetcode_3105_longest_strictly_increasing_or_strictly_decreasin
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

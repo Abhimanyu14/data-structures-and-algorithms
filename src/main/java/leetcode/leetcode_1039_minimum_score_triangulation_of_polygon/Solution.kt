@@ -14,6 +14,8 @@ package leetcode.leetcode_1039_minimum_score_triangulation_of_polygon
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

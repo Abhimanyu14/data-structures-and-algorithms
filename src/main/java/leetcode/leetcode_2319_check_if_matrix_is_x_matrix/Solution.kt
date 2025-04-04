@@ -14,6 +14,8 @@ package leetcode.leetcode_2319_check_if_matrix_is_x_matrix
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2933_high_access_employees
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

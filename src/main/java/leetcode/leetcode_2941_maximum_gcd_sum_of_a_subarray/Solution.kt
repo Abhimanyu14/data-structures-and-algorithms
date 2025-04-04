@@ -14,6 +14,8 @@ package leetcode.leetcode_2941_maximum_gcd_sum_of_a_subarray
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

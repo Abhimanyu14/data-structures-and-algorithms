@@ -14,6 +14,8 @@ package leetcode.leetcode_2284_sender_with_largest_word_count
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

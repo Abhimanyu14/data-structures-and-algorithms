@@ -14,6 +14,8 @@ package leetcode.leetcode_1907_count_salary_categories
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

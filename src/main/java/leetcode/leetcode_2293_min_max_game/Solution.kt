@@ -14,6 +14,8 @@ package leetcode.leetcode_2293_min_max_game
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

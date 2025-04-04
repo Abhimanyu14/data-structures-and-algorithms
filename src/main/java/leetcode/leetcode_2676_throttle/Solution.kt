@@ -14,6 +14,8 @@ package leetcode.leetcode_2676_throttle
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

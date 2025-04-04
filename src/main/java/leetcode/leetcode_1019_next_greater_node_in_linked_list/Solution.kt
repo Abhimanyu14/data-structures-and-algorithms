@@ -14,6 +14,8 @@ package leetcode.leetcode_1019_next_greater_node_in_linked_list
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

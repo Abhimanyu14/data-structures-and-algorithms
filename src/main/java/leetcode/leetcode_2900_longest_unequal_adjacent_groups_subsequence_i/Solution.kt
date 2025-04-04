@@ -14,6 +14,8 @@ package leetcode.leetcode_2900_longest_unequal_adjacent_groups_subsequence_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

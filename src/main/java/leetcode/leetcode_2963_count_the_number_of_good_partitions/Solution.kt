@@ -14,6 +14,8 @@ package leetcode.leetcode_2963_count_the_number_of_good_partitions
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

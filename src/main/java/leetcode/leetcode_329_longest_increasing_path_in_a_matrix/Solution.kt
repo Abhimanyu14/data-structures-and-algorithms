@@ -10,6 +10,8 @@ import kotlin.math.max
  * Stats
  * Runtime: 318 ms, faster than 30.95%
  * Memory Usage: 46.1 MB, less than 14.28%
+ *
+ * Companies - Meta
  */
 private fun longestIncreasingPath(matrix: Array<IntArray>): Int {
     val rowCount = matrix.size

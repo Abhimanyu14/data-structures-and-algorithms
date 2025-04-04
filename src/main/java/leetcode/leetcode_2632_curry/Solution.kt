@@ -14,6 +14,8 @@ package leetcode.leetcode_2632_curry
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

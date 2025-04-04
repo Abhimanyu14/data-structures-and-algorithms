@@ -14,6 +14,8 @@ package leetcode.leetcode_2947_count_beautiful_substrings_i
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

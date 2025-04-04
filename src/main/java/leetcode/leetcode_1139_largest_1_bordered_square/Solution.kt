@@ -14,6 +14,8 @@ package leetcode.leetcode_1139_largest_1_bordered_square
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

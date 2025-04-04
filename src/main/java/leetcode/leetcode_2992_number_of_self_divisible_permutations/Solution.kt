@@ -14,6 +14,8 @@ package leetcode.leetcode_2992_number_of_self_divisible_permutations
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1992_find_all_groups_of_farmland
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

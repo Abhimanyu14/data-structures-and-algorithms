@@ -14,6 +14,8 @@ package leetcode.leetcode_2242_maximum_score_of_a_node_sequence
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

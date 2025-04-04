@@ -14,6 +14,8 @@ package leetcode.leetcode_2003_smallest_missing_genetic_value_in_each_subtree
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

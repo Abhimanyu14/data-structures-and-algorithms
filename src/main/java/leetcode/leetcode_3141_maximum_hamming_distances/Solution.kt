@@ -14,6 +14,8 @@ package leetcode.leetcode_3141_maximum_hamming_distances
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

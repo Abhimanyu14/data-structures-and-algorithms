@@ -14,6 +14,8 @@ package leetcode.leetcode_2832_maximal_range_that_each_element_is_maximum_in_it
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

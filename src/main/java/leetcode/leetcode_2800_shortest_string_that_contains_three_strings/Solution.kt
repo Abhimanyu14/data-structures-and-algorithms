@@ -14,6 +14,8 @@ package leetcode.leetcode_2800_shortest_string_that_contains_three_strings
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

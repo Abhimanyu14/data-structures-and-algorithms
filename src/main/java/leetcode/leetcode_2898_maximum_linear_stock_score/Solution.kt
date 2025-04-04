@@ -14,6 +14,8 @@ package leetcode.leetcode_2898_maximum_linear_stock_score
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

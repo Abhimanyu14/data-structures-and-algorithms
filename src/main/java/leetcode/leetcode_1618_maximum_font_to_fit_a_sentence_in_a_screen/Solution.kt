@@ -14,6 +14,8 @@ package leetcode.leetcode_1618_maximum_font_to_fit_a_sentence_in_a_screen
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

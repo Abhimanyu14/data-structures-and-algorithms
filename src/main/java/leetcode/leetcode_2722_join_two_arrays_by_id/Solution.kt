@@ -14,6 +14,8 @@ package leetcode.leetcode_2722_join_two_arrays_by_id
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

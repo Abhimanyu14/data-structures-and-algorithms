@@ -14,6 +14,8 @@ package leetcode.leetcode_2240_number_of_ways_to_buy_pens_and_pencils
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

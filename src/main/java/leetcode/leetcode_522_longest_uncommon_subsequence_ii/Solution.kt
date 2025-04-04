@@ -14,6 +14,8 @@ package leetcode.leetcode_522_longest_uncommon_subsequence_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

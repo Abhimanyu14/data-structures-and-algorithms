@@ -14,6 +14,8 @@ package leetcode.leetcode_1744_can_you_eat_your_favorite_candy_on_your_favorite_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

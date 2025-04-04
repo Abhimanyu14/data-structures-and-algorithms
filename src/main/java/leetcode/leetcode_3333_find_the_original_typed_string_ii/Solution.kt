@@ -14,6 +14,8 @@ package leetcode.leetcode_3333_find_the_original_typed_string_ii
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

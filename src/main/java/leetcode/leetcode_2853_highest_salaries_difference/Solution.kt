@@ -14,6 +14,8 @@ package leetcode.leetcode_2853_highest_salaries_difference
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

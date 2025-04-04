@@ -14,6 +14,8 @@ package leetcode.leetcode_1742_maximum_number_of_balls_in_a_box
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

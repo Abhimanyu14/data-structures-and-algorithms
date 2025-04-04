@@ -14,6 +14,8 @@ package leetcode.leetcode_3077_maximum_strength_of_k_disjoint_subarrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

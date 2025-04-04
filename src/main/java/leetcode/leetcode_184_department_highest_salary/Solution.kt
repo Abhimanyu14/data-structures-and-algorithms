@@ -14,6 +14,8 @@ package leetcode.leetcode_184_department_highest_salary
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

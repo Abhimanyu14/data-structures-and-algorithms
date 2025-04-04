@@ -14,6 +14,8 @@ package leetcode.leetcode_2536_increment_submatrices_by_one
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

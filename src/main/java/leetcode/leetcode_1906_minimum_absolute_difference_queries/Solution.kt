@@ -14,6 +14,8 @@ package leetcode.leetcode_1906_minimum_absolute_difference_queries
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

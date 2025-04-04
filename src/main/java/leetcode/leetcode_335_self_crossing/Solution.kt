@@ -14,6 +14,8 @@ package leetcode.leetcode_335_self_crossing
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

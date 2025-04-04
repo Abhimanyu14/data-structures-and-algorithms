@@ -14,6 +14,8 @@ package leetcode.leetcode_2847_smallest_number_with_given_digit_product
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

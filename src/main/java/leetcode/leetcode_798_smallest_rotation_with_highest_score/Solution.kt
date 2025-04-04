@@ -14,6 +14,8 @@ package leetcode.leetcode_798_smallest_rotation_with_highest_score
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

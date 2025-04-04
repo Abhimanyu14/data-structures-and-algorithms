@@ -14,6 +14,8 @@ package leetcode.leetcode_1335_minimum_difficulty_of_a_job_schedule
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

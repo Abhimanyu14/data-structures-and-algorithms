@@ -14,6 +14,8 @@ package leetcode.leetcode_470_implement_rand10_using_rand7
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

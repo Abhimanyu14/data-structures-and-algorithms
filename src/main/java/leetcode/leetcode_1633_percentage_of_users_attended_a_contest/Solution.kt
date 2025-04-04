@@ -14,6 +14,8 @@ package leetcode.leetcode_1633_percentage_of_users_attended_a_contest
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

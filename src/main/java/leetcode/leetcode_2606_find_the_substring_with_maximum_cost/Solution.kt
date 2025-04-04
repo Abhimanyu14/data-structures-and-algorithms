@@ -14,6 +14,8 @@ package leetcode.leetcode_2606_find_the_substring_with_maximum_cost
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

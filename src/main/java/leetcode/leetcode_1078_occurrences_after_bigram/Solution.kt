@@ -14,6 +14,8 @@ package leetcode.leetcode_1078_occurrences_after_bigram
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3196_maximize_total_cost_of_alternating_subarrays
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

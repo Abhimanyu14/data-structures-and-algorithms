@@ -14,6 +14,8 @@ package leetcode.leetcode_2531_make_number_of_distinct_characters_equal
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

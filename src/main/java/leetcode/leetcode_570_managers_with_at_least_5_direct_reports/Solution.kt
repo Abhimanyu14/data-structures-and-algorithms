@@ -14,6 +14,8 @@ package leetcode.leetcode_570_managers_with_at_least_5_direct_reports
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2307_check_for_contradictions_in_equations
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

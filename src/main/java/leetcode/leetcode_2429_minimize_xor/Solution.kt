@@ -14,6 +14,8 @@ package leetcode.leetcode_2429_minimize_xor
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

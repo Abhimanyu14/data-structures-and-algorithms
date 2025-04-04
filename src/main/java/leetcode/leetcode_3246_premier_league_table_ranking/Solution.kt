@@ -14,6 +14,8 @@ package leetcode.leetcode_3246_premier_league_table_ranking
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_990_satisfiability_of_equality_equations
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

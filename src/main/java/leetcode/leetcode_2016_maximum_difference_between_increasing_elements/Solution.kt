@@ -14,6 +14,8 @@ package leetcode.leetcode_2016_maximum_difference_between_increasing_elements
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

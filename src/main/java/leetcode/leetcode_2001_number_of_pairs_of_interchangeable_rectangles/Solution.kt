@@ -14,6 +14,8 @@ package leetcode.leetcode_2001_number_of_pairs_of_interchangeable_rectangles
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

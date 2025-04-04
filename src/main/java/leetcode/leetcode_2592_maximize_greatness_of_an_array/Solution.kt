@@ -14,6 +14,8 @@ package leetcode.leetcode_2592_maximize_greatness_of_an_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

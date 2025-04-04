@@ -14,6 +14,8 @@ package leetcode.leetcode_2104_sum_of_subarray_ranges
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

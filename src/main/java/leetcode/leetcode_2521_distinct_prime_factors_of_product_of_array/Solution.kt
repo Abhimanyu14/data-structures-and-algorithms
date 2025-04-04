@@ -14,6 +14,8 @@ package leetcode.leetcode_2521_distinct_prime_factors_of_product_of_array
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

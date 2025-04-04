@@ -14,6 +14,8 @@ package leetcode.leetcode_915_partition_array_into_disjoint_intervals
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

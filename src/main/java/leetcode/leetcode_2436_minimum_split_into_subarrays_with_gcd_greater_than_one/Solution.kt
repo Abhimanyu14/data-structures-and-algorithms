@@ -14,6 +14,8 @@ package leetcode.leetcode_2436_minimum_split_into_subarrays_with_gcd_greater_tha
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

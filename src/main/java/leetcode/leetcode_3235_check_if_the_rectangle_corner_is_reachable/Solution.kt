@@ -14,6 +14,8 @@ package leetcode.leetcode_3235_check_if_the_rectangle_corner_is_reachable
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2282_number_of_people_that_can_be_seen_in_a_grid
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

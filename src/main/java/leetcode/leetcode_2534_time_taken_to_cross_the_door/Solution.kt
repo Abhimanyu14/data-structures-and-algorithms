@@ -14,6 +14,8 @@ package leetcode.leetcode_2534_time_taken_to_cross_the_door
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

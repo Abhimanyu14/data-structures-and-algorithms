@@ -14,6 +14,8 @@ package leetcode.leetcode_1218_longest_arithmetic_subsequence_of_given_differenc
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_1866_number_of_ways_to_rearrange_sticks_with_k_sticks_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

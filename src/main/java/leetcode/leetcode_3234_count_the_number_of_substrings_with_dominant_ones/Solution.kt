@@ -14,6 +14,8 @@ package leetcode.leetcode_3234_count_the_number_of_substrings_with_dominant_ones
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

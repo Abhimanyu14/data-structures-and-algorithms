@@ -14,6 +14,8 @@ package leetcode.leetcode_1849_splitting_a_string_into_descending_consecutive_va
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_2302_count_subarrays_with_score_less_than_k
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

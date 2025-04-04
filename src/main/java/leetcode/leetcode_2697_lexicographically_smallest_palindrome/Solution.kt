@@ -14,6 +14,8 @@ package leetcode.leetcode_2697_lexicographically_smallest_palindrome
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

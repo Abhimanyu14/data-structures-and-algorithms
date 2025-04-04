@@ -14,6 +14,8 @@ package leetcode.leetcode_2996_smallest_missing_integer_greater_than_sequential_
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

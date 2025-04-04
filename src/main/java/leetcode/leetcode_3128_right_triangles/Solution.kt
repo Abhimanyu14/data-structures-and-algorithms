@@ -14,6 +14,8 @@ package leetcode.leetcode_3128_right_triangles
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

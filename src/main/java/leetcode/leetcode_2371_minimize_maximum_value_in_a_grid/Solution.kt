@@ -14,6 +14,8 @@ package leetcode.leetcode_2371_minimize_maximum_value_in_a_grid
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

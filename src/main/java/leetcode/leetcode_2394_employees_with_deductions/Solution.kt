@@ -14,6 +14,8 @@ package leetcode.leetcode_2394_employees_with_deductions
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 

@@ -14,6 +14,8 @@ package leetcode.leetcode_3283_maximum_number_of_moves_to_kill_all_pawns
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun main() {
 
