@@ -1,7 +1,7 @@
 package leetcode.leetcode_820_short_encoding_of_words
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/short-encoding-of-words/description/?envType=problem-list-v2&envId=trie
  *
  * TODO(Abhi) - To revisit
  *
@@ -15,7 +15,7 @@ package leetcode.leetcode_820_short_encoding_of_words
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Meta
  */
 private fun main() {
 
