@@ -3,7 +3,7 @@ package leetcode.leetcode_211_design_add_and_search_words_data_structure
 /**
  * leetcode - https://leetcode.com/problems/design-add-and-search-words-data-structure/
  *
- * Data Structure - Trie
+ * Data Structure - [Trie]
  * Algorithm -
  *
  * Difficulty -
@@ -14,6 +14,8 @@ package leetcode.leetcode_211_design_add_and_search_words_data_structure
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private class TrieNode(
     var isWord: Boolean = false,

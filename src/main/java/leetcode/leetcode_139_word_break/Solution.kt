@@ -17,6 +17,8 @@ package leetcode.leetcode_139_word_break
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun wordBreak(s: String, wordDict: List<String>): Boolean {
     val dp = BooleanArray(s.length + 1) { false }

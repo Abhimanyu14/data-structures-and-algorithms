@@ -1,6 +1,5 @@
 package leetcode.leetcode_386_lexicographical_numbers
 
-
 /**
  * leetcode - https://leetcode.com/problems/lexicographical-numbers/
  *
@@ -14,8 +13,9 @@ package leetcode.leetcode_386_lexicographical_numbers
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
-
 private fun lexicalOrder(n: Int): List<Int> {
     val lexicographicalNumbers: MutableList<Int> = ArrayList()
     var currentNumber = 1
@@ -37,6 +37,71 @@ private fun lexicalOrder(n: Int): List<Int> {
     }
 
     return lexicographicalNumbers
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/lexicographical-numbers/
+ *
+ * Data Structure - [Trie]
+ * Algorithm - Trie
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
+ */
+private class TrieNode(
+    var children: Array<TrieNode?> = arrayOfNulls(10),
+)
+
+private class Trie {
+    private val root = TrieNode()
+
+    fun addNumbers(x: Int) {
+        for (i in 1..x) {
+            add(i)
+        }
+    }
+
+    private fun add(x: Int) {
+        var currentNode = root
+        x.toString().forEach {
+            if (currentNode.children[it - '0'] == null) {
+                currentNode.children[it - '0'] = TrieNode()
+            }
+            currentNode.children[it - '0']?.let {
+                currentNode = it
+            }
+        }
+    }
+
+    fun getLexicographicalOrdered(): List<Int> {
+        val result = mutableListOf<Int>()
+        val stack = ArrayDeque<Pair<TrieNode, Int>>()
+        stack.addLast(Pair(root, 0))
+        while (stack.isNotEmpty()) {
+            val (currentNode, currentValue) = stack.removeLast()
+            if (currentValue > 0) {
+                result.add(currentValue)
+            }
+            for (i in 9 downTo 0) {
+                currentNode.children[i]?.let {
+                    stack.addLast(Pair(it, ((currentValue * 10) + i)))
+                }
+            }
+        }
+        return result
+    }
+}
+
+private fun lexicalOrderUsingTrie(n: Int): List<Int> {
+    val trie = Trie()
+    trie.addNumbers(n)
+    return trie.getLexicographicalOrdered()
 }
 
 private fun main() {

@@ -5,26 +5,36 @@ import java.util.Stack
 /**
  * leetcode - https://leetcode.com/problems/valid-parentheses/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using Stack - Array Deque
+ * Data Structure - [ArrayDeque] (Stack)
+ * Algorithm - Stacking
+ *
+ * Difficulty - Easy
  *
  * Stats
- * Runtime: 296 ms, faster than 22.56%
- * Memory Usage: 36 MB, less than 21.14%
+ * Runtime: 23 ms, faster than 21.32%
+ * Memory Usage: 46.82 MB, less than 5.13%
+ *
+ * Time - O(N)
+ * Space - O(N)
+ *
+ * Companies - Google, Meta
  */
 private fun isValid(s: String): Boolean {
+    val stack = ArrayDeque<Char>()
     val map = mapOf(
         ')' to '(',
-        '}' to '{',
         ']' to '[',
+        '}' to '{',
     )
-    val stack = ArrayDeque<Char>()
-    s.forEach {
-        if (map.contains(it)) {
-            if (stack.isEmpty() || stack.removeLast() != map[it]) {
+    for (char in s) {
+        if (map.contains(char)) {
+            if (stack.isNotEmpty() && stack.last() == map[char]) {
+                stack.removeLast()
+            } else {
                 return false
             }
         } else {
-            stack.addLast(it)
+            stack.addLast(char)
         }
     }
     return stack.isEmpty()

@@ -5,35 +5,40 @@ import data_structures_and_algorithms.TreeNode
 /**
  * leetcode - https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
  *
- * Using recursion
+ * Data Structure - [Tree]
+ * Algorithm - DFS (Recursion)
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 180 ms, faster than 84.21%
- * Memory Usage: 38.3 MB, less than 31.58%
+ * Runtime: 1 ms, faster than 75.00%
+ * Memory Usage: 45.29 MB, less than 30.00%
+ *
+ * Time - O(N)
+ * Space - O(N) - implicit stack
+ *
+ * Companies - Amazon, Meta
  */
 private fun lcaDeepestLeaves(root: TreeNode?): TreeNode? {
     if (root == null) {
         return null
     }
-    fun findLca(head: TreeNode, depth: Int): Pair<TreeNode, Int> {
-        if (head.left == null && head.right == null) {
-            return Pair(head, depth)
-        }
-        val leftResult = head.left?.let {
-            findLca(it, depth + 1)
-        } ?: Pair(head, 0)
-        val rightResult = head.right?.let {
-            findLca(it, depth + 1)
-        } ?: Pair(head, 0)
-        return if (leftResult.second == rightResult.second) {
-            Pair(head, leftResult.second)
-        } else if (leftResult.second > rightResult.second) {
-            leftResult
+    fun dfs(current: TreeNode, depth: Int): Pair<TreeNode, Int> {
+        val left = current.left?.let {
+            dfs(it, depth + 1)
+        } ?: Pair(current, depth)
+        val right = current.right?.let {
+            dfs(it, depth + 1)
+        } ?: Pair(current, depth)
+        return if (left.second == right.second) {
+            Pair(current, left.second)
+        } else if (left.second > right.second) {
+            left
         } else {
-            rightResult
+            right
         }
     }
-    return findLca(root, 0).first
+    return dfs(root, 0).first
 }
 
 private fun main() {
