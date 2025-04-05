@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test
  * Use [setOf]
  *
  * Methods
- * [Set.union], [Set.intersect], [Set.random]
+ * [Set.union], [Set.intersect], [Set.random], [MutableSet.add]
  *
  * Operators
  * [+], [-]
@@ -44,4 +44,16 @@ private class SetOperationsTest {
         assertEquals(78, set3.elementAt(1))
         assertEquals(32, set3.elementAt(2))
     }
+
+    @Test
+    fun mutableSetOperations() {
+        val set = mutableSetOf<Int>()
+
+        // add() returns boolean value
+        assertEquals(true, set.add(1))
+        assertEquals(true, set.add(2))
+        assertEquals(true, set.add(3))
+        assertEquals(false, set.add(1))
+    }
 }
+

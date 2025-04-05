@@ -3,11 +3,21 @@ package leetcode.leetcode_78_subsets
 /**
  * leetcode - https://leetcode.com/problems/subsets/
  *
- * Using recursion
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - Recursion
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 164 ms, faster than 96.49%
  * Memory Usage: 37.2 MB, less than 49.12%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun subsets(nums: IntArray): List<List<Int>> {
     val result = mutableListOf<List<Int>>()

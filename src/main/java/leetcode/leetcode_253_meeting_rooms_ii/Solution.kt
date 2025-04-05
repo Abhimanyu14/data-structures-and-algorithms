@@ -4,12 +4,25 @@ import java.util.PriorityQueue
 
 /**
  * leetcode - https://leetcode.com/problems/meeting-rooms-ii/
+ * Premium Question
  *
- * Using list - sortedBy(), iterator
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [List]
+ * Algorithm -
+ *
+ * List methods - [sortedBy], list iterator
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 312 ms, faster than 80.36%
  * Memory Usage: 41.3 MB, less than 80.36%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 fun minMeetingRoomsUsingIterator(intervals: Array<IntArray>): Int {
     val sortedList = intervals.sortedBy { it[0] }

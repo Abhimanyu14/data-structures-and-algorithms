@@ -3,11 +3,21 @@ package leetcode.leetcode_8_string_to_integer_atoi
 /**
  * leetcode - https://leetcode.com/problems/string-to-integer-atoi/
  *
- * Using iteration
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - Iteration
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 145 ms, faster than 99.10%
  * Memory Usage: 35.2 MB, less than 60.81%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun myAtoi(s: String): Int {
     var isPositive = true

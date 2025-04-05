@@ -1,25 +1,22 @@
 package leetcode.leetcode_958_check_completeness_of_a_binary_tree
 
+import data_structures_and_algorithms.TreeNode
+
 /**
  * leetcode - https://leetcode.com/problems/check-completeness-of-a-binary-tree/
  *
- * Data Structure - Tree
+ * Data Structure - [Tree], [ArrayDeque] (Queue)
  * Algorithm - BFS (Tree traversal)
  *
  * Difficulty - Medium
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(N)
  *
  * Companies - Meta
  */
-private class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
-}
-
 private fun isCompleteTree(root: TreeNode?): Boolean {
     if (root == null) {
         return true
@@ -28,22 +25,22 @@ private fun isCompleteTree(root: TreeNode?): Boolean {
     var isEndFound = false
     queue.add(root)
     while (queue.isNotEmpty()) {
-        val current = queue.removeFirst()
-        if (current.left == null) {
+        val currentNode = queue.removeFirst()
+        if (currentNode.left == null) {
             isEndFound = true
         } else {
             if (isEndFound) {
                 return false
             }
-            queue.addLast(current.left!!)
+            queue.addLast(currentNode.left!!)
         }
-        if (current.right == null) {
+        if (currentNode.right == null) {
             isEndFound = true
         } else {
             if (isEndFound) {
                 return false
             }
-            queue.addLast(current.right!!)
+            queue.addLast(currentNode.right!!)
         }
     }
     return true

@@ -4,11 +4,21 @@ package leetcode.leetcode_9_palindrome_number
  * leetcode - https://leetcode.com/problems/palindrome-number/
  * https://leetcode.com/problems/palindrome-number/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using loops
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - Iteration
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 242 ms, faster than 94.89%
  * Memory Usage: 35.3 MB, less than 93.90%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun isPalindromeUsingLoops(x: Int): Boolean {
     if (x < 0) {

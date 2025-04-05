@@ -5,7 +5,8 @@ package leetcode.leetcode_523_continuous_subarray_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
  * Difficulty - Medium
  *
@@ -13,6 +14,8 @@ package leetcode.leetcode_523_continuous_subarray_sum
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun checkSubarraySum(nums: IntArray, k: Int): Boolean {
     var prefixMod = 0
@@ -33,8 +36,6 @@ private fun checkSubarraySum(nums: IntArray, k: Int): Boolean {
 
 /**
  * leetcode - https://leetcode.com/problems/continuous-subarray-sum/
- *
- * TODO(Abhi) - To revisit
  *
  * Using
  *

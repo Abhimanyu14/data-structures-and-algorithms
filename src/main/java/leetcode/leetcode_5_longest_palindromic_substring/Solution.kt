@@ -6,11 +6,21 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/longest-palindromic-substring/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using expand around center
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - Expand around center
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 204 ms, faster than 96.92%
  * Memory Usage: 36.1 MB, less than 84.74%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Google, Meta
  */
 private fun longestPalindrome(s: String): String {
     if (s.isEmpty()) {
