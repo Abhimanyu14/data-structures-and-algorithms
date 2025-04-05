@@ -5,30 +5,34 @@ import kotlin.random.Random
 /**
  * leetcode - https://leetcode.com/problems/shuffle-an-array/
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - [Random]
+ * Algorithm - Randomization
  *
- * Using
+ * Array methods - [Array.clone]
+ *
+ * Difficulty - Medium
  *
  * Stats
  *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
-private class Solution(var nums: IntArray) {
-    private val original: IntArray = nums.clone()
-
+private class Solution(val nums: IntArray) {
     fun reset(): IntArray {
-        nums = original.clone()
         return nums
     }
 
     fun shuffle(): IntArray {
-        val temp = original.clone().toMutableList()
-        var randomIndex: Int
-        repeat(original.size) {
-            randomIndex = Random.nextInt(1, temp.size)
-            nums[it] = temp[randomIndex]
-            temp.removeAt(randomIndex)
+        val result = nums.clone()
+        for (i in nums.indices) {
+            val swapIndex = Random.nextInt(nums.size)
+            result[i] = result[swapIndex].also {
+                result[swapIndex] = result[i]
+            }
         }
-        return nums
+        return result
     }
 }
 
