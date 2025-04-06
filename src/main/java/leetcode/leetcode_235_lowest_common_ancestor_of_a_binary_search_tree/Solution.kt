@@ -5,14 +5,49 @@ import data_structures_and_algorithms.TreeNode
 /**
  * leetcode - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
  *
- * Using tree traversal
+ * Data Structure - Tree
+ * Algorithm - Tree traversal (Recursion)
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 227 ms, faster than 73.97%
- * Memory Usage: 41 MB, less than 10.74%
+ * Runtime: 181 ms, faster than 88.69%
+ * Memory Usage: 49.38 MB, less than 5.66%
+ *
+ * Time - O(log N)
+ * Space - O(log N)
+ *
+ * Companies - Meta
  */
 private fun lowestCommonAncestor(root: TreeNode?, p: TreeNode?, q: TreeNode?): TreeNode? {
-    if (root == null || p == null || q == null || root.`val` == p.`val` || root.`val` == q.`val`) {
+    return if (root == null || p == null || q == null) {
+        null
+    } else if (p.`val` < root.`val` && q.`val` < root.`val`) {
+        lowestCommonAncestor(root.left, p, q)
+    } else if (p.`val` > root.`val` && q.`val` > root.`val`) {
+        lowestCommonAncestor(root.right, p, q)
+    } else {
+        root
+    }
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+ *
+ * Data Structure - Tree
+ * Algorithm - Tree traversal (Iteration)
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
+ */
+private fun lowestCommonAncestor1(root: TreeNode?, p: TreeNode?, q: TreeNode?): TreeNode? {
+    if (root == null || p == null || q == null) {
         return root
     }
     var current = root

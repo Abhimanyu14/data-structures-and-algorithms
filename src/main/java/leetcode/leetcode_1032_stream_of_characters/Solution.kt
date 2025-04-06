@@ -6,7 +6,7 @@ package leetcode.leetcode_1032_stream_of_characters
  * Data Structure - [Trie], [StringBuilder]
  * Algorithm -
  *
- * String property - [lastIndex]
+ * String properties - [lastIndex]
  *
  * Difficulty - Hard
  *

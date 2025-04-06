@@ -6,20 +6,30 @@ import kotlin.math.max
  * leetcode - https://leetcode.com/problems/maximum-subarray/
  * https://leetcode.com/problems/maximum-subarray/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using dynamic programming - Kadane's Algorithm
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - NA
+ * Algorithm - Dynamic programming - Kadane's Algorithm
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 532 ms, faster than 56.67%
- * Memory Usage: 58.7 MB, less than 55.30%
+ * Runtime: 13 ms, faster than 12.57%
+ * Memory Usage: 64.19 MB, less than 28.96%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Google, Meta
  */
 private fun maxSubArray(nums: IntArray): Int {
-    var localMax = nums[0]
-    var globalMax = nums[0]
+    var result = nums[0]
+    var current = nums[0]
     for (i in 1..nums.lastIndex) {
-        localMax = max(nums[i], localMax + nums[i])
-        globalMax = max(globalMax, localMax)
+        current = max(current, 0) + nums[i]
+        result = max(result, current)
     }
-    return globalMax
+    return result
 }
 
 private fun main() {

@@ -3,11 +3,37 @@ package leetcode.leetcode_66_plus_one
 /**
  * leetcode - https://leetcode.com/problems/plus-one/
  *
+ * Data Structure - [List], [IntArray]
+ * Algorithm - Iteration
+ *
+ * List methods - [MutableList.add], [MutableList.toIntArray]
+ *
+ * Difficulty - Easy
+ *
  * Stats
- * Runtime: 192 ms, faster than 29.71%
- * Memory Usage: 36.6 MB, less than 19.17%
+ * Runtime: 16 ms, faster than 23.44%
+ * Memory Usage: 45.89 MB, less than 8.47%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
-fun addWithCarry(arr: IntArray, position: Int): Int {
+private fun plusOne(digits: IntArray): IntArray {
+    var carry = 1
+    val result = mutableListOf<Int>()
+    for (i in digits.lastIndex downTo 0) {
+        val sum = digits[i] + carry
+        carry = sum / 10
+        result.add(0, sum % 10)
+    }
+    if (carry != 0) {
+        result.add(0, carry)
+    }
+    return result.toIntArray()
+}
+
+private fun addWithCarry(arr: IntArray, position: Int): Int {
     if (position == arr.size) {
         return 1
     }
@@ -16,7 +42,7 @@ fun addWithCarry(arr: IntArray, position: Int): Int {
     return res / 10
 }
 
-fun plusOne(digits: IntArray): IntArray {
+private fun plusOneUsingRecursion(digits: IntArray): IntArray {
     val carry = addWithCarry(digits, 0)
     if (carry > 0) {
         val newArray = digits.asList().toMutableList()

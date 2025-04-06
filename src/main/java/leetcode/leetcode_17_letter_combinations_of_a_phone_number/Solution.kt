@@ -3,12 +3,48 @@ package leetcode.leetcode_17_letter_combinations_of_a_phone_number
 /**
  * leetcode - https://leetcode.com/problems/letter-combinations-of-a-phone-number/
  *
- * Using recursion
+ * Data Structure - [Map]
+ * Algorithm - Recursion
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 168 ms, faster than 75.88%
- * Memory Usage: 37.6 MB, less than 45.29%
+ * Runtime: 16 ms, faster than 36.76%
+ * Memory Usage: 46.23 MB, less than 6.58%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
+private fun letterCombinations(digits: String): List<String> {
+    if (digits.isEmpty()) {
+        return emptyList()
+    }
+    val map = mapOf(
+        '2' to listOf('a', 'b', 'c'),
+        '3' to listOf('d', 'e', 'f'),
+        '4' to listOf('g', 'h', 'i'),
+        '5' to listOf('j', 'k', 'l'),
+        '6' to listOf('m', 'n', 'o'),
+        '7' to listOf('p', 'q', 'r', 's'),
+        '8' to listOf('t', 'u', 'v'),
+        '9' to listOf('w', 'x', 'y', 'z'),
+    )
+
+    fun getResult(index: Int, current: String): List<String> {
+        if (index == digits.length) {
+            return listOf(current)
+        }
+        val result = mutableListOf<String>()
+        map[digits[index]]?.forEach {
+            result.addAll(getResult(index + 1, current + it))
+        }
+        return result
+    }
+    return getResult(0, "")
+}
+
 private fun letterCombinationsRecursion(digits: String): List<String> {
     if (digits == "") {
         return emptyList()
@@ -46,7 +82,7 @@ private fun letterCombinationsRecursion(digits: String): List<String> {
  * Stats
  *
  */
-private fun letterCombinations(digits: String): List<String> {
+private fun letterCombinationsUsingBacktracking(digits: String): List<String> {
     if (digits == "") {
         return emptyList()
     }

@@ -6,7 +6,7 @@ package leetcode.leetcode_824_goat_latin
  * Data Structure - [StringBuilder], [Set]
  * Algorithm - Iteration
  *
- * String property - [lastIndex]
+ * String properties - [lastIndex]
  *
  * String methods - [repeat]
  * StringBuilder methods - [append]

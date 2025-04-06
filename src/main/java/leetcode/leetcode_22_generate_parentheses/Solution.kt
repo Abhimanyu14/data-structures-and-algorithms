@@ -2,12 +2,37 @@ package leetcode.leetcode_22_generate_parentheses
 
 /**
  * leetcode - https://leetcode.com/problems/generate-parentheses/
- * https://leetcode.com/problems/generate-parentheses/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
+ *  * https://leetcode.com/problems/generate-parentheses/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * TODO-Abhi: Using Catalan number
+ * Data Structure - [List]
+ * Algorithm - Recursion
+ *
+ * Difficulty - Medium
  *
  * Stats
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Google, Meta
  */
+private fun generateParenthesisUsingRecursion(n: Int): List<String> {
+    val result = mutableListOf<String>()
+    fun generateStrings(current: String, openCount: Int, closedCount: Int) {
+        if (openCount == n && closedCount == n - 1) {
+            result.add("$current)")
+            return
+        }
+        if (openCount < n) {
+            generateStrings("$current(", openCount + 1, closedCount)
+        }
+        if (closedCount < openCount) {
+            generateStrings("$current)", openCount, closedCount + 1)
+        }
+    }
+    generateStrings("", 0, 0)
+    return result
+}
 
 /**
  * leetcode - https://leetcode.com/problems/generate-parentheses/

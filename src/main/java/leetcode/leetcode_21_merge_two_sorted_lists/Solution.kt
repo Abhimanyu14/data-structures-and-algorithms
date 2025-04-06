@@ -8,114 +8,119 @@ import data_structures_and_algorithms.linkedlist.printLinkedList
  * leetcode - https://leetcode.com/problems/merge-two-sorted-lists/
  * https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - [LinkedList]
+ * Algorithm - Two Pointers
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
+ * Runtime: 0 ms, faster than 100.00%
+ * Memory Usage: 42.58 MB, less than 40.58%
  *
- * Stats
- * Runtime: 172 ms, faster than 51.81%
- * Memory Usage: 35.3 MB, less than 28.51%
+ * Time - O(M + N)
+ * Space - O(M + N)
  *
- * Time -
- * Space -
+ * Companies - Google, Meta
  */
-fun mergeTwoListsUsingBruteForce(l1: ListNode?, l2: ListNode?): ListNode? {
-    if (l1 == null) {
-        return l2
+private fun mergeTwoLists(list1: ListNode?, list2: ListNode?): ListNode? {
+    if (list1 == null) {
+        return list2
     }
-    if (l2 == null) {
-        return l1
+    if (list2 == null) {
+        return list1
     }
-    var l1Pointer = l1
-    var l2Pointer = l2
-    var temp: Int
-    val result = if (l1Pointer.`val` <= l2Pointer.`val`) {
-        temp = l1Pointer.`val`
-        l1Pointer = l1Pointer.next
-        ListNode(temp)
-    } else {
-        temp = l2Pointer.`val`
-        l2Pointer = l2Pointer.next
-        ListNode(temp)
-    }
-
-    var resultPointer = result
-    while (l1Pointer != null || l2Pointer != null) {
-        if (l1Pointer == null) {
-            temp = l2Pointer!!.`val`
-            l2Pointer = l2Pointer.next
-            resultPointer.next = ListNode(temp)
-            resultPointer = resultPointer.next!!
-        } else if (l2Pointer == null) {
-            temp = l1Pointer.`val`
-            l1Pointer = l1Pointer.next
-            resultPointer.next = ListNode(temp)
-            resultPointer = resultPointer.next!!
+    var pointer1: ListNode? = list1
+    var pointer2: ListNode? = list2
+    fun getNextNode(): ListNode? {
+        return if ((pointer1?.`val` ?: 0) <= (pointer2?.`val` ?: 0)) {
+            pointer1.also {
+                pointer1 = pointer1?.next
+            }
         } else {
-            if (l1Pointer.`val` <= l2Pointer.`val`) {
-                temp = l1Pointer.`val`
-                l1Pointer = l1Pointer.next
-                resultPointer.next = ListNode(temp)
-                resultPointer = resultPointer.next!!
-            } else {
-                temp = l2Pointer.`val`
-                l2Pointer = l2Pointer.next
-                resultPointer.next = ListNode(temp)
-                resultPointer = resultPointer.next!!
+            pointer2.also {
+                pointer2 = pointer2?.next
             }
         }
     }
-    return result
+
+    val root = getNextNode()
+    var current: ListNode? = root
+    while (pointer1 != null && pointer2 != null) {
+        current?.next = getNextNode()
+        current = current?.next
+    }
+    if (pointer1 != null) {
+        current?.next = pointer1
+    }
+    if (pointer2 != null) {
+        current?.next = pointer2
+    }
+    return root
 }
 
 /**
- * Using loops
+ * leetcode - https://leetcode.com/problems/merge-two-sorted-lists/
+ * https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
+ *
+ * Data Structure - [LinkedList]
+ * Algorithm - Two Pointers
+ *
+ * Difficulty - Easy
  *
  * Stats
- * Runtime: 307 ms, faster than 45.93%
- * Memory Usage: 36 MB, less than 53.04%
+ * Runtime: 1 ms, faster than 33.80%
+ * Memory Usage: 43.29 MB, less than 9.17%
+ *
+ * Time - O(M + N)
+ * Space - O(M + N)
+ *
+ * Companies - Google, Meta
  */
-private fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
-    if (l1 == null) {
-        return l2
+private fun mergeTwoListsWithNewNodes(list1: ListNode?, list2: ListNode?): ListNode? {
+    if (list1 == null) {
+        return list2
     }
-    if (l2 == null) {
-        return l1
+    if (list2 == null) {
+        return list1
     }
-    var p1 = l1
-    var p2 = l2
-    val resultHead = if (p1.`val` <= p2.`val`) {
-        ListNode(p1.`val`).also {
-            p1 = p1?.next
+    var pointer1: ListNode? = list1
+    var pointer2: ListNode? = list2
+    val root = if ((pointer1?.`val` ?: 0) <= (pointer2?.`val` ?: 0)) {
+        ListNode((pointer1?.`val` ?: 0)).also {
+            pointer1 = pointer1?.next
         }
     } else {
-        ListNode(p2.`val`).also {
-            p2 = p2?.next
+        ListNode((pointer2?.`val` ?: 0)).also {
+            pointer2 = pointer2?.next
         }
     }
-    var resultPointer = resultHead
-    while (p1 != null && p2 != null) {
-        if ((p1?.`val` ?: 0) <= (p2?.`val` ?: 0)) {
-            resultPointer.next = ListNode(p1?.`val` ?: 0)
-            resultPointer = resultPointer.next!!
-            p1 = p1?.next
+    var current: ListNode? = root
+    while (pointer1 != null && pointer2 != null) {
+        val next = if ((pointer1?.`val` ?: 0) <= (pointer2?.`val` ?: 0)) {
+            ListNode((pointer1?.`val` ?: 0)).also {
+                pointer1 = pointer1?.next
+            }
         } else {
-            resultPointer.next = ListNode(p2?.`val` ?: 0)
-            resultPointer = resultPointer.next!!
-            p2 = p2?.next
+            ListNode((pointer2?.`val` ?: 0)).also {
+                pointer2 = pointer2?.next
+            }
         }
+        current?.next = next
+        current = next
     }
-    if (p1 != null) {
-        resultPointer.next = p1
-    } else {
-        resultPointer.next = p2
+    while (pointer1 != null) {
+        val next = ListNode((pointer1?.`val` ?: 0))
+        pointer1 = pointer1?.next
+        current?.next = next
+        current = next
     }
-    return resultHead
+    while (pointer2 != null) {
+        val next = ListNode((pointer2?.`val` ?: 0))
+        pointer2 = pointer2?.next
+        current?.next = next
+        current = next
+    }
+    return root
 }
 
 private fun main() {

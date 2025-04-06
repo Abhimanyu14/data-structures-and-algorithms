@@ -4,37 +4,40 @@ package leetcode.leetcode_75_sort_colors
  * leetcode - https://leetcode.com/problems/sort-colors/
  *
  * Data Structure - Two Pointers
- * Algorithm - Counting
+ * Algorithm - Iteration
  *
  * a.k.a. - Dutch National Flag Problem
  *
  * Difficulty - Medium
  *
  * Stats
- * Runtime: 16 ms, faster than 11.25%
- * Memory Usage: 39.02 MB, less than 6.67%
+ * Runtime: 10 ms, faster than 20.25%
+ * Memory Usage: 46.15 MB, less than 6.08%
  *
  * Time - O(N)
  * Space - O(1)
+ *
+ * Companies - Meta
  */
 private fun sortColors(nums: IntArray) {
     var left = 0
     var right = nums.lastIndex
-    var current = 0
-    while (current <= nums.lastIndex && current <= right) {
-        if (nums[current] == 0) {
-            nums[left] = nums[current].also {
-                nums[current] = nums[left]
-            }
+    var i = 0
+    fun swap(i: Int, j: Int) {
+        nums[i] = nums[j].also {
+            nums[j] = nums[i]
+        }
+    }
+    while (i <= right) {
+        if (nums[i] == 0) {
+            swap(i, left)
             left++
-            current++
-        } else if (nums[current] == 2) {
-            nums[right] = nums[current].also {
-                nums[current] = nums[right]
-            }
+            i++
+        } else if (nums[i] == 1) {
+            i++
+        } else if (nums[i] == 2) {
+            swap(i, right)
             right--
-        } else {
-            current++
         }
     }
 }

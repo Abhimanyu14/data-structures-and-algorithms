@@ -3,8 +3,13 @@ package leetcode.leetcode_49_group_anagrams
 /**
  * leetcode - https://leetcode.com/problems/group-anagrams/
  *
- * Data Structure - Array
+ * Data Structure - [Array], [IntArray], [Map]
  * Algorithm - Counting
+ *
+ * Map properties - [MutableMap.values]
+ *
+ * Map methods - [MutableMap.computeIfAbsent]
+ * IntArray methods - [IntArray.joinToString]
  *
  * Difficulty - Medium
  *
@@ -14,6 +19,8 @@ package leetcode.leetcode_49_group_anagrams
  *
  * Time - O(N)
  * Space - O(N)
+ *
+ * Companies - Meta
  */
 private fun groupAnagrams(strs: Array<String>): List<List<String>> {
     val result = mutableMapOf<String, MutableList<String>>()

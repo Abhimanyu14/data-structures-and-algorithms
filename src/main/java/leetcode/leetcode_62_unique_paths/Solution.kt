@@ -3,21 +3,28 @@ package leetcode.leetcode_62_unique_paths
 /**
  * leetcode - https://leetcode.com/problems/unique-paths/
  *
- * Using dynamic programming - optimized tabulation
+ * Data Structure -
+ * Algorithm - Dynamic programming - optimized tabulation
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 133 ms, faster than 93.66%
  * Memory Usage: 32.8 MB, less than 89.18%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun uniquePaths(m: Int, n: Int): Int {
-    val grid = IntArray(m)
-    grid[0] = 1
-    repeat(n) {
-        for (i in 1..<m) {
-            grid[i] = grid[i - 1] + grid[i]
+    val dp = IntArray(n) { 1 }
+    repeat(m - 1) {
+        for (i in 1..<n) {
+            dp[i] += dp[i - 1]
         }
     }
-    return grid[m - 1]
+    return dp.last()
 }
 
 /**

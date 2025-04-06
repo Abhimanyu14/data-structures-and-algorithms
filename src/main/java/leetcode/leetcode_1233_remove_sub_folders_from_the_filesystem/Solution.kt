@@ -6,8 +6,8 @@ package leetcode.leetcode_1233_remove_sub_folders_from_the_filesystem
  * Data Structure - [Trie], [Map], [StringBuilder], [ArrayDeque] (Stack), [List]
  * Algorithm - Trie
  *
- * Using Map property - [values]
- * Using String property - [length]
+ * Using Map properties - [values]
+ * Using String properties - [length]
  *
  * Using Array methods - [arrayOfNulls]
  * Using StringBuilder methods - [clear], [toString]
