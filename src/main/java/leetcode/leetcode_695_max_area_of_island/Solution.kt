@@ -5,11 +5,17 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/max-area-of-island/
  *
- * Using DFS
+ * Data Structure - [Array]
+ * Algorithm - DFS
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 242 ms, faster than 19.82%
- * Memory Usage: 41.7 MB, less than 31.53%
+ *
+ * Time - O(N)
+ * Space - O(N)
+ *
+ * Companies - Meta
  */
 private fun maxAreaOfIsland(grid: Array<IntArray>): Int {
     val visited = Array(grid.size) { Array(grid[0].size) { false } }

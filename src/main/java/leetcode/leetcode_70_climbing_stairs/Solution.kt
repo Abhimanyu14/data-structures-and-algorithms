@@ -3,8 +3,8 @@ package leetcode.leetcode_70_climbing_stairs
 /**
  * leetcode - https://leetcode.com/problems/climbing-stairs/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Data Structure - Array
- * Algorithm - Pointers
+ * Data Structure - NA
+ * Algorithm - Two Pointers
  *
  * Difficulty - Easy
  *
@@ -14,6 +14,8 @@ package leetcode.leetcode_70_climbing_stairs
  *
  * Time - O(N)
  * Space - O(1)
+ *
+ * Companies - Google, Meta
  */
 private fun climbStairs(n: Int): Int {
     if (n <= 2) {
@@ -22,7 +24,7 @@ private fun climbStairs(n: Int): Int {
     var prev = 1
     var current = 2
     var temp: Int
-    repeat(n - 2) {
+    for (i in 3..n) {
         temp = current
         current += prev
         prev = temp

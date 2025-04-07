@@ -5,17 +5,41 @@ package leetcode.leetcode_295_find_median_from_data_stream
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure - [List]
+ * Algorithm - BruteForce
  *
- * Difficulty -
+ * Difficulty - Hard
  *
  * Stats
  *
  * Time -
- * Space -
+ * - addNum - O(N)
+ * - findMedian - O(1)
  *
- * Companies - Meta
+ * Space - O(N)
+ *
+ * Companies - Google, Meta
  */
+private class MedianFinder() {
+    private var nums = mutableListOf<Int>()
+
+    fun addNum(num: Int) {
+        var index = 0
+        while (index <= nums.lastIndex && nums[index] < num) {
+            index++
+        }
+        nums.add(index, num)
+    }
+
+    fun findMedian(): Double {
+        return if (nums.size % 2 == 0) {
+            ((nums[nums.size / 2] / 2.0) + (nums[(nums.size / 2) - 1] / 2.0))
+        } else {
+            nums[nums.size / 2].toDouble()
+        }
+    }
+}
+
 private fun main() {
 
 }

@@ -14,19 +14,23 @@ import kotlin.math.max
  *
  * Companies - Meta
  */
-fun maxPathSum(root: TreeNode?): Int {
-    var maxSum = Integer.MIN_VALUE
-    fun gainFromSubTree(root: TreeNode?): Int {
-        if (root == null) {
-            return 0
-        }
-        val gainFromLeft = max(gainFromSubTree(root.left), 0)
-        val gainFromRight = max(gainFromSubTree(root.right), 0)
-        maxSum = max(maxSum, gainFromLeft + gainFromRight + root.`val`)
+private fun maxPathSum(root: TreeNode?): Int {
+    if (root == null) {
+        return 0
+    }
+    var result = Integer.MIN_VALUE
+    fun gainFromSubTree(root: TreeNode): Int {
+        val gainFromLeft = root.left?.let {
+            max(gainFromSubTree(it), 0)
+        } ?: 0
+        val gainFromRight = root.right?.let {
+            max(gainFromSubTree(it), 0)
+        } ?: 0
+        result = max(result, gainFromLeft + gainFromRight + root.`val`)
         return max(gainFromLeft + root.`val`, gainFromRight + root.`val`)
     }
     gainFromSubTree(root)
-    return maxSum
+    return result
 }
 
 private fun main() {
