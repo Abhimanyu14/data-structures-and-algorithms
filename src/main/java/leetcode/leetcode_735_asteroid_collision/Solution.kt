@@ -5,36 +5,40 @@ import kotlin.math.abs
 /**
  * leetcode - https://leetcode.com/problems/asteroid-collision/
  *
- * Using stack - deque
+ * Data Structure - [ArrayDeque] (Stack)
+ * Algorithm - Stacking
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 304 ms, faster than 85.29%
- * Memory Usage: 40 MB, less than 88.24%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun asteroidCollision(asteroids: IntArray): IntArray {
-    val deque = ArrayDeque<Int>()
-    var toAdd: Int?
-    var last: Int
-    asteroids.forEach { asteroid ->
-        toAdd = asteroid
-        while (toAdd != null) {
-            toAdd?.let {
-                if (it < 0 && deque.isNotEmpty() && deque.last() > 0) {
-                    last = deque.removeLast()
-                    if (last == abs(it)) {
-                        toAdd = null
-                    } else if (last > abs(it)) {
-                        deque.addLast(last)
-                        toAdd = null
-                    }
-                } else {
-                    deque.addLast(it)
-                    toAdd = null
-                }
+    val stack = ArrayDeque<Int>()
+    stack.addLast(asteroids[0])
+    for (i in 1..asteroids.lastIndex) {
+        var shouldAdd = true
+        while (stack.isNotEmpty() && stack.last() > 0 && asteroids[i] < 0) {
+            if (abs(stack.last()) == abs(asteroids[i])) {
+                stack.removeLast()
+                shouldAdd = false
+                break
+            } else if (abs(stack.last()) > abs(asteroids[i])) {
+                shouldAdd = false
+                break
+            } else {
+                stack.removeLast()
             }
         }
+        if (shouldAdd) {
+            stack.addLast(asteroids[i])
+        }
     }
-    return deque.toIntArray()
+    return stack.toIntArray()
 }
 
 /**

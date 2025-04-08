@@ -5,11 +5,17 @@ import data_structures_and_algorithms.TreeNode
 /**
  * leetcode - https://leetcode.com/problems/binary-tree-inorder-traversal/
  *
- * Using recursion
+ * Data Structure -
+ * Algorithm - Recursion
+ *
+ * Difficulty - Easy
  *
  * Stats
- * Runtime: 172 ms, faster than 93.60%
- * Memory Usage: 34.3 MB, less than 81.60%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun inorderTraversal(root: TreeNode?): List<Int> {
     val result = mutableListOf<Int>()

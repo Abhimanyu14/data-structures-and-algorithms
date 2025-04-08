@@ -16,6 +16,8 @@ import kotlin.math.max
  *
  * Time - O(N)
  * Space - O(N)
+ *
+ * Companies - Meta
  */
 private fun getLargestOutlier(nums: IntArray): Int {
     var result = Int.MIN_VALUE

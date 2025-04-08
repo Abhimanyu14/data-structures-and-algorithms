@@ -3,7 +3,19 @@ package leetcode.leetcode_38_count_and_say
 /**
  * leetcode - https://leetcode.com/problems/count-and-say/
  *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty -
+ *
  * Stats
+ *
+ * Time -
+ * Space -
+ *
+ * Companies -
  */
 fun generateValue(s: String): String {
     var result = ""

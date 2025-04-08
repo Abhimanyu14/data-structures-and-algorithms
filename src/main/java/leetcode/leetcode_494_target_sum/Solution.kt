@@ -3,8 +3,8 @@ package leetcode.leetcode_494_target_sum
 /**
  * leetcode - https://leetcode.com/problems/target-sum/
  *
- * Data Structure - Map
- * Algorithm -
+ * Data Structure - [Map]
+ * Algorithm - Hashing
  *
  * Difficulty - Medium
  *
@@ -14,6 +14,8 @@ package leetcode.leetcode_494_target_sum
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun findTargetSumWays(nums: IntArray, target: Int): Int {
     var dp = mutableMapOf<Int, Int>()

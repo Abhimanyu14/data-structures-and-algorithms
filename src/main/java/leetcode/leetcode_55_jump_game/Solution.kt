@@ -5,12 +5,17 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/jump-game-ii/
  *
- * Stats
- * Runtime: 20 ms, faster than 34.81%
- * Memory Usage: 41.7 MB, less than 25.13%
+ * Data Structure - NA
+ * Algorithm - Iteration
  *
- * Time -
- * Space -
+ * Difficulty - Medium
+ *
+ * Stats
+ *
+ * Time - O(N)
+ * Space - O(1)
+ *
+ * Companies - Meta
  */
 private fun canJump(nums: IntArray): Boolean {
     var reach = 0

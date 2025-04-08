@@ -5,8 +5,6 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/house-robber/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * TODO(Abhi) - To revisit
- *
  * Data Structure - NA
  * Algorithm - Two Pointers
  *

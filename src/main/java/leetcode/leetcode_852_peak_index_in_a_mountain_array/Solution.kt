@@ -8,7 +8,6 @@ package leetcode.leetcode_852_peak_index_in_a_mountain_array
  *
  * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
  *
- *
  * Difficulty - Medium
  *
  * Stats
@@ -17,6 +16,8 @@ package leetcode.leetcode_852_peak_index_in_a_mountain_array
  *
  * Time - O(N * log(N))
  * Space - O(1)
+ *
+ * Companies - Google, Meta
  */
 private fun peakIndexInMountainArray(arr: IntArray): Int {
     var left = 0
