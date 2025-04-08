@@ -9,7 +9,7 @@ package leetcode.leetcode_427_construct_quad_tree
  * Runtime: 180 ms, faster than 95.83%
  * Memory Usage: 37.5 MB, less than 66.67%
  */
-class Node(
+private class Node(
     var `val`: Boolean,
     var isLeaf: Boolean,
 ) {

@@ -14,6 +14,8 @@ package leetcode.leetcode_242_valid_anagram
  *
  * Time - O(N)
  * Space - O(26)
+ *
+ * Companies - Meta
  */
 private fun isAnagramUsingArray(s: String, t: String): Boolean {
     val counter = IntArray(26)
@@ -36,6 +38,8 @@ private fun isAnagramUsingArray(s: String, t: String): Boolean {
  *
  * Time - O(N)
  * Space - O(26)
+ *
+ * Companies - Meta
  */
 private fun isAnagram(s: String, t: String): Boolean {
     val map = mutableMapOf<Char, Int>()

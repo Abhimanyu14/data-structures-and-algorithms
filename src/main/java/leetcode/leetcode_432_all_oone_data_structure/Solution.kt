@@ -15,13 +15,13 @@ package leetcode.leetcode_432_all_oone_data_structure
  * Time -
  * Space -
  */
-class Node internal constructor(var freq: Int) {
+private class Node internal constructor(var freq: Int) {
     var prev: Node? = null
     var next: Node? = null
     var keys: MutableSet<String> = HashSet()
 }
 
-internal class AllOne {
+private class AllOne {
     var head: Node = Node(0)
     var tail: Node = Node(0)
     var map: MutableMap<String, Node?> = HashMap()

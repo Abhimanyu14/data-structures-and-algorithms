@@ -8,40 +8,58 @@ package leetcode.leetcode_54_spiral_matrix
  * Using
  *
  * Stats
+ */
+
+/**
+ * leetcode - https://leetcode.com/problems/spiral-matrix/
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty - Medium
+ *
+ * Stats
  * Runtime: 224 ms, faster than 54.93%
  * Memory Usage: 34 MB, less than 77.00%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun spiralOrder(matrix: Array<IntArray>): List<Int> {
     val result = mutableListOf<Int>()
-    var direction = 0
-    val change = arrayOf(intArrayOf(1, 0), intArrayOf(0, 1), intArrayOf(-1, 0), intArrayOf(0, -1))
-    var canContinue = true
-    var x = 0
-    var y = 0
-    var nextX: Int
-    var nextY: Int
-    var directionChanged = false
+    val visited = Array(matrix.size) {
+        BooleanArray(matrix[0].size)
+    }
+    val directions = arrayOf(Pair(0, 1), Pair(-1, 0), Pair(0, -1), Pair(1, 0))
+    var currentPosition: Pair<Int, Int>? = Pair(0, 0)
+    var currentDirection = 0
 
-    result.add(matrix[0][0])
-    matrix[0][0] = Int.MAX_VALUE
+    fun isValidPosition(point: Pair<Int, Int>): Boolean {
+        return !(point.first < 0 || point.second < 0 || point.first > matrix.lastIndex || point.second > matrix[0].lastIndex || visited[point.first][point.second])
+    }
 
-    while (canContinue) {
-        nextX = x + change[direction][0]
-        nextY = y + change[direction][1]
-        if (nextX < 0 || nextX >= matrix[0].size || nextY < 0 || nextY >= matrix.size || matrix[nextY][nextX] == Int.MAX_VALUE) {
-            if (directionChanged) {
-                canContinue = false
-            } else {
-                direction = (direction + 1) % 4
-                directionChanged = true
+    fun getNext() {
+        repeat(4) {
+            val nextPosition = Pair(
+                (currentPosition?.first ?: 0) + directions[currentDirection].first,
+                (currentPosition?.second ?: 0) + directions[currentDirection].second
+            )
+            if (isValidPosition(nextPosition)) {
+                currentPosition = nextPosition
+                return
             }
-        } else {
-            x = nextX
-            y = nextY
-            directionChanged = false
-            result.add(matrix[y][x])
-            matrix[y][x] = Int.MAX_VALUE
+            currentDirection = (currentDirection + 1) % 4
         }
+        currentPosition = null
+    }
+    while (currentPosition != null) {
+        result.add(matrix[currentPosition?.first ?: 0][currentPosition?.second ?: 0])
+        visited[currentPosition?.first ?: 0][currentPosition?.second ?: 0] = true
+        getNext()
     }
     return result
 }

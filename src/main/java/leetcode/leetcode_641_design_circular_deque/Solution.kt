@@ -14,11 +14,11 @@ package leetcode.leetcode_641_design_circular_deque
  * Time -
  * Space -
  */
-internal class Node(`val`: Int, var next: Node?, var prev: Node?) {
+private class Node(`val`: Int, var next: Node?, var prev: Node?) {
     var `val`: Int = `val`
 }
 
-internal class MyCircularDeque(var capacity: Int) {
+private class MyCircularDeque(var capacity: Int) {
     var head: Node? = null
     var rear: Node? = null
     var size: Int = 0
