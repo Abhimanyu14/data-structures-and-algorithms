@@ -3,11 +3,19 @@ package leetcode.leetcode_73_set_matrix_zeroes
 /**
  * leetcode - https://leetcode.com/problems/set-matrix-zeroes/
  *
- * Using loops
+ * Data Structure - [Set]
+ * Algorithm - Hashing
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 249 ms, faster than 81.74%
  * Memory Usage: 41.6 MB, less than 62.56%
+ *
+ * Time - O(N ^ 2)
+ * Space - O(1)
+ *
+ * Companies - Meta
  */
 private fun setZeroes(matrix: Array<IntArray>): Unit {
     val rows = mutableSetOf<Int>()
@@ -27,8 +35,4 @@ private fun setZeroes(matrix: Array<IntArray>): Unit {
             }
         }
     }
-}
-
-private fun main() {
-
 }
