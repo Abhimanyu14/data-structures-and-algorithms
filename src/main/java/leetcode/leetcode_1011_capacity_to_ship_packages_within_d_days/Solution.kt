@@ -6,13 +6,19 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
  *
- * Using binary search
+ * Data Structure - Two Pointers
+ * Algorithm - Binary Search
  *
  * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
  *
+ * Difficulty - Medium
+ *
  * Stats
- * Runtime: 285 ms, faster than 43.24%
- * Memory Usage: 43.3 MB, less than 94.59%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun shipWithinDays(weights: IntArray, days: Int): Int {
     fun isPossible(weightCapacity: Int): Boolean {

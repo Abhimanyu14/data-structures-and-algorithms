@@ -5,9 +5,7 @@ import data_structures_and_algorithms.TreeNode
 /**
  * leetcode - https://leetcode.com/problems/symmetric-tree/
  *
- * TODO(Abhi) - To revisit
- *
- * Data Structure -
+ * Data Structure - [Tree]
  * Algorithm - Recursion
  *
  * Difficulty - Easy

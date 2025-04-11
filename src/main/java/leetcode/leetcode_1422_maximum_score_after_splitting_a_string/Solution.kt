@@ -16,6 +16,8 @@ import kotlin.math.max
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun maxScore(s: String): Int {
     var result = Int.MIN_VALUE

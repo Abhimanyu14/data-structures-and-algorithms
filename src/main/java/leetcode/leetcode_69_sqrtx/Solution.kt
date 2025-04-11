@@ -12,6 +12,11 @@ package leetcode.leetcode_69_sqrtx
  * Stats
  * Runtime: 126 ms, faster than 97.02%
  * Memory Usage: 33.9 MB, less than 16.60%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun mySqrt(x: Int): Int {
     if (x < 2) {

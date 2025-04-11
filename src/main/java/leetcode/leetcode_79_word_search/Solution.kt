@@ -1,13 +1,23 @@
 package leetcode.leetcode_79_word_search
 
 /**
- * leetcode - https://leetcode.com/problems/word-search/
+ * leetcode -  https://leetcode.com/problems/word-search/
  *
- * Using DFS
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - DFS
+ *
+ * Difficulty -
  *
  * Stats
  * Runtime: 3412 ms, faster than 5.06%
  * Memory Usage: 49 MB, less than 15.95%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies -
  */
 private data class Point(
     val x: Int,

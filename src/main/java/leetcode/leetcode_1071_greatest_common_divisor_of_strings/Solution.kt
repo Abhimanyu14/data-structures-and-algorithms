@@ -6,11 +6,21 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/greatest-common-divisor-of-strings/
  *
- * Using GCD
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - GCD (Recursion)
+ *
+ * Difficulty - Easy
  *
  * Stats
  * Runtime: 152 ms, faster than 77.94%
  * Memory Usage: 36.7 MB, less than 75.37%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun gcdOfStrings(str1: String, str2: String): String {
     if (str1 + str2 != str2 + str1) {
