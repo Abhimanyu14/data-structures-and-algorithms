@@ -65,6 +65,46 @@ private fun calculate(s: String): Int {
     return result
 }
 
+private fun calculate1(s: String): Int {
+    val stack = ArrayDeque<Int>()
+    var sign = 1
+    var current = 0
+    var pendingOperation: Char? = null
+    var index = 0
+    while (index <= s.lastIndex) {
+        if (s[index] == '-') {
+            sign = -1
+            index++
+        } else if (s[index].isDigit()) {
+            while (index <= s.lastIndex && s[index].isDigit()) {
+                current = (current * 10) + s[index].digitToInt()
+                index++
+            }
+            if (pendingOperation == null) {
+                stack.addLast(current * sign)
+            } else {
+                val prev = stack.removeLast()
+                if (pendingOperation == '*') {
+                    stack.addLast(prev * current * sign)
+                } else if (pendingOperation == '/') {
+                    stack.addLast(prev / (current * sign))
+                }
+                pendingOperation = null
+            }
+            sign = 1
+            current = 0
+        } else if (s[index] == '*' || s[index] == '/') {
+            pendingOperation = s[index]
+            index++
+        } else { index++ }
+    }
+    var result = 0
+    while (stack.isNotEmpty()) {
+        result += stack.removeLast()
+    }
+    return result
+}
+
 private fun main() {
 
 }

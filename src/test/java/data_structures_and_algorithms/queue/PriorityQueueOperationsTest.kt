@@ -8,16 +8,15 @@ import org.junit.jupiter.api.Test
 /**
  * Use [PriorityQueue] for PriorityQueue
  *
- * Primary Operations
- * [PriorityQueue] offer
- * [PriorityQueue] poll
- * [PriorityQueue] peek
- *
  * Properties
- * size
+ * [PriorityQueue.size]
  *
- * Other operations
- * isEmpty(), clear()
+ * Methods
+ * [PriorityQueue.offer]
+ * [PriorityQueue.poll]
+ * [PriorityQueue.peek]
+ * [PriorityQueue.isEmpty]
+ * [PriorityQueue.clear]
  */
 class PriorityQueueOperationsTest {
     @Test

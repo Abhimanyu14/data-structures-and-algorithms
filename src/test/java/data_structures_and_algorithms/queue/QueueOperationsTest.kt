@@ -8,17 +8,16 @@ import org.junit.jupiter.api.Test
 
 /**
  * Use [Queue] or [ArrayDeque] for Queue
- * Primary Operations
- *
- * [Queue] offer => [ArrayDeque] [addLast()]
- * [Queue] poll => [ArrayDeque] [removeLast()]
- * [Queue] peek => [ArrayDeque] [last()]
  *
  * Properties
  * size
  *
- * Other operations
- * isEmpty(), clear()
+ * Methods
+ * [Queue.offer] => [ArrayDeque.addLast]
+ * [Queue.poll] => [ArrayDeque.removeLast]
+ * [Queue.peek] => [ArrayDeque.first]
+ * [Queue.isEmpty] => [ArrayDeque.isEmpty]
+ * [Queue.clear] => [ArrayDeque.clear]
  */
 class QueueOperationsTest {
     @Test

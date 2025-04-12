@@ -5,7 +5,7 @@ import data_structures_and_algorithms.TreeNode
 /**
  * leetcode - https://leetcode.com/problems/range-sum-of-bst/
  *
- * Data Structure -
+ * Data Structure - Tree
  * Algorithm - DFS Optimized
  *
  * Difficulty - Easy
@@ -14,8 +14,8 @@ import data_structures_and_algorithms.TreeNode
  * Runtime: 689 ms, faster than 36.84%
  * Memory Usage: 72.2 MB, less than 34.21%
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(N)
  *
  * Companies - Meta
  */
@@ -29,25 +29,6 @@ private fun rangeSumBST(root: TreeNode?, low: Int, high: Int): Int {
     } else {
         root.`val` + rangeSumBST(root.left, low, high) + rangeSumBST(root.right, low, high)
     }
-}
-
-/**
- * Using DFS
- *
- * Stats
- * Runtime: 405 ms, faster than 81.58%
- * Memory Usage: 47.2 MB, less than 78.95%
- */
-private fun rangeSumBSTDfs(root: TreeNode?, low: Int, high: Int): Int {
-    if (root == null) {
-        return 0
-    }
-    val add = if (root.`val` < low || root.`val` > high) {
-        0
-    } else {
-        root.`val`
-    }
-    return add + rangeSumBST(root.left, low, high) + rangeSumBST(root.right, low, high)
 }
 
 private fun main() {

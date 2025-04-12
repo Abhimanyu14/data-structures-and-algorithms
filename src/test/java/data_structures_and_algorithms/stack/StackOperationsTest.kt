@@ -7,16 +7,15 @@ import org.junit.jupiter.api.Test
 /**
  * Use [Stack] or [ArrayDeque] for Stack
  *
- * Primary Operations
- * [Stack] push => [ArrayDeque] [addLast()]
- * [Stack] pop => [ArrayDeque] [removeLast()]
- * [Stack] peek => [ArrayDeque] [last()]
- *
  * Properties
- * size
+ * [Stack.size] => [ArrayDeque.size]
  *
- * Other operations
- * isEmpty(), clear()
+ * Methods
+ * [Stack.push] => [ArrayDeque.addLast]
+ * [Stack.pop] => [ArrayDeque.removeLast]
+ * [Stack.peek] => [ArrayDeque.last]
+ * [Stack.isEmpty] => [ArrayDeque.isEmpty]
+ * [Stack.clear] => [ArrayDeque.clear]
  */
 class StackOperationsTest {
     @Test

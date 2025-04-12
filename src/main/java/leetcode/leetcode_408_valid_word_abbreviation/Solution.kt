@@ -3,7 +3,7 @@ package leetcode.leetcode_408_valid_word_abbreviation
 /**
  * leetcode - https://leetcode.com/problems/valid-word-abbreviation/description/?envType=company&envId=facebook&favoriteSlug=facebook-six-months
  *
- * Data Structure - [String]
+ * Data Structure - [String], Two Pointers
  * Algorithm - Iteration
  *
  * String methods - [isDigit], [digitToInt]
@@ -19,29 +19,29 @@ package leetcode.leetcode_408_valid_word_abbreviation
  */
 private fun validWordAbbreviation(word: String, abbr: String): Boolean {
     var digits: Int
-    var i = 0
-    var j = 0
-    while (i < word.length && j < abbr.length) {
-        if (abbr[j].isDigit()) {
+    var wordIndex = 0
+    var abbrIndex = 0
+    while (wordIndex < word.length && abbrIndex < abbr.length) {
+        if (abbr[abbrIndex].isDigit()) {
             digits = 0
-            if (abbr[j].digitToInt() == 0) {
+            if (abbr[abbrIndex].digitToInt() == 0) {
                 return false
             }
-            while (j < abbr.length && abbr[j].isDigit()) {
-                digits = (digits * 10) + abbr[j].digitToInt()
-                j++
+            while (abbrIndex < abbr.length && abbr[abbrIndex].isDigit()) {
+                digits = (digits * 10) + abbr[abbrIndex].digitToInt()
+                abbrIndex++
             }
-            i += digits
+            wordIndex += digits
         } else {
-            if (word[i] == abbr[j]) {
-                i++
-                j++
+            if (word[wordIndex] == abbr[abbrIndex]) {
+                wordIndex++
+                abbrIndex++
             } else {
                 return false
             }
         }
     }
-    return i == word.length && j == abbr.length
+    return wordIndex == word.length && abbrIndex == abbr.length
 }
 
 private fun main() {

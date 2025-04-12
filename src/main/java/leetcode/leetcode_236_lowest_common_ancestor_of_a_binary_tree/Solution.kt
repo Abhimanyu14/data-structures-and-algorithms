@@ -22,6 +22,38 @@ import data_structures_and_algorithms.TreeNode
  * Companies - Meta
  */
 private fun lowestCommonAncestor(root: TreeNode?, p: TreeNode?, q: TreeNode?): TreeNode? {
+    if (root == null || p == null || q == null) {
+        return null
+    }
+    fun find(current: TreeNode): Triple<Boolean, Boolean, TreeNode?> {
+        val left = current.left?.let {
+            find(it)
+        } ?: Triple(false, false, null)
+        if (left.third != null) {
+            return left
+        }
+        val right = current.right?.let {
+            find(it)
+        } ?: Triple(false, false, null)
+        if (right.third != null) {
+            return right
+        }
+        val foundP = current == p || left.first || right.first
+        val foundQ = current == q || left.second || right.second
+        return if (foundP && foundQ) {
+            Triple(true, true, current)
+        } else if (foundP) {
+            Triple(true, false, null)
+        } else if (foundQ) {
+            Triple(false, true, null)
+        } else {
+            Triple(false, false, null)
+        }
+    }
+    return find(root).third
+}
+
+private fun findNodePath(root: TreeNode?, p: TreeNode?, q: TreeNode?): TreeNode? {
     fun findNodePath(head: TreeNode?, target: TreeNode?, currentPath: String): String? {
         if (head?.`val` == target?.`val`) {
             return currentPath

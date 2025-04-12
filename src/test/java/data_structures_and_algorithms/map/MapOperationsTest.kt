@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test
  * Use [linkedMapOf] to maintain order of adding keys
  * Use [sortedMapOf] to sort key-value pairs according to natural ordering of the keys.
  *
- * Operations
+ * Methods
  * [Map.computeIfAbsent]
  */
 class MapOperationsTest {

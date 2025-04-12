@@ -4,17 +4,17 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 /**
- * Primary Operations
- * [append]
- * [insert]
- * [deleteCharAt]
- * [toString]
- *
  * Properties
- * length
+ * [StringBuilder.length]
  *
- * Other operations
- * [isEmpty], [isNotEmpty], [clear]
+ * Methods
+ * [StringBuilder.append]
+ * [StringBuilder.insert]
+ * [StringBuilder.deleteCharAt]
+ * [StringBuilder.toString]
+ * [StringBuilder.isEmpty]
+ * [StringBuilder.isNotEmpty]
+ * [StringBuilder.clear]
  */
 class StringBuilderOperationsTest {
     @Test
@@ -60,6 +60,5 @@ class StringBuilderOperationsTest {
         stringBuilder.clear()
         assertEquals("", stringBuilder.toString())
         assertEquals(0, stringBuilder.length)
-
     }
 }

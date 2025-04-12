@@ -19,11 +19,11 @@ package leetcode.leetcode_1_two_sum
  */
 private fun twoSum(nums: IntArray, target: Int): IntArray {
     val diffMap = mutableMapOf<Int, Int>()
-    nums.forEachIndexed { index, num ->
-        diffMap[num]?.let {
-            return intArrayOf(it, index)
+    for (i in nums.indices) {
+        diffMap[nums[i]]?.let {
+            return intArrayOf(it, i)
         }
-        diffMap[target - num] = index
+        diffMap[target - nums[i]] = i
     }
     return intArrayOf()
 }

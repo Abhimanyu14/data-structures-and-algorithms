@@ -8,8 +8,6 @@ package leetcode.leetcode_71_simplify_path
  * Data Structure - [ArrayDeque], [StringBuilder]
  * Algorithm -
  *
- * Using string splits and deque
- *
  * Difficulty - Medium
  *
  * Stats
@@ -22,6 +20,34 @@ package leetcode.leetcode_71_simplify_path
  * Companies - Meta
  */
 private fun simplifyPath(path: String): String {
+    var index = 0
+    fun getNextToken(): String {
+        while (index < path.length && path[index] == '/') {
+            index++
+        }
+        val token = StringBuilder()
+        while (index < path.length && path[index] != '/') {
+            token.append(path[index])
+            index++
+        }
+        return token.toString()
+    }
+    val stack = ArrayDeque<String>()
+    var nextToken = getNextToken()
+    while (nextToken.isNotEmpty()) {
+        if (nextToken == "..") {
+            if (stack.isNotEmpty()) {
+                stack.removeLast()
+            }
+        } else if (nextToken != ".") {
+            stack.addLast(nextToken)
+        }
+        nextToken = getNextToken()
+    }
+    return "/${stack.joinToString("/")}"
+}
+
+private fun simplifyPathUsingSplit(path: String): String {
     val deque = ArrayDeque<String>()
     path.split("/").forEach {
         if (it == "..") {

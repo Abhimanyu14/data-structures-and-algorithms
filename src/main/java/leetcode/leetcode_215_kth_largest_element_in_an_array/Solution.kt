@@ -1,13 +1,11 @@
 package leetcode.leetcode_215_kth_largest_element_in_an_array
 
-import data_structures_and_algorithms.searching.quickSelectDriver
-
 /**
  * leetcode - https://leetcode.com/problems/kth-largest-element-in-an-array/
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure -
+ * Data Structure - Two Pointers
  * Algorithm - Quick Select
  *
  * Difficulty - Medium
@@ -19,8 +17,41 @@ import data_structures_and_algorithms.searching.quickSelectDriver
  *
  * Companies - Meta
  */
-fun findKthLargest(nums: IntArray, k: Int): Int {
-    return quickSelectDriver(nums, nums.size - k + 1)
+private fun findKthLargest(nums: IntArray, k: Int): Int {
+    fun quickSelect(start: Int, end: Int): Int {
+        var left = start
+        var right = end - 1
+        while (left <= right) {
+            if (nums[left] > nums[end]) {
+                left++
+            } else {
+                nums[left] = nums[right].also {
+                    nums[right] = nums[left]
+                }
+                right--
+            }
+        }
+        nums[left] = nums[end].also {
+            nums[end] = nums[left]
+        }
+        return left
+    }
+    var left = 0
+    var right = nums.lastIndex
+    var pivot = quickSelect(left, right)
+    while (pivot != k - 1) {
+        if (pivot > k - 1) {
+            right = pivot - 1
+        } else {
+            left = pivot + 1
+        }
+        pivot = quickSelect(left, right)
+    }
+    return nums[k - 1]
+}
+
+private fun findKthLargestUsingSorting(nums: IntArray, k: Int): Int {
+    return nums.sortedDescending()[k - 1]
 }
 
 private fun main() {

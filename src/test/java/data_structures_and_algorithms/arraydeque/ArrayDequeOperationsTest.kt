@@ -4,20 +4,21 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 /**
- * Primary Operations
- * [addFirst]
- * [addLast]
- * [removeFirst]
- * [removeLast]
- * [first]
- * [last]
- * [joinToString]
- *
  * Properties
- * size
+ * [ArrayDeque.size]
  *
- * Other operations
- * [isEmpty], [isNotEmpty], [clear]
+ *  Methods
+ * [ArrayDeque.addFirst]
+ * [ArrayDeque.addLast]
+ * [ArrayDeque.removeFirst]
+ * [ArrayDeque.removeLast]
+ * [ArrayDeque.first]
+ * [ArrayDeque.last]
+ * [ArrayDeque.toString]
+ * [ArrayDeque.joinToString]
+ * [ArrayDeque.isEmpty]
+ * [ArrayDeque.isNotEmpty]
+ * [ArrayDeque.clear]
  */
 class StackOperationsTest {
     @Test

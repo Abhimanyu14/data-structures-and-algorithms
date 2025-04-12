@@ -6,7 +6,7 @@ import kotlin.math.max
  * leetcode - https://leetcode.com/problems/merge-intervals/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
  * Data Structure - [List], [IntArray]
- * Algorithm - Intervals & Iteration
+ * Algorithm - Sorting, Intervals & Iteration
  *
  * Using intervals, [sortedBy], [toTypedArray]
  *
@@ -22,9 +22,9 @@ import kotlin.math.max
  * Companies - Google, Meta
  */
 private fun merge(intervals: Array<IntArray>): Array<IntArray> {
+    val result = mutableListOf<IntArray>()
     val sortedIntervals = intervals.sortedBy { it[0] }
     var current = sortedIntervals[0]
-    val result = mutableListOf<IntArray>()
     for (i in 1..sortedIntervals.lastIndex) {
         if (sortedIntervals[i][0] <= current[1]) {
             current = intArrayOf(current[0], max(current[1], sortedIntervals[i][1]))

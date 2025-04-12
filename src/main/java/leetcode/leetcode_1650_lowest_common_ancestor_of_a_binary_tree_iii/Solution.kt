@@ -66,6 +66,26 @@ private fun isAnDescendant(a: Node, b: Node): Boolean { // Is node A an descenda
     return left || right
 }
 
+private fun lowestCommonAncestorUsingSetIntersection(p: Node?, q: Node?): Node? {
+    var currentP = p ?: return null
+    var currentQ = q ?: return null
+    val pAncestors = mutableSetOf<Node>()
+    val qAncestors = mutableSetOf<Node>()
+    pAncestors.add(currentP)
+    qAncestors.add(currentQ)
+    while ((pAncestors intersect qAncestors).isEmpty()) {
+        currentP.parent?.let {
+            currentP = it
+            pAncestors.add(it)
+        }
+        currentQ.parent?.let {
+            currentQ = it
+            qAncestors.add(it)
+        }
+    }
+    return (pAncestors intersect qAncestors).first()
+}
+
 private fun main() {
 
 }

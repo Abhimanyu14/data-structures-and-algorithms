@@ -4,13 +4,22 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 /**
- * Use [setOf]
+ * Use [setOf] to maintain order of adding keys
+ * Use [sortedSetOf] to sort key-value pairs according to natural ordering of the keys.
  *
  * Methods
- * [Set.union], [Set.intersect], [Set.random], [MutableSet.add]
+ * [Set.union]
+ * [Set.intersect]
+ * [Set.random]
+ * [Set.elementAt]
+ * [Set.first]
+ * [Set.last]
+ * [Set.toString]
+ * [MutableSet.add]
  *
  * Operators
- * [+], [-]
+ * [Set.plus] => [-]
+ * [Set.minus] => [-]
  */
 private class SetOperationsTest {
     @Test
@@ -50,10 +59,29 @@ private class SetOperationsTest {
         val set = mutableSetOf<Int>()
 
         // add() returns boolean value
-        assertEquals(true, set.add(1))
-        assertEquals(true, set.add(2))
         assertEquals(true, set.add(3))
-        assertEquals(false, set.add(1))
+        assertEquals(true, set.add(2))
+        assertEquals(false, set.add(3))
+        assertEquals(true, set.add(1))
+        assertEquals(3, set.first())
+        assertEquals(1, set.last())
+        assertEquals("[3, 2, 1]", set.toString())
+    }
+
+    @Test
+    fun sortedSetOperations() {
+        val set = sortedSetOf<Int>()
+
+        // add() returns boolean value
+        assertEquals(true, set.add(3))
+        assertEquals(true, set.add(2))
+        assertEquals(false, set.add(3))
+        assertEquals(true, set.add(1))
+        assertEquals(true, set.add(-1))
+        assertEquals(true, set.add(-100))
+        assertEquals(-100, set.first())
+        assertEquals(3, set.last())
+        assertEquals("[-100, -1, 1, 2, 3]", set.toString())
     }
 }
 
