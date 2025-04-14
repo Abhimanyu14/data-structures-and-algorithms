@@ -3,11 +3,19 @@ package leetcode.leetcode_65_valid_number
 /**
  * leetcode - https://leetcode.com/problems/valid-number/
  *
- * Using conditionals
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - Conditions and Iterations
+ *
+ * Difficulty - Hard
  *
  * Stats
  * Runtime: 223 ms, faster than 7.41%
  * Memory Usage: 37.7 MB, less than 7.41%
+ *
+ * Time - O(N)
+ * Space - O(1)
  *
  * Companies - Meta
  */
@@ -56,6 +64,58 @@ private fun isNumber(s: String): Boolean {
     } else {
         finalInt
     }
+}
+
+private fun isNumber2(s: String): Boolean {
+    var decimalDigitsBeforeDot = false
+    var decimalDot = false
+    var decimalDigitsAfterDot = false
+    var exponent = false
+    var exponentIntegerDigits = false
+
+    var i = 0
+    while (i <= s.lastIndex) {
+        when (s[i]) {
+            'E', 'e' -> {
+                if (exponent || (!decimalDigitsBeforeDot && !decimalDigitsAfterDot) || (i == s.lastIndex)) {
+                    return false
+                }
+                exponent = true
+                i++
+            }
+            '+', '-' -> {
+                if (((i != 0) && (s[i - 1] != 'E') && (s[i - 1] != 'e')) || (i == s.lastIndex)) {
+                    return false
+                }
+                i++
+            }
+            '.' -> {
+                if (decimalDot || exponent) {
+                    return false
+                }
+                decimalDot = true
+                i++
+            }
+            in '0'..'9' -> {
+                if (!decimalDigitsBeforeDot) {
+                    decimalDigitsBeforeDot = true
+                } else if (!decimalDigitsAfterDot) {
+                    decimalDigitsAfterDot = true
+                } else if (!exponentIntegerDigits) {
+                    exponentIntegerDigits = true
+                } else {
+                    return false
+                }
+                while (i <= s.lastIndex && s[i].isDigit()) {
+                    i++
+                }
+            }
+            else -> {
+                return false
+            }
+        }
+    }
+    return (decimalDigitsBeforeDot || decimalDigitsAfterDot)
 }
 
 /**

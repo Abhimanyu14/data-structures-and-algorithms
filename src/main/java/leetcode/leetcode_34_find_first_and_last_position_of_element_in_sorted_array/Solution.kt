@@ -4,61 +4,46 @@ package leetcode.leetcode_34_find_first_and_last_position_of_element_in_sorted_a
  * leetcode - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
  * https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using binary search
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - Two Pointers
+ * Algorithm - Binary Search
+ *
+ * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 332 ms, faster than 57.04%
  * Memory Usage: 45.7 MB, less than 10.83%
+ *
+ * Time - O(log(N))
+ * Space - O(1)
+ *
+ * Companies - Meta
  */
 private fun searchRange(nums: IntArray, target: Int): IntArray {
-    var low = 0
-    var high = nums.lastIndex
-    var mid: Int
-    while (low <= high) {
-        mid = low + (high - low) / 2
-        if (nums[mid] == target) {
-            return intArrayOf(findFirst(nums, target, high, low), findLast(nums, target, high, low))
-        } else if (nums[mid] < target) {
-            low = mid + 1
-        } else {
-            high = mid - 1
-        }
+    if (nums.isEmpty()) {
+        return intArrayOf(-1, -1)
     }
-    return intArrayOf(-1, -1)
-}
-
-private fun findFirst(nums: IntArray, target: Int, high: Int, low: Int): Int {
-    var highCopy = high
-    var lowCopy = low
-    var mid = lowCopy + (highCopy - lowCopy) / 2
-    while (lowCopy < highCopy) {
-        mid = lowCopy + (highCopy - lowCopy) / 2
-        if (nums[mid] < target) {
-            lowCopy = mid + 1
-        } else if (mid > 0 && nums[mid - 1] == target) {
-            highCopy = mid
-        } else {
-            break
+    fun getFirstIndex( x: Int, start: Int = 0, end: Int = nums.lastIndex): Int {
+        var left = start
+        var right = end
+        while (left < right) {
+            val mid = left + (right - left) / 2
+            if (nums[mid] >= x) {
+                right = mid
+            } else {
+                left = mid + 1
+            }
         }
+        return left
     }
-    return mid
-}
-
-private fun findLast(nums: IntArray, target: Int, high: Int, low: Int): Int {
-    var highCopy = high
-    var lowCopy = low
-    var mid = lowCopy + (highCopy - lowCopy) / 2
-    while (lowCopy <= highCopy) {
-        mid = lowCopy + (highCopy - lowCopy) / 2
-        if (nums[mid] > target) {
-            highCopy = mid - 1
-        } else if (mid < nums.lastIndex && nums[mid + 1] == target) {
-            lowCopy = mid + 1
-        } else {
-            break
-        }
+    val firstPos = getFirstIndex(target)
+    if (nums[firstPos] != target) {
+        return intArrayOf(-1, -1)
     }
-    return mid
+    return intArrayOf(firstPos, getFirstIndex(target + 1, firstPos, nums.lastIndex + 1) - 1)
 }
 
 /**

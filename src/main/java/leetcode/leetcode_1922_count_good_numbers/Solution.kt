@@ -7,27 +7,23 @@ import kotlin.math.pow
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty -
  *
  * Stats
  *
+ * Time -
+ * Space -
+ *
+ * Companies -
  */
-fun countGoodNumbers(n: Long): Int {
-    if (n.toInt() == 1) {
-        return 5
-    }
+private fun countGoodNumbers(n: Long): Int {
     val multiplier = if (n.toInt() % 2 == 0) {
         1
     } else {
         5
     }
-    return (((20.0.pow((n / 2).toInt())) * multiplier) % (10.0.pow(9) + 7)).toInt()
-}
-
-private fun main() {
-    println(countGoodNumbers(1L))
-    println(countGoodNumbers(2L))
-    println(countGoodNumbers(3L))
-    println(countGoodNumbers(4L))
-    println(countGoodNumbers(50L))
+    return (((20.0.pow((n / 2).toInt())) * multiplier) % 1_000_000_007).toInt()
 }
