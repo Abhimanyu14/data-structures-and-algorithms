@@ -5,8 +5,6 @@ import kotlin.random.Random
 /**
  * leetcode - https://leetcode.com/problems/random-pick-index/description/
  *
- * TODO(Abhi) - To revisit
- *
  * Data Structure - [Random]
  * Algorithm - Randomization
  *
@@ -22,18 +20,16 @@ import kotlin.random.Random
  * Companies - Meta
  */
 private class Solution(nums: IntArray) {
-    val map = mutableMapOf<Int, MutableList<Int>>()
+    private val indexMap = mutableMapOf<Int, MutableList<Int>>()
 
     init {
         for (i in nums.indices) {
-            map.computeIfAbsent(nums[i]) { mutableListOf() }.add(i)
+            indexMap.computeIfAbsent(nums[i]) { mutableListOf() }.add(i)
         }
     }
 
     fun pick(target: Int): Int {
-        val indices = map[target].orEmpty()
-        val random = Random.nextInt(indices.size)
-        return indices[random]
+        return indexMap.getOrDefault(target, emptyList())[Random.nextInt(indexMap[target]?.size ?: 0)]
     }
 }
 

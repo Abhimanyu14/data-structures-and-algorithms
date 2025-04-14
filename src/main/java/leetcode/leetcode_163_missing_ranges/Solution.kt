@@ -3,10 +3,8 @@ package leetcode.leetcode_163_missing_ranges
 /**
  * leetcode - https://leetcode.com/problems/missing-ranges/description/?envType=company&envId=facebook&favoriteSlug=facebook-six-months
  *
- * TODO(Abhi) - To revisit
- *
  * Data Structure - [List]
- * Algorithm -
+ * Algorithm - Iteration
  *
  * List methods - [first], [last]
  *
@@ -23,8 +21,11 @@ private fun findMissingRanges(nums: IntArray, lower: Int, upper: Int): List<List
     if (nums.isEmpty()) {
         return listOf(listOf(lower, upper))
     }
+    if (nums.size == (upper - lower + 1)) {
+        return emptyList()
+    }
     val result = mutableListOf<List<Int>>()
-    if (lower < nums.first()) {
+    if (nums.first() > lower) {
         result.add(listOf(lower, nums.first() - 1))
     }
     for (i in 0..<nums.lastIndex) {
@@ -32,7 +33,7 @@ private fun findMissingRanges(nums: IntArray, lower: Int, upper: Int): List<List
             result.add(listOf(nums[i] + 1, nums[i + 1] - 1))
         }
     }
-    if (upper > nums.last()) {
+    if (nums.last() < upper) {
         result.add(listOf(nums.last() + 1, upper))
     }
     return result

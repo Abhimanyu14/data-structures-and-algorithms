@@ -2,23 +2,21 @@ package leetcode.leetcode_200_number_of_islands
 
 /**
  * leetcode - https://leetcode.com/problems/number-of-islands/
- *  * https://leetcode.com/problems/number-of-islands/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
+ * https://leetcode.com/problems/number-of-islands/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * TODO(Abhi) - To revisit
- *
- * Data Structure -
- * Algorithm -
+ * Data Structure - 2D Array
+ * Algorithm - DFS
  *
  * Input manipulation
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 214 ms, faster than 64.73%
  * Memory Usage: 43.8 MB, less than 97.83%
  *
- * Time -
- * Space -
+ * Time - O(M * N)
+ * Space - O(M * N)
  *
  * Companies - Google, Meta
  */
