@@ -3,13 +3,19 @@ package leetcode.leetcode_4_median_of_two_sorted_arrays
 /**
  * leetcode - https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using pointers and loops
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - Pointer
+ * Algorithm - Iteration
+ *
+ * Difficulty - Hard
  *
  * Stats
- * Runtime: 489 ms, faster than 70.93%
- * Memory Usage: 55.4 MB, less than 67.78%
  *
- * Companies - Meta
+ * Time -
+ * Space -
+ *
+ * Companies - Google, Meta
  */
 private fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
     var p1 = -1

@@ -1,5 +1,40 @@
 package leetcode.leetcode_11_container_with_most_water
 
+import kotlin.math.max
+import kotlin.math.min
+
+/**
+ * leetcode - https://leetcode.com/problems/container-with-most-water/
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - Two Pointers
+ * Algorithm - Iteration
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ *
+ * Time - O(N)
+ * Space - O(1)
+ *
+ * Companies - Google, Meta
+ */
+private fun maxArea(height: IntArray): Int {
+    var left = 0
+    var right = height.lastIndex
+    var result = 0
+    while (left < right) {
+        result = max(result, min(height[left], height[right]) * (right - left))
+        if (height[left] < height[right]) {
+            left++
+        } else {
+            right--
+        }
+    }
+    return result
+}
+
 /**
  * leetcode - https://leetcode.com/problems/container-with-most-water/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
@@ -16,32 +51,6 @@ private fun maxAreaNaive(height: IntArray): Int {
         }
     }
     return result
-}
-
-/**
- * Using two pointers
- *
- * Stats
- * Runtime: 967 ms, faster than 7.24%
- * Memory Usage: 82.9 MB, less than 51.46%
- */
-private fun maxArea(height: IntArray): Int {
-    var max = 0
-    var left = 0
-    var right = height.lastIndex
-    var vol: Int
-    while (left < right) {
-        vol = minOf(height[left], height[right]) * (right - left)
-        if (max < vol) {
-            max = vol
-        }
-        if (height[right] <= height[left]) {
-            right--
-        } else {
-            left++
-        }
-    }
-    return max
 }
 
 private fun main() {

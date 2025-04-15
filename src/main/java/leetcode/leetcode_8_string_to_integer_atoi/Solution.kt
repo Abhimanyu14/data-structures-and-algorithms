@@ -20,6 +20,40 @@ package leetcode.leetcode_8_string_to_integer_atoi
  * Companies - Meta
  */
 private fun myAtoi(s: String): Int {
+    var sign = 1
+    var result = 0
+    var index = 0
+    while (index <= s.lastIndex && s[index] == ' ') {
+        index++
+    }
+    if (index <= s.lastIndex && (s[index] == '+' || s[index] == '-')) {
+        if (s[index] == '-') {
+            sign = -1
+        }
+        index++
+    }
+    while (index <= s.lastIndex && s[index].isDigit()) {
+        if (sign == 1) {
+            if ((result.toLong() * 10 + s[index].digitToInt()) <= Int.MAX_VALUE) {
+                result = (result * 10) + s[index].digitToInt()
+            } else {
+                result = Int.MAX_VALUE
+                break
+            }
+        } else {
+            if ((sign * result.toLong() * 10 + s[index].digitToInt()) >= Int.MIN_VALUE) {
+                result = (result * 10) + s[index].digitToInt()
+            } else {
+                result = Int.MIN_VALUE
+                break
+            }
+        }
+        index++
+    }
+    return result * sign
+}
+
+private fun myAtoi1(s: String): Int {
     var isPositive = true
     var i = 0
 

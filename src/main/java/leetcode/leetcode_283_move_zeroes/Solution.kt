@@ -9,32 +9,20 @@ package leetcode.leetcode_283_move_zeroes
  * Difficulty - Easy
  *
  * Stats
- * Runtime: 564 ms, faster than 58.23%
- * Memory Usage: 65.2 MB, less than 17.84%
  *
  * Time - O(N)
  * Space - O(1)
  *
  * Companies - Google, Meta
  */
-private fun moveZeroes(nums: IntArray) {
-    var leftIndex = 0
-    var rightIndex = 0
-    while (rightIndex <= nums.lastIndex) {
-        if (nums[rightIndex] != 0) {
-            nums[leftIndex] = nums[rightIndex]
-            leftIndex++
+private fun moveZeroes(nums: IntArray): Unit {
+    var left = 0
+    for (i in 0..nums.lastIndex) {
+        if (nums[i] != 0) {
+            nums[left++] = nums[i]
         }
-        rightIndex++
     }
-    while (leftIndex <= nums.lastIndex) {
-        nums[leftIndex] = 0
-        leftIndex++
+    while (left <= nums.lastIndex) {
+        nums[left++] = 0
     }
-}
-
-private fun main() {
-    val input = intArrayOf(0, 1, 0, 3, 12)
-    moveZeroes(input)
-    println(input.joinToString())
 }

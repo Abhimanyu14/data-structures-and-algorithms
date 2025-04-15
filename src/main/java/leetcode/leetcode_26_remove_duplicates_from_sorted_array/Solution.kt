@@ -12,25 +12,22 @@ package leetcode.leetcode_26_remove_duplicates_from_sorted_array
  * Runtime: 12 ms, faster than 14.10%
  * Memory Usage: 52.83 MB, less than 5.15%
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
  *
  * Companies - Meta
  */
 private fun removeDuplicates(nums: IntArray): Int {
-    if (nums.size == 1) {
-        return 1
-    }
-    var leftIndex = 1
-    var rightIndex = 1
-    while (rightIndex <= nums.lastIndex) {
-        if (nums[leftIndex - 1] != nums[rightIndex]) {
-            nums[leftIndex] = nums[rightIndex]
-            leftIndex++
+    var insertIndex = 1
+    var iterationIndex = 1
+    while (iterationIndex <= nums.lastIndex) {
+        if (nums[iterationIndex] != nums[insertIndex - 1]) {
+            nums[insertIndex] = nums[iterationIndex]
+            insertIndex++
         }
-        rightIndex++
+        iterationIndex++
     }
-    return leftIndex
+    return insertIndex
 }
 
 private fun main() {

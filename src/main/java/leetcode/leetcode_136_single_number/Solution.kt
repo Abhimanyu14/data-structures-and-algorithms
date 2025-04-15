@@ -3,12 +3,18 @@ package leetcode.leetcode_136_single_number
 /**
  * leetcode - https://leetcode.com/problems/single-number/
  *
- * Using bitwise operators - XOR
+ * Data Structure - NA
+ * Algorithm - Using bitwise operators - XOR
  * Source - https://leetcode.com/problems/single-number/discuss/1343068/Kotlin-3-ways-faster-than-99.7
  *
+ * Difficulty - Easy
+ *
  * Stats
- * Runtime: 379 ms, faster than 74.09%
- * Memory Usage: 48 MB, less than 73.90%
+ *
+ * Time - O(N)
+ * Space - O(1)
+ *
+ * Companies - Meta
  */
 private fun singleNumber(nums: IntArray): Int {
     var result = 0

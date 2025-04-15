@@ -14,11 +14,35 @@ package leetcode.leetcode_1891_cutting_ribbons
  * Stats
  *
  * Time -
- * Space -
+ * Space - O(1)
  *
  * Companies - Meta
  */
 private fun maxLength(ribbons: IntArray, k: Int): Int {
+    var left = 1
+    var right = ribbons.max() + 1
+    fun canNotCut(x: Int): Boolean {
+        var count = 0
+        for (ribbon in ribbons) {
+            count += (ribbon / x)
+            if (count >= k) {
+                return false
+            }
+        }
+        return true
+    }
+    while (left < right) {
+        val mid = left + (right - left) / 2
+        if (canNotCut(mid)) {
+            right = mid
+        } else {
+            left = mid + 1
+        }
+    }
+    return left - 1
+}
+
+private fun maxLengthUsingBinarySearch(ribbons: IntArray, k: Int): Int {
     fun canCut(l: Int): Boolean {
         var count = 0
         for (ribbon in ribbons) {
@@ -29,6 +53,7 @@ private fun maxLength(ribbons: IntArray, k: Int): Int {
         }
         return false
     }
+
     var left = 1
     var right = ribbons.max() + 1
 

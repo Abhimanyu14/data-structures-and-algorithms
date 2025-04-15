@@ -16,13 +16,29 @@ import java.util.PriorityQueue
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(k)
+ * Space - O(matrix.length)
  *
  * Companies - Meta
  */
-private
-fun kthSmallest(matrix: Array<IntArray>, k: Int): Int {
+private fun kthSmallest(matrix: Array<IntArray>, k: Int): Int {
+    val minHeap = PriorityQueue<Triple<Int, Int, Int>> { a, b ->
+        a.first - b.first
+    }
+    for (i in matrix.indices) {
+        minHeap.offer(Triple(matrix[i][0], i, 0))
+    }
+    var current: Triple<Int, Int, Int> = Triple(0, 0, 0)
+    repeat(k) {
+        current = minHeap.poll()
+        if (current.third < matrix[current.second].lastIndex) {
+            minHeap.offer(Triple(matrix[current.second][current.third + 1], current.second, current.third + 1))
+        }
+    }
+    return current.first
+}
+
+private fun kthSmallestUsingPointersArray(matrix: Array<IntArray>, k: Int): Int {
     val pointers = IntArray(matrix.size)
     val minHeap = PriorityQueue<Pair<Int, Int>> { a, b ->
         if (a.first > b.first) {
