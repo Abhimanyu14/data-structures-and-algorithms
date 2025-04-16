@@ -17,7 +17,7 @@ package leetcode.leetcode_88_merge_sorted_array
  *
  * Companies - Meta
  */
-private fun merge(nums1: IntArray, m: Int, nums2: IntArray, n: Int): Unit {
+private fun merge(nums1: IntArray, m: Int, nums2: IntArray, n: Int) {
     var index1 = m - 1
     var index2 = n - 1
     var current = m + n - 1
