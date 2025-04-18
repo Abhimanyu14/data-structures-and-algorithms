@@ -20,24 +20,24 @@ package leetcode.leetcode_75_sort_colors
  * Companies - Meta
  */
 private fun sortColors(nums: IntArray) {
+    var current = 0
     var left = 0
     var right = nums.lastIndex
-    var i = 0
-    fun swap(i: Int, j: Int) {
-        nums[i] = nums[j].also {
-            nums[j] = nums[i]
+    fun swap(x: Int, y: Int) {
+        nums[x] = nums[y].also {
+            nums[y] = nums[x]
         }
     }
-    while (i <= right) {
-        if (nums[i] == 0) {
-            swap(i, left)
+    while (current <= right) {
+        if (nums[current] == 0) {
+            swap(current, left)
             left++
-            i++
-        } else if (nums[i] == 1) {
-            i++
-        } else if (nums[i] == 2) {
-            swap(i, right)
+            current++
+        } else if (nums[current] == 2) {
+            swap(current, right)
             right--
+        } else {
+            current++
         }
     }
 }

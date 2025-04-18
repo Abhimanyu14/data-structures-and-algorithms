@@ -26,12 +26,16 @@ private fun diameterOfBinaryTree(root: TreeNode?): Int {
     if (root == null) {
         return -1
     }
-    fun findDiameterOfBinaryTree(head: TreeNode): Pair<Int, Int> {
-        val (leftLongestPath, leftLongestDiameter) = head.left?.run { findDiameterOfBinaryTree(this) } ?: Pair(0, 0)
-        val (rightLongestPath, rightLongestDiameter) = head.right?.run { findDiameterOfBinaryTree(this) } ?: Pair(0, 0)
+    fun findDiameterOfBinaryTree(current: TreeNode): Pair<Int, Int> {
+        val (leftLongestPath, leftLongestDiameter) = current.left?.let {
+            findDiameterOfBinaryTree(it)
+        } ?: Pair(0, 0)
+        val (rightLongestPath, rightLongestDiameter) = current.right?.let {
+            findDiameterOfBinaryTree(it)
+        } ?: Pair(0, 0)
         return Pair(
             max(leftLongestPath, rightLongestPath) + 1,
-            maxOf(leftLongestDiameter, rightLongestDiameter, leftLongestPath + rightLongestPath + 1)
+            maxOf(leftLongestDiameter, rightLongestDiameter, leftLongestPath + rightLongestPath + 1),
         )
     }
     return findDiameterOfBinaryTree(root).second - 1
