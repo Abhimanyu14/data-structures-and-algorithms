@@ -6,46 +6,52 @@ import kotlin.math.pow
 /**
  * leetcode - https://leetcode.com/problems/squares-of-a-sorted-array/
  *
- * Using binary search
+ * Data Structure - Two Pointers
+ * Algorithm - Binary Search & Iteration
+ *
+ * Difficulty - Easy
  *
  * Stats
- * Runtime: 282 ms, faster than 63.46%
- * Memory Usage: 42.5 MB, less than 30.98%
+ *
+ * Time - O(N)
+ * Space - O(1)
  *
  * Companies - Meta
  */
 private fun sortedSquares(nums: IntArray): IntArray {
     val result = IntArray(nums.size)
-
-    var low = 0
-    var high = nums.lastIndex
-    var mid: Int
-    while (low < high) {
-        mid = low + ((high - low) / 2)
+    var left = 0
+    var right = nums.size
+    while (left < right) {
+        val mid = left + (right - left) / 2
         if (nums[mid] >= 0) {
-            high = mid
+            right = mid
         } else {
-            low = mid + 1
+            left = mid + 1
         }
     }
-
-    high = low
-    low--
-
-    repeat(nums.size) {
-        if (low == -1) {
-            result[it] = nums[high] * nums[high]
-            high++
-        } else if (high == nums.size) {
-            result[it] = nums[low] * nums[low]
-            low--
-        } else if (nums[low] * nums[low] <= nums[high] * nums[high]) {
-            result[it] = nums[low] * nums[low]
-            low--
+    var current = left
+    var prev = current - 1
+    var index = 0
+    while (current <= nums.lastIndex && prev >= 0) {
+        if (abs(nums[current]) < abs(nums[prev])) {
+            result[index] = nums[current] * nums[current]
+            current++
         } else {
-            result[it] = nums[high] * nums[high]
-            high++
+            result[index] = nums[prev] * nums[prev]
+            prev--
         }
+        index++
+    }
+    while (current <= nums.lastIndex) {
+        result[index] = nums[current] * nums[current]
+        current++
+        index++
+    }
+    while (prev >= 0) {
+        result[index] = nums[prev] * nums[prev]
+        prev--
+        index++
     }
     return result
 }

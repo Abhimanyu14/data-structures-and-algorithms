@@ -13,12 +13,24 @@ package leetcode.leetcode_392_is_subsequence
  * Runtime: 1 ms, faster than 99.06%
  * Memory Usage: 35.3 MB, less than 19.07%
  *
- * Time -
- * Space -
+ * Time - O(m + n)
+ * Space - O(1)
  *
  * Companies - Meta
 */
 private fun isSubsequence(s: String, t: String): Boolean {
+    var sIndex = 0
+    var tIndex = 0
+    while (sIndex <= s.lastIndex && tIndex <= t.lastIndex) {
+        if (s[sIndex] == t[tIndex]) {
+            sIndex++
+        }
+        tIndex++
+    }
+    return sIndex == s.length
+}
+
+private fun isSubsequenceUsingForLoop(s: String, t: String): Boolean {
     if (s.isEmpty()) {
         return true
     }

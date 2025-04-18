@@ -3,15 +3,38 @@ package leetcode.leetcode_704_binary_search
 /**
  * leetcode - https://leetcode.com/problems/binary-search/
  *
- * Using binary search, recursion
- * Conditions: Number must be sorted
+ * Data Structure - Two Pointers
+ * Algorithm - Binary Search
+ *
+ * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
+ *
+ * Difficulty - Easy
  *
  * Stats
- * Runtime: 557 ms, faster than 26.73%
- * Memory Usage: 66.9 MB, less than 13.15%
+ *
+ * Time - O(log(N))
+ * Space - O(1)
  *
  * Companies - Meta
  */
+private fun search(nums: IntArray, target: Int): Int {
+    var left = 0
+    var right = nums.size
+    while (left < right) {
+        val mid = left + (right - left) / 2
+        if (nums[mid] >= target) {
+            right = mid
+        } else {
+            left = mid + 1
+        }
+    }
+    return if (left <= nums.lastIndex && nums[left] == target) {
+        left
+    } else {
+        -1
+    }
+}
+
 private fun searchUsingRecursion(nums: IntArray, target: Int): Int {
     // Leetcode does not support trailing commas
     return binarySearch(
@@ -43,32 +66,6 @@ private fun binarySearch(low: Int, mid: Int, high: Int, nums: IntArray, target: 
             target = target,
         )
     }
-}
-
-/**
- * Using binary search, loops
- * Conditions: Number must be sorted
- *
- * Stats
- * Runtime: 299 ms, faster than 86.93%
- * Memory Usage: 39.3 MB, less than 85.31%
- */
-private fun search(nums: IntArray, target: Int): Int {
-    var low = 0
-    var mid = nums.lastIndex / 2
-    var high = nums.lastIndex
-    if (nums[mid] == target) return mid
-    while (low <= high) {
-        if (nums[mid] == target) return mid
-        if (target > nums[mid]) {
-            low = mid + 1
-            mid = ((high + mid + 1) / 2)
-        } else {
-            high = mid - 1
-            mid = ((mid - 1 + low) / 2)
-        }
-    }
-    return -1
 }
 
 private fun main() {

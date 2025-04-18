@@ -11,8 +11,6 @@ import kotlin.math.max
  * Difficulty - Easy
  *
  * Stats
- * Runtime: 23 ms, faster than 30.24%
- * Memory Usage: 54.3 MB, less than 6.92%
  *
  * Time - O(N)
  * Space - O(1)
@@ -21,19 +19,19 @@ import kotlin.math.max
  */
 private fun findMaxAverage(nums: IntArray, k: Int): Double {
     var result: Double
-    var currentSum = 0.0
-    var i = 0
-    while (i < k) {
-        currentSum += nums[i]
-        i++
+    var sum = 0.0
+    var index = 0
+    while (index <= nums.lastIndex && index < k) {
+        sum += nums[index]
+        index++
     }
-    result = currentSum
-    while (i <= nums.lastIndex) {
-        currentSum += nums[i] - nums[i - k]
-        result = max(result, currentSum)
-        i++
+    result = sum / index
+    while (index <= nums.lastIndex) {
+        sum = sum + nums[index] - nums[index - k]
+        result = max(result, sum / k)
+        index++
     }
-    return result / k
+    return result
 }
 
 private fun main() {

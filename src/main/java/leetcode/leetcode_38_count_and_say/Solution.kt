@@ -3,52 +3,73 @@ package leetcode.leetcode_38_count_and_say
 /**
  * leetcode - https://leetcode.com/problems/count-and-say/
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - [StringBuilder]
+ * Algorithm - Recursion
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Meta
  */
-fun generateValue(s: String): String {
-    var result = ""
-    var count = 1
-    var char: Char = s[0]
-    for (i in 1..<s.length) {
-        if (char != s[i]) {
-            result += count.toString() + char
-            count = 1
-            char = s[i]
-        } else {
-            count++
-        }
+private fun countAndSay(n: Int): String {
+    if (n == 1) {
+        return "1"
     }
-    result += count.toString() + char
-    return result
+    fun rle(s: String): String {
+        val result = StringBuilder()
+        var prevChar = s[0]
+        var prevCharCount = 1
+        for (i in 1..s.lastIndex) {
+            if (s[i] == prevChar) {
+                prevCharCount++
+            } else {
+                result.append("${prevCharCount}${prevChar}")
+                prevChar = s[i]
+                prevCharCount = 1
+            }
+        }
+        result.append("${prevCharCount}${prevChar}")
+        return result.toString()
+    }
+    return rle(countAndSay(n - 1))
 }
 
-// tabulation
-fun countAndSay(n: Int): String {
+private fun countAndSayUsingDp(n: Int): String {
     val dp = Array(n + 1) { "" }
     dp[1] = "1"
+
+    fun rle(s: String): String {
+        val result = StringBuilder()
+        var prevChar = s[0]
+        var prevCharCount = 1
+        for (i in 1..s.lastIndex) {
+            if (s[i] == prevChar) {
+                prevCharCount++
+            } else {
+                result.append("${prevCharCount}${prevChar}")
+                prevChar = s[i]
+                prevCharCount = 1
+            }
+        }
+        result.append("${prevCharCount}${prevChar}")
+        return result.toString()
+    }
     for (i in 2..n) {
-        dp[i] = generateValue(dp[i - 1])
+        dp[i] = rle(dp[i - 1])
     }
     return dp[n]
 }
+
 
 private fun main() {
     val input1 = 1
     val input2 = 4
     for (i in 1..10) {
-        println(countAndSay(i))
+        println(countAndSayUsingDp(i))
     }
 //    println(countAndSay(input2))
 }

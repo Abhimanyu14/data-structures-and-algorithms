@@ -4,13 +4,19 @@ package leetcode.leetcode_35_search_insert_position
  * leetcode - https://leetcode.com/problems/search-insert-position/
  * https://leetcode.com/problems/search-insert-position/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using binary search
+ * Data Structure - Two Pointers
+ * Algorithm - Binary Search
  *
  * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
  *
+ * Difficulty - Easy
+ *
  * Stats
- * Runtime: 171 ms, faster than 55.18%
- * Memory Usage: 37.2 MB, less than 72.35%
+ *
+ * Time - O(log(N))
+ * Space - O(1)
+ *
+ * Companies - Google, Meta
  */
 private fun searchInsert(nums: IntArray, target: Int): Int {
     var left = 0
