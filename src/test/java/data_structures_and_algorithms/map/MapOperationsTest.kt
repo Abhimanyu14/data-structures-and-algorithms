@@ -7,8 +7,14 @@ import org.junit.jupiter.api.Test
  * Use [linkedMapOf] to maintain order of adding keys
  * Use [sortedMapOf] to sort key-value pairs according to natural ordering of the keys.
  *
+ * Properties
+ * [Map.keys]
+ * [Map.values]
+ *
  * Methods
  * [Map.computeIfAbsent]
+ * [Map.get]
+ * [Map.getOrDefault]
  */
 class MapOperationsTest {
     @Test
@@ -54,6 +60,9 @@ class MapOperationsTest {
                 5 to mutableListOf(13, 15),
             ), mapOfList
         )
+
+        assertEquals(null, map[45])
+        assertEquals(-1, map.getOrDefault(45, -1))
     }
 
     @Test

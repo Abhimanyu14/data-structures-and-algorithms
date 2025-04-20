@@ -20,8 +20,8 @@ package leetcode.leetcode_66_plus_one
  * Companies - Meta
  */
 private fun plusOne(digits: IntArray): IntArray {
-    var carry = 1
     val result = mutableListOf<Int>()
+    var carry = 1
     for (i in digits.lastIndex downTo 0) {
         val sum = digits[i] + carry
         carry = sum / 10

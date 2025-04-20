@@ -7,11 +7,19 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
  *
- * Using recursion, DFS, map and custom comparator
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [Map], Custom comparator
+ * Algorithm - DFS (Recursion)
+ *
+ * Difficulty -
  *
  * Stats
  * Runtime: 201 ms, faster than 53.23%
  * Memory Usage: 39 MB, less than 12.90%
+ *
+ * Time -
+ * Space -
  *
  * Companies - Meta
  */

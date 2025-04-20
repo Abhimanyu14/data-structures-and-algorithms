@@ -3,28 +3,33 @@ package leetcode.leetcode_1768_merge_strings_alternately
 /**
  * leetcode - https://leetcode.com/problems/merge-strings-alternately/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Using string builder
+ * Data Structure - [StringBuilder], One Pointer
+ * Algorithm - Iteration
+ *
+ * Difficulty - Easy
  *
  * Stats
- * Runtime: 142 ms, faster than 81.07%
- * Memory Usage: 34.2 MB, less than 63.44%
+ *
+ * Time - O(m + n)
+ * Space - O(m + n)
+ *
+ * Companies - Google, Meta
  */
 private fun mergeAlternately(word1: String, word2: String): String {
     val result = StringBuilder()
-    var i = 0
-    while (i < word1.length && i < word2.length) {
-        result.append(word1[i])
-        result.append(word2[i])
-        i++
+    var index = 0
+    while (index < word1.length && index < word2.length) {
+        result.append(word1[index])
+        result.append(word2[index])
+        index++
     }
-    if (i < word1.length) {
-        for (j in i..word1.lastIndex) {
-            result.append(word1[j])
-        }
-    } else {
-        for (j in i..word2.lastIndex) {
-            result.append(word2[j])
-        }
+    while (index < word1.length) {
+        result.append(word1[index])
+        index++
+    }
+    while (index < word2.length) {
+        result.append(word2[index])
+        index++
     }
     return result.toString()
 }

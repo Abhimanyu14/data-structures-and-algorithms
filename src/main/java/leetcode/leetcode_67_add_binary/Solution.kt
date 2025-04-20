@@ -1,5 +1,7 @@
 package leetcode.leetcode_67_add_binary
 
+import java.math.BigInteger
+
 /**
  * leetcode - https://leetcode.com/problems/add-binary/
  *
@@ -15,7 +17,22 @@ package leetcode.leetcode_67_add_binary
  *
  * Companies - Meta
  */
-private fun addBinary(a: String, b: String): String {
+private fun addBinary(a: String, b: String): String? {
+    var x = BigInteger(a, 2)
+    var y = BigInteger(b, 2)
+    val zero = BigInteger("0", 2)
+    var carry: BigInteger
+    var answer: BigInteger
+    while (y.compareTo(zero) != 0) {
+        answer = x.xor(y)
+        carry = x.and(y).shiftLeft(1)
+        x = answer
+        y = carry
+    }
+    return x.toString(2)
+}
+
+private fun addBinaryUsingIteration(a: String, b: String): String {
     val result = StringBuilder()
     var carry = 0
     var index1 = a.lastIndex

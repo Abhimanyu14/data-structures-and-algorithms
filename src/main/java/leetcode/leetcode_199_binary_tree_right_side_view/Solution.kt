@@ -5,7 +5,7 @@ import data_structures_and_algorithms.TreeNode
 /**
  * leetcode - https://leetcode.com/problems/binary-tree-right-side-view/description/
  *
- * Data Structure - Tree
+ * Data Structure - [ArrayDeque] (Queue), Tree
  * Algorithm - BFS
  *
  * Difficulty - Medium
@@ -17,7 +17,7 @@ import data_structures_and_algorithms.TreeNode
  *
  * Companies - Meta
  */
-private fun rightSideView(root: TreeNode?): List<Int> {
+private fun rightSideView1(root: TreeNode?): List<Int> {
     if (root == null) {
         return emptyList()
     }

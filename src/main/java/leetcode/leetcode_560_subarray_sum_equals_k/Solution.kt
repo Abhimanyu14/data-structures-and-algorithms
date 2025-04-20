@@ -18,7 +18,7 @@ package leetcode.leetcode_560_subarray_sum_equals_k
  * Time - O(N)
  * Space - O(N)
  *
- * Companies - Meta
+ * Companies - Google, Meta
  */
 private fun subarraySum(nums: IntArray, k: Int): Int {
     var result = 0
@@ -33,10 +33,30 @@ private fun subarraySum(nums: IntArray, k: Int): Int {
     return result
 }
 
+private fun subarraySumUsingPrefixSumMap(nums: IntArray, k: Int): Int {
+    var result = 0
+    val prefixSumMap = mutableMapOf<Int, MutableList<Int>>()
+    var currentSum = 0
+    for (i in nums.indices) {
+        currentSum += nums[i]
+        prefixSumMap.computeIfAbsent(currentSum) {
+            mutableListOf()
+        }.add(i)
+    }
+    currentSum = 0
+    for (i in nums.indices) {
+        prefixSumMap.getOrDefault(k + currentSum, emptyList()).forEach {
+            if (it >= i) {
+                result++
+            }
+        }
+        currentSum += nums[i]
+    }
+    return result
+}
+
 /**
  * leetcode - https://leetcode.com/problems/subarray-sum-equals-k/
- *
- * TODO(Abhi) - To revisit
  *
  * Data Structure - NA
  * Algorithm - Iteration
@@ -50,12 +70,12 @@ private fun subarraySum(nums: IntArray, k: Int): Int {
  */
 private fun subarraySumUsingBruteForce(nums: IntArray, k: Int): Int {
     var result = 0
-    var current: Int
+    var sum: Int
     for (i in nums.indices) {
-        current = 0
+        sum = 0
         for (j in i..nums.lastIndex) {
-            current += nums[j]
-            if (current == k) {
+            sum += nums[j]
+            if (sum == k) {
                 result++
             }
         }
