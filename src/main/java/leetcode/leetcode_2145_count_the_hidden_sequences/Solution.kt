@@ -1,22 +1,35 @@
 package leetcode.leetcode_2145_count_the_hidden_sequences
 
+import kotlin.math.max
+import kotlin.math.min
+
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/count-the-hidden-sequences/description/?envType=daily-question&envId=2025-04-21
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - Single Pointer
+ * Algorithm - Pattern / Maths
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
  *
- * Companies -
+ * Companies - Amazon
  */
+private fun numberOfArrays(differences: IntArray, lower: Int, upper: Int): Int {
+    var minValue = 0L
+    var maxValue = 0L
+    var current = 0L
+    for (i in differences.indices) {
+        current += differences[i]
+        maxValue = max(maxValue, current)
+        minValue = min(minValue, current)
+    }
+    return max(0L, upper - lower - maxValue + minValue + 1L).toInt()
+}
+
 private fun main() {
 
 }
