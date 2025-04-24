@@ -35,7 +35,7 @@ private fun containsNearbyDuplicate(nums: IntArray, k: Int): Boolean {
     return false
 }
 
-private fun containsNearbyDuplicateUsingSet(nums: IntArray, k: Int): Boolean {
+private fun containsNearbyDuplicateUsingSingleLoop(nums: IntArray, k: Int): Boolean {
     val set = mutableSetOf<Int>()
     for (i in nums.indices) {
         if (i > k) {

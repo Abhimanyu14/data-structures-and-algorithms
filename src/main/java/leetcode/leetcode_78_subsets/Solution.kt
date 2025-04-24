@@ -14,11 +14,24 @@ package leetcode.leetcode_78_subsets
  * Runtime: 164 ms, faster than 96.49%
  * Memory Usage: 37.2 MB, less than 49.12%
  *
- * Time -
- * Space -
+ * Time - O(2^N)
+ * Space - O(2^N)
  *
  * Companies - Meta
  */
+private fun subsetsUsingIteration(nums: IntArray): List<List<Int>> {
+    val result = mutableListOf<List<Int>>()
+    result.add(emptyList())
+    for (num in nums) {
+        val newSubsets = mutableListOf<List<Int>>()
+        for (subset in result) {
+            newSubsets.add(subset + num)
+        }
+        result.addAll(newSubsets)
+    }
+    return result
+}
+
 private fun subsets(nums: IntArray): List<List<Int>> {
     val result = mutableListOf<List<Int>>()
     fun generateSet(currentList: List<Int>, currentPos: Int) {

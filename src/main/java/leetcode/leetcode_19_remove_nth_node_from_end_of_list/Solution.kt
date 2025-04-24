@@ -5,11 +5,19 @@ import data_structures_and_algorithms.linkedlist.ListNode
 /**
  * leetcode - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
  *
- * Using dummy node
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - Two Pointers
+ * Algorithm - Dummy Node
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 137 ms, faster than 96.46%
- * Memory Usage: 34.7 MB, less than 51.38%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Meta
  */
 private fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {
     val dummy = ListNode(-1)

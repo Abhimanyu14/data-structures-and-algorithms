@@ -1,6 +1,40 @@
 package leetcode.leetcode_253_meeting_rooms_ii
 
 import java.util.PriorityQueue
+import kotlin.math.max
+
+/**
+ * leetcode - https://leetcode.com/problems/meeting-rooms-ii/
+ * Premium Question
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - SortedMap, [List]
+ * Algorithm - Sorting, Hashing and Iteration
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ *
+ * Time - O(N * log(N))
+ * Space - O(N)
+ *
+ * Companies - Meta
+ */
+private fun minMeetingRooms(intervals: Array<IntArray>): Int {
+    var result = 0
+    val sortedMap = sortedMapOf<Int, Int>()
+    for (interval in intervals) {
+        sortedMap[interval[0]] = sortedMap.getOrDefault(interval[0], 0) + 1
+        sortedMap[interval[1]] = sortedMap.getOrDefault(interval[1], 0) - 1
+    }
+    var current = 0
+    for ((_, value) in sortedMap) {
+        current += value
+        result = max(result, current)
+    }
+    return result
+}
 
 /**
  * leetcode - https://leetcode.com/problems/meeting-rooms-ii/
@@ -77,7 +111,7 @@ fun minMeetingRoomsUsingPriorityQueue(intervals: Array<IntArray>): Int {
  * Runtime: 434 ms, faster than 51.78
  * Memory Usage: 45.6 MB, less than 62.50%
  */
-fun minMeetingRooms(intervals: Array<IntArray>): Int {
+fun minMeetingRoomsUsingSorting(intervals: Array<IntArray>): Int {
     val startSortedList = intervals.map { it[0] }.sorted()
     val endSortedList = intervals.map { it[1] }.sorted()
     var rooms = 0

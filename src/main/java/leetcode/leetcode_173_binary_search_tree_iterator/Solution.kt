@@ -7,7 +7,7 @@ import data_structures_and_algorithms.TreeNode
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure - [BST]
+ * Data Structure - Binary Search Tree
  * Algorithm - BST Iteration
  *
  * Difficulty - Medium
