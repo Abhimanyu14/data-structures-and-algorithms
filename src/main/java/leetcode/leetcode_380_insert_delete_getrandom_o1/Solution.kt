@@ -19,6 +19,37 @@ import kotlin.random.Random
  *
  * Companies - Meta
  */
+private class RandomizedSet() {
+    val map = mutableMapOf<Int, Int>()
+    val list = mutableListOf<Int>()
+
+    fun insert(`val`: Int): Boolean {
+        if (map.contains(`val`)) {
+            return false
+        }
+        list.add(`val`)
+        map[`val`] = list.lastIndex
+        return true
+    }
+
+    fun remove(`val`: Int): Boolean {
+        val indexOfItemToRemove = map[`val`] ?: return false
+
+        // Swap item to remove with last item and update map
+        list[indexOfItemToRemove] = list.last()
+        map[list.last()] = indexOfItemToRemove
+
+        // Remove item from map and list
+        map.remove(`val`) // O(1)
+        list.removeLast() // O(1)
+        return true
+    }
+
+    fun getRandom(): Int {
+        return list[Random.nextInt(list.size)]
+    }
+}
+
 private class RandomizedSetUsingElementAtMethod() {
     private val set = mutableSetOf<Int>()
 
@@ -31,7 +62,7 @@ private class RandomizedSetUsingElementAtMethod() {
     }
 
     fun getRandom(): Int {
-        return set.elementAt(Random.nextInt(set.size))
+        return set.elementAt(Random.nextInt(set.size)) // O(N)
     }
 }
 

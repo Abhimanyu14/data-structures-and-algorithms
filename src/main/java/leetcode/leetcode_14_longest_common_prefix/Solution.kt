@@ -16,6 +16,8 @@ import kotlin.math.min
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun longestCommonPrefix(strs: Array<String>): String {
     if (strs.isEmpty()) {
@@ -62,6 +64,8 @@ private fun longestCommonPrefix(strs: Array<String>): String {
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun longestCommonPrefixUsingVerticalScanning(strs: Array<String>): String {
     val result = StringBuilder()
@@ -97,6 +101,8 @@ private fun longestCommonPrefixUsingVerticalScanning(strs: Array<String>): Strin
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 private fun longestCommonPrefixUsingIteration(strs: Array<String>): String {
     var prefix = strs[0]
