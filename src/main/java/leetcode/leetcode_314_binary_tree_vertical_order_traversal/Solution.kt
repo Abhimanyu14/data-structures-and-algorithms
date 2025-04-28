@@ -27,24 +27,22 @@ private fun verticalOrder(root: TreeNode?): List<List<Int>> {
     if (root == null) {
         return emptyList()
     }
-    val result = mutableListOf<MutableList<Int>>()
     val sortedMap = sortedMapOf<Int, MutableList<Int>>()
     val queue = ArrayDeque<Pair<TreeNode, Int>>()
     queue.addLast(Pair(root, 0))
     while (queue.isNotEmpty()) {
-        val (currentNode, currentCol) = queue.removeFirst()
+        val (currentNode, x) = queue.removeFirst()
+        sortedMap.computeIfAbsent(x) {
+            mutableListOf()
+        }.add(currentNode.`val`)
         currentNode.left?.let {
-            queue.addLast(Pair(it, currentCol - 1))
+            queue.addLast(Pair(it, x - 1))
         }
         currentNode.right?.let {
-            queue.addLast(Pair(it, currentCol + 1))
+            queue.addLast(Pair(it, x + 1))
         }
-        sortedMap.computeIfAbsent(currentCol) { mutableListOf() }.add(currentNode.`val`)
     }
-    for ((_, value) in sortedMap) {
-        result.add(value)
-    }
-    return result
+    return sortedMap.values.toList()
 }
 
 private fun main() {

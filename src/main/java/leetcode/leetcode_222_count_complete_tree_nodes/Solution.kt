@@ -26,7 +26,7 @@ private fun countNodesRecursion(root: TreeNode?): Int {
  * Runtime: 397 ms, faster than 63.03%
  * Memory Usage: 48.7 MB, less than 10.11%
  */
-fun countNodes(root: TreeNode?): Int {
+private fun countNodes(root: TreeNode?): Int {
     if (root == null) {
         return 0
     }

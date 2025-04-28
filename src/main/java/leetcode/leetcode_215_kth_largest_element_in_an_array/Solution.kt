@@ -1,5 +1,7 @@
 package leetcode.leetcode_215_kth_largest_element_in_an_array
 
+import java.util.PriorityQueue
+
 /**
  * leetcode - https://leetcode.com/problems/kth-largest-element-in-an-array/
  *
@@ -52,6 +54,32 @@ private fun findKthLargest(nums: IntArray, k: Int): Int {
 
 private fun findKthLargestUsingSorting(nums: IntArray, k: Int): Int {
     return nums.sortedDescending()[k - 1]
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/kth-largest-element-in-an-array/
+ *
+ * Data Structure - Min Heap
+ * Algorithm -
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ *
+ * Time - O(N * log(N))
+ * Space - O(N)
+ *
+ * Companies - Meta
+ */
+private fun findKthLargestUsingMinHeap(nums: IntArray, k: Int): Int {
+    val minHeap = PriorityQueue<Int>()
+    for (num in nums) {
+        minHeap.offer(num)
+        if (minHeap.size > k) {
+            minHeap.poll()
+        }
+    }
+    return minHeap.poll()
 }
 
 private fun main() {

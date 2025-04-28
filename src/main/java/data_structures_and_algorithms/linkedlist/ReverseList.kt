@@ -7,7 +7,7 @@ package data_structures_and_algorithms.linkedlist
  * Runtime: 164 ms, faster than 69.33%
  * Memory Usage: 36.2 MB, less than 18.20%
  */
-fun reverseList(head: ListNode?): ListNode? {
+internal fun reverseList(head: ListNode?): ListNode? {
     var prev: ListNode? = null
     var curr = head
     while (curr != null) {

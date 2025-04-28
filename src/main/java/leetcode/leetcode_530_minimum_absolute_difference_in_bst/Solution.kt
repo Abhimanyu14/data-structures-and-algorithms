@@ -12,7 +12,7 @@ import data_structures_and_algorithms.TreeNode
  * Memory Usage: 44.7 MB, less than 50.00%
  *
  */
-fun getMinimumDifference(root: TreeNode?): Int {
+private fun getMinimumDifference(root: TreeNode?): Int {
     val list = mutableListOf<Int>()
     bstInorderTraversal(root, list)
     var min = Int.MAX_VALUE

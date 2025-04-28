@@ -14,8 +14,9 @@ import org.junit.jupiter.api.Test
  * [Stack.push] => [ArrayDeque.addLast]
  * [Stack.pop] => [ArrayDeque.removeLast]
  * [Stack.peek] => [ArrayDeque.last]
- * [Stack.isEmpty] => [ArrayDeque.isEmpty]
+ *
  * [Stack.clear] => [ArrayDeque.clear]
+ * [Stack.isEmpty] => [ArrayDeque.isEmpty]
  */
 class StackOperationsTest {
     @Test

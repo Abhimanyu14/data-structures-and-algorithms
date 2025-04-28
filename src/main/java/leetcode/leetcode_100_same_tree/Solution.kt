@@ -11,7 +11,7 @@ import data_structures_and_algorithms.TreeNode
  * Runtime: 159 ms, faster than 90.65%
  * Memory Usage: 33.3 MB, less than 98.87%
  */
-fun isSameTree(p: TreeNode?, q: TreeNode?): Boolean {
+private fun isSameTree(p: TreeNode?, q: TreeNode?): Boolean {
     if (p == null && q == null) {
         return true
     }

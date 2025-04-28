@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test
  * Properties
  *
  * Methods
+ * [Char.digitToInt]
  * [Char.isDigit]
  * [Char.isLetter]
  * [Char.isLetterOrDigit]
@@ -14,7 +15,6 @@ import org.junit.jupiter.api.Test
  * [Char.isUpperCase]
  * [Char.lowercase]
  * [Char.uppercase]
- * [Char.digitToInt]
  */
 class CharacterOperationsTest {
     @Test

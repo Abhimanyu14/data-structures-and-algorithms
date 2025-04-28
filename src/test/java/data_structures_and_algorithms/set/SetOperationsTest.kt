@@ -8,14 +8,15 @@ import org.junit.jupiter.api.Test
  * Use [sortedSetOf] to sort key-value pairs according to natural ordering of the keys.
  *
  * Methods
- * [Set.union]
- * [Set.intersect]
- * [Set.random]
+ * [MutableSet.add]
+ *
  * [Set.elementAt]
  * [Set.first]
+ * [Set.intersect]
  * [Set.last]
+ * [Set.random]
  * [Set.toString]
- * [MutableSet.add]
+ * [Set.union]
  *
  * Operators
  * [Set.plus] => [-]

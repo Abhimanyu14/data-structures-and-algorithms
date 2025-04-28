@@ -5,15 +5,17 @@ import org.junit.jupiter.api.Test
 
 /**
  * Properties
- * [String.length]
  * [String.lastIndex]
+ * [String.length]
  *
  * Methods
+ * [String.equals]
  * [String.first]
- * [String.last]
  * [String.isEmpty]
  * [String.isNotEmpty]
- * [String.equals]
+ * [String.last]
+ * [String.repeat]
+ * [String.substring]
  */
 class StringOperationsTest {
     @Test
@@ -25,6 +27,9 @@ class StringOperationsTest {
         assertEquals('g', string.last())
         assertEquals(false, string.isEmpty())
         assertEquals(true, string.isNotEmpty())
+        assertEquals("A new StringA new StringA new String", string.repeat(3))
+        assertEquals("ew String", string.substring(3))
+        assertEquals("ew S", string.substring(3, 7))
 
         assertEquals(false, "ABC" == "abc")
         assertEquals(true, "ABC".equals("abc", true))

@@ -13,7 +13,7 @@ import data_structures_and_algorithms.linkedlist.lastNode
  * Runtime: 188 ms, faster than 62.99%
  * Memory Usage: 36.9 MB, less than 33.45%
  */
-fun hasCycle(head: ListNode?): Boolean {
+private fun hasCycle(head: ListNode?): Boolean {
     if (head?.next == null) {
         return false
     }

@@ -62,7 +62,7 @@ private fun distanceK(root: TreeNode?, target: TreeNode?, k: Int): List<Int> {
  * Runtime: 198 ms, faster than 13.33%
  * Memory Usage: 37.2 MB, less than 33.33%
  */
-fun distanceKUsingStringPath(root: TreeNode?, target: TreeNode?, k: Int): List<Int> {
+private fun distanceKUsingStringPath(root: TreeNode?, target: TreeNode?, k: Int): List<Int> {
     if (root?.`val` == target?.`val`) {
         root?.let {
             return childrenAtK(it, k)
@@ -108,7 +108,7 @@ fun distanceKUsingStringPath(root: TreeNode?, target: TreeNode?, k: Int): List<I
     return result
 }
 
-fun childrenAtK(root: TreeNode, k: Int): List<Int> {
+private fun childrenAtK(root: TreeNode, k: Int): List<Int> {
     if (k == 0) {
         return listOf(root.`val`)
     }
@@ -122,7 +122,7 @@ fun childrenAtK(root: TreeNode, k: Int): List<Int> {
     return result
 }
 
-fun findTargetPath(root: TreeNode?, target: TreeNode?, path: String): String {
+private fun findTargetPath(root: TreeNode?, target: TreeNode?, path: String): String {
     if (root != null && target != null && root.`val` == target.`val`) {
         return path
     }

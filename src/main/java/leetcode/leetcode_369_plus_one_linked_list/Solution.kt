@@ -10,7 +10,7 @@ import data_structures_and_algorithms.linkedlist.printLinkedList
  *
  * Stats
  */
-fun addWithCarry(head: ListNode?): Int {
+private fun addWithCarry(head: ListNode?): Int {
     if (head == null) {
         return 1
     }
@@ -19,7 +19,7 @@ fun addWithCarry(head: ListNode?): Int {
     return res / 10
 }
 
-fun addOne(head: ListNode?): ListNode? {
+private fun addOne(head: ListNode?): ListNode? {
     val carry = addWithCarry(head)
     if (carry > 0) {
         val newHead = ListNode(carry)

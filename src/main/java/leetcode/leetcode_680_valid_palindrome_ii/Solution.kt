@@ -18,7 +18,7 @@ package leetcode.leetcode_680_valid_palindrome_ii
  * Companies - Meta
  */
 private fun validPalindrome(s: String): Boolean {
-    fun isPalindrome(start: Int, end: Int, buffer: Int): Boolean {
+    fun isPalindrome(start: Int, end: Int, remaining: Int): Boolean {
         var left = start
         var right = end
         while (left < right) {
@@ -26,7 +26,7 @@ private fun validPalindrome(s: String): Boolean {
                 left++
                 right--
             } else {
-                if (buffer == 0) {
+                if (remaining == 0) {
                     return false
                 }
                 return isPalindrome(left + 1, right, 0) || isPalindrome(left, right - 1, 0)

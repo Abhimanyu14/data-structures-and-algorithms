@@ -82,7 +82,7 @@ private fun minimumOperationsUsingMap(root: TreeNode?): Int {
  * Time - O(N ^ 2)
  * Space - O(N)
  */
-fun minimumOperationsUsingNaiveSorting(root: TreeNode?): Int {
+private fun minimumOperationsUsingNaiveSorting(root: TreeNode?): Int {
     if (root == null) {
         return 0
     }

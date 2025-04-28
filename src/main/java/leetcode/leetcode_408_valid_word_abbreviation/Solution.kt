@@ -2,6 +2,7 @@ package leetcode.leetcode_408_valid_word_abbreviation
 
 /**
  * leetcode - https://leetcode.com/problems/valid-word-abbreviation/description/?envType=company&envId=facebook&favoriteSlug=facebook-six-months
+ * Premium Question
  *
  * Data Structure - [String], Two Pointers
  * Algorithm - Iteration

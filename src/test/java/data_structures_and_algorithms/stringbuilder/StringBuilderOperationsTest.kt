@@ -9,12 +9,12 @@ import org.junit.jupiter.api.Test
  *
  * Methods
  * [StringBuilder.append]
- * [StringBuilder.insert]
+ * [StringBuilder.clear]
  * [StringBuilder.deleteCharAt]
- * [StringBuilder.toString]
+ * [StringBuilder.insert]
  * [StringBuilder.isEmpty]
  * [StringBuilder.isNotEmpty]
- * [StringBuilder.clear]
+ * [StringBuilder.toString]
  */
 class StringBuilderOperationsTest {
     @Test

@@ -11,7 +11,7 @@ import data_structures_and_algorithms.linkedlist.printLinkedList
  * Runtime: 204 ms, faster than 67.29%
  * Memory Usage: 37.7 MB, less than 53.27%
  */
-fun removeElements(head: ListNode?, `val`: Int): ListNode? {
+private fun removeElements(head: ListNode?, `val`: Int): ListNode? {
     var result = head
     while (result?.`val` == `val`) {
         result = result.next
