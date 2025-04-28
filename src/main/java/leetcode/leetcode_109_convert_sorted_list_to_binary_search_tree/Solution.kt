@@ -1,7 +1,7 @@
 package leetcode.leetcode_109_convert_sorted_list_to_binary_search_tree
 
-import data_structures_and_algorithms.TreeNode
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.TreeNode
+import data_structures.linkedlist.ListNode
 
 /**
  * leetcode - https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/

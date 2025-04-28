@@ -1,6 +1,6 @@
 package leetcode.leetcode_337_house_robber_iii
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import kotlin.math.max
 
 /**

@@ -1,6 +1,6 @@
 package leetcode.leetcode_2807_insert_greatest_common_divisors_in_linked_list
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 
 /**
  * leetcode - https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/

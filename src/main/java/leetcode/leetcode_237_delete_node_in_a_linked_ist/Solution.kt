@@ -1,8 +1,8 @@
 package leetcode.leetcode_237_delete_node_in_a_linked_ist
 
-import data_structures_and_algorithms.linkedlist.ListNode
-import data_structures_and_algorithms.linkedlist.createLinkedList
-import data_structures_and_algorithms.linkedlist.printLinkedList
+import data_structures.linkedlist.ListNode
+import data_structures.linkedlist.createLinkedList
+import data_structures.linkedlist.printLinkedList
 
 /**
  * leetcode - https://leetcode.com/problems/delete-node-in-a-linked-list/

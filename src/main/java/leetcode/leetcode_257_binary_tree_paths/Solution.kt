@@ -1,6 +1,6 @@
 package leetcode.leetcode_257_binary_tree_paths
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/binary-tree-paths/

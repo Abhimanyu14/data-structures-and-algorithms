@@ -1,6 +1,6 @@
 package leetcode.leetcode_2331_evaluate_boolean_binary_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/evaluate-boolean-binary-tree/

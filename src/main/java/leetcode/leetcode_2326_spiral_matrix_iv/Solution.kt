@@ -1,6 +1,6 @@
 package leetcode.leetcode_2326_spiral_matrix_iv
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 import java.util.Arrays
 import kotlin.math.min
 

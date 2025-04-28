@@ -1,6 +1,6 @@
 package leetcode.leetcode_202_happy_number
 
-import data_structures_and_algorithms.number.toDigits
+import data_structures.number.toDigits
 
 /**
  * leetcode - https://leetcode.com/problems/happy-number/

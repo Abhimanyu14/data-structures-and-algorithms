@@ -1,6 +1,6 @@
 package leetcode.leetcode_606_construct_string_from_binary_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/construct-string-from-binary-tree

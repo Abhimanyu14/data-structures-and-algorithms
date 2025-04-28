@@ -1,6 +1,6 @@
 package common.common_interview_questions
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 
 /**
  * Linked list traversal

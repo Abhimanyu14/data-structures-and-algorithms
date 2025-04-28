@@ -1,8 +1,8 @@
 package leetcode.leetcode_21_merge_two_sorted_lists
 
-import data_structures_and_algorithms.linkedlist.ListNode
-import data_structures_and_algorithms.linkedlist.createLinkedList
-import data_structures_and_algorithms.linkedlist.printLinkedList
+import data_structures.linkedlist.ListNode
+import data_structures.linkedlist.createLinkedList
+import data_structures.linkedlist.printLinkedList
 
 /**
  * leetcode - https://leetcode.com/problems/merge-two-sorted-lists/

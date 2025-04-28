@@ -1,6 +1,6 @@
 package leetcode.leetcode_148_sort_list
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 
 /**
  * leetcode - https://leetcode.com/problems/sort-list/

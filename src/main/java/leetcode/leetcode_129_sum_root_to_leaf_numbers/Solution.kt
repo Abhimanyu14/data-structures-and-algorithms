@@ -1,6 +1,6 @@
 package leetcode.leetcode_129_sum_root_to_leaf_numbers
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/sum-root-to-leaf-numbers/?envType=daily-question&envId=2024-04-15

@@ -1,6 +1,6 @@
 package leetcode.leetcode_270_closest_binary_search_tree_value
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import kotlin.math.abs
 import kotlin.math.min
 

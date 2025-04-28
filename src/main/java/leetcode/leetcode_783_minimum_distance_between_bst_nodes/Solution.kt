@@ -1,6 +1,6 @@
 package leetcode.leetcode_783_minimum_distance_between_bst_nodes
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import kotlin.math.abs
 
 /**

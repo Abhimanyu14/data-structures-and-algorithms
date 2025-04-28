@@ -1,6 +1,6 @@
 package leetcode.leetcode_314_binary_tree_vertical_order_traversal
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import java.util.SortedMap
 
 /**

@@ -1,6 +1,6 @@
 package leetcode.leetcode_23_merge_k_sorted_lists
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 import java.util.PriorityQueue
 
 /**

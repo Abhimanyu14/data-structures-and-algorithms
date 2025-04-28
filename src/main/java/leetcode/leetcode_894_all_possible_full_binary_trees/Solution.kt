@@ -1,6 +1,6 @@
 package leetcode.leetcode_894_all_possible_full_binary_trees
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/all-possible-full-binary-trees/

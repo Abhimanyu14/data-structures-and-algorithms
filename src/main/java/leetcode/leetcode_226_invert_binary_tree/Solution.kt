@@ -1,6 +1,6 @@
 package leetcode.leetcode_226_invert_binary_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/invert-binary-tree/

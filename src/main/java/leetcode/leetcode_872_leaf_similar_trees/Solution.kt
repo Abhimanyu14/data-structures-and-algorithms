@@ -1,6 +1,6 @@
 package leetcode.leetcode_872_leaf_similar_trees
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/leaf-similar-trees/

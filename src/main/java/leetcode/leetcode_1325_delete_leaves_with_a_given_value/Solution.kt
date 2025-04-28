@@ -1,6 +1,6 @@
 package leetcode.leetcode_1325_delete_leaves_with_a_given_value
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/delete-leaves-with-a-given-value/

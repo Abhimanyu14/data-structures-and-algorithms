@@ -1,6 +1,6 @@
 package geeks_for_geeks.quickselect_algoritm
 
-import data_structures_and_algorithms.searching.quickSelectDriver
+import algorithms.searching.quickSelectDriver
 
 /**
  * link - https://www.geeksforgeeks.org/quickselect-algorithm/

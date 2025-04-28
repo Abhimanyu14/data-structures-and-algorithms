@@ -1,6 +1,6 @@
 package leetcode.leetcode_865_smallest_subtree_with_all_the_deepest_nodes
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days

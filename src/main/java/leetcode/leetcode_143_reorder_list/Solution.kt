@@ -1,6 +1,6 @@
 package leetcode.leetcode_143_reorder_list
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 
 /**
  * leetcode - https://leetcode.com/problems/reorder-list/

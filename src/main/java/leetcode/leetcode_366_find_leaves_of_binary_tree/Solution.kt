@@ -1,6 +1,6 @@
 package leetcode.leetcode_366_find_leaves_of_binary_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import kotlin.math.max
 
 /**

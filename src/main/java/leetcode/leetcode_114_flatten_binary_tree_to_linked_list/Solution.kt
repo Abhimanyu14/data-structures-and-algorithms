@@ -1,6 +1,6 @@
 package leetcode.leetcode_114_flatten_binary_tree_to_linked_list
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/flatten-binary-tree-to-linked-list/

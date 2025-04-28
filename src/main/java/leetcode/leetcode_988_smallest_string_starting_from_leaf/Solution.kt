@@ -1,6 +1,6 @@
 package leetcode.leetcode_988_smallest_string_starting_from_leaf
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import java.util.LinkedList
 import java.util.Queue
 

@@ -1,6 +1,6 @@
 package leetcode.leetcode_2096_step_by_step_directions_from_a_binary_tree_node_to_another
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/?envType=daily-question&envId=2024-07-16

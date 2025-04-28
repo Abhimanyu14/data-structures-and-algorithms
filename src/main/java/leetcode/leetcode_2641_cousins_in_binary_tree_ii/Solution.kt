@@ -1,6 +1,6 @@
 package leetcode.leetcode_2641_cousins_in_binary_tree_ii
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import java.util.LinkedList
 import java.util.Queue
 

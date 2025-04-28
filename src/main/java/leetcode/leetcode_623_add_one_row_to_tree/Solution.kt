@@ -1,6 +1,6 @@
 package leetcode.leetcode_623_add_one_row_to_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/add-one-row-to-tree/?envType=daily-question&envId=2024-04-16

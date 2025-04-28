@@ -1,6 +1,6 @@
 package leetcode.leetcode_144_binary_tree_preorder_traversal
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/binary-tree-preorder-traversal/

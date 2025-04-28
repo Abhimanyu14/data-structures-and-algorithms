@@ -1,6 +1,6 @@
 package leetcode.leetcode_1038_binary_search_tree_to_greater_sum_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/?envType=daily-question&envId=2024-06-25

@@ -1,6 +1,6 @@
 package leetcode.leetcode_2196_create_binary_tree_from_descriptions
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 
 /**

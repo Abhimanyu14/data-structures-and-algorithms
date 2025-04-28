@@ -1,6 +1,6 @@
 package leetcode.leetcode_2487_remove_nodes_from_linked_list
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 import kotlin.math.max
 
 /**

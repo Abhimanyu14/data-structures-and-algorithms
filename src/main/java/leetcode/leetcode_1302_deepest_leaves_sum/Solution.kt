@@ -1,6 +1,6 @@
 package leetcode.leetcode_1302_deepest_leaves_sum
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import kotlin.math.max
 
 /**

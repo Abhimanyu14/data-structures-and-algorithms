@@ -1,6 +1,6 @@
 package leetcode.leetcode_897_increasing_order_search_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/increasing-order-search-tree/

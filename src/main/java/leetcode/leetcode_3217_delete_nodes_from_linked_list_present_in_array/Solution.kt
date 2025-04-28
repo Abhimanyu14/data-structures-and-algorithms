@@ -1,6 +1,6 @@
 package leetcode.leetcode_3217_delete_nodes_from_linked_list_present_in_array
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 
 /**
  * leetcode - https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/?envType=daily-question&envId=2024-09-06

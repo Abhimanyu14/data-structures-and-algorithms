@@ -1,6 +1,6 @@
 package leetcode.leetcode_2236_root_equals_sum_of_children
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/root-equals-sum-of-children/

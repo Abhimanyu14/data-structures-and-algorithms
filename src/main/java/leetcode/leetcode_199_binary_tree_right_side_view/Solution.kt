@@ -1,6 +1,6 @@
 package leetcode.leetcode_199_binary_tree_right_side_view
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/binary-tree-right-side-view/description/

@@ -1,6 +1,6 @@
 package leetcode.leetcode_1161_maximum_level_sum_of_a_binary_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import java.util.LinkedList
 
 /**

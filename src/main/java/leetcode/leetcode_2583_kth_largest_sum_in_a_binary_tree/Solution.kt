@@ -1,6 +1,6 @@
 package leetcode.leetcode_2583_kth_largest_sum_in_a_binary_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/?envType=daily-question&envId=2024-10-22

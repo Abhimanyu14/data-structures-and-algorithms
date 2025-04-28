@@ -1,8 +1,8 @@
 package leetcode.leetcode_1110_delete_nodes_and_return_forest
 
-import data_structures_and_algorithms.TreeNode
-import data_structures_and_algorithms.createBinaryTree
-import data_structures_and_algorithms.printBinaryTree
+import data_structures.TreeNode
+import data_structures.createBinaryTree
+import data_structures.printBinaryTree
 
 /**
  * leetcode - https://leetcode.com/problems/delete-nodes-and-return-forest/

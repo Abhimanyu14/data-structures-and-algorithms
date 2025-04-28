@@ -1,6 +1,6 @@
 package leetcode.leetcode_450_delete_node_in_a_bst
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/delete-node-in-a-bst/

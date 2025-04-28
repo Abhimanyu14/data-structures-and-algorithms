@@ -1,6 +1,6 @@
 package leetcode.leetcode_145_binary_tree_postorder_traversal
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/binary-tree-postorder-traversal/

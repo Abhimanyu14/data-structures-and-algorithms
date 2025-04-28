@@ -1,8 +1,8 @@
 package leetcode.leetcode_203_remove_linked_list_elements
 
-import data_structures_and_algorithms.linkedlist.ListNode
-import data_structures_and_algorithms.linkedlist.createLinkedList
-import data_structures_and_algorithms.linkedlist.printLinkedList
+import data_structures.linkedlist.ListNode
+import data_structures.linkedlist.createLinkedList
+import data_structures.linkedlist.printLinkedList
 
 /**
  * leetcode - https://leetcode.com/problems/remove-linked-list-elements/

@@ -1,6 +1,6 @@
 package leetcode.leetcode_5_longest_palindromic_substring
 
-import data_structures_and_algorithms.string.isStringPalindrome
+import data_structures.string.isStringPalindrome
 import kotlin.math.max
 
 /**

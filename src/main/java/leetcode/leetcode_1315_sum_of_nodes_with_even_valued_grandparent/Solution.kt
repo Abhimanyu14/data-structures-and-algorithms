@@ -1,6 +1,6 @@
 package leetcode.leetcode_1315_sum_of_nodes_with_even_valued_grandparent
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/

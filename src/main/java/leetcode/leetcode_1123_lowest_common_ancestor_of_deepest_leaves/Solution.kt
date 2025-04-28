@@ -1,6 +1,6 @@
 package leetcode.leetcode_1123_lowest_common_ancestor_of_deepest_leaves
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/

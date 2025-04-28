@@ -1,7 +1,7 @@
 package leetcode.leetcode_234_palindrome_linked_list
 
-import data_structures_and_algorithms.linkedlist.ListNode
-import data_structures_and_algorithms.linkedlist.createLinkedList
+import data_structures.linkedlist.ListNode
+import data_structures.linkedlist.createLinkedList
 
 /**
  * leetcode - https://leetcode.com/problems/palindrome-linked-list/

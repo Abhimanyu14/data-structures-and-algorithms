@@ -1,6 +1,6 @@
 package leetcode.leetcode_222_count_complete_tree_nodes
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import kotlin.math.max
 
 /**

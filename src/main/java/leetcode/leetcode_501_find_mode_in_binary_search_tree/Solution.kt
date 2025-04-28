@@ -1,6 +1,6 @@
 package leetcode.leetcode_501_find_mode_in_binary_search_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/find-mode-in-binary-search-tree/

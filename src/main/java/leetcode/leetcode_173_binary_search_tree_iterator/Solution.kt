@@ -1,6 +1,6 @@
 package leetcode.leetcode_173_binary_search_tree_iterator
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/binary-search-tree-iterator/

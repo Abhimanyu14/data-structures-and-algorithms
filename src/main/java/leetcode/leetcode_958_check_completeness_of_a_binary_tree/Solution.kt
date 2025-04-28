@@ -1,6 +1,6 @@
 package leetcode.leetcode_958_check_completeness_of_a_binary_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/check-completeness-of-a-binary-tree/

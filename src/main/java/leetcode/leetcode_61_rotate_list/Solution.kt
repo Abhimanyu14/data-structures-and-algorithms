@@ -1,6 +1,6 @@
 package leetcode.leetcode_61_rotate_list
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 
 /**
  * leetcode - https://leetcode.com/problems/rotate-list/

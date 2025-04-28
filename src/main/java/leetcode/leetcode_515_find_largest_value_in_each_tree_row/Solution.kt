@@ -1,6 +1,6 @@
 package leetcode.leetcode_515_find_largest_value_in_each_tree_row
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import java.util.LinkedList
 import kotlin.math.max
 

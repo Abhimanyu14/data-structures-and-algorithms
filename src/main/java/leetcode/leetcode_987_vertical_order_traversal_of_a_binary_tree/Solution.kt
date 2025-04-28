@@ -1,6 +1,6 @@
 package leetcode.leetcode_987_vertical_order_traversal_of_a_binary_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import kotlin.math.max
 import kotlin.math.min
 

@@ -1,6 +1,6 @@
 package leetcode.leetcode_951_flip_equivalent_binary_trees
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/flip-equivalent-binary-trees/?envType=daily-question&envId=2024-10-24

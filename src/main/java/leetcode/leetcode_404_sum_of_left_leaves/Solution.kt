@@ -1,6 +1,6 @@
 package leetcode.leetcode_404_sum_of_left_leaves
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/sum-of-left-leaves/?envType=daily-question&envId=2024-04-14

@@ -1,6 +1,6 @@
 package leetcode.leetcode_2458_height_of_binary_tree_after_subtree_removal_queries
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import kotlin.math.max
 
 /**

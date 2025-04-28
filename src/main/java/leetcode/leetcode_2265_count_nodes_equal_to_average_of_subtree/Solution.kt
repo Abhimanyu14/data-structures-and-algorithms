@@ -1,6 +1,6 @@
 package leetcode.leetcode_2265_count_nodes_equal_to_average_of_subtree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/

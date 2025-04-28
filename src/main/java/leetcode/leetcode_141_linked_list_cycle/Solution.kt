@@ -1,8 +1,8 @@
 package leetcode.leetcode_141_linked_list_cycle
 
-import data_structures_and_algorithms.linkedlist.ListNode
-import data_structures_and_algorithms.linkedlist.createLinkedList
-import data_structures_and_algorithms.linkedlist.lastNode
+import data_structures.linkedlist.ListNode
+import data_structures.linkedlist.createLinkedList
+import data_structures.linkedlist.lastNode
 
 /**
  * leetcode - https://leetcode.com/problems/linked-list-cycle/

@@ -1,6 +1,6 @@
 package leetcode.leetcode_101_symmetric_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/symmetric-tree/

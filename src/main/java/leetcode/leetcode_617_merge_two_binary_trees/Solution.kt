@@ -1,6 +1,6 @@
 package leetcode.leetcode_617_merge_two_binary_trees
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/merge-two-binary-trees/

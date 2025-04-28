@@ -1,6 +1,6 @@
 package leetcode.leetcode_1669_merge_in_between_linked_lists
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 
 /**
  * leetcode - https://leetcode.com/problems/merge-in-between-linked-lists/

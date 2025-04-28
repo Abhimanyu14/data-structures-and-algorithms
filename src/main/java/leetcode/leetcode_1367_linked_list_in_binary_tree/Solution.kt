@@ -1,7 +1,7 @@
 package leetcode.leetcode_1367_linked_list_in_binary_tree
 
-import data_structures_and_algorithms.TreeNode
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.TreeNode
+import data_structures.linkedlist.ListNode
 
 
 /**

@@ -1,6 +1,6 @@
 package leetcode.leetcode_236_lowest_common_ancestor_of_a_binary_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/

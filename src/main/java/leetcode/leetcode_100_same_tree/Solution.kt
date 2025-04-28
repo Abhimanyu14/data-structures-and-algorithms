@@ -1,6 +1,6 @@
 package leetcode.leetcode_100_same_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/same-tree/

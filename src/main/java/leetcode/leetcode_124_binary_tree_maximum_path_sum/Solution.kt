@@ -1,6 +1,6 @@
 package leetcode.leetcode_124_binary_tree_maximum_path_sum
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import kotlin.math.max
 
 /**

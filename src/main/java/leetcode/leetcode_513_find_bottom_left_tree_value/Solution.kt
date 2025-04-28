@@ -1,6 +1,6 @@
 package leetcode.leetcode_513_find_bottom_left_tree_value
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import java.util.ArrayDeque
 
 /**

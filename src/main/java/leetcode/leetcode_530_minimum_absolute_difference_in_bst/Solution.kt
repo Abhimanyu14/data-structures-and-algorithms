@@ -1,6 +1,6 @@
 package leetcode.leetcode_530_minimum_absolute_difference_in_bst
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/minimum-absolute-difference-in-bst/

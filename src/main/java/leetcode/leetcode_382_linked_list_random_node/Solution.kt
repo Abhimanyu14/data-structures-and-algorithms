@@ -1,6 +1,6 @@
 package leetcode.leetcode_382_linked_list_random_node
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 import kotlin.random.Random
 
 /**

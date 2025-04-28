@@ -1,6 +1,6 @@
 package leetcode.leetcode_24_swap_nodes_in_pairs
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 
 /**
  * leetcode - https://leetcode.com/problems/swap-nodes-in-pairs/

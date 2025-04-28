@@ -1,6 +1,6 @@
 package leetcode.leetcode_2181_merge_nodes_in_between_zeros
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 
 /**
  * leetcode - https://leetcode.com/problems/merge-nodes-in-between-zeros/?envType=daily-question&envId=2024-07-04

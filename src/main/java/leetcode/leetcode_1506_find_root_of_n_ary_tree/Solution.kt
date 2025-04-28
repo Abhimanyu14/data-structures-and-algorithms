@@ -1,6 +1,6 @@
 package leetcode.leetcode_1506_find_root_of_n_ary_tree
 
-import data_structures_and_algorithms.Node
+import data_structures.Node
 
 /**
  * leetcode - https://leetcode.com/problems/find-root-of-n-ary-tree/

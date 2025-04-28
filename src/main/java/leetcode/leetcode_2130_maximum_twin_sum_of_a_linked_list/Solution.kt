@@ -1,6 +1,6 @@
 package leetcode.leetcode_2130_maximum_twin_sum_of_a_linked_list
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 import java.util.Stack
 import kotlin.math.max
 

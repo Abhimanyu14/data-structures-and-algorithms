@@ -1,6 +1,6 @@
 package leetcode.leetcode_1609_even_odd_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/even-odd-tree/?envType=daily-question&envId=2024-02-29

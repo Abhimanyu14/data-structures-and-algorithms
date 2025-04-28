@@ -1,6 +1,6 @@
 package leetcode.leetcode_2058_find_the_minimum_and_maximum_number_of_nodes_between_critical_points
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 import kotlin.math.abs
 import kotlin.math.min
 

@@ -1,6 +1,6 @@
 package leetcode.leetcode_1171_remove_zero_sum_consecutive_nodes_from_linked_list
 
-import data_structures_and_algorithms.linkedlist.ListNode
+import data_structures.linkedlist.ListNode
 
 /**
  * leetcode - https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/

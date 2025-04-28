@@ -1,6 +1,6 @@
 package leetcode.leetcode_1214_two_sum_bsts
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 
 /**
  * leetcode - https://leetcode.com/problems/two-sum-bsts/

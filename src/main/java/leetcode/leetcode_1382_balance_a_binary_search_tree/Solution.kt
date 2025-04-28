@@ -1,6 +1,6 @@
 package leetcode.leetcode_1382_balance_a_binary_search_tree
 
-import data_structures_and_algorithms.TreeNode
+import data_structures.TreeNode
 import kotlin.math.floor
 import kotlin.math.ln
 import kotlin.math.pow
