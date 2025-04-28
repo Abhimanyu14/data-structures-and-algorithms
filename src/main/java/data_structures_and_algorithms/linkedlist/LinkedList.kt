@@ -1,10 +1,10 @@
 package data_structures_and_algorithms.linkedlist
 
-class ListNode(var `val`: Int) {
+internal class ListNode(var `val`: Int) {
     var next: ListNode? = null
 }
 
-fun createLinkedList(arr: IntArray): ListNode? {
+internal fun createLinkedList(arr: IntArray): ListNode? {
     if (arr.isEmpty()) {
         return null
     }
@@ -17,7 +17,7 @@ fun createLinkedList(arr: IntArray): ListNode? {
     return listHead
 }
 
-fun printLinkedList(listNode: ListNode?) {
+internal fun printLinkedList(listNode: ListNode?) {
     if (listNode == null) {
         println("Empty list")
         return
@@ -31,13 +31,13 @@ fun printLinkedList(listNode: ListNode?) {
     println()
 }
 
-fun lastNode(head: ListNode?): ListNode? {
+internal fun lastNode(head: ListNode?): ListNode? {
     if (head?.next == null) {
         return head
     }
-    var pointer = head
-    while (pointer?.next != null) {
-        pointer = pointer.next
+    var current = head
+    while (current?.next != null) {
+        current = current.next
     }
-    return pointer
+    return current
 }

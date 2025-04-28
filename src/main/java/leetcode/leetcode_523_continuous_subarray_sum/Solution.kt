@@ -5,30 +5,30 @@ package leetcode.leetcode_523_continuous_subarray_sum
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure -
- * Algorithm -
+ * Data Structure - [Map]
+ * Algorithm - Hashing, Prefix Sum
  *
  * Difficulty - Medium
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(k)
  *
  * Companies - Meta
  */
 private fun checkSubarraySum(nums: IntArray, k: Int): Boolean {
-    var prefixMod = 0
-    val modSeen = HashMap<Int, Int>()
+    var prefixSumMod = 0
+    val modSeen = mutableMapOf<Int, Int>()
     modSeen[0] = -1
     for (i in nums.indices) {
-        prefixMod = (prefixMod + nums[i]) % k
-        if (modSeen.containsKey(prefixMod)) {
-            if (i - modSeen[prefixMod]!! > 1) {
+        prefixSumMod = (prefixSumMod + nums[i]) % k
+        if (modSeen.containsKey(prefixSumMod)) {
+            if (i - modSeen[prefixSumMod]!! > 1) {
                 return true
             }
         } else {
-            modSeen[prefixMod] = i
+            modSeen[prefixSumMod] = i
         }
     }
     return false

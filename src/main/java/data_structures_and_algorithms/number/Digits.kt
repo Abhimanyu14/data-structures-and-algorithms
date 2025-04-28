@@ -1,6 +1,6 @@
 package data_structures_and_algorithms.number
 
-fun toDigits(n: Int): IntArray {
+internal fun toDigits(n: Int): IntArray {
     val result = mutableListOf<Int>()
     var ele = n
     while (ele != 0) {

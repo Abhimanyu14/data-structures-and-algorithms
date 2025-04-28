@@ -3,27 +3,33 @@ package leetcode.leetcode_921_minimum_add_to_make_parentheses_valid
 /**
  * leetcode - https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
  *
- * Using counters
+ * Data Structure - Pointer
+ * Algorithm - Counting
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 148 ms, faster than 96.00%
- * Memory Usage: 33.6 MB, less than 100.00%
+ *
+ * Time - O(N)
+ * Space - O(1)
+ *
+ * Companies - Meta
  */
 private fun minAddToMakeValid(s: String): Int {
-    var count = 0
     var result = 0
-    s.forEach {
-        if (it == '(') {
-            count++
+    var current = 0
+    for (char in s) {
+        if (char == '(') {
+            current++
         } else {
-            count--
-            if (count < 0) {
-                count = 0
+            if (current > 0) {
+                current--
+            } else {
                 result++
             }
         }
     }
-    return count + result
+    return result + current
 }
 
 /**

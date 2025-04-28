@@ -17,8 +17,8 @@ import kotlin.math.max
  * Runtime: 13 ms, faster than 12.57%
  * Memory Usage: 64.19 MB, less than 28.96%
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
  *
  * Companies - Google, Meta
  */

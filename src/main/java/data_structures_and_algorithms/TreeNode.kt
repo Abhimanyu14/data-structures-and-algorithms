@@ -1,11 +1,11 @@
 package data_structures_and_algorithms
 
-class TreeNode(var `val`: Int) {
+internal class TreeNode(var `val`: Int) {
     var left: TreeNode? = null
     var right: TreeNode? = null
 }
 
-fun createBinaryTree(list: List<Int?>): TreeNode? {
+internal fun createBinaryTree(list: List<Int?>): TreeNode? {
     if (list.isEmpty() || list[0] == null) {
         return null
     }
@@ -46,7 +46,7 @@ fun createBinaryTree(list: List<Int?>): TreeNode? {
     return root
 }
 
-fun printBinaryTree(root: TreeNode?) {
+internal fun printBinaryTree(root: TreeNode?) {
     val queue = ArrayDeque<TreeNode?>()
     queue.addLast(root)
     var temp: TreeNode?
@@ -60,18 +60,18 @@ fun printBinaryTree(root: TreeNode?) {
     }
 }
 
-fun TreeNode?.height(height: Int = -1): Int {
+internal fun TreeNode?.height(height: Int = -1): Int {
     if (this == null) return height
     return maxOf(left.height(height + 1), right.height(height + 1))
 }
 
-fun TreeNode.isLeaf(): Boolean {
+internal fun TreeNode.isLeaf(): Boolean {
     return this.left == null && this.right == null
 }
 
 /**
  * Used in leetcode questions
  */
-class Node(var `val`: Int) {
+internal class Node(var `val`: Int) {
     var children: List<Node?> = listOf()
 }

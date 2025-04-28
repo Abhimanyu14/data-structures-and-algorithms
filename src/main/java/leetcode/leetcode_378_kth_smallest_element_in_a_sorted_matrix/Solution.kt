@@ -22,20 +22,19 @@ import java.util.PriorityQueue
  * Companies - Meta
  */
 private fun kthSmallest(matrix: Array<IntArray>, k: Int): Int {
-    val minHeap = PriorityQueue<Triple<Int, Int, Int>> { a, b ->
+    val minHeap = PriorityQueue<Triple<Int, Int, Int>> { a, b -> // Value, Row, Col
         a.first - b.first
     }
     for (i in matrix.indices) {
         minHeap.offer(Triple(matrix[i][0], i, 0))
     }
-    var current: Triple<Int, Int, Int> = Triple(0, 0, 0)
-    repeat(k) {
-        current = minHeap.poll()
-        if (current.third < matrix[current.second].lastIndex) {
-            minHeap.offer(Triple(matrix[current.second][current.third + 1], current.second, current.third + 1))
+    repeat(k - 1) {
+        val (value, row, col) = minHeap.poll()
+        if (col < matrix[0].lastIndex) {
+            minHeap.offer(Triple(matrix[row][col + 1], row, col + 1))
         }
     }
-    return current.first
+    return minHeap.poll().first
 }
 
 private fun kthSmallestUsingPointersArray(matrix: Array<IntArray>, k: Int): Int {

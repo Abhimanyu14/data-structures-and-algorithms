@@ -1,4 +1,4 @@
-package data_structures_and_algorithms.common
+package common.common_interview_questions
 
 /**
  * Digits counter

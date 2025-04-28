@@ -21,99 +21,88 @@ package leetcode.leetcode_146_lru_cache
  *
  * Companies - Meta
  */
-class DoublyLinkedListNode(
+private class DoublyLinkedListNode(
     var key: Int,
     var value: Int,
     var prev: DoublyLinkedListNode? = null,
     var next: DoublyLinkedListNode? = null,
-) {
-    override fun toString(): String {
-        return " Node = ($key, $value)"
-    }
-}
+)
 
-class LRUCache(capacity: Int) {
+// List ordering - Least Recently used at first
+private class LRUCache(capacity: Int) {
     private val cache = mutableMapOf<Int, DoublyLinkedListNode>()
-    private val size = capacity
+    private val maxCacheSize = capacity
     private var start: DoublyLinkedListNode? = null
     private var end: DoublyLinkedListNode? = null
 
     fun get(key: Int): Int {
         val node = cache[key] ?: return -1
-        moveNodeToEnd(key, node)
+        moveNodeToEnd(node)
         return node.value
     }
 
     fun put(key: Int, value: Int) {
         if (cache.contains(key)) {
             val node = cache[key] ?: return
-            moveNodeToEnd(key, node)
+            moveNodeToEnd(node)
             node.value = value
         } else {
-            if (cache.size == size) {
-                evictLruNode()
+            if (cache.size == maxCacheSize) {
+                removeNodeFromStart()
             }
-            if (start == null) {
-                createNewLinkedList(key, value)
-            } else {
-                addNodeToEnd(key, DoublyLinkedListNode(key, value))
-            }
+            addNodeToEnd(DoublyLinkedListNode(key, value))
         }
     }
 
-    private fun moveNodeToEnd(key: Int, node: DoublyLinkedListNode) {
+    private fun moveNodeToEnd(node: DoublyLinkedListNode) {
         if (node != end) {
             removeGivenNode(node)
-            addNodeToEnd(key, node)
+            addNodeToEnd(node)
         }
-    }
-
-    private fun evictLruNode() {
-        start?.key?.let {
-            cache.remove(it)
-        }
-        removeStartNode()
-        if (start == null) {
-            end = null
-        }
-    }
-
-    private fun createNewLinkedList(key: Int, value: Int) {
-        val newNode = DoublyLinkedListNode(key, value)
-        start = newNode
-        end = newNode
-        cache[key] = newNode
-    }
-
-    private fun addNodeToEnd(key: Int, node: DoublyLinkedListNode) {
-        node.prev = end
-        node.next = null
-        end?.next = node
-        end = node
-        cache[key] = node
-    }
-
-    private fun removeStartNode() {
-        start = start?.next
-        start?.prev = null
-    }
-
-    private fun removeEndNode() {
-        end = end?.prev
-        end?.next = null
     }
 
     private fun removeGivenNode(node: DoublyLinkedListNode) {
         when (node) {
-            start -> removeStartNode()
-            end -> removeEndNode()
+            start -> removeNodeFromStart()
+            end -> removeNodeFromEnd()
             else -> {
+                cache.remove(node.key)
                 node.prev?.next = node.next
                 node.next?.prev = node.prev
             }
         }
+    }
+
+    private fun addNodeToEnd(node: DoublyLinkedListNode) {
+        cache[node.key] = node
+        node.prev = end
+        node.next = null
+        end?.next = node
+        end = node
+        if (start == null) {
+            start = node
+        }
+    }
+
+    private fun removeNodeFromStart() {
+        start?.key?.let {
+            cache.remove(it)
+        }
+        start = start?.next
+        start?.prev = null
         if (start == null) {
             end = null
+        }
+    }
+
+    private fun removeNodeFromEnd() {
+        end?.key?.let {
+            cache.remove(it)
+        }
+        end = end?.prev
+        end?.next = null
+        if (end == null) {
+            start = null
         }
     }
 }

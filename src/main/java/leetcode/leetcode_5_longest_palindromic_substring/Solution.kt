@@ -28,14 +28,14 @@ private fun longestPalindrome(s: String): String {
     }
     var start = 0
     var end = 0
-    fun expandAroundCenter(s: String, left: Int, right: Int): Int {
-        var leftCopy = left
-        var rightCopy = right
-        while (leftCopy >= 0 && rightCopy < s.length && s[leftCopy] == s[rightCopy]) {
-            leftCopy--
-            rightCopy++
+    fun expandAroundCenter(s: String, start: Int, end: Int): Int {
+        var left = start
+        var right = end
+        while (left >= 0 && right < s.length && s[left] == s[right]) {
+            left--
+            right++
         }
-        return rightCopy - leftCopy - 1
+        return right - left - 1
     }
     for (i in s.indices) {
         val len1 = expandAroundCenter(s, i, i)

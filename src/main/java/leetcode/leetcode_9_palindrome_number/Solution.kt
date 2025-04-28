@@ -20,6 +20,39 @@ package leetcode.leetcode_9_palindrome_number
  *
  * Companies - Meta
  */
+private fun isPalindromeUsingReverseNumber(x: Int): Boolean {
+    if (x < 0) {
+        return false
+    }
+    var reverse = 0
+    var temp = x
+    while (temp != 0) {
+        reverse = (reverse * 10) + (temp % 10)
+        temp /= 10
+    }
+    return reverse == x
+}
+
+private fun isPalindromeUsingSplitAndReverse(x: Int): Boolean {
+    if (x < 0) {
+        return false
+    }
+    if (x < 10) {
+        return true
+    }
+    if (x % 10 == 0) {
+        return false
+    }
+    var current = x
+    var split = 0
+    while (split < current) {
+        split = (split * 10) + (current % 10)
+        current /= 10
+    }
+    return split == current || current == (split / 10)
+}
+
+
 private fun isPalindromeUsingLoops(x: Int): Boolean {
     if (x < 0) {
         return false

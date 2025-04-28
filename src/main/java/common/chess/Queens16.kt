@@ -1,4 +1,4 @@
-package data_structures_and_algorithms.chess
+package common.chess
 
 /**
  * WIP

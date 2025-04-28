@@ -5,7 +5,6 @@ package data_structures_and_algorithms.heap
  * Left : (index * 2) + 1
  * Right : (index * 2) + 2
  */
-
 private fun main() {
     var capacity = 10
     var size = 0

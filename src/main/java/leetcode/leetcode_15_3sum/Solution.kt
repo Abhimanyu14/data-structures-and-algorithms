@@ -3,7 +3,7 @@ package leetcode.leetcode_15_3sum
 /**
  * leetcode - https://leetcode.com/problems/3sum/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * Data Structure - Set and List
+ * Data Structure - [Set], [List]
  * Algorithm - Sorting
  *
  * Difficulty - Medium
@@ -14,28 +14,30 @@ package leetcode.leetcode_15_3sum
  *
  * Time - O(N ^ 2)
  * Space - O(N)
+ *
+ * Companies - Meta
  */
 private fun threeSum(nums: IntArray): List<List<Int>> {
     val result = mutableSetOf<List<Int>>()
     val sortedNums = nums.sorted()
     for (i in 0..(sortedNums.lastIndex - 2)) {
-        var j = i + 1
-        var k = sortedNums.lastIndex
-        while (j < k) {
-            if (sortedNums[i] + sortedNums[j] + sortedNums[k] == 0) {
-                result.add(listOf(sortedNums[i], sortedNums[j], sortedNums[k]).sorted())
-                j++
-                k--
-                while (j < k && sortedNums[j] == sortedNums[j - 1]) {
-                    j++
-                }
-                while (j < k && sortedNums[k] == sortedNums[k + 1]) {
-                    k--
-                }
-            } else if (sortedNums[i] + sortedNums[j] + sortedNums[k] > 0) {
-                k--
+        var left = i + 1
+        var right = sortedNums.lastIndex
+        while (left < right) {
+            if (sortedNums[i] + sortedNums[left] + sortedNums[right] > 0) {
+                right--
+            } else if (sortedNums[i] + sortedNums[left] + sortedNums[right] < 0) {
+                left++
             } else {
-                j++
+                result.add(listOf(sortedNums[i], sortedNums[left], sortedNums[right]))
+                left++
+                right--
+            }
+            while (left < right && sortedNums[left] == sortedNums[left - 1]) {
+                left++
+            }
+            while (left < right && sortedNums[right] == sortedNums[right + 1]) {
+                right--
             }
         }
     }

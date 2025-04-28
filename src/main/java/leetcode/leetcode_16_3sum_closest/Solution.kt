@@ -16,6 +16,8 @@ import kotlin.math.abs
  *
  * Time -
  * Space -
+ *
+ * Companies - Meta
  */
 
 /**
@@ -34,6 +36,8 @@ import kotlin.math.abs
  *
  * Time - O(N ^ 3)
  * Space - O(1)
+ *
+ * Companies - Meta
  */
 private fun threeSumClosest(nums: IntArray, target: Int): Int {
     var result = nums[0] + nums[1] + nums[2]

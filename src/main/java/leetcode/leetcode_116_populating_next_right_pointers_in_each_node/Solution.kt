@@ -3,7 +3,7 @@ package leetcode.leetcode_116_populating_next_right_pointers_in_each_node
 /**
  * leetcode - https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/
  *
- * Data Structure - [Tree], [ArrayDeque] (Queue)
+ * Data Structure - Tree, [ArrayDeque] (Queue)
  * Algorithm - BFS
  *
  * ArrayDeque methods - [ArrayDeque.addLast], [ArrayDeque.removeFirst], [ArrayDeque.isNotEmpty]
@@ -12,8 +12,8 @@ package leetcode.leetcode_116_populating_next_right_pointers_in_each_node
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
  *
  * Companies - Meta
  */
@@ -30,24 +30,19 @@ private fun connect(root: Node?): Node? {
     val queue = ArrayDeque<Node>()
     queue.addLast(root)
     while (queue.isNotEmpty()) {
-        val nodesInLevel = queue.size
-        var previousNode = queue.removeFirst()
-        previousNode.left?.let {
-            queue.addLast(it)
-        }
-        previousNode.right?.let {
-            queue.addLast(it)
-        }
-        for (i in 1..<nodesInLevel) {
-            val currentNode = queue.removeFirst()
-            currentNode.left?.let {
+        val size = queue.size
+        var prev: Node? = null
+        var current: Node
+        repeat(size) {
+            current = queue.removeFirst()
+            current.left?.let {
                 queue.addLast(it)
             }
-            currentNode.right?.let {
+            current.right?.let {
                 queue.addLast(it)
             }
-            previousNode.next = currentNode
-            previousNode = currentNode
+            prev?.next = current
+            prev = current
         }
     }
     return root

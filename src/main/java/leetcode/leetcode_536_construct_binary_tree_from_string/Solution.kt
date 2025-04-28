@@ -7,14 +7,14 @@ import data_structures_and_algorithms.TreeNode
  * Premium Question
  *
  * Data Structure - [Tree], [ArrayDeque] (Stack)
- * Algorithm -
+ * Algorithm - Recursion
  *
  * Difficulty - Medium
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(N)
  *
  * Companies - Meta
  */
@@ -64,6 +64,54 @@ private fun str2tree(s: String): TreeNode? {
         }
     }
     return root
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/construct-binary-tree-from-string
+ * Premium Question
+ *
+ * Data Structure - Stack
+ * Algorithm - Recursion
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ *
+ * Time - O(N)
+ * Space - O(N) - Implicit stack
+ *
+ * Companies - Meta
+ */
+private fun str2treeUsingRecursion(s: String): TreeNode? {
+    if (s.isEmpty()) {
+        return null
+    }
+    fun construct(index: Int): Pair<TreeNode, Int> {
+        var sign = 1
+        var rootValue = 0
+        var pointer = index
+        if (s[pointer] == '-') {
+            sign = -1
+            pointer++
+        }
+        while (pointer <= s.lastIndex && s[pointer].isDigit()) {
+            rootValue = (rootValue * 10) + s[pointer].digitToInt()
+            pointer++
+        }
+        val root = TreeNode(sign * rootValue)
+        if (pointer <= s.lastIndex && s[pointer] == '(') {
+            val leftTree = construct(pointer + 1)
+            root.left = leftTree.first
+            pointer = leftTree.second
+        }
+        if (pointer <= s.lastIndex && s[pointer] == '(') {
+            val rightTree = construct(pointer + 1)
+            root.right = rightTree.first
+            pointer = rightTree.second
+        }
+        return Pair(root, pointer + 1)
+    }
+    return construct(0).first
 }
 
 private fun main() {
