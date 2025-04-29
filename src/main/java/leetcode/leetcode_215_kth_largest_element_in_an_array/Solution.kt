@@ -20,24 +20,27 @@ import java.util.PriorityQueue
  * Companies - Meta
  */
 private fun findKthLargest(nums: IntArray, k: Int): Int {
+    fun swap(i: Int, j: Int) {
+        nums[i] = nums[j].also {
+            nums[j] = nums[i]
+        }
+    }
+
     fun quickSelect(start: Int, end: Int): Int {
         var left = start
         var right = end - 1
-        while (left <= right) {
+        while (left < right) {
             if (nums[left] > nums[end]) {
                 left++
             } else {
-                nums[left] = nums[right].also {
-                    nums[right] = nums[left]
-                }
+                swap(left, right)
                 right--
             }
         }
-        nums[left] = nums[end].also {
-            nums[end] = nums[left]
-        }
+        swap(left, end)
         return left
     }
+
     var left = 0
     var right = nums.lastIndex
     var pivot = quickSelect(left, right)

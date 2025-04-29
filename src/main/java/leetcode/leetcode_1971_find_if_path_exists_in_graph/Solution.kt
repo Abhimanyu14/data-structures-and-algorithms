@@ -132,7 +132,7 @@ private fun validPathUsingDFS(n: Int, edges: Array<IntArray>, source: Int, desti
  * Memory Usage: 280.5 MB, less than 5.26%
  */
 private class UnionFind(
-    val n: Int,
+    n: Int,
 ) {
     val root = IntArray(n) { it }
     val rank = IntArray(n)

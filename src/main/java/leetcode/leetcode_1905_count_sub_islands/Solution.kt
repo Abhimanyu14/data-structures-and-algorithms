@@ -31,38 +31,29 @@ private class Solution {
     }
 
     // Union-Find class.
-    internal inner class UnionFind(n: Int) {
-        private val parent = IntArray(n)
+    inner class UnionFind(n: Int) {
+        private val root = IntArray(n) { it }
         private val rank = IntArray(n)
 
-        // Initialize union-find object with 'n' elements.
-        init {
-            for (i in 0..<n) {
-                parent[i] = i
-                rank[i] = 0
-            }
-        }
-
         // Find the root of element 'u', using the path-compression technique.
-        fun find(u: Int): Int {
-            if (parent[u] != u) {
-                parent[u] = find(parent[u])
+        fun find(x: Int): Int {
+            if (root[x] != x) {
+                root[x] = find(root[x])
             }
-            return parent[u]
+            return root[x]
         }
 
-        // Union two components of elements 'u' and 'v' respectively based on
-        // their ranks.
-        fun unionSets(u: Int, v: Int) {
-            val rootU = find(u)
-            val rootV = find(v)
+        // Union two components of elements 'u' and 'v' respectively based on their ranks.
+        fun unionSets(x: Int, y: Int) {
+            val rootU = find(x)
+            val rootV = find(y)
             if (rootU != rootV) {
                 if (rank[rootU] > rank[rootV]) {
-                    parent[rootV] = rootU
+                    root[rootV] = rootU
                 } else if (rank[rootU] < rank[rootV]) {
-                    parent[rootU] = rootV
+                    root[rootU] = rootV
                 } else {
-                    parent[rootV] = rootU
+                    root[rootV] = rootU
                     rank[rootU]++
                 }
             }

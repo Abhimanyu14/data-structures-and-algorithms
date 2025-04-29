@@ -9,7 +9,7 @@ package leetcode.leetcode_269_alien_dictionary
  * Data Structure -
  * Algorithm -
  *
- * Difficulty - hard
+ * Difficulty - Hard
  *
  * Stats
  *

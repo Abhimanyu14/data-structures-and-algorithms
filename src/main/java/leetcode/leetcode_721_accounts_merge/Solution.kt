@@ -100,14 +100,14 @@ private fun accountsMerge(accounts: List<List<String>>): List<List<String>> {
  * Companies - Meta
  */
 private class UnionFind(size: Int) {
-    private val roots = IntArray(size) { it }
-    private val ranks = IntArray(size)
+    private val root = IntArray(size) { it }
+    private val rank = IntArray(size)
 
     fun find(x: Int): Int {
-        if (roots[x] != x) {
-            roots[x] = find(roots[x])
+        if (root[x] != x) {
+            root[x] = find(root[x])
         }
-        return roots[x]
+        return root[x]
     }
 
     fun union(x: Int, y: Int): Int {
@@ -116,14 +116,14 @@ private class UnionFind(size: Int) {
         if (rootX == rootY) {
             return 0
         } else {
-            if (ranks[rootX] < ranks[rootY]) {
+            if (rank[rootX] < rank[rootY]) {
                 rootX = rootY.also {
                     rootY = rootX
                 }
             }
-            roots[rootY] = rootX
-            if (ranks[rootX] == ranks[rootY]) {
-                ranks[rootX]++
+            root[rootY] = rootX
+            if (rank[rootX] == rank[rootY]) {
+                rank[rootX]++
             }
             return 1
         }

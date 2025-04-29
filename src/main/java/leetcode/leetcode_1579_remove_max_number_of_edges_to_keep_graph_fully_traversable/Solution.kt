@@ -5,7 +5,8 @@ package leetcode.leetcode_1579_remove_max_number_of_edges_to_keep_graph_fully_tr
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure - Union Find
+ * Algorithm - Union Find
  *
  * Difficulty - Hard
  *
@@ -15,18 +16,16 @@ package leetcode.leetcode_1579_remove_max_number_of_edges_to_keep_graph_fully_tr
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
-
-private class UnionFind(
-    val n: Int,
-) {
+private class UnionFind(n: Int) {
     private val root = IntArray(n) { it }
     private val rank = IntArray(n)
-    var trees = n
 
     fun find(x: Int): Int {
         if (root[x] != x) {
-            root[x] = find(root[x]) // Concept - Path compression
+            root[x] = find(root[x])
         }
         return root[x]
     }
@@ -34,26 +33,18 @@ private class UnionFind(
     fun union(x: Int, y: Int): Int {
         var rootX = find(x)
         var rootY = find(y)
-
-        // rootX == rootY => they are already in same tree
         if (rootX == rootY) {
             return 0
         } else {
-            // Checking tree with smaller number of nodes
             if (rank[rootX] < rank[rootY]) {
                 rootX = rootY.also {
                     rootY = rootX
                 }
             }
-
-            // Attaching lower rank tree to the higher one.
             root[rootY] = rootX
-
-            // If now ranks are equal increasing rank of X.
             if (rank[rootX] == rank[rootY]) {
                 rank[rootX]++
             }
-            trees--
             return 1
         }
     }
@@ -63,25 +54,34 @@ private fun maxNumEdgesToRemove(n: Int, edges: Array<IntArray>): Int {
     var result = 0
     val aliceGraph = UnionFind(n)
     val bobGraph = UnionFind(n)
-    edges.forEach { (type, from, to) ->
+
+    var aliceTrees = n
+    var bobTrees = n
+    for ((type, from, to) in edges) {
         if (type == 3) {
-            if (aliceGraph.union(from - 1, to - 1) == 0 || bobGraph.union(from - 1, to - 1) == 0) {
+            aliceGraph.union(from - 1, to - 1)
+            val canBeRemoved = bobGraph.union(from - 1, to - 1) == 0
+            if (canBeRemoved) {
                 result++
+                aliceTrees--
+                bobTrees--
             }
         }
     }
-    edges.forEach { (type, from, to) ->
+    for ((type, from, to) in edges) {
         if (type == 1) {
             if (aliceGraph.union(from - 1, to - 1) == 0) {
                 result++
+                aliceTrees--
             }
         } else if (type == 2) {
             if (bobGraph.union(from - 1, to - 1) == 0) {
                 result++
+                bobTrees--
             }
         }
     }
-    return if (aliceGraph.trees != 1 || bobGraph.trees != 1) {
+    return if (aliceTrees != 1 || bobTrees != 1) {
         -1
     } else {
         result

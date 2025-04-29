@@ -3,15 +3,23 @@ package leetcode.leetcode_684_redundant_connection
 /**
  * leetcode - https://leetcode.com/problems/redundant-connection/
  *
- * Using UnionFind (DSU) - Disjoint Set Union
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - UnionFind (DSU) - Disjoint Set Union
+ * Algorithm - UnionFind (DSU) - Disjoint Set Union
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 178 ms, faster than 38.33%
  * Memory Usage: 36.5 MB, less than 98.33%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies -
  */
-private class UnionFind(
-    val n: Int,
-) {
+private class UnionFind(n: Int) {
     private val root = IntArray(n) { it }
     private val rank = IntArray(n)
 
@@ -22,34 +30,31 @@ private class UnionFind(
         return root[x]
     }
 
-    fun union(x: Int, y: Int): Boolean {
+    fun union(x: Int, y: Int): Int {
         var rootX = find(x)
         var rootY = find(y)
-
-        return if (rootX == rootY) {
-            true
+        if (rootX == rootY) {
+            return 0
         } else {
             if (rank[rootX] < rank[rootY]) {
                 rootX = rootY.also {
                     rootY = rootX
                 }
             }
-
             root[rootY] = rootX
-
             if (rank[rootX] == rank[rootY]) {
                 rank[rootX]++
             }
-            false
+            return 1
         }
     }
 }
 
 private fun findRedundantConnection(edges: Array<IntArray>): IntArray {
     val unionFind = UnionFind(edges.size)
-    edges.forEach {
-        if (unionFind.union(it[0] - 1, it[1] - 1)) {
-            return it
+    for (edge in edges) {
+        if (unionFind.union(edge[0] - 1, edge[1] - 1) == 0) {
+            return edge
         }
     }
     return intArrayOf()
