@@ -12,30 +12,21 @@ import kotlin.math.min
  * Difficulty - Medium
  *
  * Stats
- * Runtime: 256 ms, faster than 50.00%
- * Memory Usage: 56 MB, less than 14.29%
  *
  * Time - O(N ^ 2)
  * Space - O(N)
+ *
+ * Companies - Amazon, Google, Microsoft
  */
 private fun minAreaRect(points: Array<IntArray>): Int {
     var result = Int.MAX_VALUE
-    val set = mutableSetOf<Pair<Int, Int>>()
-    points.forEach { (x, y) ->
-        set.add(Pair(x, y))
-    }
-    fun canBeDiagonal(x1: Int, y1: Int, x2: Int, y2: Int): Boolean {
-        return x1 != x2 && y1 != y2
-    }
-    fun area(x1: Int, y1: Int, x2: Int, y2: Int): Int {
-        return abs(x1 - x2) * abs(y1 - y2)
-    }
-    for (i in 0..<points.lastIndex) {
-        for (j in (i + 1)..points.lastIndex) {
-            if (canBeDiagonal(points[i][0], points[i][1], points[j][0], points[j][1])) {
-                if (set.contains(Pair(points[i][0], points[j][1])) && set.contains(Pair(points[j][0], points[i][1]))) {
-                    result = min(result, area(points[i][0], points[i][1], points[j][0], points[j][1]))
-                }
+    val pointSet = points.map { it[0] to it[1] }.toSet()
+    for (i in points.indices) {
+        val (x1, y1) = points[i]
+        for (j in (i + 1)..<points.size) {
+            val (x2, y2) = points[j]
+            if (x1 != x2 && y1 != y2 && (x1 to y2) in pointSet && (x2 to y1) in pointSet) {
+                result = min(result, abs(x1 - x2) * abs(y1 - y2))
             }
         }
     }
