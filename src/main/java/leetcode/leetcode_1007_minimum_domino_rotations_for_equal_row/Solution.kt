@@ -1,37 +1,45 @@
 package leetcode.leetcode_1007_minimum_domino_rotations_for_equal_row
 
-import kotlin.math.min
-
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/description/?envType=daily-question&envId=2025-05-03
  *
- * Using set, list, iterator, count(),
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [List]
+ * Algorithm - Iteration and Counting
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 476 ms, faster than 85.71%
- * Memory Usage: 47.5 MB, less than 71.43%
+ *
+ * Time - O(2 * N)
+ * Space - O(N)
+ *
+ * Companies - Google
  */
 private fun minDominoRotations(tops: IntArray, bottoms: IntArray): Int {
-    val commonNumbers = setOf(tops[0], bottoms[0]).toMutableList()
-    for (i in 1..tops.lastIndex) {
-        val iterator = commonNumbers.listIterator()
-        while (iterator.hasNext()) {
-            val temp = iterator.next()
-            if (!(temp == tops[i] || temp == bottoms[i])) {
-                iterator.remove()
+    fun check(candidate: Int): Int {
+        var rotationsToMakeTopSame = 0
+        var rotationsToMakeBottomSame = 0
+        for (i in tops.indices) {
+            if (tops[i] != candidate && bottoms[i] != candidate) {
+                return -1
+            }
+            if (tops[i] != candidate) {
+                rotationsToMakeTopSame++
+            }
+            if (bottoms[i] != candidate) {
+                rotationsToMakeBottomSame++
             }
         }
-        if (commonNumbers.isEmpty()) {
-            return -1
-        }
+        return minOf(rotationsToMakeTopSame, rotationsToMakeBottomSame)
     }
-    if (commonNumbers.size == 2) {
-        val count = tops.count { it == commonNumbers[0] }
-        return min(count, tops.size - count)
+
+    val rotations = check(tops[0])
+    if (rotations != -1) {
+        return rotations
     }
-    val topCount = tops.count { it != commonNumbers[0] }
-    val bottomCount = bottoms.count { it != commonNumbers[0] }
-    return min(topCount, bottomCount)
+    return check(bottoms[0])
 }
 
 private fun main() {

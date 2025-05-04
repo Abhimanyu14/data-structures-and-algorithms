@@ -5,11 +5,21 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/frequency-of-the-most-frequent-element/
  *
- * Using sliding window
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - Sliding Window
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 569 ms, faster than 66.67%
  * Memory Usage: 56.2 MB, less than 66.67%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies -
  */
 private fun maxFrequency(nums: IntArray, k: Int): Int {
     nums.sort()

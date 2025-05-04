@@ -1,9 +1,9 @@
 package leetcode.leetcode_485_max_consecutive_ones
 
+import kotlin.math.max
+
 /**
  * leetcode - https://leetcode.com/problems/max-consecutive-ones/
- *
- * TODO(Abhi) - To revisit
  *
  * Data Structure - NA
  * Algorithm - Iteration
@@ -11,25 +11,21 @@ package leetcode.leetcode_485_max_consecutive_ones
  * Difficulty - Easy
  *
  * Stats
- * Runtime: 254 ms, faster than 98.77%
- * Memory Usage: 37.6 MB, less than 98.77%
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
  *
- * Companies - Meta
+ * Companies - Google, Meta
  */
 private fun findMaxConsecutiveOnes(nums: IntArray): Int {
     var result = 0
-    var counter = 0
-    nums.forEach {
-        if (it == 1) {
-            counter++
-            if (counter > result) {
-                result = counter
-            }
+    var current = 0
+    for (num in nums) {
+        if (num == 1) {
+            current++
+            result = max(result, current)
         } else {
-            counter = 0
+            current = 0
         }
     }
     return result

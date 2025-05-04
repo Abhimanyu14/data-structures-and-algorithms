@@ -17,8 +17,10 @@ import kotlin.math.max
  * Runtime: 20 ms, faster than 46.48%
  * Memory Usage: 116.5 MB, less than 33.80%
  *
- * Time -
- * Space -
+ * Time - O(Q + N)
+ * Space - O(N)
+ *
+ * Companies - Google
  */
 private fun isZeroArray(nums: IntArray, queries: Array<IntArray>): Boolean {
     val prefixSum = IntArray(nums.size + 1)
@@ -33,6 +35,49 @@ private fun isZeroArray(nums: IntArray, queries: Array<IntArray>): Boolean {
         if (nums[i] > prefixSum[i]) {
             return false
         }
+    }
+    return true
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/zero-array-transformation-i/submissions/1621532859/?envType=company&envId=google&favoriteSlug=google-six-months
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ *
+ * Time - O(N + Q * log(Q)) - Q: queries.size
+ * Space - O(Q)
+ *
+ * Companies - Google
+ */
+private fun isZeroArrayUsingSortedMap(nums: IntArray, queries: Array<IntArray>): Boolean {
+    val sortedMap = sortedMapOf<Int, Int>()
+    for ((l, r) in queries) {
+        sortedMap[l] = sortedMap.getOrDefault(l, 0) + 1
+        sortedMap[r + 1] = sortedMap.getOrDefault(r + 1, 0) - 1
+    }
+    var index = 0
+    var current = 0
+    for ((key, value) in sortedMap) {
+        while (key > index) {
+            if (nums[index] > current) {
+                return false
+            }
+            index++
+        }
+        current += value
+    }
+    while (index <= nums.lastIndex) {
+        if (nums[index] > current) {
+            return false
+        }
+        index++
     }
     return true
 }

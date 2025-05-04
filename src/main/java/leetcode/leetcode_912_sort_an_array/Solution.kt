@@ -5,7 +5,9 @@ import java.util.PriorityQueue
 /**
  * leetcode - https://leetcode.com/problems/sort-an-array/
  *
- * Data Structure - PriorityQueue
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [PriorityQueue]
  * Algorithm - Heapify
  *
  * Note: Use MergeSort, HeapSort, CountingSort or RadixSort.
@@ -16,8 +18,8 @@ import java.util.PriorityQueue
  * Runtime: 685 ms, faster than 47.29%
  * Memory Usage: 50.7 MB, less than 87.60%
  *
- * Time -
- * Space -
+ * Time - O(N * log(N))
+ * Space - O(N)
  */
 private fun sortArray(nums: IntArray): IntArray {
     val result = IntArray(nums.size)

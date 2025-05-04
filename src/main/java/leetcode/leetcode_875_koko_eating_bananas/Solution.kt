@@ -6,31 +6,38 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/koko-eating-bananas/
  *
- * Using binary search
+ * Data Structure - Two Pointers
+ * Algorithm - Binary Search
  *
  * Binary search template - https://leetcode.com/discuss/study-guide/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
  *
+ * Difficulty - Medium
+ *
  * Stats
- * Runtime: 285 ms, faster than 40.36%
- * Memory Usage: 41 MB, less than 30.04%
+ *
+ * n - piles.size
+ * m - piles.max()
+ * Time - O(n * log(m))
+ * Space - O(1)
+ *
+ * Companies - Google
  */
 private fun minEatingSpeed(piles: IntArray, h: Int): Int {
-    if (h < piles.size) {
-        return -1 // Invalid input
+    fun canEat(k: Int): Boolean {
+        var count = 0
+        for (pile in piles) {
+            count += ceil(pile.toDouble() / k).toInt()
+            if (count > h) {
+                return false
+            }
+        }
+        return true
     }
-    if (h == piles.size) {
-        return piles.max()
-    }
-    fun canCompleteEating(n: Int): Boolean {
-        return piles.sumOf { ceil(it.toDouble() / n).toInt() } <= h
-    }
-
     var left = 1
     var right = piles.max()
     while (left < right) {
-        val mid = left + ((right - left) / 2)
-        println("$left $right $mid")
-        if (canCompleteEating(mid)) {
+        val mid = left + (right - left) / 2
+        if (canEat(mid)) {
             right = mid
         } else {
             left = mid + 1

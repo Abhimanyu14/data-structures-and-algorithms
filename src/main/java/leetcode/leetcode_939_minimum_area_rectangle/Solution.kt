@@ -6,14 +6,16 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/minimum-area-rectangle/
  *
- * Data Structure - Set
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [Set]
  * Algorithm - Iteration & Maths
  *
  * Difficulty - Medium
  *
  * Stats
  *
- * Time - O(N ^ 2)
+ * Time - O(N^2)
  * Space - O(N)
  *
  * Companies - Amazon, Google, Microsoft

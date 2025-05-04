@@ -2,24 +2,34 @@ package leetcode.leetcode_876_middle_of_the_linked_list
 
 import data_structures.linkedlist.ListNode
 
-
 /**
- * leetcode - https://leetcode.com/problems/middle-of-the-linked-list/?envType=daily-question&envId=2024-03-07
+ * leetcode - https://leetcode.com/problems/middle-of-the-linked-list/description/
  *
- * Using two pointer
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - Linked List
+ * Algorithm - Two Pointer
+ *
+ * Difficulty - Easy
  *
  * Stats
- * Runtime: 134 ms, faster than 74.55%
- * Memory Usage: 33.8 MB, less than 61.58%
+ *
+ * Time - O(N)
+ * Space - O(1)
+ *
+ * Companies - Google
  */
 private fun middleNode(head: ListNode?): ListNode? {
-    var slow = head
-    var fast = head
-    while (fast?.next != null) {
-        slow = slow?.next
-        fast = fast.next?.next
+    if (head == null) {
+        return null
     }
-    return slow
+    var middle: ListNode? = head
+    var last: ListNode? = head
+    while (last?.next != null) {
+        middle = middle?.next
+        last = last.next?.next
+    }
+    return middle
 }
 
 /**

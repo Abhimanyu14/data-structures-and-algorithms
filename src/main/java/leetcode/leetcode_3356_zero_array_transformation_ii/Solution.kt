@@ -5,7 +5,7 @@ package leetcode.leetcode_3356_zero_array_transformation_ii
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure - Array and Two Pointers
+ * Data Structure - [Array] and Two Pointers
  * Algorithm - Binary Search and PrefixSum
  *
  * Difficulty - Medium
@@ -14,10 +14,12 @@ package leetcode.leetcode_3356_zero_array_transformation_ii
  * Runtime: 47 ms, faster than 44.12%
  * Memory Usage: 129.3 MB, less than 52.94%
  *
- * Time -
- * Space -
+ * Time - O(log (Q) * (Q + N))
+ * Space - O(N)
+ *
+ * Companies - Amazon, Google, Meta
  */
-private fun minZeroArray(nums: IntArray, queries: Array<IntArray>): Int {
+private fun minZeroArrayUsingBinarySearch(nums: IntArray, queries: Array<IntArray>): Int {
     fun isZeroArray(k: Int): Boolean {
         val prefixSum = IntArray(nums.size + 1)
         for (i in 0..k) {

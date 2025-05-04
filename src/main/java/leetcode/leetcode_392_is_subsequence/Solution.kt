@@ -16,7 +16,7 @@ package leetcode.leetcode_392_is_subsequence
  * Time - O(m + n)
  * Space - O(1)
  *
- * Companies - Meta
+ * Companies - Google, Meta
 */
 private fun isSubsequence(s: String, t: String): Boolean {
     var sIndex = 0

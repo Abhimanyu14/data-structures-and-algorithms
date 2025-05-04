@@ -14,8 +14,52 @@ package leetcode.leetcode_2337_move_pieces_to_obtain_a_string
  *
  * Time -
  * Space -
+ *
+ * Companies - Google
  */
 private fun canChange(start: String, target: String): Boolean {
+    var left = 0
+    var right = 0
+    for (i in start.indices) {
+        when (start[i]) {
+            'L' -> {
+                left--
+            }
+            'R' -> {
+                if (left > 0) {
+                    return false
+                }
+                right++
+            }
+            '_' -> {
+
+            }
+        }
+        when (target[i]) {
+            'L' -> {
+                if (right > 0) {
+                    return false
+                }
+                left++
+            }
+            'R' -> {
+                right--
+            }
+            '_' -> {
+
+            }
+        }
+        if (left < 0) {
+            return false
+        }
+        if (right < 0) {
+            return false
+        }
+    }
+    return right == 0 && left == 0
+}
+
+private fun canChange1(start: String, target: String): Boolean {
     var leftCount = 0
     var rightCount = 0
     for (i in start.indices) {
