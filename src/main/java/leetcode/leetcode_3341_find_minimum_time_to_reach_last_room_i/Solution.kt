@@ -8,56 +8,41 @@ import kotlin.math.max
  *
  * TODO - To revisit
  *
- * Data Structure - Priority Queue, Array and List
+ * Data Structure - [PriorityQueue], [Array] and [List]
  * Algorithm - Dijkstra
  *
  * Difficulty - Medium
  *
  * Stats
- * Runtime: 266 ms, faster than 28.57%
- * Memory Usage: 41.7 MB, less than 66.07%
+ * Runtime: 166 ms, faster than 100.00%
+ * Memory Usage: 47.88 MB, less than 60.00%
  *
- * Time -
- * Space -
+ * Time - O(N * log(N))
+ * Space - O(N)
+ *
+ * Companies - Google
  */
-private data class Point(
-    val x: Int,
-    val y: Int,
-)
-
 private fun minTimeToReach(moveTime: Array<IntArray>): Int {
+    val queue = PriorityQueue<Triple<Int, Int, Int>> { a, b -> // Value, x, y
+        a.first - b.first
+    }
+    val directions = arrayOf(intArrayOf(1, 0), intArrayOf(-1, 0), intArrayOf(0, 1), intArrayOf(0, -1))
     val visited = Array(moveTime.size) {
         BooleanArray(moveTime[0].size)
     }
-    val priorityQueue = PriorityQueue<Pair<Point, Int>> { a, b ->
-        a.second - b.second
-    }
-    fun getNextMoves(point: Point): List<Point> {
-        val nextPoints = mutableListOf<Point>()
-        if (point.x > 0) {
-            nextPoints.add(Point(point.x - 1, point.y))
+    queue.offer(Triple(0, 0, 0))
+    while (queue.isNotEmpty()) {
+        val (time, x, y) = queue.poll()
+        if (visited[x][y]) {
+            continue
         }
-        if (point.y > 0) {
-            nextPoints.add(Point(point.x, point.y - 1))
+        visited[x][y] = true
+        if (x == moveTime.lastIndex && y == moveTime[0].lastIndex) {
+            return time
         }
-        if (point.x < moveTime.lastIndex) {
-            nextPoints.add(Point(point.x + 1, point.y))
-        }
-        if (point.y < moveTime[0].lastIndex) {
-            nextPoints.add(Point(point.x, point.y + 1))
-        }
-        return nextPoints
-    }
-    priorityQueue.offer(Pair(Point(0, 0), 0))
-    while (priorityQueue.isNotEmpty()) {
-        val (currentPoint, currentTime) = priorityQueue.poll()
-        if (!visited[currentPoint.x][currentPoint.y]) {
-            visited[currentPoint.x][currentPoint.y] = true
-            getNextMoves(currentPoint).forEach { nextPoint ->
-                if (nextPoint.x  == moveTime.lastIndex && nextPoint.y == moveTime[0].lastIndex) {
-                    return max(currentTime + 1, moveTime[nextPoint.x][nextPoint.y] + 1)
-                }
-                priorityQueue.offer(Pair(nextPoint, max(currentTime + 1, moveTime[nextPoint.x][nextPoint.y] + 1)))
+        for ((x1, y1) in directions) {
+            if ((x + x1 >= 0 && x + x1 <= moveTime.lastIndex && y + y1 >= 0 && y + y1 <= moveTime[0].lastIndex) && !visited[x + x1][y + y1]) {
+                queue.offer(Triple(max(time, moveTime[x + x1][y + y1]) + 1, x + x1, y + y1))
             }
         }
     }

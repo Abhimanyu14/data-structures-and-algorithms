@@ -11,8 +11,6 @@ import kotlin.math.min
  * Difficulty - Easy
  *
  * Stats
- * Runtime: 540 ms, faster than 96.75%
- * Memory Usage: 58.1 MB, less than 82.79%
  *
  * Time - O(N)
  * Space - O(k)

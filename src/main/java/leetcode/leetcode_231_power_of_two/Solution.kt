@@ -3,16 +3,55 @@ package leetcode.leetcode_231_power_of_two
 /**
  * leetcode - https://leetcode.com/problems/power-of-two/
  *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - NA
+ * Algorithm - Bitwise operations
+ *
+ * Difficulty - Easy
+ *
  * Stats
  * Runtime: 232 ms, faster than 18.42%
  * Memory Usage: 35.4 MB, less than 94.74%
+ *
+ * Time - O(log(n))
+ * Space - O(1)
+ *
+ * Companies - Google
  */
-fun isPowerOfTwo(n: Int): Boolean {
-    var ele = n
-    while (ele % 2 == 0 && ele > 0) {
-        ele /= 2
+private fun isPowerOfTwo(n: Int): Boolean {
+    return if (n <= 0) {
+        false
+    } else {
+        (n and (n - 1)) == 0
     }
-    return ele == 1
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/power-of-two/
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - NA
+ * Algorithm - Iteration
+ *
+ * Difficulty - Easy
+ *
+ * Stats
+ * Runtime: 232 ms, faster than 18.42%
+ * Memory Usage: 35.4 MB, less than 94.74%
+ *
+ * Time - O(log(n))
+ * Space - O(1)
+ *
+ * Companies - Google
+ */
+private fun isPowerOfTwoUsingIteration(n: Int): Boolean {
+    var num = n
+    while (num % 2 == 0 && num > 0) {
+        num /= 2
+    }
+    return num == 1
 }
 
 // TODO-Abhi: Using bitwise operations

@@ -11,11 +11,11 @@ package leetcode.leetcode_684_redundant_connection
  * Difficulty - Medium
  *
  * Stats
- * Runtime: 178 ms, faster than 38.33%
- * Memory Usage: 36.5 MB, less than 98.33%
+ * Runtime: 1 ms, faster than 95.56%
+ * Memory Usage: 43.53, less than 53.33%
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(N)
  *
  * Companies -
  */

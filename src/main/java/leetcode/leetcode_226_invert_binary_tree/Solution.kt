@@ -3,14 +3,19 @@ package leetcode.leetcode_226_invert_binary_tree
 import data_structures.TreeNode
 
 /**
- * leetcode - https://leetcode.com/problems/invert-binary-tree/
- * https://leetcode.com/problems/invert-binary-tree/?envType=company&envId=google&favoriteSlug=google-thirty-days&difficulty=EASY
+ * leetcode -  https://leetcode.com/problems/invert-binary-tree/
  *
+ * Data Structure - Tree
  * Algorithm - Recursion
  *
+ * Difficulty - Easy
+ *
  * Stats
- * Runtime: 248 ms, faster than 50.13%
- * Memory Usage: 34.4 MB, less than 30.81%
+ *
+ * Time - O(N)
+ * Space - O(N) - Recursion stack
+ *
+ * Companies - Google
  */
 private fun invertTree(root: TreeNode?): TreeNode? {
     root?.left = invertTree(root?.right).also {

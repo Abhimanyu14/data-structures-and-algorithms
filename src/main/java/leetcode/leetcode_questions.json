@@ -17503,5 +17503,200 @@
     "frontendQuestionId": "3501",
     "title": "Maximize Active Section with Trade II",
     "titleSlug": "maximize-active-section-with-trade-ii"
+  },
+  {
+    "frontendQuestionId": "3502",
+    "title": "Minimum Cost to Reach Every Position",
+    "titleSlug": "minimum-cost-to-reach-every-position"
+  },
+  {
+    "frontendQuestionId": "3503",
+    "title": "Longest Palindrome After Substring Concatenation I",
+    "titleSlug": "longest-palindrome-after-substring-concatenation-i"
+  },
+  {
+    "frontendQuestionId": "3504",
+    "title": "Longest Palindrome After Substring Concatenation II",
+    "titleSlug": "longest-palindrome-after-substring-concatenation-ii"
+  },
+  {
+    "frontendQuestionId": "3505",
+    "title": "Minimum Operations to Make Elements Within K Subarrays Equal",
+    "titleSlug": "minimum-operations-to-make-elements-within-k-subarrays-equal"
+  },
+  {
+    "frontendQuestionId": "3506",
+    "title": "Find Time Required to Eliminate Bacterial Strains",
+    "titleSlug": "find-time-required-to-eliminate-bacterial-strains"
+  },
+  {
+    "frontendQuestionId": "3507",
+    "title": "Minimum Pair Removal to Sort Array I",
+    "titleSlug": "minimum-pair-removal-to-sort-array-i"
+  },
+  {
+    "frontendQuestionId": "3508",
+    "title": "Implement Router",
+    "titleSlug": "implement-router"
+  },
+  {
+    "frontendQuestionId": "3509",
+    "title": "Maximum Product of Subsequences With an Alternating Sum Equal to K",
+    "titleSlug": "maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k"
+  },
+  {
+    "frontendQuestionId": "3510",
+    "title": "Minimum Pair Removal to Sort Array II",
+    "titleSlug": "minimum-pair-removal-to-sort-array-ii"
+  },
+  {
+    "frontendQuestionId": "3511",
+    "title": "Make a Positive Array",
+    "titleSlug": "make-a-positive-array"
+  },
+  {
+    "frontendQuestionId": "3512",
+    "title": "Minimum Operations to Make Array Sum Divisible by K",
+    "titleSlug": "minimum-operations-to-make-array-sum-divisible-by-k"
+  },
+  {
+    "frontendQuestionId": "3513",
+    "title": "Number of Unique XOR Triplets I",
+    "titleSlug": "number-of-unique-xor-triplets-i"
+  },
+  {
+    "frontendQuestionId": "3514",
+    "title": "Number of Unique XOR Triplets II",
+    "titleSlug": "number-of-unique-xor-triplets-ii"
+  },
+  {
+    "frontendQuestionId": "3515",
+    "title": "Shortest Path in a Weighted Tree",
+    "titleSlug": "shortest-path-in-a-weighted-tree"
+  },
+  {
+    "frontendQuestionId": "3516",
+    "title": "Find Closest Person",
+    "titleSlug": "find-closest-person"
+  },
+  {
+    "frontendQuestionId": "3517",
+    "title": "Smallest Palindromic Rearrangement I",
+    "titleSlug": "smallest-palindromic-rearrangement-i"
+  },
+  {
+    "frontendQuestionId": "3518",
+    "title": "Smallest Palindromic Rearrangement II",
+    "titleSlug": "smallest-palindromic-rearrangement-ii"
+  },
+  {
+    "frontendQuestionId": "3519",
+    "title": "Count Numbers with Non-Decreasing Digits ",
+    "titleSlug": "count-numbers-with-non-decreasing-digits"
+  },
+  {
+    "frontendQuestionId": "3520",
+    "title": "Minimum Threshold for Inversion Pairs Count",
+    "titleSlug": "minimum-threshold-for-inversion-pairs-count"
+  },
+  {
+    "frontendQuestionId": "3521",
+    "title": "Find Product Recommendation Pairs",
+    "titleSlug": "find-product-recommendation-pairs"
+  },
+  {
+    "frontendQuestionId": "3522",
+    "title": "Calculate Score After Performing Instructions",
+    "titleSlug": "calculate-score-after-performing-instructions"
+  },
+  {
+    "frontendQuestionId": "3523",
+    "title": "Make Array Non-decreasing",
+    "titleSlug": "make-array-non-decreasing"
+  },
+  {
+    "frontendQuestionId": "3524",
+    "title": "Find X Value of Array I",
+    "titleSlug": "find-x-value-of-array-i"
+  },
+  {
+    "frontendQuestionId": "3525",
+    "title": "Find X Value of Array II",
+    "titleSlug": "find-x-value-of-array-ii"
+  },
+  {
+    "frontendQuestionId": "3526",
+    "title": "Range XOR Queries with Subarray Reversals",
+    "titleSlug": "range-xor-queries-with-subarray-reversals"
+  },
+  {
+    "frontendQuestionId": "3527",
+    "title": "Find the Most Common Response",
+    "titleSlug": "find-the-most-common-response"
+  },
+  {
+    "frontendQuestionId": "3528",
+    "title": "Unit Conversion I",
+    "titleSlug": "unit-conversion-i"
+  },
+  {
+    "frontendQuestionId": "3529",
+    "title": "Count Cells in Overlapping Horizontal and Vertical Substrings",
+    "titleSlug": "count-cells-in-overlapping-horizontal-and-vertical-substrings"
+  },
+  {
+    "frontendQuestionId": "3530",
+    "title": "Maximum Profit from Valid Topological Order in DAG",
+    "titleSlug": "maximum-profit-from-valid-topological-order-in-dag"
+  },
+  {
+    "frontendQuestionId": "3531",
+    "title": "Count Covered Buildings",
+    "titleSlug": "count-covered-buildings"
+  },
+  {
+    "frontendQuestionId": "3532",
+    "title": "Path Existence Queries in a Graph I",
+    "titleSlug": "path-existence-queries-in-a-graph-i"
+  },
+  {
+    "frontendQuestionId": "3533",
+    "title": "Concatenated Divisibility",
+    "titleSlug": "concatenated-divisibility"
+  },
+  {
+    "frontendQuestionId": "3534",
+    "title": "Path Existence Queries in a Graph II",
+    "titleSlug": "path-existence-queries-in-a-graph-ii"
+  },
+  {
+    "frontendQuestionId": "3535",
+    "title": "Unit Conversion II",
+    "titleSlug": "unit-conversion-ii"
+  },
+  {
+    "frontendQuestionId": "3536",
+    "title": "Maximum Product of Two Digits",
+    "titleSlug": "maximum-product-of-two-digits"
+  },
+  {
+    "frontendQuestionId": "3537",
+    "title": "Fill a Special Grid",
+    "titleSlug": "fill-a-special-grid"
+  },
+  {
+    "frontendQuestionId": "3538",
+    "title": "Merge Operations for Minimum Travel Time",
+    "titleSlug": "merge-operations-for-minimum-travel-time"
+  },
+  {
+    "frontendQuestionId": "3539",
+    "title": "Find Sum of Array Product of Magical Sequences",
+    "titleSlug": "find-sum-of-array-product-of-magical-sequences"
+  },
+  {
+    "frontendQuestionId": "3540",
+    "title": "Minimum Time to Visit All Houses",
+    "titleSlug": "minimum-time-to-visit-all-houses"
   }
 ]
