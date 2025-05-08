@@ -1,21 +1,21 @@
 package leetcode.leetcode_3507_minimum_pair_removal_to_sort_array_i
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/description/
  *
  * TODO - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Google
  */
 private fun main() {
 
