@@ -17698,5 +17698,25 @@
     "frontendQuestionId": "3540",
     "title": "Minimum Time to Visit All Houses",
     "titleSlug": "minimum-time-to-visit-all-houses"
+  },
+  {
+    "frontendQuestionId": "3541",
+    "title": "Find Most Frequent Vowel and Consonant",
+    "titleSlug": "find-most-frequent-vowel-and-consonant"
+  },
+  {
+    "frontendQuestionId": "3542",
+    "title": "Minimum Operations to Convert All Elements to Zero",
+    "titleSlug": "minimum-operations-to-convert-all-elements-to-zero"
+  },
+  {
+    "frontendQuestionId": "3543",
+    "title": "Maximum Weighted K-Edge Path",
+    "titleSlug": "maximum-weighted-k-edge-path"
+  },
+  {
+    "frontendQuestionId": "3544",
+    "title": "Subtree Inversion Sum",
+    "titleSlug": "subtree-inversion-sum"
   }
 ]
