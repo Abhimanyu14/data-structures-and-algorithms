@@ -12,9 +12,10 @@ import org.junit.jupiter.api.Test
  * [Map.values]
  *
  * Methods
- * [Map.computeIfAbsent]
+ * [MutableMap.computeIfAbsent]
  * [Map.get]
  * [Map.getOrDefault]
+ * [MutableMap.putIfAbsent]
  */
 class MapOperationsTest {
     @Test
@@ -24,9 +25,10 @@ class MapOperationsTest {
             2 to "B",
             3 to "D",
             4 to "E",
-            5 to "A",
         )
 
+        assertEquals("E", map.putIfAbsent(4, "F"))
+        assertEquals(null, map.putIfAbsent(5, "A"))
         assertEquals(setOf(1, 2, 3, 4, 5), map.keys)
 
         assertEquals(listOf("A", "B", "D", "E", "A"), map.values.toList())

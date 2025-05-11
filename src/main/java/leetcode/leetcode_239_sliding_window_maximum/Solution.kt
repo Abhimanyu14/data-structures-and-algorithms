@@ -1,5 +1,7 @@
 package leetcode.leetcode_239_sliding_window_maximum
 
+import java.util.PriorityQueue
+
 /**
  * leetcode - https://leetcode.com/problems/sliding-window-maximum/
  *
@@ -24,28 +26,66 @@ package leetcode.leetcode_239_sliding_window_maximum
  * Companies - Meta
  */
 private fun maxSlidingWindow(nums: IntArray, k: Int): IntArray {
-    val result = mutableListOf<Int>()
+    val result = IntArray(nums.size - k + 1)
     val deque = ArrayDeque<Int>()
-    var current = 0
-    fun addCurrentToDeque() {
-        while (deque.isNotEmpty() && nums[deque.last()] <= nums[current]) {
-            deque.removeLast()
-        }
-        deque.addLast(current)
-        current++
-    }
-    while (current < k) {
-        addCurrentToDeque()
-    }
-    result.add(nums[deque.first()])
-    while (current < nums.size) {
-        if (deque.first() == current - k) {
+    for (i in nums.indices) {
+        // Step 1: Remove the first number if it is out of the window
+        if (i >= k && deque.first() == i - k) {
             deque.removeFirst()
         }
-        addCurrentToDeque()
-        result.add(nums[deque.first()])
+        // Step 2: Remove numbers smaller that the current one
+        while (deque.isNotEmpty() && nums[deque.last()] <= nums[i]) {
+            deque.removeLast()
+        }
+        // Step 3: Add current number to the Deque
+        deque.addLast(i)
+
+        // Step 4: Update result
+        if (i >= k - 1) {
+            result[i - k + 1] = nums[deque.first()]
+        }
     }
-    return result.toIntArray()
+    return result
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/sliding-window-maximum/
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [PriorityQueue]
+ * Algorithm - Sliding Window
+ *
+ * Difficulty - Hard
+ *
+ * Time - O(N)
+ * Space - O(k)
+ *
+ * Companies - Meta
+ */
+private fun maxSlidingWindowUsingPriorityQueue(nums: IntArray, k: Int): IntArray {
+    val result = IntArray(nums.size - k + 1)
+    val priorityQueue = PriorityQueue<Pair<Int, Int>> { a, b -> // Value, Index
+        if (a.first == b.first) {
+            a.second - b.second
+        } else {
+            b.first - a.first
+        }
+    }
+    var index = 0
+    while (index <= nums.lastIndex) {
+        while (priorityQueue.isNotEmpty() &&
+            (priorityQueue.peek().second <= index - k || priorityQueue.peek().first < nums[index])
+        ) {
+            priorityQueue.poll()
+        }
+        priorityQueue.offer(Pair(nums[index], index))
+        index++
+        if (index >= k) {
+            result[index - k] = priorityQueue.peek().first
+        }
+    }
+    return result
 }
 
 private fun main() {
