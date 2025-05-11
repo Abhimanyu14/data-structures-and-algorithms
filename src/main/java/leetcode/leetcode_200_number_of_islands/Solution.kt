@@ -18,9 +18,35 @@ package leetcode.leetcode_200_number_of_islands
  * Time - O(M * N)
  * Space - O(M * N)
  *
- * Companies - Google, Meta
+ * Companies - Google, Meta, Microsoft
  */
 private fun numIslands(grid: Array<CharArray>): Int {
+    var result = 0
+    val directions = arrayOf(intArrayOf(1, 0), intArrayOf(-1, 0), intArrayOf(0, 1), intArrayOf(0, -1))
+    val visited = Array(grid.size) {
+        BooleanArray(grid[0].size)
+    }
+
+    fun dfs(x: Int, y: Int) {
+        visited[x][y] = true
+        for ((x1, y1) in directions) {
+            if (x + x1 >= 0 && x + x1 <= grid.lastIndex && y + y1 >= 0 && y + y1 <= grid[0].lastIndex && !visited[x + x1][y + y1] && grid[x + x1][y + y1] == '1') {
+                dfs(x + x1, y + y1)
+            }
+        }
+    }
+    for (i in grid.indices) {
+        for (j in grid[0].indices) {
+            if (!visited[i][j] && grid[i][j] == '1') {
+                result++
+                dfs(i, j)
+            }
+        }
+    }
+    return result
+}
+
+private fun numIslandsExplicitChecks(grid: Array<CharArray>): Int {
     var result = 0
     fun clearIsland(row: Int, col: Int) {
         grid[row][col] = '0'

@@ -7,13 +7,36 @@ import java.util.ArrayDeque
  *
  * TODO(Abhi) - To revisit
  *
- * Using monotonic stack
+ * Data Structure - Decreasing Monotonic Stack
+ * Algorithm -
+ *
+ * Difficulty - Hard
  *
  * Stats
- * Runtime: 593 ms, faster than 72.73%
- * Memory Usage: 59.5 MB, less than 9.09%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Amazon, Google, Meta, Microsoft
  */
 private fun canSeePersonsCount(heights: IntArray): IntArray {
+    val result = IntArray(heights.size)
+    val stack = ArrayDeque<Int>()
+    stack.addLast(heights.last())
+    for (i in heights.lastIndex - 1 downTo 0) {
+        while (stack.isNotEmpty() && stack.last() < heights[i]) {
+            result[i]++
+            stack.removeLast()
+        }
+        if (stack.isNotEmpty()) {
+            result[i]++
+        }
+        stack.addLast(heights[i])
+    }
+    return result
+}
+
+private fun canSeePersonsCountLeftToRight(heights: IntArray): IntArray {
     val result = IntArray(heights.size)
     val stack = ArrayDeque<Int>()
     for (i in heights.indices) {

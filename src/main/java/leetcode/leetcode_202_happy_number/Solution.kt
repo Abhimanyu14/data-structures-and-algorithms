@@ -5,20 +5,31 @@ import data_structures.number.toDigits
 /**
  * leetcode - https://leetcode.com/problems/happy-number/
  *
- * Data Structure -
- * Algorithm -
+ * Data Structure - NA
+ * Algorithm - Recursion
  *
  * Difficulty - Easy
  *
  * Stats
- * Runtime: 152 ms, faster than 50.60%
- * Memory Usage: 35.2 MB, less than 16.87%
  *
  * Time -
  * Space -
  *
- * Companies - Meta
+ * Companies - Meta, Microsoft
  */
+private fun isHappyUsingRecursion(n: Int): Boolean {
+    if (n < 9) {
+        return n == 1 || n == 7
+    }
+    var sum = 0
+    var current = n
+    while (current != 0) {
+        sum += ((current % 10) * (current % 10))
+        current /= 10
+    }
+    return isHappyUsingRecursion(sum)
+}
+
 private fun isHappy(n: Int): Boolean {
     var ele = n
     while (ele >= 10) {

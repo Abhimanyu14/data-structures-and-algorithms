@@ -6,63 +6,119 @@ import data_structures.linkedlist.createLinkedList
 /**
  * leetcode - https://leetcode.com/problems/palindrome-linked-list/
  *
- * Using recursion
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [StringBuilder]
+ * Algorithm - Iteration
+ *
+ * Difficulty - Easy
  *
  * Stats
- * Runtime: 497 ms, faster than 100.00%
- * Memory Usage: 87.2 MB, less than 30.32%
+ *
+ * Time - O(N)
+ * Space - O(1)
+ *
+ * Companies - Meta, Microsoft
  */
 private fun isPalindrome(head: ListNode?): Boolean {
-    var size = 0
-    var counter = head
-    while (counter != null) {
-        size++
-        counter = counter.next
+    // Step 1: Find the middle node
+    var left = head
+    var right = head
+    while (right?.next != null) {
+        left = left?.next
+        right = right.next?.next
     }
-    return isPalindromeHelper(head, size).second
-}
 
-private fun isPalindromeHelper(head: ListNode?, size: Int): Pair<ListNode?, Boolean> {
-    if (size == 1) {
-        return Pair(head?.next, true)
+    // Step 2: Reverse the linked list from the middle to the last
+    var prev: ListNode? = null
+    var current = left
+    while (current != null) {
+        val temp = current.next
+        current.next = prev
+        prev = current
+        current = temp
     }
-    if (size == 2) {
-        return if (head?.`val` == head?.next?.`val`) {
-            Pair(head?.next?.next, true)
-        } else {
-            Pair(null, false)
+
+    // Step 3: Check for palindrome
+    left = head
+    right = prev
+    while (right != null) {
+        if (left?.`val` != right.`val`) {
+            return false
         }
+        left = left.next
+        right = right.next
     }
-    val nextNode = isPalindromeHelper(head?.next, size - 2).first
-    return if (nextNode?.`val` == head?.`val`) {
-        Pair(nextNode?.next, true)
-    } else {
-        Pair(null, false)
-    }
+    return true
 }
 
-private fun main() {
-    val input1 = intArrayOf(1, 2, 3, 3, 2, 1)
-    println(isPalindrome(createLinkedList(input1)))
+/**
+ * Leetcode optimization
+ */
+private fun isPalindromeReusingVariables(head: ListNode?): Boolean {
+    // Step 1: Find the middle node
+    var left = head
+    var right = head
+    while (right?.next != null) {
+        left = left?.next
+        right = right.next?.next
+    }
 
-    val input2 = intArrayOf(1, 2)
-    println(isPalindrome(createLinkedList(input2)))
+    // Step 2: Reverse the linked list from the middle to the last
+    right = left
+    left = null
+    while (right != null) {
+        val temp = right.next
+        right.next = left
+        left = right
+        right = temp
+    }
 
-    val input3 = intArrayOf(1, 2, 3, 4, 3, 2, 1)
-    println(isPalindrome(createLinkedList(input3)))
+    // Step 3: Check for palindrome
+    right = left
+    left = head
+    while (right != null) {
+        if (left?.`val` != right.`val`) {
+            return false
+        }
+        left = left.next
+        right = right.next
+    }
+    return true
+}
 
-    val input4 = intArrayOf(1)
-    println(isPalindrome(createLinkedList(input4)))
-
-    val input5 = intArrayOf(1, 1)
-    println(isPalindrome(createLinkedList(input5)))
-
-    val input6 = intArrayOf(1, 2)
-    println(isPalindrome(createLinkedList(input6)))
-
-    val input7 = intArrayOf(1, 2, 1)
-    println(isPalindrome(createLinkedList(input7)))
-
-    val input8 = intArrayOf(1, 2, 3)
-    println(isPalindrome(createLinkedList(input8)))
+/**
+ * leetcode - https://leetcode.com/problems/palindrome-linked-list/
+ *
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [StringBuilder]
+ * Algorithm - Iteration
+ *
+ * Difficulty - Easy
+ *
+ * Stats
+ *
+ * Time - O(N)
+ * Space - O(N)
+ *
+ * Companies - Meta, Microsoft
+ */
+private fun isPalindromeUsingStringBuilder(head: ListNode?): Boolean {
+    val stringBuilder = StringBuilder()
+    var current = head
+    while (current != null) {
+        stringBuilder.append(current.`val`)
+        current = current.next
+    }
+    var left = 0
+    var right = stringBuilder.lastIndex
+    while (left < right) {
+        if (stringBuilder[left] != stringBuilder[right]) {
+            return false
+        }
+        left++
+        right--
+    }
+    return true
 }

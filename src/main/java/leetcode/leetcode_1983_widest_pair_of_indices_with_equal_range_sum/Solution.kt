@@ -1,21 +1,22 @@
 package leetcode.leetcode_1983_widest_pair_of_indices_with_equal_range_sum
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/widest-pair-of-indices-with-equal-range-sum/description/
+ * Premium Question
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Microsoft
  */
 private fun main() {
 

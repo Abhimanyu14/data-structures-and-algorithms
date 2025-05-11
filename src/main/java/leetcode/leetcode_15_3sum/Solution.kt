@@ -15,7 +15,7 @@ package leetcode.leetcode_15_3sum
  * Time - O(N ^ 2)
  * Space - O(N)
  *
- * Companies - Meta
+ * Companies - Meta, Microsoft
  */
 private fun threeSum(nums: IntArray): List<List<Int>> {
     val result = mutableSetOf<List<Int>>()

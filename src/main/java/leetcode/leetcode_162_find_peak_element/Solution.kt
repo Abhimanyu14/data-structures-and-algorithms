@@ -16,10 +16,10 @@ package leetcode.leetcode_162_find_peak_element
  * Runtime: 16 ms, faster than 22.34%
  * Memory Usage: 39.6 MB, less than 5.64%
  *
- * Time -
- * Space -
+ * Time - O(log(N))
+ * Space - O(1)
  *
- * Companies - Meta
+ * Companies - Meta, Microsoft
  */
 private fun findPeakElement(nums: IntArray): Int {
     var left = 0

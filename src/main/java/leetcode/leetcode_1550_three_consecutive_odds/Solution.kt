@@ -1,18 +1,19 @@
 package leetcode.leetcode_1550_three_consecutive_odds
 
 /**
- * leetcode - https://leetcode.com/problems/three-consecutive-odds/
+ * leetcode - https://leetcode.com/problems/three-consecutive-odds/description/?envType=daily-question&envId=2025-05-11
  *
- * Using counting and loop
+ * Data Structure - NA
+ * Algorithm - Counting & Iteration
  *
  * Difficulty - Easy
  *
  * Stats
- * Runtime: 161 ms, faster than 33.33%
- * Memory Usage: 35 MB, less than 100.00%
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
+ *
+ * Companies - Amazon, Google
  */
 private fun threeConsecutiveOdds(arr: IntArray): Boolean {
     var count = 0

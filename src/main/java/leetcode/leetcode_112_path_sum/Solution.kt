@@ -5,31 +5,35 @@ import data_structures.TreeNode
 /**
  * leetcode - https://leetcode.com/problems/path-sum/
  *
- * Using DFS - Recursion
+ * Data Structure - Tree
+ * Algorithm - Recursion
+ *
+ * Difficulty - Easy
  *
  * Stats
- * Runtime: 202 ms, faster than 85.85%
- * Memory Usage: 35.4 MB, less than 90.73%
+ *
+ * Time - O(N)
+ * Space - O(N)
+ *
+ * Companies - Amazon, Google, Meta, Microsoft
  */
 private fun hasPathSum(root: TreeNode?, targetSum: Int): Boolean {
-    return dfs(root, 0, targetSum)
-}
-
-private fun dfs(root: TreeNode?, currentSum: Int, targetSum: Int): Boolean {
     if (root == null) {
         return false
     }
-    if (root?.left == null && root?.right == null) {
-        if (currentSum + (root?.`val` ?: 0) == targetSum) {
-            return true
+    fun getPathSum(current: TreeNode, sumSoFar: Int): Boolean {
+        if (current.left == null && current.right == null) {
+            return sumSoFar + current.`val` == targetSum
         }
-        return false
+        val left = current.left?.let {
+            getPathSum(it, sumSoFar + current.`val`)
+        } ?: false
+        val right = current.right?.let {
+            getPathSum(it, sumSoFar + current.`val`)
+        } ?: false
+        return left || right
     }
-    return dfs(root?.left, currentSum + (root?.`val` ?: 0), targetSum) || dfs(
-        root?.right,
-        currentSum + (root?.`val` ?: 0),
-        targetSum
-    )
+    return getPathSum(root, 0)
 }
 
 private fun main() {

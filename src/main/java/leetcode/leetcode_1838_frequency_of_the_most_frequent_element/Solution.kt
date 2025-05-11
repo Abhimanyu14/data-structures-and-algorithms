@@ -7,21 +7,39 @@ import kotlin.math.max
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure -
+ * Data Structure - Two Pointers
  * Algorithm - Sliding Window
  *
  * Difficulty - Medium
  *
  * Stats
- * Runtime: 569 ms, faster than 66.67%
- * Memory Usage: 56.2 MB, less than 66.67%
  *
- * Time -
- * Space -
+ * Time - O(N * log(N))
+ * Space - O(N)
  *
- * Companies -
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
 private fun maxFrequency(nums: IntArray, k: Int): Int {
+    var result = 1
+    val sortedNums = nums.sorted()
+    val prefixSum = IntArray(nums.size)
+    for (i in 1..sortedNums.lastIndex) {
+        prefixSum[i] = prefixSum[i - 1] + sortedNums[i - 1]
+    }
+    var right = sortedNums.lastIndex
+    var left = sortedNums.lastIndex
+    while (left > 0) {
+        left--
+        if ((sortedNums[right] * (right - left + 1)) <= (sortedNums[right] + prefixSum[right] - prefixSum[left] + k)) {
+            result = max(result, right - left + 1)
+        } else {
+            right--
+        }
+    }
+    return result
+}
+
+private fun maxFrequencyUsingChangingWindow(nums: IntArray, k: Int): Int {
     nums.sort()
     var left = 0
     var result = 1

@@ -15,7 +15,7 @@ package leetcode.leetcode_1_two_sum
  * Time - O(N)
  * Space - O(N)
  *
- * Companies - Google, Meta
+ * Companies - Google, Meta, Microsoft
  */
 private fun twoSum(nums: IntArray, target: Int): IntArray {
     val diffMap = mutableMapOf<Int, Int>()

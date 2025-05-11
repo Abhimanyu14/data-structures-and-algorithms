@@ -15,7 +15,7 @@ package leetcode.leetcode_70_climbing_stairs
  * Time - O(N)
  * Space - O(1)
  *
- * Companies - Google, Meta
+ * Companies - Google, Meta, Microsoft
  */
 private fun climbStairs(n: Int): Int {
     if (n <= 2) {

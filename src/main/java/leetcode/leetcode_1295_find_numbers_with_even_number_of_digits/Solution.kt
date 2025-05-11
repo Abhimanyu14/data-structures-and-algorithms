@@ -15,7 +15,7 @@ import kotlin.math.log10
  * Time - O(N * log(M)) // M - number of digits
  * Space - O(1)
  *
- * Companies -
+ * Companies - Microsoft
  */
 private fun findNumbers(nums: IntArray): Int {
     return nums.count { log10(it.toDouble()).toInt() % 2 == 1 }

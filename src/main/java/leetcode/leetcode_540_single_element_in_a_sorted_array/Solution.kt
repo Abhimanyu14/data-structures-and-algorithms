@@ -3,13 +3,47 @@ package leetcode.leetcode_540_single_element_in_a_sorted_array
 /**
  * leetcode - https://leetcode.com/problems/single-element-in-a-sorted-array/
  *
+ * Data Structure - Two Pointers
+ * Algorithm - Binary Search
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ *
+ * Time - O(log(N))
+ * Space - O(1)
+ *
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
+ */
+private fun singleNonDuplicate(nums: IntArray): Int {
+    var left = 0
+    var right = nums.lastIndex
+    fun isSingleElementToLeft(x: Int): Boolean {
+        return (x == nums.lastIndex) ||
+                ((x % 2 != 0) && (nums[x] != nums[x - 1])) ||
+                ((x % 2 == 0) && (nums[x] != nums[x + 1]))
+    }
+    while (left < right) {
+        val mid = left + (right - left) / 2
+        if (isSingleElementToLeft(mid)) {
+            right = mid
+        } else {
+            left = mid + 1
+        }
+    }
+    return nums[left]
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/single-element-in-a-sorted-array/
+ *
  * Using binary search - optimized
  *
  * Stats
  * Runtime: 290 ms, faster than 77.27%
  * Memory Usage: 45.7 MB, less than 54.55%
  */
-private fun singleNonDuplicate(nums: IntArray): Int {
+private fun singleNonDuplicateUsingBinarySearchSimplified(nums: IntArray): Int {
     var low = 0
     var high = nums.lastIndex
     while (low < high) {

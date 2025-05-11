@@ -13,16 +13,20 @@ package leetcode.leetcode_283_move_zeroes
  * Time - O(N)
  * Space - O(1)
  *
- * Companies - Google, Meta
+ * Companies - Google, Meta, Microsoft
  */
 private fun moveZeroes(nums: IntArray): Unit {
-    var left = 0
-    for (i in 0..nums.lastIndex) {
-        if (nums[i] != 0) {
-            nums[left++] = nums[i]
+    var insertIndex = 0
+    var currentIndex = 0
+    while (currentIndex <= nums.lastIndex) {
+        if (nums[currentIndex] != 0) {
+            nums[insertIndex] = nums[currentIndex]
+            insertIndex++
         }
+        currentIndex++
     }
-    while (left <= nums.lastIndex) {
-        nums[left++] = 0
+    while (insertIndex <= nums.lastIndex) {
+        nums[insertIndex] = 0
+        insertIndex++
     }
 }
