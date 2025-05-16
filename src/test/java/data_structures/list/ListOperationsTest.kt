@@ -16,6 +16,7 @@ import org.junit.jupiter.api.Test
  * [MutableList.remove]
  * [MutableList.removeAt]
  * [MutableList.removeAll]
+ * [MutableList.reversed]
  * [MutableList.sort]
  * [MutableList.sortDescending]
  */
@@ -41,6 +42,7 @@ private class ListOperationsTest {
 
         assertEquals(listOf(2, 3, 3, 5, 6, 6, 8, 27, 45, 68), list.sorted())
         assertEquals(listOf(45, 5, 27, 8, 3, 68, 3, 6, 2, 6), list)
+        assertEquals(listOf(6, 2, 6, 3, 68, 3, 8, 27, 5, 45), list.reversed())
 
         assertEquals(listOf(68, 45, 27, 8, 6, 6, 5, 3, 3, 2), list.sortedDescending())
         assertEquals(listOf(45, 5, 27, 8, 3, 68, 3, 6, 2, 6), list)

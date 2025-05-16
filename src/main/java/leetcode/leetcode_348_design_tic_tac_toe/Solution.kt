@@ -51,7 +51,6 @@ private class TicTacToe(private val n: Int) {
     }
 }
 
-
 /**
  * leetcode - https://leetcode.com/problems/design-tic-tac-toe
  * Premium Question

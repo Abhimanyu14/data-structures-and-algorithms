@@ -1,12 +1,22 @@
 package leetcode.leetcode_2345_finding_the_number_of_visible_mountains
 
 /**
- * TODO-Abhi: To complete
+ * leetcode - https://leetcode.com/problems/finding-the-number-of-visible-mountains/description/
+ * Premium Question
  *
- * leetcode - https://leetcode.com/problems/finding-the-number-of-visible-mountains/
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty - Medium
  *
  * Stats
  *
+ * Time -
+ * Space -
+ *
+ * Companies - Google
  */
 private fun visibleMountains(peaks: Array<IntArray>): Int {
     return 0

@@ -1,21 +1,9 @@
 package leetcode.leetcode_1193_monthly_transactions_i
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/monthly-transactions-i/
  *
- * TODO(Abhi) - To revisit
- *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
- *
- * Companies -
+ * TODO(Abhi) - SQL question
  */
 private fun main() {
 

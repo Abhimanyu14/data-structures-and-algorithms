@@ -2,6 +2,7 @@ package leetcode.leetcode_1762_buildings_with_an_ocean_view
 
 /**
  * leetcode - https://leetcode.com/problems/buildings-with-an-ocean-view/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+ * Premium Question
  *
  * Data Structure - [List]
  * Algorithm - Iteration
@@ -15,7 +16,7 @@ package leetcode.leetcode_1762_buildings_with_an_ocean_view
  * Time - O(N)
  * Space - O(N)
  *
- * Companies - Meta
+ * Companies - Amazon, Meta, Microsoft
  */
 private fun findBuildings(heights: IntArray): IntArray {
     val result = mutableListOf<Int>()

@@ -2,6 +2,7 @@ package leetcode.leetcode_1570_dot_product_of_two_sparse_vectors
 
 /**
  * leetcode - https://leetcode.com/problems/dot-product-of-two-sparse-vectors/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+ * Premium Question
  *
  * Data Structure - [Map]
  * Algorithm - Hashing

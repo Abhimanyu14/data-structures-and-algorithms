@@ -1,21 +1,9 @@
 package leetcode.leetcode_2694_event_emitter
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/event-emitter/
  *
- * TODO(Abhi) - To revisit
- *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
- *
- * Companies -
+ * TODO(Abhi) - Javascript question
  */
 private fun main() {
 

@@ -1,21 +1,9 @@
 package leetcode.leetcode_1251_average_selling_price
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/average-selling-price/
  *
- * TODO(Abhi) - To revisit
- *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
- *
- * Stats
- *
- * Time -
- * Space -
- *
- * Companies -
+ * TODO(Abhi) - SQL question
  */
 private fun main() {
 
