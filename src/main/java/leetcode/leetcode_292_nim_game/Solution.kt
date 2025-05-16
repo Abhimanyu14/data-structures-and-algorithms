@@ -1,22 +1,24 @@
 package leetcode.leetcode_292_nim_game
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/nim-game/description/
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - NA
+ * Algorithm - Pattern
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(1)
+ * Space - O(1)
  *
- * Companies -
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
+private fun canWinNim(n: Int): Boolean {
+    return n % 4 != 0
+}
+
 private fun main() {
 
 }

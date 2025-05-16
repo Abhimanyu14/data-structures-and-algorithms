@@ -1,21 +1,21 @@
 package leetcode.leetcode_2014_longest_subsequence_repeated_k_times
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/longest-subsequence-repeated-k-times/description/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Hard
  *
  * Stats
  *
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Meta
  */
 private fun main() {
 

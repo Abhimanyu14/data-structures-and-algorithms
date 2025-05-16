@@ -1,21 +1,22 @@
 package leetcode.leetcode_294_flip_game_ii
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/flip-game-ii/description/
+ * Premium Question
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Google
  */
 private fun main() {
 

@@ -5,26 +5,34 @@ import data_structures.TreeNode
 /**
  * leetcode - https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
  *
- * Using recursion - DFS
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - Tree
+ * Algorithm - DFS
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 167 ms, faster than 66.67%
- * Memory Usage: 37.6 MB, less than 41.67%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Amazon, Google, Meta, Microsoft
  */
 private fun averageOfSubtree(root: TreeNode?): Int {
     root ?: return 0
     var result = 0
-    fun dfs(head: TreeNode): Pair<Int, Int> {
-        val (leftSum, leftCount) = head.left?.run {
+    fun dfs(current: TreeNode): Pair<Int, Int> {
+        val (leftSum, leftCount) = current.left?.run {
             dfs(this)
         } ?: Pair(0, 0)
-        val (rightSum, rightCount) = head.right?.run {
+        val (rightSum, rightCount) = current.right?.run {
             dfs(this)
         } ?: Pair(0, 0)
-        if (((leftSum + rightSum + head.`val`) / (leftCount + rightCount + 1)) == head.`val`) {
+        if (((leftSum + rightSum + current.`val`) / (leftCount + rightCount + 1)) == current.`val`) {
             result++
         }
-        return Pair((leftSum + rightSum + head.`val`), (leftCount + rightCount + 1))
+        return Pair((leftSum + rightSum + current.`val`), (leftCount + rightCount + 1))
     }
 
     dfs(root)

@@ -9,11 +9,8 @@ package leetcode.leetcode_153_find_minimum_in_rotated_sorted_array
  * Runtime: 302 ms, faster than 51.22%
  * Memory Usage: 37.4 MB, less than 44.60%
  */
-
 // TODO-Abhi: Using iterative method
 private fun findMin(nums: IntArray): Int {
-
-
     return divAndCon(nums, 0, nums.lastIndex)
 }
 

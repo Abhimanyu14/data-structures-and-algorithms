@@ -1,21 +1,21 @@
 package leetcode.leetcode_508_most_frequent_subtree_sum
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/most-frequent-subtree-sum/description/
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure -
+ * Data Structure - Tree
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Amazon
  */
 private fun main() {
 

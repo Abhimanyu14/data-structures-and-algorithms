@@ -1,21 +1,21 @@
 package leetcode.leetcode_1314_matrix_block_sum
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/matrix-block-sum/description/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Google, Meta
  */
 private fun main() {
 

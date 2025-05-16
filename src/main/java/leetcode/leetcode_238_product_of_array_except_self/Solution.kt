@@ -3,14 +3,19 @@ package leetcode.leetcode_238_product_of_array_except_self
 /**
  * leetcode - https://leetcode.com/problems/product-of-array-except-self/
  *
- * Using two pass
+ * Data Structure - [IntArray]
+ * Algorithm - Two Pass
+ *
+ * Difficulty - Medium
  *
  * Stats
  * Runtime: 325 ms, faster than 31.56%
  * Memory Usage: 53.2 MB, less than 5.07%
  *
- * Time - O(N)
- * Space - O(N)
+ * Time -  O(N)
+ * Space - O(1) - Output space not considered
+ *
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
 private fun productExceptSelf(arr: IntArray): IntArray {
     val result = IntArray(arr.size)

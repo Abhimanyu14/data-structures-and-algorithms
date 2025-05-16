@@ -2,6 +2,7 @@ package leetcode.leetcode_1060_missing_element_in_sorted_array
 
 /**
  * leetcode - https://leetcode.com/problems/missing-element-in-sorted-array/description/
+ * Premium Question
  *
  * Data Structure -
  * Algorithm - Iteration

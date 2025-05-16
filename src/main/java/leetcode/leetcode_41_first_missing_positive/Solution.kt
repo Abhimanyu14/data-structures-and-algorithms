@@ -1,34 +1,41 @@
 package leetcode.leetcode_41_first_missing_positive
 
 /**
- * leetcode - https://leetcode.com/problems/first-missing-positive/
+ * leetcode - https://leetcode.com/problems/first-missing-positive/description/
  *
- * Using Input modification - cycle sort
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure -
+ * Algorithm - Input manipulation - cycle sort
+ *
+ * Difficulty - Hard
  *
  * Stats
  * Runtime: 308 ms, faster than 94.62%
  * Memory Usage: 51.5 MB, less than 69.23%
  *
  * Time - O(N)
- * Space = O(N) - Auxiliary = O(1)
+ * Space - O(N) - Auxiliary = O(1)
+ *
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
 private fun firstMissingPositive(nums: IntArray): Int {
-    var i = 0
-    while (i < nums.size) {
-        if (nums[i] in 1..nums.size && nums[nums[i] - 1] != nums[i]) {
-            nums[nums[i] - 1] = nums[i].also {
-                nums[i] = nums[nums[i] - 1]
+    var index = 0
+    while (index < nums.size) {
+        if (nums[index] in 1..nums.size && nums[nums[index] - 1] != nums[index]) {
+            nums[nums[index] - 1] = nums[index].also {
+                nums[index] = nums[nums[index] - 1]
             }
         } else {
-            i++
+            index++
         }
     }
-    i = 0
-    while (i < nums.size) {
-        if (nums[i] != i + 1) {
-            return i + 1
+    index = 0
+    while (index < nums.size) {
+        if (nums[index] != index + 1) {
+            return index + 1
         }
-        i++
+        index++
     }
     return nums.size + 1
 }

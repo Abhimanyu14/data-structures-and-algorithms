@@ -1,21 +1,21 @@
 package leetcode.leetcode_406_queue_reconstruction_by_height
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/queue-reconstruction-by-height/description/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Amazon, Google, Meta
  */
 private fun main() {
 

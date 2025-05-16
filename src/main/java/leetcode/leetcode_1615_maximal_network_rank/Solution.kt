@@ -3,45 +3,41 @@ package leetcode.leetcode_1615_maximal_network_rank
 import kotlin.math.max
 
 /**
- * leetcode - https://leetcode.com/problems/maximal-network-rank/
+ * leetcode - https://leetcode.com/problems/maximal-network-rank/description/
  *
- * Using graph
+ * Data Structure - Graph
+ * Algorithm - Graph degree counting
  *
  * Difficulty - Medium
  *
  * Stats
- * Runtime: 302 ms, faster than 75.00%
- * Memory Usage: 41.9 MB, less than 95.00%
+ * Runtime: 18 ms, faster than 81.82%
+ * Memory Usage: 52.01 MB, less than 81.82%
  *
- * Time - O(N)
- * Space -
+ * E: Edges
+ * V: Vertices
+ *
+ * Time - O(E + V^2)
+ * Space - O(E)
+ *
+ * Companies - Apple, Google, Microsoft
  */
 private fun maximalNetworkRank(n: Int, roads: Array<IntArray>): Int {
     var result = 0
-    val graph = mutableMapOf<Int, MutableSet<Int>>()
-    roads.forEach { (x: Int, y: Int) ->
-        graph.computeIfAbsent(x) {
-            mutableSetOf()
-        }.add(y)
-        graph.computeIfAbsent(y) {
-            mutableSetOf()
-        }.add(x)
+    val graph = Array(n) {
+        mutableSetOf<Int>()
     }
-
-    fun findNetworkRank(i: Int, j: Int) {
-        var current = 0
-        current += if (graph[i].orEmpty().contains(j)) {
-            (graph[i]?.size ?: 0) - 1
-        } else {
-            graph[i]?.size ?: 0
-        }
-        current += graph[j]?.size ?: 0
-        result = max(result, current)
+    for ((from, to) in roads) {
+        graph[from].add(to)
+        graph[to].add(from)
     }
-
-    for (i in 0..n) {
-        for (j in (i + 1)..n) {
-            findNetworkRank(i, j)
+    for (i in 0..<n) {
+        for (j in (i + 1)..<n) {
+            result = if (graph[i].contains(j)) {
+                max(result, graph[i].size + graph[j].size - 1)
+            } else {
+                max(result, graph[i].size + graph[j].size)
+            }
         }
     }
     return result

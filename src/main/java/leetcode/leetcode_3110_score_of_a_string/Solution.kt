@@ -15,6 +15,8 @@ import kotlin.math.abs
  *
  * Time - O(N)
  * Space - O(1)
+ *
+ * Companies - Meta
  */
 private fun scoreOfString(s: String): Int {
     var result = 0

@@ -5,15 +5,19 @@ package leetcode.leetcode_2062_count_vowel_substrings_of_a_string
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *
  * Time -
  * Space -
+ *
+ * Companies - Google
  */
+
 private fun main() {
 
 }

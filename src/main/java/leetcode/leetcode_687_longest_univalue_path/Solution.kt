@@ -1,21 +1,21 @@
 package leetcode.leetcode_687_longest_univalue_path
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/longest-univalue-path/description/
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure -
+ * Data Structure - Tree
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Google, Meta
  */
 private fun main() {
 

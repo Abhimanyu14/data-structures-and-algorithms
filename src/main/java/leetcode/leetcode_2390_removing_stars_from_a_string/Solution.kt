@@ -1,22 +1,32 @@
 package leetcode.leetcode_2390_removing_stars_from_a_string
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/removing-stars-from-a-string/description/
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - [StringBuilder]
+ * Algorithm - Stack using StringBuilder
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(N)
  *
- * Companies -
+ * Companies - Amazon, Google, Microsoft
  */
+private fun removeStars(s: String): String {
+    val result = StringBuilder()
+    for (i in s.indices) {
+        if (s[i] == '*') {
+            result.deleteCharAt(result.lastIndex)
+        } else {
+            result.append(s[i])
+        }
+    }
+    return result.toString()
+}
+
 private fun main() {
 
 }

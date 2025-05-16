@@ -3,12 +3,19 @@ package leetcode.leetcode_190_reverse_bits
 /**
  * leetcode - https://leetcode.com/problems/reverse-bits/
  *
- * TODO-Abhi: Revisit
+ * TODO(Abhi) - To revisit
  *
- * Using bit manipulation
+ * Data Structure - NA
+ * Algorithm - Bit manipulation
+ *
+ * Difficulty - Easy
  *
  * Stats
  *
+ * Time -
+ * Space -
+ *
+ * Companies - Amazon, Apple, Google, Meta
  */
 private fun main() {
 
