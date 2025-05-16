@@ -2,6 +2,7 @@ package leetcode.leetcode_246_strobogrammatic_number
 
 /**
  * leetcode - https://leetcode.com/problems/strobogrammatic-number/description/?envType=company&envId=facebook&favoriteSlug=facebook-six-months
+ * Premium Question
  *
  * Data Structure - [Map]
  * Algorithm - Iteration and Hashing

@@ -2,6 +2,7 @@ package leetcode.leetcode_163_missing_ranges
 
 /**
  * leetcode - https://leetcode.com/problems/missing-ranges/description/?envType=company&envId=facebook&favoriteSlug=facebook-six-months
+ * Premium Question
  *
  * Data Structure - [List]
  * Algorithm - Iteration
