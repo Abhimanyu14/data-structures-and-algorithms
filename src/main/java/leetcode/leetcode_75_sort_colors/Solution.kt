@@ -17,7 +17,7 @@ package leetcode.leetcode_75_sort_colors
  * Time - O(N)
  * Space - O(1)
  *
- * Companies - Meta
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
 private fun sortColors(nums: IntArray) {
     var current = 0
@@ -29,15 +29,21 @@ private fun sortColors(nums: IntArray) {
         }
     }
     while (current <= right) {
-        if (nums[current] == 0) {
-            swap(current, left)
-            left++
-            current++
-        } else if (nums[current] == 2) {
-            swap(current, right)
-            right--
-        } else {
-            current++
+        when (nums[current]) {
+            0 -> {
+                swap(current, left)
+                left++
+                current++
+            }
+
+            2 -> {
+                swap(current, right)
+                right--
+            }
+
+            else -> {
+                current++
+            }
         }
     }
 }
