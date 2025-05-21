@@ -23,16 +23,15 @@ import kotlin.math.max
  * Companies - Google
  */
 private fun isZeroArray(nums: IntArray, queries: Array<IntArray>): Boolean {
-    val prefixSum = IntArray(nums.size + 1)
-    for ((start, end) in queries) {
-        prefixSum[start]++
-        prefixSum[end + 1]--
+    val change = IntArray(nums.size + 1)
+    for ((from, to) in queries) {
+        change[from]++
+        change[to + 1]--
     }
-    for (i in 1..prefixSum.lastIndex) {
-        prefixSum[i] += prefixSum[i - 1]
-    }
+    var current = 0
     for (i in nums.indices) {
-        if (nums[i] > prefixSum[i]) {
+        current += change[i]
+        if (nums[i] > current) {
             return false
         }
     }
