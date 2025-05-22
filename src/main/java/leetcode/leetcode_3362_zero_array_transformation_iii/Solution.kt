@@ -7,6 +7,62 @@ import java.util.PriorityQueue
  *
  * TODO(Abhi) - To revisit
  *
+ * Data Structure - [PriorityQueue] (Max Heap), [IntArray]
+ * Algorithm - Sorting, Heap and Iteration
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ *
+ * N: nums.size
+ * Q: queries.size
+ * Time - O(Q * log(Q) + N * log(N))
+ * Space - O(N)
+ *
+ * Companies - Google
+ */
+private fun maxRemoval(nums: IntArray, queries: Array<IntArray>): Int {
+    // Sort by query start
+    val sortedQueries = queries.sortedBy {
+        it[0]
+    }
+    // Sort by query end
+    val priorityQueue = PriorityQueue<IntArray> { a, b ->
+        b[1] - a[1]
+    }
+    val prefixSum = IntArray(nums.size + 1)
+    var currentSum = 0
+    var queriesUsed = 0
+    var queriesIndex = 0
+    for (i in nums.indices) {
+        // Add queries that start at ith index to the priority queue
+        while (queriesIndex <= sortedQueries.lastIndex && sortedQueries[queriesIndex][0] == i) {
+            priorityQueue.offer(sortedQueries[queriesIndex])
+            queriesIndex++
+        }
+        currentSum += prefixSum[i]
+        // Pick the query that ends at the last
+        while (currentSum < nums[i] && priorityQueue.isNotEmpty()) {
+            val currentQuery = priorityQueue.poll()
+            if (currentQuery[1] < i) {
+                return -1
+            }
+            queriesUsed++
+            currentSum++
+            prefixSum[currentQuery[1] + 1]--
+        }
+        if (currentSum < nums[i]) {
+            return -1
+        }
+    }
+    return sortedQueries.size - queriesUsed
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/zero-array-transformation-iii/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
+ *
+ * TODO(Abhi) - To revisit
+ *
  * Data Structure - PriorityQueue
  * Algorithm - Sorting and Heap iteration
  *
@@ -19,7 +75,7 @@ import java.util.PriorityQueue
  * Time -
  * Space -
  */
-private fun maxRemoval(nums: IntArray, queries: Array<IntArray>): Int {
+private fun maxRemoval1(nums: IntArray, queries: Array<IntArray>): Int {
     var result = 0
     val startQueue = PriorityQueue<IntArray> { a, b ->
         a[0] - b[0] // Sort by start time in ascending
