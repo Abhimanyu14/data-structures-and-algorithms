@@ -5,7 +5,9 @@ import kotlin.math.min
 /**
  * leetcode - https://leetcode.com/problems/coin-change/
  *
- * Data Structure - Array
+ * TODO(Abhi) - To revisit
+ *
+ * Data Structure - [IntArray]
  * Algorithm - Dynamic Programming - Tabulation
  *
  * Difficulty - Medium
@@ -14,6 +16,8 @@ import kotlin.math.min
  *
  * Time -
  * Space -
+ *
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
 private fun coinChange(coins: IntArray, amount: Int): Int {
     val dp = IntArray(amount + 1) { amount + 1 }

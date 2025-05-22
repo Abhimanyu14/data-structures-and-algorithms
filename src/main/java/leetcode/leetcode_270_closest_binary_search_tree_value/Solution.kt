@@ -6,6 +6,7 @@ import kotlin.math.min
 
 /**
  * leetcode - https://leetcode.com/problems/closest-binary-search-tree-value/
+ * Premium Question
  *
  * TODO(Abhi) - To revisit
  *
