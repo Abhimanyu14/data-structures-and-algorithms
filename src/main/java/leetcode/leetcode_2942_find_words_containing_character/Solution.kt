@@ -11,8 +11,12 @@ package leetcode.leetcode_2942_find_words_containing_character
  * Runtime: 3 ms, faster than 100.00%
  * Memory Usage: 38.4 MB, less than 94.12%
  *
- * Time -
- * Space -
+ * N: words.size
+ * M: max length of words[i]
+ * Time - O(N * M)
+ * Space - O(1)
+ *
+ * Companies - Amazon, Microsoft
  */
 private fun findWordsContaining(words: Array<String>, x: Char): List<Int> {
     val result = mutableListOf<Int>()
