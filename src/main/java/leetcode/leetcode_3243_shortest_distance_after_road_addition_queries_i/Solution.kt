@@ -1,15 +1,12 @@
 package leetcode.leetcode_3243_shortest_distance_after_road_addition_queries_i
 
-import java.util.LinkedList
-import java.util.Queue
 import kotlin.math.min
 
 /**
  * leetcode - https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/?envType=daily-question&envId=2024-11-27
  *
- * Using Array, List, Map, Queue & LinkedList.
- *
- * [computeIfAbsent]
+ * Data Structure - [Array], [IntArray], [ArrayDeque], [List], Graph
+ * Algorithm - BFS
  *
  * Difficulty - Medium
  *
@@ -17,41 +14,44 @@ import kotlin.math.min
  * Runtime: 76 ms, faster than 100.00%
  * Memory Usage: 59 MB, less than 66.67%
  *
- * Time -
- * Space -
+ * Q: queries.size
+ * N: n
+ * Time - O(Q * (N + Q))
+ * Space - O(N + Q)
+ *
+ * Companies - Google, Microsoft
  */
 private fun shortestDistanceAfterQueries(n: Int, queries: Array<IntArray>): IntArray {
     val result = IntArray(queries.size)
-    val roads = mutableMapOf<Int, MutableList<Int>>()
-    val shortestDistance = IntArray(n)
-    repeat(n) {
-        shortestDistance[it] = it
-    }
-    for (i in 0..n - 2) {
-        roads.computeIfAbsent(i) {
+    val graph = Array(n) {
+        if (it < n - 1) {
+            mutableListOf(it + 1)
+        } else {
             mutableListOf()
-        }.add(i + 1)
+        }
     }
+    val shortestDistance = IntArray(n) {
+        it
+    }
+
     fun addRoad(from: Int, to: Int) {
-        roads.computeIfAbsent(from) {
-            mutableListOf()
-        }.add(to)
+        graph[from].add(to)
         shortestDistance[to] = min(shortestDistance[to], shortestDistance[from] + 1)
-        val toProcess: Queue<Int> = LinkedList()
-        toProcess.add(to)
-        while (toProcess.isNotEmpty()) {
-            val current = toProcess.poll()
-            roads[current]?.forEach {
-                if (shortestDistance[it] > shortestDistance[current] + 1) {
-                    shortestDistance[it] = shortestDistance[current] + 1
-                    toProcess.add(it)
+        val queue = ArrayDeque<Int>()
+        queue.add(to)
+        while (queue.isNotEmpty()) {
+            val node = queue.removeFirst()
+            graph[node].forEach {
+                if (shortestDistance[it] > shortestDistance[node] + 1) {
+                    shortestDistance[it] = shortestDistance[node] + 1
+                    queue.addLast(it)
                 }
             }
         }
     }
-    queries.forEachIndexed { index, query ->
-        addRoad(query[0], query[1])
-        result[index] = shortestDistance[n - 1]
+    for (i in queries.indices) {
+        addRoad(queries[i][0], queries[i][1])
+        result[i] = shortestDistance.last()
     }
     return result
 }

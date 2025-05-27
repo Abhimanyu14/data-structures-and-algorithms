@@ -16,7 +16,7 @@ package leetcode.leetcode_1891_cutting_ribbons
  * Time -
  * Space - O(1)
  *
- * Companies - Meta
+ * Companies - Google, Meta
  */
 private fun maxLength(ribbons: IntArray, k: Int): Int {
     var left = 1

@@ -19,7 +19,7 @@ package leetcode.leetcode_1233_remove_sub_folders_from_the_filesystem
  * Time -
  * Space -
  *
- * Companies - Meta
+ * Companies - Amazon, Google, Meta, Microsoft
  */
 private class TrieNode(
     val word: String,

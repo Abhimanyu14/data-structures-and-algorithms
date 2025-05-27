@@ -17,47 +17,61 @@ import kotlin.math.max
  *
  * Time -
  * Space -
+ *
+ * Companies - Google, Microsoft
  */
 private class GraphNode(
-    val color: Char,
-    val adjacent: MutableList<Int> = mutableListOf(),
+    val color: Int,
+    val neighbours: MutableList<Int> = mutableListOf(),
 )
 
 private fun largestPathValue(colors: String, edges: Array<IntArray>): Int {
-    var result = 0
-    val startingNodes = (colors.indices.toMutableSet())
     val graph = Array(colors.length) {
-        GraphNode(colors[it])
+        GraphNode(colors[it] - 'a')
     }
-    edges.forEach { (from, to) ->
-        graph[from].adjacent.add(to)
-        startingNodes.remove(to)
+    for ((from, to) in edges) {
+        if (from == to) {
+            return -1
+        }
+        graph[from].neighbours.add(to)
+    }
+    var result = 0
+    val visited = BooleanArray(colors.length)
+    val inCurrentPath = BooleanArray(colors.length)
+    val cache = Array(colors.length) {
+        IntArray(26)
     }
 
-    if (startingNodes.isEmpty()) {
-        return -1
-    }
-
-    val visited = IntArray(colors.length)
-    val pathVisited = IntArray(colors.length)
-    val colorCounter = IntArray(26)
-
-    fun dfs(node: Int): Boolean {
-        visited[node]++
-        pathVisited[node]++
-        colorCounter[graph[node].color - 'a']++
-        result = max(result, colorCounter[graph[node].color - 'a'])
-        for (adjacentNode in graph[node].adjacent) {
-            if (pathVisited[node] == 1 || !dfs(adjacentNode)) {
-                return false
+    fun dfs(node: Int) {
+        // Cycle detection
+        if (inCurrentPath[node]) {
+            result = -1
+            return
+        }
+        if (visited[node]) {
+            return
+        }
+        visited[node] = true
+        inCurrentPath[node] = true
+        for (neighbour in graph[node].neighbours) {
+            dfs(neighbour)
+            if (result == -1) {
+                return
+            }
+            for (i in 0..25) {
+                cache[node][i] = max(cache[node][i], cache[neighbour][i])
+                result = max(result, cache[node][i])
             }
         }
-        pathVisited[node]--
-        colorCounter[graph[node].color - 'a']--
-        return true
+        cache[node][graph[node].color]++
+        result = max(result, cache[node][graph[node].color])
+        inCurrentPath[node] = false
     }
-    for (node in startingNodes) {
-        if (visited[node] == 0 && !dfs(node)) {
+    for (node in colors.indices) {
+        if (!visited[node]) {
+            dfs(node)
+        }
+        if (result == -1) {
             return -1
         }
     }
