@@ -1,7 +1,5 @@
 package leetcode.leetcode_698_partition_to_k_equal_sum_subsets
 
-import kotlin.math.max
-
 /**
  * leetcode - https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
  *
@@ -20,50 +18,36 @@ import kotlin.math.max
  * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
 private fun canPartitionKSubsets(nums: IntArray, k: Int): Boolean {
-    var numSum = 0
-    var numMax = 0
-    for (num in nums) {
-        numSum += num
-        numMax = max(numMax, num)
-    }
+    val numSum = nums.sum()
     if (numSum % k != 0) {
         return false
     }
     val partitionTotal = numSum / k
-    if (numMax > partitionTotal) {
+    nums.sortDescending()
+    if (nums[0] > partitionTotal) {
         return false
     }
-    // println("numSum: $numSum")
-    // println("numMax: $numMax")
-    // println("partitionTotal: $partitionTotal")
-
-    val selected = mutableSetOf<Int>()
-
-    fun backtrack(
-        remaining: Int,
-        index: Int,
-        total: Int,
-    ): Boolean {
-        // println("remaining: $remaining, index: $index, current: $currentSelected, mask: $alreadySelected, total: $total")
-        if (remaining == 0) {
+    val isUsed = BooleanArray(nums.size)
+    fun backtrack(remainingPartitions: Int, startIndex: Int, partitionSum: Int): Boolean {
+        if (remainingPartitions == 0) {
             return true
         }
-        if (index == nums.size) {
-            return false
+        if (partitionSum == partitionTotal) {
+            return backtrack(remainingPartitions - 1, 0, 0)
         }
-        if (total == partitionTotal) {
-            return backtrack(remaining - 1, 0, 0)
-        }
-        for (j in nums.indices) {
-            if (backtrack(remaining, index + 1, total)) {
+        for (i in startIndex..nums.lastIndex) {
+            if (isUsed[i] || partitionSum + nums[i] > partitionTotal) {
+                continue
+            }
+            isUsed[i] = true
+            if (backtrack(remainingPartitions, i + 1, partitionSum + nums[i])) {
                 return true
             }
-            if (j !in selected && total + nums[j] <= partitionTotal) {
-                selected.add(j)
-                if (backtrack(remaining, index + 1, total + nums[j])) {
-                    return true
-                }
-                selected.remove(j)
+            isUsed[i] = false
+
+            // Optimization: if we fail at first element of current partition
+            if (partitionSum == 0) {
+                break
             }
         }
         return false

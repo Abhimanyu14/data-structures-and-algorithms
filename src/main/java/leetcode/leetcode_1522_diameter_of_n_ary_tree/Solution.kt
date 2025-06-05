@@ -1,21 +1,22 @@
 package leetcode.leetcode_1522_diameter_of_n_ary_tree
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/diameter-of-n-ary-tree/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+ * Premium Question
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Meta
  */
 private fun main() {
 

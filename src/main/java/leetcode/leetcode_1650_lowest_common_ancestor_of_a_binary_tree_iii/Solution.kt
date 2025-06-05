@@ -2,6 +2,7 @@ package leetcode.leetcode_1650_lowest_common_ancestor_of_a_binary_tree_iii
 
 /**
  * leetcode - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+ * Premium Question
  *
  * Data Structure - Tree
  * Algorithm - Tree traversal
@@ -10,8 +11,8 @@ package leetcode.leetcode_1650_lowest_common_ancestor_of_a_binary_tree_iii
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N ^ 2)
+ * Space - O(N)
  *
  * Companies - Meta
  */
@@ -25,10 +26,22 @@ private fun lowestCommonAncestor(p: Node?, q: Node?): Node? {
     if (p == null || q == null) {
         return null
     }
-    if (isAnDescendant(p, q)) {
+    fun isADescendant(a: Node, b: Node): Boolean { // Is node A descendant of node B
+        if (a == b) {
+            return true
+        }
+        val left = b.left?.let {
+            isADescendant(a, it)
+        } ?: false
+        val right = b.right?.let {
+            isADescendant(a, it)
+        } ?: false
+        return left || right
+    }
+    if (isADescendant(p, q)) {
         return q
     }
-    if (isAnDescendant(q, p)) {
+    if (isADescendant(q, p)) {
         return p
     }
     var current = p
@@ -36,13 +49,13 @@ private fun lowestCommonAncestor(p: Node?, q: Node?): Node? {
     while (parent != null) {
         if (parent.left == current) {
             parent.right?.let {
-                if (isAnDescendant(q, it)) {
+                if (isADescendant(q, it)) {
                     return parent
                 }
             }
         } else {
             parent.left?.let {
-                if (isAnDescendant(q, it)) {
+                if (isADescendant(q, it)) {
                     return parent
                 }
             }
@@ -53,17 +66,24 @@ private fun lowestCommonAncestor(p: Node?, q: Node?): Node? {
     return null
 }
 
-private fun isAnDescendant(a: Node, b: Node): Boolean { // Is node A an descendant of node B
-    if (a == b) {
-        return true
+private fun lowestCommonAncestorUsingSingleSet(p: Node?, q: Node?): Node? {
+    if (p == null || q == null) {
+        return null
     }
-    val left = b.left?.let {
-        isAnDescendant(a, it)
-    } ?: false
-    val right = b.right?.let {
-        isAnDescendant(a, it)
-    } ?: false
-    return left || right
+    val ancestorsOfP = mutableSetOf<Node>()
+    var current: Node? = p
+    while (current != null) {
+        ancestorsOfP.add(current)
+        current = current.parent
+    }
+    current = q
+    while (current != null) {
+        if (ancestorsOfP.contains(current)) {
+            return current
+        }
+        current = current.parent
+    }
+    return null
 }
 
 private fun lowestCommonAncestorUsingSetIntersection(p: Node?, q: Node?): Node? {

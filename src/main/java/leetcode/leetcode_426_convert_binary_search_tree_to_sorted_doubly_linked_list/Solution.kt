@@ -2,6 +2,7 @@ package leetcode.leetcode_426_convert_binary_search_tree_to_sorted_doubly_linked
 
 /**
  * leetcode - https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/
+ * Premium Question
  *
  * Data Structure - Tree, Double Linked List
  * Algorithm - DFS
@@ -13,7 +14,7 @@ package leetcode.leetcode_426_convert_binary_search_tree_to_sorted_doubly_linked
  * Time - O(N)
  * Space - O(N)
  *
- * Companies - Meta
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
 private class Node(var `val`: Int) {
     var left: Node? = null

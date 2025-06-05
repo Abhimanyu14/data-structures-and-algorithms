@@ -8,15 +8,17 @@ import kotlin.math.max
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure -
- * Algorithm -
+ * Data Structure - Tree
+ * Algorithm - DFS
  *
  * Difficulty - Hard
  *
  * Stats
  *
- * Time -
- * Space -
+ * N: no of nodes in tree
+ * H: height of tree
+ * Time - O(N)
+ * Space - O(H)
  *
  * Companies - Amazon, Google, Meta, Microsoft
  */

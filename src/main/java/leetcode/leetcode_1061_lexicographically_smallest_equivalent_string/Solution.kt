@@ -1,17 +1,54 @@
-@file:Suppress("SpellCheckingInspection")
-
 package leetcode.leetcode_1061_lexicographically_smallest_equivalent_string
 
 /**
- * leetcode - https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
+ * leetcode - https://leetcode.com/problems/lexicographically-smallest-equivalent-string/?envType=daily-question&envId=2025-06-05
  *
- * Using array
+ * Data Structure - UnionFind
+ * Algorithm - UnionFind
+ *
+ * Difficulty - Medium
  *
  * Stats
- * Runtime: 185 ms, faster than 100.00%
- * Memory Usage: 35.2 MB, less than 100.00%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies -
  */
+private class UnionFind {
+    private val roots = IntArray(26) { it }
+
+    fun find(x: Int): Int {
+        if (roots[x] != x) {
+            roots[x] = find(roots[x])
+        }
+        return roots[x]
+    }
+
+    fun union(x: Int, y: Int) {
+        val rootX = find(x)
+        val rootY = find(y)
+        if (rootX > rootY) {
+            roots[rootX] = rootY
+        } else if (rootX < rootY) {
+            roots[rootY] = rootX
+        }
+    }
+}
+
 private fun smallestEquivalentString(s1: String, s2: String, baseStr: String): String {
+    val unionFind = UnionFind()
+    for (i in s1.indices) {
+        unionFind.union(s1[i] - 'a', s2[i] - 'a')
+    }
+    val result = CharArray(baseStr.length)
+    for (i in baseStr.indices) {
+        result[i] = 'a' + unionFind.find(baseStr[i] - 'a')
+    }
+    return String(result)
+}
+
+private fun smallestEquivalentStringUsingArray1(s1: String, s2: String, baseStr: String): String {
     val roots = IntArray(26) { it }
     var root1: Int
     var root2: Int
@@ -110,14 +147,4 @@ private fun smallestEquivalentStringUsingArray(s1: String, s2: String, baseStr: 
         }
     }
     return result.toString()
-}
-
-private fun main() {
-    println(
-        smallestEquivalentString(
-            "cjckgjhleflkahielekelcgahadcdcjghiciigkclcafdcebda",
-            "kfakjgbhifakhageijbachdbgceddefhelkcilejcfdehceagc",
-            "iqegylptbvqzttfkijjwuawkdhzxiysbssghddbwiweptovbbs"
-        )
-    )
 }

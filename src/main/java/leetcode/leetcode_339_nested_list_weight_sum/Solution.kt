@@ -2,6 +2,7 @@ package leetcode.leetcode_339_nested_list_weight_sum
 
 /**
  * leetcode - https://leetcode.com/problems/nested-list-weight-sum/?envType=company&envId=facebook&favoriteSlug=facebook-six-months
+ * Premium Question
  *
  * Data Structure - [List]
  * Algorithm - Recursion
@@ -13,21 +14,21 @@ package leetcode.leetcode_339_nested_list_weight_sum
  * Time - O(N)
  * Space - O(1)
  *
- * Companies - Meta
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
 private fun depthSum(nestedList: List<NestedInteger>): Int {
-    fun getSum(current: List<NestedInteger>, depth: Int): Int {
+    fun depthSum(currentList: List<NestedInteger>, depth: Int): Int {
         var result = 0
-        for (num in current) {
-            result += if (num.isInteger()) {
-                depth * (num.getInteger() ?: 0)
+        currentList.forEach {
+            result += if (it.isInteger()) {
+                depth * (it.getInteger() ?: 0)
             } else {
-                getSum(num.getList() ?: emptyList(), depth + 1)
+                depthSum(it.getList().orEmpty(), depth + 1)
             }
         }
         return result
     }
-    return getSum(nestedList, 1)
+    return depthSum(nestedList, 1)
 }
 
 private fun main() {

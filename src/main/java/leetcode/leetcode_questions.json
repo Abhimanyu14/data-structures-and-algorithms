@@ -2976,8 +2976,8 @@
   },
   {
     "frontendQuestionId": "596",
-    "title": "Classes More Than 5 Students",
-    "titleSlug": "classes-more-than-5-students"
+    "title": "Classes With at Least 5 Students",
+    "titleSlug": "classes-with-at-least-5-students"
   },
   {
     "frontendQuestionId": "597",
@@ -17743,5 +17743,85 @@
     "frontendQuestionId": "3549",
     "title": "Multiply Two Polynomials",
     "titleSlug": "multiply-two-polynomials"
+  },
+  {
+    "frontendQuestionId": "3550",
+    "title": "Smallest Index With Digit Sum Equal to Index",
+    "titleSlug": "smallest-index-with-digit-sum-equal-to-index"
+  },
+  {
+    "frontendQuestionId": "3551",
+    "title": "Minimum Swaps to Sort by Digit Sum",
+    "titleSlug": "minimum-swaps-to-sort-by-digit-sum"
+  },
+  {
+    "frontendQuestionId": "3552",
+    "title": "Grid Teleportation Traversal",
+    "titleSlug": "grid-teleportation-traversal"
+  },
+  {
+    "frontendQuestionId": "3553",
+    "title": "Minimum Weighted Subgraph With the Required Paths II",
+    "titleSlug": "minimum-weighted-subgraph-with-the-required-paths-ii"
+  },
+  {
+    "frontendQuestionId": "3554",
+    "title": "Find Category Recommendation Pairs",
+    "titleSlug": "find-category-recommendation-pairs"
+  },
+  {
+    "frontendQuestionId": "3555",
+    "title": "Smallest Subarray to Sort in Every Sliding Window",
+    "titleSlug": "smallest-subarray-to-sort-in-every-sliding-window"
+  },
+  {
+    "frontendQuestionId": "3556",
+    "title": "Sum of Largest Prime Substrings",
+    "titleSlug": "sum-of-largest-prime-substrings"
+  },
+  {
+    "frontendQuestionId": "3557",
+    "title": "Find Maximum Number of Non Intersecting Substrings",
+    "titleSlug": "find-maximum-number-of-non-intersecting-substrings"
+  },
+  {
+    "frontendQuestionId": "3558",
+    "title": "Number of Ways to Assign Edge Weights I",
+    "titleSlug": "number-of-ways-to-assign-edge-weights-i"
+  },
+  {
+    "frontendQuestionId": "3559",
+    "title": "Number of Ways to Assign Edge Weights II",
+    "titleSlug": "number-of-ways-to-assign-edge-weights-ii"
+  },
+  {
+    "frontendQuestionId": "3560",
+    "title": "Find Minimum Log Transportation Cost",
+    "titleSlug": "find-minimum-log-transportation-cost"
+  },
+  {
+    "frontendQuestionId": "3561",
+    "title": "Resulting String After Adjacent Removals",
+    "titleSlug": "resulting-string-after-adjacent-removals"
+  },
+  {
+    "frontendQuestionId": "3562",
+    "title": "Maximum Profit from Trading Stocks with Discounts",
+    "titleSlug": "maximum-profit-from-trading-stocks-with-discounts"
+  },
+  {
+    "frontendQuestionId": "3563",
+    "title": "Lexicographically Smallest String After Adjacent Removals",
+    "titleSlug": "lexicographically-smallest-string-after-adjacent-removals"
+  },
+  {
+    "frontendQuestionId": "3564",
+    "title": "Seasonal Sales Analysis",
+    "titleSlug": "seasonal-sales-analysis"
+  },
+  {
+    "frontendQuestionId": "3565",
+    "title": "Sequential Grid Path Cover",
+    "titleSlug": "sequential-grid-path-cover"
   }
 ]

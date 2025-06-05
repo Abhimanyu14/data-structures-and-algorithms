@@ -16,51 +16,48 @@ import kotlin.math.max
  *
  * Time -
  * Space -
+ *
+ * Companies -
  */
 private fun maxTargetNodes(edges1: Array<IntArray>, edges2: Array<IntArray>, k: Int): IntArray {
-    val n = edges1.size + 1
-    val m = edges2.size + 1
-    val result = IntArray(n)
-    val graph1 = mutableMapOf<Int, MutableList<Int>>()
-    val graph2 = mutableMapOf<Int, MutableList<Int>>()
-    edges1.forEach { (from, to) ->
-        graph1.computeIfAbsent(from) {
-            mutableListOf()
-        }.add(to)
-        graph1.computeIfAbsent(to) {
-            mutableListOf()
-        }.add(from)
+    val result = IntArray(edges1.size + 1)
+    val graph1 = Array(edges1.size + 1) {
+        mutableListOf<Int>()
     }
-    edges2.forEach { (from, to) ->
-        graph2.computeIfAbsent(from) {
-            mutableListOf()
-        }.add(to)
-        graph2.computeIfAbsent(to) {
-            mutableListOf()
-        }.add(from)
+    val graph2 = Array(edges2.size + 1) {
+        mutableListOf<Int>()
     }
+    for ((from, to) in edges1) {
+        graph1[from].add(to)
+        graph1[to].add(from)
+    }
+    for ((from, to) in edges2) {
+        graph2[from].add(to)
+        graph2[to].add(from)
+    }
+
     var tree2Max = Int.MIN_VALUE
     val visited = mutableSetOf<Int>()
-    fun bfs(graph: MutableMap<Int, MutableList<Int>>, currentNode: Int, currentDistance: Int): Int {
+    fun bfs(graph: Array<MutableList<Int>>, currentNode: Int, currentDist: Int): Int {
         visited.add(currentNode)
-        if (currentDistance == k) {
+        if (currentDist == k) {
             return 1
         }
         var bfsResult = 1
-        graph[currentNode]?.forEach {
+        graph[currentNode].forEach {
             if (!visited.contains(it)) {
-                bfsResult += bfs(graph, it, currentDistance + 1)
+                bfsResult += bfs(graph, it, currentDist + 1)
             }
         }
         return bfsResult
     }
     if (k >= 1) {
-        repeat(m) {
+        repeat(edges2.size + 1) {
             visited.clear()
             tree2Max = max(tree2Max, bfs(graph2, it, 1))
         }
     }
-    repeat(n) {
+    repeat(edges1.size + 1) {
         visited.clear()
         result[it] = bfs(graph1, it, 0) + max(tree2Max, 0)
     }
