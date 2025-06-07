@@ -23,6 +23,11 @@ class StringOperationsTest {
         val string = "A new String"
         assertEquals(12, string.length)
         assertEquals(11, string.lastIndex)
+        assertEquals(-1, "A new String".compareTo("B new String"))
+        assertEquals(0, "B new String".compareTo("B new String"))
+        assertEquals(1, "C new String".compareTo("B new String"))
+        assertEquals(24, "Z new String".compareTo("B new String"))
+        assertEquals(24, "Z String".compareTo("B new String"))
         assertEquals('A', string.first())
         assertEquals('g', string.last())
         assertEquals(false, string.isEmpty())

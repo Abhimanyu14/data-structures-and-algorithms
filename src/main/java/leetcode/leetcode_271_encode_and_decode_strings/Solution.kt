@@ -1,21 +1,55 @@
 package leetcode.leetcode_271_encode_and_decode_strings
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/encode-and-decode-strings/description/?envType=company&envId=facebook&favoriteSlug=facebook-three-months
  * Premium question
- *
- * TODO(Abhi) - To revisit
  *
  * Using
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
+ * k: Chars for length and delimiters
+ * Time - O(N)
+ * Space - O(k)
  *
- * Time -
- * Space -
+ * Companies - Amazon, Google, Meta, Microsoft
  */
-private class Solution {
+class Codec {
+    // Encodes a list of strings to a single string.
+    fun encode(strs: List<String>): String {
+        val result = StringBuilder()
+        for (str in strs) {
+            result.append("#${str.length}:${str}")
+        }
+        return result.toString()
+    }
+
+    // Decodes a single string to a list of strings.
+    fun decode(s: String): List<String> {
+        val result = mutableListOf<String>()
+        val current = StringBuilder()
+        var index = 0
+        while (index <= s.lastIndex) {
+            index++
+            var length = 0
+            while (s[index] != ':') {
+                length = (length * 10) + s[index].digitToInt()
+                index++
+            }
+            index++
+            for (i in 0..<length) {
+                current.append(s[index])
+                index++
+            }
+            result.add(current.toString())
+            current.clear()
+        }
+        return result
+    }
+}
+
+private class SolutionUsingDelimiter {
     fun encode(strs: List<String>): String {
         return strs.joinToString(",") {
             it

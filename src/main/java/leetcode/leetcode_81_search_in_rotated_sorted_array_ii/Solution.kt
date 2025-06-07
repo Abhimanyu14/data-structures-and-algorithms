@@ -1,22 +1,29 @@
 package leetcode.leetcode_81_search_in_rotated_sorted_array_ii
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/search-in-rotated-sorted-array-ii/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - NA
+ * Algorithm - LinearSearch
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
  *
- * Companies -
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
+private fun searchUsingLinearSearch(nums: IntArray, target: Int): Boolean {
+    for (num in nums) {
+        if (num == target) {
+            return true
+        }
+    }
+    return false
+}
+
 private fun main() {
 
 }

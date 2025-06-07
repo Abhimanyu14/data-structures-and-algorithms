@@ -1,7 +1,7 @@
 package leetcode.leetcode_2434_using_a_robot_to_print_the_lexicographically_smallest_string
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/description/?envType=daily-question&envId=2025-06-06
  *
  * TODO(Abhi) - To revisit
  *

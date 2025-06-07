@@ -17823,5 +17823,35 @@
     "frontendQuestionId": "3565",
     "title": "Sequential Grid Path Cover",
     "titleSlug": "sequential-grid-path-cover"
+  },
+  {
+    "frontendQuestionId": "3566",
+    "title": "Partition Array into Two Equal Product Subsets",
+    "titleSlug": "partition-array-into-two-equal-product-subsets"
+  },
+  {
+    "frontendQuestionId": "3567",
+    "title": "Minimum Absolute Difference in Sliding Submatrix",
+    "titleSlug": "minimum-absolute-difference-in-sliding-submatrix"
+  },
+  {
+    "frontendQuestionId": "3568",
+    "title": "Minimum Moves to Clean the Classroom",
+    "titleSlug": "minimum-moves-to-clean-the-classroom"
+  },
+  {
+    "frontendQuestionId": "3569",
+    "title": "Maximize Count of Distinct Primes After Split",
+    "titleSlug": "maximize-count-of-distinct-primes-after-split"
+  },
+  {
+    "frontendQuestionId": "3570",
+    "title": "Find Books with No Available Copies",
+    "titleSlug": "find-books-with-no-available-copies"
+  },
+  {
+    "frontendQuestionId": "3571",
+    "title": "Find the Shortest Superstring II",
+    "titleSlug": "find-the-shortest-superstring-ii"
   }
 ]

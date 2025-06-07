@@ -5,10 +5,17 @@ package leetcode.leetcode_33_search_in_rotated_sorted_array
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty - Medium
  *
  * Stats
  *
+ * Time -
+ * Space -
+ *
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
 private fun search(nums: IntArray, target: Int): Int {
     fun binarySearch(start: Int, end: Int) : Int {
@@ -51,6 +58,15 @@ private fun search(nums: IntArray, target: Int): Int {
     }
 
     return driver(0, nums.lastIndex)
+}
+
+private fun searchUsingLinearSearch(nums: IntArray, target: Int): Int {
+    for (i in nums.indices) {
+        if (nums[i] == target) {
+            return i
+        }
+    }
+    return -1
 }
 
 private fun main() {

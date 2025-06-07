@@ -8,12 +8,14 @@ package leetcode.leetcode_410_split_array_largest_sum
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - hard
  *
  * Stats
  *
  * Time -
  * Space -
+ *
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
 private fun main() {
 
