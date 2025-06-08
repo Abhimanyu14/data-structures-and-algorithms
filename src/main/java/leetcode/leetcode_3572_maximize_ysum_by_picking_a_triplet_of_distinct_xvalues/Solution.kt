@@ -1,7 +1,7 @@
-package leetcode.leetcode_3571_find_the_shortest_superstring_ii
+package leetcode.leetcode_3572_maximize_ysum_by_picking_a_triplet_of_distinct_xvalues
 
 /**
- * leetcode - https://leetcode.com/problems/find-the-shortest-superstring-ii/
+ * leetcode -
  *
  * TODO - To revisit
  *

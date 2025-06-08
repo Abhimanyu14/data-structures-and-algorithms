@@ -1,7 +1,7 @@
-package leetcode.leetcode_3571_find_the_shortest_superstring_ii
+package leetcode.leetcode_3574_maximize_subarray_gcd_score
 
 /**
- * leetcode - https://leetcode.com/problems/find-the-shortest-superstring-ii/
+ * leetcode -
  *
  * TODO - To revisit
  *

@@ -17853,5 +17853,25 @@
     "frontendQuestionId": "3571",
     "title": "Find the Shortest Superstring II",
     "titleSlug": "find-the-shortest-superstring-ii"
+  },
+  {
+    "frontendQuestionId": "3572",
+    "title": "Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values",
+    "titleSlug": "maximize-ysum-by-picking-a-triplet-of-distinct-xvalues"
+  },
+  {
+    "frontendQuestionId": "3573",
+    "title": "Best Time to Buy and Sell Stock V",
+    "titleSlug": "best-time-to-buy-and-sell-stock-v"
+  },
+  {
+    "frontendQuestionId": "3574",
+    "title": "Maximize Subarray GCD Score",
+    "titleSlug": "maximize-subarray-gcd-score"
+  },
+  {
+    "frontendQuestionId": "3575",
+    "title": "Maximum Good Subtree Score",
+    "titleSlug": "maximum-good-subtree-score"
   }
 ]

@@ -6,47 +6,44 @@ package leetcode.leetcode_489_robot_room_cleaner
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure -
- * Algorithm -
+ * Data Structure - Grid
+ * Algorithm - Backtracking (Recursion)
  *
  * Difficulty - Hard
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(M*N)
+ * Space - O(1)
  *
- * Companies - Meta
+ * Companies - Amazon, Google, Meta, Microsoft
  */
 private fun cleanRoom(robot: Robot) {
-    val directions = arrayOf(Pair(-1, 0), Pair(0, 1), Pair(1, 0), Pair(0, -1))
+    val directions = arrayOf(intArrayOf(-1, 0), intArrayOf(0, 1), intArrayOf(1, 0), intArrayOf(0, -1))
     val visited = mutableSetOf<Pair<Int, Int>>()
-    fun moveBack() {
-        robot.turnRight()
-        robot.turnRight()
-        robot.move()
-        robot.turnRight()
-        robot.turnRight()
+    fun Robot.goBack() {
+        this.turnRight()
+        this.turnRight()
+        this.move()
+        this.turnRight()
+        this.turnRight()
     }
 
-    fun dfs(x: Int, y: Int, directionIndex: Int) {
-        var newDirectionIndex = directionIndex
-        if (!visited.contains(Pair(x, y))) {
-            visited.add(Pair(x, y))
-            robot.clean()
-
-            for (i in 0..3) {
-                if (robot.move()) {
-                    val direction = directions[directionIndex]
-                    dfs(x + direction.first, y + direction.second, directionIndex)
-                }
-                robot.turnRight()
-                newDirectionIndex = (newDirectionIndex + 1) % 4
+    fun backtrack(x: Int, y: Int, direction: Int) {
+        visited.add(Pair(x, y))
+        robot.clean()
+        for (i in 0..3) {
+            val newDirection = (direction + i) % 4
+            val newX = x + directions[newDirection][0]
+            val newY = y + directions[newDirection][1]
+            if (!visited.contains(Pair(newX, newY)) && robot.move()) {
+                backtrack(newX, newY, newDirection)
+                robot.goBack()
             }
+            robot.turnRight()
         }
-        moveBack()
     }
-    dfs(0, 0, 0)
+    backtrack(0, 0, 0)
 }
 
 class Robot {

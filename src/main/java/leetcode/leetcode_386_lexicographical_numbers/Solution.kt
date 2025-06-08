@@ -3,6 +3,38 @@ package leetcode.leetcode_386_lexicographical_numbers
 /**
  * leetcode - https://leetcode.com/problems/lexicographical-numbers/
  *
+ * Data Structure - [List]
+ * Algorithm - Backtracking (Recursion)
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ *
+ * Time - O(N)
+ * Space - O(1)
+ *
+ * Companies - Amazon, Google, Meta, Microsoft
+ */
+private fun lexicalOrder(n: Int): List<Int> {
+    val result = mutableListOf<Int>()
+    fun backtrack(x: Int) {
+        if (x > n) {
+            return
+        }
+        result.add(x)
+        for (i in 0..9) {
+            backtrack(x * 10 + i)
+        }
+    }
+    for (i in 1..9) {
+        backtrack(i)
+    }
+    return result
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/lexicographical-numbers/
+ *
  * TODO(Abhi) - To revisit
  *
  * Using
@@ -16,7 +48,7 @@ package leetcode.leetcode_386_lexicographical_numbers
  *
  * Companies - Meta
  */
-private fun lexicalOrder(n: Int): List<Int> {
+private fun lexicalOrderUsingIteration(n: Int): List<Int> {
     val lexicographicalNumbers: MutableList<Int> = ArrayList()
     var currentNumber = 1
 
