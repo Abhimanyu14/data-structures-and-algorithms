@@ -17873,5 +17873,25 @@
     "frontendQuestionId": "3575",
     "title": "Maximum Good Subtree Score",
     "titleSlug": "maximum-good-subtree-score"
+  },
+  {
+    "frontendQuestionId": "3576",
+    "title": "Transform Array to All Equal Elements",
+    "titleSlug": "transform-array-to-all-equal-elements"
+  },
+  {
+    "frontendQuestionId": "3577",
+    "title": "Count the Number of Computer Unlocking Permutations",
+    "titleSlug": "count-the-number-of-computer-unlocking-permutations"
+  },
+  {
+    "frontendQuestionId": "3578",
+    "title": "Count Partitions With Max-Min Difference at Most K",
+    "titleSlug": "count-partitions-with-max-min-difference-at-most-k"
+  },
+  {
+    "frontendQuestionId": "3579",
+    "title": "Minimum Steps to Convert String with Operations",
+    "titleSlug": "minimum-steps-to-convert-string-with-operations"
   }
 ]
