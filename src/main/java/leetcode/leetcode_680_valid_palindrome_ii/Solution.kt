@@ -42,7 +42,7 @@ private fun validPalindromeUsingRecursion(s: String): Boolean {
         if (deleteCount < 0) {
             return false
         }
-        if (start == end || start > end) {
+        if (start >= end) {
             return true
         }
         if (s[start] == s[end]) {

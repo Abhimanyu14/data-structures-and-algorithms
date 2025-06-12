@@ -22,13 +22,13 @@ private fun validWordAbbreviation(word: String, abbr: String): Boolean {
     var digits: Int
     var wordIndex = 0
     var abbrIndex = 0
-    while (wordIndex < word.length && abbrIndex < abbr.length) {
+    while (wordIndex <= word.lastIndex && abbrIndex <= abbr.lastIndex) {
         if (abbr[abbrIndex].isDigit()) {
-            digits = 0
             if (abbr[abbrIndex].digitToInt() == 0) {
                 return false
             }
-            while (abbrIndex < abbr.length && abbr[abbrIndex].isDigit()) {
+            digits = 0
+            while (abbrIndex <= abbr.lastIndex && abbr[abbrIndex].isDigit()) {
                 digits = (digits * 10) + abbr[abbrIndex].digitToInt()
                 abbrIndex++
             }

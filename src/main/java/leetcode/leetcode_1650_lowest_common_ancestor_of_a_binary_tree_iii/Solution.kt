@@ -11,6 +11,39 @@ package leetcode.leetcode_1650_lowest_common_ancestor_of_a_binary_tree_iii
  *
  * Stats
  *
+ * Time - O(N)
+ * Space - O(N)
+ *
+ * Companies - Meta
+ */
+private fun lowestCommonAncestor(p: Node?, q: Node?): Node? {
+    if (p == null || q == null) {
+        return null
+    }
+    val pAncestors = mutableSetOf<Node>()
+    var current: Node? = p
+    while (current != null) {
+        pAncestors.add(current)
+        current = current.parent
+    }
+    current = q
+    while (!pAncestors.contains(current)) {
+        current = current?.parent
+    }
+    return current
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/description/?envType=company&envId=facebook&favoriteSlug=facebook-thirty-days
+ * Premium Question
+ *
+ * Data Structure - Tree
+ * Algorithm - Tree traversal
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ *
  * Time - O(N ^ 2)
  * Space - O(N)
  *
@@ -22,7 +55,8 @@ private class Node(var `val`: Int) {
     var parent: Node? = null
 }
 
-private fun lowestCommonAncestor(p: Node?, q: Node?): Node? {
+
+private fun lowestCommonAncestorUsingRecursion(p: Node?, q: Node?): Node? {
     if (p == null || q == null) {
         return null
     }
@@ -62,26 +96,6 @@ private fun lowestCommonAncestor(p: Node?, q: Node?): Node? {
         }
         current = parent
         parent = current.parent
-    }
-    return null
-}
-
-private fun lowestCommonAncestorUsingSingleSet(p: Node?, q: Node?): Node? {
-    if (p == null || q == null) {
-        return null
-    }
-    val ancestorsOfP = mutableSetOf<Node>()
-    var current: Node? = p
-    while (current != null) {
-        ancestorsOfP.add(current)
-        current = current.parent
-    }
-    current = q
-    while (current != null) {
-        if (ancestorsOfP.contains(current)) {
-            return current
-        }
-        current = current.parent
     }
     return null
 }

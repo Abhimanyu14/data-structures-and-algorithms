@@ -7,7 +7,7 @@ import data_structures.TreeNode
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure -
+ * Data Structure - Tree
  * Algorithm -
  *
  * Difficulty - Medium
@@ -25,32 +25,28 @@ private fun lowestCommonAncestor(root: TreeNode?, p: TreeNode?, q: TreeNode?): T
     if (root == null || p == null || q == null) {
         return null
     }
-    fun find(current: TreeNode): Triple<Boolean, Boolean, TreeNode?> {
+    fun find(current: TreeNode): Triple<TreeNode?, Boolean, Boolean> {
         val left = current.left?.let {
             find(it)
-        } ?: Triple(false, false, null)
-        if (left.third != null) {
+        } ?: Triple(null, false, false)
+        if (left.first != null) {
             return left
         }
         val right = current.right?.let {
             find(it)
-        } ?: Triple(false, false, null)
-        if (right.third != null) {
+        } ?: Triple(null, false, false)
+        if (right.first != null) {
             return right
         }
-        val foundP = current == p || left.first || right.first
-        val foundQ = current == q || left.second || right.second
+        val foundP = current == p || left.second || right.second
+        val foundQ = current == q || left.third || right.third
         return if (foundP && foundQ) {
-            Triple(true, true, current)
-        } else if (foundP) {
-            Triple(true, false, null)
-        } else if (foundQ) {
-            Triple(false, true, null)
+            Triple(current, true, true)
         } else {
-            Triple(false, false, null)
+            Triple(null, foundP, foundQ)
         }
     }
-    return find(root).third
+    return find(root).first
 }
 
 private fun findNodePath(root: TreeNode?, p: TreeNode?, q: TreeNode?): TreeNode? {

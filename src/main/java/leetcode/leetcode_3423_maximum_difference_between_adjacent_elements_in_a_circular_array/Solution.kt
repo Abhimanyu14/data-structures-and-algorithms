@@ -1,22 +1,31 @@
 package leetcode.leetcode_3423_maximum_difference_between_adjacent_elements_in_a_circular_array
 
+import kotlin.math.abs
+import kotlin.math.max
+
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/description/?envType=daily-question&envId=2025-06-12
  *
- * TODO - To revisit
+ * Data Structure - NA
+ * Algorithm - Iteration
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
  *
  * Companies -
  */
+private fun maxAdjacentDistance(nums: IntArray): Int {
+    var result = abs(nums.last() - nums.first())
+    for (i in 1..nums.lastIndex) {
+        result = max(result, abs(nums[i] - nums[i - 1]))
+    }
+    return result
+}
+
 private fun main() {
 
 }
