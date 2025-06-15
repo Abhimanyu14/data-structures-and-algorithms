@@ -5,8 +5,8 @@ package leetcode.leetcode_825_friends_of_appropriate_ages
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure -
- * Algorithm -
+ * Data Structure - [IntArray]
+ * Algorithm - Counting, Iteration
  *
  * Difficulty - Medium
  *
@@ -18,24 +18,20 @@ package leetcode.leetcode_825_friends_of_appropriate_ages
  * Companies - Meta, Microsoft
  */
 private fun numFriendRequests(ages: IntArray): Int {
-    val sortedAges = ages.filter { it >= 15 }.sorted()
-    fun findIndex(age: Int): Int {
-        var left = 0
-        var right = sortedAges.lastIndex
-        while (left < right) {
-            val mid = left + (right - left) / 2
-            if (sortedAges[mid].toDouble() > age * 0.5 + 8) {
-                right = mid
-            } else {
-                left = mid + 1
-            }
-        }
-        return left
-    }
-
     var result = 0
-    for (i in sortedAges.indices) {
-        result += (i - findIndex(sortedAges[i]) - 1)
+    val counter = IntArray(121)
+    for (age in ages) {
+        counter[age]++
+    }
+    for (ageX in 15..counter.lastIndex) {
+        if (counter[ageX] == 0) {
+            continue
+        }
+        val minAgeY = (0.5 * ageX + 7).toInt()
+        result += counter[ageX] * (counter[ageX] - 1)
+        for (yAge in (minAgeY + 1)..<ageX) {
+            result += counter[ageX] * counter[yAge]
+        }
     }
     return result
 }
