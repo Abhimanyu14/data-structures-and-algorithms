@@ -17898,5 +17898,35 @@
     "frontendQuestionId": "3580",
     "title": "Find Consistently Improving Employees",
     "titleSlug": "find-consistently-improving-employees"
+  },
+  {
+    "frontendQuestionId": "3581",
+    "title": "Count Odd Letters from Number",
+    "titleSlug": "count-odd-letters-from-number"
+  },
+  {
+    "frontendQuestionId": "3582",
+    "title": "Generate Tag for Video Caption",
+    "titleSlug": "generate-tag-for-video-caption"
+  },
+  {
+    "frontendQuestionId": "3583",
+    "title": "Count Special Triplets",
+    "titleSlug": "count-special-triplets"
+  },
+  {
+    "frontendQuestionId": "3584",
+    "title": "Maximum Product of First and Last Elements of a Subsequence",
+    "titleSlug": "maximum-product-of-first-and-last-elements-of-a-subsequence"
+  },
+  {
+    "frontendQuestionId": "3585",
+    "title": "Find Weighted Median Node in Tree",
+    "titleSlug": "find-weighted-median-node-in-tree"
+  },
+  {
+    "frontendQuestionId": "3586",
+    "title": "Find COVID Recovery Patients",
+    "titleSlug": "find-covid-recovery-patients"
   }
 ]
