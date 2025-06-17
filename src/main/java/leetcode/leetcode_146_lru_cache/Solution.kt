@@ -28,8 +28,74 @@ private class DoublyLinkedListNode(
     var next: DoublyLinkedListNode? = null,
 )
 
-// List ordering - Least Recently used at first
 private class LRUCache(capacity: Int) {
+    private val cache = mutableMapOf<Int, DoublyLinkedListNode>()
+    private val maxCacheSize = capacity
+    private var start: DoublyLinkedListNode? = null
+    private var end: DoublyLinkedListNode? = null
+
+    fun get(key: Int): Int {
+        val node = cache[key] ?: return -1
+        moveNodeToEnd(node)
+        return node.value
+    }
+
+    fun put(key: Int, value: Int) {
+        if (cache.contains(key)) {
+            val node = cache[key] ?: return
+            node.value = value
+            moveNodeToEnd(node)
+        } else {
+            if (cache.size == maxCacheSize) {
+                removeStartNode()
+            }
+            addNodeToEnd(DoublyLinkedListNode(key, value))
+        }
+    }
+
+    private fun addNodeToEnd(node: DoublyLinkedListNode) {
+        cache[node.key] = node
+        node.prev = end
+        node.next = null
+        end?.next = node
+        end = node
+        if (start == null) {
+            start = node
+        }
+    }
+
+    private fun moveNodeToEnd(node: DoublyLinkedListNode) {
+        if (node != end) {
+            removeGivenNode(node)
+            addNodeToEnd(node)
+        }
+    }
+
+    private fun removeGivenNode(node: DoublyLinkedListNode) {
+        when (node) {
+            start -> removeStartNode()
+            else -> {
+                cache.remove(node.key)
+                node.prev?.next = node.next
+                node.next?.prev = node.prev
+            }
+        }
+    }
+
+    private fun removeStartNode() {
+        start?.key?.let {
+            cache.remove(it)
+        }
+        start = start?.next
+        start?.prev = null
+        if (start == null) {
+            end = null
+        }
+    }
+}
+
+// List ordering - Least Recently used at first
+private class LRUCacheWithAllOperations(capacity: Int) {
     private val cache = mutableMapOf<Int, DoublyLinkedListNode>()
     private val maxCacheSize = capacity
     private var start: DoublyLinkedListNode? = null

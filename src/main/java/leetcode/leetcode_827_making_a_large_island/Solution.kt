@@ -22,7 +22,9 @@ import kotlin.math.max
 private fun largestIsland(grid: Array<IntArray>): Int {
     var result = 0
     var islandNumber = 0
-    val islandNumbers = Array(grid.size) { IntArray(grid[0].size) }
+    val islandNumbers = Array(grid.size) {
+        IntArray(grid[0].size)
+    }
 
     fun getIslandSize(x: Int, y: Int): Int {
         islandNumbers[x][y] = islandNumber

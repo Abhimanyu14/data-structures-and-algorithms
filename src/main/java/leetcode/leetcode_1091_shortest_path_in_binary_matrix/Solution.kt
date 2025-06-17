@@ -3,7 +3,7 @@ package leetcode.leetcode_1091_shortest_path_in_binary_matrix
 /**
  * leetcode - https://leetcode.com/problems/shortest-path-in-binary-matrix/description/
  *
- * Data Structure - Graph (2D Array)
+ * Data Structure - Grid, Graph (2D Array)
  * Algorithm - BFS
  *
  * Difficulty - Medium
@@ -13,7 +13,7 @@ package leetcode.leetcode_1091_shortest_path_in_binary_matrix
  * Time - O(N)
  * Space - O(N)
  *
- * Companies - Meta
+ * Companies - Amazon, Google, Meta, Microsoft
  */
 private fun shortestPathBinaryMatrix(grid: Array<IntArray>): Int {
     if (grid[0][0] == 1 || grid[grid.lastIndex][grid[0].lastIndex] == 1) {
@@ -25,41 +25,12 @@ private fun shortestPathBinaryMatrix(grid: Array<IntArray>): Int {
     val visited = Array(grid.size) {
         BooleanArray(grid[0].size)
     }
+    val directions = arrayOf(
+        intArrayOf(1, 1), intArrayOf(0, 1), intArrayOf(-1, 1), intArrayOf(-1, 0),
+        intArrayOf(-1, -1), intArrayOf(0, -1), intArrayOf(1, -1), intArrayOf(1, 0),
+    )
 
-    fun getAdjacentPoints(x: Int, y: Int): List<Pair<Int, Int>> {
-        val result = mutableListOf<Pair<Int, Int>>()
-        if (x > 0) {
-            if (y > 0 && grid[x - 1][y - 1] == 0 && !visited[x - 1][y - 1]) {
-                result.add(Pair(x - 1, y - 1))
-            }
-            if (grid[x - 1][y] == 0 && !visited[x - 1][y]) {
-                result.add(Pair(x - 1, y))
-            }
-            if (y < grid[0].lastIndex && grid[x - 1][y + 1] == 0 && !visited[x - 1][y + 1]) {
-                result.add(Pair(x - 1, y + 1))
-            }
-        }
-        if (y > 0 && grid[x][y - 1] == 0 && !visited[x][y - 1]) {
-            result.add(Pair(x, y - 1))
-        }
-        if (y < grid[0].lastIndex && grid[x][y + 1] == 0 && !visited[x][y + 1]) {
-            result.add(Pair(x, y + 1))
-        }
-        if (x < grid.lastIndex) {
-            if (y > 0 && grid[x + 1][y - 1] == 0 && !visited[x + 1][y - 1]) {
-                result.add(Pair(x + 1, y - 1))
-            }
-            if (grid[x + 1][y] == 0 && !visited[x + 1][y]) {
-                result.add(Pair(x + 1, y))
-            }
-            if (y < grid[0].lastIndex && grid[x + 1][y + 1] == 0 && !visited[x + 1][y + 1]) {
-                result.add(Pair(x + 1, y + 1))
-            }
-        }
-        return result
-    }
-
-    val queue = ArrayDeque<Triple<Int, Int, Int>>()
+    val queue = ArrayDeque<Triple<Int, Int, Int>>() // x, y, distance
     queue.addLast(Triple(0, 0, 1))
     while (queue.isNotEmpty()) {
         val (x, y, distance) = queue.removeFirst()
@@ -67,11 +38,17 @@ private fun shortestPathBinaryMatrix(grid: Array<IntArray>): Int {
             continue
         }
         visited[x][y] = true
-        getAdjacentPoints(x, y).forEach { (x1, y1) ->
-            if (x1 == grid.lastIndex && y1 == grid[0].lastIndex) {
+        for ((x1, y1) in directions) {
+            if ((x + x1) == grid.lastIndex && (y + y1) == grid[0].lastIndex) {
                 return distance + 1
             }
-            queue.add(Triple(x1, y1, distance + 1))
+            if ((x + x1) in 0..grid.lastIndex &&
+                (y + y1) in 0..grid[0].lastIndex &&
+                !visited[x + x1][y + y1] &&
+                grid[x + x1][y + y1] == 0
+            ) {
+                queue.add(Triple(x + x1, y + y1, distance + 1))
+            }
         }
     }
     return -1

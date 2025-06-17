@@ -19,14 +19,13 @@ package leetcode.leetcode_498_diagonal_traverse
  */
 private fun findDiagonalOrder(mat: Array<IntArray>): IntArray {
     val result = IntArray(mat.size * mat[0].size)
-    var insertIndex = 0
     var x = 0
     var y = 0
     var isMovingUp = true
-    while (insertIndex <= result.lastIndex) {
-        result[insertIndex] = mat[x][y]
+    for (i in 0..result.lastIndex) {
+        result[i] = mat[x][y]
         if (isMovingUp) {
-            if (x > 0 && y < mat[0].lastIndex) { // move right top
+            if (x > 0 && y < mat[0].lastIndex) { // move top right
                 x--
                 y++
             } else {
@@ -50,7 +49,6 @@ private fun findDiagonalOrder(mat: Array<IntArray>): IntArray {
                 }
             }
         }
-        insertIndex++
     }
     return result
 }

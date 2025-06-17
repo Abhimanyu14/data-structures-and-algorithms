@@ -27,16 +27,14 @@ private class Solution(w: IntArray) {
     private val prefixSum = IntArray(w.size)
 
     init {
-        var currentSum = 0
-        for (i in w.indices) {
-            currentSum += w[i]
-            prefixSum[i] = currentSum
+        prefixSum[0] = w[0]
+        for (i in 1..w.lastIndex) {
+            prefixSum[i] = prefixSum[i - 1] + w[i]
         }
     }
 
     fun pickIndex(): Int {
         val random = Random.nextInt(prefixSum.last())
-
         var left = 0
         var right = prefixSum.lastIndex
         while (left < right) {

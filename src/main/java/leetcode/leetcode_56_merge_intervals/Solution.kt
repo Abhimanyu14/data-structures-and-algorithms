@@ -24,16 +24,16 @@ import kotlin.math.max
 private fun merge(intervals: Array<IntArray>): Array<IntArray> {
     val result = mutableListOf<IntArray>()
     val sortedIntervals = intervals.sortedBy { it[0] }
-    var current = sortedIntervals[0]
+    var currentInterval = sortedIntervals[0]
     for (i in 1..sortedIntervals.lastIndex) {
-        if (sortedIntervals[i][0] <= current[1]) {
-            current = intArrayOf(current[0], max(current[1], sortedIntervals[i][1]))
+        if (sortedIntervals[i][0] <= currentInterval[1]) {
+            currentInterval = intArrayOf(currentInterval[0], max(currentInterval[1], sortedIntervals[i][1]))
         } else {
-            result.add(current)
-            current = sortedIntervals[i]
+            result.add(currentInterval)
+            currentInterval = sortedIntervals[i]
         }
     }
-    result.add(current)
+    result.add(currentInterval)
     return result.toTypedArray()
 }
 

@@ -1,6 +1,45 @@
 package leetcode.leetcode_347_top_k_frequent_elements
 
+import java.util.PriorityQueue
 import java.util.TreeMap
+
+/**
+ * leetcode - https://leetcode.com/problems/top-k-frequent-elements/
+ *
+ * Data Structure - [Map], [PriorityQueue]
+ * Algorithm - Counting, MinHeap
+ *
+ * Difficulty - Medium
+ *
+ * Stats
+ * Runtime: 28 ms, faster than 72.44%
+ * Memory Usage: 41.3 MB, less than 79.97%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
+ */
+private fun topKFrequent(nums: IntArray, k: Int): IntArray {
+    val counter = mutableMapOf<Int, Int>()
+    for (num in nums) {
+        counter[num] = counter.getOrDefault(num, 0) + 1
+    }
+    val minHeap = PriorityQueue<Pair<Int, Int>> { a, b ->
+        a.first - b.first
+    }
+    for ((key, value) in counter) {
+        minHeap.offer(Pair(value, key))
+        if (minHeap.size > k) {
+            minHeap.poll()
+        }
+    }
+    val result = mutableListOf<Int>()
+    while (minHeap.isNotEmpty()) {
+        result.add(minHeap.poll().second)
+    }
+    return result.toIntArray()
+}
 
 /**
  * leetcode - https://leetcode.com/problems/top-k-frequent-elements/
@@ -8,8 +47,8 @@ import java.util.TreeMap
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure - Map
- * Algorithm - Sorting
+ * Data Structure - [Map]
+ * Algorithm - Counting, MinHeap
  *
  * Difficulty - Medium
  *
@@ -22,7 +61,7 @@ import java.util.TreeMap
  *
  * Companies - Meta
  */
-private fun topKFrequent(nums: IntArray, k: Int): IntArray {
+private fun topKFrequentUsingFunctional(nums: IntArray, k: Int): IntArray {
     val frequencyCounter = mutableMapOf<Int, Int>()
     nums.forEach {
         frequencyCounter[it] = frequencyCounter.getOrDefault(it, 0) + 1

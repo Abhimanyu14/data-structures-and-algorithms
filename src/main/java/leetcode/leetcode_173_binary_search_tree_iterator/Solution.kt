@@ -20,40 +20,29 @@ import data_structures.TreeNode
  * Companies - Meta
  */
 private class BSTIterator(root: TreeNode?) {
-    private var currentNode = root
-    private val stack = ArrayDeque<TreeNode>()
+    val stack = ArrayDeque<TreeNode>()
 
     init {
-        while (currentNode?.left != null) {
-            currentNode?.let {
-                stack.addLast(it)
-            }
-            currentNode = currentNode?.left
+        var current: TreeNode? = root
+        while (current != null) {
+            stack.addLast(current)
+            current = current.left
         }
     }
 
     fun next(): Int {
-        val result = currentNode?.`val` ?: -1
-        if (currentNode?.right != null) {
-            currentNode = currentNode?.right
-            while (currentNode?.left != null) {
-                currentNode?.let {
-                    stack.addLast(it)
-                }
-                currentNode = currentNode?.left
-            }
-        } else {
-            currentNode = if (stack.isNotEmpty()) {
-                stack.removeLast()
-            } else {
-                null
-            }
+        val result = stack.removeLast()
+        var current: TreeNode? = result
+        current = current?.right
+        while (current != null) {
+            stack.addLast(current)
+            current = current.left
         }
-        return result
+        return result.`val`
     }
 
     fun hasNext(): Boolean {
-        return currentNode != null
+        return stack.isNotEmpty()
     }
 }
 
