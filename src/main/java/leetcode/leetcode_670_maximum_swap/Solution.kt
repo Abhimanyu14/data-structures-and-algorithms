@@ -1,42 +1,43 @@
 package leetcode.leetcode_670_maximum_swap
 
-import kotlin.math.log2
-
 /**
  * leetcode - https://leetcode.com/problems/maximum-swap/
  *
  * TODO(Abhi) - To revisit
  *
- * Using greedy
+ * Data Structure -
+ * Algorithm - Greedy
+ *
+ * Difficulty -
  *
  * Stats
- * Runtime: 149 ms, faster than 41.49%
- * Memory Usage: 33.3 MB, less than 79.79%
+ *
+ * Time -
+ * Space -
+ *
+ * Companies - Amazon, Apple, Google, Meta, Microsoft
  */
 private fun maximumSwap(num: Int): Int {
-    val list = Array(log2 (num.toDouble()).toInt() + 1) { Pair(0,0) }
-    val numArray = num.toString().toCharArray()
-    var index = numArray.lastIndex
-    var largestSoFar = numArray[index].digitToInt()
-    var largestIndex = index
-    list[index] = Pair(largestSoFar, largestIndex)
-    index--
-    while (index >= 0) {
-        if (largestSoFar <= numArray[index].digitToInt()) {
-            largestSoFar = numArray[index].digitToInt()
-            largestIndex = index
-        }
-        list[index] = Pair(largestSoFar, largestIndex)
-        index--
-    }
-    for (i in 0..<numArray.lastIndex) {
-        if (list[i].second != i) {
-            numArray[i] = numArray[list[i].second].also {
-                numArray[list[i].second] = numArray[i]
-            }
+    val digits = num.toString().toCharArray()
+    var largestDigitIndex = digits.lastIndex
+    var canSwap = false
+    var swapFrom = 0
+    var swapTo = 0
+    for (i in (digits.lastIndex - 1) downTo 0) {
+        if (digits[largestDigitIndex].digitToInt() < digits[i].digitToInt()) {
+            largestDigitIndex = i
+        } else if (digits[largestDigitIndex].digitToInt() > digits[i].digitToInt()) {
+            swapFrom = largestDigitIndex
+            swapTo = i
+            canSwap = true
         }
     }
-    return numArray.joinToString().toInt()
+    if (canSwap) {
+        digits[swapFrom] = digits[swapTo].also {
+            digits[swapTo] = digits[swapFrom]
+        }
+    }
+    return digits.joinToString("").toInt()
 }
 
 private fun maximumSwap1(num: Int): Int {

@@ -23,13 +23,12 @@ private class Node(var `val`: Int) {
 }
 
 private fun insert(head: Node?, insertVal: Int): Node? {
+    val newNode = Node(insertVal)
     if (head == null) {
-        val newHead = Node(insertVal)
-        newHead.next = newHead
-        return newHead
+        newNode.next = newNode
+        return newNode
     }
     if (head.next == head) {
-        val newNode = Node(insertVal)
         newNode.next = head
         head.next = newNode
         return head
@@ -43,7 +42,6 @@ private fun insert(head: Node?, insertVal: Int): Node? {
     ) {
         current = current.next!!
     }
-    val newNode = Node(insertVal)
     newNode.next = current.next
     current.next = newNode
     return head

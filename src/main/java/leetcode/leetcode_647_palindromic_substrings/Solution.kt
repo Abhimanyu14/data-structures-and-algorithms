@@ -5,7 +5,7 @@ package leetcode.leetcode_647_palindromic_substrings
  *
  * TODO(Abhi) - To revisit
  *
- * Data Structure -
+ * Data Structure - NA
  * Algorithm - Iteration
  *
  * Difficulty - Medium
@@ -18,6 +18,7 @@ package leetcode.leetcode_647_palindromic_substrings
  * Companies - Meta
  */
 private fun countSubstrings(s: String): Int {
+    var result = 0
     fun getCount(start: Int, end: Int): Int {
         var count = 0
         var left = start
@@ -29,7 +30,6 @@ private fun countSubstrings(s: String): Int {
         }
         return count
     }
-    var result = 0
     for (i in s.indices) {
         result += getCount(i, i) + getCount(i, i + 1)
     }
@@ -63,6 +63,7 @@ private fun countSubstringsUsingRecursion(s: String): Int {
         }
         return 1 + getCount(left - 1, right + 1)
     }
+
     var result = 0
     for (i in 0..<s.lastIndex) {
         result += getCount(i, i)
