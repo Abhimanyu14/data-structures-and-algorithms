@@ -1,7 +1,7 @@
 package leetcode.leetcode_3330_find_the_original_typed_string_i
 
 /**
- * leetcode - https://leetcode.com/problems/find-the-encrypted-string/
+ * leetcode - https://leetcode.com/problems/find-the-original-typed-string-i
  *
  * Data Structure - NA
  * Algorithm - Counting and Iteration
@@ -14,15 +14,15 @@ package leetcode.leetcode_3330_find_the_original_typed_string_i
  *
  * Time - O(N)
  * Space - O(1)
+ *
+ * Companies -
  */
 private fun possibleStringCount(word: String): Int {
     var result = 1
-    var prev = word[0]
     for (i in 1..word.lastIndex) {
-        if (word[i] == prev) {
+        if (word[i] == word[i - 1]) {
             result++
         }
-        prev = word[i]
     }
     return result
 }
