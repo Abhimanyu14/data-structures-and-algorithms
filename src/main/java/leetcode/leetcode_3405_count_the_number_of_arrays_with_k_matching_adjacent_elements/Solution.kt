@@ -5,7 +5,7 @@ import kotlin.math.pow
 /**
  * leetcode - https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/?envType=daily-question&envId=2025-06-17
  *
- * TODO - To revisit
+ * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm - Backtracking (Recursion)

@@ -18078,5 +18078,10 @@
     "frontendQuestionId": "3616",
     "title": "Number of Student Replacements",
     "titleSlug": "number-of-student-replacements"
+  },
+  {
+    "frontendQuestionId": "3617",
+    "title": "Find Students with Study Spiral Pattern",
+    "titleSlug": "find-students-with-study-spiral-pattern"
   }
 ]

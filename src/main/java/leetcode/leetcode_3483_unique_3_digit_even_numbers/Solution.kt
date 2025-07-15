@@ -3,7 +3,7 @@ package leetcode.leetcode_3483_unique_3_digit_even_numbers
 /**
  * leetcode - https://leetcode.com/problems/unique-3-digit-even-numbers/description/
  *
- * TODO - To revisit
+ * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
@@ -15,7 +15,7 @@ package leetcode.leetcode_3483_unique_3_digit_even_numbers
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Amazon, Google
  */
 private fun main() {
 

@@ -6,7 +6,7 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/separate-squares-i/description/?envType=company&envId=google&favoriteSlug=google-thirty-days
  *
- * TODO - To revisit
+ * TODO(Abhi) - To revisit
  *
  * Data Structure - Two Pointers
  * Algorithm - Binary Search

@@ -6,7 +6,7 @@ import kotlin.math.max
 /**
  * leetcode - https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/
  *
- * TODO - To revisit
+ * TODO(Abhi) - To revisit
  *
  * Data Structure - [PriorityQueue], [Array] and [List]
  * Algorithm - Dijkstra
