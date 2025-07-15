@@ -21,6 +21,39 @@ private fun isValid(word: String): Boolean {
     var hasVowel = false
     var hasConsonant = false
     val vowels = setOf('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')
+    for (char in word) {
+        if (char in vowels) {
+            hasVowel = true
+        } else if (char.isLetter()) {
+            hasConsonant = true
+        } else if (!char.isDigit()) {
+            return false
+        }
+    }
+    return hasVowel && hasConsonant
+}
+
+/**
+ * leetcode - https://leetcode.com/problems/valid-word/
+ *
+ * Using iteration and set
+ *
+ * Difficulty - Easy
+ *
+ * Stats
+ * Runtime: 25 ms, faster than 30.77%
+ * Memory Usage: 37.9 MB, less than 33.33%
+ *
+ * Time -
+ * Space -
+ */
+private fun isValidUsingCharChecks(word: String): Boolean {
+    if (word.length < 3) {
+        return false
+    }
+    var hasVowel = false
+    var hasConsonant = false
+    val vowels = setOf('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')
 
     for (char in word) {
         if (char !in '0'..'9' && char !in 'a'..'z' && char !in 'A'..'Z') {

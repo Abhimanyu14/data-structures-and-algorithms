@@ -17928,5 +17928,155 @@
     "frontendQuestionId": "3586",
     "title": "Find COVID Recovery Patients",
     "titleSlug": "find-covid-recovery-patients"
+  },
+  {
+    "frontendQuestionId": "3587",
+    "title": "Minimum Adjacent Swaps to Alternate Parity",
+    "titleSlug": "minimum-adjacent-swaps-to-alternate-parity"
+  },
+  {
+    "frontendQuestionId": "3588",
+    "title": "Find Maximum Area of a Triangle",
+    "titleSlug": "find-maximum-area-of-a-triangle"
+  },
+  {
+    "frontendQuestionId": "3589",
+    "title": "Count Prime-Gap Balanced Subarrays",
+    "titleSlug": "count-prime-gap-balanced-subarrays"
+  },
+  {
+    "frontendQuestionId": "3590",
+    "title": "Kth Smallest Path XOR Sum",
+    "titleSlug": "kth-smallest-path-xor-sum"
+  },
+  {
+    "frontendQuestionId": "3591",
+    "title": "Check if Any Element Has Prime Frequency",
+    "titleSlug": "check-if-any-element-has-prime-frequency"
+  },
+  {
+    "frontendQuestionId": "3592",
+    "title": "Inverse Coin Change",
+    "titleSlug": "inverse-coin-change"
+  },
+  {
+    "frontendQuestionId": "3593",
+    "title": "Minimum Increments to Equalize Leaf Paths",
+    "titleSlug": "minimum-increments-to-equalize-leaf-paths"
+  },
+  {
+    "frontendQuestionId": "3594",
+    "title": "Minimum Time to Transport All Individuals",
+    "titleSlug": "minimum-time-to-transport-all-individuals"
+  },
+  {
+    "frontendQuestionId": "3595",
+    "title": "Once Twice",
+    "titleSlug": "once-twice"
+  },
+  {
+    "frontendQuestionId": "3596",
+    "title": "Minimum Cost Path with Alternating Directions I",
+    "titleSlug": "minimum-cost-path-with-alternating-directions-i"
+  },
+  {
+    "frontendQuestionId": "3597",
+    "title": "Partition String ",
+    "titleSlug": "partition-string"
+  },
+  {
+    "frontendQuestionId": "3598",
+    "title": "Longest Common Prefix Between Adjacent Strings After Removals",
+    "titleSlug": "longest-common-prefix-between-adjacent-strings-after-removals"
+  },
+  {
+    "frontendQuestionId": "3599",
+    "title": "Partition Array to Minimize XOR",
+    "titleSlug": "partition-array-to-minimize-xor"
+  },
+  {
+    "frontendQuestionId": "3600",
+    "title": "Maximize Spanning Tree Stability with Upgrades",
+    "titleSlug": "maximize-spanning-tree-stability-with-upgrades"
+  },
+  {
+    "frontendQuestionId": "3601",
+    "title": "Find Drivers with Improved Fuel Efficiency",
+    "titleSlug": "find-drivers-with-improved-fuel-efficiency"
+  },
+  {
+    "frontendQuestionId": "3602",
+    "title": "Hexadecimal and Hexatrigesimal Conversion",
+    "titleSlug": "hexadecimal-and-hexatrigesimal-conversion"
+  },
+  {
+    "frontendQuestionId": "3603",
+    "title": "Minimum Cost Path with Alternating Directions II",
+    "titleSlug": "minimum-cost-path-with-alternating-directions-ii"
+  },
+  {
+    "frontendQuestionId": "3604",
+    "title": "Minimum Time to Reach Destination in Directed Graph",
+    "titleSlug": "minimum-time-to-reach-destination-in-directed-graph"
+  },
+  {
+    "frontendQuestionId": "3605",
+    "title": "Minimum Stability Factor of Array",
+    "titleSlug": "minimum-stability-factor-of-array"
+  },
+  {
+    "frontendQuestionId": "3606",
+    "title": "Coupon Code Validator",
+    "titleSlug": "coupon-code-validator"
+  },
+  {
+    "frontendQuestionId": "3607",
+    "title": "Power Grid Maintenance",
+    "titleSlug": "power-grid-maintenance"
+  },
+  {
+    "frontendQuestionId": "3608",
+    "title": "Minimum Time for K Connected Components",
+    "titleSlug": "minimum-time-for-k-connected-components"
+  },
+  {
+    "frontendQuestionId": "3609",
+    "title": "Minimum Moves to Reach Target in Grid",
+    "titleSlug": "minimum-moves-to-reach-target-in-grid"
+  },
+  {
+    "frontendQuestionId": "3610",
+    "title": "Minimum Number of Primes to Sum to Target",
+    "titleSlug": "minimum-number-of-primes-to-sum-to-target"
+  },
+  {
+    "frontendQuestionId": "3611",
+    "title": "Find Overbooked Employees",
+    "titleSlug": "find-overbooked-employees"
+  },
+  {
+    "frontendQuestionId": "3612",
+    "title": "Process String with Special Operations I",
+    "titleSlug": "process-string-with-special-operations-i"
+  },
+  {
+    "frontendQuestionId": "3613",
+    "title": "Minimize Maximum Component Cost",
+    "titleSlug": "minimize-maximum-component-cost"
+  },
+  {
+    "frontendQuestionId": "3614",
+    "title": "Process String with Special Operations II",
+    "titleSlug": "process-string-with-special-operations-ii"
+  },
+  {
+    "frontendQuestionId": "3615",
+    "title": "Longest Palindromic Path in Graph",
+    "titleSlug": "longest-palindromic-path-in-graph"
+  },
+  {
+    "frontendQuestionId": "3616",
+    "title": "Number of Student Replacements",
+    "titleSlug": "number-of-student-replacements"
   }
 ]

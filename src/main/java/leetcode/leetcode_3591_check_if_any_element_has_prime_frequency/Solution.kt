@@ -1,0 +1,22 @@
+package leetcode.leetcode_3591_check_if_any_element_has_prime_frequency
+
+/**
+ * leetcode -
+ *
+ * TODO - To revisit
+ *
+ * Data Structure -
+ * Algorithm -
+ *
+ * Difficulty -
+ *
+ * Stats
+ *
+ * Time -
+ * Space -
+ *
+ * Companies -
+ */
+private fun main() {
+
+}
