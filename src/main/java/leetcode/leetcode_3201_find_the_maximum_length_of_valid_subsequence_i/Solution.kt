@@ -1,7 +1,7 @@
 package leetcode.leetcode_3201_find_the_maximum_length_of_valid_subsequence_i
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/description/?envType=daily-question&envId=2025-07-16
  *
  * TODO(Abhi) - To revisit
  *
@@ -15,7 +15,7 @@ package leetcode.leetcode_3201_find_the_maximum_length_of_valid_subsequence_i
  * Time -
  * Space -
  *
- * Companies -
+ * Companies - Google
  */
 private fun main() {
 
