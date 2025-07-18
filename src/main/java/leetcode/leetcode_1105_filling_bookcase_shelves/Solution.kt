@@ -8,43 +8,33 @@ import kotlin.math.min
  *
  * TODO(Abhi) - To revisit
  *
- * Using
+ * Data Structure - [IntArray]
+ * Algorithm - Dynamic Programming - Tabulation
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N ^ 2)
+ * Space - O(N)
+ *
+ * Companies - Amazon, Google
  */
 private fun minHeightShelves(books: Array<IntArray>, shelfWidth: Int): Int {
-    // dp[i] = minimum height of bookcase containing all books up to and
-    // excluding book i
     val dp = IntArray(books.size + 1)
-
-    // base cases
     dp[0] = 0
     dp[1] = books[0][1]
-
-    for (i in 2..books.size) {
-        // new shelf built to hold current book
-        var remainingShelfWidth = shelfWidth - books[i - 1][0]
-        var maxHeight = books[i - 1][1]
-        dp[i] = books[i - 1][1] + dp[i - 1]
-
-        var j = i - 1
-        // calculate the height when previous books are added onto a new shelf
-        while (j > 0 && remainingShelfWidth - books[j - 1][0] >= 0) {
-            maxHeight = max(maxHeight.toDouble(), books[j - 1][1].toDouble()).toInt()
-            remainingShelfWidth -= books[j - 1][0]
-            dp[i] = min(dp[i].toDouble(), (maxHeight + dp[j - 1]).toDouble()).toInt()
-            j--
+    for (bookIndex in 2..books.size) {
+        var remainingShelfWidth = shelfWidth - books[bookIndex - 1][0]
+        var maxHeight = books[bookIndex - 1][1]
+        dp[bookIndex] = maxHeight + dp[bookIndex - 1]
+        var previousBookIndex = bookIndex - 1
+        while (previousBookIndex > 0 && remainingShelfWidth - books[previousBookIndex - 1][0] >= 0) {
+            maxHeight = max(maxHeight, books[previousBookIndex - 1][1])
+            dp[bookIndex] = min(dp[bookIndex], (maxHeight + dp[previousBookIndex - 1]))
+            remainingShelfWidth -= books[previousBookIndex - 1][0]
+            previousBookIndex--
         }
     }
-
     return dp[books.size]
-}
-
-private fun main() {
-
 }
