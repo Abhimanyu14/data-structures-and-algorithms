@@ -3,16 +3,17 @@ package leetcode.leetcode_1957_delete_characters_to_make_fancy_string
 /**
  * leetcode - https://leetcode.com/problems/delete-characters-to-make-fancy-string/?envType=daily-question&envId=2024-11-01
  *
- * TODO(Abhi) - To revisit
- *
- * Using String builder
+ * Data Structure - [StringBuilder]
+ * Algorithm - Iteration
  *
  * Difficulty - Easy
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(N)
+ *
+ * Companies - Google, Microsoft
  */
 private fun makeFancyString(s: String): String {
     val result = StringBuilder()
