@@ -18083,5 +18083,50 @@
     "frontendQuestionId": "3617",
     "title": "Find Students with Study Spiral Pattern",
     "titleSlug": "find-students-with-study-spiral-pattern"
+  },
+  {
+    "frontendQuestionId": "3618",
+    "title": "Split Array by Prime Indices",
+    "titleSlug": "split-array-by-prime-indices"
+  },
+  {
+    "frontendQuestionId": "3619",
+    "title": "Count Islands With Total Value Divisible by K",
+    "titleSlug": "count-islands-with-total-value-divisible-by-k"
+  },
+  {
+    "frontendQuestionId": "3620",
+    "title": "Network Recovery Pathways",
+    "titleSlug": "network-recovery-pathways"
+  },
+  {
+    "frontendQuestionId": "3621",
+    "title": "Number of Integers With Popcount-Depth Equal to K I",
+    "titleSlug": "number-of-integers-with-popcount-depth-equal-to-k-i"
+  },
+  {
+    "frontendQuestionId": "3622",
+    "title": "Check Divisibility by Digit Sum and Product",
+    "titleSlug": "check-divisibility-by-digit-sum-and-product"
+  },
+  {
+    "frontendQuestionId": "3623",
+    "title": "Count Number of Trapezoids I",
+    "titleSlug": "count-number-of-trapezoids-i"
+  },
+  {
+    "frontendQuestionId": "3624",
+    "title": "Number of Integers With Popcount-Depth Equal to K II",
+    "titleSlug": "number-of-integers-with-popcount-depth-equal-to-k-ii"
+  },
+  {
+    "frontendQuestionId": "3625",
+    "title": "Count Number of Trapezoids II",
+    "titleSlug": "count-number-of-trapezoids-ii"
+  },
+  {
+    "frontendQuestionId": "3626",
+    "title": "Find Stores with Inventory Imbalance",
+    "titleSlug": "find-stores-with-inventory-imbalance"
   }
 ]
