@@ -18128,5 +18128,30 @@
     "frontendQuestionId": "3626",
     "title": "Find Stores with Inventory Imbalance",
     "titleSlug": "find-stores-with-inventory-imbalance"
+  },
+  {
+    "frontendQuestionId": "3627",
+    "title": "Maximum Median Sum of Subsequences of Size 3",
+    "titleSlug": "maximum-median-sum-of-subsequences-of-size-3"
+  },
+  {
+    "frontendQuestionId": "3628",
+    "title": "Maximum Number of Subsequences After One Inserting",
+    "titleSlug": "maximum-number-of-subsequences-after-one-inserting"
+  },
+  {
+    "frontendQuestionId": "3629",
+    "title": "Minimum Jumps to Reach End via Prime Teleportation",
+    "titleSlug": "minimum-jumps-to-reach-end-via-prime-teleportation"
+  },
+  {
+    "frontendQuestionId": "3630",
+    "title": "Partition Array for Maximum XOR and AND",
+    "titleSlug": "partition-array-for-maximum-xor-and-and"
+  },
+  {
+    "frontendQuestionId": "3631",
+    "title": "Sort Threats by Severity and Exploitability",
+    "titleSlug": "sort-threats-by-severity-and-exploitability"
   }
 ]
