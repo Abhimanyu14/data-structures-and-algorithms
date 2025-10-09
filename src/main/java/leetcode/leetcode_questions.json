@@ -18153,5 +18153,380 @@
     "frontendQuestionId": "3631",
     "title": "Sort Threats by Severity and Exploitability",
     "titleSlug": "sort-threats-by-severity-and-exploitability"
+  },
+  {
+    "frontendQuestionId": "3632",
+    "title": "Subarrays with XOR at Least K",
+    "titleSlug": "subarrays-with-xor-at-least-k"
+  },
+  {
+    "frontendQuestionId": "3633",
+    "title": "Earliest Finish Time for Land and Water Rides I",
+    "titleSlug": "earliest-finish-time-for-land-and-water-rides-i"
+  },
+  {
+    "frontendQuestionId": "3634",
+    "title": "Minimum Removals to Balance Array",
+    "titleSlug": "minimum-removals-to-balance-array"
+  },
+  {
+    "frontendQuestionId": "3635",
+    "title": "Earliest Finish Time for Land and Water Rides II",
+    "titleSlug": "earliest-finish-time-for-land-and-water-rides-ii"
+  },
+  {
+    "frontendQuestionId": "3636",
+    "title": "Threshold Majority Queries",
+    "titleSlug": "threshold-majority-queries"
+  },
+  {
+    "frontendQuestionId": "3637",
+    "title": "Trionic Array I",
+    "titleSlug": "trionic-array-i"
+  },
+  {
+    "frontendQuestionId": "3638",
+    "title": "Maximum Balanced Shipments",
+    "titleSlug": "maximum-balanced-shipments"
+  },
+  {
+    "frontendQuestionId": "3639",
+    "title": "Minimum Time to Activate String",
+    "titleSlug": "minimum-time-to-activate-string"
+  },
+  {
+    "frontendQuestionId": "3640",
+    "title": "Trionic Array II",
+    "titleSlug": "trionic-array-ii"
+  },
+  {
+    "frontendQuestionId": "3641",
+    "title": "Longest Semi-Repeating Subarray",
+    "titleSlug": "longest-semi-repeating-subarray"
+  },
+  {
+    "frontendQuestionId": "3642",
+    "title": "Find Books with Polarized Opinions",
+    "titleSlug": "find-books-with-polarized-opinions"
+  },
+  {
+    "frontendQuestionId": "3643",
+    "title": "Flip Square Submatrix Vertically",
+    "titleSlug": "flip-square-submatrix-vertically"
+  },
+  {
+    "frontendQuestionId": "3644",
+    "title": "Maximum K to Sort a Permutation",
+    "titleSlug": "maximum-k-to-sort-a-permutation"
+  },
+  {
+    "frontendQuestionId": "3645",
+    "title": "Maximum Total from Optimal Activation Order",
+    "titleSlug": "maximum-total-from-optimal-activation-order"
+  },
+  {
+    "frontendQuestionId": "3646",
+    "title": "Next Special Palindrome Number",
+    "titleSlug": "next-special-palindrome-number"
+  },
+  {
+    "frontendQuestionId": "3647",
+    "title": "Maximum Weight in Two Bags",
+    "titleSlug": "maximum-weight-in-two-bags"
+  },
+  {
+    "frontendQuestionId": "3648",
+    "title": "Minimum Sensors to Cover Grid",
+    "titleSlug": "minimum-sensors-to-cover-grid"
+  },
+  {
+    "frontendQuestionId": "3649",
+    "title": "Number of Perfect Pairs",
+    "titleSlug": "number-of-perfect-pairs"
+  },
+  {
+    "frontendQuestionId": "3650",
+    "title": "Minimum Cost Path with Edge Reversals",
+    "titleSlug": "minimum-cost-path-with-edge-reversals"
+  },
+  {
+    "frontendQuestionId": "3651",
+    "title": "Minimum Cost Path with Teleportations",
+    "titleSlug": "minimum-cost-path-with-teleportations"
+  },
+  {
+    "frontendQuestionId": "3652",
+    "title": "Best Time to Buy and Sell Stock using Strategy",
+    "titleSlug": "best-time-to-buy-and-sell-stock-using-strategy"
+  },
+  {
+    "frontendQuestionId": "3653",
+    "title": "XOR After Range Multiplication Queries I",
+    "titleSlug": "xor-after-range-multiplication-queries-i"
+  },
+  {
+    "frontendQuestionId": "3654",
+    "title": "Minimum Sum After Divisible Sum Deletions",
+    "titleSlug": "minimum-sum-after-divisible-sum-deletions"
+  },
+  {
+    "frontendQuestionId": "3655",
+    "title": "XOR After Range Multiplication Queries II",
+    "titleSlug": "xor-after-range-multiplication-queries-ii"
+  },
+  {
+    "frontendQuestionId": "3656",
+    "title": "Determine if a Simple Graph Exists",
+    "titleSlug": "determine-if-a-simple-graph-exists"
+  },
+  {
+    "frontendQuestionId": "3657",
+    "title": "Find Loyal Customers",
+    "titleSlug": "find-loyal-customers"
+  },
+  {
+    "frontendQuestionId": "3658",
+    "title": "GCD of Odd and Even Sums",
+    "titleSlug": "gcd-of-odd-and-even-sums"
+  },
+  {
+    "frontendQuestionId": "3659",
+    "title": "Partition Array Into K-Distinct Groups",
+    "titleSlug": "partition-array-into-k-distinct-groups"
+  },
+  {
+    "frontendQuestionId": "3660",
+    "title": "Jump Game IX",
+    "titleSlug": "jump-game-ix"
+  },
+  {
+    "frontendQuestionId": "3661",
+    "title": "Maximum Walls Destroyed by Robots",
+    "titleSlug": "maximum-walls-destroyed-by-robots"
+  },
+  {
+    "frontendQuestionId": "3662",
+    "title": "Filter Characters by Frequency",
+    "titleSlug": "filter-characters-by-frequency"
+  },
+  {
+    "frontendQuestionId": "3663",
+    "title": "Find The Least Frequent Digit",
+    "titleSlug": "find-the-least-frequent-digit"
+  },
+  {
+    "frontendQuestionId": "3664",
+    "title": "Two-Letter Card Game",
+    "titleSlug": "two-letter-card-game"
+  },
+  {
+    "frontendQuestionId": "3665",
+    "title": "Twisted Mirror Path Count",
+    "titleSlug": "twisted-mirror-path-count"
+  },
+  {
+    "frontendQuestionId": "3666",
+    "title": "Minimum Operations to Equalize Binary String",
+    "titleSlug": "minimum-operations-to-equalize-binary-string"
+  },
+  {
+    "frontendQuestionId": "3667",
+    "title": "Sort Array By Absolute Value",
+    "titleSlug": "sort-array-by-absolute-value"
+  },
+  {
+    "frontendQuestionId": "3668",
+    "title": "Restore Finishing Order",
+    "titleSlug": "restore-finishing-order"
+  },
+  {
+    "frontendQuestionId": "3669",
+    "title": "Balanced K-Factor Decomposition",
+    "titleSlug": "balanced-k-factor-decomposition"
+  },
+  {
+    "frontendQuestionId": "3670",
+    "title": "Maximum Product of Two Integers With No Common Bits",
+    "titleSlug": "maximum-product-of-two-integers-with-no-common-bits"
+  },
+  {
+    "frontendQuestionId": "3671",
+    "title": "Sum of Beautiful Subsequences",
+    "titleSlug": "sum-of-beautiful-subsequences"
+  },
+  {
+    "frontendQuestionId": "3672",
+    "title": "Sum of Weighted Modes in Subarrays",
+    "titleSlug": "sum-of-weighted-modes-in-subarrays"
+  },
+  {
+    "frontendQuestionId": "3673",
+    "title": "Find Zombie Sessions",
+    "titleSlug": "find-zombie-sessions"
+  },
+  {
+    "frontendQuestionId": "3674",
+    "title": "Minimum Operations to Equalize Array",
+    "titleSlug": "minimum-operations-to-equalize-array"
+  },
+  {
+    "frontendQuestionId": "3675",
+    "title": "Minimum Operations to Transform String",
+    "titleSlug": "minimum-operations-to-transform-string"
+  },
+  {
+    "frontendQuestionId": "3676",
+    "title": "Count Bowl Subarrays",
+    "titleSlug": "count-bowl-subarrays"
+  },
+  {
+    "frontendQuestionId": "3677",
+    "title": "Count Binary Palindromic Numbers",
+    "titleSlug": "count-binary-palindromic-numbers"
+  },
+  {
+    "frontendQuestionId": "3678",
+    "title": "Smallest Absent Positive Greater Than Average",
+    "titleSlug": "smallest-absent-positive-greater-than-average"
+  },
+  {
+    "frontendQuestionId": "3679",
+    "title": " Minimum Discards to Balance Inventory",
+    "titleSlug": "minimum-discards-to-balance-inventory"
+  },
+  {
+    "frontendQuestionId": "3680",
+    "title": "Generate Schedule",
+    "titleSlug": "generate-schedule"
+  },
+  {
+    "frontendQuestionId": "3681",
+    "title": "Maximum XOR of Subsequences",
+    "titleSlug": "maximum-xor-of-subsequences"
+  },
+  {
+    "frontendQuestionId": "3682",
+    "title": "Minimum Index Sum of Common Elements",
+    "titleSlug": "minimum-index-sum-of-common-elements"
+  },
+  {
+    "frontendQuestionId": "3683",
+    "title": "Earliest Time to Finish One Task",
+    "titleSlug": "earliest-time-to-finish-one-task"
+  },
+  {
+    "frontendQuestionId": "3684",
+    "title": "Maximize Sum of At Most K Distinct Elements",
+    "titleSlug": "maximize-sum-of-at-most-k-distinct-elements"
+  },
+  {
+    "frontendQuestionId": "3685",
+    "title": "Subsequence Sum After Capping Elements",
+    "titleSlug": "subsequence-sum-after-capping-elements"
+  },
+  {
+    "frontendQuestionId": "3686",
+    "title": "Number of Stable Subsequences",
+    "titleSlug": "number-of-stable-subsequences"
+  },
+  {
+    "frontendQuestionId": "3687",
+    "title": "Library Late Fee Calculator",
+    "titleSlug": "library-late-fee-calculator"
+  },
+  {
+    "frontendQuestionId": "3688",
+    "title": "Bitwise OR of Even Numbers in an Array",
+    "titleSlug": "bitwise-or-of-even-numbers-in-an-array"
+  },
+  {
+    "frontendQuestionId": "3689",
+    "title": "Maximum Total Subarray Value I",
+    "titleSlug": "maximum-total-subarray-value-i"
+  },
+  {
+    "frontendQuestionId": "3690",
+    "title": "Split and Merge Array Transformation",
+    "titleSlug": "split-and-merge-array-transformation"
+  },
+  {
+    "frontendQuestionId": "3691",
+    "title": "Maximum Total Subarray Value II",
+    "titleSlug": "maximum-total-subarray-value-ii"
+  },
+  {
+    "frontendQuestionId": "3692",
+    "title": "Majority Frequency Characters",
+    "titleSlug": "majority-frequency-characters"
+  },
+  {
+    "frontendQuestionId": "3693",
+    "title": "Climbing Stairs II",
+    "titleSlug": "climbing-stairs-ii"
+  },
+  {
+    "frontendQuestionId": "3694",
+    "title": "Distinct Points Reachable After Substring Removal",
+    "titleSlug": "distinct-points-reachable-after-substring-removal"
+  },
+  {
+    "frontendQuestionId": "3695",
+    "title": "Maximize Alternating Sum Using Swaps",
+    "titleSlug": "maximize-alternating-sum-using-swaps"
+  },
+  {
+    "frontendQuestionId": "3696",
+    "title": "Maximum Distance Between Unequal Words in Array I",
+    "titleSlug": "maximum-distance-between-unequal-words-in-array-i"
+  },
+  {
+    "frontendQuestionId": "3697",
+    "title": "Compute Decimal Representation",
+    "titleSlug": "compute-decimal-representation"
+  },
+  {
+    "frontendQuestionId": "3698",
+    "title": "Split Array With Minimum Difference",
+    "titleSlug": "split-array-with-minimum-difference"
+  },
+  {
+    "frontendQuestionId": "3699",
+    "title": "Number of ZigZag Arrays I",
+    "titleSlug": "number-of-zigzag-arrays-i"
+  },
+  {
+    "frontendQuestionId": "3700",
+    "title": "Number of ZigZag Arrays II",
+    "titleSlug": "number-of-zigzag-arrays-ii"
+  },
+  {
+    "frontendQuestionId": "3701",
+    "title": "Compute Alternating Sum",
+    "titleSlug": "compute-alternating-sum"
+  },
+  {
+    "frontendQuestionId": "3702",
+    "title": "Longest Subsequence With Non-Zero Bitwise XOR",
+    "titleSlug": "longest-subsequence-with-non-zero-bitwise-xor"
+  },
+  {
+    "frontendQuestionId": "3703",
+    "title": "Remove K-Balanced Substrings",
+    "titleSlug": "remove-k-balanced-substrings"
+  },
+  {
+    "frontendQuestionId": "3704",
+    "title": "Count No-Zero Pairs That Sum to N",
+    "titleSlug": "count-no-zero-pairs-that-sum-to-n"
+  },
+  {
+    "frontendQuestionId": "3705",
+    "title": "Find Golden Hour Customers",
+    "titleSlug": "find-golden-hour-customers"
+  },
+  {
+    "frontendQuestionId": "3706",
+    "title": "Maximum Distance Between Unequal Words in Array II",
+    "titleSlug": "maximum-distance-between-unequal-words-in-array-ii"
   }
 ]
