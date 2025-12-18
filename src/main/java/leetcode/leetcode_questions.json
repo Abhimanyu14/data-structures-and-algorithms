@@ -3131,8 +3131,8 @@
   },
   {
     "frontendQuestionId": "627",
-    "title": "Swap Salary",
-    "titleSlug": "swap-salary"
+    "title": "Swap Sex of Employees",
+    "titleSlug": "swap-sex-of-employees"
   },
   {
     "frontendQuestionId": "628",
@@ -18528,5 +18528,365 @@
     "frontendQuestionId": "3706",
     "title": "Maximum Distance Between Unequal Words in Array II",
     "titleSlug": "maximum-distance-between-unequal-words-in-array-ii"
+  },
+  {
+    "frontendQuestionId": "3707",
+    "title": "Equal Score Substrings",
+    "titleSlug": "equal-score-substrings"
+  },
+  {
+    "frontendQuestionId": "3708",
+    "title": "Longest Fibonacci Subarray",
+    "titleSlug": "longest-fibonacci-subarray"
+  },
+  {
+    "frontendQuestionId": "3709",
+    "title": "Design Exam Scores Tracker",
+    "titleSlug": "design-exam-scores-tracker"
+  },
+  {
+    "frontendQuestionId": "3710",
+    "title": "Maximum Partition Factor",
+    "titleSlug": "maximum-partition-factor"
+  },
+  {
+    "frontendQuestionId": "3711",
+    "title": "Maximum Transactions Without Negative Balance",
+    "titleSlug": "maximum-transactions-without-negative-balance"
+  },
+  {
+    "frontendQuestionId": "3712",
+    "title": "Sum of Elements With Frequency Divisible by K",
+    "titleSlug": "sum-of-elements-with-frequency-divisible-by-k"
+  },
+  {
+    "frontendQuestionId": "3713",
+    "title": "Longest Balanced Substring I",
+    "titleSlug": "longest-balanced-substring-i"
+  },
+  {
+    "frontendQuestionId": "3714",
+    "title": "Longest Balanced Substring II",
+    "titleSlug": "longest-balanced-substring-ii"
+  },
+  {
+    "frontendQuestionId": "3715",
+    "title": "Sum of Perfect Square Ancestors",
+    "titleSlug": "sum-of-perfect-square-ancestors"
+  },
+  {
+    "frontendQuestionId": "3716",
+    "title": "Find Churn Risk Customers",
+    "titleSlug": "find-churn-risk-customers"
+  },
+  {
+    "frontendQuestionId": "3717",
+    "title": "Minimum Operations to Make the Array Beautiful",
+    "titleSlug": "minimum-operations-to-make-the-array-beautiful"
+  },
+  {
+    "frontendQuestionId": "3718",
+    "title": "Smallest Missing Multiple of K",
+    "titleSlug": "smallest-missing-multiple-of-k"
+  },
+  {
+    "frontendQuestionId": "3719",
+    "title": "Longest Balanced Subarray I",
+    "titleSlug": "longest-balanced-subarray-i"
+  },
+  {
+    "frontendQuestionId": "3720",
+    "title": "Lexicographically Smallest Permutation Greater Than Target",
+    "titleSlug": "lexicographically-smallest-permutation-greater-than-target"
+  },
+  {
+    "frontendQuestionId": "3721",
+    "title": "Longest Balanced Subarray II",
+    "titleSlug": "longest-balanced-subarray-ii"
+  },
+  {
+    "frontendQuestionId": "3722",
+    "title": "Lexicographically Smallest String After Reverse",
+    "titleSlug": "lexicographically-smallest-string-after-reverse"
+  },
+  {
+    "frontendQuestionId": "3723",
+    "title": "Maximize Sum of Squares of Digits",
+    "titleSlug": "maximize-sum-of-squares-of-digits"
+  },
+  {
+    "frontendQuestionId": "3724",
+    "title": "Minimum Operations to Transform Array",
+    "titleSlug": "minimum-operations-to-transform-array"
+  },
+  {
+    "frontendQuestionId": "3725",
+    "title": "Count Ways to Choose Coprime Integers from Rows",
+    "titleSlug": "count-ways-to-choose-coprime-integers-from-rows"
+  },
+  {
+    "frontendQuestionId": "3726",
+    "title": "Remove Zeros in Decimal Representation",
+    "titleSlug": "remove-zeros-in-decimal-representation"
+  },
+  {
+    "frontendQuestionId": "3727",
+    "title": "Maximum Alternating Sum of Squares",
+    "titleSlug": "maximum-alternating-sum-of-squares"
+  },
+  {
+    "frontendQuestionId": "3728",
+    "title": "Stable Subarrays With Equal Boundary and Interior Sum",
+    "titleSlug": "stable-subarrays-with-equal-boundary-and-interior-sum"
+  },
+  {
+    "frontendQuestionId": "3729",
+    "title": "Count Distinct Subarrays Divisible by K in Sorted Array",
+    "titleSlug": "count-distinct-subarrays-divisible-by-k-in-sorted-array"
+  },
+  {
+    "frontendQuestionId": "3730",
+    "title": "Maximum Calories Burnt from Jumps",
+    "titleSlug": "maximum-calories-burnt-from-jumps"
+  },
+  {
+    "frontendQuestionId": "3731",
+    "title": "Find Missing Elements",
+    "titleSlug": "find-missing-elements"
+  },
+  {
+    "frontendQuestionId": "3732",
+    "title": "Maximum Product of Three Elements After One Replacement",
+    "titleSlug": "maximum-product-of-three-elements-after-one-replacement"
+  },
+  {
+    "frontendQuestionId": "3733",
+    "title": "Minimum Time to Complete All Deliveries",
+    "titleSlug": "minimum-time-to-complete-all-deliveries"
+  },
+  {
+    "frontendQuestionId": "3734",
+    "title": "Lexicographically Smallest Palindromic Permutation Greater Than Target",
+    "titleSlug": "lexicographically-smallest-palindromic-permutation-greater-than-target"
+  },
+  {
+    "frontendQuestionId": "3735",
+    "title": "Lexicographically Smallest String After Reverse II",
+    "titleSlug": "lexicographically-smallest-string-after-reverse-ii"
+  },
+  {
+    "frontendQuestionId": "3736",
+    "title": "Minimum Moves to Equal Array Elements III",
+    "titleSlug": "minimum-moves-to-equal-array-elements-iii"
+  },
+  {
+    "frontendQuestionId": "3737",
+    "title": "Count Subarrays With Majority Element I",
+    "titleSlug": "count-subarrays-with-majority-element-i"
+  },
+  {
+    "frontendQuestionId": "3738",
+    "title": "Longest Non-Decreasing Subarray After Replacing at Most One Element",
+    "titleSlug": "longest-non-decreasing-subarray-after-replacing-at-most-one-element"
+  },
+  {
+    "frontendQuestionId": "3739",
+    "title": "Count Subarrays With Majority Element II",
+    "titleSlug": "count-subarrays-with-majority-element-ii"
+  },
+  {
+    "frontendQuestionId": "3740",
+    "title": "Minimum Distance Between Three Equal Elements I",
+    "titleSlug": "minimum-distance-between-three-equal-elements-i"
+  },
+  {
+    "frontendQuestionId": "3741",
+    "title": "Minimum Distance Between Three Equal Elements II",
+    "titleSlug": "minimum-distance-between-three-equal-elements-ii"
+  },
+  {
+    "frontendQuestionId": "3742",
+    "title": "Maximum Path Score in a Grid",
+    "titleSlug": "maximum-path-score-in-a-grid"
+  },
+  {
+    "frontendQuestionId": "3743",
+    "title": "Maximize Cyclic Partition Score",
+    "titleSlug": "maximize-cyclic-partition-score"
+  },
+  {
+    "frontendQuestionId": "3744",
+    "title": "Find Kth Character in Expanded String",
+    "titleSlug": "find-kth-character-in-expanded-string"
+  },
+  {
+    "frontendQuestionId": "3745",
+    "title": "Maximize Expression of Three Elements",
+    "titleSlug": "maximize-expression-of-three-elements"
+  },
+  {
+    "frontendQuestionId": "3746",
+    "title": "Minimum String Length After Balanced Removals",
+    "titleSlug": "minimum-string-length-after-balanced-removals"
+  },
+  {
+    "frontendQuestionId": "3747",
+    "title": "Count Distinct Integers After Removing Zeros",
+    "titleSlug": "count-distinct-integers-after-removing-zeros"
+  },
+  {
+    "frontendQuestionId": "3748",
+    "title": "Count Stable Subarrays",
+    "titleSlug": "count-stable-subarrays"
+  },
+  {
+    "frontendQuestionId": "3749",
+    "title": "Evaluate Valid Expressions",
+    "titleSlug": "evaluate-valid-expressions"
+  },
+  {
+    "frontendQuestionId": "3750",
+    "title": "Minimum Number of Flips to Reverse Binary String",
+    "titleSlug": "minimum-number-of-flips-to-reverse-binary-string"
+  },
+  {
+    "frontendQuestionId": "3751",
+    "title": "Total Waviness of Numbers in Range I",
+    "titleSlug": "total-waviness-of-numbers-in-range-i"
+  },
+  {
+    "frontendQuestionId": "3752",
+    "title": "Lexicographically Smallest Negated Permutation that Sums to Target",
+    "titleSlug": "lexicographically-smallest-negated-permutation-that-sums-to-target"
+  },
+  {
+    "frontendQuestionId": "3753",
+    "title": "Total Waviness of Numbers in Range II",
+    "titleSlug": "total-waviness-of-numbers-in-range-ii"
+  },
+  {
+    "frontendQuestionId": "3754",
+    "title": "Concatenate Non-Zero Digits and Multiply by Sum I",
+    "titleSlug": "concatenate-non-zero-digits-and-multiply-by-sum-i"
+  },
+  {
+    "frontendQuestionId": "3755",
+    "title": "Find Maximum Balanced XOR Subarray Length",
+    "titleSlug": "find-maximum-balanced-xor-subarray-length"
+  },
+  {
+    "frontendQuestionId": "3756",
+    "title": "Concatenate Non-Zero Digits and Multiply by Sum II",
+    "titleSlug": "concatenate-non-zero-digits-and-multiply-by-sum-ii"
+  },
+  {
+    "frontendQuestionId": "3757",
+    "title": "Number of Effective Subsequences",
+    "titleSlug": "number-of-effective-subsequences"
+  },
+  {
+    "frontendQuestionId": "3758",
+    "title": "Convert Number Words to Digits",
+    "titleSlug": "convert-number-words-to-digits"
+  },
+  {
+    "frontendQuestionId": "3759",
+    "title": "Count Elements With at Least K Greater Values",
+    "titleSlug": "count-elements-with-at-least-k-greater-values"
+  },
+  {
+    "frontendQuestionId": "3760",
+    "title": "Maximum Substrings With Distinct Start",
+    "titleSlug": "maximum-substrings-with-distinct-start"
+  },
+  {
+    "frontendQuestionId": "3761",
+    "title": "Minimum Absolute Distance Between Mirror Pairs",
+    "titleSlug": "minimum-absolute-distance-between-mirror-pairs"
+  },
+  {
+    "frontendQuestionId": "3762",
+    "title": "Minimum Operations to Equalize Subarrays",
+    "titleSlug": "minimum-operations-to-equalize-subarrays"
+  },
+  {
+    "frontendQuestionId": "3763",
+    "title": "Maximum Total Sum with Threshold Constraints",
+    "titleSlug": "maximum-total-sum-with-threshold-constraints"
+  },
+  {
+    "frontendQuestionId": "3764",
+    "title": "Most Common Course Pairs",
+    "titleSlug": "most-common-course-pairs"
+  },
+  {
+    "frontendQuestionId": "3765",
+    "title": "Complete Prime Number",
+    "titleSlug": "complete-prime-number"
+  },
+  {
+    "frontendQuestionId": "3766",
+    "title": "Minimum Operations to Make Binary Palindrome",
+    "titleSlug": "minimum-operations-to-make-binary-palindrome"
+  },
+  {
+    "frontendQuestionId": "3767",
+    "title": "Maximize Points After Choosing K Tasks",
+    "titleSlug": "maximize-points-after-choosing-k-tasks"
+  },
+  {
+    "frontendQuestionId": "3768",
+    "title": "Minimum Inversion Count in Subarrays of Fixed Length",
+    "titleSlug": "minimum-inversion-count-in-subarrays-of-fixed-length"
+  },
+  {
+    "frontendQuestionId": "3769",
+    "title": "Sort Integers by Binary Reflection",
+    "titleSlug": "sort-integers-by-binary-reflection"
+  },
+  {
+    "frontendQuestionId": "3770",
+    "title": "Largest Prime from Consecutive Prime Sum",
+    "titleSlug": "largest-prime-from-consecutive-prime-sum"
+  },
+  {
+    "frontendQuestionId": "3771",
+    "title": "Total Score of Dungeon Runs",
+    "titleSlug": "total-score-of-dungeon-runs"
+  },
+  {
+    "frontendQuestionId": "3772",
+    "title": "Maximum Subgraph Score in a Tree",
+    "titleSlug": "maximum-subgraph-score-in-a-tree"
+  },
+  {
+    "frontendQuestionId": "3773",
+    "title": "Maximum Number of Equal Length Runs",
+    "titleSlug": "maximum-number-of-equal-length-runs"
+  },
+  {
+    "frontendQuestionId": "3774",
+    "title": "Absolute Difference Between Maximum and Minimum K Elements",
+    "titleSlug": "absolute-difference-between-maximum-and-minimum-k-elements"
+  },
+  {
+    "frontendQuestionId": "3775",
+    "title": "Reverse Words With Same Vowel Count",
+    "titleSlug": "reverse-words-with-same-vowel-count"
+  },
+  {
+    "frontendQuestionId": "3776",
+    "title": "Minimum Moves to Balance Circular Array",
+    "titleSlug": "minimum-moves-to-balance-circular-array"
+  },
+  {
+    "frontendQuestionId": "3777",
+    "title": "Minimum Deletions to Make Alternating Substring",
+    "titleSlug": "minimum-deletions-to-make-alternating-substring"
+  },
+  {
+    "frontendQuestionId": "3778",
+    "title": "Minimum Distance Excluding One Maximum Weighted Edge",
+    "titleSlug": "minimum-distance-excluding-one-maximum-weighted-edge"
   }
 ]
