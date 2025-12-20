@@ -1,13 +1,19 @@
 package leetcode.leetcode_944_delete_columns_to_make_sorted
 
 /**
- * leetcode - https://leetcode.com/problems/delete-columns-to-make-sorted/
+ * leetcode - https://leetcode.com/problems/delete-columns-to-make-sorted/?envType=daily-question&envId=2025-12-20
  *
- * Using brute force
+ * Data Structure - Arrays
+ * Algorithm - Iteration
+ *
+ * Difficulty - Easy
  *
  * Stats
- * Runtime: 432 ms, faster than 31.25%
- * Memory Usage: 50.7 MB, less than 18.75%
+ *
+ * Time - O(M * N)
+ * Space - O(1)
+ *
+ * Companies - Amazon, Google
  */
 private fun minDeletionSize(strs: Array<String>): Int {
     var result = 0
