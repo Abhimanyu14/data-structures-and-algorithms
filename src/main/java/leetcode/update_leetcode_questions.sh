@@ -1,10 +1,12 @@
 #!/bin/bash
 
+# Change to the directory where the script is located
+cd "$(dirname "$0")"
+
 ./update_leetcode_questions_json.sh
 
-# Define root directory and JSON file path
-ROOT_DIR="."
-JSON_FILE="$ROOT_DIR/leetcode_questions.json"
+# Define JSON file path
+JSON_FILE="./leetcode_questions.json"
 
 # Check if jq (JSON parser) is installed
 if ! command -v jq &> /dev/null; then
@@ -22,11 +24,12 @@ generate_directory_name() {
 # Create the solution file content
 generate_solution_file_content() {
     local package_name=$1
+    local slug=$2
     cat <<EOF
 package leetcode.${package_name}
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/${slug}/
  *
  * TODO(Abhi) - To revisit
  *
@@ -48,30 +51,29 @@ private fun main() {
 EOF
 }
 
-# Read existing directory names
-existing_directories=()
-while IFS= read -r dir; do
-    existing_directories+=("$dir")
-done < <(find "$ROOT_DIR" -mindepth 1 -maxdepth 1 -type d -exec basename {} \;)
 
-# Parse the JSON file
-new_directories=()
+# Parse the JSON file and create missing directories and Solution.kt files
+count=0
 while IFS=$'\t' read -r id titleSlug; do
+    if [[ -z "$id" || -z "$titleSlug" ]]; then
+        continue
+    fi
+    
     dir_name=$(generate_directory_name "$id" "$titleSlug")
-    new_directories+=("$dir_name")
+    
+    if [ ! -d "$dir_name" ]; then
+        mkdir -p "$dir_name"
+        echo "Created directory: $dir_name"
+
+        solution_file="$dir_name/Solution.kt"
+        generate_solution_file_content "$dir_name" "$titleSlug" > "$solution_file"
+        echo "Created file: $solution_file"
+        ((count++))
+    fi
 done < <(jq -r '.[] | "\(.frontendQuestionId)\t\(.titleSlug)"' "$JSON_FILE")
 
-# Create missing directories and Solution.kt files
-for dir_name in "${new_directories[@]}"; do
-    if [[ ! " ${existing_directories[*]} " =~ " ${dir_name} " ]]; then
-        new_dir="$ROOT_DIR/$dir_name"
-        mkdir -p "$new_dir"
-        echo "Created directory: $new_dir"
-
-        solution_file="$new_dir/Solution.kt"
-        generate_solution_file_content "$dir_name" > "$solution_file"
-        echo "Created file: $solution_file"
-    fi
-done
-
-echo "All directories are up to date."
+if [ $count -eq 0 ]; then
+    echo "All directories are already up to date."
+else
+    echo "Successfully updated $count new questions."
+fi

@@ -18888,5 +18888,265 @@
     "frontendQuestionId": "3778",
     "title": "Minimum Distance Excluding One Maximum Weighted Edge",
     "titleSlug": "minimum-distance-excluding-one-maximum-weighted-edge"
+  },
+  {
+    "frontendQuestionId": "3779",
+    "title": "Minimum Number of Operations to Have Distinct Elements",
+    "titleSlug": "minimum-number-of-operations-to-have-distinct-elements"
+  },
+  {
+    "frontendQuestionId": "3780",
+    "title": "Maximum Sum of Three Numbers Divisible by Three",
+    "titleSlug": "maximum-sum-of-three-numbers-divisible-by-three"
+  },
+  {
+    "frontendQuestionId": "3781",
+    "title": "Maximum Score After Binary Swaps",
+    "titleSlug": "maximum-score-after-binary-swaps"
+  },
+  {
+    "frontendQuestionId": "3782",
+    "title": "Last Remaining Integer After Alternating Deletion Operations",
+    "titleSlug": "last-remaining-integer-after-alternating-deletion-operations"
+  },
+  {
+    "frontendQuestionId": "3783",
+    "title": "Mirror Distance of an Integer",
+    "titleSlug": "mirror-distance-of-an-integer"
+  },
+  {
+    "frontendQuestionId": "3784",
+    "title": "Minimum Deletion Cost to Make All Characters Equal",
+    "titleSlug": "minimum-deletion-cost-to-make-all-characters-equal"
+  },
+  {
+    "frontendQuestionId": "3785",
+    "title": "Minimum Swaps to Avoid Forbidden Values",
+    "titleSlug": "minimum-swaps-to-avoid-forbidden-values"
+  },
+  {
+    "frontendQuestionId": "3786",
+    "title": "Total Sum of Interaction Cost in Tree Groups",
+    "titleSlug": "total-sum-of-interaction-cost-in-tree-groups"
+  },
+  {
+    "frontendQuestionId": "3787",
+    "title": "Find Diameter Endpoints of a Tree",
+    "titleSlug": "find-diameter-endpoints-of-a-tree"
+  },
+  {
+    "frontendQuestionId": "3788",
+    "title": "Maximum Score of a Split",
+    "titleSlug": "maximum-score-of-a-split"
+  },
+  {
+    "frontendQuestionId": "3789",
+    "title": "Minimum Cost to Acquire Required Items",
+    "titleSlug": "minimum-cost-to-acquire-required-items"
+  },
+  {
+    "frontendQuestionId": "3790",
+    "title": "Smallest All-Ones Multiple",
+    "titleSlug": "smallest-all-ones-multiple"
+  },
+  {
+    "frontendQuestionId": "3791",
+    "title": "Number of Balanced Integers in a Range",
+    "titleSlug": "number-of-balanced-integers-in-a-range"
+  },
+  {
+    "frontendQuestionId": "3792",
+    "title": "Sum of Increasing Product Blocks",
+    "titleSlug": "sum-of-increasing-product-blocks"
+  },
+  {
+    "frontendQuestionId": "3793",
+    "title": "Find Users with High Token Usage",
+    "titleSlug": "find-users-with-high-token-usage"
+  },
+  {
+    "frontendQuestionId": "3794",
+    "title": "Reverse String Prefix",
+    "titleSlug": "reverse-string-prefix"
+  },
+  {
+    "frontendQuestionId": "3795",
+    "title": "Minimum Subarray Length With Distinct Sum At Least K",
+    "titleSlug": "minimum-subarray-length-with-distinct-sum-at-least-k"
+  },
+  {
+    "frontendQuestionId": "3796",
+    "title": "Find Maximum Value in a Constrained Sequence",
+    "titleSlug": "find-maximum-value-in-a-constrained-sequence"
+  },
+  {
+    "frontendQuestionId": "3797",
+    "title": "Count Routes to Climb a Rectangular Grid",
+    "titleSlug": "count-routes-to-climb-a-rectangular-grid"
+  },
+  {
+    "frontendQuestionId": "3798",
+    "title": "Largest Even Number",
+    "titleSlug": "largest-even-number"
+  },
+  {
+    "frontendQuestionId": "3799",
+    "title": "Word Squares II",
+    "titleSlug": "word-squares-ii"
+  },
+  {
+    "frontendQuestionId": "3800",
+    "title": "Minimum Cost to Make Two Binary Strings Equal",
+    "titleSlug": "minimum-cost-to-make-two-binary-strings-equal"
+  },
+  {
+    "frontendQuestionId": "3801",
+    "title": "Minimum Cost to Merge Sorted Lists",
+    "titleSlug": "minimum-cost-to-merge-sorted-lists"
+  },
+  {
+    "frontendQuestionId": "3802",
+    "title": "Number of Ways to Paint Sheets",
+    "titleSlug": "number-of-ways-to-paint-sheets"
+  },
+  {
+    "frontendQuestionId": "3803",
+    "title": "Count Residue Prefixes",
+    "titleSlug": "count-residue-prefixes"
+  },
+  {
+    "frontendQuestionId": "3804",
+    "title": "Number of Centered Subarrays",
+    "titleSlug": "number-of-centered-subarrays"
+  },
+  {
+    "frontendQuestionId": "3805",
+    "title": "Count Caesar Cipher Pairs",
+    "titleSlug": "count-caesar-cipher-pairs"
+  },
+  {
+    "frontendQuestionId": "3806",
+    "title": "Maximum Bitwise AND After Increment Operations",
+    "titleSlug": "maximum-bitwise-and-after-increment-operations"
+  },
+  {
+    "frontendQuestionId": "3807",
+    "title": "Minimum Cost to Repair Edges to Traverse a Graph",
+    "titleSlug": "minimum-cost-to-repair-edges-to-traverse-a-graph"
+  },
+  {
+    "frontendQuestionId": "3808",
+    "title": "Find Emotionally Consistent Users",
+    "titleSlug": "find-emotionally-consistent-users"
+  },
+  {
+    "frontendQuestionId": "3809",
+    "title": "Best Reachable Tower",
+    "titleSlug": "best-reachable-tower"
+  },
+  {
+    "frontendQuestionId": "3810",
+    "title": "Minimum Operations to Reach Target Array",
+    "titleSlug": "minimum-operations-to-reach-target-array"
+  },
+  {
+    "frontendQuestionId": "3811",
+    "title": "Number of Alternating XOR Partitions",
+    "titleSlug": "number-of-alternating-xor-partitions"
+  },
+  {
+    "frontendQuestionId": "3812",
+    "title": "Minimum Edge Toggles on a Tree",
+    "titleSlug": "minimum-edge-toggles-on-a-tree"
+  },
+  {
+    "frontendQuestionId": "3813",
+    "title": "Vowel-Consonant Score",
+    "titleSlug": "vowel-consonant-score"
+  },
+  {
+    "frontendQuestionId": "3814",
+    "title": "Maximum Capacity Within Budget",
+    "titleSlug": "maximum-capacity-within-budget"
+  },
+  {
+    "frontendQuestionId": "3815",
+    "title": "Design Auction System",
+    "titleSlug": "design-auction-system"
+  },
+  {
+    "frontendQuestionId": "3816",
+    "title": "Lexicographically Smallest String After Deleting Duplicate Characters",
+    "titleSlug": "lexicographically-smallest-string-after-deleting-duplicate-characters"
+  },
+  {
+    "frontendQuestionId": "3817",
+    "title": "Good Indices in a Digit String",
+    "titleSlug": "good-indices-in-a-digit-string"
+  },
+  {
+    "frontendQuestionId": "3818",
+    "title": "Minimum Prefix Removal to Make Array Strictly Increasing",
+    "titleSlug": "minimum-prefix-removal-to-make-array-strictly-increasing"
+  },
+  {
+    "frontendQuestionId": "3819",
+    "title": "Rotate Non Negative Elements",
+    "titleSlug": "rotate-non-negative-elements"
+  },
+  {
+    "frontendQuestionId": "3820",
+    "title": "Pythagorean Distance Nodes in a Tree",
+    "titleSlug": "pythagorean-distance-nodes-in-a-tree"
+  },
+  {
+    "frontendQuestionId": "3821",
+    "title": "Find Nth Smallest Integer With K One Bits",
+    "titleSlug": "find-nth-smallest-integer-with-k-one-bits"
+  },
+  {
+    "frontendQuestionId": "3822",
+    "title": "Design Order Management System",
+    "titleSlug": "design-order-management-system"
+  },
+  {
+    "frontendQuestionId": "3823",
+    "title": "Reverse Letters Then Special Characters in a String",
+    "titleSlug": "reverse-letters-then-special-characters-in-a-string"
+  },
+  {
+    "frontendQuestionId": "3824",
+    "title": "Minimum K to Reduce Array Within Limit",
+    "titleSlug": "minimum-k-to-reduce-array-within-limit"
+  },
+  {
+    "frontendQuestionId": "3825",
+    "title": "Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND",
+    "titleSlug": "longest-strictly-increasing-subsequence-with-non-zero-bitwise-and"
+  },
+  {
+    "frontendQuestionId": "3826",
+    "title": "Minimum Partition Score",
+    "titleSlug": "minimum-partition-score"
+  },
+  {
+    "frontendQuestionId": "3827",
+    "title": "Count Monobit Integers",
+    "titleSlug": "count-monobit-integers"
+  },
+  {
+    "frontendQuestionId": "3828",
+    "title": "Final Element After Subarray Deletions",
+    "titleSlug": "final-element-after-subarray-deletions"
+  },
+  {
+    "frontendQuestionId": "3829",
+    "title": "Design Ride Sharing System",
+    "titleSlug": "design-ride-sharing-system"
+  },
+  {
+    "frontendQuestionId": "3830",
+    "title": "Longest Alternating Subarray After Removing At Most One Element",
+    "titleSlug": "longest-alternating-subarray-after-removing-at-most-one-element"
   }
 ]
