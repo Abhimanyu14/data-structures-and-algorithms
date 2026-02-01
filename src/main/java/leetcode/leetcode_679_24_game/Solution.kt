@@ -1,14 +1,14 @@
 package leetcode.leetcode_679_24_game
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/24-game/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Hard
  *
  * Stats
  *

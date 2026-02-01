@@ -1,14 +1,14 @@
 package leetcode.leetcode_975_odd_even_jump
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/odd-even-jump/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Hard
  *
  * Stats
  *

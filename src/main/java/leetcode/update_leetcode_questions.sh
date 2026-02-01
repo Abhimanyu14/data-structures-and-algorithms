@@ -25,6 +25,7 @@ generate_directory_name() {
 generate_solution_file_content() {
     local package_name=$1
     local slug=$2
+    local difficulty=$3
     cat <<EOF
 package leetcode.${package_name}
 
@@ -36,7 +37,7 @@ package leetcode.${package_name}
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - ${difficulty}
  *
  * Stats
  *
@@ -54,7 +55,7 @@ EOF
 
 # Parse the JSON file and create missing directories and Solution.kt files
 count=0
-while IFS=$'\t' read -r id titleSlug; do
+while IFS=$'\t' read -r id titleSlug difficulty; do
     if [[ -z "$id" || -z "$titleSlug" ]]; then
         continue
     fi
@@ -66,11 +67,11 @@ while IFS=$'\t' read -r id titleSlug; do
         echo "Created directory: $dir_name"
 
         solution_file="$dir_name/Solution.kt"
-        generate_solution_file_content "$dir_name" "$titleSlug" > "$solution_file"
+        generate_solution_file_content "$dir_name" "$titleSlug" "$difficulty" > "$solution_file"
         echo "Created file: $solution_file"
         ((count++))
     fi
-done < <(jq -r '.[] | "\(.frontendQuestionId)\t\(.titleSlug)"' "$JSON_FILE")
+done < <(jq -r '.[] | "\(.frontendQuestionId)\t\(.titleSlug)\t\(.difficulty)"' "$JSON_FILE")
 
 if [ $count -eq 0 ]; then
     echo "All directories are already up to date."
