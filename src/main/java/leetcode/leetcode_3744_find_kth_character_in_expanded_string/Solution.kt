@@ -1,14 +1,14 @@
 package leetcode.leetcode_3744_find_kth_character_in_expanded_string
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/find-kth-character-in-expanded-string/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

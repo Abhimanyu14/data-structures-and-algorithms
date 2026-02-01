@@ -1,14 +1,14 @@
 package leetcode.leetcode_3747_count_distinct_integers_after_removing_zeros
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/count-distinct-integers-after-removing-zeros/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

@@ -1,14 +1,14 @@
 package leetcode.leetcode_3748_count_stable_subarrays
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/count-stable-subarrays/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Hard
  *
  * Stats
  *

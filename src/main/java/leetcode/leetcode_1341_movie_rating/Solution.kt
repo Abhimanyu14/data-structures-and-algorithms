@@ -1,14 +1,14 @@
 package leetcode.leetcode_1341_movie_rating
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/movie-rating/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

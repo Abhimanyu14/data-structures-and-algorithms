@@ -1,14 +1,14 @@
 package leetcode.leetcode_3818_minimum_prefix_removal_to_make_array_strictly_increasing
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/minimum-prefix-removal-to-make-array-strictly-increasing/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

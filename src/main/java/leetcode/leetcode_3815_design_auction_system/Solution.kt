@@ -1,14 +1,14 @@
 package leetcode.leetcode_3815_design_auction_system
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/design-auction-system/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

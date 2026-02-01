@@ -1,14 +1,14 @@
 package leetcode.leetcode_3820_pythagorean_distance_nodes_in_a_tree
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/pythagorean-distance-nodes-in-a-tree/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

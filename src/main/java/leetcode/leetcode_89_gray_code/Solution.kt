@@ -1,14 +1,14 @@
 package leetcode.leetcode_89_gray_code
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/gray-code/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

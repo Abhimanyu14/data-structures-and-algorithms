@@ -1,14 +1,14 @@
 package leetcode.leetcode_913_cat_and_mouse
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/cat-and-mouse/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Hard
  *
  * Stats
  *

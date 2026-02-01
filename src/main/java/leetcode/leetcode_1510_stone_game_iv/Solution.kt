@@ -1,14 +1,14 @@
 package leetcode.leetcode_1510_stone_game_iv
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/stone-game-iv/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Hard
  *
  * Stats
  *

@@ -1,14 +1,14 @@
 package leetcode.leetcode_3794_reverse_string_prefix
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/reverse-string-prefix/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *

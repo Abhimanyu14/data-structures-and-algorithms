@@ -1,14 +1,14 @@
 package leetcode.leetcode_3822_design_order_management_system
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/design-order-management-system/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

@@ -1,14 +1,14 @@
 package leetcode.leetcode_1686_stone_game_vi
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/stone-game-vi/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

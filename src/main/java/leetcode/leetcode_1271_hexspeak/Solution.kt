@@ -1,14 +1,14 @@
 package leetcode.leetcode_1271_hexspeak
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/hexspeak/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *

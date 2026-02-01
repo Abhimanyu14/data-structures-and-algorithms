@@ -1,14 +1,14 @@
 package leetcode.leetcode_1117_building_h2o
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/building-h2o/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

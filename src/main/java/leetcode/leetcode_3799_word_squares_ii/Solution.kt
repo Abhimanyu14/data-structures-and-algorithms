@@ -1,14 +1,14 @@
 package leetcode.leetcode_3799_word_squares_ii
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/word-squares-ii/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

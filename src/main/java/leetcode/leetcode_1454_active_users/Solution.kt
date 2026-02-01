@@ -1,14 +1,14 @@
 package leetcode.leetcode_1454_active_users
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/active-users/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

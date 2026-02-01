@@ -1,14 +1,14 @@
 package leetcode.leetcode_2498_frog_jump_ii
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/frog-jump-ii/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

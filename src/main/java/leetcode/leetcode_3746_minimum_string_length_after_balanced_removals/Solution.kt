@@ -1,14 +1,14 @@
 package leetcode.leetcode_3746_minimum_string_length_after_balanced_removals
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/minimum-string-length-after-balanced-removals/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

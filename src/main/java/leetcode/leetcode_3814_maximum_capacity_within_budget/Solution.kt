@@ -1,14 +1,14 @@
 package leetcode.leetcode_3814_maximum_capacity_within_budget
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/maximum-capacity-within-budget/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *

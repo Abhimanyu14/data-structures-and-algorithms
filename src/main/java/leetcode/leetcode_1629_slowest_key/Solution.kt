@@ -1,14 +1,14 @@
 package leetcode.leetcode_1629_slowest_key
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/slowest-key/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *

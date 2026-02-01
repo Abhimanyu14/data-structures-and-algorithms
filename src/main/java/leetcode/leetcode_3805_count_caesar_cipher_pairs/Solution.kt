@@ -1,14 +1,14 @@
 package leetcode.leetcode_3805_count_caesar_cipher_pairs
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/count-caesar-cipher-pairs/
  *
  * TODO(Abhi) - To revisit
  *
  * Data Structure -
  * Algorithm -
  *
- * Difficulty -
+ * Difficulty - Medium
  *
  * Stats
  *
