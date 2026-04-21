@@ -22978,5 +22978,461 @@
     "title": "Longest Alternating Subarray After Removing At Most One Element",
     "titleSlug": "longest-alternating-subarray-after-removing-at-most-one-element",
     "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3831",
+    "title": "Median of a Binary Search Tree Level",
+    "titleSlug": "median-of-a-binary-search-tree-level",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3832",
+    "title": "Find Users with Persistent Behavior Patterns",
+    "titleSlug": "find-users-with-persistent-behavior-patterns",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3833",
+    "title": "Count Dominant Indices",
+    "titleSlug": "count-dominant-indices",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3834",
+    "title": "Merge Adjacent Equal Elements",
+    "titleSlug": "merge-adjacent-equal-elements",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3835",
+    "title": "Count Subarrays With Cost Less Than or Equal to K",
+    "titleSlug": "count-subarrays-with-cost-less-than-or-equal-to-k",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3836",
+    "title": "Maximum Score Using Exactly K Pairs",
+    "titleSlug": "maximum-score-using-exactly-k-pairs",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3837",
+    "title": "Delayed Count of Equal Elements",
+    "titleSlug": "delayed-count-of-equal-elements",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3838",
+    "title": "Weighted Word Mapping",
+    "titleSlug": "weighted-word-mapping",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3839",
+    "title": "Number of Prefix Connected Groups",
+    "titleSlug": "number-of-prefix-connected-groups",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3840",
+    "title": "House Robber V",
+    "titleSlug": "house-robber-v",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3841",
+    "title": "Palindromic Path Queries in a Tree",
+    "titleSlug": "palindromic-path-queries-in-a-tree",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3842",
+    "title": "Toggle Light Bulbs",
+    "titleSlug": "toggle-light-bulbs",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3843",
+    "title": "First Element with Unique Frequency",
+    "titleSlug": "first-element-with-unique-frequency",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3844",
+    "title": "Longest Almost-Palindromic Substring",
+    "titleSlug": "longest-almost-palindromic-substring",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3845",
+    "title": "Maximum Subarray XOR with Bounded Range",
+    "titleSlug": "maximum-subarray-xor-with-bounded-range",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3846",
+    "title": "Total Distance to Type a String Using One Finger",
+    "titleSlug": "total-distance-to-type-a-string-using-one-finger",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3847",
+    "title": "Find the Score Difference in a Game",
+    "titleSlug": "find-the-score-difference-in-a-game",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3848",
+    "title": "Check Digitorial Permutation",
+    "titleSlug": "check-digitorial-permutation",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3849",
+    "title": "Maximum Bitwise XOR After Rearrangement",
+    "titleSlug": "maximum-bitwise-xor-after-rearrangement",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3850",
+    "title": "Count Sequences to K",
+    "titleSlug": "count-sequences-to-k",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3851",
+    "title": "Maximum Requests Without Violating the Limit",
+    "titleSlug": "maximum-requests-without-violating-the-limit",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3852",
+    "title": "Smallest Pair With Different Frequencies",
+    "titleSlug": "smallest-pair-with-different-frequencies",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3853",
+    "title": "Merge Close Characters",
+    "titleSlug": "merge-close-characters",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3854",
+    "title": "Minimum Operations to Make Array Parity Alternating",
+    "titleSlug": "minimum-operations-to-make-array-parity-alternating",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3855",
+    "title": "Sum of K-Digit Numbers in a Range",
+    "titleSlug": "sum-of-k-digit-numbers-in-a-range",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3856",
+    "title": "Trim Trailing Vowels",
+    "titleSlug": "trim-trailing-vowels",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3857",
+    "title": "Minimum Cost to Split into Ones",
+    "titleSlug": "minimum-cost-to-split-into-ones",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3858",
+    "title": "Minimum Bitwise OR From Grid",
+    "titleSlug": "minimum-bitwise-or-from-grid",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3859",
+    "title": "Count Subarrays With K Distinct Integers",
+    "titleSlug": "count-subarrays-with-k-distinct-integers",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3860",
+    "title": "Unique Email Groups",
+    "titleSlug": "unique-email-groups",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3861",
+    "title": "Minimum Capacity Box",
+    "titleSlug": "minimum-capacity-box",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3862",
+    "title": "Find the Smallest Balanced Index",
+    "titleSlug": "find-the-smallest-balanced-index",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3863",
+    "title": "Minimum Operations to Sort a String",
+    "titleSlug": "minimum-operations-to-sort-a-string",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3864",
+    "title": "Minimum Cost to Partition a Binary String",
+    "titleSlug": "minimum-cost-to-partition-a-binary-string",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3865",
+    "title": "Reverse K Subarrays",
+    "titleSlug": "reverse-k-subarrays",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3866",
+    "title": "First Unique Even Element",
+    "titleSlug": "first-unique-even-element",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3867",
+    "title": "Sum of GCD of Formed Pairs",
+    "titleSlug": "sum-of-gcd-of-formed-pairs",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3868",
+    "title": "Minimum Cost to Equalize Arrays Using Swaps",
+    "titleSlug": "minimum-cost-to-equalize-arrays-using-swaps",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3869",
+    "title": "Count Fancy Numbers in a Range",
+    "titleSlug": "count-fancy-numbers-in-a-range",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3870",
+    "title": "Count Commas in Range",
+    "titleSlug": "count-commas-in-range",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3871",
+    "title": "Count Commas in Range II",
+    "titleSlug": "count-commas-in-range-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3872",
+    "title": "Longest Arithmetic Sequence After Changing At Most One Element",
+    "titleSlug": "longest-arithmetic-sequence-after-changing-at-most-one-element",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3873",
+    "title": "Maximum Points Activated with One Addition",
+    "titleSlug": "maximum-points-activated-with-one-addition",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3874",
+    "title": "Valid Subarrays With Exactly One Peak",
+    "titleSlug": "valid-subarrays-with-exactly-one-peak",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3875",
+    "title": "Construct Uniform Parity Array I",
+    "titleSlug": "construct-uniform-parity-array-i",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3876",
+    "title": "Construct Uniform Parity Array II",
+    "titleSlug": "construct-uniform-parity-array-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3877",
+    "title": "Minimum Removals to Achieve Target XOR",
+    "titleSlug": "minimum-removals-to-achieve-target-xor",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3878",
+    "title": "Count Good Subarrays",
+    "titleSlug": "count-good-subarrays",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3879",
+    "title": "Maximum Distinct Path Sum in a Binary Tree",
+    "titleSlug": "maximum-distinct-path-sum-in-a-binary-tree",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3880",
+    "title": "Minimum Absolute Difference Between Two Values",
+    "titleSlug": "minimum-absolute-difference-between-two-values",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3881",
+    "title": "Direction Assignments with Exactly K Visible People",
+    "titleSlug": "direction-assignments-with-exactly-k-visible-people",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3882",
+    "title": "Minimum XOR Path in a Grid",
+    "titleSlug": "minimum-xor-path-in-a-grid",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3883",
+    "title": "Count Non Decreasing Arrays With Given Digit Sums",
+    "titleSlug": "count-non-decreasing-arrays-with-given-digit-sums",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3884",
+    "title": "First Matching Character From Both Ends",
+    "titleSlug": "first-matching-character-from-both-ends",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3885",
+    "title": "Design Event Manager",
+    "titleSlug": "design-event-manager",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3886",
+    "title": "Sum of Sortable Integers",
+    "titleSlug": "sum-of-sortable-integers",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3887",
+    "title": "Incremental Even-Weighted Cycle Queries",
+    "titleSlug": "incremental-even-weighted-cycle-queries",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3888",
+    "title": "Minimum Operations to Make All Grid Elements Equal",
+    "titleSlug": "minimum-operations-to-make-all-grid-elements-equal",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3889",
+    "title": "Mirror Frequency Distance",
+    "titleSlug": "mirror-frequency-distance",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3890",
+    "title": "Integers With Multiple Sum of Two Cubes",
+    "titleSlug": "integers-with-multiple-sum-of-two-cubes",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3891",
+    "title": "Minimum Increase to Maximize Special Indices",
+    "titleSlug": "minimum-increase-to-maximize-special-indices",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3892",
+    "title": "Minimum Operations to Achieve At Least K Peaks",
+    "titleSlug": "minimum-operations-to-achieve-at-least-k-peaks",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3893",
+    "title": "Maximum Team Size with Overlapping Intervals",
+    "titleSlug": "maximum-team-size-with-overlapping-intervals",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3894",
+    "title": "Traffic Signal Color",
+    "titleSlug": "traffic-signal-color",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3895",
+    "title": "Count Digit Appearances",
+    "titleSlug": "count-digit-appearances",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3896",
+    "title": "Minimum Operations to Transform Array into Alternating Prime",
+    "titleSlug": "minimum-operations-to-transform-array-into-alternating-prime",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3897",
+    "title": "Maximum Value of Concatenated Binary Segments",
+    "titleSlug": "maximum-value-of-concatenated-binary-segments",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3898",
+    "title": "Find the Degree of Each Vertex",
+    "titleSlug": "find-the-degree-of-each-vertex",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3899",
+    "title": "Angles of a Triangle",
+    "titleSlug": "angles-of-a-triangle",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3900",
+    "title": "Longest Balanced Substring After One Swap",
+    "titleSlug": "longest-balanced-substring-after-one-swap",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3901",
+    "title": "Good Subsequence Queries",
+    "titleSlug": "good-subsequence-queries",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3902",
+    "title": "Zigzag Level Sum of Binary Tree",
+    "titleSlug": "zigzag-level-sum-of-binary-tree",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3903",
+    "title": "Smallest Stable Index I",
+    "titleSlug": "smallest-stable-index-i",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3904",
+    "title": "Smallest Stable Index II",
+    "titleSlug": "smallest-stable-index-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3905",
+    "title": "Multi Source Flood Fill",
+    "titleSlug": "multi-source-flood-fill",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3906",
+    "title": "Count Good Integers on a Grid Path",
+    "titleSlug": "count-good-integers-on-a-grid-path",
+    "difficulty": "Hard"
   }
 ]
