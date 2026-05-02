@@ -23440,5 +23440,59 @@
     "title": "Count Smaller Elements With Opposite Parity",
     "titleSlug": "count-smaller-elements-with-opposite-parity",
     "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3908",
+    "title": "Valid Digit Number",
+    "titleSlug": "valid-digit-number",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3909",
+    "title": "Compare Sums of Bitonic Parts",
+    "titleSlug": "compare-sums-of-bitonic-parts",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3910",
+    "title": "Count Connected Subgraphs with Even Node Sum",
+    "titleSlug": "count-connected-subgraphs-with-even-node-sum",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3911",
+    "title": "K-th Smallest Remaining Even Integer in Subarray Queries",
+    "titleSlug": "k-th-smallest-remaining-even-integer-in-subarray-queries",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3912",
+    "title": "Valid Elements in an Array",
+    "titleSlug": "valid-elements-in-an-array",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3913",
+    "title": "Sort Vowels by Frequency",
+    "titleSlug": "sort-vowels-by-frequency",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3914",
+    "title": "Minimum Operations to Make Array Non Decreasing",
+    "titleSlug": "minimum-operations-to-make-array-non-decreasing",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3915",
+    "title": "Maximum Sum of Alternating Subsequence With Distance at Least K",
+    "titleSlug": "maximum-sum-of-alternating-subsequence-with-distance-at-least-k",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3916",
+    "title": "Number of ZigZag Arrays III",
+    "titleSlug": "number-of-zigzag-arrays-iii",
+    "difficulty": "Hard"
   }
 ]
