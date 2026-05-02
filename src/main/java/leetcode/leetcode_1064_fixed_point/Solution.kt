@@ -1,9 +1,9 @@
 package leetcode.leetcode_1064_fixed_point
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/fixed-point/description/
  *
- * TODO(Abhi) - To revisit
+ * TODO(Abhi) - To revisit with Binary Search
  *
  * Data Structure -
  * Algorithm -
@@ -17,6 +17,15 @@ package leetcode.leetcode_1064_fixed_point
  *
  * Companies -
  */
+private fun fixedPoint(arr: IntArray): Int {
+    for (i in arr.indices) {
+        if (i == arr[i]) {
+            return i
+        }
+    }
+    return -1
+}
+
 private fun main() {
 
 }

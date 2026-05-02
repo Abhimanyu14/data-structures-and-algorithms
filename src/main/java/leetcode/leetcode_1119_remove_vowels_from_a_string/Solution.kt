@@ -1,22 +1,30 @@
 package leetcode.leetcode_1119_remove_vowels_from_a_string
 
 /**
- * leetcode -
+ * leetcode - https://leetcode.com/problems/remove-vowels-from-a-string/description/
  *
- * TODO(Abhi) - To revisit
+ * Data Structure - [StringBuilder]
+ * Algorithm - Iteration
  *
- * Data Structure -
- * Algorithm -
- *
- * Difficulty -
+ * Difficulty - Easy
  *
  * Stats
  *
- * Time -
- * Space -
+ * Time - O(N)
+ * Space - O(1)
  *
- * Companies -
+ * Companies - Amazon
  */
+private fun removeVowels(s: String): String {
+    val stringBuilder = StringBuilder()
+    for (char in s) {
+        if (char != 'a' && char != 'e' && char != 'i' && char != 'o' && char != 'u') {
+            stringBuilder.append(char)
+        }
+    }
+    return stringBuilder.toString()
+}
+
 private fun main() {
 
 }
