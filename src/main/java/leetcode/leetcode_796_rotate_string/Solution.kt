@@ -5,21 +5,34 @@ package leetcode.leetcode_796_rotate_string
  *
  * TODO(Abhi) - To revisit
  *
- * Using Knuth-Morris-Pratt
+ * Data Structure - [String]
+ * Algorithm - Using Knuth-Morris-Pratt
+ *
+ * Difficulty - Easy
  *
  * Stats
  *
+ * Time - O(N)
+ * Space - O(N)
+ *
+ * Companies -
  */
 
 
 /**
  * leetcode - https://leetcode.com/problems/rotate-string/
  *
- * Using simple check
+ * Data Structure - [String]
+ * Algorithm - Iteration
+ *
+ * Difficulty - Easy
  *
  * Stats
- * Runtime: 140 ms, faster than 81.82%
- * Memory Usage: 35 MB, less than 61.36%
+ *
+ * Time - O(N)
+ * Space - O(1)
+ *
+ * Companies -
  */
 private fun rotateString(s: String, goal: String): Boolean {
     if (s.length != goal.length) {
