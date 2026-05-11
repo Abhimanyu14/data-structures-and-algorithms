@@ -15,7 +15,7 @@ package leetcode.leetcode_2553_separate_the_digits_in_an_array
  * Time - O(N log(N))
  * Space - O(N log(N))
  */
-private fun separateDigits(nums: IntArray): IntArray {
+private fun separateDigits1(nums: IntArray): IntArray {
     val result = mutableListOf<Int>()
     fun getDigits(x: Int): List<Int> {
         val digits = mutableListOf<Int>()
@@ -28,6 +28,22 @@ private fun separateDigits(nums: IntArray): IntArray {
     }
     for (num in nums) {
         result.addAll(getDigits(num))
+    }
+    return result.toIntArray()
+}
+
+private fun separateDigits(nums: IntArray): IntArray {
+    val result = mutableListOf<Int>()
+    for (i in nums.lastIndex downTo 0) {
+        var current = nums[i]
+        if (current == 0) {
+            result.add(0, current) // This is a performance bottleneck
+        } else {
+            while (current != 0) {
+                result.add(0, current % 10)
+                current /= 10
+            }
+        }
     }
     return result.toIntArray()
 }
