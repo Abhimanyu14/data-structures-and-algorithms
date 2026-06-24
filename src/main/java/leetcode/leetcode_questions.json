@@ -23494,5 +23494,341 @@
     "title": "Number of ZigZag Arrays III",
     "titleSlug": "number-of-zigzag-arrays-iii",
     "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3917",
+    "title": "Count Indices With Opposite Parity",
+    "titleSlug": "count-indices-with-opposite-parity",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3918",
+    "title": "Sum of Primes Between Number and Its Reverse",
+    "titleSlug": "sum-of-primes-between-number-and-its-reverse",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3919",
+    "title": "Minimum Cost to Move Between Indices",
+    "titleSlug": "minimum-cost-to-move-between-indices",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3920",
+    "title": "Maximize Fixed Points After Deletions",
+    "titleSlug": "maximize-fixed-points-after-deletions",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3921",
+    "title": "Score Validator",
+    "titleSlug": "score-validator",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3922",
+    "title": "Minimum Flips to Make Binary String Coherent",
+    "titleSlug": "minimum-flips-to-make-binary-string-coherent",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3923",
+    "title": "Minimum Generations to Target Point",
+    "titleSlug": "minimum-generations-to-target-point",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3924",
+    "title": "Minimum Threshold Path With Limited Heavy Edges",
+    "titleSlug": "minimum-threshold-path-with-limited-heavy-edges",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3925",
+    "title": "Concatenate Array With Reverse",
+    "titleSlug": "concatenate-array-with-reverse",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3926",
+    "title": "Count Valid Word Occurrences",
+    "titleSlug": "count-valid-word-occurrences",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3927",
+    "title": "Minimize Array Sum Using Divisible Replacements",
+    "titleSlug": "minimize-array-sum-using-divisible-replacements",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3928",
+    "title": "Minimum Cost to Buy Apples II",
+    "titleSlug": "minimum-cost-to-buy-apples-ii",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3929",
+    "title": "Minimum Partition Score II",
+    "titleSlug": "minimum-partition-score-ii",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3930",
+    "title": "Power Update After K-th Largest Insertion II",
+    "titleSlug": "power-update-after-k-th-largest-insertion-ii",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3931",
+    "title": "Check Adjacent Digit Differences",
+    "titleSlug": "check-adjacent-digit-differences",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3932",
+    "title": "Count K-th Roots in a Range",
+    "titleSlug": "count-k-th-roots-in-a-range",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3933",
+    "title": "Largest Local Values in a Matrix II",
+    "titleSlug": "largest-local-values-in-a-matrix-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3934",
+    "title": "Smallest Unique Subarray",
+    "titleSlug": "smallest-unique-subarray",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3935",
+    "title": "Power Update After K-th Largest Insertion I",
+    "titleSlug": "power-update-after-k-th-largest-insertion-i",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3936",
+    "title": "Minimum Swaps to Move Zeros to End",
+    "titleSlug": "minimum-swaps-to-move-zeros-to-end",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3937",
+    "title": "Minimum Operations to Make Array Modulo Alternating I",
+    "titleSlug": "minimum-operations-to-make-array-modulo-alternating-i",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3938",
+    "title": "Maximum Path Intersection Sum in a Grid",
+    "titleSlug": "maximum-path-intersection-sum-in-a-grid",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3939",
+    "title": "Count Non Adjacent Subsets in a Rooted Tree",
+    "titleSlug": "count-non-adjacent-subsets-in-a-rooted-tree",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3940",
+    "title": "Limit Occurrences in Sorted Array",
+    "titleSlug": "limit-occurrences-in-sorted-array",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3941",
+    "title": "Password Strength",
+    "titleSlug": "password-strength",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3942",
+    "title": "Minimum Operations to Sort a Permutation",
+    "titleSlug": "minimum-operations-to-sort-a-permutation",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3943",
+    "title": "Number of Pairs After Increment",
+    "titleSlug": "number-of-pairs-after-increment",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3944",
+    "title": "Minimum Operations to Make Array Modulo Alternating II",
+    "titleSlug": "minimum-operations-to-make-array-modulo-alternating-ii",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3945",
+    "title": "Digit Frequency Score",
+    "titleSlug": "digit-frequency-score",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3946",
+    "title": "Maximum Number of Items From Sale I",
+    "titleSlug": "maximum-number-of-items-from-sale-i",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3947",
+    "title": "Maximum Number of Items From Sale II",
+    "titleSlug": "maximum-number-of-items-from-sale-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3948",
+    "title": "Lexicographically Maximum MEX Array",
+    "titleSlug": "lexicographically-maximum-mex-array",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3949",
+    "title": "Subtree Inversion Sum II",
+    "titleSlug": "subtree-inversion-sum-ii",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3950",
+    "title": "Exactly One Consecutive Set Bits Pair",
+    "titleSlug": "exactly-one-consecutive-set-bits-pair",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3951",
+    "title": "Minimum Energy to Maintain Brightness",
+    "titleSlug": "minimum-energy-to-maintain-brightness",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3952",
+    "title": "Maximum Total Value of Covered Indices",
+    "titleSlug": "maximum-total-value-of-covered-indices",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3953",
+    "title": "Maximum Score with Co-Prime Element",
+    "titleSlug": "maximum-score-with-co-prime-element",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3954",
+    "title": "Sum of Compatible Numbers in Range I",
+    "titleSlug": "sum-of-compatible-numbers-in-range-i",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3955",
+    "title": "Valid Binary Strings With Cost Limit",
+    "titleSlug": "valid-binary-strings-with-cost-limit",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3956",
+    "title": "Maximum Sum of M Non-Overlapping Subarrays I",
+    "titleSlug": "maximum-sum-of-m-non-overlapping-subarrays-i",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3957",
+    "title": "Maximum Sum of M Non-Overlapping Subarrays II",
+    "titleSlug": "maximum-sum-of-m-non-overlapping-subarrays-ii",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3958",
+    "title": "Minimum Cost to Split into Ones II",
+    "titleSlug": "minimum-cost-to-split-into-ones-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3959",
+    "title": "Check Good Integer",
+    "titleSlug": "check-good-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3960",
+    "title": "Frequency Balance Subarray",
+    "titleSlug": "frequency-balance-subarray",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3961",
+    "title": "Maximize Sum of Device Ratings",
+    "titleSlug": "maximize-sum-of-device-ratings",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3962",
+    "title": "Maximum Subarray Sum After at Most K Swaps",
+    "titleSlug": "maximum-subarray-sum-after-at-most-k-swaps",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3963",
+    "title": "Create Grid With Exactly One Path",
+    "titleSlug": "create-grid-with-exactly-one-path",
+    "difficulty": "Easy"
+  },
+  {
+    "frontendQuestionId": "3964",
+    "title": "Minimum Lights to Illuminate a Road",
+    "titleSlug": "minimum-lights-to-illuminate-a-road",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3965",
+    "title": "Finish Time of Tasks I",
+    "titleSlug": "finish-time-of-tasks-i",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3966",
+    "title": "Count Good Integers in a Range",
+    "titleSlug": "count-good-integers-in-a-range",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3967",
+    "title": "Finish Time of Tasks II",
+    "titleSlug": "finish-time-of-tasks-ii",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3968",
+    "title": "Maximum Manhattan Distance After All Moves",
+    "titleSlug": "maximum-manhattan-distance-after-all-moves",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3969",
+    "title": "Valid Subarrays With Matching Sum Digits I",
+    "titleSlug": "valid-subarrays-with-matching-sum-digits-i",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3970",
+    "title": "Shortest Path With At Most K Consecutive Identical Characters",
+    "titleSlug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+    "difficulty": "Medium"
+  },
+  {
+    "frontendQuestionId": "3971",
+    "title": "Maximum Total Value",
+    "titleSlug": "maximum-total-value",
+    "difficulty": "Hard"
+  },
+  {
+    "frontendQuestionId": "3972",
+    "title": "Valid Subarrays With Matching Sum Digits II",
+    "titleSlug": "valid-subarrays-with-matching-sum-digits-ii",
+    "difficulty": "Hard"
   }
 ]
